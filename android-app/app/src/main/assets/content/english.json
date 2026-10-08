@@ -1,0 +1,1417 @@
+{
+ "track": "english",
+ "levels": [
+  "A1",
+  "A2",
+  "B1",
+  "B2",
+  "C1",
+  "C2"
+ ],
+ "lessons": [
+  {
+   "id": "en-01",
+   "level": "A1",
+   "title": "Introducing yourself",
+   "summary": "Say your name, role and where you are from, clearly and confidently.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Pattern: Hi, I'm + name. I'm a/an + job. I work at/for + company. I'm from + city.\nUse 'a' before consonant sounds (a teacher) and 'an' before vowel sounds (an engineer)."
+    },
+    {
+     "h": "Use it at work",
+     "b": "First meetings, team calls and interviews all start with an introduction. Keep it to 2-3 sentences and smile."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Say 'I am an engineer', not 'I am engineer'. English needs the article a/an before a job."
+    }
+   ],
+   "example": "A: Hi, I'm Priya. I'm an analyst at Infosys.\nB: Nice to meet you, Priya. I'm Rahul. I work in sales.\nA: Nice to meet you too!",
+   "speak": [
+    "Hi, I'm Yash. I'm a finance student from Ahmedabad.",
+    "Nice to meet you.",
+    "I work in the marketing team."
+   ],
+   "quiz": [
+    {
+     "q": "Choose the correct sentence.",
+     "options": [
+      "I engineer.",
+      "I am a engineer.",
+      "I am an engineer.",
+      "I am engineer."
+     ],
+     "answer": 2,
+     "why": "Use 'an' before a vowel sound: an engineer."
+    }
+   ]
+  },
+  {
+   "id": "en-02",
+   "level": "A1",
+   "title": "Greetings and saying goodbye",
+   "summary": "Formal and informal ways to say hello and goodbye.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Formal: Good morning / Good afternoon / Good evening. How do you do?\nInformal: Hi! / Hello! / Hey!\nGoodbye: Bye! / See you tomorrow. / Have a nice day. / Take care."
+    },
+    {
+     "h": "Use it at work",
+     "b": "With managers and clients, start with 'Good morning' or 'Hello'. With teammates, 'Hi' is fine. End a call with 'Thank you, have a nice day.'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "'Good night' is only for going to bed or leaving at night, not a greeting. In the evening say 'Good evening' to greet."
+    }
+   ],
+   "example": "A: Good morning, Ms Shah. How are you?\nB: I'm fine, thank you. And you?\nA: Very well, thanks.",
+   "speak": [
+    "Good morning! How are you?",
+    "I'm fine, thank you. And you?",
+    "Have a nice day. See you tomorrow."
+   ],
+   "quiz": [
+    {
+     "q": "You meet a client at 7 pm. What do you say?",
+     "options": [
+      "Good night!",
+      "Good evening!",
+      "Bye!",
+      "Good afternoon!"
+     ],
+     "answer": 1,
+     "why": "'Good evening' is a greeting; 'Good night' is a goodbye."
+    }
+   ]
+  },
+  {
+   "id": "en-03",
+   "level": "A1",
+   "title": "Numbers, time and dates",
+   "summary": "Say times and dates correctly for meetings.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Time: 9:00 = nine o'clock; 9:15 = nine fifteen / quarter past nine; 9:30 = nine thirty / half past nine; 9:45 = quarter to ten.\nDates: on Monday, on 5th March, in March, at 10 am.\nOrdinals: 1st first, 2nd second, 3rd third, 21st twenty-first."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Confirm meeting times clearly: 'The meeting is on Tuesday at 3 pm.' Repeat numbers back to avoid mistakes."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Prepositions: AT a time, ON a day/date, IN a month/year. 'On Monday at 10 am in June.'"
+    }
+   ],
+   "example": "A: When is the review?\nB: It's on Friday, the 12th, at half past two.\nA: Great, Friday at 2:30. Thanks!",
+   "speak": [
+    "The meeting is on Monday at ten o'clock.",
+    "My birthday is on the twenty-first of May.",
+    "Let's meet at half past three."
+   ],
+   "quiz": [
+    {
+     "q": "Complete: The call is ___ Tuesday ___ 4 pm.",
+     "options": [
+      "in / on",
+      "on / in",
+      "on / at",
+      "at / in"
+     ],
+     "answer": 2,
+     "why": "ON for days, AT for times."
+    }
+   ]
+  },
+  {
+   "id": "en-04",
+   "level": "A1",
+   "title": "Asking simple questions",
+   "summary": "Use question words to get information.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Who (person), What (thing), Where (place), When (time), Why (reason), How (way).\nWith 'be': Where is the meeting room?\nWith other verbs use do/does: Where do you work? What does she do?"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Questions keep conversations going and help you understand tasks: 'When is the deadline?' 'Who is the client?'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't say 'Where you work?' Use 'do/does': 'Where do you work?'"
+    }
+   ],
+   "example": "A: What do you do?\nB: I'm a designer.\nA: Where do you work?\nB: At a startup in Pune.",
+   "speak": [
+    "Where do you work?",
+    "When is the deadline?",
+    "What does your team do?"
+   ],
+   "quiz": [
+    {
+     "q": "Choose the correct question.",
+     "options": [
+      "Where do she works?",
+      "Where she works?",
+      "Where she work?",
+      "Where does she work?"
+     ],
+     "answer": 3,
+     "why": "Use 'does' with he/she/it and the base verb 'work'."
+    }
+   ]
+  },
+  {
+   "id": "en-05",
+   "level": "A1",
+   "title": "Daily routines: present simple",
+   "summary": "Talk about habits and routines.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Present simple for routines: I start work at 9. She checks emails every morning. We have a meeting every Monday.\nAdd -s/-es for he/she/it: work → works, watch → watches.\nFrequency words: always, usually, often, sometimes, never (before the main verb)."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Describe your workday in interviews and small talk: 'I usually start with emails, then I join the team stand-up.'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Remember the -s: 'He works', not 'He work'."
+    }
+   ],
+   "example": "A: What's your typical day like?\nB: I usually start at nine. I check emails, then I have a stand-up at ten.",
+   "speak": [
+    "I usually start work at nine.",
+    "She always checks her emails first.",
+    "We have a team meeting every Monday."
+   ],
+   "quiz": [
+    {
+     "q": "Complete: My manager ___ to the office by metro.",
+     "options": [
+      "is go",
+      "going",
+      "goes",
+      "go"
+     ],
+     "answer": 2,
+     "why": "He/she/it takes -s/-es: goes."
+    }
+   ]
+  },
+  {
+   "id": "en-06",
+   "level": "A1",
+   "title": "Magic words: please, thank you, sorry",
+   "summary": "Polite basics that make every interaction smoother.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Please: for requests. Thank you / Thanks: for help. Sorry: for mistakes. Excuse me: to get attention or pass by.\nReplies: You're welcome. / No problem. / That's okay."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Politeness is expected in corporate English. 'Can you send it, please?' sounds much better than 'Send it.'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Use 'Excuse me' to get someone's attention, and 'Sorry' to apologise. 'Sorry, could you repeat that?' is fine for not hearing."
+    }
+   ],
+   "example": "A: Excuse me, could you help me with the printer, please?\nB: Sure.\nA: Thank you so much!\nB: You're welcome.",
+   "speak": [
+    "Could you help me, please?",
+    "Thank you so much for your help.",
+    "Sorry, I'm late."
+   ],
+   "quiz": [
+    {
+     "q": "Someone thanks you. You reply…",
+     "options": [
+      "Excuse me.",
+      "You're welcome.",
+      "Please.",
+      "Sorry."
+     ],
+     "answer": 1,
+     "why": "'You're welcome' is the standard reply to thanks."
+    }
+   ]
+  },
+  {
+   "id": "en-07",
+   "level": "A2",
+   "title": "Talking about the past",
+   "summary": "Use past simple to describe what happened.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Regular verbs add -ed: work → worked, finish → finished.\nCommon irregulars: go → went, have → had, meet → met, send → sent, make → made.\nQuestions/negatives use 'did' + base verb: Did you send it? I didn't see it."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Updates and small talk: 'Yesterday I met the client and sent the proposal.' 'How was your weekend? I went to Lonavala.'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "After 'did', use the base verb: 'Did you send it?' not 'Did you sent it?'"
+    }
+   ],
+   "example": "A: How was your weekend?\nB: Great! I visited my parents and watched a movie. What about you?",
+   "speak": [
+    "I finished the report yesterday.",
+    "Did you send the email to the client?",
+    "We met the new manager last week."
+   ],
+   "quiz": [
+    {
+     "q": "Choose the correct sentence.",
+     "options": [
+      "Did you go to the meeting?",
+      "Do you went to the meeting?",
+      "Did you went to the meeting?",
+      "Did you goes to the meeting?"
+     ],
+     "answer": 0,
+     "why": "Did + base verb (go)."
+    }
+   ]
+  },
+  {
+   "id": "en-08",
+   "level": "A2",
+   "title": "Making polite requests",
+   "summary": "Ask for help politely using can, could and would.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Can you…? (informal) → Could you…? (polite) → Would you mind + -ing…? (very polite).\nExamples: Could you share the file? Would you mind checking this?\nAsking permission: Can I / Could I / May I…?"
+    },
+    {
+     "h": "Use it at work",
+     "b": "In emails and meetings, 'Could you…' is the safe default. 'Would you mind…' is good with seniors and clients."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "'Would you mind' is followed by -ing: 'Would you mind sending…', not 'Would you mind to send…'"
+    }
+   ],
+   "example": "A: Could you send me the slides before the meeting?\nB: Sure, I'll send them by noon.\nA: Thanks a lot.",
+   "speak": [
+    "Could you share the file with me, please?",
+    "Would you mind checking my report?",
+    "May I ask a quick question?"
+   ],
+   "quiz": [
+    {
+     "q": "Which is the most polite?",
+     "options": [
+      "Send the file.",
+      "File, please.",
+      "Can you send the file?",
+      "Would you mind sending the file?"
+     ],
+     "answer": 3,
+     "why": "'Would you mind + -ing' is the most polite."
+    }
+   ]
+  },
+  {
+   "id": "en-09",
+   "level": "A2",
+   "title": "Phone and video call basics",
+   "summary": "Start, manage and end calls confidently.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Starting: Hello, this is Yash from Finance. Is this a good time?\nProblems: Sorry, you're breaking up. / Can you hear me? / You're on mute.\nEnding: Thanks for your time. I'll send a summary. Bye!"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Video calls are daily work. Clear openings and closings sound professional."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Say 'This is Yash', not 'I am Yash speaking' on the phone."
+    }
+   ],
+   "example": "A: Hello, this is Yash from Finance. Is this a good time?\nB: Yes, go ahead.\nA: I'm calling about the invoice from last week.",
+   "speak": [
+    "Hello, this is Yash from the finance team.",
+    "Sorry, you're breaking up. Could you repeat that?",
+    "Thanks for your time. I'll send a summary."
+   ],
+   "quiz": [
+    {
+     "q": "How do you introduce yourself on the phone?",
+     "options": [
+      "I am Yash speaking.",
+      "This is Yash.",
+      "Me Yash.",
+      "Here Yash."
+     ],
+     "answer": 1,
+     "why": "'This is…' is standard on the phone."
+    }
+   ]
+  },
+  {
+   "id": "en-10",
+   "level": "A2",
+   "title": "Describing your job and company",
+   "summary": "Explain what you do and what your company does.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "I'm responsible for + noun/-ing: I'm responsible for client reports.\nI work on + project. I report to + manager. My company provides/makes/sells…\nOur team handles…"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Useful in interviews, networking and introductions with new teams."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "'Responsible for' + -ing: 'responsible for preparing', not 'responsible to prepare'."
+    }
+   ],
+   "example": "I'm a financial analyst at a fintech company. I'm responsible for preparing monthly reports, and I report to the CFO. Our company provides digital payment solutions.",
+   "speak": [
+    "I'm responsible for preparing monthly reports.",
+    "I report to the head of finance.",
+    "Our company provides digital payment solutions."
+   ],
+   "quiz": [
+    {
+     "q": "Complete: I'm responsible ___ managing the budget.",
+     "options": [
+      "for",
+      "to",
+      "on",
+      "of"
+     ],
+     "answer": 0,
+     "why": "Responsible FOR + -ing."
+    }
+   ]
+  },
+  {
+   "id": "en-11",
+   "level": "A2",
+   "title": "Talking about plans and the future",
+   "summary": "Use 'going to', 'will' and present continuous for the future.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Going to: plans already decided. I'm going to apply for the role.\nWill: quick decisions, promises, predictions. I'll call you back.\nPresent continuous: arranged events. I'm meeting the client tomorrow."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Commitments: 'I'll send it today.' Plans: 'We're going to launch next month.'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Use 'will' for decisions made at the moment of speaking: 'The phone's ringing.' 'I'll get it.'"
+    }
+   ],
+   "example": "A: What are your plans for next quarter?\nB: We're going to expand to Bangalore, and I'm meeting the vendor on Monday.",
+   "speak": [
+    "I'll send you the details today.",
+    "We're going to launch the product next month.",
+    "I'm meeting the client tomorrow morning."
+   ],
+   "quiz": [
+    {
+     "q": "Your manager asks for the file. You decide now: 'Sure, I ___ send it.'",
+     "options": [
+      "going to",
+      "do",
+      "am",
+      "will"
+     ],
+     "answer": 3,
+     "why": "'Will' for instant decisions and promises."
+    }
+   ]
+  },
+  {
+   "id": "en-12",
+   "level": "A2",
+   "title": "Asking for clarification",
+   "summary": "Never pretend to understand. Ask politely.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Sorry, could you repeat that? / Could you speak a bit more slowly? / What do you mean by…? / Just to confirm, you need it by Friday? / Could you spell that, please?"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Clarifying saves hours of rework. Confirm deadlines, numbers and names."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid just saying 'What?'. It sounds rude. Use 'Sorry, could you repeat that?'"
+    }
+   ],
+   "example": "A: We need the KPI deck by EOD.\nB: Sorry, what do you mean by EOD?\nA: End of day.\nB: Got it. Just to confirm, today by 6 pm?",
+   "speak": [
+    "Sorry, could you repeat that, please?",
+    "What do you mean by that?",
+    "Just to confirm, the deadline is Friday?"
+   ],
+   "quiz": [
+    {
+     "q": "Which is the most professional way to ask someone to repeat?",
+     "options": [
+      "Sorry, could you repeat that?",
+      "What?",
+      "Huh?",
+      "Say again."
+     ],
+     "answer": 0,
+     "why": "Polite and clear."
+    }
+   ]
+  },
+  {
+   "id": "en-13",
+   "level": "B1",
+   "title": "Giving opinions",
+   "summary": "Share your view clearly and support it with a reason.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Opening: I think… / In my opinion… / From my point of view… / I feel that…\nReason: because… / The main reason is… / For example…\nStructure: Opinion + reason + example."
+    },
+    {
+     "h": "Use it at work",
+     "b": "In meetings, a structured opinion sounds confident and thoughtful."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Say 'In my opinion', not 'According to me' (common in Indian English but sounds unnatural to many listeners)."
+    }
+   ],
+   "example": "In my opinion, we should delay the launch by a week. The main reason is that testing isn't complete. For example, the payment flow still fails on older phones.",
+   "speak": [
+    "In my opinion, we should focus on existing customers.",
+    "The main reason is that they bring repeat revenue.",
+    "For example, our top ten clients bring forty percent of sales."
+   ],
+   "quiz": [
+    {
+     "q": "Which is the most natural?",
+     "options": [
+      "According to me, it's a good idea.",
+      "Me thinks it's good.",
+      "As per me, it's good idea.",
+      "In my opinion, it's a good idea."
+     ],
+     "answer": 3,
+     "why": "'In my opinion' is standard and natural."
+    }
+   ]
+  },
+  {
+   "id": "en-14",
+   "level": "B1",
+   "title": "Agreeing and disagreeing politely",
+   "summary": "Disagree without damaging relationships.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Agree: I completely agree. / That's a good point. / Exactly.\nPartly agree: I see your point, but… / That's true to some extent, however…\nDisagree politely: I'm not sure I agree. / I see it a bit differently. / Have we considered…?"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Respectful disagreement is valued in good teams. Focus on the idea, not the person."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid a flat 'You are wrong.' Use 'I see it differently because…'"
+    }
+   ],
+   "example": "A: We should cut the marketing budget.\nB: I see your point, but I'm not sure that's the best option. Have we considered reducing travel costs instead?",
+   "speak": [
+    "That's a good point.",
+    "I see your point, but I see it a bit differently.",
+    "Have we considered another option?"
+   ],
+   "quiz": [
+    {
+     "q": "Which is a polite way to disagree?",
+     "options": [
+      "I see it a bit differently.",
+      "You're wrong.",
+      "No.",
+      "That's stupid."
+     ],
+     "answer": 0,
+     "why": "Soft and focused on ideas."
+    }
+   ]
+  },
+  {
+   "id": "en-15",
+   "level": "B1",
+   "title": "Giving updates: present perfect",
+   "summary": "Report progress with 'have done', 'have already', 'haven't yet'.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Present perfect = have/has + past participle. Use it for results now, with no specific past time.\nI've finished the draft. We've already contacted the vendor. I haven't received the data yet.\nWith a specific time use past simple: I finished it yesterday."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Perfect for stand-ups and status emails: 'So far we've completed 3 of 5 modules.'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't use present perfect with a finished time: 'I have sent it yesterday' ✗ → 'I sent it yesterday' ✓."
+    }
+   ],
+   "example": "Quick update: I've completed the data cleaning, and I've already shared the first dashboard. I haven't received the sales figures yet, so the forecast is pending.",
+   "speak": [
+    "I've completed the first draft.",
+    "We haven't received the data yet.",
+    "Have you already spoken to the client?"
+   ],
+   "quiz": [
+    {
+     "q": "Choose the correct sentence.",
+     "options": [
+      "I have send it yesterday.",
+      "I sent it yesterday.",
+      "I sended it yesterday.",
+      "I have sent it yesterday."
+     ],
+     "answer": 1,
+     "why": "Specific past time (yesterday) → past simple."
+    }
+   ]
+  },
+  {
+   "id": "en-16",
+   "level": "B1",
+   "title": "Speaking in meetings",
+   "summary": "Join discussions, interrupt politely and keep the floor.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Interrupt: Sorry to interrupt, but… / Can I add something here?\nKeep the floor: If I could just finish…\nBring others in: What do you think, Ana?\nReturn to topic: Coming back to the budget…"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Many professionals stay silent in meetings. Prepare one point in advance and use these phrases to enter."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Wait for a small pause, then use a softener: 'Sorry to jump in…'"
+    }
+   ],
+   "example": "Sorry to interrupt, but can I add something here? I think the timeline is too tight. What do you think, Ana?",
+   "speak": [
+    "Sorry to interrupt, but can I add something here?",
+    "If I could just finish my point.",
+    "Coming back to the budget, I think we need more data."
+   ],
+   "quiz": [
+    {
+     "q": "A polite way to interrupt is…",
+     "options": [
+      "Wait wait wait.",
+      "Stop talking.",
+      "Sorry to jump in, but…",
+      "Listen to me."
+     ],
+     "answer": 2,
+     "why": "Apologise briefly, then add your point."
+    }
+   ]
+  },
+  {
+   "id": "en-17",
+   "level": "B1",
+   "title": "Small talk that builds relationships",
+   "summary": "Go beyond 'How are you?' with follow-up questions.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Safe topics: weekend, travel, food, sports, work projects, weather.\nFollow-ups: Oh really? How was it? / What did you like most? / How did you get into that?\nShare a little about yourself too."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Small talk before meetings builds trust. Aim for a balanced exchange: ask, listen, share, ask again."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid yes/no-only questions. Ask open questions starting with How, What or Why."
+    }
+   ],
+   "example": "A: Did you do anything nice at the weekend?\nB: I went trekking near Pune.\nA: Oh nice! How was it? Which trail did you take?",
+   "speak": [
+    "Did you do anything nice at the weekend?",
+    "Oh really? How was it?",
+    "What do you enjoy most about your job?"
+   ],
+   "quiz": [
+    {
+     "q": "Which question keeps small talk going best?",
+     "options": [
+      "Was it good?",
+      "Is it raining?",
+      "Did you go out?",
+      "What did you enjoy most about the trip?"
+     ],
+     "answer": 3,
+     "why": "Open questions invite longer answers."
+    }
+   ]
+  },
+  {
+   "id": "en-18",
+   "level": "B1",
+   "title": "Explaining a problem and solution",
+   "summary": "Describe issues clearly and propose next steps.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Problem: The issue is that… / We're facing a problem with…\nCause: This is because… / It's caused by…\nSolution: I suggest we… / One option is to… / The next step is…"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Managers appreciate people who bring solutions along with problems."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Use 'suggest' + -ing or 'suggest that we': 'I suggest checking…' or 'I suggest that we check…', not 'I suggest to check'."
+    }
+   ],
+   "example": "The issue is that customer complaints have increased by 20%. This is because delivery times are longer. I suggest that we add a second courier partner.",
+   "speak": [
+    "The issue is that the report is delayed.",
+    "This is because the data arrived late.",
+    "I suggest that we extend the deadline by one day."
+   ],
+   "quiz": [
+    {
+     "q": "Choose the correct form.",
+     "options": [
+      "I suggest checking the data.",
+      "I suggest to check the data.",
+      "I suggesting check.",
+      "I suggest check the data."
+     ],
+     "answer": 0,
+     "why": "Suggest + -ing (or suggest that we check)."
+    }
+   ]
+  },
+  {
+   "id": "en-19",
+   "level": "B2",
+   "title": "Presenting with signposts",
+   "summary": "Guide your audience through a presentation.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Opening: Today I'd like to talk about… / I've divided my talk into three parts.\nMoving on: Let's move on to… / Turning now to…\nHighlighting: What's important here is… / As you can see from this chart…\nClosing: To sum up… / The key takeaway is… / I'm happy to take questions."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Signposts help listeners follow complex information, which is essential for presenting results to leadership."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't read slides. Use signposts and speak to the audience."
+    }
+   ],
+   "example": "Good morning, everyone. Today I'd like to talk about our Q3 results. I've divided my talk into three parts: revenue, costs and next steps. Let's start with revenue.",
+   "speak": [
+    "Today I'd like to talk about our quarterly results.",
+    "Let's move on to the cost analysis.",
+    "To sum up, the key takeaway is that margins improved."
+   ],
+   "quiz": [
+    {
+     "q": "Which phrase signals a new section?",
+     "options": [
+      "Any questions?",
+      "Let's move on to",
+      "Good morning",
+      "To sum up"
+     ],
+     "answer": 1,
+     "why": "'Let's move on to…' moves to the next part."
+    }
+   ]
+  },
+  {
+   "id": "en-20",
+   "level": "B2",
+   "title": "Negotiation language",
+   "summary": "Propose, counter-offer and reach agreement professionally.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Proposing: We'd like to propose… / How would you feel about…?\nConditional offers: If you can…, we could… / We're prepared to… provided that…\nRejecting softly: I'm afraid that's not quite what we had in mind.\nClosing: So, to confirm, we've agreed on…"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Use conditional language to trade concessions rather than simply giving them away."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "'Provided that' and 'as long as' make offers conditional: 'We can offer 5% off, provided that you sign for two years.'"
+    }
+   ],
+   "example": "If you can increase the order to 500 units, we could offer a 7% discount. I'm afraid 10% isn't quite what we had in mind.",
+   "speak": [
+    "How would you feel about a two-year contract?",
+    "If you can increase the volume, we could offer a discount.",
+    "So, to confirm, we've agreed on a seven percent discount."
+   ],
+   "quiz": [
+    {
+     "q": "Which sentence makes a conditional offer?",
+     "options": [
+      "Discount is maybe.",
+      "No discount.",
+      "We can offer 5% off, provided that you pay in advance.",
+      "We give discount."
+     ],
+     "answer": 2,
+     "why": "'Provided that' links the concession to a condition."
+    }
+   ]
+  },
+  {
+   "id": "en-21",
+   "level": "B2",
+   "title": "Giving constructive feedback",
+   "summary": "Use the SBI model to give feedback that helps, not hurts.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "SBI = Situation, Behaviour, Impact.\nSituation: In yesterday's client call…\nBehaviour: you interrupted the client twice…\nImpact: which made them less open to sharing details.\nThen ask: How do you see it? / What could we try next time?"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Specific, behaviour-based feedback is easier to accept and act on. Use SBI for positive feedback too."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid labels like 'You're careless.' Describe behaviour: 'The report had three calculation errors.'"
+    }
+   ],
+   "example": "In this morning's presentation, you explained the data really clearly, and the client asked fewer questions as a result. Great job!",
+   "speak": [
+    "In yesterday's meeting, you explained the numbers very clearly.",
+    "The impact was that the client felt confident.",
+    "What could we try differently next time?"
+   ],
+   "quiz": [
+    {
+     "q": "What does SBI stand for?",
+     "options": [
+      "Sales, Budget, Income",
+      "Start, Build, Iterate",
+      "Speak, Believe, Improve",
+      "Situation, Behaviour, Impact"
+     ],
+     "answer": 3,
+     "why": "Situation-Behaviour-Impact keeps feedback specific."
+    }
+   ]
+  },
+  {
+   "id": "en-22",
+   "level": "B2",
+   "title": "Diplomatic language and softeners",
+   "summary": "Sound polite and professional when delivering difficult messages.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Softeners: slightly, a bit, a little, perhaps, might.\nNegative + positive word: 'not very good' → 'not ideal'; 'bad' → 'not quite what we expected'.\nPast tense for politeness: I was wondering if… / I wanted to ask…\nQuestions instead of statements: Shouldn't we…? / Could we perhaps…?"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Diplomacy matters with clients, seniors and cross-cultural teams."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Too much softening can confuse. Make sure the message is still clear."
+    }
+   ],
+   "example": "Direct: 'Your price is too high.' → Diplomatic: 'I'm afraid the price is a little higher than we expected. Could there be some flexibility?'",
+   "speak": [
+    "I'm afraid the price is a little higher than we expected.",
+    "I was wondering if we could move the deadline.",
+    "Could we perhaps look at another option?"
+   ],
+   "quiz": [
+    {
+     "q": "Make it diplomatic: 'The report is bad.'",
+     "options": [
+      "Report bad.",
+      "The report isn't quite what we expected.",
+      "The report is terrible.",
+      "I hate the report."
+     ],
+     "answer": 1,
+     "why": "Use a softened negative."
+    }
+   ]
+  },
+  {
+   "id": "en-23",
+   "level": "B2",
+   "title": "Conditionals for proposals and scenarios",
+   "summary": "Discuss possibilities and consequences.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "First conditional (real future): If we launch in May, we will beat the competition.\nSecond conditional (hypothetical): If we had a bigger budget, we would hire two more people.\nThird conditional (past regret): If we had tested earlier, we would have found the bug."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Scenario planning, proposals and retrospectives all use conditionals."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't use 'will' in the if-clause: 'If it will rain' ✗ → 'If it rains' ✓."
+    }
+   ],
+   "example": "If we automate invoicing, we'll save about 20 hours a month. If we had more data, we would build a forecasting model.",
+   "speak": [
+    "If we automate this process, we'll save a lot of time.",
+    "If we had a bigger budget, we would hire more people.",
+    "If we had tested earlier, we would have found the issue."
+   ],
+   "quiz": [
+    {
+     "q": "Choose the correct sentence.",
+     "options": [
+      "If finish early, leave.",
+      "If we finished early, we will leave.",
+      "If we finish early, we will leave.",
+      "If we will finish early, we will leave."
+     ],
+     "answer": 2,
+     "why": "First conditional: If + present, will + verb."
+    }
+   ]
+  },
+  {
+   "id": "en-24",
+   "level": "B2",
+   "title": "Handling questions and Q&A",
+   "summary": "Answer questions confidently, even when you don't know.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Welcome: That's a great question. / Thanks for asking.\nClarify: If I understand correctly, you're asking about…\nBuy time: Let me think about that for a second.\nDon't know: I don't have that figure with me, but I'll get back to you by tomorrow."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Never guess numbers in front of senior people. Promise a follow-up and deliver it."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't overuse 'That's a great question'. Vary your responses."
+    }
+   ],
+   "example": "Q: What's the churn rate for enterprise clients?\nA: If I understand correctly, you're asking about the last quarter? I don't have that exact figure with me, but I'll send it to you by tomorrow.",
+   "speak": [
+    "Thanks for asking. Let me think about that for a second.",
+    "If I understand correctly, you're asking about the costs.",
+    "I don't have that figure with me, but I'll get back to you by tomorrow."
+   ],
+   "quiz": [
+    {
+     "q": "You don't know the answer in a meeting. Best response?",
+     "options": [
+      "I don't know.",
+      "Make up a number.",
+      "Ignore the question.",
+      "I don't have that figure now, but I'll get back to you by tomorrow."
+     ],
+     "answer": 3,
+     "why": "Honest plus a clear follow-up builds credibility."
+    }
+   ]
+  },
+  {
+   "id": "en-25",
+   "level": "C1",
+   "title": "Persuasive framing",
+   "summary": "Frame ideas around what your audience cares about.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Lead with the benefit, not the feature: 'This saves each analyst 5 hours a week' beats 'This has automation features.'\nUse contrast: Not only… but also…\nUse the audience's priorities: 'Given our focus on margins, this option…'"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Leaders decide based on outcomes, risk and cost. Frame proposals in those terms."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid overselling. Credibility comes from balanced arguments: mention a risk and how you'll manage it."
+    }
+   ],
+   "example": "Given our focus on improving margins, I'd recommend automating reconciliation. Not only would it save 200 hours a quarter, but it would also reduce errors. The main risk is implementation time, which we can manage with a phased rollout.",
+   "speak": [
+    "Given our focus on margins, I'd recommend this option.",
+    "Not only would it save time, but it would also reduce errors.",
+    "The main risk is cost, which we can manage with a phased rollout."
+   ],
+   "quiz": [
+    {
+     "q": "Which opening is most persuasive to a cost-focused CFO?",
+     "options": [
+      "Everyone uses it.",
+      "I like this tool.",
+      "This saves ₹20 lakh a year in manual work.",
+      "This tool has many features."
+     ],
+     "answer": 2,
+     "why": "Frame around the audience's priority: cost."
+    }
+   ]
+  },
+  {
+   "id": "en-26",
+   "level": "C1",
+   "title": "Business idioms and expressions",
+   "summary": "Understand and use common corporate idioms naturally.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Touch base = briefly contact. Ballpark figure = rough estimate. On the same page = in agreement. Get the ball rolling = start. Low-hanging fruit = easy wins. Back to square one = start again. Think outside the box = be creative."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Idioms are common in global companies. Understand them all; use a few naturally."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't overuse idioms with non-native speakers. Clarity wins over sounding fancy."
+    }
+   ],
+   "example": "Can you give me a ballpark figure for the project? Let's touch base on Friday to make sure we're all on the same page. Let's start with the low-hanging fruit.",
+   "speak": [
+    "Could you give me a ballpark figure?",
+    "Let's touch base on Friday.",
+    "Let's start with the low-hanging fruit."
+   ],
+   "quiz": [
+    {
+     "q": "'Ballpark figure' means…",
+     "options": [
+      "An exact number",
+      "A final price",
+      "A sports score",
+      "A rough estimate"
+     ],
+     "answer": 3,
+     "why": "A ballpark figure is an approximate number."
+    }
+   ]
+  },
+  {
+   "id": "en-27",
+   "level": "C1",
+   "title": "Hedging: expressing certainty precisely",
+   "summary": "Show exactly how sure you are, which is a sign of a careful professional.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "High certainty: clearly, undoubtedly, the data shows.\nMedium: it appears that, it seems likely, this suggests.\nLow: it's possible that, may/might, arguably.\nUseful: To the best of my knowledge… / Based on the available data…"
+    },
+    {
+     "h": "Use it at work",
+     "b": "In analysis and reports, overclaiming damages credibility. Hedging shows rigour."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't hedge everything; it can sound unsure. Match the language to the evidence."
+    }
+   ],
+   "example": "Based on the available data, it appears that the decline is seasonal. However, it's possible that the new competitor has also had an impact.",
+   "speak": [
+    "Based on the available data, it appears that sales are recovering.",
+    "This suggests that the campaign was effective.",
+    "It's possible that other factors also played a role."
+   ],
+   "quiz": [
+    {
+     "q": "Which expresses medium certainty?",
+     "options": [
+      "There's no doubt",
+      "Definitely",
+      "Absolutely",
+      "It appears that"
+     ],
+     "answer": 3,
+     "why": "'It appears that' signals moderate confidence."
+    }
+   ]
+  },
+  {
+   "id": "en-28",
+   "level": "C1",
+   "title": "Chairing and leading meetings",
+   "summary": "Run meetings that start on time, stay on track and end with actions.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Open: Let's get started. The purpose of today's meeting is…\nManage: Let's park that for now. / We're running short of time, so…\nInvite: Rohan, we haven't heard from you yet.\nClose: Let's recap the action points. Priya will… by Friday."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Leading meetings well is one of the most visible leadership skills."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Always end with owners and deadlines: 'Who will do what by when?'"
+    }
+   ],
+   "example": "Let's get started. The purpose of today's meeting is to agree on the Q4 budget. We have 30 minutes. Let's park the hiring question for now and come back to it next week.",
+   "speak": [
+    "Let's get started. The purpose of today's meeting is to agree on the budget.",
+    "Let's park that for now and come back to it later.",
+    "Let's recap the action points before we finish."
+   ],
+   "quiz": [
+    {
+     "q": "'Let's park that' means…",
+     "options": [
+      "Let's go outside",
+      "Let's decide now",
+      "Let's postpone that topic",
+      "Let's end the meeting"
+     ],
+     "answer": 2,
+     "why": "Park = set aside for later."
+    }
+   ]
+  },
+  {
+   "id": "en-29",
+   "level": "C1",
+   "title": "Interview stories with STAR",
+   "summary": "Answer behavioural questions with clear, memorable stories.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "STAR = Situation, Task, Action, Result.\nS: Set the scene briefly. T: Your responsibility. A: What YOU did (use 'I', not 'we'). R: The measurable outcome and what you learned."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Most interviews include 'Tell me about a time when…' questions. STAR keeps answers to about 2 minutes."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Spend most of the time on Action and Result. Quantify results where possible."
+    }
+   ],
+   "example": "Situation: Our month-end closing took 10 days. Task: I was asked to speed it up. Action: I automated three reconciliations using Python. Result: Closing time fell to 6 days, and the method was rolled out to two other teams.",
+   "speak": [
+    "I was responsible for reducing the month-end closing time.",
+    "I automated three reconciliations using Python.",
+    "As a result, closing time fell from ten days to six."
+   ],
+   "quiz": [
+    {
+     "q": "In STAR, which part should get the most time?",
+     "options": [
+      "Introduction",
+      "Task",
+      "Situation",
+      "Action and Result"
+     ],
+     "answer": 3,
+     "why": "Interviewers care most about what you did and achieved."
+    }
+   ]
+  },
+  {
+   "id": "en-30",
+   "level": "C1",
+   "title": "Pronunciation: stress and intonation",
+   "summary": "Sound clearer by stressing the right syllables and words.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Word stress: DE-ve-lop → de-VE-lop; PHO-to-graph → pho-TO-gra-phy; a-NA-ly-sis; e-CO-no-my.\nSentence stress: stress key information words. 'We need the REPORT by FRIDAY.'\nIntonation: falling for statements, rising for yes/no questions."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Correct stress makes you easier to understand than a perfect accent. Clarity is the goal."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Common stress mistakes: say 'de-VE-lop' not 'DE-ve-lop', 'ho-TEL' not 'HO-tel', and 'COM-pa-ny' not 'com-PA-ny'."
+    }
+   ],
+   "example": "Listen and repeat with the speaker button. Exaggerate the stressed syllable at first, then make it natural.",
+   "speak": [
+    "We need to develop a new strategy for the company.",
+    "The analysis shows that the economy is growing.",
+    "Could you send me the report by Friday?"
+   ],
+   "quiz": [
+    {
+     "q": "Where is the stress in 'develop'?",
+     "options": [
+      "de-VE-lop",
+      "DE-ve-lop",
+      "de-ve-LOP",
+      "No stress"
+     ],
+     "answer": 0,
+     "why": "de-VE-lop: stress on the second syllable."
+    }
+   ]
+  },
+  {
+   "id": "en-31",
+   "level": "C2",
+   "title": "Executive communication: bottom line up front",
+   "summary": "Lead with the conclusion. Senior people want the answer first.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "BLUF (Bottom Line Up Front) / Pyramid Principle: start with the main message, then 2-3 supporting points, then details only if asked.\n'My recommendation is X. Three reasons: A, B, C.'"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Executives have limited time. Structured, concise answers signal leadership readiness."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid building up to the conclusion with long background. If interrupted, they should already have your answer."
+    }
+   ],
+   "example": "Bottom line: we should acquire FinCo. Three reasons: it adds 2 million users, it fills our lending gap, and the price is 20% below comparable deals. I can walk through the numbers if helpful.",
+   "speak": [
+    "My recommendation is that we expand into Tier-2 cities.",
+    "There are three reasons: demand, lower costs and less competition.",
+    "I'm happy to go into the details if that's helpful."
+   ],
+   "quiz": [
+    {
+     "q": "BLUF means…",
+     "options": [
+      "Start with background",
+      "Start with the conclusion",
+      "End with questions",
+      "Use bullet points only"
+     ],
+     "answer": 1,
+     "why": "Bottom Line Up Front: give the answer first."
+    }
+   ]
+  },
+  {
+   "id": "en-32",
+   "level": "C2",
+   "title": "Difficult conversations and conflict",
+   "summary": "Stay calm and constructive in tense situations.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Acknowledge: I can see why you're frustrated. / I understand this is a concern.\nI-statements: I felt concerned when the deadline was missed.\nShared goal: We both want this project to succeed.\nMove forward: What would a good solution look like for you?"
+    },
+    {
+     "h": "Use it at work",
+     "b": "Handling conflict well protects relationships and is a key leadership competency."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid 'you always' or 'you never'. They trigger defensiveness."
+    }
+   ],
+   "example": "I understand you're frustrated about the delays, and I share that concern. We both want this launch to succeed. Could we look at what's blocking the team and agree on a realistic date?",
+   "speak": [
+    "I can see why you're frustrated, and I share that concern.",
+    "We both want this project to succeed.",
+    "What would a good solution look like for you?"
+   ],
+   "quiz": [
+    {
+     "q": "Which phrase de-escalates conflict?",
+     "options": [
+      "That's not my problem.",
+      "I understand this is a concern for you.",
+      "You never listen.",
+      "Calm down!"
+     ],
+     "answer": 1,
+     "why": "Acknowledging feelings reduces tension."
+    }
+   ]
+  },
+  {
+   "id": "en-33",
+   "level": "C2",
+   "title": "Precise vocabulary",
+   "summary": "Replace vague words with precise, powerful ones.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Instead of 'good' → effective, robust, compelling, viable.\nInstead of 'bad' → flawed, unsustainable, counterproductive.\nInstead of 'change' → revise, overhaul, streamline, pivot.\nInstead of 'big' → substantial, significant, considerable.\nInstead of 'show' → demonstrate, indicate, reveal."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Precise words make you sound expert and reduce misunderstanding."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't use complex words just to impress. Choose the word that is most exact."
+    }
+   ],
+   "example": "The pilot demonstrated a significant reduction in costs, but the current process is unsustainable at scale. We need to streamline approvals.",
+   "speak": [
+    "The results demonstrate a significant improvement.",
+    "The current process is unsustainable at scale.",
+    "We need to streamline the approval process."
+   ],
+   "quiz": [
+    {
+     "q": "Best replacement for 'The plan is good' in a business case?",
+     "options": [
+      "The plan is viable.",
+      "The plan is okay.",
+      "The plan is fine.",
+      "The plan is nice."
+     ],
+     "answer": 0,
+     "why": "'Viable' means workable and realistic, which is precise."
+    }
+   ]
+  },
+  {
+   "id": "en-34",
+   "level": "C2",
+   "title": "Rhetorical techniques",
+   "summary": "Make key messages memorable with classic techniques.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Rule of three: faster, cheaper, safer.\nContrast: It's not about working harder; it's about working smarter.\nRhetorical question: What would happen if we did nothing?\nRepetition: We will learn. We will adapt. We will win."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Great speeches and town halls use these techniques to inspire and stick in memory."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Use one or two techniques per talk. Too many sound theatrical."
+    }
+   ],
+   "example": "What would happen if we did nothing? Our competitors would move faster, serve customers better and win. It's not about cutting costs; it's about investing wisely.",
+   "speak": [
+    "Our solution is faster, cheaper and safer.",
+    "It's not about working harder; it's about working smarter.",
+    "What would happen if we did nothing?"
+   ],
+   "quiz": [
+    {
+     "q": "'Faster, cheaper, safer' is an example of…",
+     "options": [
+      "Hedging",
+      "A conditional",
+      "An idiom",
+      "The rule of three"
+     ],
+     "answer": 3,
+     "why": "Three-part lists are memorable."
+    }
+   ]
+  },
+  {
+   "id": "en-35",
+   "level": "C2",
+   "title": "Cross-cultural communication",
+   "summary": "Adapt your style to global colleagues.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Direct cultures (e.g. Netherlands, Germany) value frank, explicit messages. Indirect cultures (e.g. Japan, India) often rely on context and politeness.\nAlso differs: attitudes to hierarchy, time and saying 'no'.\nTip: In global calls, be explicit about decisions and next steps."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Global teams succeed when people adapt rather than assume everyone communicates like them."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "'Yes' doesn't always mean agreement in indirect cultures; it can mean 'I hear you'. Confirm with specific questions."
+    }
+   ],
+   "example": "To make sure we're aligned: we're agreeing to deliver phase one by 15 March, and Lena's team will own testing. Does anyone see a risk with that date?",
+   "speak": [
+    "To make sure we're aligned, let me summarise the decisions.",
+    "Does anyone see a risk with that date?",
+    "Please feel free to share any concerns, even after the call."
+   ],
+   "quiz": [
+    {
+     "q": "In indirect cultures, 'yes' may mean…",
+     "options": [
+      "No",
+      "Always full agreement",
+      "'I hear you', not necessarily agreement",
+      "Maybe later"
+     ],
+     "answer": 2,
+     "why": "Confirm understanding with specific questions."
+    }
+   ]
+  },
+  {
+   "id": "en-36",
+   "level": "C2",
+   "title": "Impromptu speaking with PREP",
+   "summary": "Answer unexpected questions with a clear structure.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "PREP = Point, Reason, Example, Point.\nPoint: state your view. Reason: why. Example: evidence or story. Point: restate to close.\nPause for 2 seconds before answering. Silence looks thoughtful."
+    },
+    {
+     "h": "Use it at work",
+     "b": "Useful when a senior leader suddenly asks 'What do you think?' in a meeting."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't ramble. When you restate your point, stop talking."
+    }
+   ],
+   "example": "Point: I think we should invest in training. Reason: our biggest delays come from skill gaps. Example: last quarter, three projects slipped because only one person knew the new tool. Point: so training is the fastest way to speed up delivery.",
+   "speak": [
+    "I think we should invest in training.",
+    "The reason is that skill gaps cause most of our delays.",
+    "So training is the fastest way to speed up delivery."
+   ],
+   "quiz": [
+    {
+     "q": "What does PREP stand for?",
+     "options": [
+      "Point, Reason, Example, Point",
+      "Prepare, Rehearse, Explain, Pause",
+      "Plan, Review, Execute, Present",
+      "Problem, Result, Effect, Plan"
+     ],
+     "answer": 0,
+     "why": "Point-Reason-Example-Point keeps answers structured."
+    }
+   ]
+  }
+ ]
+}

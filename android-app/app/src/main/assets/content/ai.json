@@ -1,0 +1,1167 @@
+{
+ "track": "ai",
+ "levels": [
+  "Mindset",
+  "Skills",
+  "Work & Career",
+  "Future-proofing"
+ ],
+ "lessons": [
+  {
+   "id": "ai-01",
+   "level": "Mindset",
+   "title": "Judgment beats answers",
+   "summary": "AI can produce answers instantly. Deciding which answer to act on is still a human job.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Generative AI is great at producing options: ten headlines, five strategies, three versions of code. When answers become cheap, the scarce skill is judgment, which means choosing among options when the information is incomplete and the stakes are real."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Judgment combines context (what this company or person needs), values (what we should and shouldn't do) and consequences (who is affected). AI sees patterns in data. You see the situation you are in, the politics in the room and the trade-offs nobody wrote down."
+    },
+    {
+     "h": "In practice",
+     "b": "Before accepting an AI suggestion, ask three questions. What is the goal? What would make this wrong? Who pays if it fails? Write the answers down. Over time this becomes a habit that makes you the decision-maker rather than the operator."
+    }
+   ],
+   "action": "Take one AI-generated (or colleague-generated) recommendation this week and write a 3-line 'decision note': goal, main risk, why you chose it.",
+   "quiz": [
+    {
+     "q": "When AI makes answers cheap, which skill becomes MORE valuable?",
+     "options": [
+      "Memorising facts",
+      "Formatting documents",
+      "Judgment under uncertainty",
+      "Typing speed"
+     ],
+     "answer": 2,
+     "why": "Choosing what to act on, with incomplete information and real consequences, stays human."
+    }
+   ]
+  },
+  {
+   "id": "ai-02",
+   "level": "Mindset",
+   "title": "The art of asking better questions",
+   "summary": "The quality of AI output, and of your thinking, depends on the question you ask.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "A well-framed problem is half solved. 'Increase sales' is vague. 'Why did repeat purchases from first-time buyers fall 12% after March?' points to data, causes and actions."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Framing requires curiosity, knowledge of the domain and an understanding of what really matters to stakeholders. AI answers the question you ask; it rarely tells you that you asked the wrong one."
+    },
+    {
+     "h": "In practice",
+     "b": "Use the 5 Whys: ask 'why?' five times to move from symptom to root cause. Then rewrite your question so that it is specific, measurable and tied to a decision."
+    }
+   ],
+   "action": "Pick one problem at work or study. Write the vague version, then apply 5 Whys and write a sharp version. Use the sharp one with AI and compare the answers.",
+   "quiz": [
+    {
+     "q": "Which question is best framed?",
+     "options": [
+      "Why did repeat purchases from new buyers drop 12% since March?",
+      "What should we do?",
+      "Is marketing bad?",
+      "How do we grow?"
+     ],
+     "answer": 0,
+     "why": "It is specific, measurable and points to a decision."
+    }
+   ]
+  },
+  {
+   "id": "ai-03",
+   "level": "Mindset",
+   "title": "Learning how to learn",
+   "summary": "Skills now go out of date in a few years, so learning fast is the meta-skill.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "The 'half-life' of a technical skill is shrinking. People who thrive treat learning as a repeatable process, not a one-time degree."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "AI can explain anything, but it cannot make you curious, consistent or reflective. Building mental models and connecting ideas across fields is how humans turn information into insight."
+    },
+    {
+     "h": "In practice",
+     "b": "Use a simple loop: learn a concept → explain it in your own words (Feynman technique) → apply it to a real task → reflect on what was hard. Use AI as a tutor that quizzes you, not as a shortcut that thinks for you."
+    }
+   ],
+   "action": "Explain today's most important concept from this app to a friend (or out loud to yourself) in under 60 seconds without notes.",
+   "quiz": [
+    {
+     "q": "What is the Feynman technique?",
+     "options": [
+      "Explaining a concept simply in your own words",
+      "Memorising definitions",
+      "Reading faster",
+      "Copying notes from AI"
+     ],
+     "answer": 0,
+     "why": "If you can explain it simply, you understand it; the gaps show what to study next."
+    }
+   ]
+  },
+  {
+   "id": "ai-04",
+   "level": "Mindset",
+   "title": "Comfort with ambiguity",
+   "summary": "Machines like clear rules. Humans can act even when the rules are unclear.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Most valuable work has unclear goals, missing data and shifting priorities. AI performs best on well-defined tasks; it struggles when the problem itself is unclear."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Humans can make progress through ambiguity: making assumptions explicit, running small experiments and adjusting. This is why managers, founders and consultants are paid well."
+    },
+    {
+     "h": "In practice",
+     "b": "When things are unclear, write down: what we know, what we assume, and what would change our mind. Then pick the smallest step that reduces the biggest uncertainty."
+    }
+   ],
+   "action": "For one unclear task you have, list 3 assumptions and design one small test for the riskiest assumption.",
+   "quiz": [
+    {
+     "q": "The best first step in an ambiguous situation is to…",
+     "options": [
+      "Wait for full information",
+      "Avoid the task",
+      "Make assumptions explicit and test the riskiest",
+      "Let AI decide"
+     ],
+     "answer": 2,
+     "why": "Testing the riskiest assumption reduces uncertainty fastest."
+    }
+   ]
+  },
+  {
+   "id": "ai-05",
+   "level": "Mindset",
+   "title": "Curiosity as a career engine",
+   "summary": "Curious people find problems before others do, and AI can't want to know things.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "AI responds to prompts. It has no wants or questions of its own. Curiosity is a human drive that generates new questions, explores adjacent fields and notices anomalies."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Many breakthroughs come from noticing something odd and asking 'huh, why is that?' Curiosity also makes you a better listener, which builds trust with clients and colleagues."
+    },
+    {
+     "h": "In practice",
+     "b": "Keep a 'question log'. Each day write one thing you noticed that didn't make sense. Once a week, investigate one of them deeply."
+    }
+   ],
+   "action": "Start a question log today. Write one odd thing you noticed at work, in the news, or in your city.",
+   "quiz": [
+    {
+     "q": "Why is curiosity hard for AI to replace?",
+     "options": [
+      "AI doesn't have its own drive to ask questions",
+      "AI is slow",
+      "AI is expensive",
+      "AI can't read"
+     ],
+     "answer": 0,
+     "why": "AI answers prompts; humans decide which questions are worth asking."
+    }
+   ]
+  },
+  {
+   "id": "ai-06",
+   "level": "Mindset",
+   "title": "From automation anxiety to augmentation",
+   "summary": "Ask 'how can AI make me 10x better?' rather than 'will AI take my job?'",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Most jobs are bundles of tasks. AI usually automates some tasks, not whole jobs. People who redesign their work around AI become more productive and more valuable."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Augmented professionals use AI for first drafts, research and repetitive steps, and spend the saved time on relationships, strategy and quality. The combination usually beats AI alone and humans alone."
+    },
+    {
+     "h": "In practice",
+     "b": "List your weekly tasks. Mark each: A (automate with AI), G (augment: AI helps, you lead), O (own: human-only). Shift time from A tasks to O tasks."
+    }
+   ],
+   "action": "Do the A/G/O audit for 10 of your tasks. Pick one A task and try automating it this week.",
+   "quiz": [
+    {
+     "q": "In the A/G/O audit, 'G' tasks are ones where…",
+     "options": [
+      "Only humans can work",
+      "AI does everything",
+      "AI helps but you lead",
+      "Nobody should do them"
+     ],
+     "answer": 2,
+     "why": "Augment means AI supports and you stay in charge of quality and decisions."
+    }
+   ]
+  },
+  {
+   "id": "ai-07",
+   "level": "Mindset",
+   "title": "Accountability can't be automated",
+   "summary": "Someone must sign, own and answer for decisions, and that someone is human.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Organisations, laws and customers need a person who is responsible: a doctor who signs off, an auditor who certifies, a manager who approves. AI can recommend but it cannot be held accountable."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Being the person who takes ownership, explains reasoning and fixes mistakes builds trust. Trust is the currency of promotions and client relationships."
+    },
+    {
+     "h": "In practice",
+     "b": "When you use AI at work, state clearly what you checked and what you are standing behind. Don't hide behind 'the AI said so'."
+    }
+   ],
+   "action": "Next time you deliver work, add one line: 'I verified X and Y; the open risk is Z.'",
+   "quiz": [
+    {
+     "q": "Why does accountability remain human?",
+     "options": [
+      "AI is always wrong",
+      "It's cheaper",
+      "AI can't write",
+      "Laws and trust require a responsible person"
+     ],
+     "answer": 3,
+     "why": "Responsibility, liability and trust attach to people, not tools."
+    }
+   ]
+  },
+  {
+   "id": "ai-08",
+   "level": "Mindset",
+   "title": "Taste: knowing what good looks like",
+   "summary": "When anyone can generate content, the person with taste chooses what is excellent.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Taste is the trained ability to tell great from average: in design, writing, code, strategy or products. AI can produce a thousand options, but it takes taste to pick the right one and polish it."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Taste is built through exposure, reflection and feedback. It reflects culture, audience and purpose, which are human contexts."
+    },
+    {
+     "h": "In practice",
+     "b": "Study top examples in your field. For each, write why it works. Compare AI outputs against these standards and edit ruthlessly."
+    }
+   ],
+   "action": "Find one excellent example in your field (a report, deck, product page). Write three reasons it is excellent.",
+   "quiz": [
+    {
+     "q": "How do you build taste?",
+     "options": [
+      "Avoid feedback",
+      "Use longer prompts",
+      "Generate more content",
+      "Study great examples and reflect on why they work"
+     ],
+     "answer": 3,
+     "why": "Exposure plus reflection sharpens your sense of quality."
+    }
+   ]
+  },
+  {
+   "id": "ai-09",
+   "level": "Skills",
+   "title": "Critical thinking: verify before you trust",
+   "summary": "AI can be confidently wrong. Your edge is knowing when to check.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Language models sometimes 'hallucinate': they invent facts, citations or numbers that sound plausible. Critical thinkers question sources, logic and evidence."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Spotting a subtle error in a confident report needs domain knowledge and healthy scepticism. These are human strengths that become more valuable as AI-generated content grows."
+    },
+    {
+     "h": "In practice",
+     "b": "Use the SIFT method: Stop, Investigate the source, Find better coverage, Trace claims to the original. For numbers, do a quick sanity check ('does this order of magnitude make sense?')."
+    }
+   ],
+   "action": "Take one AI answer you received recently and verify two facts in it against original sources.",
+   "quiz": [
+    {
+     "q": "What is an AI 'hallucination'?",
+     "options": [
+      "A plausible-sounding but false output",
+      "A login problem",
+      "A slow response",
+      "A formatting error"
+     ],
+     "answer": 0,
+     "why": "Hallucinations look confident, so verification is essential."
+    }
+   ]
+  },
+  {
+   "id": "ai-10",
+   "level": "Skills",
+   "title": "Empathy and emotional intelligence",
+   "summary": "Understanding feelings and building trust is how humans lead, sell and care.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Emotional intelligence (EQ) is recognising and managing your own emotions and understanding others'. It drives teamwork, leadership, sales and customer service."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "AI can imitate empathetic words, but people want to be understood by someone who genuinely cares and shares their experience. Trust built over time is a human asset."
+    },
+    {
+     "h": "In practice",
+     "b": "Practise active listening: listen to understand, not to reply. Paraphrase ('So what you're saying is…') and name the emotion ('That sounds frustrating')."
+    }
+   ],
+   "action": "In your next conversation, paraphrase the other person once before giving your view.",
+   "quiz": [
+    {
+     "q": "Which is an example of active listening?",
+     "options": [
+      "Checking your phone",
+      "Interrupting with a solution",
+      "Changing the topic",
+      "Paraphrasing what the person said"
+     ],
+     "answer": 3,
+     "why": "Paraphrasing shows understanding and builds trust."
+    }
+   ]
+  },
+  {
+   "id": "ai-11",
+   "level": "Skills",
+   "title": "Storytelling that moves people",
+   "summary": "Data informs, but stories persuade. People remember narratives, not spreadsheets.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "A good story has a character, a challenge, a turning point and a result. Leaders use stories to explain strategy; salespeople use them to show value."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Your own experiences, failures and observations are unique data that AI does not have. Authentic stories create emotional connection and credibility."
+    },
+    {
+     "h": "In practice",
+     "b": "Use the structure Situation → Complication → Resolution. Open with a human moment, add one number that matters and end with the lesson or ask."
+    }
+   ],
+   "action": "Write a 5-sentence story about a problem you solved, using Situation → Complication → Resolution.",
+   "quiz": [
+    {
+     "q": "Which structure is commonly used for business stories?",
+     "options": [
+      "Problem-Panic-Pause",
+      "Intro-Body-Index",
+      "Situation-Complication-Resolution",
+      "Data-Data-Data"
+     ],
+     "answer": 2,
+     "why": "SCR moves from context to tension to answer."
+    }
+   ]
+  },
+  {
+   "id": "ai-12",
+   "level": "Skills",
+   "title": "Persuasion and negotiation",
+   "summary": "Getting agreement among people with different interests is a deeply human skill.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Negotiation isn't only about price. It is about uncovering interests, building options and finding agreements both sides value. Know your BATNA (Best Alternative To a Negotiated Agreement)."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Reading the room, sensing hesitation, building rapport and handling egos all depend on social intelligence and real-time human connection."
+    },
+    {
+     "h": "In practice",
+     "b": "Separate positions ('I want ₹10 lakh') from interests ('I need financial security'). Ask open questions, trade things that are cheap for you but valuable to them, and always know your walk-away point."
+    }
+   ],
+   "action": "Before your next request (salary, deadline, budget), write down your BATNA and the other side's likely interests.",
+   "quiz": [
+    {
+     "q": "What is a BATNA?",
+     "options": [
+      "A type of bonus",
+      "Your best alternative if no deal is reached",
+      "Your opening offer",
+      "A legal contract"
+     ],
+     "answer": 1,
+     "why": "Knowing your BATNA tells you when to walk away."
+    }
+   ]
+  },
+  {
+   "id": "ai-13",
+   "level": "Skills",
+   "title": "Creativity: connecting the unconnected",
+   "summary": "AI remixes patterns; humans bring lived experience and purposeful originality.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Much creativity is combinational, joining ideas from different fields. AI is a powerful brainstorming partner, but humans decide what is meaningful, novel and worth pursuing."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Your unique mix of experiences, cultures and interests produces combinations nobody else would think of. Purpose and context turn ideas into innovations."
+    },
+    {
+     "h": "In practice",
+     "b": "Try 'forced connections': pick a random object or industry and ask how its idea could solve your problem. Use AI to generate 20 ideas, then combine the best two with your own insight."
+    }
+   ],
+   "action": "Generate 10 ideas for one problem in 10 minutes, then pick the most unusual one and improve it.",
+   "quiz": [
+    {
+     "q": "Combinational creativity means…",
+     "options": [
+      "Copying others",
+      "Joining ideas from different domains",
+      "Using only AI",
+      "Working alone"
+     ],
+     "answer": 1,
+     "why": "Many innovations come from connecting distant ideas."
+    }
+   ]
+  },
+  {
+   "id": "ai-14",
+   "level": "Skills",
+   "title": "Systems thinking",
+   "summary": "See the whole: how parts interact, where feedback loops are, and what unintended effects follow.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Systems thinking looks at relationships, delays and feedback loops instead of isolated events. Example: cutting a support team saves money now but raises churn later."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Real organisations are full of incentives, politics and second-order effects that are rarely written in data. Humans who see the system make better strategic decisions."
+    },
+    {
+     "h": "In practice",
+     "b": "Draw a simple loop diagram: list the key variables and draw arrows for 'increases' or 'decreases'. Ask: 'And then what happens?' at least twice."
+    }
+   ],
+   "action": "Pick a decision at work and write its first-, second- and third-order effects.",
+   "quiz": [
+    {
+     "q": "Asking 'and then what happens?' helps identify…",
+     "options": [
+      "Second-order effects",
+      "Meeting times",
+      "Font sizes",
+      "Typos"
+     ],
+     "answer": 0,
+     "why": "Systems thinkers look beyond immediate results."
+    }
+   ]
+  },
+  {
+   "id": "ai-15",
+   "level": "Skills",
+   "title": "Ethical reasoning",
+   "summary": "Just because AI can do something doesn't mean we should. Humans set the boundaries.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "AI raises questions about bias, privacy, fairness and transparency. Ethical reasoning means weighing harms and benefits for all stakeholders."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Values differ across cultures and contexts; deciding what is fair or acceptable requires human judgment, dialogue and responsibility."
+    },
+    {
+     "h": "In practice",
+     "b": "Use a quick ethics check: Who benefits? Who could be harmed? Would I be comfortable if this were on the front page? Is consent and data privacy respected?"
+    }
+   ],
+   "action": "Apply the 'front page test' to one AI use at your workplace or college.",
+   "quiz": [
+    {
+     "q": "Which question is part of a quick ethics check?",
+     "options": [
+      "Who could be harmed?",
+      "How long is the code?",
+      "How fast is it?",
+      "What colour is it?"
+     ],
+     "answer": 0,
+     "why": "Identifying potential harm is central to ethical reasoning."
+    }
+   ]
+  },
+  {
+   "id": "ai-16",
+   "level": "Skills",
+   "title": "Be T-shaped: deep expertise plus breadth",
+   "summary": "Deep domain knowledge lets you direct AI and catch its mistakes.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "A T-shaped professional has deep expertise in one area (the vertical bar) and broad knowledge across others (the horizontal bar). AI lowers the cost of breadth, so depth and integration become differentiators."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Experts know what 'good' looks like, notice subtle errors and understand context. AI amplifies experts far more than novices."
+    },
+    {
+     "h": "In practice",
+     "b": "Choose your 'deep' area and spend focused time on it weekly. Build breadth by learning the basics of adjacent fields, such as finance for engineers or data for marketers."
+    }
+   ],
+   "action": "Write your T: one deep skill and three broad skills you want to build this year.",
+   "quiz": [
+    {
+     "q": "Why does deep expertise matter more with AI?",
+     "options": [
+      "Experts can direct AI and catch errors",
+      "AI can't help experts",
+      "Breadth is useless",
+      "AI only works for beginners"
+     ],
+     "answer": 0,
+     "why": "Expertise lets you use AI well and verify it."
+    }
+   ]
+  },
+  {
+   "id": "ai-17",
+   "level": "Skills",
+   "title": "Delegating to AI: writing clear briefs",
+   "summary": "Prompting is really delegation: clear goals, context and quality standards.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Good managers write clear briefs: objective, audience, constraints, examples and what success looks like. The same structure gets far better results from AI tools."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Knowing what to ask for, and why, comes from understanding the business problem. A great brief reflects human clarity of thought."
+    },
+    {
+     "h": "In practice",
+     "b": "Use the RCTF formula: Role (act as a CFO), Context (our company is…), Task (create…), Format (a table with…). Add an example of good output and ask AI to state its assumptions."
+    }
+   ],
+   "action": "Rewrite one of your usual prompts using Role, Context, Task, Format and compare the outputs.",
+   "quiz": [
+    {
+     "q": "In RCTF, the 'C' stands for…",
+     "options": [
+      "Code",
+      "Context",
+      "Copy",
+      "Cost"
+     ],
+     "answer": 1,
+     "why": "Context tells the AI the situation, audience and constraints."
+    }
+   ]
+  },
+  {
+   "id": "ai-18",
+   "level": "Skills",
+   "title": "Data literacy",
+   "summary": "Read, question and communicate data. Don't just accept charts.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Data literacy is understanding where data comes from, what it can and cannot show, and how to explain it. Correlation is not causation; averages can hide extremes."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "AI can crunch numbers, but humans decide which metrics matter, spot misleading charts and translate numbers into decisions people act on."
+    },
+    {
+     "h": "In practice",
+     "b": "For any chart ask: What is the source? What is the sample? What is missing? What decision does this support? Practise turning a chart into one clear sentence."
+    }
+   ],
+   "action": "Find one chart in the news and write a one-sentence takeaway plus one question you would ask about the data.",
+   "quiz": [
+    {
+     "q": "'Ice-cream sales and drownings rise together' most likely shows…",
+     "options": [
+      "Correlation driven by a third factor (summer)",
+      "Ice cream causes drowning",
+      "A data error",
+      "Causation"
+     ],
+     "answer": 0,
+     "why": "Hot weather drives both. Correlation is not causation."
+    }
+   ]
+  },
+  {
+   "id": "ai-19",
+   "level": "Work & Career",
+   "title": "Become the editor, not the typist",
+   "summary": "Shift from producing first drafts to reviewing, refining and approving.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "In many roles, AI now produces the first draft: emails, reports, code, designs. The human role moves up to editor-in-chief: setting direction, checking quality and making it fit for purpose."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Editing requires standards, context and responsibility. A great editor turns an average draft into something that fits the audience and achieves the goal."
+    },
+    {
+     "h": "In practice",
+     "b": "Create a personal checklist for your outputs: accuracy, clarity, tone, audience fit, action. Apply it every time you use AI-generated material."
+    }
+   ],
+   "action": "Write a 5-point quality checklist for the type of work you do most often.",
+   "quiz": [
+    {
+     "q": "As AI drafts more work, the human role shifts toward…",
+     "options": [
+      "Editing and quality control",
+      "Typing",
+      "Waiting",
+      "Printing"
+     ],
+     "answer": 0,
+     "why": "Humans add standards, context and accountability."
+    }
+   ]
+  },
+  {
+   "id": "ai-20",
+   "level": "Work & Career",
+   "title": "Relationships and trust networks",
+   "summary": "Opportunities flow through people. Your network is an asset AI can't copy.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Research consistently shows that many jobs and deals come through relationships, often 'weak ties' (acquaintances) who connect you to new information."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Trust comes from repeated interactions, reliability and shared experience. AI can help you stay in touch, but the relationship itself is human."
+    },
+    {
+     "h": "In practice",
+     "b": "Give before you ask: share useful articles, introduce people, celebrate others' wins. Keep a simple list of 20 important contacts and reach out to two each week."
+    }
+   ],
+   "action": "Message two people from your network today with something genuinely useful to them.",
+   "quiz": [
+    {
+     "q": "'Weak ties' are valuable because they…",
+     "options": [
+      "Are close friends",
+      "Are only online",
+      "Never respond",
+      "Connect you to new information and opportunities"
+     ],
+     "answer": 3,
+     "why": "Acquaintances bridge different networks and bring fresh opportunities."
+    }
+   ]
+  },
+  {
+   "id": "ai-21",
+   "level": "Work & Career",
+   "title": "Leading and motivating people",
+   "summary": "People follow people. Inspiration, coaching and belonging remain human.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Leadership is creating clarity, energy and growth for a team. As AI handles more routine coordination, leaders focus on motivation, development and culture."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "People want recognition, purpose and someone who believes in them. A leader's empathy, example and fairness can't be delegated to software."
+    },
+    {
+     "h": "In practice",
+     "b": "Hold regular 1:1s focused on the other person: What's going well? What's blocking you? How can I help? Recognise specific contributions publicly."
+    }
+   ],
+   "action": "Give one specific, sincere piece of recognition to a colleague or classmate today.",
+   "quiz": [
+    {
+     "q": "Which is a hallmark of good leadership in the AI era?",
+     "options": [
+      "Coaching and creating clarity",
+      "Micromanaging tasks",
+      "Replacing people with tools",
+      "Avoiding feedback"
+     ],
+     "answer": 0,
+     "why": "Leaders create direction and growth for people."
+    }
+   ]
+  },
+  {
+   "id": "ai-22",
+   "level": "Work & Career",
+   "title": "The physical world advantage",
+   "summary": "Hands-on, in-person and care work is hard to automate.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Jobs combining dexterity, unpredictable environments and human care, such as nursing, skilled trades, field engineering and hospitality, are far harder to automate than desk tasks."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Being physically present, reading a patient's mood or fixing an unusual machine requires adaptability in the real world that robots still struggle with."
+    },
+    {
+     "h": "In practice",
+     "b": "Even in office roles, in-person presence matters: site visits, customer meetings, workshops. Use them to build trust and gather first-hand insight."
+    }
+   ],
+   "action": "Identify one way to add an in-person or hands-on element to your work this month.",
+   "quiz": [
+    {
+     "q": "Why are many hands-on jobs harder to automate?",
+     "options": [
+      "They need no skills",
+      "They involve unpredictable physical environments and care",
+      "They are new",
+      "They pay less"
+     ],
+     "answer": 1,
+     "why": "Robots struggle with variable real-world settings and human care."
+    }
+   ]
+  },
+  {
+   "id": "ai-23",
+   "level": "Work & Career",
+   "title": "Proof of work and personal brand",
+   "summary": "Show, don't tell: public evidence of skill beats claims on a CV.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "In a world of AI-written CVs, recruiters trust evidence: projects, portfolios, GitHub repos, articles, talks and case studies."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Your perspective and track record are unique. Sharing what you learn builds credibility and attracts opportunities."
+    },
+    {
+     "h": "In practice",
+     "b": "Document your learning publicly: a short LinkedIn post on what you learned, a GitHub project, or a one-page case study. Consistency beats perfection."
+    }
+   ],
+   "action": "Write a 5-line post about one thing you learned this week (you can share it or keep it as a draft).",
+   "quiz": [
+    {
+     "q": "What does 'proof of work' mean for your career?",
+     "options": [
+      "Working long hours",
+      "Attendance records",
+      "Public evidence of your skills, like projects or articles",
+      "A longer CV"
+     ],
+     "answer": 2,
+     "why": "Visible work proves skill better than claims."
+    }
+   ]
+  },
+  {
+   "id": "ai-24",
+   "level": "Work & Career",
+   "title": "The translator role",
+   "summary": "People who connect business, tech and people are increasingly valuable.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Many AI projects fail not because of technology but because of misalignment between business needs and technical teams. 'Translators' bridge this gap."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Translators understand the business goal, the user's pain and the technology's limits, and they build shared understanding through communication."
+    },
+    {
+     "h": "In practice",
+     "b": "Learn the basic vocabulary of adjacent teams. Summarise technical updates for business audiences and business goals for technical teams in plain language."
+    }
+   ],
+   "action": "Explain one technical concept from your field in two sentences a non-expert would understand.",
+   "quiz": [
+    {
+     "q": "A 'translator' in organisations mainly…",
+     "options": [
+      "Bridges business needs and technical teams",
+      "Handles payroll",
+      "Speaks many languages",
+      "Writes code only"
+     ],
+     "answer": 0,
+     "why": "They align goals and capabilities across teams."
+    }
+   ]
+  },
+  {
+   "id": "ai-25",
+   "level": "Work & Career",
+   "title": "Better decisions with pre-mortems",
+   "summary": "Imagine failure before it happens, then prevent it.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "A pre-mortem asks: 'It's one year from now and this project failed. Why?' It surfaces risks people are hesitant to mention."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Psychological safety, group dynamics and organisational politics shape decisions. Humans who run good decision processes reduce costly mistakes."
+    },
+    {
+     "h": "In practice",
+     "b": "Run a 15-minute pre-mortem: everyone writes failure reasons silently, shares them, then you rank them and add mitigations. AI can help brainstorm risks you missed."
+    }
+   ],
+   "action": "Do a 5-minute personal pre-mortem on one goal you have this month.",
+   "quiz": [
+    {
+     "q": "A pre-mortem asks you to imagine…",
+     "options": [
+      "The past",
+      "A new budget",
+      "That the project already failed, and why",
+      "Success"
+     ],
+     "answer": 2,
+     "why": "Imagining failure reveals hidden risks early."
+    }
+   ]
+  },
+  {
+   "id": "ai-26",
+   "level": "Work & Career",
+   "title": "Managing AI agents like a team",
+   "summary": "Tomorrow's professionals will direct digital agents as well as people.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "AI agents can research, draft, analyse and execute multi-step tasks. Directing them needs the same skills as managing people: clear goals, checkpoints and review."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Breaking down work, setting quality bars and integrating results into a coherent outcome is orchestration, a human management skill."
+    },
+    {
+     "h": "In practice",
+     "b": "Break a project into steps, decide which steps an AI agent can do, define checkpoints where you review, and keep a log of what worked."
+    }
+   ],
+   "action": "Take one multi-step task and write which steps you would give to AI and where you would check its work.",
+   "quiz": [
+    {
+     "q": "What is key when directing AI agents?",
+     "options": [
+      "Avoiding planning",
+      "Clear goals and review checkpoints",
+      "No supervision",
+      "Long meetings"
+     ],
+     "answer": 1,
+     "why": "Like managing people: clear briefs and quality checks."
+    }
+   ]
+  },
+  {
+   "id": "ai-27",
+   "level": "Future-proofing",
+   "title": "Your personal task audit",
+   "summary": "Map your job to know what to automate, augment and protect.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Every quarter, review your role: which tasks are repetitive, which need judgment, which build relationships? This reveals both risks and opportunities."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Being proactive lets you redesign your role before someone else does, positioning you as the person who brings AI productivity to the team."
+    },
+    {
+     "h": "In practice",
+     "b": "List tasks with time spent. For each, rate 'AI-ready' (1-5) and 'value to business' (1-5). Automate high AI-ready/low value tasks; invest in high-value human tasks."
+    }
+   ],
+   "action": "Spend 15 minutes listing your tasks and rating them on AI-readiness and value.",
+   "quiz": [
+    {
+     "q": "Which tasks should you automate first?",
+     "options": [
+      "Strategy tasks",
+      "High value, low AI-readiness",
+      "Low value, high AI-readiness",
+      "Relationship tasks"
+     ],
+     "answer": 2,
+     "why": "Repetitive low-value tasks free time for higher-value work."
+    }
+   ]
+  },
+  {
+   "id": "ai-28",
+   "level": "Future-proofing",
+   "title": "Deep work and attention",
+   "summary": "Focused attention is rare and therefore valuable.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Deep work means long periods of distraction-free concentration on cognitively demanding tasks. It produces high-quality output and fast learning."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "With constant notifications and infinite content, the ability to focus becomes a competitive advantage that can't be outsourced."
+    },
+    {
+     "h": "In practice",
+     "b": "Block 60-90 minutes daily for deep work. Phone in another room, notifications off, one clear goal. Track your deep hours weekly."
+    }
+   ],
+   "action": "Schedule one 60-minute deep-work block in your calendar for tomorrow.",
+   "quiz": [
+    {
+     "q": "Deep work is best supported by…",
+     "options": [
+      "Multitasking",
+      "Distraction-free focused blocks",
+      "Constant messaging",
+      "Background videos"
+     ],
+     "answer": 1,
+     "why": "Focus needs protected, uninterrupted time."
+    }
+   ]
+  },
+  {
+   "id": "ai-29",
+   "level": "Future-proofing",
+   "title": "Adaptability: reskilling sprints",
+   "summary": "Learn new skills in short, focused sprints instead of waiting for the perfect course.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Adaptability is how fast you can learn and apply new skills when the environment changes. Short sprints (2-4 weeks) with a clear project make learning stick."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Humans can choose direction, persist through difficulty and transfer knowledge between contexts. These are traits that make careers resilient."
+    },
+    {
+     "h": "In practice",
+     "b": "Pick one skill, define a mini-project, learn just enough to build it, share it, then reflect. Use AI as a tutor and reviewer during the sprint."
+    }
+   ],
+   "action": "Define a 2-week sprint: skill, mini-project, and how you'll show the result.",
+   "quiz": [
+    {
+     "q": "Why use project-based learning sprints?",
+     "options": [
+      "They need no goal",
+      "They are longer",
+      "Applying skills to a project makes learning stick",
+      "They avoid practice"
+     ],
+     "answer": 2,
+     "why": "Application cements learning and creates proof of work."
+    }
+   ]
+  },
+  {
+   "id": "ai-30",
+   "level": "Future-proofing",
+   "title": "Original insight from first-hand experience",
+   "summary": "AI learns from what's already written. You can see what isn't written yet.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "AI models are trained on existing data. New insight often comes from first-hand observation: talking to customers, visiting sites, running experiments."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Proprietary knowledge from real conversations, context and experiments gives you insights that no model has seen."
+    },
+    {
+     "h": "In practice",
+     "b": "Talk to real users or customers regularly. Ask about their last experience, not hypotheticals. Write down surprising quotes and patterns."
+    }
+   ],
+   "action": "Have one conversation with a customer, user or colleague this week and note one surprising insight.",
+   "quiz": [
+    {
+     "q": "Where does insight AI can't easily replicate come from?",
+     "options": [
+      "Search results",
+      "Templates",
+      "Popular blogs",
+      "First-hand observation and experiments"
+     ],
+     "answer": 3,
+     "why": "New data from the real world isn't in training sets."
+    }
+   ]
+  },
+  {
+   "id": "ai-31",
+   "level": "Future-proofing",
+   "title": "Resilience and wellbeing",
+   "summary": "Sustainable performance needs energy, recovery and a healthy relationship with change.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Rapid change can cause anxiety and burnout. Resilience is the capacity to recover and adapt, built through sleep, exercise, relationships and a sense of purpose."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Calm, energised people make better decisions, collaborate better and learn faster. Wellbeing is a performance strategy, not a luxury."
+    },
+    {
+     "h": "In practice",
+     "b": "Protect sleep, move daily, and practise a short reflection: what went well, what I learned, what I'll do tomorrow. Limit doom-scrolling about AI news."
+    }
+   ],
+   "action": "Tonight, write three things that went well today and why.",
+   "quiz": [
+    {
+     "q": "Which habit builds resilience?",
+     "options": [
+      "Skipping breaks",
+      "Less sleep",
+      "Regular reflection and recovery",
+      "Constant news checking"
+     ],
+     "answer": 2,
+     "why": "Recovery and reflection sustain performance."
+    }
+   ]
+  },
+  {
+   "id": "ai-32",
+   "level": "Future-proofing",
+   "title": "Ownership and the entrepreneurial mindset",
+   "summary": "Act like an owner: spot problems, take initiative and create value.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "AI dramatically lowers the cost of building: prototypes, content, analysis. People with an entrepreneurial mindset use this leverage to create new products, services and side projects."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Seeing an opportunity, taking risk and persisting are human choices. Owners are rewarded because they create value rather than just completing tasks."
+    },
+    {
+     "h": "In practice",
+     "b": "Look for problems people complain about. Ask: could I solve this with a small experiment this month? Build a minimum viable version, get feedback, iterate."
+    }
+   ],
+   "action": "Write down three problems people around you complain about. Pick one for a tiny experiment.",
+   "quiz": [
+    {
+     "q": "An entrepreneurial mindset at work means…",
+     "options": [
+      "Waiting for instructions",
+      "Avoiding risk entirely",
+      "Only working for yourself",
+      "Spotting problems and taking initiative to create value"
+     ],
+     "answer": 3,
+     "why": "Intrapreneurs create value inside organisations too."
+    }
+   ]
+  },
+  {
+   "id": "ai-33",
+   "level": "Future-proofing",
+   "title": "Responsible AI use at work",
+   "summary": "Use AI powerfully but safely: protect data, check bias and be transparent.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Pasting confidential data into public AI tools can breach policies and laws. AI outputs can contain bias or copyright issues. Responsible use protects you and your organisation."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Professionals who combine speed with responsibility are trusted with bigger tools and decisions."
+    },
+    {
+     "h": "In practice",
+     "b": "Know your company's AI policy. Remove personal or confidential data before using public tools. Disclose AI assistance when appropriate, and check outputs for bias and accuracy."
+    }
+   ],
+   "action": "Read (or ask for) your organisation's AI usage policy and note two rules.",
+   "quiz": [
+    {
+     "q": "What should you do before pasting data into a public AI tool?",
+     "options": [
+      "Nothing",
+      "Remove confidential or personal information",
+      "Add more data",
+      "Translate it"
+     ],
+     "answer": 1,
+     "why": "Protect confidentiality and follow policy."
+    }
+   ]
+  },
+  {
+   "id": "ai-34",
+   "level": "Future-proofing",
+   "title": "Build your personal AI stack",
+   "summary": "Choose a small set of AI tools and workflows that multiply your strengths.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Instead of chasing every new tool, build a stable stack: one assistant for writing and thinking, one for research, one for your domain (coding, design, spreadsheets), plus your own templates."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Your workflows, prompts and judgment, refined over time, become a personal advantage, just as a craftsman's tools are tuned to their hands."
+    },
+    {
+     "h": "In practice",
+     "b": "Save your best prompts as templates. Review monthly: what saved the most time? What produced errors? Drop tools that don't earn their place."
+    }
+   ],
+   "action": "Create a 'prompt library' note and save your three most useful prompts in it.",
+   "quiz": [
+    {
+     "q": "What makes an AI stack a personal advantage?",
+     "options": [
+      "Using only free tools",
+      "Having the most tools",
+      "Refined workflows and templates matched to your work",
+      "Never reviewing"
+     ],
+     "answer": 2,
+     "why": "Curated workflows compound your productivity."
+    }
+   ]
+  }
+ ]
+}
