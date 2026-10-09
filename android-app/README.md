@@ -1,4 +1,4 @@
-# Daily Edge: a playful daily-learning Android app
+# Gyaanly: a playful daily-learning Android app
 
 Bite-sized daily lessons with quizzes, streaks, XP and levels. Fully **offline**: no account, no API key.
 
@@ -75,7 +75,7 @@ Each path is **one self-describing JSON file**. The app discovers every `*.json`
 
 ## Build & install
 
-* **Download:** every push runs the *Android app* GitHub Action. Open the run → *Artifacts* → `daily-edge-debug-apk`, unzip and install `app-debug.apk` (allow "install unknown apps").
+* **Download:** every push runs the *Android app* GitHub Action. Open the run → *Artifacts* → `gyaanly-debug-apk`, unzip and install `app-debug.apk` (allow "install unknown apps").
 * **Locally:** open `android-app/` in Android Studio or run `./gradlew assembleDebug` (Android SDK + JDK 17).
 
 Requires Android 8.0+ (API 26). Speaking drills use the device's speech services (Google app / Speech Services); install the language's voice data for other languages.

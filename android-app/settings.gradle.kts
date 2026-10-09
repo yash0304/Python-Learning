@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DailyEdge"
+rootProject.name = "Gyaanly"
 include(":app")

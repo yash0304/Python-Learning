@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.yash.dailyedge"
+    namespace = "com.yash.gyaanly"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.yash.dailyedge"
+        applicationId = "com.yash.gyaanly"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
