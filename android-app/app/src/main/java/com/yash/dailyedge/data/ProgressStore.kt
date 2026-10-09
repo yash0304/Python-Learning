@@ -14,11 +14,16 @@ data class Progress(
     /** Lesson picked for each track on [planDate]; keeps "today" stable for the whole day. */
     val planDate: String = "",
     val plan: Map<String, String> = emptyMap(),
-    val englishLevel: String = "A1",
+    /** Chosen starting level per track key (for tracks with a level picker). */
+    val levels: Map<String, String> = emptyMap(),
     val reminderEnabled: Boolean = false,
     val reminderHour: Int = 8,
     val reminderMinute: Int = 0,
-)
+) {
+    /** 10 XP per lesson finished + 5 XP per best correct quiz answer. */
+    val xp: Int
+        get() = completed.size * 10 + quizScores.values.sumOf { it.substringBefore("/").toIntOrNull() ?: 0 } * 5
+}
 
 /** Small SharedPreferences-backed store exposing progress as a StateFlow. */
 class ProgressStore(context: Context) {
@@ -33,17 +38,22 @@ class ProgressStore(context: Context) {
         _state.value = next
     }
 
-    private fun load() = Progress(
-        completed = prefs.getStringSet(KEY_COMPLETED, emptySet())!!.toSet(),
-        activeDays = prefs.getStringSet(KEY_DAYS, emptySet())!!.toSet(),
-        quizScores = decodeMap(prefs.getString(KEY_SCORES, "")!!),
-        planDate = prefs.getString(KEY_PLAN_DATE, "")!!,
-        plan = decodeMap(prefs.getString(KEY_PLAN, "")!!),
-        englishLevel = prefs.getString(KEY_LEVEL, "A1")!!,
-        reminderEnabled = prefs.getBoolean(KEY_REMINDER, false),
-        reminderHour = prefs.getInt(KEY_HOUR, 8),
-        reminderMinute = prefs.getInt(KEY_MINUTE, 0),
-    )
+    private fun load(): Progress {
+        val levels = decodeMap(prefs.getString(KEY_LEVELS, "")!!).toMutableMap()
+        // Version 1 stored only the English level.
+        prefs.getString(LEGACY_ENGLISH_LEVEL, null)?.let { levels.putIfAbsent("english", it) }
+        return Progress(
+            completed = prefs.getStringSet(KEY_COMPLETED, emptySet())!!.toSet(),
+            activeDays = prefs.getStringSet(KEY_DAYS, emptySet())!!.toSet(),
+            quizScores = decodeMap(prefs.getString(KEY_SCORES, "")!!),
+            planDate = prefs.getString(KEY_PLAN_DATE, "")!!,
+            plan = decodeMap(prefs.getString(KEY_PLAN, "")!!),
+            levels = levels,
+            reminderEnabled = prefs.getBoolean(KEY_REMINDER, false),
+            reminderHour = prefs.getInt(KEY_HOUR, 8),
+            reminderMinute = prefs.getInt(KEY_MINUTE, 0),
+        )
+    }
 
     private fun save(p: Progress) {
         prefs.edit()
@@ -52,14 +62,15 @@ class ProgressStore(context: Context) {
             .putString(KEY_SCORES, encodeMap(p.quizScores))
             .putString(KEY_PLAN_DATE, p.planDate)
             .putString(KEY_PLAN, encodeMap(p.plan))
-            .putString(KEY_LEVEL, p.englishLevel)
+            .putString(KEY_LEVELS, encodeMap(p.levels))
+            .remove(LEGACY_ENGLISH_LEVEL)
             .putBoolean(KEY_REMINDER, p.reminderEnabled)
             .putInt(KEY_HOUR, p.reminderHour)
             .putInt(KEY_MINUTE, p.reminderMinute)
             .apply()
     }
 
-    // Keys and values are ids/scores without '=' or ';', so a flat encoding is enough.
+    // Keys and values are ids/levels/scores without '=' or ';', so a flat encoding is enough.
     private fun encodeMap(map: Map<String, String>) = map.entries.joinToString(";") { "${it.key}=${it.value}" }
 
     private fun decodeMap(raw: String): Map<String, String> =
@@ -71,7 +82,8 @@ class ProgressStore(context: Context) {
         const val KEY_SCORES = "quiz_scores"
         const val KEY_PLAN_DATE = "plan_date"
         const val KEY_PLAN = "plan"
-        const val KEY_LEVEL = "english_level"
+        const val KEY_LEVELS = "levels"
+        const val LEGACY_ENGLISH_LEVEL = "english_level"
         const val KEY_REMINDER = "reminder_enabled"
         const val KEY_HOUR = "reminder_hour"
         const val KEY_MINUTE = "reminder_minute"

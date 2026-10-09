@@ -11,11 +11,13 @@ import java.time.LocalDate
 
 class DailyPlannerTest {
 
+    private val levels = listOf("A1", "A2", "B1")
+    private val track = Track("english", "English", "", "🗣️", 0xFF000000, 1, true, emptyList(), levels)
+
     private fun lesson(id: String, level: String) = Lesson(
-        id, Track.ENGLISH, level, id, "", emptyList(), null, null, null, emptyList(), null, null, emptyList(),
+        id, track, level, id, "", emptyList(), null, null, null, emptyList(), "en-US", null, null, emptyList(),
     )
 
-    private val levels = listOf("A1", "A2", "B1")
     private val lessons = listOf(lesson("a1-1", "A1"), lesson("a1-2", "A1"), lesson("a2-1", "A2"), lesson("b1-1", "B1"))
     private val today = LocalDate.of(2026, 10, 8)
 

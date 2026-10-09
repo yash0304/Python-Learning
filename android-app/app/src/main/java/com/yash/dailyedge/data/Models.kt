@@ -1,14 +1,24 @@
 package com.yash.dailyedge.data
 
-enum class Track(val key: String, val title: String, val tagline: String) {
-    AI_EDGE("ai", "Human Edge in AI", "Stay irreplaceable in the age of AI"),
-    ENGLISH("english", "English Speaking", "From A1 to confident corporate speaker"),
-    FINANCE("finance", "Corporate Finance", "One concept, term and calculation at a time");
-
-    companion object {
-        fun fromKey(key: String): Track = entries.first { it.key == key }
-    }
-}
+/**
+ * A learning track, described entirely by its JSON pack (assets/content/<key>.json).
+ * Adding a new track means adding a new JSON file — no code changes.
+ */
+data class Track(
+    val key: String,
+    val title: String,
+    val tagline: String,
+    val emoji: String,
+    /** ARGB colour, e.g. parsed from "#7C3AED". */
+    val color: Long,
+    /** Position in lists; lower first. */
+    val order: Int,
+    /** Lets the learner choose the level today's lesson starts from (e.g. CEFR levels). */
+    val levelPicker: Boolean,
+    /** Optional tools linked from the track, e.g. "calculators". */
+    val tools: List<String>,
+    val levels: List<String>,
+)
 
 data class Section(val heading: String, val body: String)
 
@@ -33,13 +43,15 @@ data class Lesson(
     val keyTerm: KeyTerm?,
     val example: String?,
     val calculation: Calculation?,
-    /** Sentences to listen to and repeat (English track). */
+    /** Sentences to listen to and repeat (pronunciation drill). */
     val speak: List<String>,
-    /** One concrete thing to do today (Human Edge track). */
+    /** Language the speak sentences are in (BCP-47, e.g. "en-US", "es-ES"). */
+    val speakLang: String,
+    /** One concrete thing to do today. */
     val action: String?,
     /** Id of a related finance calculator, if any. */
     val calculatorId: String?,
     val quiz: List<QuizQuestion>,
 )
 
-data class TrackContent(val track: Track, val levels: List<String>, val lessons: List<Lesson>)
+data class TrackContent(val track: Track, val lessons: List<Lesson>)

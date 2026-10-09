@@ -8,11 +8,23 @@ object ContentParser {
 
     fun parse(json: String): TrackContent {
         val root = JSONObject(json)
-        val track = Track.fromKey(root.getString("track"))
         val levels = root.getJSONArray("levels").strings()
+        val track = parseTrack(root.getJSONObject("track"), levels)
         val lessons = root.getJSONArray("lessons").objects().map { parseLesson(it, track) }
-        return TrackContent(track, levels, lessons)
+        return TrackContent(track, lessons)
     }
+
+    private fun parseTrack(o: JSONObject, levels: List<String>) = Track(
+        key = o.getString("key"),
+        title = o.getString("title"),
+        tagline = o.optString("tagline"),
+        emoji = o.optString("emoji", "📘"),
+        color = parseColor(o.optString("color", "#6C3BFF")),
+        order = o.optInt("order", 100),
+        levelPicker = o.optBoolean("levelPicker", false),
+        tools = o.optJSONArray("tools")?.strings().orEmpty(),
+        levels = levels,
+    )
 
     private fun parseLesson(o: JSONObject, track: Track): Lesson = Lesson(
         id = o.getString("id"),
@@ -29,6 +41,7 @@ object ContentParser {
             Calculation(it.getString("problem"), it.getJSONArray("steps").strings(), it.getString("answer"))
         },
         speak = o.optJSONArray("speak")?.strings().orEmpty(),
+        speakLang = o.optString("speakLang", "en-US"),
         action = o.optStringOrNull("action"),
         calculatorId = o.optStringOrNull("calculator"),
         quiz = o.optJSONArray("quiz")?.objects()?.map {
@@ -40,6 +53,13 @@ object ContentParser {
             )
         }.orEmpty(),
     )
+
+    /** Parses "#RRGGBB" or "#AARRGGBB" into an ARGB long. */
+    fun parseColor(hex: String): Long {
+        val clean = hex.removePrefix("#")
+        val value = clean.toLong(16)
+        return if (clean.length == 6) 0xFF000000L or value else value
+    }
 
     private fun JSONArray.strings(): List<String> = (0 until length()).map { getString(it) }
     private fun JSONArray.objects(): List<JSONObject> = (0 until length()).map { getJSONObject(it) }

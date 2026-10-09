@@ -1,40 +1,42 @@
 package com.yash.dailyedge
 
 import com.yash.dailyedge.data.ContentParser
-import com.yash.dailyedge.data.Track
 import com.yash.dailyedge.domain.Calculators
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import java.io.File
 
-/** Validates the bundled lesson packs so broken content never ships. */
+/** Validates every bundled lesson pack (including ones added later) so broken content never ships. */
 class ContentTest {
 
-    private val packs = Track.entries.map { track ->
-        ContentParser.parse(File("src/main/assets/content/${track.key}.json").readText())
+    private val packs = File("src/main/assets/content").listFiles { f -> f.extension == "json" }!!
+        .sortedBy { it.name }
+        .map { file -> file.name to ContentParser.parse(file.readText()) }
+
+    private fun pack(key: String) = packs.map { it.second }.firstOrNull { it.track.key == key }
+
+    @Test
+    fun trackKeysAndLessonIdsAreUnique() {
+        val keys = packs.map { it.second.track.key }
+        assertEquals("duplicate track keys", keys.size, keys.toSet().size)
+        val ids = packs.flatMap { p -> p.second.lessons.map { it.id } }
+        val dupes = ids.groupBy { it }.filter { it.value.size > 1 }.keys
+        assertTrue("duplicate lesson ids: $dupes", dupes.isEmpty())
     }
 
     @Test
-    fun everyTrackHasEnoughLessons() {
-        packs.forEach { assertTrue("${it.track} has only ${it.lessons.size} lessons", it.lessons.size >= 30) }
-    }
-
-    @Test
-    fun idsAreUnique() {
-        val ids = packs.flatMap { p -> p.lessons.map { it.id } }
-        assertEquals(ids.size, ids.toSet().size)
-    }
-
-    @Test
-    fun lessonsAreWellFormed() {
-        packs.forEach { pack ->
+    fun everyPackIsWellFormed() {
+        packs.forEach { (file, pack) ->
+            assertTrue("$file: no levels", pack.track.levels.isNotEmpty())
+            assertTrue("$file: no lessons", pack.lessons.isNotEmpty())
             pack.lessons.forEach { l ->
-                assertTrue("${l.id}: unknown level ${l.level}", l.level in pack.levels)
+                assertTrue("${l.id}: unknown level ${l.level}", l.level in pack.track.levels)
                 assertTrue("${l.id}: no sections", l.sections.isNotEmpty())
                 assertTrue("${l.id}: no quiz", l.quiz.isNotEmpty())
                 l.quiz.forEach { q ->
-                    assertEquals("${l.id}: quiz needs 4 options", 4, q.options.size)
+                    assertEquals("${l.id}: '${q.question}' needs 4 options", 4, q.options.size)
+                    assertEquals("${l.id}: '${q.question}' has duplicate options", 4, q.options.toSet().size)
                     assertTrue("${l.id}: bad answer index", q.answerIndex in q.options.indices)
                 }
                 l.calculatorId?.let { assertTrue("${l.id}: unknown calculator $it", Calculators.byId(it) != null) }
@@ -43,10 +45,19 @@ class ContentTest {
     }
 
     @Test
+    fun builtInPathsAreExtensive() {
+        listOf("ai", "english", "finance").forEach { key ->
+            val p = pack(key) ?: error("missing built-in pack $key")
+            assertTrue("$key has only ${p.lessons.size} lessons", p.lessons.size >= 100)
+            p.lessons.forEach { assertTrue("${it.id}: needs 3 quiz questions", it.quiz.size >= 3) }
+        }
+    }
+
+    @Test
     fun trackSpecificBlocksArePresent() {
-        packs.first { it.track == Track.ENGLISH }.lessons.forEach { assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty()) }
-        packs.first { it.track == Track.AI_EDGE }.lessons.forEach { assertTrue("${it.id}: no action", it.action != null) }
-        packs.first { it.track == Track.FINANCE }.lessons.forEach {
+        pack("english")!!.lessons.forEach { assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty()) }
+        pack("ai")!!.lessons.forEach { assertTrue("${it.id}: no action", it.action != null) }
+        pack("finance")!!.lessons.forEach {
             assertTrue("${it.id}: no key term", it.keyTerm != null)
             assertTrue("${it.id}: no calculation", it.calculation != null)
         }

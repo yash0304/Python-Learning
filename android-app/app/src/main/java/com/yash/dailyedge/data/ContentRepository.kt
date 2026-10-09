@@ -2,17 +2,24 @@ package com.yash.dailyedge.data
 
 import android.content.Context
 
-/** Loads the bundled, offline lesson packs once and keeps them in memory. */
+/** Loads every lesson pack in assets/content/ once and keeps them in memory. */
 class ContentRepository(context: Context) {
 
-    private val packs: Map<Track, TrackContent> = Track.entries.associateWith { track ->
-        val json = context.assets.open("content/${track.key}.json").bufferedReader().use { it.readText() }
-        ContentParser.parse(json)
-    }
+    private val packs: List<TrackContent> = context.assets.list(DIR).orEmpty()
+        .filter { it.endsWith(".json") }
+        .map { file -> context.assets.open("$DIR/$file").bufferedReader().use { ContentParser.parse(it.readText()) } }
+        .sortedWith(compareBy({ it.track.order }, { it.track.title }))
 
-    private val byId: Map<String, Lesson> = packs.values.flatMap { it.lessons }.associateBy { it.id }
+    private val byKey: Map<String, TrackContent> = packs.associateBy { it.track.key }
+    private val byId: Map<String, Lesson> = packs.flatMap { it.lessons }.associateBy { it.id }
 
-    fun pack(track: Track): TrackContent = packs.getValue(track)
+    val tracks: List<Track> = packs.map { it.track }
+
+    fun pack(key: String): TrackContent? = byKey[key]
 
     fun lesson(id: String): Lesson? = byId[id]
+
+    private companion object {
+        const val DIR = "content"
+    }
 }

@@ -33,7 +33,7 @@ class ReminderWorker(context: Context, params: WorkerParameters) : Worker(contex
         val notification = NotificationCompat.Builder(ctx, CHANNEL_ID)
             .setSmallIcon(android.R.drawable.ic_menu_agenda)
             .setContentTitle("Your Daily Edge is ready")
-            .setContentText("3 short lessons: Human Edge · English · Finance. Keep your streak alive!")
+            .setContentText("Today's bite-sized lessons are waiting. Keep your streak alive! 🔥")
             .setContentIntent(open)
             .setAutoCancel(true)
             .build()

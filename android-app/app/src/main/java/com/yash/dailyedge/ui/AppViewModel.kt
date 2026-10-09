@@ -17,7 +17,8 @@ import kotlinx.coroutines.flow.stateIn
 import java.time.LocalDate
 
 data class TodayState(
-    val plan: Map<Track, Lesson> = emptyMap(),
+    /** Today's lesson per track, in track order. */
+    val plan: List<Pair<Track, Lesson>> = emptyList(),
     val streak: Int = 0,
     val progress: Progress = Progress(),
 )
@@ -27,6 +28,8 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     private val app = application as DailyEdgeApp
     private val content = app.content
     private val store = app.progress
+
+    val tracks: List<Track> = content.tracks
 
     val progress: StateFlow<Progress> = store.state
 
@@ -38,7 +41,7 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         refreshPlan()
     }
 
-    fun pack(track: Track): TrackContent = content.pack(track)
+    fun pack(key: String): TrackContent? = content.pack(key)
 
     fun lesson(id: String): Lesson? = content.lesson(id)
 
@@ -47,25 +50,27 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         val todayStr = LocalDate.now().toString()
         store.update { p ->
             val keep = if (p.planDate == todayStr) p.plan else emptyMap()
-            val plan = Track.entries.associate { track ->
+            val plan = tracks.associate { track ->
                 val existing = keep[track.key]?.takeIf { content.lesson(it) != null }
-                track.key to (existing ?: pickFor(track, p)?.id.orEmpty())
+                track.key to (existing ?: pickFor(track.key, p, p.completed)?.id.orEmpty())
             }
             p.copy(planDate = todayStr, plan = plan)
         }
     }
 
-    private fun planFor(p: Progress): Map<Track, Lesson> =
-        Track.entries.mapNotNull { t -> p.plan[t.key]?.let(content::lesson)?.let { t to it } }.toMap()
+    private fun planFor(p: Progress): List<Pair<Track, Lesson>> =
+        tracks.mapNotNull { t -> p.plan[t.key]?.let(content::lesson)?.let { t to it } }
 
-    private fun pickFor(track: Track, p: Progress): Lesson? {
-        val pack = content.pack(track)
-        val minLevel = if (track == Track.ENGLISH) p.englishLevel else null
-        return DailyPlanner.pick(pack.lessons, pack.levels, p.completed, LocalDate.now(), minLevel)
+    private fun pickFor(key: String, p: Progress, exclude: Set<String>): Lesson? {
+        val pack = content.pack(key) ?: return null
+        val minLevel = if (pack.track.levelPicker) p.levels[key] else null
+        return DailyPlanner.pick(pack.lessons, pack.track.levels, exclude, LocalDate.now(), minLevel)
     }
 
-    fun complete(lessonId: String, correct: Int, total: Int) {
+    /** Records completion; returns the XP earned by this attempt. */
+    fun complete(lessonId: String, correct: Int, total: Int): Int {
         val todayStr = LocalDate.now().toString()
+        val before = store.state.value.xp
         store.update { p ->
             val scores = if (total > 0) {
                 val best = p.quizScores[lessonId]?.substringBefore("/")?.toIntOrNull() ?: -1
@@ -73,26 +78,23 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
             } else p.quizScores
             p.copy(completed = p.completed + lessonId, activeDays = p.activeDays + todayStr, quizScores = scores)
         }
+        return store.state.value.xp - before
     }
 
-    /** Skip today's lesson for a track and pick the next unfinished one. */
-    fun nextLesson(track: Track) {
+    /** Swap today's lesson for a track with the next unfinished one. */
+    fun nextLesson(key: String) {
         store.update { p ->
-            val current = p.plan[track.key]
-            val pack = content.pack(track)
-            val minLevel = if (track == Track.ENGLISH) p.englishLevel else null
-            val next = DailyPlanner.pick(
-                pack.lessons, pack.levels, p.completed + listOfNotNull(current), LocalDate.now(), minLevel,
-            )
-            p.copy(plan = p.plan + (track.key to (next?.id ?: current.orEmpty())))
+            val current = p.plan[key]
+            val next = pickFor(key, p, p.completed + listOfNotNull(current))
+            p.copy(plan = p.plan + (key to (next?.id ?: current.orEmpty())))
         }
     }
 
-    fun setEnglishLevel(level: String) {
-        store.update { p -> p.copy(englishLevel = level, plan = p.plan - Track.ENGLISH.key) }
-        // Re-pick only English; other tracks keep today's lesson.
+    fun setLevel(key: String, level: String) {
         store.update { p ->
-            p.copy(plan = p.plan + (Track.ENGLISH.key to pickFor(Track.ENGLISH, p)?.id.orEmpty()))
+            val updated = p.copy(levels = p.levels + (key to level))
+            // Re-pick only this track; other tracks keep today's lesson.
+            updated.copy(plan = updated.plan + (key to pickFor(key, updated, updated.completed)?.id.orEmpty()))
         }
     }
 
@@ -102,7 +104,9 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun resetProgress() {
-        store.update { Progress(englishLevel = it.englishLevel, reminderEnabled = it.reminderEnabled, reminderHour = it.reminderHour, reminderMinute = it.reminderMinute) }
+        store.update {
+            Progress(levels = it.levels, reminderEnabled = it.reminderEnabled, reminderHour = it.reminderHour, reminderMinute = it.reminderMinute)
+        }
         refreshPlan()
     }
 }

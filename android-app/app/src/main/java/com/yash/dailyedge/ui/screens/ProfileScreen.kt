@@ -14,11 +14,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Card
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -28,20 +27,28 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.yash.dailyedge.data.Track
 import com.yash.dailyedge.ui.AppViewModel
+import com.yash.dailyedge.ui.theme.HeroGradient
+import com.yash.dailyedge.ui.theme.Pop
 import com.yash.dailyedge.ui.theme.color
 
+/** Learner levels: every 250 XP unlocks the next title. */
+private val ranks = listOf("Curious Starter", "Steady Learner", "Skill Builder", "Rising Pro", "Sharp Thinker", "Edge Master", "Legend")
+private const val XP_PER_RANK = 250
+
 @Composable
-fun ProfileScreen(vm: AppViewModel, openCalculators: () -> Unit) {
+fun ProfileScreen(vm: AppViewModel) {
     val today by vm.today.collectAsStateWithLifecycle()
     val p = today.progress
     val context = LocalContext.current
     var confirmReset by remember { mutableStateOf(false) }
+    val rankIndex = (p.xp / XP_PER_RANK).coerceAtMost(ranks.lastIndex)
+    val intoRank = p.xp - rankIndex * XP_PER_RANK
 
     val notificationPermission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
         if (granted) vm.setReminder(true, p.reminderHour, p.reminderMinute)
@@ -49,74 +56,75 @@ fun ProfileScreen(vm: AppViewModel, openCalculators: () -> Unit) {
 
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text("Your progress", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-        Card(Modifier.fillMaxWidth()) {
-            Row(Modifier.padding(16.dp)) {
-                Stat("${today.streak}", "day streak", Modifier.weight(1f))
-                Stat("${p.activeDays.size}", "active days", Modifier.weight(1f))
-                Stat("${p.completed.size}", "lessons done", Modifier.weight(1f))
-            }
-        }
-
-        Track.entries.forEach { track ->
-            val lessons = vm.pack(track).lessons
-            val done = lessons.count { it.id in p.completed }
-            Column {
-                Row {
-                    Text(track.title, color = track.color, fontWeight = FontWeight.SemiBold, modifier = Modifier.weight(1f))
-                    Text("$done / ${lessons.size}")
+        GradientCard(HeroGradient) {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Text("LEVEL ${rankIndex + 1}", color = Color.White.copy(alpha = 0.85f), style = MaterialTheme.typography.labelLarge)
+                Text(ranks[rankIndex], color = Color.White, style = MaterialTheme.typography.headlineMedium)
+                if (rankIndex < ranks.lastIndex) {
+                    FatProgress(intoRank / XP_PER_RANK.toFloat(), Color.White, track = Color.White.copy(alpha = 0.3f))
+                    Text("${XP_PER_RANK - intoRank} XP to ${ranks[rankIndex + 1]}", color = Color.White, style = MaterialTheme.typography.labelMedium)
                 }
-                LinearProgressIndicator(
-                    progress = { if (lessons.isEmpty()) 0f else done / lessons.size.toFloat() },
-                    color = track.color,
-                    modifier = Modifier.fillMaxWidth().padding(top = 4.dp),
-                )
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    StatPill("⚡", "${p.xp} XP", Color.White)
+                    StatPill("🔥", "${today.streak} days", Color.White)
+                    StatPill("📚", "${p.completed.size}", Color.White)
+                }
             }
         }
 
-        Text("Daily reminder", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Column(Modifier.weight(1f)) {
-                Text("Remind me every day")
-                Text("at %02d:%02d".format(p.reminderHour, p.reminderMinute), style = MaterialTheme.typography.bodySmall)
+        SectionTitle("Paths", "🗺️")
+        vm.tracks.forEach { track ->
+            val lessons = vm.pack(track.key)?.lessons.orEmpty()
+            val done = lessons.count { it.id in p.completed }
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text("${track.emoji}  ${track.title}", fontWeight = FontWeight.ExtraBold, modifier = Modifier.weight(1f))
+                    Text("$done / ${lessons.size}", fontWeight = FontWeight.Bold, color = track.color)
+                }
+                FatProgress(if (lessons.isEmpty()) 0f else done / lessons.size.toFloat(), track.color)
             }
-            Switch(
-                checked = p.reminderEnabled,
-                onCheckedChange = { on ->
-                    if (on && Build.VERSION.SDK_INT >= 33) {
-                        notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
-                    } else {
-                        vm.setReminder(on, p.reminderHour, p.reminderMinute)
+        }
+
+        SectionTitle("Daily reminder", "⏰")
+        Surface(shape = MaterialTheme.shapes.medium, color = MaterialTheme.colorScheme.surface, shadowElevation = 1.dp) {
+            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text("Nudge me every day", fontWeight = FontWeight.Bold)
+                        Text("at %02d:%02d".format(p.reminderHour, p.reminderMinute), style = MaterialTheme.typography.bodySmall)
                     }
-                },
-            )
+                    Switch(
+                        checked = p.reminderEnabled,
+                        colors = SwitchDefaults.colors(checkedTrackColor = Pop.Grape),
+                        onCheckedChange = { on ->
+                            if (on && Build.VERSION.SDK_INT >= 33) {
+                                notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
+                            } else {
+                                vm.setReminder(on, p.reminderHour, p.reminderMinute)
+                            }
+                        },
+                    )
+                }
+                PopButton("Change time", Pop.Sky, onClick = {
+                    TimePickerDialog(context, { _, h, m -> vm.setReminder(p.reminderEnabled, h, m) }, p.reminderHour, p.reminderMinute, true).show()
+                })
+            }
         }
-        OutlinedButton(onClick = {
-            TimePickerDialog(context, { _, h, m -> vm.setReminder(p.reminderEnabled, h, m) }, p.reminderHour, p.reminderMinute, true).show()
-        }) { Text("Change reminder time") }
 
-        Text("Tools", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-        OutlinedButton(onClick = openCalculators, modifier = Modifier.fillMaxWidth()) { Text("Finance calculators") }
-        TextButton(onClick = { confirmReset = true }) { Text("Reset progress") }
+        TextButton(onClick = { confirmReset = true }, modifier = Modifier.fillMaxWidth()) {
+            Text("Reset progress", color = Pop.Bad)
+        }
     }
 
     if (confirmReset) {
         AlertDialog(
             onDismissRequest = { confirmReset = false },
-            title = { Text("Reset progress?") },
-            text = { Text("This clears completed lessons, quiz scores and your streak.") },
-            confirmButton = { TextButton(onClick = { vm.resetProgress(); confirmReset = false }) { Text("Reset") } },
+            title = { Text("Reset progress? 😱") },
+            text = { Text("This clears completed lessons, quiz scores, XP and your streak.") },
+            confirmButton = { TextButton(onClick = { vm.resetProgress(); confirmReset = false }) { Text("Reset", color = Pop.Bad) } },
             dismissButton = { TextButton(onClick = { confirmReset = false }) { Text("Cancel") } },
         )
-    }
-}
-
-@Composable
-private fun Stat(value: String, label: String, modifier: Modifier = Modifier) {
-    Column(modifier, horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-        Text(label, style = MaterialTheme.typography.bodySmall)
     }
 }

@@ -1,64 +1,81 @@
-# Daily Edge — Android learning app
+# Daily Edge: a playful daily-learning Android app
 
-A daily micro-learning app with three tracks, one lesson per track per day:
+Bite-sized daily lessons with quizzes, streaks, XP and levels. Fully **offline**: no account, no API key.
 
-| Track | What you get each day | Content |
+| Path | Lessons | What you get each day |
 |---|---|---|
-| **Human Edge in AI** | One topic on how humans stay ahead of AI + a concrete action for today | 34 lessons: Mindset → Skills → Work & Career → Future-proofing |
-| **English Speaking** | Phrase/grammar point, workplace usage, dialogue, speaking drill with text-to-speech and speech recognition scoring | 36 lessons, CEFR A1 → C2 |
-| **Corporate Finance** | One concept + key term + real example + step-by-step calculation | 36 lessons: Basics → Intermediate → Advanced |
+| 🧠 **Human Edge in AI** | 100 lessons across AI Literacy → Mindset → Skills → Work & Career → Future-proofing → Industry Playbooks | One idea, why humans win, how to apply it, a deeper dive, *today's mission*, 3-question quiz |
+| 🗣️ **English Speaking** | 100 lessons, CEFR **A1 → C2** (~17 per level) | Grammar/phrases, workplace usage, common mistakes, a dialogue, a **speak-it drill** (text-to-speech + speech-recognition score), 3-question quiz |
+| 💰 **Corporate Finance** | 100 lessons: Basics → Intermediate → Advanced | Concept, word of the day, real example, **solve-it-yourself calculation** with step-by-step reveal, 3-question quiz |
 
-Every lesson ends with a quiz. The app tracks streaks, scores and progress, and can send a daily reminder.
-It also has 9 interactive finance calculators: NPV, IRR, WACC, CAPM, CAGR, EMI, break-even, payback, key ratios.
+Plus a 🧰 **Finance toolbox**: NPV, IRR, WACC, CAPM, CAGR, EMI, break-even, payback and key ratios, all showing their working.
 
-Everything works **offline**: no account, no API key.
+## Look & feel
+
+A vibrant, game-like theme: gradient cards per path, chunky 3D "pop" buttons, Duolingo-style quiz tiles, a winding lesson path, XP ⚡, streaks 🔥, learner levels 🏆 and a celebration screen after every lesson. Light and dark modes are both supported.
 
 ## Architecture
 
 ```
 ui (Jetpack Compose, Material 3)
- ├─ TodayScreen      today's 3 lessons, streak
- ├─ TrackScreen      all lessons per track, English level picker
- ├─ LessonScreen     content blocks, speaking practice, quiz
- ├─ Calculator*      finance calculators
- └─ ProfileScreen    progress, reminder settings
+ ├─ Today      today's lesson for every path, streak, XP
+ ├─ Learn      grid of all paths (auto-discovered)
+ ├─ Track      lesson path per level, level picker, tools
+ ├─ Lesson     content blocks, speaking drill, quiz, celebration
+ ├─ Tools      finance calculators
+ └─ Me         level/XP, per-path progress, reminder settings
         │
    AppViewModel (StateFlow)
         │
- ┌──────┴────────────────────┐
- domain (pure Kotlin)         data
- ├─ DailyPlanner  (pick/streak)  ├─ ContentRepository  ← assets/content/*.json
+ ┌──────┴──────────────────────┐
+ domain (pure Kotlin)           data
+ ├─ DailyPlanner (pick, streak)  ├─ ContentRepository ← every assets/content/*.json
  ├─ Calculators                  ├─ ContentParser
  └─ SpeechMatch                  └─ ProgressStore (SharedPreferences)
  notify: ReminderScheduler + ReminderWorker (WorkManager)
- speech: Speaker (TextToSpeech) + system RecognizerIntent
+ speech: Speaker (TextToSpeech, any language) + system speech recognizer
 ```
 
-**Daily engine.** On the first open each day, the app picks for each track the first unfinished lesson (for English, starting at your chosen CEFR level). That lesson stays fixed for the day. When everything is done, it cycles lessons for revision.
+Each path is **one self-describing JSON file**. The app discovers every `*.json` in `app/src/main/assets/content/`, so adding a path needs **no code changes**.
 
-## Adding lessons
+## ➕ Add your own path (e.g. a language)
 
-Lessons are plain JSON in `app/src/main/assets/content/{ai,english,finance}.json`. Add an object to `lessons`:
+1. Copy [`content-template/language-template.json`](content-template/language-template.json) to `app/src/main/assets/content/<your-key>.json`.
+2. Edit the `track` block:
+
+| Field | Meaning |
+|---|---|
+| `key` | Unique id, e.g. `"spanish"` |
+| `title`, `tagline`, `emoji` | Shown on cards |
+| `color` | Hex colour for the path's gradient, e.g. `"#E11D48"` |
+| `order` | Position in lists (built-ins use 1-3) |
+| `levelPicker` | `true` lets learners choose their starting level |
+| `tools` | Optional, e.g. `["calculators"]` |
+
+3. List your `levels` in order, then add lessons. Every block except `id`, `level`, `title`, `sections` and `quiz` is optional:
 
 ```json
 {
-  "id": "fin-37", "level": "Advanced", "title": "…", "summary": "…",
-  "sections": [{"h": "Concept", "b": "…"}],
-  "term": {"word": "…", "meaning": "…"},           // finance
+  "id": "es-02", "level": "A1", "title": "…", "summary": "…",
+  "term": {"word": "…", "meaning": "…"},
+  "sections": [{"h": "Learn", "b": "…"}],
   "example": "…",
-  "calc": {"problem": "…", "steps": ["…"], "answer": "…"},  // finance
-  "calculator": "npv",                              // optional: npv irr wacc capm cagr emi breakeven payback ratios
-  "speak": ["Sentence to practise"],                // English
-  "action": "Something to do today",                // Human Edge
-  "quiz": [{"q": "…", "options": ["a","b","c","d"], "answer": 0, "why": "…"}]
+  "calc": {"problem": "…", "steps": ["…"], "answer": "…"},
+  "calculator": "npv",
+  "speak": ["Sentence to practise"],
+  "speakLang": "es-ES",
+  "action": "Something to do today",
+  "quiz": [{"q": "…", "options": ["a", "b", "c", "d"], "answer": 0, "why": "…"}]
 }
 ```
 
-`ContentTest` validates all packs on every build: unique ids, valid levels, 4 options per question and track-specific blocks.
+`speakLang` (a BCP-47 tag such as `es-ES`, `fr-FR`, `de-DE`, `hi-IN`, `ja-JP`) sets the voice for text-to-speech and the language for speech recognition, so pronunciation drills work for any language your phone supports. Lesson ids must be unique across all paths.
+
+4. Push. `ContentTest` validates every pack on each build (unique ids, valid levels, 4 distinct options per question, valid answer index, known calculator ids). The GitHub Action then builds a new APK.
 
 ## Build & install
 
-* **Download:** every push runs the *Android app* GitHub Action. Open the run → *Artifacts* → `daily-edge-debug-apk`, unzip, and install `app-debug.apk` on your phone (allow "install unknown apps").
-* **Locally:** open `android-app/` in Android Studio, or run `./gradlew assembleDebug` (requires the Android SDK, JDK 17).
+* **Download:** every push runs the *Android app* GitHub Action. Open the run → *Artifacts* → `daily-edge-debug-apk`, unzip and install `app-debug.apk` (allow "install unknown apps").
+* **Locally:** open `android-app/` in Android Studio or run `./gradlew assembleDebug` (Android SDK + JDK 17).
 
-Requirements: Android 8.0+ (API 26). Speech practice uses the device's speech recognition service (Google app / Speech Services).
+Requires Android 8.0+ (API 26). Speaking drills use the device's speech services (Google app / Speech Services); install the language's voice data for other languages.

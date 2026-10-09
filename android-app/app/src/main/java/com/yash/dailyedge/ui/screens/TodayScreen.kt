@@ -1,6 +1,5 @@
 package com.yash.dailyedge.ui.screens
 
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -11,13 +10,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.LocalFireDepartment
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.Icon
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -26,19 +18,26 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.yash.dailyedge.data.Track
 import com.yash.dailyedge.ui.AppViewModel
-import com.yash.dailyedge.ui.theme.color
+import com.yash.dailyedge.ui.theme.HeroGradient
+import com.yash.dailyedge.ui.theme.gradient
 import java.time.LocalDate
+import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 
 @Composable
-fun TodayScreen(vm: AppViewModel, openLesson: (String) -> Unit, openTrack: (Track) -> Unit) {
+fun TodayScreen(vm: AppViewModel, openLesson: (String) -> Unit, openTrack: (String) -> Unit) {
     val state by vm.today.collectAsStateWithLifecycle()
-    val doneToday = state.plan.values.count { it.id in state.progress.completed }
+    val p = state.progress
+    val doneToday = state.plan.count { (_, lesson) -> lesson.id in p.completed }
+    val total = state.plan.size
+    val greeting = when (LocalTime.now().hour) {
+        in 5..11 -> "Good morning ☀️"
+        in 12..16 -> "Good afternoon 🌤️"
+        else -> "Good evening 🌙"
+    }
 
     Column(
         Modifier
@@ -47,50 +46,66 @@ fun TodayScreen(vm: AppViewModel, openLesson: (String) -> Unit, openTrack: (Trac
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(
-            LocalDate.now().format(DateTimeFormatter.ofPattern("EEEE, d MMMM")),
-            style = MaterialTheme.typography.labelLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-        Text("Your Daily Edge", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-
-        Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)) {
-            Row(Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-                Icon(Icons.Filled.LocalFireDepartment, contentDescription = null, tint = Color(0xFFF97316))
-                Spacer(Modifier.width(12.dp))
-                Column(Modifier.weight(1f)) {
-                    Text("${state.streak}-day streak", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                    Text("$doneToday of ${state.plan.size} done today", style = MaterialTheme.typography.bodyMedium)
-                    LinearProgressIndicator(
-                        progress = { if (state.plan.isEmpty()) 0f else doneToday / state.plan.size.toFloat() },
-                        modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+        GradientCard(HeroGradient) {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        LocalDate.now().format(DateTimeFormatter.ofPattern("EEEE, d MMM")),
+                        color = Color.White.copy(alpha = 0.85f),
+                        style = MaterialTheme.typography.labelLarge,
+                        modifier = Modifier.weight(1f),
                     )
+                    StatPill("🔥", "${state.streak}", Color.White)
+                    Spacer(Modifier.width(8.dp))
+                    StatPill("⚡", "${p.xp} XP", Color.White)
                 }
+                Text(greeting, color = Color.White, style = MaterialTheme.typography.headlineMedium)
+                Text(
+                    when {
+                        total == 0 -> "No lessons yet."
+                        doneToday == total -> "All done today! You're on fire 🎉"
+                        doneToday == 0 -> "$total quick wins are waiting for you."
+                        else -> "$doneToday of $total done, keep going! 💪"
+                    },
+                    color = Color.White,
+                    style = MaterialTheme.typography.bodyLarge,
+                )
+                FatProgress(
+                    if (total == 0) 0f else doneToday / total.toFloat(),
+                    color = Color.White,
+                    track = Color.White.copy(alpha = 0.3f),
+                )
             }
         }
 
-        Track.entries.forEach { track ->
-            val lesson = state.plan[track] ?: return@forEach
-            val done = lesson.id in state.progress.completed
-            Card(
-                modifier = Modifier.fillMaxWidth().clickable { openLesson(lesson.id) },
-                colors = CardDefaults.cardColors(containerColor = track.color.copy(alpha = 0.08f)),
-            ) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        SectionTitle("Today's quests", "🎯")
+
+        state.plan.forEach { (track, lesson) ->
+            val done = lesson.id in p.completed
+            GradientCard(track.gradient, onClick = { openLesson(lesson.id) }) {
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(track.title, color = track.color, fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f))
-                        Chip(lesson.level, track.color)
+                        Text(track.emoji, style = MaterialTheme.typography.headlineMedium)
+                        Spacer(Modifier.width(10.dp))
+                        Column(Modifier.weight(1f)) {
+                            Text(track.title, color = Color.White, style = MaterialTheme.typography.titleMedium)
+                            Text(lesson.level, color = Color.White.copy(alpha = 0.85f), style = MaterialTheme.typography.labelMedium)
+                        }
+                        if (done) Chip("✓ DONE", Color.White)
                     }
-                    Text(lesson.title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-                    Text(lesson.summary, style = MaterialTheme.typography.bodyMedium)
-                    Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(lesson.title, color = Color.White, style = MaterialTheme.typography.titleLarge)
+                    Text(lesson.summary, color = Color.White.copy(alpha = 0.92f), style = MaterialTheme.typography.bodyMedium)
+                    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                        Text(
+                            if (done) "Nice! Want another?" else "Tap to start ▶",
+                            color = Color.White,
+                            style = MaterialTheme.typography.labelLarge,
+                            modifier = Modifier.weight(1f),
+                        )
                         if (done) {
-                            Icon(Icons.Filled.CheckCircle, contentDescription = null, tint = Color(0xFF16A34A))
-                            Text(" Done", color = Color(0xFF16A34A), modifier = Modifier.weight(1f))
-                            TextButton(onClick = { vm.nextLesson(track) }) { Text("One more") }
+                            TextButton(onClick = { vm.nextLesson(track.key) }) { Text("ONE MORE ➜", color = Color.White) }
                         } else {
-                            Spacer(Modifier.weight(1f))
-                            TextButton(onClick = { openTrack(track) }) { Text("All lessons") }
+                            TextButton(onClick = { openTrack(track.key) }) { Text("ALL LESSONS", color = Color.White) }
                         }
                     }
                 }
