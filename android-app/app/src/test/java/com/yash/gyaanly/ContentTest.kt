@@ -57,6 +57,10 @@ class ContentTest {
     fun trackSpecificBlocksArePresent() {
         pack("english")!!.lessons.forEach { assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty()) }
         pack("ai")!!.lessons.forEach { assertTrue("${it.id}: no action", it.action != null) }
+        pack("korean")?.lessons?.forEach {
+            assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty())
+            assertEquals("${it.id}: wrong speech language", "ko-KR", it.speakLang)
+        }
         pack("finance")!!.lessons.forEach {
             assertTrue("${it.id}: no key term", it.keyTerm != null)
             assertTrue("${it.id}: no calculation", it.calculation != null)

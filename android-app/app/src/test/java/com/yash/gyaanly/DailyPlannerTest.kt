@@ -59,4 +59,17 @@ class DailyPlannerTest {
         assertTrue(partial.score in 80..99)
         assertEquals(listOf("the"), partial.missed)
     }
+
+    @Test
+    fun speechMatchKeepsNonLatinScripts() {
+        val korean = SpeechMatch.compare("안녕하세요, 저는 야시입니다.", "안녕하세요 저는 야시입니다")
+        assertEquals(100, korean.score)
+        val wrongKorean = SpeechMatch.compare("감사합니다", "안녕하세요")
+        assertEquals(0, wrongKorean.score)
+        assertEquals(listOf("감사합니다"), wrongKorean.missed)
+
+        val german = SpeechMatch.compare("Schöne Grüße aus München!", "schöne grüße aus münchen")
+        assertEquals(100, german.score)
+        assertEquals(listOf("straße"), SpeechMatch.compare("Die Straße ist lang.", "die strasse ist lang").missed)
+    }
 }

@@ -1,6 +1,11 @@
 package com.yash.gyaanly.domain
 
-/** Scores how closely a recognised utterance matches the target sentence, word by word. */
+import java.util.Locale
+
+/**
+ * Scores how closely a recognised utterance matches the target sentence, word by word.
+ * Works for any script (Latin with accents, Hangul, Cyrillic…) as long as words are space-separated.
+ */
 object SpeechMatch {
 
     data class Result(val score: Int, val missed: List<String>)
@@ -17,7 +22,10 @@ object SpeechMatch {
     }
 
     private fun words(s: String): List<String> =
-        s.lowercase().replace(Regex("[^a-z0-9' ]"), " ").split(" ").filter { it.isNotBlank() }
+        s.lowercase(Locale.ROOT).replace(NON_WORD, " ").split(" ").filter { it.isNotBlank() }
+
+    // Keep letters and digits from every script, plus apostrophes; everything else separates words.
+    private val NON_WORD = Regex("[^\\p{L}\\p{M}\\p{N}']+")
 
     private fun lcsLength(a: List<String>, b: List<String>): Int {
         val dp = Array(a.size + 1) { IntArray(b.size + 1) }

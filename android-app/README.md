@@ -6,6 +6,7 @@ Bite-sized daily lessons with quizzes, streaks, XP and levels. Fully **offline**
 |---|---|---|
 | 🧠 **Human Edge in AI** | 100 lessons across AI Literacy → Mindset → Skills → Work & Career → Future-proofing → Industry Playbooks | One idea, why humans win, how to apply it, a deeper dive, *today's mission*, 3-question quiz |
 | 🗣️ **English Speaking** | 100 lessons, CEFR **A1 → C2** (~17 per level) | Grammar/phrases, workplace usage, common mistakes, a dialogue, a **speak-it drill** (text-to-speech + speech-recognition score), 3-question quiz |
+| 🇰🇷 **Korean** | 100 lessons, **TOPIK 1 → 6**: Hangul, survival Korean, grammar, workplace and business Korean, idioms, TOPIK essay skills | Hangul + romanisation, usage tips, a dialogue, **speak-it drill in Korean** (`ko-KR` voice + speech scoring), today's mission, 3-question quiz |
 | 💰 **Corporate Finance** | 100 lessons: Basics → Intermediate → Advanced | Concept, word of the day, real example, **solve-it-yourself calculation** with step-by-step reveal, 3-question quiz |
 
 Plus a 🧰 **Finance toolbox**: NPV, IRR, WACC, CAPM, CAGR, EMI, break-even, payback and key ratios, all showing their working.
@@ -78,4 +79,4 @@ Each path is **one self-describing JSON file**. The app discovers every `*.json`
 * **Download:** every push runs the *Android app* GitHub Action. Open the run → *Artifacts* → `gyaanly-debug-apk`, unzip and install `app-debug.apk` (allow "install unknown apps").
 * **Locally:** open `android-app/` in Android Studio or run `./gradlew assembleDebug` (Android SDK + JDK 17).
 
-Requires Android 8.0+ (API 26). Speaking drills use the device's speech services (Google app / Speech Services); install the language's voice data for other languages.
+Requires Android 8.0+ (API 26). Speaking drills use the device's speech services (Google app / Speech Services). For Korean (or any new language), install the voice once: Settings → Speech → Text-to-speech → Google → Install voice data → 한국어; and add the language to Google voice typing for offline recognition.
