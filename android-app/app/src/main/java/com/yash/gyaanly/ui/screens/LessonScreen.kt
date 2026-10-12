@@ -3,6 +3,7 @@ package com.yash.gyaanly.ui.screens
 import android.app.Activity
 import android.content.ActivityNotFoundException
 import android.content.Intent
+import android.net.Uri
 import android.speech.RecognizerIntent
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -73,6 +74,7 @@ fun LessonScreen(vm: AppViewModel, lessonId: String, onBack: () -> Unit, openCal
     val snackbar = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
     var celebration by remember { mutableStateOf<Celebration?>(null) }
+    val context = LocalContext.current
 
     Scaffold(
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
@@ -94,6 +96,16 @@ fun LessonScreen(vm: AppViewModel, lessonId: String, onBack: () -> Unit, openCal
                     Text(lesson.title, color = Color.White, style = MaterialTheme.typography.headlineSmall)
                     Text(lesson.summary, color = Color.White.copy(alpha = 0.92f), fontStyle = FontStyle.Italic)
                 }
+            }
+
+            lesson.link?.let { link ->
+                PopButton("▶  ${link.label}", Pop.Bad, onClick = {
+                    try {
+                        context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(link.url)))
+                    } catch (e: ActivityNotFoundException) {
+                        scope.launch { snackbar.showSnackbar("No app found to open ${link.url}") }
+                    }
+                })
             }
 
             lesson.keyTerm?.let { term ->

@@ -26,6 +26,9 @@ data class KeyTerm(val word: String, val meaning: String)
 
 data class Calculation(val problem: String, val steps: List<String>, val answer: String)
 
+/** An external resource for the lesson, e.g. a YouTube channel to watch and shadow. */
+data class LessonLink(val label: String, val url: String)
+
 data class QuizQuestion(
     val question: String,
     val options: List<String>,
@@ -52,6 +55,7 @@ data class Lesson(
     /** Id of a related finance calculator, if any. */
     val calculatorId: String?,
     val quiz: List<QuizQuestion>,
+    val link: LessonLink? = null,
 )
 
 data class TrackContent(val track: Track, val lessons: List<Lesson>)

@@ -4307,67 +4307,67 @@
   {
    "id": "es-65",
    "level": "B1",
-   "title": "Job interview in Spanish",
-   "summary": "Present yourself professionally in Spanish.",
+   "title": "Small talk at work",
+   "summary": "Chat naturally with Spanish-speaking colleagues.",
    "term": {
-    "word": "la entrevista de trabajo",
-    "meaning": "The job interview."
+    "word": "¿Qué tal el finde?",
+    "meaning": "How was the weekend? ('finde' = fin de semana, informal)."
    },
    "sections": [
     {
      "h": "Learn",
-     "b": "Háblame de ti / Hábleme de usted (Tell me about yourself) · ¿Por qué quiere trabajar aquí? · ¿Cuáles son sus puntos fuertes y débiles?\nAnswers: Tengo cinco años de experiencia en… · Mi punto fuerte es… · Estoy trabajando en mejorar…\nAsk: ¿Cuáles serían mis responsabilidades? ¿Cuáles son los próximos pasos?"
+     "b": "Openers: ¿Qué tal el finde? · ¿Qué tal todo? · ¿Cómo va la semana?\nKeeping it going: ¿Y qué hiciste? · ¡Qué bien! · ¿En serio? · ¡Qué envidia! (I'm jealous!)\nSafe topics: weekend plans, food, travel, football, weather. Avoid salary and politics at first."
     },
     {
      "h": "Use it",
-     "b": "Combine with your English interview prep: the STAR structure works in every language."
+     "b": "Coffee breaks and the minutes before a call are where relationships form; a little small talk goes a long way."
     },
     {
      "h": "Tip",
-     "b": "Use usted with interviewers unless they switch to tú."
+     "b": "Answer with a bit of detail and ask back, so the chat doesn't stop after one line."
     }
    ],
-   "example": "Tengo cinco años de experiencia en finanzas. Mi punto fuerte es el análisis de datos: en mi último trabajo automaticé los informes y ahorré cuarenta horas al mes.",
+   "example": "A: ¿Qué tal el finde?\nB: Muy bien, fui a la playa con unos amigos. ¿Y tú?\nA: Tranquilo, vi una serie y descansé. ¡Qué envidia lo de la playa!",
    "speak": [
-    "Tengo cinco años de experiencia en finanzas",
-    "Mi punto fuerte es el análisis de datos",
-    "¿Cuáles serían mis responsabilidades?"
+    "¿Qué tal el finde?",
+    "Muy bien, ¿y tú?",
+    "¡Qué envidia!"
    ],
    "speakLang": "es-ES",
-   "action": "Write a 4-sentence Spanish self-introduction for an interview.",
+   "action": "Ask someone about their weekend in Spanish (or rehearse both sides aloud).",
    "quiz": [
     {
-     "q": "'Puntos fuertes' are…",
+     "q": "'Finde' is short for…",
      "options": [
-      "Weak points",
-      "Strong drinks",
-      "Strengths",
-      "Deadlines"
+      "Final",
+      "Fiesta",
+      "Fin de semana",
+      "Fin del día"
      ],
      "answer": 2,
-     "why": "Strengths."
+     "why": "Informal weekend."
     },
     {
-     "q": "'Hábleme de usted' means…",
+     "q": "'¡Qué envidia!' expresses…",
      "options": [
-      "Speak louder",
-      "Tell me about yourself (formal)",
-      "Call me later",
-      "Speak to him"
+      "Boredom",
+      "Playful jealousy",
+      "Sadness",
+      "Anger"
      ],
      "answer": 1,
-     "why": "Formal request."
+     "why": "I'm jealous!"
     },
     {
-     "q": "A good question to ask at the end is…",
+     "q": "A good small-talk habit is to…",
      "options": [
-      "¿Puedo irme?",
-      "Nothing",
-      "¿Cuáles son los próximos pasos?",
-      "¿Cuánto es el sueldo? (first)"
+      "Talk about salaries",
+      "Change the subject",
+      "Add detail and ask back",
+      "Answer with one word"
      ],
      "answer": 2,
-     "why": "Next steps."
+     "why": "Keep it flowing."
     }
    ]
   },

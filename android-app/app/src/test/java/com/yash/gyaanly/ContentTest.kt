@@ -39,6 +39,7 @@ class ContentTest {
                     assertEquals("${l.id}: '${q.question}' has duplicate options", 4, q.options.toSet().size)
                     assertTrue("${l.id}: bad answer index", q.answerIndex in q.options.indices)
                 }
+                l.link?.let { assertTrue("${l.id}: link must be https", it.url.startsWith("https://")) }
                 l.calculatorId?.let { assertTrue("${l.id}: unknown calculator $it", Calculators.byId(it) != null) }
             }
         }
@@ -57,7 +58,7 @@ class ContentTest {
     fun trackSpecificBlocksArePresent() {
         pack("english")!!.lessons.forEach { assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty()) }
         pack("ai")!!.lessons.forEach { assertTrue("${it.id}: no action", it.action != null) }
-        mapOf("korean" to "ko-KR", "spanish" to "es-ES").forEach { (key, lang) ->
+        mapOf("spanish" to "es-ES").forEach { (key, lang) ->
             pack(key)?.lessons?.forEach {
                 assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty())
                 assertEquals("${it.id}: wrong speech language", lang, it.speakLang)

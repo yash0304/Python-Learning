@@ -15,6 +15,7 @@
   "B2",
   "C1",
   "C2",
+  "Learn with Videos",
   "Interview Prep"
  ],
  "lessons": [
@@ -6115,6 +6116,666 @@
      ],
      "answer": 0,
      "why": "A powerful speaking drill."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-01",
+   "level": "Learn with Videos",
+   "title": "Watch actively, not passively",
+   "summary": "Turn any English video into a speaking lesson.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Passive watching (just listening) improves understanding a little. Active watching builds speaking: you pause, notice useful phrases, repeat them and use them. Choose short videos (5-15 minutes) on topics you need: meetings, small talk, interviews, pronunciation."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. Watch once for the general idea (no pausing).\n2. Watch again with English subtitles; pause after useful sentences.\n3. Write down 5 phrases you want to use.\n4. Say each phrase aloud 3 times.\n5. Use 2 of them today in a message or conversation."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't turn on subtitles in your own language. Use English subtitles or none, so your brain stays in English."
+    }
+   ],
+   "example": "Phrase notebook entry:\n'Could you walk me through…?' = Could you explain step by step?\nMy sentence: 'Could you walk me through the new budget process?'",
+   "speak": [
+    "Could you walk me through the process?",
+    "That's a great point.",
+    "Let me think about that for a second."
+   ],
+   "action": "Open the channel, pick one short video and write down 5 useful phrases.",
+   "quiz": [
+    {
+     "q": "Which is 'active' watching?",
+     "options": [
+      "Pausing, noting and repeating phrases",
+      "Playing a video in the background",
+      "Reading comments",
+      "Watching at 2x speed"
+     ],
+     "answer": 0,
+     "why": "Engage with the language."
+    },
+    {
+     "q": "Which subtitles are best for learning?",
+     "options": [
+      "English or none",
+      "Always none from day one",
+      "Your native language",
+      "Any language"
+     ],
+     "answer": 0,
+     "why": "Stay in English."
+    },
+    {
+     "q": "How many phrases should you collect per video?",
+     "options": [
+      "About 5 useful phrases",
+      "100",
+      "Zero",
+      "Every word"
+     ],
+     "answer": 0,
+     "why": "Focus on usable language."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-02",
+   "level": "Learn with Videos",
+   "title": "The shadowing technique",
+   "summary": "Speak along with a native speaker to copy rhythm and sound.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Shadowing means repeating what a speaker says almost at the same time, like a shadow. It trains pronunciation, rhythm, stress and speed together. Researchers and polyglots use it to build fluency fast."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. Choose a 30-60 second clip.\n2. Listen twice.\n3. Play sentence by sentence; pause and repeat exactly, copying speed and emotion.\n4. Then try speaking at the same time as the speaker without pausing.\n5. Record yourself once at the end."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't focus on every word at first. Copy the melody (rise and fall) and the rhythm; clarity follows."
+    }
+   ],
+   "example": "Original: 'I'd love to, but I'm afraid I can't make it today.'\nShadow it: match where the voice rises ('love') and the stressed words ('can't', 'today').",
+   "speak": [
+    "I'd love to, but I'm afraid I can't make it today.",
+    "That sounds like a great idea.",
+    "Let's touch base next week."
+   ],
+   "action": "Shadow one 60-second clip from the channel 5 times today.",
+   "quiz": [
+    {
+     "q": "Shadowing means…",
+     "options": [
+      "Translating",
+      "Watching silently",
+      "Writing notes",
+      "Repeating right after or with the speaker"
+     ],
+     "answer": 3,
+     "why": "Speak along."
+    },
+    {
+     "q": "What should you copy first?",
+     "options": [
+      "Rhythm and melody",
+      "Only grammar",
+      "Every single word perfectly",
+      "Only spelling"
+     ],
+     "answer": 0,
+     "why": "Music of the language."
+    },
+    {
+     "q": "A good clip length for shadowing is…",
+     "options": [
+      "30-60 seconds",
+      "1 second",
+      "1 hour",
+      "A full movie"
+     ],
+     "answer": 0,
+     "why": "Short and repeatable."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-03",
+   "level": "Learn with Videos",
+   "title": "Phrase mining: build your phrase bank",
+   "summary": "Collect ready-to-use chunks, not single words.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Fluent speakers use chunks: 'to be honest', 'it depends on', 'the thing is', 'I was wondering if'. Learning chunks makes speech faster and more natural than building sentences word by word."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. While watching, listen for phrases of 2-6 words.\n2. Write: phrase → meaning → your own example.\n3. Group them: meetings, opinions, small talk, polite requests.\n4. Review your phrase bank every Sunday.\n5. Try to use 3 new phrases each week at work."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Write a personal example sentence for each phrase. Copying the video's sentence alone won't make it yours."
+    }
+   ],
+   "example": "Phrase: 'The thing is, …'\nMeaning: introduces the real problem.\nMy example: 'The thing is, we don't have enough data yet.'",
+   "speak": [
+    "To be honest, I'm not sure.",
+    "The thing is, we need more time.",
+    "It depends on the budget."
+   ],
+   "action": "Start a 'phrase bank' note with 10 phrases from one video, grouped by situation.",
+   "quiz": [
+    {
+     "q": "A 'chunk' is…",
+     "options": [
+      "A grammar rule",
+      "A single letter",
+      "A video chapter",
+      "A ready-made group of words"
+     ],
+     "answer": 3,
+     "why": "Multi-word phrases."
+    },
+    {
+     "q": "Why add your own example?",
+     "options": [
+      "To fill space",
+      "To personalise and remember it",
+      "It's required by YouTube",
+      "No reason"
+     ],
+     "answer": 1,
+     "why": "Ownership."
+    },
+    {
+     "q": "How often should you review your phrase bank?",
+     "options": [
+      "Never",
+      "Once a year",
+      "Weekly",
+      "Only before exams"
+     ],
+     "answer": 2,
+     "why": "Regular review."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-04",
+   "level": "Learn with Videos",
+   "title": "Copy word stress and intonation",
+   "summary": "Sound clearer by copying where natives put emphasis.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "English meaning depends on stress: 'I didn't say HE stole it' vs 'I didn't say he STOLE it'. Natives stress key information words and let small words become weak."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. Pick 3 sentences from a video.\n2. Mark the stressed words in CAPITALS.\n3. Draw arrows for rising ↗ or falling ↘ intonation at the end.\n4. Repeat after the speaker, exaggerating the stress.\n5. Use Gyaanly's mic to check clarity."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't stress every word equally; that sounds robotic. Stress the meaning words."
+    }
+   ],
+   "example": "'We need the REPORT by FRIDAY.' ↘\n'Are you COMING to the MEETING?' ↗",
+   "speak": [
+    "We need the report by Friday.",
+    "Are you coming to the meeting?",
+    "I didn't say he stole it."
+   ],
+   "action": "Mark stress and intonation on 3 sentences from the channel and shadow them.",
+   "quiz": [
+    {
+     "q": "Which words are usually stressed?",
+     "options": [
+      "Every word",
+      "Key information words",
+      "Only the first word",
+      "a, the, of"
+     ],
+     "answer": 1,
+     "why": "Content words."
+    },
+    {
+     "q": "Yes/no questions usually end with…",
+     "options": [
+      "Falling intonation",
+      "Rising intonation",
+      "No change",
+      "A whisper"
+     ],
+     "answer": 1,
+     "why": "Rise ↗."
+    },
+    {
+     "q": "Stressing every word equally sounds…",
+     "options": [
+      "Fast",
+      "Robotic",
+      "Natural",
+      "Polite"
+     ],
+     "answer": 1,
+     "why": "Flat and unnatural."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-05",
+   "level": "Learn with Videos",
+   "title": "Understand fast natural speech",
+   "summary": "Decode linking, reductions and contractions.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "In natural speech, words link and shrink: 'want to' → 'wanna', 'going to' → 'gonna', 'what do you' → 'whaddaya', 'I'd have' → 'I'd've'. Final consonants link to next vowels: 'turn_off' → 'tur-noff'."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. Find a sentence you didn't catch.\n2. Slow the video to 0.75x.\n3. Write what you hear, then check the subtitles.\n4. Note the reduction (e.g. 'gonna').\n5. Shadow it at normal speed."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Understand reductions, but in formal meetings say 'going to' rather than 'gonna' until you're comfortable."
+    }
+   ],
+   "example": "Heard: 'Whaddaya think about it?'\nWritten: 'What do you think about it?'",
+   "speak": [
+    "What do you think about it?",
+    "I'm going to call them later.",
+    "Turn off the projector, please."
+   ],
+   "action": "Use 0.75x speed to decode 3 fast sentences from a video.",
+   "quiz": [
+    {
+     "q": "'Gonna' is the spoken form of…",
+     "options": [
+      "Go now",
+      "Got to",
+      "Gone to",
+      "Going to"
+     ],
+     "answer": 3,
+     "why": "Reduction."
+    },
+    {
+     "q": "A useful tool for fast speech is…",
+     "options": [
+      "Muting the video",
+      "Skipping ahead",
+      "Closing your eyes",
+      "Playback speed 0.75x"
+     ],
+     "answer": 3,
+     "why": "Slow it down."
+    },
+    {
+     "q": "In formal meetings it's safer to say…",
+     "options": [
+      "gonna",
+      "going to",
+      "gon",
+      "gunna"
+     ],
+     "answer": 1,
+     "why": "Full form."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-06",
+   "level": "Learn with Videos",
+   "title": "Speak in chunks with natural pauses",
+   "summary": "Pausing makes you sound calm and confident.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Good speakers pause between meaning groups (thought groups): 'In my opinion, / we should focus / on existing customers.' Pauses give listeners time to understand and make you sound in control."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. Take a paragraph the speaker says.\n2. Mark pauses with '/'.\n3. Read it aloud with those pauses.\n4. Record and compare with the speaker.\n5. Repeat with your own 3-sentence answer."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Silence is better than 'um, uh'. A short pause sounds thoughtful, not nervous."
+    }
+   ],
+   "example": "'The main reason / is that our costs / have increased / by twenty percent.'",
+   "speak": [
+    "The main reason is that our costs have increased.",
+    "In my opinion, we should focus on existing customers.",
+    "Let me explain the next step."
+   ],
+   "action": "Mark thought groups in one paragraph and read it aloud with pauses.",
+   "quiz": [
+    {
+     "q": "A 'thought group' is…",
+     "options": [
+      "A team meeting",
+      "A paragraph",
+      "A brainstorm",
+      "A meaningful chunk between pauses"
+     ],
+     "answer": 3,
+     "why": "Unit of speech."
+    },
+    {
+     "q": "Better than saying 'um' is…",
+     "options": [
+      "Talking faster",
+      "A short silent pause",
+      "Repeating the word",
+      "Coughing"
+     ],
+     "answer": 1,
+     "why": "Pauses sound confident."
+    },
+    {
+     "q": "Pauses help listeners to…",
+     "options": [
+      "Lose interest",
+      "Process what you said",
+      "Leave",
+      "Interrupt"
+     ],
+     "answer": 1,
+     "why": "Clarity."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-07",
+   "level": "Learn with Videos",
+   "title": "Natural expressions and reactions",
+   "summary": "React like a native in conversations.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Natives react constantly: 'Really?', 'That makes sense', 'Fair enough', 'No way!', 'I see what you mean', 'Good point'. These small reactions keep conversations flowing and show you're listening."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. While watching, note how speakers react or agree.\n2. Collect 10 reaction phrases.\n3. Sort them: surprise, agreement, understanding, sympathy.\n4. Practise each with the right tone.\n5. Use 3 in your next conversation."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Tone matters: 'Really?' with rising surprise vs flat 'Really.' (sarcastic). Copy the speaker's tone exactly."
+    }
+   ],
+   "example": "A: We finished the project two days early.\nB: No way! That's brilliant.\nA: The client wants changes again.\nB: Fair enough. Let's look at them.",
+   "speak": [
+    "That makes sense.",
+    "Fair enough.",
+    "I see what you mean."
+   ],
+   "action": "Use three new reaction phrases in conversations today.",
+   "quiz": [
+    {
+     "q": "'Fair enough' means…",
+     "options": [
+      "I'm angry",
+      "Repeat please",
+      "That's unfair",
+      "That's reasonable, I accept it"
+     ],
+     "answer": 3,
+     "why": "Acceptance."
+    },
+    {
+     "q": "Reactions in conversation show…",
+     "options": [
+      "Nothing",
+      "Boredom",
+      "That you're listening",
+      "Disagreement only"
+     ],
+     "answer": 2,
+     "why": "Active listening."
+    },
+    {
+     "q": "Why copy the speaker's tone?",
+     "options": [
+      "To sound louder",
+      "Tone can change the meaning",
+      "It's fun",
+      "It's required"
+     ],
+     "answer": 1,
+     "why": "Sarcasm vs surprise."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-08",
+   "level": "Learn with Videos",
+   "title": "Retell the video in your own words",
+   "summary": "Turn input into output: summarise what you watched.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Retelling forces you to use new phrases actively. It's one of the most effective speaking exercises: you have the ideas already, so you can focus on expressing them."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. Watch a short video.\n2. Without notes, speak for 1 minute: 'This video is about… The main points are… One thing I found useful was…'\n3. Record it.\n4. Re-watch and note what you missed.\n5. Retell again, adding 2 new phrases."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't memorise and recite. Paraphrase in your own words; that's the skill used in meetings."
+    }
+   ],
+   "example": "'This video is about polite ways to disagree. The main point is to soften your opinion, for example \"I see it a bit differently\". One thing I found useful was…'",
+   "speak": [
+    "This video is about polite ways to disagree.",
+    "The main point is to soften your opinion.",
+    "One thing I found really useful was…"
+   ],
+   "action": "Retell one video from the channel in 1 minute and record it.",
+   "quiz": [
+    {
+     "q": "Retelling helps because…",
+     "options": [
+      "It's passive",
+      "It avoids speaking",
+      "It's only for writing",
+      "It turns listening input into speaking output"
+     ],
+     "answer": 3,
+     "why": "Active production."
+    },
+    {
+     "q": "A good retelling opener is…",
+     "options": [
+      "Blah blah",
+      "Subscribe!",
+      "This video is about…",
+      "I don't know"
+     ],
+     "answer": 2,
+     "why": "Clear structure."
+    },
+    {
+     "q": "Should you memorise the script word for word?",
+     "options": [
+      "Only the title",
+      "Yes",
+      "Only numbers",
+      "No, paraphrase in your own words"
+     ],
+     "answer": 3,
+     "why": "Paraphrasing is the skill."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-09",
+   "level": "Learn with Videos",
+   "title": "Record, compare and improve",
+   "summary": "Your phone is your speaking coach.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Recording yourself reveals pronunciation, pace and filler words you can't notice while speaking. Comparing with the native speaker shows exactly what to fix."
+    },
+    {
+     "h": "Your video routine",
+     "b": "1. Record yourself saying a 20-second clip.\n2. Play the original, then your recording.\n3. Note 2 differences (a sound, stress, speed, pause).\n4. Practise just those 2 points.\n5. Record again and compare progress weekly."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Focus on clarity, not accent. Being easy to understand matters far more than sounding American or British."
+    }
+   ],
+   "example": "Notes after comparing: 'I said \"develop\" with stress on DE, the speaker said de-VE-lop. I also spoke too fast in the second sentence.'",
+   "speak": [
+    "We need to develop a new strategy.",
+    "Clarity matters more than accent.",
+    "I'll practise this every day."
+   ],
+   "action": "Record yourself, compare with a clip and fix 2 specific points.",
+   "quiz": [
+    {
+     "q": "Recording yourself helps you notice…",
+     "options": [
+      "Only volume",
+      "Only grammar",
+      "Pronunciation, pace and fillers",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Self-awareness."
+    },
+    {
+     "q": "What matters more than a 'perfect accent'?",
+     "options": [
+      "Volume",
+      "Long words",
+      "Speed",
+      "Clarity"
+     ],
+     "answer": 3,
+     "why": "Being understood."
+    },
+    {
+     "q": "How many points should you fix at a time?",
+     "options": [
+      "None",
+      "20",
+      "About 2",
+      "All of them"
+     ],
+     "answer": 2,
+     "why": "Small, focused improvements."
+    }
+   ]
+  },
+  {
+   "id": "en-vid-10",
+   "level": "Learn with Videos",
+   "title": "Your weekly video learning plan",
+   "summary": "Make video practice a habit that compounds.",
+   "link": {
+    "label": "Open Speak English With Class",
+    "url": "https://www.youtube.com/@speakenglishwithclass"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Consistency beats long sessions. 15-20 minutes a day with a clear routine produces visible fluency gains in a few months."
+    },
+    {
+     "h": "Your video routine",
+     "b": "Mon: watch actively + 5 phrases\nTue: shadow a 60-second clip\nWed: mark stress and pauses\nThu: decode fast speech at 0.75x\nFri: retell a video in 1 minute\nSat: record and compare\nSun: review your phrase bank and pick 3 phrases for next week"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Pair videos with Gyaanly's daily English lesson. Use the app's mic to check the phrases you collected."
+    }
+   ],
+   "example": "This week's 3 phrases: 'Could you walk me through…', 'The thing is…', 'Fair enough.' Goal: use each twice at work.",
+   "speak": [
+    "Could you walk me through the plan?",
+    "The thing is, we need more data.",
+    "Fair enough, let's do it your way."
+   ],
+   "action": "Copy this weekly plan into your calendar and start tomorrow. 🎬",
+   "quiz": [
+    {
+     "q": "What matters most for progress?",
+     "options": [
+      "Watching at 2x speed",
+      "Avoiding speaking",
+      "Long sessions once a month",
+      "Daily consistency"
+     ],
+     "answer": 3,
+     "why": "Habit compounds."
+    },
+    {
+     "q": "A good daily time target is…",
+     "options": [
+      "Only weekends",
+      "2 minutes",
+      "5 hours",
+      "15-20 minutes"
+     ],
+     "answer": 3,
+     "why": "Sustainable."
+    },
+    {
+     "q": "What should you do on Sundays in this plan?",
+     "options": [
+      "Delete notes",
+      "Watch films only",
+      "Review the phrase bank and choose 3 phrases",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Weekly review."
     }
    ]
   },

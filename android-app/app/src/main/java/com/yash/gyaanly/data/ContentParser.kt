@@ -52,6 +52,7 @@ object ContentParser {
                 explanation = it.optString("why"),
             )
         }.orEmpty(),
+        link = o.optJSONObject("link")?.let { LessonLink(it.getString("label"), it.getString("url")) },
     )
 
     /** Parses "#RRGGBB" or "#AARRGGBB" into an ARGB long. */
