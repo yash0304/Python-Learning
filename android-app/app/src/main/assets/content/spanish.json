@@ -1,0 +1,6720 @@
+{
+ "track": {
+  "key": "spanish",
+  "title": "Spanish",
+  "tagline": "The easiest new language: speak from day one",
+  "emoji": "🇪🇸",
+  "color": "#2B8A3E",
+  "order": 4,
+  "levelPicker": true
+ },
+ "levels": [
+  "A1",
+  "A2",
+  "B1",
+  "B2",
+  "C1"
+ ],
+ "lessons": [
+  {
+   "id": "es-01",
+   "level": "A1",
+   "title": "Spanish sounds: the five vowels",
+   "summary": "Spanish is read exactly as it's written. Start with five pure vowels.",
+   "term": {
+    "word": "a, e, i, o, u",
+    "meaning": "The five Spanish vowels; each has one short, clear sound."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "a = 'a' in 'father' · e = 'e' in 'bed' · i = 'ee' in 'see' · o = 'o' in 'go' (short) · u = 'oo' in 'moon'\nVowels never change sound, unlike English. 'casa' (house) = KAH-sah.\nStress: words ending in a vowel, n or s stress the second-last syllable (CA-sa, HA-blan); others stress the last (ha-BLAR). An accent mark (á) overrides the rule: ca-FÉ."
+    },
+    {
+     "h": "Use it",
+     "b": "Once you know these rules you can pronounce any Spanish word you read, a big advantage over English and Korean!"
+    },
+    {
+     "h": "Tip",
+     "b": "Keep vowels short and crisp; don't glide them like English 'oh-oo'."
+    }
+   ],
+   "example": "casa (house) · mesa (table) · libro (book) · uno (one) · café (coffee)",
+   "speak": [
+    "casa, mesa, libro",
+    "Hola, ¿qué tal?",
+    "Me gusta el café"
+   ],
+   "speakLang": "es-ES",
+   "action": "Read 10 Spanish words from any product label aloud using the vowel rules.",
+   "quiz": [
+    {
+     "q": "How is 'e' pronounced in Spanish?",
+     "options": [
+      "Like 'ay' in 'day' always",
+      "Like 'ee' in 'see'",
+      "Like 'e' in 'bed'",
+      "Silent"
+     ],
+     "answer": 2,
+     "why": "Short 'e'."
+    },
+    {
+     "q": "Where is the stress in 'casa'?",
+     "options": [
+      "Both equal",
+      "No stress",
+      "ca-SA",
+      "CA-sa"
+     ],
+     "answer": 3,
+     "why": "Ends in a vowel → second-last syllable."
+    },
+    {
+     "q": "What does an accent mark (é) do?",
+     "options": [
+      "Makes it a question",
+      "Makes the letter silent",
+      "Makes the word plural",
+      "Shows the stressed syllable"
+     ],
+     "answer": 3,
+     "why": "Café = ca-FÉ."
+    }
+   ]
+  },
+  {
+   "id": "es-02",
+   "level": "A1",
+   "title": "Tricky consonants",
+   "summary": "Master the few letters that differ from English.",
+   "term": {
+    "word": "ñ (eñe)",
+    "meaning": "A separate letter that sounds like 'ny' in 'canyon'."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "h is always silent: hola = OH-la.\nj (and g before e/i) = a throaty 'h': jamón, gente.\nll and y = 'y' in 'yes': llamo, yo.\nñ = 'ny': España, mañana.\nr = a single tap (like 'tt' in American 'butter'); rr or initial r = rolled: perro, Roma.\nc before e/i and z = 'th' in Spain, 's' in Latin America: cerveza.\nv sounds like b: vino ≈ bino."
+    },
+    {
+     "h": "Use it",
+     "b": "These few rules unlock perfect reading. Practise 'perro' (dog) vs 'pero' (but): the rolled r changes the meaning!"
+    },
+    {
+     "h": "Tip",
+     "b": "If you can't roll the r yet, say 'butter' quickly in an American accent: that tap is the single r."
+    }
+   ],
+   "example": "hola · jamón · llamo · España · perro · pero · cerveza",
+   "speak": [
+    "Hola, me llamo Yash",
+    "Mañana voy a España",
+    "El perro es grande"
+   ],
+   "speakLang": "es-ES",
+   "action": "Practise 'pero' vs 'perro' ten times with the mic until both score above 80%.",
+   "quiz": [
+    {
+     "q": "How is 'h' pronounced in 'hola'?",
+     "options": [
+      "Like j",
+      "Like English h",
+      "Silent",
+      "Like ch"
+     ],
+     "answer": 2,
+     "why": "H is always silent."
+    },
+    {
+     "q": "'ñ' sounds like…",
+     "options": [
+      "n",
+      "ny as in canyon",
+      "g",
+      "ch"
+     ],
+     "answer": 1,
+     "why": "España."
+    },
+    {
+     "q": "'perro' and 'pero' differ by…",
+     "options": [
+      "Rolled rr vs single tap r",
+      "Nothing",
+      "Silent h",
+      "Stress only"
+     ],
+     "answer": 0,
+     "why": "Dog vs but."
+    }
+   ]
+  },
+  {
+   "id": "es-03",
+   "level": "A1",
+   "title": "Greetings and goodbyes",
+   "summary": "Say hello and goodbye at any time of day.",
+   "term": {
+    "word": "Hola",
+    "meaning": "Hello (works anytime, with anyone)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Hola · Buenos días (good morning) · Buenas tardes (good afternoon/evening) · Buenas noches (good night/evening)\n¿Qué tal? / ¿Cómo estás? (How are you?) → Bien, gracias. ¿Y tú?\nAdiós · Hasta luego (see you later) · Hasta mañana (see you tomorrow) · Chao (bye, informal)"
+    },
+    {
+     "h": "Use it",
+     "b": "In Spain people often greet with two cheek kisses; in business a handshake is standard."
+    },
+    {
+     "h": "Tip",
+     "b": "'Buenas tardes' runs until dark (often 8-9 pm in Spain), so it covers much of the evening too."
+    }
+   ],
+   "example": "A: ¡Hola! ¿Qué tal?\nB: Muy bien, gracias. ¿Y tú?\nA: Bien. ¡Hasta luego!",
+   "speak": [
+    "Buenos días",
+    "¿Qué tal?",
+    "Muy bien, gracias. ¿Y tú?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Greet three people (or the mirror!) in Spanish today with the right greeting for the time.",
+   "quiz": [
+    {
+     "q": "Good morning is…",
+     "options": [
+      "Buenas noches",
+      "Adiós",
+      "Hasta luego",
+      "Buenos días"
+     ],
+     "answer": 3,
+     "why": "Días = days/morning."
+    },
+    {
+     "q": "'Hasta luego' means…",
+     "options": [
+      "Good night",
+      "Thank you",
+      "Hello",
+      "See you later"
+     ],
+     "answer": 3,
+     "why": "Common goodbye."
+    },
+    {
+     "q": "A natural reply to '¿Qué tal?' is…",
+     "options": [
+      "Sí",
+      "Bien, gracias. ¿Y tú?",
+      "Adiós",
+      "Me llamo Ana"
+     ],
+     "answer": 1,
+     "why": "Answer and ask back."
+    }
+   ]
+  },
+  {
+   "id": "es-04",
+   "level": "A1",
+   "title": "Introducing yourself",
+   "summary": "Name, origin and job in three simple sentences.",
+   "term": {
+    "word": "Me llamo…",
+    "meaning": "My name is… (literally 'I call myself')."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Me llamo Yash. / Soy Yash. (I'm Yash.)\nSoy de la India. Soy de Ahmedabad. (I'm from India/Ahmedabad.)\nSoy analista financiero (m) / analista financiera (f). (I'm a financial analyst.)\nMucho gusto / Encantado (m) / Encantada (f) = Nice to meet you.\n¿Cómo te llamas? (What's your name?, informal) · ¿Cómo se llama? (formal)"
+    },
+    {
+     "h": "Use it",
+     "b": "Jobs take no article after 'soy': Soy ingeniero (not 'soy un ingeniero')."
+    },
+    {
+     "h": "Tip",
+     "b": "Encantado/encantada agrees with YOUR gender."
+    }
+   ],
+   "example": "A: Hola, me llamo Yash. Soy de la India.\nB: Mucho gusto. Yo soy Lucía, de Madrid.\nA: Encantado.",
+   "speak": [
+    "Me llamo Yash",
+    "Soy de la India",
+    "Mucho gusto"
+   ],
+   "speakLang": "es-ES",
+   "action": "Record a 3-sentence introduction in Spanish with the mic.",
+   "quiz": [
+    {
+     "q": "'Me llamo Ana' means…",
+     "options": [
+      "I call Ana",
+      "I'm Ana's friend",
+      "My name is Ana",
+      "I like Ana"
+     ],
+     "answer": 2,
+     "why": "Literally 'I call myself'."
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "Soy un ingeniero",
+      "Soy ingeniero",
+      "Tengo ingeniero",
+      "Estoy ingeniero"
+     ],
+     "answer": 1,
+     "why": "No article with professions."
+    },
+    {
+     "q": "A woman says 'nice to meet you' as…",
+     "options": [
+      "Encanto",
+      "Encantada",
+      "Encantado",
+      "Encantados"
+     ],
+     "answer": 1,
+     "why": "Agrees with the speaker."
+    }
+   ]
+  },
+  {
+   "id": "es-05",
+   "level": "A1",
+   "title": "The verb SER (to be)",
+   "summary": "Identity, origin, profession and description.",
+   "term": {
+    "word": "ser",
+    "meaning": "To be (permanent characteristics, identity)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "yo soy · tú eres · él/ella/usted es · nosotros somos · vosotros sois (Spain) · ellos/ellas/ustedes son\nUse for: who/what someone is (Soy Yash), origin (Es de México), job (Somos profesores), characteristics (Es alto), time (Son las tres)."
+    },
+    {
+     "h": "Use it",
+     "b": "Describing your company: Nuestra empresa es grande y moderna."
+    },
+    {
+     "h": "Tip",
+     "b": "Spanish usually drops subject pronouns: 'Soy de la India' already means 'I am'."
+    }
+   ],
+   "example": "A: ¿De dónde eres?\nB: Soy de la India. ¿Y tú?\nA: Soy de Colombia.",
+   "speak": [
+    "Soy de la India",
+    "Ella es muy simpática",
+    "Somos un equipo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 5 sentences about yourself and your family using ser.",
+   "quiz": [
+    {
+     "q": "'Nosotros ___ amigos.'",
+     "options": [
+      "somos",
+      "es",
+      "soy",
+      "son"
+     ],
+     "answer": 0,
+     "why": "Nosotros → somos."
+    },
+    {
+     "q": "'¿De dónde eres?' asks…",
+     "options": [
+      "Where are you?",
+      "Who are you?",
+      "Where are you from?",
+      "How are you?"
+     ],
+     "answer": 2,
+     "why": "Origin."
+    },
+    {
+     "q": "Why can you say just 'Soy Yash'?",
+     "options": [
+      "Only in Mexico",
+      "It's slang",
+      "The verb ending already shows the subject",
+      "It's wrong"
+     ],
+     "answer": 2,
+     "why": "Pronoun drop."
+    }
+   ]
+  },
+  {
+   "id": "es-06",
+   "level": "A1",
+   "title": "Tú or usted?",
+   "summary": "Choose the right 'you' for the situation.",
+   "term": {
+    "word": "usted",
+    "meaning": "Formal 'you' (uses the él/ella verb form)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "tú = informal you (friends, family, young people, many colleagues in Spain).\nusted = formal you (older people, clients, officials). Uses 3rd-person verbs: ¿Cómo está usted?\nPlural: ustedes (everyone in Latin America; formal in Spain) · vosotros (informal plural, Spain only)."
+    },
+    {
+     "h": "Use it",
+     "b": "In business, start with usted; switch if the other person says '¿Nos tuteamos?' (Shall we use tú?)."
+    },
+    {
+     "h": "Tip",
+     "b": "Latin America uses usted more than Spain; in Spain tú is very common even at work."
+    }
+   ],
+   "example": "Client: Buenos días. ¿Cómo está usted?\nYou: Muy bien, gracias. ¿Y usted?",
+   "speak": [
+    "¿Cómo está usted?",
+    "¿Cómo estás?",
+    "¿Nos tuteamos?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Decide tú or usted for 5 people in your life and say a greeting to each.",
+   "quiz": [
+    {
+     "q": "Which verb form goes with usted?",
+     "options": [
+      "tú form",
+      "yo form",
+      "él/ella form",
+      "nosotros form"
+     ],
+     "answer": 2,
+     "why": "3rd person singular."
+    },
+    {
+     "q": "'Vosotros' is used…",
+     "options": [
+      "Only in writing",
+      "Only in Mexico",
+      "Mainly in Spain",
+      "Everywhere"
+     ],
+     "answer": 2,
+     "why": "Informal plural in Spain."
+    },
+    {
+     "q": "With a new client, start with…",
+     "options": [
+      "No pronoun ever",
+      "tú",
+      "usted",
+      "vos"
+     ],
+     "answer": 2,
+     "why": "Formal is safer."
+    }
+   ]
+  },
+  {
+   "id": "es-07",
+   "level": "A1",
+   "title": "Gender and articles",
+   "summary": "Every noun is masculine or feminine.",
+   "term": {
+    "word": "el / la / un / una",
+    "meaning": "The (m/f) / a (m/f)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Most nouns ending in -o are masculine (el libro), in -a feminine (la mesa).\nExceptions: el día, el mapa, el problema, la mano, la foto.\nWords ending in -ción, -dad are feminine: la reunión, la ciudad. Ending in -or usually masculine: el ordenador.\nPlural articles: los / las, unos / unas."
+    },
+    {
+     "h": "Use it",
+     "b": "Learn every noun WITH its article: 'la reunión' (the meeting), not just 'reunión'."
+    },
+    {
+     "h": "Tip",
+     "b": "Adjectives must match the noun's gender: el informe nuevo, la oficina nueva."
+    }
+   ],
+   "example": "el café · la oficina · un informe · una reunión · el problema",
+   "speak": [
+    "Tengo una reunión",
+    "El café está caliente",
+    "La oficina es grande"
+   ],
+   "speakLang": "es-ES",
+   "action": "Label 10 objects around you with el/la + noun.",
+   "quiz": [
+    {
+     "q": "Which is correct?",
+     "options": [
+      "lo problema",
+      "la problema",
+      "el problema",
+      "un problema la"
+     ],
+     "answer": 2,
+     "why": "Exception: el problema."
+    },
+    {
+     "q": "Words ending in -ción are usually…",
+     "options": [
+      "Feminine",
+      "Plural",
+      "Neutral",
+      "Masculine"
+     ],
+     "answer": 0,
+     "why": "La reunión, la información."
+    },
+    {
+     "q": "'Unas' is…",
+     "options": [
+      "Feminine plural 'some'",
+      "Singular 'the'",
+      "Masculine plural 'some'",
+      "A verb"
+     ],
+     "answer": 0,
+     "why": "Unas mesas."
+    }
+   ]
+  },
+  {
+   "id": "es-08",
+   "level": "A1",
+   "title": "Plurals and adjective agreement",
+   "summary": "Make nouns plural and adjectives match.",
+   "term": {
+    "word": "plural",
+    "meaning": "More than one."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Vowel ending → add -s: libro → libros. Consonant ending → add -es: reunión → reuniones, ciudad → ciudades.\nAdjectives follow the noun and agree in gender and number: un coche rojo, dos coches rojos, una casa roja, casas rojas.\nAdjectives ending in -e or consonant change only for number: interesante(s), fácil(es)."
+    },
+    {
+     "h": "Use it",
+     "b": "Describing projects: Los resultados son buenos. Las ventas son altas."
+    },
+    {
+     "h": "Tip",
+     "b": "Accent marks may disappear in plurals: reunión → reuniones (stress pattern now follows the rule)."
+    }
+   ],
+   "example": "Tenemos dos reuniones importantes y unos informes nuevos.",
+   "speak": [
+    "Los resultados son buenos",
+    "Tengo dos reuniones",
+    "Las ventas son altas"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe 5 things around you with noun + adjective in singular and plural.",
+   "quiz": [
+    {
+     "q": "Plural of 'ciudad':",
+     "options": [
+      "ciudades",
+      "ciudads",
+      "ciudad",
+      "ciudadas"
+     ],
+     "answer": 0,
+     "why": "Consonant → -es."
+    },
+    {
+     "q": "'Las casas ___' (red):",
+     "options": [
+      "rojo",
+      "roja",
+      "rojos",
+      "rojas"
+     ],
+     "answer": 3,
+     "why": "Feminine plural."
+    },
+    {
+     "q": "Where do most adjectives go?",
+     "options": [
+      "At the end of the sentence",
+      "Anywhere",
+      "Before the noun",
+      "After the noun"
+     ],
+     "answer": 3,
+     "why": "Un coche rojo."
+    }
+   ]
+  },
+  {
+   "id": "es-09",
+   "level": "A1",
+   "title": "Numbers 0-20",
+   "summary": "Count, give phone numbers and quantities.",
+   "term": {
+    "word": "uno, dos, tres",
+    "meaning": "One, two, three."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "0 cero · 1 uno · 2 dos · 3 tres · 4 cuatro · 5 cinco · 6 seis · 7 siete · 8 ocho · 9 nueve · 10 diez\n11 once · 12 doce · 13 trece · 14 catorce · 15 quince · 16 dieciséis · 17 diecisiete · 18 dieciocho · 19 diecinueve · 20 veinte\n'uno' becomes 'un' before masculine nouns (un café) and 'una' before feminine (una mesa)."
+    },
+    {
+     "h": "Use it",
+     "b": "Phone numbers are often read in pairs: 91 234 56 78 = noventa y uno, doscientos treinta y cuatro…"
+    },
+    {
+     "h": "Tip",
+     "b": "16-19 are written as one word: dieciséis (diez + y + seis)."
+    }
+   ],
+   "example": "A: ¿Cuántos son?\nB: Somos cuatro.\nA: Una mesa para cuatro, por favor.",
+   "speak": [
+    "Una mesa para cuatro, por favor",
+    "Tengo dos hermanos",
+    "Mi número es el seis, siete, ocho"
+   ],
+   "speakLang": "es-ES",
+   "action": "Count objects on your desk in Spanish and say your phone number digit by digit.",
+   "quiz": [
+    {
+     "q": "15 is…",
+     "options": [
+      "cincuenta",
+      "quinto",
+      "cinco",
+      "quince"
+     ],
+     "answer": 3,
+     "why": "Quince."
+    },
+    {
+     "q": "'Uno' before a masculine noun becomes…",
+     "options": [
+      "uno",
+      "una",
+      "unos",
+      "un"
+     ],
+     "answer": 3,
+     "why": "Un café."
+    },
+    {
+     "q": "'Doce' is…",
+     "options": [
+      "20",
+      "2",
+      "12",
+      "10"
+     ],
+     "answer": 2,
+     "why": "Doce = 12."
+    }
+   ]
+  },
+  {
+   "id": "es-10",
+   "level": "A1",
+   "title": "Numbers to 100 and age",
+   "summary": "Prices, ages and quantities.",
+   "term": {
+    "word": "tener … años",
+    "meaning": "To be … years old (literally 'to have … years')."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "21 veintiuno · 22 veintidós · 30 treinta · 40 cuarenta · 50 cincuenta · 60 sesenta · 70 setenta · 80 ochenta · 90 noventa · 100 cien\n31 = treinta y uno (from 31 onwards: tens + y + unit).\nAge uses tener: Tengo 30 años (I'm 30)."
+    },
+    {
+     "h": "Use it",
+     "b": "Asking age politely is less common at work; but numbers are vital for prices and data."
+    },
+    {
+     "h": "Tip",
+     "b": "Never 'soy 30 años'. Age always uses tener: 'Tengo treinta años'."
+    }
+   ],
+   "example": "A: ¿Cuántos años tienes?\nB: Tengo treinta y dos años.",
+   "speak": [
+    "Tengo treinta años",
+    "Cuesta cincuenta euros",
+    "Cien por cien"
+   ],
+   "speakLang": "es-ES",
+   "action": "Say the ages of 5 family members in Spanish.",
+   "quiz": [
+    {
+     "q": "'I'm 25 years old':",
+     "options": [
+      "Tengo veinticinco años",
+      "Hay veinticinco años",
+      "Estoy veinticinco",
+      "Soy veinticinco años"
+     ],
+     "answer": 0,
+     "why": "Tener for age."
+    },
+    {
+     "q": "47 is…",
+     "options": [
+      "cuatro siete",
+      "cuarenta siete",
+      "cuarenta y siete",
+      "cuarentisiete"
+     ],
+     "answer": 2,
+     "why": "Tens + y + unit."
+    },
+    {
+     "q": "100 is…",
+     "options": [
+      "cien",
+      "mil",
+      "ciento",
+      "diez"
+     ],
+     "answer": 0,
+     "why": "Cien (ciento + number from 101)."
+    }
+   ]
+  },
+  {
+   "id": "es-11",
+   "level": "A1",
+   "title": "TENER: to have",
+   "summary": "Possession, age and many useful expressions.",
+   "term": {
+    "word": "tener",
+    "meaning": "To have."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "tengo · tienes · tiene · tenemos · tenéis · tienen\nExpressions: tener hambre (be hungry), tener sed (thirsty), tener frío/calor (cold/hot), tener prisa (be in a hurry), tener razón (be right), tener miedo (be afraid)."
+    },
+    {
+     "h": "Use it",
+     "b": "At work: Tengo una reunión a las tres. (I have a meeting at three.) Tengo prisa. (I'm in a hurry.)"
+    },
+    {
+     "h": "Tip",
+     "b": "Spanish says 'I have hunger' (tengo hambre), not 'I am hungry'."
+    }
+   ],
+   "example": "A: ¿Tienes tiempo ahora?\nB: Lo siento, tengo prisa. Tengo una reunión.",
+   "speak": [
+    "Tengo una reunión a las tres",
+    "Tengo hambre",
+    "Tienes razón"
+   ],
+   "speakLang": "es-ES",
+   "action": "Make 5 sentences with tener expressions about how you feel today.",
+   "quiz": [
+    {
+     "q": "'I'm hungry':",
+     "options": [
+      "Estoy hambre",
+      "Soy hambre",
+      "Tengo hambre",
+      "Hay hambre"
+     ],
+     "answer": 2,
+     "why": "Tener hambre."
+    },
+    {
+     "q": "'Tienes razón' means…",
+     "options": [
+      "You're late",
+      "You're right",
+      "You have a reason",
+      "You're hungry"
+     ],
+     "answer": 1,
+     "why": "Idiom."
+    },
+    {
+     "q": "'Nosotros ___ dos hijos.'",
+     "options": [
+      "tenemos",
+      "tienen",
+      "tengo",
+      "tienes"
+     ],
+     "answer": 0,
+     "why": "Nosotros → tenemos."
+    }
+   ]
+  },
+  {
+   "id": "es-12",
+   "level": "A1",
+   "title": "ESTAR: location and feelings",
+   "summary": "The other 'to be': where and how things are.",
+   "term": {
+    "word": "estar",
+    "meaning": "To be (location, temporary states, feelings)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "estoy · estás · está · estamos · estáis · están\nLocation: Estoy en la oficina. Madrid está en España.\nStates/feelings: Estoy cansado. Está enfermo. La sopa está caliente.\nSer vs estar: Es aburrido (he's boring) vs Está aburrido (he's bored)."
+    },
+    {
+     "h": "Use it",
+     "b": "Status updates: Estoy en una reunión. Estoy ocupado."
+    },
+    {
+     "h": "Tip",
+     "b": "Rule of thumb: ser = what something IS; estar = where it is or how it is right now."
+    }
+   ],
+   "example": "A: ¿Dónde estás?\nB: Estoy en la oficina. Estoy un poco cansado.",
+   "speak": [
+    "Estoy en la oficina",
+    "Estoy muy ocupado hoy",
+    "¿Cómo estás?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe where you are and how you feel now using estar.",
+   "quiz": [
+    {
+     "q": "'I'm in a meeting':",
+     "options": [
+      "Estoy en una reunión",
+      "Tengo en una reunión",
+      "Soy en una reunión",
+      "Hay una reunión yo"
+     ],
+     "answer": 0,
+     "why": "Location/state → estar."
+    },
+    {
+     "q": "'Está aburrido' means…",
+     "options": [
+      "He's tired",
+      "He's bored",
+      "He's late",
+      "He's boring"
+     ],
+     "answer": 1,
+     "why": "Temporary state."
+    },
+    {
+     "q": "Location uses…",
+     "options": [
+      "hay",
+      "tener",
+      "ser",
+      "estar"
+     ],
+     "answer": 3,
+     "why": "Dónde está…"
+    }
+   ]
+  },
+  {
+   "id": "es-13",
+   "level": "A1",
+   "title": "HAY: there is, there are",
+   "summary": "Talk about what exists.",
+   "term": {
+    "word": "hay",
+    "meaning": "There is / there are (one form for both)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Hay un problema. (There's a problem.) Hay tres reuniones hoy. (There are three meetings today.)\n¿Hay un banco cerca? (Is there a bank nearby?)\nNo hay tiempo. (There's no time.)\nUse hay with un/una/numbers/no article; use estar for specific things: El banco está aquí."
+    },
+    {
+     "h": "Use it",
+     "b": "Travel and office: ¿Hay wifi? ¿Hay una farmacia cerca?"
+    },
+    {
+     "h": "Tip",
+     "b": "'Hay' never changes for plural, which makes it easy!"
+    }
+   ],
+   "example": "A: Perdón, ¿hay un cajero automático cerca?\nB: Sí, hay uno en la esquina.",
+   "speak": [
+    "¿Hay wifi aquí?",
+    "Hay un problema con el informe",
+    "No hay tiempo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Ask 'is there…?' about 4 places in your area in Spanish.",
+   "quiz": [
+    {
+     "q": "'There are two meetings':",
+     "options": [
+      "Hay dos reunión",
+      "Hay dos reuniones",
+      "Están dos reuniones",
+      "Son dos reuniones"
+     ],
+     "answer": 1,
+     "why": "Hay + plural noun."
+    },
+    {
+     "q": "'El banco ___ aquí' (specific bank):",
+     "options": [
+      "es",
+      "está",
+      "hay",
+      "tiene"
+     ],
+     "answer": 1,
+     "why": "Location of a specific thing."
+    },
+    {
+     "q": "'No hay tiempo' means…",
+     "options": [
+      "Time is late",
+      "There's no time",
+      "I have time",
+      "There is time"
+     ],
+     "answer": 1,
+     "why": "Negative."
+    }
+   ]
+  },
+  {
+   "id": "es-14",
+   "level": "A1",
+   "title": "Present tense: -AR verbs",
+   "summary": "The biggest group of Spanish verbs.",
+   "term": {
+    "word": "hablar",
+    "meaning": "To speak."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Remove -ar and add: -o, -as, -a, -amos, -áis, -an.\nhablo, hablas, habla, hablamos, habláis, hablan.\nCommon -ar verbs: trabajar (work), estudiar (study), necesitar (need), llamar (call), comprar (buy), enviar (send), ayudar (help)."
+    },
+    {
+     "h": "Use it",
+     "b": "Workplace sentences: Trabajo en finanzas. Necesito ayuda. Te envío el informe."
+    },
+    {
+     "h": "Tip",
+     "b": "Many -ar verbs look like English: analizar, presentar, organizar."
+    }
+   ],
+   "example": "A: ¿Hablas español?\nB: Hablo un poco. Estudio todos los días.",
+   "speak": [
+    "Trabajo en finanzas",
+    "Hablo un poco de español",
+    "Necesito ayuda"
+   ],
+   "speakLang": "es-ES",
+   "action": "Conjugate trabajar, estudiar and necesitar for all persons.",
+   "quiz": [
+    {
+     "q": "'Nosotros ___' (trabajar):",
+     "options": [
+      "trabajan",
+      "trabajas",
+      "trabajo",
+      "trabajamos"
+     ],
+     "answer": 3,
+     "why": "-amos."
+    },
+    {
+     "q": "'I need' is…",
+     "options": [
+      "necesitas",
+      "necesitamos",
+      "necesito",
+      "necesita"
+     ],
+     "answer": 2,
+     "why": "-o for yo."
+    },
+    {
+     "q": "'Ellos ___' (hablar):",
+     "options": [
+      "hablo",
+      "hablan",
+      "hablamos",
+      "habla"
+     ],
+     "answer": 1,
+     "why": "-an."
+    }
+   ]
+  },
+  {
+   "id": "es-15",
+   "level": "A1",
+   "title": "Present tense: -ER and -IR verbs",
+   "summary": "Complete your present-tense toolkit.",
+   "term": {
+    "word": "comer / vivir",
+    "meaning": "To eat / to live."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "-er: como, comes, come, comemos, coméis, comen.\n-ir: vivo, vives, vive, vivimos, vivís, viven.\nCommon: beber (drink), leer (read), aprender (learn), comprender (understand), escribir (write), abrir (open), recibir (receive)."
+    },
+    {
+     "h": "Use it",
+     "b": "Vivo en Ahmedabad. Aprendo español. Recibo muchos correos."
+    },
+    {
+     "h": "Tip",
+     "b": "-er and -ir only differ in nosotros/vosotros: comemos vs vivimos."
+    }
+   ],
+   "example": "A: ¿Dónde vives?\nB: Vivo en Ahmedabad, pero trabajo en Mumbai.",
+   "speak": [
+    "Vivo en la India",
+    "Aprendo español",
+    "No comprendo, ¿puede repetir?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 5 sentences about your daily life using -er and -ir verbs.",
+   "quiz": [
+    {
+     "q": "'Nosotros ___' (vivir):",
+     "options": [
+      "vivemos",
+      "vivimos",
+      "viven",
+      "vivo"
+     ],
+     "answer": 1,
+     "why": "-ir → -imos."
+    },
+    {
+     "q": "'I learn':",
+     "options": [
+      "aprendo",
+      "aprendes",
+      "aprendemos",
+      "aprende"
+     ],
+     "answer": 0,
+     "why": "-o."
+    },
+    {
+     "q": "'No comprendo' means…",
+     "options": [
+      "I don't understand",
+      "I don't eat",
+      "I don't buy",
+      "I don't live"
+     ],
+     "answer": 0,
+     "why": "Very useful phrase!"
+    }
+   ]
+  },
+  {
+   "id": "es-16",
+   "level": "A1",
+   "title": "Question words",
+   "summary": "What, who, where, when, why, how, how much.",
+   "term": {
+    "word": "¿Qué? ¿Dónde? ¿Cuándo?",
+    "meaning": "What? Where? When?"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "¿Qué? what · ¿Quién? who · ¿Dónde? where · ¿Cuándo? when · ¿Por qué? why · ¿Cómo? how · ¿Cuánto/a? how much · ¿Cuántos/as? how many · ¿Cuál? which\nQuestions open with ¿ and close with ?. Question words carry an accent."
+    },
+    {
+     "h": "Use it",
+     "b": "¿Cuándo es la reunión? ¿Dónde está la sala? ¿Por qué no funciona?"
+    },
+    {
+     "h": "Tip",
+     "b": "¿Por qué? (why, two words, accent) vs porque (because, one word, no accent)."
+    }
+   ],
+   "example": "A: ¿Por qué estudias español?\nB: Porque quiero viajar a España.",
+   "speak": [
+    "¿Dónde está la sala de reuniones?",
+    "¿Cuándo es la reunión?",
+    "¿Por qué estudias español?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 6 questions with different question words and answer them.",
+   "quiz": [
+    {
+     "q": "'Why' is…",
+     "options": [
+      "¿qué?",
+      "¿cuál?",
+      "porque",
+      "¿por qué?"
+     ],
+     "answer": 3,
+     "why": "Two words with accent."
+    },
+    {
+     "q": "'¿Cuántos?' means…",
+     "options": [
+      "When",
+      "How much (uncountable)",
+      "How many (masc. plural)",
+      "Which"
+     ],
+     "answer": 2,
+     "why": "Cuántos años, cuántos libros."
+    },
+    {
+     "q": "Spanish questions start with…",
+     "options": [
+      "!",
+      "¿",
+      "Nothing",
+      "?"
+     ],
+     "answer": 1,
+     "why": "Inverted question mark."
+    }
+   ]
+  },
+  {
+   "id": "es-17",
+   "level": "A1",
+   "title": "Days, months and dates",
+   "summary": "Plan your week in Spanish.",
+   "term": {
+    "word": "hoy, mañana, ayer",
+    "meaning": "Today, tomorrow, yesterday."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Days (lowercase!): lunes, martes, miércoles, jueves, viernes, sábado, domingo.\nMonths (lowercase): enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.\nDate: Hoy es lunes, 12 de octubre. On Monday = el lunes; on Mondays = los lunes."
+    },
+    {
+     "h": "Use it",
+     "b": "Scheduling: La reunión es el jueves. Trabajo de lunes a viernes."
+    },
+    {
+     "h": "Tip",
+     "b": "'Mañana' means both 'tomorrow' and 'morning': mañana por la mañana = tomorrow morning."
+    }
+   ],
+   "example": "A: ¿Qué día es hoy?\nB: Hoy es viernes, doce de octubre.",
+   "speak": [
+    "Hoy es lunes",
+    "La reunión es el jueves",
+    "Trabajo de lunes a viernes"
+   ],
+   "speakLang": "es-ES",
+   "action": "Say today's full date in Spanish.",
+   "quiz": [
+    {
+     "q": "Days of the week in Spanish are written…",
+     "options": [
+      "With accents always",
+      "In lowercase",
+      "With a capital letter",
+      "In italics"
+     ],
+     "answer": 1,
+     "why": "lunes, martes…"
+    },
+    {
+     "q": "'On Mondays' (habit):",
+     "options": [
+      "el lunes",
+      "los lunes",
+      "en lunes",
+      "lunes a"
+     ],
+     "answer": 1,
+     "why": "Plural article for habits."
+    },
+    {
+     "q": "'Mañana por la mañana' means…",
+     "options": [
+      "Tomorrow morning",
+      "This morning",
+      "Every morning",
+      "Yesterday morning"
+     ],
+     "answer": 0,
+     "why": "Double meaning."
+    }
+   ]
+  },
+  {
+   "id": "es-18",
+   "level": "A1",
+   "title": "Telling time",
+   "summary": "Ask and say the time.",
+   "term": {
+    "word": "¿Qué hora es?",
+    "meaning": "What time is it?"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Es la una (1:00) · Son las dos (2:00) · Son las tres y cuarto (3:15) · Son las cuatro y media (4:30) · Son las cinco menos cuarto (4:45)\nAt what time: ¿A qué hora…? → A las nueve.\nde la mañana (a.m.), de la tarde (afternoon), de la noche (night)."
+    },
+    {
+     "h": "Use it",
+     "b": "Meetings: La llamada es a las diez y media de la mañana."
+    },
+    {
+     "h": "Tip",
+     "b": "Use 'es' only for one o'clock (es la una); otherwise 'son las…'."
+    }
+   ],
+   "example": "A: ¿A qué hora es la reunión?\nB: A las tres de la tarde.",
+   "speak": [
+    "¿Qué hora es?",
+    "Son las tres y media",
+    "La reunión es a las diez"
+   ],
+   "speakLang": "es-ES",
+   "action": "Say the time in Spanish every time you look at a clock today.",
+   "quiz": [
+    {
+     "q": "1:00 is…",
+     "options": [
+      "Es la una",
+      "Son las una",
+      "Son uno",
+      "Es uno"
+     ],
+     "answer": 0,
+     "why": "Singular for one."
+    },
+    {
+     "q": "4:45 is…",
+     "options": [
+      "Son las cinco menos cuarto",
+      "Son las cuatro y media",
+      "Son las cinco y cuarto",
+      "Son las cuatro y cuarto"
+     ],
+     "answer": 0,
+     "why": "Five minus a quarter."
+    },
+    {
+     "q": "'¿A qué hora…?' asks…",
+     "options": [
+      "What time is it now?",
+      "At what time…?",
+      "How many hours?",
+      "Which day?"
+     ],
+     "answer": 1,
+     "why": "Scheduling."
+    }
+   ]
+  },
+  {
+   "id": "es-19",
+   "level": "A1",
+   "title": "Family",
+   "summary": "Talk about the people closest to you.",
+   "term": {
+    "word": "la familia",
+    "meaning": "The family."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "padre/madre (father/mother) · padres (parents) · hermano/hermana (brother/sister) · hijo/hija (son/daughter) · abuelo/abuela (grandparents) · tío/tía (uncle/aunt) · primo/prima (cousin) · esposo/esposa (husband/wife)\nPossessives: mi (my), tu (your), su (his/her/their)."
+    },
+    {
+     "h": "Use it",
+     "b": "Small talk: ¿Tienes hermanos? Tengo una hermana mayor (older) y un hermano menor (younger)."
+    },
+    {
+     "h": "Tip",
+     "b": "Masculine plural can include both genders: 'mis hermanos' = my brothers or my siblings."
+    }
+   ],
+   "example": "A: ¿Tienes hermanos?\nB: Sí, tengo una hermana. Vive en Londres.",
+   "speak": [
+    "Tengo una hermana mayor",
+    "Mis padres viven en la India",
+    "¿Tienes hermanos?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe your family in 4 Spanish sentences.",
+   "quiz": [
+    {
+     "q": "'Hermanos' can mean…",
+     "options": [
+      "Only brothers",
+      "Brothers or siblings",
+      "Cousins",
+      "Parents"
+     ],
+     "answer": 1,
+     "why": "Mixed group."
+    },
+    {
+     "q": "'Abuela' is…",
+     "options": [
+      "Aunt",
+      "Grandmother",
+      "Mother",
+      "Cousin"
+     ],
+     "answer": 1,
+     "why": "Grandma."
+    },
+    {
+     "q": "'Younger' is…",
+     "options": [
+      "mismo",
+      "menor",
+      "mejor",
+      "mayor"
+     ],
+     "answer": 1,
+     "why": "Menor = younger."
+    }
+   ]
+  },
+  {
+   "id": "es-20",
+   "level": "A1",
+   "title": "Ordering food",
+   "summary": "Eat out confidently.",
+   "term": {
+    "word": "la cuenta",
+    "meaning": "The bill."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Quiero… / Quisiera… (I'd like, polite) · Para mí, … (For me…) · ¿Qué me recomienda?\nDe primero / de segundo / de postre (first course / main / dessert).\nLa cuenta, por favor. · ¿Se puede pagar con tarjeta?"
+    },
+    {
+     "h": "Use it",
+     "b": "'Quisiera' is a polite, natural way to order in any Spanish-speaking country."
+    },
+    {
+     "h": "Tip",
+     "b": "In Spain, call staff politely with '¡Perdone!' and ask for the bill; they rarely bring it unasked."
+    }
+   ],
+   "example": "Camarero: ¿Qué desea?\nYou: Para mí, una paella y un agua sin gas, por favor.",
+   "speak": [
+    "Quisiera una paella, por favor",
+    "¿Qué me recomienda?",
+    "La cuenta, por favor"
+   ],
+   "speakLang": "es-ES",
+   "action": "Order a full meal aloud in Spanish: starter, main, drink and the bill.",
+   "quiz": [
+    {
+     "q": "'La cuenta' is…",
+     "options": [
+      "The bill",
+      "The table",
+      "The menu",
+      "The tip"
+     ],
+     "answer": 0,
+     "why": "Ask for it."
+    },
+    {
+     "q": "A polite way to order is…",
+     "options": [
+      "Quiero ya",
+      "Quisiera",
+      "Dame",
+      "Tengo"
+     ],
+     "answer": 1,
+     "why": "I would like."
+    },
+    {
+     "q": "'Agua sin gas' is…",
+     "options": [
+      "Still water",
+      "Ice",
+      "Sparkling water",
+      "Hot water"
+     ],
+     "answer": 0,
+     "why": "Without gas."
+    }
+   ]
+  },
+  {
+   "id": "es-21",
+   "level": "A1",
+   "title": "Shopping and prices",
+   "summary": "Ask prices and buy things.",
+   "term": {
+    "word": "¿Cuánto cuesta?",
+    "meaning": "How much does it cost?"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "¿Cuánto cuesta? (one item) / ¿Cuánto cuestan? (plural) · Es caro/barato (expensive/cheap) · ¿Tiene otra talla? (another size?) · Me lo llevo (I'll take it) · ¿Puedo pagar con tarjeta?\nMoney: euro (Spain), peso (Mexico and others)."
+    },
+    {
+     "h": "Use it",
+     "b": "Shopping and vendor conversations become easy with five phrases."
+    },
+    {
+     "h": "Tip",
+     "b": "'Me lo llevo' / 'me la llevo' changes with the item's gender."
+    }
+   ],
+   "example": "A: ¿Cuánto cuesta esta camisa?\nB: Veinticinco euros.\nA: Perfecto, me la llevo.",
+   "speak": [
+    "¿Cuánto cuesta?",
+    "Es un poco caro",
+    "Me lo llevo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Ask the price of 3 items at home in Spanish, then 'buy' one.",
+   "quiz": [
+    {
+     "q": "'Barato' means…",
+     "options": [
+      "New",
+      "Expensive",
+      "Big",
+      "Cheap"
+     ],
+     "answer": 3,
+     "why": "Cheap."
+    },
+    {
+     "q": "For plural items ask…",
+     "options": [
+      "¿Cuánto cuestan?",
+      "¿Cuánto cuesta?",
+      "¿Cuántos cuesta?",
+      "¿Qué cuesta?"
+     ],
+     "answer": 0,
+     "why": "Plural verb."
+    },
+    {
+     "q": "'Me lo llevo' means…",
+     "options": [
+      "Wrap it",
+      "I don't like it",
+      "I'll take it",
+      "I'll leave it"
+     ],
+     "answer": 2,
+     "why": "Decision to buy."
+    }
+   ]
+  },
+  {
+   "id": "es-22",
+   "level": "A1",
+   "title": "IR and plans with 'ir a'",
+   "summary": "Say where you're going and what you're going to do.",
+   "term": {
+    "word": "ir",
+    "meaning": "To go."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "voy · vas · va · vamos · vais · van\nGoing to a place: Voy a la oficina. (a + el = al: Voy al banco.)\nFuture plans: ir a + infinitive: Voy a estudiar. Vamos a cenar.\n¡Vamos! = Let's go!"
+    },
+    {
+     "h": "Use it",
+     "b": "Plans: Este fin de semana voy a descansar. Mañana voy a llamar al cliente."
+    },
+    {
+     "h": "Tip",
+     "b": "'a + el' always contracts to 'al': al cine, al trabajo."
+    }
+   ],
+   "example": "A: ¿Qué vas a hacer este fin de semana?\nB: Voy a visitar a mis padres.",
+   "speak": [
+    "Voy a la oficina",
+    "Voy a llamar al cliente mañana",
+    "¡Vamos!"
+   ],
+   "speakLang": "es-ES",
+   "action": "Say three things you're going to do this weekend with 'voy a…'.",
+   "quiz": [
+    {
+     "q": "'I'm going to the bank':",
+     "options": [
+      "Voy a el banco",
+      "Voy en banco",
+      "Voy al banco",
+      "Voy banco"
+     ],
+     "answer": 2,
+     "why": "a + el = al."
+    },
+    {
+     "q": "'Vamos a cenar' means…",
+     "options": [
+      "Don't eat",
+      "We dined",
+      "Dinner is ready",
+      "We're going to have dinner"
+     ],
+     "answer": 3,
+     "why": "Near future."
+    },
+    {
+     "q": "'Ellos ___' (ir):",
+     "options": [
+      "va",
+      "voy",
+      "van",
+      "vamos"
+     ],
+     "answer": 2,
+     "why": "Ellos van."
+    }
+   ]
+  },
+  {
+   "id": "es-23",
+   "level": "A1",
+   "title": "GUSTAR: likes",
+   "summary": "Say what you like the Spanish way.",
+   "term": {
+    "word": "me gusta",
+    "meaning": "I like (literally 'it pleases me')."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "me gusta + singular / infinitive: Me gusta el café. Me gusta viajar.\nme gustan + plural: Me gustan los libros.\nme / te / le / nos / os / les gusta. ¿Te gusta? (Do you like it?)\nNegative: No me gusta."
+    },
+    {
+     "h": "Use it",
+     "b": "Small talk: ¿Te gusta tu trabajo? Me encanta (I love it) / Me gusta mucho."
+    },
+    {
+     "h": "Tip",
+     "b": "The thing liked is the subject, so the verb agrees with it: me gustan las películas."
+    }
+   ],
+   "example": "A: ¿Te gusta la comida mexicana?\nB: ¡Me encanta! Me gustan mucho los tacos.",
+   "speak": [
+    "Me gusta mucho el café",
+    "Me gustan los idiomas",
+    "¿Te gusta tu trabajo?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Say 3 things you like and 2 you don't like in Spanish.",
+   "quiz": [
+    {
+     "q": "'I like books':",
+     "options": [
+      "Me gusta los libros",
+      "Yo gusto libros",
+      "Me gusto los libros",
+      "Me gustan los libros"
+     ],
+     "answer": 3,
+     "why": "Plural thing → gustan."
+    },
+    {
+     "q": "'Me encanta' means…",
+     "options": [
+      "I need it",
+      "I bought it",
+      "I love it",
+      "I hate it"
+     ],
+     "answer": 2,
+     "why": "Stronger than gusta."
+    },
+    {
+     "q": "'¿Te gusta?' asks…",
+     "options": [
+      "Do we like it?",
+      "Does he like it?",
+      "Do I like it?",
+      "Do you like it?"
+     ],
+     "answer": 3,
+     "why": "Te = to you."
+    }
+   ]
+  },
+  {
+   "id": "es-24",
+   "level": "A1",
+   "title": "Directions",
+   "summary": "Ask the way and understand the answer.",
+   "term": {
+    "word": "a la derecha / a la izquierda",
+    "meaning": "To the right / to the left."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "¿Dónde está…? · ¿Cómo llego a…? (How do I get to…?)\nSiga todo recto (go straight on) · Gire a la derecha/izquierda (turn right/left) · Está cerca/lejos (near/far) · al lado de (next to) · enfrente de (opposite) · en la esquina (on the corner)"
+    },
+    {
+     "h": "Use it",
+     "b": "Combine with hay: ¿Hay una estación de metro cerca?"
+    },
+    {
+     "h": "Tip",
+     "b": "'Derecho' in Latin America also means 'straight on', while 'derecha' = right. Listen carefully!"
+    }
+   ],
+   "example": "A: Perdone, ¿cómo llego a la estación?\nB: Siga todo recto y gire a la izquierda. Está al lado del banco.",
+   "speak": [
+    "¿Cómo llego a la estación?",
+    "Gire a la derecha",
+    "Está cerca de aquí"
+   ],
+   "speakLang": "es-ES",
+   "action": "Give Spanish directions from your home to the nearest shop.",
+   "quiz": [
+    {
+     "q": "'Todo recto' means…",
+     "options": [
+      "Straight on",
+      "Stop",
+      "Go back",
+      "Turn left"
+     ],
+     "answer": 0,
+     "why": "Keep going straight."
+    },
+    {
+     "q": "'Enfrente de' means…",
+     "options": [
+      "Inside",
+      "Opposite",
+      "Behind",
+      "Next to"
+     ],
+     "answer": 1,
+     "why": "Across from."
+    },
+    {
+     "q": "'¿Cómo llego a…?' asks…",
+     "options": [
+      "When do I arrive?",
+      "How do I get to…?",
+      "Where is it from?",
+      "Who arrives?"
+     ],
+     "answer": 1,
+     "why": "Directions question."
+    }
+   ]
+  },
+  {
+   "id": "es-25",
+   "level": "A1",
+   "title": "Daily routine: reflexive verbs",
+   "summary": "Describe your day from morning to night.",
+   "term": {
+    "word": "levantarse",
+    "meaning": "To get up."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Reflexive verbs use me, te, se, nos, os, se: me levanto (I get up), me ducho (shower), me visto (get dressed), me acuesto (go to bed).\nOther routine words: desayunar (breakfast), comer (lunch), cenar (dinner), salir (leave), volver (return).\nPrimero… luego… después… por la noche…"
+    },
+    {
+     "h": "Use it",
+     "b": "Interview small talk: Normalmente me levanto a las seis y voy al gimnasio."
+    },
+    {
+     "h": "Tip",
+     "b": "The pronoun goes before the conjugated verb: Me levanto, not 'Levanto me'."
+    }
+   ],
+   "example": "Me levanto a las siete, me ducho y desayuno. Luego voy a la oficina. Por la noche ceno con mi familia.",
+   "speak": [
+    "Me levanto a las siete",
+    "Luego voy a la oficina",
+    "Me acuesto a las once"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe your full daily routine in 5 Spanish sentences.",
+   "quiz": [
+    {
+     "q": "'I get up' is…",
+     "options": [
+      "Me levanta",
+      "Me levanto",
+      "Se levanto",
+      "Levanto"
+     ],
+     "answer": 1,
+     "why": "Reflexive."
+    },
+    {
+     "q": "'Cenar' means…",
+     "options": [
+      "Have lunch",
+      "Have dinner",
+      "Cook",
+      "Have breakfast"
+     ],
+     "answer": 1,
+     "why": "Dinner."
+    },
+    {
+     "q": "Where does the reflexive pronoun go?",
+     "options": [
+      "Before the conjugated verb",
+      "After the verb",
+      "Nowhere",
+      "At the end"
+     ],
+     "answer": 0,
+     "why": "Me ducho."
+    }
+   ]
+  },
+  {
+   "id": "es-26",
+   "level": "A2",
+   "title": "Stem-changing verbs",
+   "summary": "Some verbs change their vowel in the present tense.",
+   "term": {
+    "word": "querer / poder",
+    "meaning": "To want / to be able to."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "e → ie: querer → quiero, quieres, quiere, queremos, queréis, quieren (also empezar, pensar, preferir).\no → ue: poder → puedo, puedes, puede, podemos, podéis, pueden (also dormir, volver, costar).\ne → i: pedir → pido (also repetir, servir).\nThe change never happens in nosotros/vosotros."
+    },
+    {
+     "h": "Use it",
+     "b": "Requests: ¿Puedo hacer una pregunta? ¿Puede repetir, por favor?"
+    },
+    {
+     "h": "Tip",
+     "b": "Remember the 'boot': all forms change except nosotros and vosotros."
+    }
+   ],
+   "example": "A: ¿Quieres un café?\nB: Sí, gracias. ¿Puedo pedir un té también?",
+   "speak": [
+    "¿Puedo hacer una pregunta?",
+    "Quiero aprender español",
+    "¿Puede repetir, por favor?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Conjugate querer, poder and pedir aloud.",
+   "quiz": [
+    {
+     "q": "'Yo ___' (poder):",
+     "options": [
+      "pueda",
+      "podo",
+      "puedo",
+      "podemos"
+     ],
+     "answer": 2,
+     "why": "o → ue."
+    },
+    {
+     "q": "'Nosotros ___' (querer):",
+     "options": [
+      "quieremos",
+      "quieren",
+      "queramos",
+      "queremos"
+     ],
+     "answer": 3,
+     "why": "No change in nosotros."
+    },
+    {
+     "q": "'Pido' comes from…",
+     "options": [
+      "perder",
+      "pedir",
+      "pensar",
+      "poder"
+     ],
+     "answer": 1,
+     "why": "e → i."
+    }
+   ]
+  },
+  {
+   "id": "es-27",
+   "level": "A2",
+   "title": "Irregular 'yo' verbs",
+   "summary": "Common verbs with a special first-person form.",
+   "term": {
+    "word": "hago / tengo / salgo",
+    "meaning": "I do / I have / I leave."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "hacer → hago · poner → pongo · salir → salgo · traer → traigo · conocer → conozco · saber → sé · dar → doy · ver → veo · decir → digo · venir → vengo\nOther forms are mostly regular (haces, hace…), though decir and venir also change stem."
+    },
+    {
+     "h": "Use it",
+     "b": "Daily phrases: Salgo de la oficina a las seis. No sé. Hago ejercicio."
+    },
+    {
+     "h": "Tip",
+     "b": "saber = know facts/how to (Sé nadar); conocer = know people/places (Conozco Madrid)."
+    }
+   ],
+   "example": "A: ¿Conoces a Lucía?\nB: Sí, la conozco. Pero no sé dónde vive.",
+   "speak": [
+    "Salgo de casa a las ocho",
+    "No sé la respuesta",
+    "Conozco Madrid"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 5 sentences with hago, salgo, sé, conozco and digo.",
+   "quiz": [
+    {
+     "q": "'I know how to swim':",
+     "options": [
+      "Sabo nadar",
+      "Conoce nadar",
+      "Sé nadar",
+      "Conozco nadar"
+     ],
+     "answer": 2,
+     "why": "Saber for skills."
+    },
+    {
+     "q": "'Yo ___' (hacer):",
+     "options": [
+      "haco",
+      "hizo",
+      "hago",
+      "hace"
+     ],
+     "answer": 2,
+     "why": "Irregular yo."
+    },
+    {
+     "q": "'Conocer' is used for…",
+     "options": [
+      "Time",
+      "People and places",
+      "Facts",
+      "Skills"
+     ],
+     "answer": 1,
+     "why": "Familiarity."
+    }
+   ]
+  },
+  {
+   "id": "es-28",
+   "level": "A2",
+   "title": "Possessives",
+   "summary": "My, your, his, our…",
+   "term": {
+    "word": "mi / tu / su",
+    "meaning": "My / your / his-her-their-your(formal)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "mi(s) my · tu(s) your · su(s) his/her/its/your (usted)/their · nuestro/a(s) our · vuestro/a(s) your (vosotros)\nThey agree with the THING owned: mis libros, nuestra empresa.\nStressed forms: mío, tuyo, suyo: Es mío (It's mine)."
+    },
+    {
+     "h": "Use it",
+     "b": "Company talk: Nuestra empresa tiene oficinas en tres países."
+    },
+    {
+     "h": "Tip",
+     "b": "'Su' is ambiguous; clarify with 'de él / de ella / de usted' if needed: el coche de ella."
+    }
+   ],
+   "example": "A: ¿Es tu portátil?\nB: No, no es mío. Es de Carlos.",
+   "speak": [
+    "Nuestra empresa es internacional",
+    "Mis compañeros son simpáticos",
+    "No es mío"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe your team and company with possessives.",
+   "quiz": [
+    {
+     "q": "'Our office':",
+     "options": [
+      "nuestra oficina",
+      "nuestro oficina",
+      "nos oficina",
+      "nuestros oficina"
+     ],
+     "answer": 0,
+     "why": "Agrees with oficina (f)."
+    },
+    {
+     "q": "'Es mío' means…",
+     "options": [
+      "It's his",
+      "It's me",
+      "It's my",
+      "It's mine"
+     ],
+     "answer": 3,
+     "why": "Stressed possessive."
+    },
+    {
+     "q": "'Su' can mean…",
+     "options": [
+      "His, her, their or your (formal)",
+      "Only his",
+      "Only our",
+      "Only my"
+     ],
+     "answer": 0,
+     "why": "Ambiguous."
+    }
+   ]
+  },
+  {
+   "id": "es-29",
+   "level": "A2",
+   "title": "This, that, that over there",
+   "summary": "Point to things: este, ese, aquel.",
+   "term": {
+    "word": "este / ese / aquel",
+    "meaning": "This / that / that (over there)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "este, esta, estos, estas (near me) · ese, esa, esos, esas (near you) · aquel, aquella, aquellos, aquellas (far from both)\nNeutral: esto, eso, aquello (unknown things/ideas): ¿Qué es esto? Eso es importante."
+    },
+    {
+     "h": "Use it",
+     "b": "Shopping and meetings: Me gusta este diseño. Esa idea es buena."
+    },
+    {
+     "h": "Tip",
+     "b": "'Eso es' = 'That's it / exactly' in conversation."
+    }
+   ],
+   "example": "A: ¿Qué es esto?\nB: Es el informe de ventas. Y aquel documento es el presupuesto.",
+   "speak": [
+    "¿Qué es esto?",
+    "Me gusta esta idea",
+    "Eso es"
+   ],
+   "speakLang": "es-ES",
+   "action": "Point to 5 objects and describe them with este/ese/aquel.",
+   "quiz": [
+    {
+     "q": "'These books' (near me):",
+     "options": [
+      "esos libros",
+      "estas libros",
+      "aquellos libro",
+      "estos libros"
+     ],
+     "answer": 3,
+     "why": "Near the speaker."
+    },
+    {
+     "q": "'Esto' is used for…",
+     "options": [
+      "Masculine nouns",
+      "Unknown things or ideas",
+      "People",
+      "Plural nouns"
+     ],
+     "answer": 1,
+     "why": "Neutral form."
+    },
+    {
+     "q": "'Aquella casa' is…",
+     "options": [
+      "Far from both of us",
+      "Near me",
+      "Mine",
+      "Near you"
+     ],
+     "answer": 0,
+     "why": "Over there."
+    }
+   ]
+  },
+  {
+   "id": "es-30",
+   "level": "A2",
+   "title": "Direct object pronouns",
+   "summary": "Avoid repeating nouns: it, them, him, her.",
+   "term": {
+    "word": "lo / la / los / las",
+    "meaning": "It/him, it/her, them."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "me, te, lo/la, nos, os, los/las replace the direct object: ¿Tienes el informe? Sí, lo tengo.\nPosition: before the conjugated verb (Lo veo) or attached to an infinitive (Voy a verlo)."
+    },
+    {
+     "h": "Use it",
+     "b": "Emails and calls: Te lo envío ahora. (I'll send it to you now.) La llamo mañana. (I'll call her tomorrow.)"
+    },
+    {
+     "h": "Tip",
+     "b": "Match gender and number: ¿Y las facturas? Las tengo aquí."
+    }
+   ],
+   "example": "A: ¿Has visto el correo de Ana?\nB: Sí, lo leí esta mañana. Lo voy a contestar ahora.",
+   "speak": [
+    "Lo tengo aquí",
+    "La llamo mañana",
+    "Voy a enviarlo hoy"
+   ],
+   "speakLang": "es-ES",
+   "action": "Answer 5 questions replacing the noun with lo/la/los/las.",
+   "quiz": [
+    {
+     "q": "¿Tienes las llaves? Sí, ___ tengo.",
+     "options": [
+      "lo",
+      "los",
+      "las",
+      "la"
+     ],
+     "answer": 2,
+     "why": "Feminine plural."
+    },
+    {
+     "q": "Where can the pronoun go with 'voy a ver'?",
+     "options": [
+      "After voy only",
+      "Before voy or attached to ver",
+      "Nowhere",
+      "Only before voy"
+     ],
+     "answer": 1,
+     "why": "Lo voy a ver / voy a verlo."
+    },
+    {
+     "q": "'Lo veo' means…",
+     "options": [
+      "I see it/him",
+      "I see her",
+      "I see them",
+      "I see you"
+     ],
+     "answer": 0,
+     "why": "Masculine/neutral."
+    }
+   ]
+  },
+  {
+   "id": "es-31",
+   "level": "A2",
+   "title": "Indirect object pronouns",
+   "summary": "To whom or for whom: le, les, me, te.",
+   "term": {
+    "word": "le / les",
+    "meaning": "To him/her/you(formal) / to them."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "me, te, le, nos, os, les: Le envío el informe (I send him/her the report).\nWith both pronouns: indirect first; le/les + lo/la → se: Se lo envío (I send it to him).\nCommon with dar, decir, enviar, explicar, preguntar."
+    },
+    {
+     "h": "Use it",
+     "b": "Work emails: Le escribo para confirmar la reunión. (I'm writing to you (formal) to confirm the meeting.)"
+    },
+    {
+     "h": "Tip",
+     "b": "'Se lo' looks strange at first, but it's just le + lo made easier to say."
+    }
+   ],
+   "example": "A: ¿Le diste el contrato al cliente?\nB: Sí, se lo di ayer.",
+   "speak": [
+    "Le escribo para confirmar la reunión",
+    "Se lo envío ahora",
+    "¿Me puedes ayudar?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 sentences about giving things to people using se lo/se la.",
+   "quiz": [
+    {
+     "q": "le + lo becomes…",
+     "options": [
+      "lo le",
+      "se lo",
+      "les lo",
+      "le lo"
+     ],
+     "answer": 1,
+     "why": "Avoids 'le lo'."
+    },
+    {
+     "q": "'Le escribo' (formal) means…",
+     "options": [
+      "I wrote",
+      "I write it",
+      "I write to you/him/her",
+      "He writes"
+     ],
+     "answer": 2,
+     "why": "Indirect object."
+    },
+    {
+     "q": "Order with two pronouns:",
+     "options": [
+      "Indirect then direct",
+      "Only one allowed",
+      "Direct then indirect",
+      "Any order"
+     ],
+     "answer": 0,
+     "why": "Se lo."
+    }
+   ]
+  },
+  {
+   "id": "es-32",
+   "level": "A2",
+   "title": "Past tense (preterite): -AR verbs",
+   "summary": "Talk about completed actions.",
+   "term": {
+    "word": "pretérito",
+    "meaning": "The simple past tense for completed events."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "hablar → hablé, hablaste, habló, hablamos, hablasteis, hablaron.\nTime words: ayer, anoche, la semana pasada, el año pasado, hace dos días.\nNote spelling: llegar → llegué, empezar → empecé, buscar → busqué."
+    },
+    {
+     "h": "Use it",
+     "b": "Reporting: Ayer terminé el informe y llamé al cliente."
+    },
+    {
+     "h": "Tip",
+     "b": "Stress matters: hablo (I speak) vs habló (he spoke)."
+    }
+   ],
+   "example": "A: ¿Qué hiciste ayer?\nB: Trabajé mucho y luego cené con amigos.",
+   "speak": [
+    "Ayer terminé el informe",
+    "Llamé al cliente",
+    "Llegué tarde a la reunión"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 5 things you did yesterday using -ar verbs.",
+   "quiz": [
+    {
+     "q": "'I worked' is…",
+     "options": [
+      "trabajé",
+      "trabajaba",
+      "trabajo",
+      "trabajó"
+     ],
+     "answer": 0,
+     "why": "Preterite yo."
+    },
+    {
+     "q": "'Habló' means…",
+     "options": [
+      "Speak!",
+      "We spoke",
+      "He/she spoke",
+      "I speak"
+     ],
+     "answer": 2,
+     "why": "Third person preterite."
+    },
+    {
+     "q": "'I arrived' (llegar):",
+     "options": [
+      "llegó",
+      "llegue",
+      "llegé",
+      "llegué"
+     ],
+     "answer": 3,
+     "why": "Spelling change g → gu."
+    }
+   ]
+  },
+  {
+   "id": "es-33",
+   "level": "A2",
+   "title": "Preterite: -ER/-IR and irregulars",
+   "summary": "Complete the past tense.",
+   "term": {
+    "word": "fui / hice / tuve",
+    "meaning": "I went-was / I did / I had."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "comer → comí, comiste, comió, comimos, comisteis, comieron (-ir same: viví…).\nKey irregulars: ser/ir → fui, fuiste, fue, fuimos, fuisteis, fueron · hacer → hice, hiciste, hizo… · tener → tuve · estar → estuve · poder → pude · decir → dije · venir → vine."
+    },
+    {
+     "h": "Use it",
+     "b": "Stories: El año pasado fui a México. Hice un curso de español."
+    },
+    {
+     "h": "Tip",
+     "b": "Ser and ir share the same preterite; context tells you which: Fue increíble (it was) / Fue a Madrid (he went)."
+    }
+   ],
+   "example": "A: ¿Qué tal el fin de semana?\nB: Fue genial. Fui a la playa y comí paella.",
+   "speak": [
+    "El año pasado fui a México",
+    "Fue un día increíble",
+    "Tuve una reunión larga"
+   ],
+   "speakLang": "es-ES",
+   "action": "Tell the story of your last holiday in 5 sentences.",
+   "quiz": [
+    {
+     "q": "'I went' is…",
+     "options": [
+      "iba",
+      "voy",
+      "fue",
+      "fui"
+     ],
+     "answer": 3,
+     "why": "Ir preterite."
+    },
+    {
+     "q": "'Hizo' means…",
+     "options": [
+      "We did",
+      "He/she did",
+      "I did",
+      "They did"
+     ],
+     "answer": 1,
+     "why": "Hacer preterite."
+    },
+    {
+     "q": "'Fue genial' means…",
+     "options": [
+      "It will be great",
+      "It was great",
+      "He's great",
+      "Go, great!"
+     ],
+     "answer": 1,
+     "why": "Ser preterite."
+    }
+   ]
+  },
+  {
+   "id": "es-34",
+   "level": "A2",
+   "title": "Imperfect: how things were",
+   "summary": "Describe the past and past habits.",
+   "term": {
+    "word": "imperfecto",
+    "meaning": "Past tense for descriptions and repeated actions."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "-ar: hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban.\n-er/-ir: comía, comías, comía, comíamos, comíais, comían.\nOnly 3 irregulars: ser (era), ir (iba), ver (veía).\nUse: background, descriptions, habits: Cuando era niño, vivía en Surat."
+    },
+    {
+     "h": "Use it",
+     "b": "Interviews: Antes trabajaba en un banco; mi trabajo era analizar créditos."
+    },
+    {
+     "h": "Tip",
+     "b": "Signal words: siempre, a menudo, todos los días, cuando era niño/a."
+    }
+   ],
+   "example": "Cuando era estudiante, vivía en Pune y estudiaba mucho. Los fines de semana iba al cine.",
+   "speak": [
+    "Cuando era niño, vivía en Surat",
+    "Antes trabajaba en un banco",
+    "Siempre iba al cine"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe your childhood in 4 sentences using the imperfect.",
+   "quiz": [
+    {
+     "q": "'I used to live':",
+     "options": [
+      "viví",
+      "vivía",
+      "vivo",
+      "viviré"
+     ],
+     "answer": 1,
+     "why": "Habit/description."
+    },
+    {
+     "q": "Imperfect of ser (yo):",
+     "options": [
+      "sería",
+      "soy",
+      "fui",
+      "era"
+     ],
+     "answer": 3,
+     "why": "Irregular."
+    },
+    {
+     "q": "Imperfect is used for…",
+     "options": [
+      "Commands",
+      "Future plans",
+      "Single completed events",
+      "Descriptions and habits in the past"
+     ],
+     "answer": 3,
+     "why": "Background."
+    }
+   ]
+  },
+  {
+   "id": "es-35",
+   "level": "A2",
+   "title": "Preterite vs imperfect",
+   "summary": "Choose the right past tense.",
+   "term": {
+    "word": "Estaba… cuando…",
+    "meaning": "I was … when … (background + event)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Preterite = completed actions, events, sequences: Llegué, vi el correo y llamé.\nImperfect = background, ongoing, habits, descriptions: Llovía y estaba cansado.\nTogether: Estaba en una reunión cuando sonó el teléfono."
+    },
+    {
+     "h": "Use it",
+     "b": "Explaining incidents: Mientras revisábamos los datos, encontramos un error."
+    },
+    {
+     "h": "Tip",
+     "b": "Think of a film: imperfect is the scenery; preterite is the action."
+    }
+   ],
+   "example": "Eran las nueve. Hacía frío y yo estaba en la oficina cuando el jefe me llamó.",
+   "speak": [
+    "Estaba en una reunión cuando sonó el teléfono",
+    "Hacía frío",
+    "Encontramos un error"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a short story (5 sentences) mixing both past tenses.",
+   "quiz": [
+    {
+     "q": "'It was raining when he arrived':",
+     "options": [
+      "Lloverá cuando llegue",
+      "Llovía cuando llegó",
+      "Llueve cuando llega",
+      "Llovió cuando llegaba"
+     ],
+     "answer": 1,
+     "why": "Background + event."
+    },
+    {
+     "q": "A sequence of completed actions uses…",
+     "options": [
+      "Imperfect",
+      "Conditional",
+      "Preterite",
+      "Future"
+     ],
+     "answer": 2,
+     "why": "Events."
+    },
+    {
+     "q": "Descriptions in the past use…",
+     "options": [
+      "Present",
+      "Preterite",
+      "Imperfect",
+      "Subjunctive"
+     ],
+     "answer": 2,
+     "why": "Scenery."
+    }
+   ]
+  },
+  {
+   "id": "es-36",
+   "level": "A2",
+   "title": "Happening now: estar + -ando/-iendo",
+   "summary": "Describe actions in progress.",
+   "term": {
+    "word": "estoy trabajando",
+    "meaning": "I'm working (right now)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "estar + gerund: -ar → -ando (hablando), -er/-ir → -iendo (comiendo, escribiendo).\nIrregular: leer → leyendo, dormir → durmiendo, decir → diciendo.\nPast: Estaba trabajando cuando llamaste."
+    },
+    {
+     "h": "Use it",
+     "b": "Calls and chats: Ahora estoy preparando la presentación. ¿Te llamo luego?"
+    },
+    {
+     "h": "Tip",
+     "b": "Spanish uses this only for actions really in progress; for near future use ir a: Mañana voy a viajar."
+    }
+   ],
+   "example": "A: ¿Qué estás haciendo?\nB: Estoy escribiendo un correo importante.",
+   "speak": [
+    "Estoy preparando la presentación",
+    "¿Qué estás haciendo?",
+    "Estamos esperando al cliente"
+   ],
+   "speakLang": "es-ES",
+   "action": "Say what 3 people near you are doing right now.",
+   "quiz": [
+    {
+     "q": "Gerund of 'comer':",
+     "options": [
+      "comer",
+      "comido",
+      "comiendo",
+      "comando"
+     ],
+     "answer": 2,
+     "why": "-er → -iendo."
+    },
+    {
+     "q": "Gerund of 'leer':",
+     "options": [
+      "leído",
+      "leiendo",
+      "leyendo",
+      "leando"
+     ],
+     "answer": 2,
+     "why": "Spelling y."
+    },
+    {
+     "q": "'Mañana voy a viajar' is better than 'Mañana estoy viajando' because…",
+     "options": [
+      "Both wrong",
+      "It's Mexican",
+      "Progressive is for actions in progress now",
+      "It's shorter"
+     ],
+     "answer": 2,
+     "why": "Use ir a for plans."
+    }
+   ]
+  },
+  {
+   "id": "es-37",
+   "level": "A2",
+   "title": "Comparisons",
+   "summary": "More, less, as… as, the best.",
+   "term": {
+    "word": "más … que",
+    "meaning": "More … than."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "más/menos + adjective + que: Madrid es más grande que Sevilla.\ntan + adjective + como: Es tan caro como el otro.\nSuperlative: el/la más + adjective: Es la opción más barata.\nIrregular: mejor (better), peor (worse), mayor (older/bigger), menor (younger/smaller)."
+    },
+    {
+     "h": "Use it",
+     "b": "Comparing vendors: La propuesta A es más barata que la B, pero la B es mejor."
+    },
+    {
+     "h": "Tip",
+     "b": "Never 'más bueno' for better; use 'mejor'."
+    }
+   ],
+   "example": "A: ¿Qué opción prefieres?\nB: La segunda. Es más rápida y tan segura como la primera.",
+   "speak": [
+    "Es más barato que el otro",
+    "Es la mejor opción",
+    "Es tan rápido como el anterior"
+   ],
+   "speakLang": "es-ES",
+   "action": "Compare two phones or cities you know in 3 sentences.",
+   "quiz": [
+    {
+     "q": "'Better' is…",
+     "options": [
+      "mejor",
+      "bueno más",
+      "más bueno",
+      "el bueno"
+     ],
+     "answer": 0,
+     "why": "Irregular."
+    },
+    {
+     "q": "'As expensive as':",
+     "options": [
+      "caro como tan",
+      "más caro como",
+      "tan caro como",
+      "tan caro que"
+     ],
+     "answer": 2,
+     "why": "Tan… como."
+    },
+    {
+     "q": "'La opción más barata' means…",
+     "options": [
+      "A cheaper option",
+      "Equal option",
+      "The cheapest option",
+      "An expensive option"
+     ],
+     "answer": 2,
+     "why": "Superlative."
+    }
+   ]
+  },
+  {
+   "id": "es-38",
+   "level": "A2",
+   "title": "POR or PARA?",
+   "summary": "Two words for 'for', each with a job.",
+   "term": {
+    "word": "por / para",
+    "meaning": "Through, because of, exchange / for, in order to, deadline."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "PARA: purpose (Estudio para aprender), recipient (Es para ti), deadline (para el lunes), destination (Salgo para Madrid), opinion (Para mí…).\nPOR: cause (Gracias por tu ayuda), exchange/price (por 10 euros), through/along (por el parque), duration (por dos horas), means (por correo), per (dos veces por semana)."
+    },
+    {
+     "h": "Use it",
+     "b": "Deadlines and thanks are everyday work phrases: Lo necesito para el viernes. Gracias por todo."
+    },
+    {
+     "h": "Tip",
+     "b": "Quick test: if you can say 'in order to' or 'by (deadline)', use para."
+    }
+   ],
+   "example": "Gracias por tu correo. Necesito el informe para el viernes. Te llamo por teléfono mañana.",
+   "speak": [
+    "Gracias por tu ayuda",
+    "Lo necesito para el viernes",
+    "Te llamo por teléfono"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 sentences with por and 3 with para.",
+   "quiz": [
+    {
+     "q": "'Thanks for your help':",
+     "options": [
+      "Gracias de tu ayuda",
+      "Gracias para tu ayuda",
+      "Gracias con ayuda",
+      "Gracias por tu ayuda"
+     ],
+     "answer": 3,
+     "why": "Cause → por."
+    },
+    {
+     "q": "'I need it by Friday':",
+     "options": [
+      "en el viernes",
+      "para el viernes",
+      "por el viernes",
+      "de viernes"
+     ],
+     "answer": 1,
+     "why": "Deadline → para."
+    },
+    {
+     "q": "'Dos veces por semana' means…",
+     "options": [
+      "Two weeks",
+      "Twice a week",
+      "In two weeks",
+      "For two weeks"
+     ],
+     "answer": 1,
+     "why": "Per."
+    }
+   ]
+  },
+  {
+   "id": "es-39",
+   "level": "A2",
+   "title": "Weather and seasons",
+   "summary": "Talk about the weather, the universal topic.",
+   "term": {
+    "word": "hace calor / hace frío",
+    "meaning": "It's hot / it's cold."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "hace + noun: hace calor, hace frío, hace sol, hace viento, hace buen/mal tiempo.\nverbs: llueve (it's raining), nieva (it's snowing). está nublado (cloudy).\nSeasons: primavera, verano, otoño, invierno."
+    },
+    {
+     "h": "Use it",
+     "b": "Opening small talk on calls: ¿Qué tiempo hace en Madrid hoy?"
+    },
+    {
+     "h": "Tip",
+     "b": "Weather uses 'hace', not 'es' or 'está': 'Hace calor', never 'Es calor'."
+    }
+   ],
+   "example": "A: ¿Qué tiempo hace en Mumbai?\nB: Hace mucho calor y llueve. Es la temporada de monzón.",
+   "speak": [
+    "Hace mucho calor hoy",
+    "¿Qué tiempo hace allí?",
+    "En invierno hace frío"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe today's weather and your favourite season.",
+   "quiz": [
+    {
+     "q": "'It's cold':",
+     "options": [
+      "Está frío tiempo",
+      "Hace frío",
+      "Tiene frío",
+      "Es frío"
+     ],
+     "answer": 1,
+     "why": "Weather uses hacer."
+    },
+    {
+     "q": "'Llueve' means…",
+     "options": [
+      "It's sunny",
+      "It's snowing",
+      "It's windy",
+      "It's raining"
+     ],
+     "answer": 3,
+     "why": "Llover."
+    },
+    {
+     "q": "'Verano' is…",
+     "options": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+     ],
+     "answer": 1,
+     "why": "Summer."
+    }
+   ]
+  },
+  {
+   "id": "es-40",
+   "level": "A2",
+   "title": "Travel: hotel and airport",
+   "summary": "Handle trips smoothly.",
+   "term": {
+    "word": "la reserva",
+    "meaning": "The reservation/booking."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Hotel: Tengo una reserva a nombre de… · ¿A qué hora es el desayuno? · ¿Hay wifi en la habitación?\nAirport: la tarjeta de embarque (boarding pass) · la puerta (gate) · el vuelo está retrasado (delayed) · facturar la maleta (check in a bag)."
+    },
+    {
+     "h": "Use it",
+     "b": "Business trips: Necesito una factura a nombre de la empresa. (I need an invoice in the company's name.)"
+    },
+    {
+     "h": "Tip",
+     "b": "'Reserva' in Spain, 'reservación' common in Mexico; both understood."
+    }
+   ],
+   "example": "A: Buenas noches. Tengo una reserva a nombre de Modi.\nB: Sí, una habitación individual para tres noches. Aquí tiene la llave.",
+   "speak": [
+    "Tengo una reserva a nombre de Modi",
+    "¿A qué hora es el desayuno?",
+    "Mi vuelo está retrasado"
+   ],
+   "speakLang": "es-ES",
+   "action": "Role-play checking into a hotel in Spanish.",
+   "quiz": [
+    {
+     "q": "'Tarjeta de embarque' is…",
+     "options": [
+      "ID card",
+      "Boarding pass",
+      "Room key",
+      "Credit card"
+     ],
+     "answer": 1,
+     "why": "Boarding pass."
+    },
+    {
+     "q": "'El vuelo está retrasado' means…",
+     "options": [
+      "The flight is full",
+      "The flight is cancelled",
+      "The flight left",
+      "The flight is delayed"
+     ],
+     "answer": 3,
+     "why": "Delayed."
+    },
+    {
+     "q": "'A nombre de' means…",
+     "options": [
+      "Without name",
+      "Next to",
+      "In the name of",
+      "By number"
+     ],
+     "answer": 2,
+     "why": "Booking name."
+    }
+   ]
+  },
+  {
+   "id": "es-41",
+   "level": "A2",
+   "title": "Health: at the doctor",
+   "summary": "Explain symptoms and get help.",
+   "term": {
+    "word": "me duele",
+    "meaning": "It hurts me."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Me duele la cabeza / el estómago / la espalda (head/stomach/back hurts). Me duelen los ojos.\nTengo fiebre (fever), tos (cough), un resfriado (a cold).\nla farmacia · el médico · la receta (prescription) · Necesito un médico."
+    },
+    {
+     "h": "Use it",
+     "b": "Calling in sick: Hoy no puedo ir a la oficina porque estoy enfermo."
+    },
+    {
+     "h": "Tip",
+     "b": "Use the article, not a possessive, for body parts: Me duele la cabeza (not 'mi cabeza')."
+    }
+   ],
+   "example": "Médico: ¿Qué le pasa?\nPaciente: Me duele la garganta y tengo fiebre desde ayer.",
+   "speak": [
+    "Me duele la cabeza",
+    "Tengo fiebre",
+    "Necesito ir a la farmacia"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe a past illness: symptoms and what you did.",
+   "quiz": [
+    {
+     "q": "'My head hurts':",
+     "options": [
+      "Mi cabeza duele",
+      "Me duelo la cabeza",
+      "Me duele la cabeza",
+      "Tengo cabeza"
+     ],
+     "answer": 2,
+     "why": "Gustar-like structure."
+    },
+    {
+     "q": "'Receta' at the doctor's means…",
+     "options": [
+      "Recipe",
+      "Prescription",
+      "Receipt",
+      "Rest"
+     ],
+     "answer": 1,
+     "why": "Medical prescription."
+    },
+    {
+     "q": "'Tengo tos' means…",
+     "options": [
+      "I'm hungry",
+      "I have a cough",
+      "I have a fever",
+      "I'm tired"
+     ],
+     "answer": 1,
+     "why": "Cough."
+    }
+   ]
+  },
+  {
+   "id": "es-42",
+   "level": "A2",
+   "title": "Invitations and plans",
+   "summary": "Invite, accept and decline politely.",
+   "term": {
+    "word": "¿Quieres…?",
+    "meaning": "Do you want to…?"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Invite: ¿Quieres tomar un café? ¿Te apetece cenar el viernes? (Spain) ¿Te gustaría venir?\nAccept: ¡Claro! / ¡Me encantaría! / Vale (Spain) / Dale (LatAm)\nDecline: Lo siento, no puedo. Tengo otro compromiso. ¿Quizás otro día?\nArrange: ¿Quedamos a las ocho? (Spain: quedar = to meet)"
+    },
+    {
+     "h": "Use it",
+     "b": "Team outings: ¿Os apetece ir de tapas después del trabajo?"
+    },
+    {
+     "h": "Tip",
+     "b": "Spaniards say 'quedar' for meeting up: ¿Dónde quedamos?"
+    }
+   ],
+   "example": "A: ¿Te apetece cenar el viernes?\nB: ¡Me encantaría! ¿Dónde quedamos?\nA: En el restaurante a las nueve.",
+   "speak": [
+    "¿Quieres tomar un café?",
+    "Me encantaría",
+    "Lo siento, no puedo. ¿Quizás otro día?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Invite a friend in Spanish and practise both accepting and declining.",
+   "quiz": [
+    {
+     "q": "'Me encantaría' means…",
+     "options": [
+      "I can't",
+      "I hated it",
+      "I'd love to",
+      "Maybe"
+     ],
+     "answer": 2,
+     "why": "Enthusiastic yes."
+    },
+    {
+     "q": "In Spain 'quedar' in this context means…",
+     "options": [
+      "To leave",
+      "To meet up",
+      "To buy",
+      "To stay"
+     ],
+     "answer": 1,
+     "why": "¿Quedamos?"
+    },
+    {
+     "q": "A polite decline is…",
+     "options": [
+      "No.",
+      "Lo siento, no puedo. ¿Quizás otro día?",
+      "Nunca.",
+      "No me gusta."
+     ],
+     "answer": 1,
+     "why": "Regret + alternative."
+    }
+   ]
+  },
+  {
+   "id": "es-43",
+   "level": "A2",
+   "title": "Phone calls and messages",
+   "summary": "Handle simple calls in Spanish.",
+   "term": {
+    "word": "¿Diga? / ¿Bueno? / ¿Aló?",
+    "meaning": "Hello? (answering the phone in Spain / Mexico / other countries)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Answering: ¿Diga? (Spain), ¿Bueno? (Mexico), ¿Aló? (many countries).\nCaller: Hola, soy Yash, de la empresa X. ¿Puedo hablar con Ana?\nResponses: Un momento, por favor · No está · ¿Quiere dejar un mensaje? · Le llamo más tarde · No le oigo bien."
+    },
+    {
+     "h": "Use it",
+     "b": "Spell names with the Spanish alphabet: Y = i griega (or 'ye'), J = jota."
+    },
+    {
+     "h": "Tip",
+     "b": "On the phone use usted with people you don't know."
+    }
+   ],
+   "example": "A: ¿Diga?\nB: Hola, buenos días. Soy Yash Modi. ¿Puedo hablar con la señora García?\nA: Un momento, por favor.",
+   "speak": [
+    "¿Puedo hablar con Ana, por favor?",
+    "¿Quiere dejar un mensaje?",
+    "Le llamo más tarde"
+   ],
+   "speakLang": "es-ES",
+   "action": "Practise a full call: greet, ask for someone, leave a message.",
+   "quiz": [
+    {
+     "q": "Mexicans often answer the phone with…",
+     "options": [
+      "¿Diga?",
+      "Adiós",
+      "Hola mañana",
+      "¿Bueno?"
+     ],
+     "answer": 3,
+     "why": "Mexican greeting."
+    },
+    {
+     "q": "'No le oigo bien' means…",
+     "options": [
+      "I can't hear you well",
+      "Call later",
+      "Wrong number",
+      "I don't know you"
+     ],
+     "answer": 0,
+     "why": "Bad line."
+    },
+    {
+     "q": "'¿Quiere dejar un mensaje?' asks…",
+     "options": [
+      "Are you there?",
+      "Who is it?",
+      "Do you want to leave a message?",
+      "Do you want to call?"
+     ],
+     "answer": 2,
+     "why": "Taking messages."
+    }
+   ]
+  },
+  {
+   "id": "es-44",
+   "level": "A2",
+   "title": "Work and professions",
+   "summary": "Talk about jobs and your role.",
+   "term": {
+    "word": "¿A qué te dedicas?",
+    "meaning": "What do you do (for a living)?"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Soy contable / analista / ingeniero/a / abogado/a / gerente / médico/a.\nTrabajo en el departamento de finanzas. Trabajo para una empresa de tecnología.\nMi trabajo consiste en… (My job consists of…) · Soy responsable de… (I'm responsible for…)"
+    },
+    {
+     "h": "Use it",
+     "b": "Networking: Trabajo en finanzas en una empresa de pagos digitales. Soy responsable de los informes mensuales."
+    },
+    {
+     "h": "Tip",
+     "b": "'Trabajar en' + place/department; 'trabajar para' + employer; 'trabajar de' + role (Trabajo de analista)."
+    }
+   ],
+   "example": "A: ¿A qué te dedicas?\nB: Soy analista financiero. Trabajo para un banco en Mumbai.",
+   "speak": [
+    "Soy analista financiero",
+    "Trabajo en el departamento de finanzas",
+    "Soy responsable de los informes"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe your job in 4 Spanish sentences.",
+   "quiz": [
+    {
+     "q": "'¿A qué te dedicas?' asks…",
+     "options": [
+      "Where do you live?",
+      "What do you like?",
+      "What do you do for a living?",
+      "How old are you?"
+     ],
+     "answer": 2,
+     "why": "Common question."
+    },
+    {
+     "q": "'I work for a bank':",
+     "options": [
+      "Trabajo para un banco",
+      "Trabajo de un banco",
+      "Trabajo con banco",
+      "Trabajo por un banco"
+     ],
+     "answer": 0,
+     "why": "Employer → para."
+    },
+    {
+     "q": "'Contable' is…",
+     "options": [
+      "Accountant",
+      "Contact",
+      "Counter",
+      "Container"
+     ],
+     "answer": 0,
+     "why": "Accountant (Spain)."
+    }
+   ]
+  },
+  {
+   "id": "es-45",
+   "level": "A2",
+   "title": "Hobbies and free time",
+   "summary": "Share what you enjoy doing.",
+   "term": {
+    "word": "el tiempo libre",
+    "meaning": "Free time."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "En mi tiempo libre… · Me gusta leer / cocinar / hacer deporte / ver series / viajar.\nFrequency: siempre, a menudo, a veces, casi nunca, nunca.\njugar al fútbol/cricket (play a sport) · tocar la guitarra (play an instrument)."
+    },
+    {
+     "h": "Use it",
+     "b": "First conversations and interviews: ¿Qué haces en tu tiempo libre?"
+    },
+    {
+     "h": "Tip",
+     "b": "jugar = play games/sports; tocar = play instruments."
+    }
+   ],
+   "example": "A: ¿Qué haces en tu tiempo libre?\nB: Me gusta mucho leer y a veces juego al cricket con amigos.",
+   "speak": [
+    "En mi tiempo libre me gusta leer",
+    "A veces juego al cricket",
+    "Toco la guitarra"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe your hobbies with frequency words.",
+   "quiz": [
+    {
+     "q": "'Play the guitar':",
+     "options": [
+      "hacer la guitarra",
+      "poner guitarra",
+      "tocar la guitarra",
+      "jugar la guitarra"
+     ],
+     "answer": 2,
+     "why": "Instruments → tocar."
+    },
+    {
+     "q": "'A menudo' means…",
+     "options": [
+      "Always",
+      "Never",
+      "Often",
+      "Rarely"
+     ],
+     "answer": 2,
+     "why": "Often."
+    },
+    {
+     "q": "'Tiempo libre' is…",
+     "options": [
+      "Free weather",
+      "Overtime",
+      "Free time",
+      "Late time"
+     ],
+     "answer": 2,
+     "why": "Leisure."
+    }
+   ]
+  },
+  {
+   "id": "es-46",
+   "level": "A2",
+   "title": "Describing people",
+   "summary": "Appearance and personality.",
+   "term": {
+    "word": "simpático/a",
+    "meaning": "Nice, friendly."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Appearance (ser/tener): Es alto/bajo, delgado. Tiene el pelo corto, los ojos marrones. Lleva gafas.\nPersonality: simpático, amable, trabajador, responsable, divertido, tímido, serio, creativo.\n¿Cómo es? (What's he/she like?)"
+    },
+    {
+     "h": "Use it",
+     "b": "References: Mi jefa es muy organizada y justa."
+    },
+    {
+     "h": "Tip",
+     "b": "'Simpático' is a false friend: it means nice/friendly, not sympathetic."
+    }
+   ],
+   "example": "A: ¿Cómo es tu nuevo compañero?\nB: Es muy simpático y trabajador. Es alto y lleva gafas.",
+   "speak": [
+    "Mi jefa es muy organizada",
+    "Es simpático y trabajador",
+    "Tiene el pelo corto"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe a colleague's appearance and personality.",
+   "quiz": [
+    {
+     "q": "'Simpático' means…",
+     "options": [
+      "Serious",
+      "Nice/friendly",
+      "Sad",
+      "Sympathetic"
+     ],
+     "answer": 1,
+     "why": "False friend."
+    },
+    {
+     "q": "'Lleva gafas' means…",
+     "options": [
+      "He likes cats",
+      "He is tall",
+      "He carries bags",
+      "He wears glasses"
+     ],
+     "answer": 3,
+     "why": "Gafas = glasses."
+    },
+    {
+     "q": "'¿Cómo es?' asks about…",
+     "options": [
+      "Location",
+      "Description/character",
+      "Price",
+      "Time"
+     ],
+     "answer": 1,
+     "why": "What is he like?"
+    }
+   ]
+  },
+  {
+   "id": "es-47",
+   "level": "A2",
+   "title": "Clothes and colours",
+   "summary": "Shop for clothes and describe outfits.",
+   "term": {
+    "word": "la ropa",
+    "meaning": "Clothes."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "camisa (shirt) · camiseta (T-shirt) · pantalones (trousers) · chaqueta (jacket) · vestido (dress) · zapatos (shoes) · traje (suit)\nColours: rojo, azul, verde, amarillo, negro, blanco, gris, marrón (agree in gender/number: camisa blanca).\n¿Qué talla usa? (What size?) ¿Me lo puedo probar? (Can I try it on?)"
+    },
+    {
+     "h": "Use it",
+     "b": "Dress code: Para la reunión llevo traje y corbata."
+    },
+    {
+     "h": "Tip",
+     "b": "Colours ending in -e or consonant don't change gender: camisa verde, zapatos grises."
+    }
+   ],
+   "example": "A: ¿Me puedo probar esta chaqueta azul?\nB: Claro. ¿Qué talla usa?",
+   "speak": [
+    "¿Me puedo probar esta camisa?",
+    "Llevo un traje gris",
+    "Me gusta el color azul"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe what you're wearing today in Spanish.",
+   "quiz": [
+    {
+     "q": "'A white shirt':",
+     "options": [
+      "una blanca camisa",
+      "una camisa blanco",
+      "una camisa blanca",
+      "un camisa blanca"
+     ],
+     "answer": 2,
+     "why": "Agreement."
+    },
+    {
+     "q": "'¿Me lo puedo probar?' means…",
+     "options": [
+      "Can I buy it?",
+      "Is it new?",
+      "Can I try it on?",
+      "Can I return it?"
+     ],
+     "answer": 2,
+     "why": "Probarse."
+    },
+    {
+     "q": "'Zapatos' are…",
+     "options": [
+      "Shoes",
+      "Shirts",
+      "Socks",
+      "Hats"
+     ],
+     "answer": 0,
+     "why": "Shoes."
+    }
+   ]
+  },
+  {
+   "id": "es-48",
+   "level": "A2",
+   "title": "Home and housing",
+   "summary": "Describe where you live.",
+   "term": {
+    "word": "el piso / el apartamento",
+    "meaning": "The flat / apartment."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Vivo en un piso / una casa. Tiene dos dormitorios, un salón, una cocina y un baño.\nalquilar (rent) · el alquiler (the rent) · el barrio (neighbourhood) · tranquilo/ruidoso (quiet/noisy) · luminoso (bright)."
+    },
+    {
+     "h": "Use it",
+     "b": "Relocation conversations: Busco un piso de alquiler cerca de la oficina."
+    },
+    {
+     "h": "Tip",
+     "b": "'Piso' (Spain) = apartment; 'departamento' (Mexico, Argentina)."
+    }
+   ],
+   "example": "A: ¿Cómo es tu piso?\nB: Es pequeño pero luminoso. Tiene dos dormitorios y está en un barrio tranquilo.",
+   "speak": [
+    "Vivo en un piso pequeño",
+    "Busco un piso de alquiler",
+    "Mi barrio es muy tranquilo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe your home in 4 Spanish sentences.",
+   "quiz": [
+    {
+     "q": "'Alquilar' means…",
+     "options": [
+      "To buy",
+      "To sell",
+      "To clean",
+      "To rent"
+     ],
+     "answer": 3,
+     "why": "Rent."
+    },
+    {
+     "q": "'Barrio' is…",
+     "options": [
+      "Kitchen",
+      "Neighbourhood",
+      "Bar",
+      "Bathroom"
+     ],
+     "answer": 1,
+     "why": "Area."
+    },
+    {
+     "q": "In Mexico an apartment is often called…",
+     "options": [
+      "piso",
+      "departamento",
+      "barrio",
+      "chalet"
+     ],
+     "answer": 1,
+     "why": "Regional word."
+    }
+   ]
+  },
+  {
+   "id": "es-49",
+   "level": "A2",
+   "title": "Obligation: tener que, hay que",
+   "summary": "Say what must be done.",
+   "term": {
+    "word": "tener que + infinitive",
+    "meaning": "To have to."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Personal obligation: Tengo que terminar el informe. Tienes que firmar aquí.\nGeneral/impersonal: Hay que + infinitive: Hay que llegar puntual. (One must arrive on time.)\nAdvice: deber + infinitive: Debes descansar más."
+    },
+    {
+     "h": "Use it",
+     "b": "Team instructions: Hay que enviar las facturas antes del día 5."
+    },
+    {
+     "h": "Tip",
+     "b": "Don't forget 'que': 'Tengo terminar' ✗ → 'Tengo que terminar' ✓."
+    }
+   ],
+   "example": "A: ¿Vienes a cenar?\nB: No puedo, tengo que trabajar hasta tarde.",
+   "speak": [
+    "Tengo que terminar el informe",
+    "Hay que llegar puntual",
+    "Debes descansar más"
+   ],
+   "speakLang": "es-ES",
+   "action": "List 4 things you have to do this week.",
+   "quiz": [
+    {
+     "q": "'I have to go':",
+     "options": [
+      "Debo que ir",
+      "Tengo que ir",
+      "Tengo ir",
+      "Hay que yo ir"
+     ],
+     "answer": 1,
+     "why": "Tener que."
+    },
+    {
+     "q": "'Hay que' expresses…",
+     "options": [
+      "Location",
+      "Personal desire",
+      "Past action",
+      "General obligation"
+     ],
+     "answer": 3,
+     "why": "One must."
+    },
+    {
+     "q": "'Debes' is used for…",
+     "options": [
+      "Location",
+      "Age",
+      "Weather",
+      "Advice/should"
+     ],
+     "answer": 3,
+     "why": "Deber."
+    }
+   ]
+  },
+  {
+   "id": "es-50",
+   "level": "A2",
+   "title": "Commands (tú)",
+   "summary": "Give instructions and advice to friends.",
+   "term": {
+    "word": "imperativo",
+    "meaning": "Command form."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Affirmative tú: same as él form of the present: habla, come, escribe, llama.\nIrregulars: ven (come), ten (have), haz (do), pon (put), sal (leave), di (say), ve (go), sé (be).\nNegative: no + subjunctive form: no hables, no comas.\nPronouns attach: Llámame (call me), Dímelo (tell me)."
+    },
+    {
+     "h": "Use it",
+     "b": "Friendly instructions: Mándame el archivo, por favor. Avísame cuando llegues."
+    },
+    {
+     "h": "Tip",
+     "b": "Add 'por favor' to soften commands; tone matters."
+    }
+   ],
+   "example": "Llámame cuando salgas. No te preocupes. Haz lo que puedas.",
+   "speak": [
+    "Llámame más tarde",
+    "No te preocupes",
+    "Mándame el archivo, por favor"
+   ],
+   "speakLang": "es-ES",
+   "action": "Give a friend 5 instructions for making chai, using tú commands.",
+   "quiz": [
+    {
+     "q": "Tú command of 'hacer':",
+     "options": [
+      "hago",
+      "haz",
+      "hace",
+      "haces"
+     ],
+     "answer": 1,
+     "why": "Irregular."
+    },
+    {
+     "q": "'Don't worry' (tú):",
+     "options": [
+      "No te preocupas",
+      "No preocupar",
+      "No te preocupes",
+      "No preocúpate"
+     ],
+     "answer": 2,
+     "why": "Negative uses subjunctive."
+    },
+    {
+     "q": "'Llámame' means…",
+     "options": [
+      "I call",
+      "Call me",
+      "Call him",
+      "He called me"
+     ],
+     "answer": 1,
+     "why": "Pronoun attached."
+    }
+   ]
+  },
+  {
+   "id": "es-51",
+   "level": "B1",
+   "title": "Present perfect: he trabajado",
+   "summary": "Talk about recent and life experiences.",
+   "term": {
+    "word": "pretérito perfecto",
+    "meaning": "Present perfect: haber + past participle."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "he, has, ha, hemos, habéis, han + participle (-ado/-ido): he trabajado, has comido.\nIrregular participles: hecho (hacer), dicho (decir), escrito, visto, puesto, vuelto, abierto, roto.\nUse: today/this week/ever: Hoy he terminado el informe. ¿Has estado en México?"
+    },
+    {
+     "h": "Use it",
+     "b": "Status updates (especially in Spain): Esta semana hemos cerrado tres contratos."
+    },
+    {
+     "h": "Tip",
+     "b": "Latin America often prefers the simple past where Spain uses this tense: 'Hoy terminé' (LatAm) = 'Hoy he terminado' (Spain)."
+    }
+   ],
+   "example": "A: ¿Has enviado el correo?\nB: Sí, ya lo he enviado. También he llamado al cliente.",
+   "speak": [
+    "Ya he enviado el correo",
+    "¿Has estado en España?",
+    "Esta semana hemos cerrado tres contratos"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 5 things you have done this week using the present perfect.",
+   "quiz": [
+    {
+     "q": "Participle of 'hacer':",
+     "options": [
+      "hizo",
+      "hecho",
+      "hacido",
+      "haciendo"
+     ],
+     "answer": 1,
+     "why": "Irregular."
+    },
+    {
+     "q": "'¿Has estado en México?' asks…",
+     "options": [
+      "Will you go to Mexico?",
+      "Are you in Mexico?",
+      "Have you ever been to Mexico?",
+      "Were you born in Mexico?"
+     ],
+     "answer": 2,
+     "why": "Life experience."
+    },
+    {
+     "q": "'Hemos' is the form for…",
+     "options": [
+      "ellos",
+      "tú",
+      "nosotros",
+      "yo"
+     ],
+     "answer": 2,
+     "why": "We have."
+    }
+   ]
+  },
+  {
+   "id": "es-52",
+   "level": "B1",
+   "title": "Future tense",
+   "summary": "Make predictions and promises.",
+   "term": {
+    "word": "futuro simple",
+    "meaning": "Simple future (will)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Add to the infinitive: -é, -ás, -á, -emos, -éis, -án: hablaré, comerás, vivirá.\nIrregular stems: tendré, podré, haré, diré, saldré, vendré, querré, sabré, pondré.\nAlso expresses probability now: Serán las diez (It's probably ten)."
+    },
+    {
+     "h": "Use it",
+     "b": "Formal commitments: Le enviaré la propuesta el lunes. El proyecto terminará en marzo."
+    },
+    {
+     "h": "Tip",
+     "b": "In conversation 'ir a + infinitive' is more common; the future sounds more formal or certain."
+    }
+   ],
+   "example": "Le enviaré la propuesta mañana y tendremos una reunión la próxima semana.",
+   "speak": [
+    "Le enviaré la propuesta mañana",
+    "El proyecto terminará en marzo",
+    "Tendremos una reunión el lunes"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 4 predictions about your career using the future tense.",
+   "quiz": [
+    {
+     "q": "Future of 'tener' (yo):",
+     "options": [
+      "teneré",
+      "tengo",
+      "tendré",
+      "tenré"
+     ],
+     "answer": 2,
+     "why": "Irregular stem."
+    },
+    {
+     "q": "'Serán las diez' can mean…",
+     "options": [
+      "It will be ten",
+      "It's not ten",
+      "It was ten",
+      "It's probably ten o'clock"
+     ],
+     "answer": 3,
+     "why": "Probability."
+    },
+    {
+     "q": "Future of 'hacer' (nosotros):",
+     "options": [
+      "hicimos",
+      "haremos",
+      "haceremos",
+      "hacemos"
+     ],
+     "answer": 1,
+     "why": "Irregular stem har-."
+    }
+   ]
+  },
+  {
+   "id": "es-53",
+   "level": "B1",
+   "title": "Conditional: would, could, should",
+   "summary": "Be polite and talk about hypotheticals.",
+   "term": {
+    "word": "condicional",
+    "meaning": "Would (conditional mood)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Infinitive + -ía, -ías, -ía, -íamos, -íais, -ían: hablaría, comería.\nSame irregular stems as future: tendría, podría, haría, diría.\nPolite: Me gustaría… (I'd like) · ¿Podría…? (Could you…?) · Deberías… (You should)."
+    },
+    {
+     "h": "Use it",
+     "b": "Professional requests: ¿Podría enviarme el contrato? Me gustaría hablar con el director."
+    },
+    {
+     "h": "Tip",
+     "b": "Using the conditional instantly makes your Spanish sound more polite and professional."
+    }
+   ],
+   "example": "Me gustaría reservar una sala para mañana. ¿Podría confirmarme la disponibilidad?",
+   "speak": [
+    "Me gustaría hablar con el director",
+    "¿Podría enviarme el contrato?",
+    "Deberías hablar con tu jefe"
+   ],
+   "speakLang": "es-ES",
+   "action": "Rewrite 4 direct requests as polite conditional requests.",
+   "quiz": [
+    {
+     "q": "'I would like':",
+     "options": [
+      "Me gustaría",
+      "Me gustó",
+      "Me gusto",
+      "Me gustará"
+     ],
+     "answer": 0,
+     "why": "Conditional."
+    },
+    {
+     "q": "'¿Podría…?' sounds…",
+     "options": [
+      "Polite",
+      "Informal slang",
+      "Rude",
+      "Past tense"
+     ],
+     "answer": 0,
+     "why": "Could you…?"
+    },
+    {
+     "q": "Conditional of 'decir' (yo):",
+     "options": [
+      "deciría",
+      "dijera",
+      "diría",
+      "dice"
+     ],
+     "answer": 2,
+     "why": "Irregular stem dir-."
+    }
+   ]
+  },
+  {
+   "id": "es-54",
+   "level": "B1",
+   "title": "Professional requests and emails",
+   "summary": "Write and speak politely at work.",
+   "term": {
+    "word": "Estimado/a",
+    "meaning": "Dear (formal email greeting)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Opening: Estimado Sr. García / Estimada Sra. López: · Hola, Ana: (informal)\nPurpose: Le escribo para… (I'm writing to…) · En relación con… (Regarding…)\nRequests: Le agradecería que… (I'd be grateful if…) · Adjunto le envío… (Please find attached…)\nClosing: Quedo a la espera de su respuesta. Un saludo / Atentamente."
+    },
+    {
+     "h": "Use it",
+     "b": "These phrases cover most business emails to Spanish-speaking clients."
+    },
+    {
+     "h": "Tip",
+     "b": "Spanish email greetings end with a colon (Estimado Sr. García:), not a comma."
+    }
+   ],
+   "example": "Estimada Sra. López:\nLe escribo en relación con la factura de septiembre. Adjunto le envío el documento corregido.\nQuedo a la espera de su respuesta.\nAtentamente,\nYash Modi",
+   "speak": [
+    "Le escribo en relación con la factura",
+    "Adjunto le envío el documento",
+    "Quedo a la espera de su respuesta"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a 4-line Spanish email asking for a meeting.",
+   "quiz": [
+    {
+     "q": "'Adjunto le envío' means…",
+     "options": [
+      "I received",
+      "I'm waiting",
+      "I'm calling you",
+      "Please find attached"
+     ],
+     "answer": 3,
+     "why": "Attachment phrase."
+    },
+    {
+     "q": "Formal greeting punctuation:",
+     "options": [
+      "Estimado Sr. García.",
+      "Estimado Sr. García!",
+      "Estimado Sr. García,",
+      "Estimado Sr. García:"
+     ],
+     "answer": 3,
+     "why": "Colon in Spanish."
+    },
+    {
+     "q": "'Atentamente' is…",
+     "options": [
+      "A subject line",
+      "A formal closing",
+      "A greeting",
+      "A question"
+     ],
+     "answer": 1,
+     "why": "Yours sincerely."
+    }
+   ]
+  },
+  {
+   "id": "es-55",
+   "level": "B1",
+   "title": "Present subjunctive: introduction",
+   "summary": "The mood for wishes, requests and uncertainty.",
+   "term": {
+    "word": "subjuntivo",
+    "meaning": "The subjunctive mood."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Form: take the yo present, drop -o, add opposite endings:\n-ar → -e: hablar → hable, hables, hable, hablemos, habléis, hablen.\n-er/-ir → -a: comer → coma; tener → tenga; hacer → haga.\nIrregular: ser → sea, ir → vaya, estar → esté, saber → sepa, dar → dé.\nTrigger: one subject wants/asks something of another: Quiero que vengas. (I want you to come.)"
+    },
+    {
+     "h": "Use it",
+     "b": "Requests to the team: Necesito que revises el informe. Te pido que llegues temprano."
+    },
+    {
+     "h": "Tip",
+     "b": "Same subject → infinitive (Quiero ir). Different subjects → que + subjunctive (Quiero que vayas)."
+    }
+   ],
+   "example": "Mi jefe quiere que terminemos el proyecto antes del viernes y que presentemos los resultados.",
+   "speak": [
+    "Quiero que vengas a la reunión",
+    "Necesito que revises el informe",
+    "Espero que tengas un buen día"
+   ],
+   "speakLang": "es-ES",
+   "action": "Make 5 'I want you to…' sentences with quiero que + subjunctive.",
+   "quiz": [
+    {
+     "q": "'I want you to come':",
+     "options": [
+      "Quiero venir tú",
+      "Quiero que venir",
+      "Quiero que vienes",
+      "Quiero que vengas"
+     ],
+     "answer": 3,
+     "why": "Different subjects → subjunctive."
+    },
+    {
+     "q": "Subjunctive of 'ser':",
+     "options": [
+      "sería",
+      "sea",
+      "fue",
+      "es"
+     ],
+     "answer": 1,
+     "why": "Irregular."
+    },
+    {
+     "q": "'Quiero ir' vs 'Quiero que vayas': the difference is…",
+     "options": [
+      "Formality",
+      "Same vs different subjects",
+      "Tense",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Subject change triggers subjunctive."
+    }
+   ]
+  },
+  {
+   "id": "es-56",
+   "level": "B1",
+   "title": "Subjunctive: emotions and opinions",
+   "summary": "Express feelings, doubt and value judgments.",
+   "term": {
+    "word": "me alegra que…",
+    "meaning": "I'm glad that…"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Emotion + que + subjunctive: Me alegra que estés aquí. Siento que no puedas venir.\nDoubt/denial: No creo que sea posible. Dudo que llegue a tiempo.\nValue judgments: Es importante que… Es mejor que… Es necesario que…\nBut certainty → indicative: Creo que es posible."
+    },
+    {
+     "h": "Use it",
+     "b": "Feedback and meetings: Es importante que todos entiendan el plan."
+    },
+    {
+     "h": "Tip",
+     "b": "'Creo que' + indicative; 'No creo que' + subjunctive. This pair is tested often."
+    }
+   ],
+   "example": "Me alegra que el cliente esté contento, pero no creo que podamos bajar más el precio.",
+   "speak": [
+    "Me alegra que estés aquí",
+    "No creo que sea posible",
+    "Es importante que todos participen"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 sentences with emotions and 2 with doubt using the subjunctive.",
+   "quiz": [
+    {
+     "q": "'I don't think it's possible':",
+     "options": [
+      "No creo que será",
+      "No creo ser posible",
+      "No creo que sea posible",
+      "No creo que es posible"
+     ],
+     "answer": 2,
+     "why": "Doubt → subjunctive."
+    },
+    {
+     "q": "'Creo que' is followed by…",
+     "options": [
+      "Indicative",
+      "Subjunctive",
+      "Infinitive only",
+      "Imperative"
+     ],
+     "answer": 0,
+     "why": "Belief → indicative."
+    },
+    {
+     "q": "'Es importante que' takes…",
+     "options": [
+      "Subjunctive",
+      "Indicative",
+      "Participle",
+      "Gerund"
+     ],
+     "answer": 0,
+     "why": "Value judgment."
+    }
+   ]
+  },
+  {
+   "id": "es-57",
+   "level": "B1",
+   "title": "Subjunctive: purpose and future time",
+   "summary": "Para que, cuando, hasta que…",
+   "term": {
+    "word": "para que / cuando",
+    "meaning": "So that / when."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "para que + subjunctive: Te lo explico para que lo entiendas.\nFuture time clauses: cuando, en cuanto, hasta que, antes de que + subjunctive: Cuando llegues, llámame. Antes de que empiece la reunión…\nHabitual or past → indicative: Cuando llego, tomo café."
+    },
+    {
+     "h": "Use it",
+     "b": "Instructions: Avísame en cuanto tengas los datos."
+    },
+    {
+     "h": "Tip",
+     "b": "'Cuando' + future meaning always takes subjunctive, never future tense: 'Cuando llegarás' ✗ → 'Cuando llegues' ✓."
+    }
+   ],
+   "example": "En cuanto termine la reunión, te enviaré el resumen para que puedas revisarlo.",
+   "speak": [
+    "Avísame en cuanto tengas los datos",
+    "Cuando llegues, llámame",
+    "Te lo explico para que lo entiendas"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 instructions using cuando/en cuanto + subjunctive.",
+   "quiz": [
+    {
+     "q": "'When you arrive, call me':",
+     "options": [
+      "Cuando llegar, llámame",
+      "Cuando llegues, llámame",
+      "Cuando llegarás, llámame",
+      "Cuando llegas, llámame"
+     ],
+     "answer": 1,
+     "why": "Future time → subjunctive."
+    },
+    {
+     "q": "'Para que' is always followed by…",
+     "options": [
+      "Gerund",
+      "Indicative",
+      "Infinitive",
+      "Subjunctive"
+     ],
+     "answer": 3,
+     "why": "Purpose with another subject."
+    },
+    {
+     "q": "'Cuando llego, tomo café' uses indicative because…",
+     "options": [
+      "It's a command",
+      "It's a habit",
+      "It's a wish",
+      "It's future"
+     ],
+     "answer": 1,
+     "why": "Habitual action."
+    }
+   ]
+  },
+  {
+   "id": "es-58",
+   "level": "B1",
+   "title": "Formal commands (usted)",
+   "summary": "Give polite instructions to clients and the public.",
+   "term": {
+    "word": "imperativo formal",
+    "meaning": "Formal command form."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Usted commands use the subjunctive: hable, coma, escriba, venga, siga, firme.\nUstedes: hablen, vengan.\nPronouns attach: Siéntese (sit down), Dígame (tell me), Fírmelo aquí.\nNegative: No se preocupe."
+    },
+    {
+     "h": "Use it",
+     "b": "Customer service: Pase, por favor. Siéntese. Espere un momento. No se preocupe."
+    },
+    {
+     "h": "Tip",
+     "b": "'Dígame' is also how many people answer the phone in Spain."
+    }
+   ],
+   "example": "Pase, por favor. Siéntese. Rellene este formulario y fírmelo aquí. No se preocupe, es rápido.",
+   "speak": [
+    "Pase, por favor",
+    "Siéntese, por favor",
+    "No se preocupe"
+   ],
+   "speakLang": "es-ES",
+   "action": "Give 5 formal instructions to an imaginary client.",
+   "quiz": [
+    {
+     "q": "Formal 'come in':",
+     "options": [
+      "Pase",
+      "Pasa",
+      "Pasar",
+      "Pasas"
+     ],
+     "answer": 0,
+     "why": "Usted command."
+    },
+    {
+     "q": "'No se preocupe' means…",
+     "options": [
+      "Don't worry (formal)",
+      "Don't sit",
+      "Don't call",
+      "Don't move"
+     ],
+     "answer": 0,
+     "why": "Reassurance."
+    },
+    {
+     "q": "'Dígame' means…",
+     "options": [
+      "Tell me (formal)",
+      "Say it again",
+      "He told me",
+      "I tell you"
+     ],
+     "answer": 0,
+     "why": "Formal command + me."
+    }
+   ]
+  },
+  {
+   "id": "es-59",
+   "level": "B1",
+   "title": "Relative pronouns",
+   "summary": "Connect ideas: que, quien, donde, lo que.",
+   "term": {
+    "word": "que / lo que",
+    "meaning": "That, which, who / what (the thing that)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "que: most common: El informe que te envié. La persona que llamó.\nquien(es): after prepositions for people: La persona con quien hablé.\ndonde: place: La oficina donde trabajo.\nlo que: 'what' as 'the thing that': Lo que necesito es tiempo.\ncuyo/a: whose (formal): La empresa cuyo director…"
+    },
+    {
+     "h": "Use it",
+     "b": "Clear explanations: Lo que proponemos es una solución más rápida."
+    },
+    {
+     "h": "Tip",
+     "b": "Spanish never drops 'que' like English drops 'that': 'El libro que leo' (the book I read)."
+    }
+   ],
+   "example": "La empresa donde trabajo tiene un cliente cuyo proyecto es enorme. Lo que necesitamos es más personal.",
+   "speak": [
+    "El informe que te envié ayer",
+    "Lo que necesito es tiempo",
+    "La oficina donde trabajo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 4 sentences using que, donde, lo que and con quien.",
+   "quiz": [
+    {
+     "q": "'What I need is time':",
+     "options": [
+      "Lo que necesito es tiempo",
+      "Qué necesito es tiempo",
+      "Lo necesito es tiempo",
+      "Que necesito es tiempo"
+     ],
+     "answer": 0,
+     "why": "Lo que = what."
+    },
+    {
+     "q": "'The person I spoke with':",
+     "options": [
+      "La persona quien hablé",
+      "La persona hablé",
+      "La persona con que hablé",
+      "La persona con quien hablé"
+     ],
+     "answer": 3,
+     "why": "Preposition + quien for people."
+    },
+    {
+     "q": "Can Spanish drop 'que' like English drops 'that'?",
+     "options": [
+      "Yes, always",
+      "Only in writing",
+      "Only in Mexico",
+      "No"
+     ],
+     "answer": 3,
+     "why": "It's required."
+    }
+   ]
+  },
+  {
+   "id": "es-60",
+   "level": "B1",
+   "title": "Connectors",
+   "summary": "Link ideas smoothly and sound fluent.",
+   "term": {
+    "word": "sin embargo",
+    "meaning": "However."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Adding: además, también, incluso · Contrast: pero, sin embargo, aunque, en cambio · Cause: porque, ya que, como · Result: por eso, así que, por lo tanto · Sequence: primero, luego, después, por último · Summary: en resumen, en conclusión."
+    },
+    {
+     "h": "Use it",
+     "b": "Presentations: Las ventas subieron. Sin embargo, los costes también aumentaron. Por eso, proponemos…"
+    },
+    {
+     "h": "Tip",
+     "b": "'Como' for cause goes at the start: Como llovía, nos quedamos en casa."
+    }
+   ],
+   "example": "Primero analizamos los datos. Además, hablamos con los clientes. Sin embargo, aún faltan respuestas, así que seguiremos investigando.",
+   "speak": [
+    "Sin embargo, los costes aumentaron",
+    "Por eso proponemos un cambio",
+    "En resumen, el proyecto fue un éxito"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a 5-sentence paragraph using 5 different connectors.",
+   "quiz": [
+    {
+     "q": "'Sin embargo' means…",
+     "options": [
+      "Because",
+      "However",
+      "Therefore",
+      "Also"
+     ],
+     "answer": 1,
+     "why": "Contrast."
+    },
+    {
+     "q": "'Por eso' means…",
+     "options": [
+      "Instead",
+      "First",
+      "That's why / therefore",
+      "Although"
+     ],
+     "answer": 2,
+     "why": "Result."
+    },
+    {
+     "q": "'Además' means…",
+     "options": [
+      "Unless",
+      "However",
+      "Besides / in addition",
+      "Finally"
+     ],
+     "answer": 2,
+     "why": "Adding."
+    }
+   ]
+  },
+  {
+   "id": "es-61",
+   "level": "B1",
+   "title": "Giving opinions",
+   "summary": "Share your view clearly and politely.",
+   "term": {
+    "word": "en mi opinión",
+    "meaning": "In my opinion."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Creo que… / Pienso que… / En mi opinión… / Para mí… / Me parece que…\nAsking: ¿Qué opinas? ¿Qué te parece? ¿Cuál es tu opinión?\nSoftening: A lo mejor… / Puede que… (+ subjunctive)"
+    },
+    {
+     "h": "Use it",
+     "b": "Meetings: Me parece que la segunda opción es más realista."
+    },
+    {
+     "h": "Tip",
+     "b": "'Me parece bien' = 'That's fine with me', which is very handy for agreeing."
+    }
+   ],
+   "example": "A: ¿Qué te parece la propuesta?\nB: En mi opinión, es buena, pero creo que el plazo es demasiado corto.",
+   "speak": [
+    "En mi opinión, es una buena idea",
+    "¿Qué te parece?",
+    "Me parece bien"
+   ],
+   "speakLang": "es-ES",
+   "action": "Give your opinion on remote work in 3 Spanish sentences.",
+   "quiz": [
+    {
+     "q": "'¿Qué te parece?' asks…",
+     "options": [
+      "What do you think of it?",
+      "Where is it?",
+      "What does it look like?",
+      "How much is it?"
+     ],
+     "answer": 0,
+     "why": "Opinion question."
+    },
+    {
+     "q": "'Me parece bien' means…",
+     "options": [
+      "I'm sick",
+      "It looks good / that's fine with me",
+      "It's expensive",
+      "I seem well"
+     ],
+     "answer": 1,
+     "why": "Agreement."
+    },
+    {
+     "q": "'Para mí' in opinions means…",
+     "options": [
+      "For me / in my view",
+      "For my friend",
+      "By me",
+      "Without me"
+     ],
+     "answer": 0,
+     "why": "Opinion marker."
+    }
+   ]
+  },
+  {
+   "id": "es-62",
+   "level": "B1",
+   "title": "Agreeing and disagreeing",
+   "summary": "Debate without damaging relationships.",
+   "term": {
+    "word": "estoy de acuerdo",
+    "meaning": "I agree."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Agree: Estoy de acuerdo. Tienes razón. Exacto. Claro que sí.\nPartly: Estoy de acuerdo en parte, pero… · Es verdad, aunque…\nDisagree politely: No estoy del todo de acuerdo. Yo lo veo de otra manera. Entiendo tu punto, pero…"
+    },
+    {
+     "h": "Use it",
+     "b": "Respectful disagreement keeps meetings productive."
+    },
+    {
+     "h": "Tip",
+     "b": "Avoid a blunt 'Estás equivocado' (you're wrong) in meetings; 'No estoy del todo de acuerdo' is the safe, soft form."
+    }
+   ],
+   "example": "A: Creo que debemos lanzar el producto ya.\nB: Entiendo tu punto, pero yo lo veo de otra manera. Necesitamos más pruebas.",
+   "speak": [
+    "Estoy de acuerdo contigo",
+    "No estoy del todo de acuerdo",
+    "Entiendo tu punto, pero…"
+   ],
+   "speakLang": "es-ES",
+   "action": "Practise agreeing and politely disagreeing with 2 statements.",
+   "quiz": [
+    {
+     "q": "'I agree':",
+     "options": [
+      "Tengo acuerdo",
+      "Hay acuerdo yo",
+      "Soy de acuerdo",
+      "Estoy de acuerdo"
+     ],
+     "answer": 3,
+     "why": "Estar de acuerdo."
+    },
+    {
+     "q": "A soft disagreement is…",
+     "options": [
+      "No.",
+      "¡Qué tontería!",
+      "No estoy del todo de acuerdo",
+      "Estás equivocado"
+     ],
+     "answer": 2,
+     "why": "Polite form."
+    },
+    {
+     "q": "'Yo lo veo de otra manera' means…",
+     "options": [
+      "I see it differently",
+      "I saw it before",
+      "I agree",
+      "I can't see it"
+     ],
+     "answer": 0,
+     "why": "Different view."
+    }
+   ]
+  },
+  {
+   "id": "es-63",
+   "level": "B1",
+   "title": "Meetings vocabulary",
+   "summary": "Follow and contribute to Spanish meetings.",
+   "term": {
+    "word": "la reunión",
+    "meaning": "The meeting."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "el orden del día (agenda) · el acta (minutes) · el plazo (deadline) · el presupuesto (budget) · el objetivo (goal) · el responsable (person in charge) · tomar una decisión (make a decision)\nPhrases: Empecemos. Pasemos al siguiente punto. ¿Alguna pregunta? Para resumir…"
+    },
+    {
+     "h": "Use it",
+     "b": "Leading: Bienvenidos. El objetivo de hoy es aprobar el presupuesto."
+    },
+    {
+     "h": "Tip",
+     "b": "'Presupuesto' means budget (and also a quote/estimate in Spain)."
+    }
+   ],
+   "example": "Bienvenidos a todos. Empecemos con el primer punto del orden del día: el presupuesto para el próximo trimestre.",
+   "speak": [
+    "Empecemos con el primer punto",
+    "Pasemos al siguiente punto",
+    "¿Alguna pregunta?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Learn 8 meeting words and run a pretend 1-minute meeting opening.",
+   "quiz": [
+    {
+     "q": "'El orden del día' is…",
+     "options": [
+      "Daily order",
+      "The agenda",
+      "Daily report",
+      "Breakfast"
+     ],
+     "answer": 1,
+     "why": "Agenda."
+    },
+    {
+     "q": "'El plazo' means…",
+     "options": [
+      "The deadline",
+      "The goal",
+      "The square",
+      "The budget"
+     ],
+     "answer": 0,
+     "why": "Deadline/term."
+    },
+    {
+     "q": "'Pasemos al siguiente punto' means…",
+     "options": [
+      "Let's move to the next point",
+      "Let's vote",
+      "Let's take a break",
+      "Let's finish"
+     ],
+     "answer": 0,
+     "why": "Transition."
+    }
+   ]
+  },
+  {
+   "id": "es-64",
+   "level": "B1",
+   "title": "Talking about the past: había hecho",
+   "summary": "The pluperfect: what had happened before.",
+   "term": {
+    "word": "pluscuamperfecto",
+    "meaning": "Past perfect (had done)."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "había, habías, había, habíamos, habíais, habían + participle: Cuando llegué, la reunión ya había empezado.\nUse it to show one past action happened before another."
+    },
+    {
+     "h": "Use it",
+     "b": "Explaining delays: El cliente ya había firmado con otra empresa cuando enviamos la oferta."
+    },
+    {
+     "h": "Tip",
+     "b": "'Ya' (already) and 'todavía no' (not yet) pair naturally with this tense."
+    }
+   ],
+   "example": "Cuando llegué a la estación, el tren ya había salido, así que tuve que esperar una hora.",
+   "speak": [
+    "La reunión ya había empezado",
+    "Nunca había visto algo así",
+    "El tren ya había salido"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 sentences about something that had already happened when you arrived somewhere.",
+   "quiz": [
+    {
+     "q": "'The meeting had started':",
+     "options": [
+      "La reunión ha empezado",
+      "La reunión empezará",
+      "La reunión empezaba",
+      "La reunión había empezado"
+     ],
+     "answer": 3,
+     "why": "Pluperfect."
+    },
+    {
+     "q": "'Nunca había visto' means…",
+     "options": [
+      "I will never see",
+      "I never see",
+      "I had never seen",
+      "I didn't see"
+     ],
+     "answer": 2,
+     "why": "Past perfect."
+    },
+    {
+     "q": "The pluperfect shows an action that happened…",
+     "options": [
+      "Right now",
+      "In the future",
+      "After another past action",
+      "Before another past action"
+     ],
+     "answer": 3,
+     "why": "Earlier past."
+    }
+   ]
+  },
+  {
+   "id": "es-65",
+   "level": "B1",
+   "title": "Job interview in Spanish",
+   "summary": "Present yourself professionally in Spanish.",
+   "term": {
+    "word": "la entrevista de trabajo",
+    "meaning": "The job interview."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Háblame de ti / Hábleme de usted (Tell me about yourself) · ¿Por qué quiere trabajar aquí? · ¿Cuáles son sus puntos fuertes y débiles?\nAnswers: Tengo cinco años de experiencia en… · Mi punto fuerte es… · Estoy trabajando en mejorar…\nAsk: ¿Cuáles serían mis responsabilidades? ¿Cuáles son los próximos pasos?"
+    },
+    {
+     "h": "Use it",
+     "b": "Combine with your English interview prep: the STAR structure works in every language."
+    },
+    {
+     "h": "Tip",
+     "b": "Use usted with interviewers unless they switch to tú."
+    }
+   ],
+   "example": "Tengo cinco años de experiencia en finanzas. Mi punto fuerte es el análisis de datos: en mi último trabajo automaticé los informes y ahorré cuarenta horas al mes.",
+   "speak": [
+    "Tengo cinco años de experiencia en finanzas",
+    "Mi punto fuerte es el análisis de datos",
+    "¿Cuáles serían mis responsabilidades?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a 4-sentence Spanish self-introduction for an interview.",
+   "quiz": [
+    {
+     "q": "'Puntos fuertes' are…",
+     "options": [
+      "Weak points",
+      "Strong drinks",
+      "Strengths",
+      "Deadlines"
+     ],
+     "answer": 2,
+     "why": "Strengths."
+    },
+    {
+     "q": "'Hábleme de usted' means…",
+     "options": [
+      "Speak louder",
+      "Tell me about yourself (formal)",
+      "Call me later",
+      "Speak to him"
+     ],
+     "answer": 1,
+     "why": "Formal request."
+    },
+    {
+     "q": "A good question to ask at the end is…",
+     "options": [
+      "¿Puedo irme?",
+      "Nothing",
+      "¿Cuáles son los próximos pasos?",
+      "¿Cuánto es el sueldo? (first)"
+     ],
+     "answer": 2,
+     "why": "Next steps."
+    }
+   ]
+  },
+  {
+   "id": "es-66",
+   "level": "B1",
+   "title": "False friends",
+   "summary": "Words that look English but mean something else.",
+   "term": {
+    "word": "falsos amigos",
+    "meaning": "False friends."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "embarazada = pregnant (not embarrassed → avergonzado) · éxito = success (not exit → salida) · actual = current (not actual → real) · librería = bookshop (library → biblioteca) · carpeta = folder (carpet → alfombra) · constipado = having a cold · realizar = carry out (realise → darse cuenta) · sensible = sensitive (sensible → sensato)."
+    },
+    {
+     "h": "Use it",
+     "b": "Avoid embarrassing moments in meetings: 'El proyecto fue un éxito' = The project was a success."
+    },
+    {
+     "h": "Tip",
+     "b": "When unsure, check before using a word that 'looks English'."
+    }
+   ],
+   "example": "El proyecto fue un gran éxito. La situación actual es buena. Guarda el archivo en la carpeta compartida.",
+   "speak": [
+    "El proyecto fue un éxito",
+    "La situación actual es estable",
+    "Guarda el archivo en la carpeta"
+   ],
+   "speakLang": "es-ES",
+   "action": "Learn 8 false friends and write a sentence with each.",
+   "quiz": [
+    {
+     "q": "'Embarazada' means…",
+     "options": [
+      "Pregnant",
+      "Excited",
+      "Busy",
+      "Embarrassed"
+     ],
+     "answer": 0,
+     "why": "Classic trap!"
+    },
+    {
+     "q": "'Éxito' means…",
+     "options": [
+      "Success",
+      "Example",
+      "Exit",
+      "Excitement"
+     ],
+     "answer": 0,
+     "why": "Success."
+    },
+    {
+     "q": "'Actual' means…",
+     "options": [
+      "Current",
+      "Accurate",
+      "Actual/real",
+      "Active"
+     ],
+     "answer": 0,
+     "why": "Current."
+    }
+   ]
+  },
+  {
+   "id": "es-67",
+   "level": "B1",
+   "title": "Spain vs Latin America",
+   "summary": "Understand regional differences.",
+   "term": {
+    "word": "variantes",
+    "meaning": "Variants of Spanish."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Pronunciation: Spain pronounces c/z as 'th' (distinción); Latin America as 's' (seseo).\nGrammar: vosotros (Spain) vs ustedes (everywhere in LatAm). Argentina uses 'vos' instead of 'tú' (vos tenés).\nVocabulary: coche/carro/auto (car) · ordenador/computadora (computer) · móvil/celular (phone) · zumo/jugo (juice)."
+    },
+    {
+     "h": "Use it",
+     "b": "With 500+ million speakers, understanding variants helps with global colleagues."
+    },
+    {
+     "h": "Tip",
+     "b": "Everyone understands standard Spanish; pick one variant to speak and recognise the others."
+    }
+   ],
+   "example": "En España: Voy a coger el coche. ¿Tenéis el móvil?\nEn México: Voy a tomar el carro. ¿Tienen el celular?",
+   "speak": [
+    "Mi móvil no tiene batería",
+    "Mi celular no tiene batería",
+    "Vosotros sois de Madrid"
+   ],
+   "speakLang": "es-ES",
+   "action": "List 5 words that differ between Spain and Latin America.",
+   "quiz": [
+    {
+     "q": "'Computer' in Spain is usually…",
+     "options": [
+      "máquina",
+      "computadora",
+      "laptop",
+      "ordenador"
+     ],
+     "answer": 3,
+     "why": "Ordenador."
+    },
+    {
+     "q": "Argentina often uses ___ instead of tú.",
+     "options": [
+      "vos",
+      "ustedes",
+      "usted",
+      "vosotros"
+     ],
+     "answer": 0,
+     "why": "Voseo."
+    },
+    {
+     "q": "'Celular' is used mainly in…",
+     "options": [
+      "Spain",
+      "Latin America",
+      "Nowhere",
+      "Only Argentina"
+     ],
+     "answer": 1,
+     "why": "Mobile phone."
+    }
+   ]
+  },
+  {
+   "id": "es-68",
+   "level": "B1",
+   "title": "Money and banking",
+   "summary": "Handle accounts, payments and transfers.",
+   "term": {
+    "word": "la cuenta bancaria",
+    "meaning": "The bank account."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "abrir una cuenta (open an account) · la transferencia (transfer) · el cajero automático (ATM) · sacar dinero (withdraw) · ingresar (deposit) · la comisión (fee) · el tipo de interés (interest rate) · el tipo de cambio (exchange rate) · la factura (invoice) · pagar a plazos (pay in instalments)."
+    },
+    {
+     "h": "Use it",
+     "b": "Finance colleagues: El tipo de interés subió medio punto."
+    },
+    {
+     "h": "Tip",
+     "b": "'La cuenta' = account AND the bill at a restaurant; context makes it clear."
+    }
+   ],
+   "example": "Quisiera abrir una cuenta y hacer una transferencia internacional. ¿Cuál es la comisión?",
+   "speak": [
+    "Quisiera hacer una transferencia",
+    "¿Cuál es la comisión?",
+    "El tipo de interés subió"
+   ],
+   "speakLang": "es-ES",
+   "action": "Explain how you'd send money abroad, in Spanish.",
+   "quiz": [
+    {
+     "q": "'El tipo de interés' is…",
+     "options": [
+      "Exchange rate",
+      "Interesting type",
+      "The interest rate",
+      "Type of interest"
+     ],
+     "answer": 2,
+     "why": "Interest rate."
+    },
+    {
+     "q": "'Sacar dinero' means…",
+     "options": [
+      "Deposit money",
+      "Save money",
+      "Withdraw money",
+      "Lose money"
+     ],
+     "answer": 2,
+     "why": "Withdraw."
+    },
+    {
+     "q": "'La factura' is…",
+     "options": [
+      "The fee",
+      "The invoice",
+      "The factory",
+      "The fact"
+     ],
+     "answer": 1,
+     "why": "Invoice."
+    }
+   ]
+  },
+  {
+   "id": "es-69",
+   "level": "B1",
+   "title": "Everyday idioms",
+   "summary": "Sound natural with common expressions.",
+   "term": {
+    "word": "modismos",
+    "meaning": "Idioms."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "costar un ojo de la cara = cost an arm and a leg · estar en las nubes = be daydreaming · no tener pelos en la lengua = be very outspoken · ponerse las pilas = get your act together · ser pan comido = be a piece of cake · tomar el pelo = pull someone's leg."
+    },
+    {
+     "h": "Use it",
+     "b": "Light conversation: ¡Ponte las pilas, que mañana es la presentación!"
+    },
+    {
+     "h": "Tip",
+     "b": "Use idioms in informal contexts; avoid them in formal emails."
+    }
+   ],
+   "example": "A: ¿Fue difícil el examen?\nB: ¡Qué va! Fue pan comido.",
+   "speak": [
+    "Fue pan comido",
+    "Tengo que ponerme las pilas",
+    "Me estás tomando el pelo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Use one Spanish idiom in a message to a friend today.",
+   "quiz": [
+    {
+     "q": "'Ser pan comido' means…",
+     "options": [
+      "To be expensive",
+      "To be very easy",
+      "To be hungry",
+      "To be late"
+     ],
+     "answer": 1,
+     "why": "Piece of cake."
+    },
+    {
+     "q": "'Ponerse las pilas' means…",
+     "options": [
+      "Get your act together",
+      "Buy batteries",
+      "Relax",
+      "Go to sleep"
+     ],
+     "answer": 0,
+     "why": "Energise yourself."
+    },
+    {
+     "q": "'Tomar el pelo' means…",
+     "options": [
+      "Pull someone's leg / tease",
+      "Get angry",
+      "Take a break",
+      "Cut hair"
+     ],
+     "answer": 0,
+     "why": "Tease."
+    }
+   ]
+  },
+  {
+   "id": "es-70",
+   "level": "B1",
+   "title": "Telling a story",
+   "summary": "Narrate past events with structure and flair.",
+   "term": {
+    "word": "contar una historia",
+    "meaning": "To tell a story."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Structure: Un día… / Hace dos años… (opening) → Resulta que… (it turns out) → De repente… (suddenly) → Al final… (in the end).\nMix tenses: imperfect for background, preterite for events, pluperfect for earlier events.\nReactions: ¡No me digas! ¡Qué fuerte! ¡Qué suerte!"
+    },
+    {
+     "h": "Use it",
+     "b": "Storytelling helps in interviews and social events."
+    },
+    {
+     "h": "Tip",
+     "b": "Keep listeners engaged with reactions; Spanish conversation is very interactive."
+    }
+   ],
+   "example": "Hace dos años estaba en Madrid por trabajo. Llovía mucho y había perdido el paraguas. De repente, un desconocido me ofreció el suyo. ¡Al final, ahora es mi cliente!",
+   "speak": [
+    "Hace dos años estaba en Madrid",
+    "De repente, empezó a llover",
+    "Al final, todo salió bien"
+   ],
+   "speakLang": "es-ES",
+   "action": "Tell a 6-sentence story from your life in Spanish.",
+   "quiz": [
+    {
+     "q": "'De repente' means…",
+     "options": [
+      "Again",
+      "Slowly",
+      "Finally",
+      "Suddenly"
+     ],
+     "answer": 3,
+     "why": "Suddenly."
+    },
+    {
+     "q": "Background in stories uses…",
+     "options": [
+      "Preterite",
+      "Imperfect",
+      "Future",
+      "Imperative"
+     ],
+     "answer": 1,
+     "why": "Scenery."
+    },
+    {
+     "q": "'¡No me digas!' means…",
+     "options": [
+      "I don't know",
+      "Don't tell me (really?!)",
+      "Say nothing",
+      "Tell me later"
+     ],
+     "answer": 1,
+     "why": "Surprise reaction."
+    }
+   ]
+  },
+  {
+   "id": "es-71",
+   "level": "B2",
+   "title": "Imperfect subjunctive",
+   "summary": "Talk about hypothetical and past wishes.",
+   "term": {
+    "word": "si tuviera…",
+    "meaning": "If I had…"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Form: ellos preterite, drop -ron, add -ra endings: hablaron → hablara, hablaras, hablara, habláramos, hablarais, hablaran. tuvieron → tuviera; fueron → fuera; hicieron → hiciera.\nUse after past triggers: Quería que vinieras. Me pidió que lo enviara.\nPolite: Quisiera… (I'd like)."
+    },
+    {
+     "h": "Use it",
+     "b": "Reporting requests: El director pidió que revisáramos el presupuesto."
+    },
+    {
+     "h": "Tip",
+     "b": "An alternative -se form exists (hablase); it's common in Spain and means the same."
+    }
+   ],
+   "example": "Mi jefe me pidió que preparara el informe y que lo enviara antes de las cinco.",
+   "speak": [
+    "Me pidió que enviara el informe",
+    "Quería que vinieras",
+    "Quisiera hacer una pregunta"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 sentences reporting what someone asked you to do, using the imperfect subjunctive.",
+   "quiz": [
+    {
+     "q": "Imperfect subjunctive of 'tener' (yo):",
+     "options": [
+      "tuviera",
+      "tenga",
+      "tendría",
+      "teniera"
+     ],
+     "answer": 0,
+     "why": "From tuvieron."
+    },
+    {
+     "q": "'Me pidió que ___' (llamar):",
+     "options": [
+      "llame",
+      "llamo",
+      "llamara",
+      "llamaré"
+     ],
+     "answer": 2,
+     "why": "Past trigger → imperfect subjunctive."
+    },
+    {
+     "q": "'Quisiera' is a polite form of…",
+     "options": [
+      "I can",
+      "I will want",
+      "I wanted",
+      "I want / I'd like"
+     ],
+     "answer": 3,
+     "why": "Very polite request."
+    }
+   ]
+  },
+  {
+   "id": "es-72",
+   "level": "B2",
+   "title": "Conditional sentences",
+   "summary": "Real and unreal 'if' sentences.",
+   "term": {
+    "word": "si + …",
+    "meaning": "If…"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Real: si + present, future/present/command: Si llueve, no iremos.\nUnreal present: si + imperfect subjunctive, conditional: Si tuviera más tiempo, aprendería alemán.\nNever use the conditional or present subjunctive right after 'si'."
+    },
+    {
+     "h": "Use it",
+     "b": "Strategy talk: Si bajáramos el precio, venderíamos más, pero perderíamos margen."
+    },
+    {
+     "h": "Tip",
+     "b": "'Si tendría' ✗ is a very common error → 'Si tuviera' ✓."
+    }
+   ],
+   "example": "Si ganara la lotería, viajaría por todo el mundo y ayudaría a mi familia.",
+   "speak": [
+    "Si tuviera más tiempo, aprendería alemán",
+    "Si llueve, no iremos",
+    "Si bajáramos el precio, venderíamos más"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 'If I were/had…' sentences about your dreams.",
+   "quiz": [
+    {
+     "q": "'If I had money, I would travel':",
+     "options": [
+      "Si tuviera dinero, viajaría",
+      "Si tuviera dinero, viajaré",
+      "Si tendría dinero, viajaría",
+      "Si tengo dinero, viajaría"
+     ],
+     "answer": 0,
+     "why": "Imperfect subjunctive + conditional."
+    },
+    {
+     "q": "Real condition 'If it rains':",
+     "options": [
+      "Si llovería",
+      "Si llueva",
+      "Si llueve",
+      "Si lloviera (real)"
+     ],
+     "answer": 2,
+     "why": "Present indicative."
+    },
+    {
+     "q": "After 'si' you should never use…",
+     "options": [
+      "Conditional",
+      "Present",
+      "Past",
+      "Imperfect subjunctive"
+     ],
+     "answer": 0,
+     "why": "Common mistake."
+    }
+   ]
+  },
+  {
+   "id": "es-73",
+   "level": "B2",
+   "title": "Future and conditional perfect",
+   "summary": "Will have done, would have done.",
+   "term": {
+    "word": "habré / habría",
+    "meaning": "I will have / I would have."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Future perfect: habré, habrás… + participle: Para junio habré terminado el máster.\nConditional perfect: habría, habrías… + participle: Habría venido, pero estaba enfermo.\nAlso guessing about the past: Habrá llegado ya (He has probably arrived)."
+    },
+    {
+     "h": "Use it",
+     "b": "Planning: Para el viernes habremos completado la primera fase."
+    },
+    {
+     "h": "Tip",
+     "b": "Combine with pluperfect subjunctive in C1 for full unreal past sentences."
+    }
+   ],
+   "example": "Para diciembre habremos lanzado la nueva app. Con más presupuesto, la habríamos lanzado antes.",
+   "speak": [
+    "Para junio habré terminado el máster",
+    "Habría venido, pero estaba enfermo",
+    "Ya habrá llegado"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write two goals using 'para… habré…'.",
+   "quiz": [
+    {
+     "q": "'By Friday we will have finished':",
+     "options": [
+      "Para el viernes terminamos",
+      "Para el viernes habremos terminado",
+      "Para el viernes terminábamos",
+      "Para el viernes habríamos terminado"
+     ],
+     "answer": 1,
+     "why": "Future perfect."
+    },
+    {
+     "q": "'Habría venido' means…",
+     "options": [
+      "I will come",
+      "I came",
+      "I had come",
+      "I would have come"
+     ],
+     "answer": 3,
+     "why": "Conditional perfect."
+    },
+    {
+     "q": "'Habrá llegado' can mean…",
+     "options": [
+      "He never arrives",
+      "He has probably arrived",
+      "He arrived yesterday",
+      "He will arrive tomorrow"
+     ],
+     "answer": 1,
+     "why": "Probability about the past."
+    }
+   ]
+  },
+  {
+   "id": "es-74",
+   "level": "B2",
+   "title": "Passive and impersonal 'se'",
+   "summary": "Focus on the action, not who did it.",
+   "term": {
+    "word": "se vende",
+    "meaning": "For sale / is sold."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Passive se (very common): Se venden pisos. Se habla español. Se necesitan analistas.\nImpersonal se: Se trabaja mucho aquí (People work a lot here).\nTrue passive (formal/written): ser + participle: El contrato fue firmado por ambas partes."
+    },
+    {
+     "h": "Use it",
+     "b": "Reports: Se realizaron 200 encuestas. Se observó un aumento de las ventas."
+    },
+    {
+     "h": "Tip",
+     "b": "In speech, 'se' constructions are far more natural than 'fue + participle'."
+    }
+   ],
+   "example": "Se analizaron los datos y se detectaron varios errores, que fueron corregidos por el equipo.",
+   "speak": [
+    "Se habla español",
+    "Se necesitan analistas",
+    "El contrato fue firmado ayer"
+   ],
+   "speakLang": "es-ES",
+   "action": "Rewrite 3 active sentences from your work using 'se'.",
+   "quiz": [
+    {
+     "q": "'Spanish is spoken here':",
+     "options": [
+      "Es hablado español",
+      "Se habla español aquí",
+      "Hablan se español",
+      "Español habla aquí"
+     ],
+     "answer": 1,
+     "why": "Passive se."
+    },
+    {
+     "q": "'Se necesitan analistas' means…",
+     "options": [
+      "Analyst needs",
+      "We needed analysts",
+      "Analysts are needed",
+      "Analysts need"
+     ],
+     "answer": 2,
+     "why": "Job ads!"
+    },
+    {
+     "q": "Which is more common in speech?",
+     "options": [
+      "fue + participle",
+      "Neither",
+      "Both equal",
+      "se constructions"
+     ],
+     "answer": 3,
+     "why": "Se is more natural."
+    }
+   ]
+  },
+  {
+   "id": "es-75",
+   "level": "B2",
+   "title": "Reported speech",
+   "summary": "Pass on what people said.",
+   "term": {
+    "word": "estilo indirecto",
+    "meaning": "Reported speech."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Dijo que… with tense shift: 'Estoy cansado' → Dijo que estaba cansado. 'Iré' → Dijo que iría. 'Terminé' → Dijo que había terminado.\nQuestions: Me preguntó si/dónde… Requests: Me pidió que + imperfect subjunctive."
+    },
+    {
+     "h": "Use it",
+     "b": "Updating your team: El cliente dijo que firmaría el contrato la semana siguiente."
+    },
+    {
+     "h": "Tip",
+     "b": "If the statement is still true now, you can keep the present: Dijo que es importante."
+    }
+   ],
+   "example": "La directora dijo que el proyecto iba bien y nos pidió que mantuviéramos el ritmo.",
+   "speak": [
+    "El cliente dijo que firmaría la semana siguiente",
+    "Me preguntó si podía ayudar",
+    "Nos pidió que mantuviéramos el ritmo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Report 3 things your manager or teacher said this week.",
+   "quiz": [
+    {
+     "q": "'Iré' in reported speech becomes…",
+     "options": [
+      "iba a ir mañana",
+      "iría",
+      "fui",
+      "iré"
+     ],
+     "answer": 1,
+     "why": "Future → conditional."
+    },
+    {
+     "q": "Reported yes/no question uses…",
+     "options": [
+      "que",
+      "porque",
+      "cuando",
+      "si"
+     ],
+     "answer": 3,
+     "why": "Me preguntó si…"
+    },
+    {
+     "q": "'Me pidió que…' is followed by…",
+     "options": [
+      "Indicative",
+      "Subjunctive",
+      "Infinitive",
+      "Gerund"
+     ],
+     "answer": 1,
+     "why": "Requests."
+    }
+   ]
+  },
+  {
+   "id": "es-76",
+   "level": "B2",
+   "title": "Possibility: quizás, a lo mejor",
+   "summary": "Express how likely something is.",
+   "term": {
+    "word": "quizás / a lo mejor",
+    "meaning": "Perhaps / maybe."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "a lo mejor + indicative: A lo mejor llueve.\nquizás / tal vez + indicative or subjunctive (more doubt): Quizás venga mañana.\npuede que + subjunctive: Puede que tengamos retrasos.\nes probable que + subjunctive."
+    },
+    {
+     "h": "Use it",
+     "b": "Risk discussions: Puede que el proveedor se retrase, así que tengamos un plan B."
+    },
+    {
+     "h": "Tip",
+     "b": "'A lo mejor' never takes subjunctive. It's the easiest one to use."
+    }
+   ],
+   "example": "A lo mejor no llegamos a tiempo. Es probable que necesitemos más recursos.",
+   "speak": [
+    "A lo mejor llueve mañana",
+    "Puede que tengamos retrasos",
+    "Es probable que lo aprueben"
+   ],
+   "speakLang": "es-ES",
+   "action": "Make 3 predictions about next month with different possibility phrases.",
+   "quiz": [
+    {
+     "q": "'Puede que' takes…",
+     "options": [
+      "Subjunctive",
+      "Indicative",
+      "Imperative",
+      "Infinitive"
+     ],
+     "answer": 0,
+     "why": "Puede que + subjunctive."
+    },
+    {
+     "q": "'A lo mejor' takes…",
+     "options": [
+      "Infinitive",
+      "Subjunctive only",
+      "Indicative",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Always indicative."
+    },
+    {
+     "q": "'Tal vez' means…",
+     "options": [
+      "Because",
+      "Never",
+      "Always",
+      "Maybe"
+     ],
+     "answer": 3,
+     "why": "Perhaps."
+    }
+   ]
+  },
+  {
+   "id": "es-77",
+   "level": "B2",
+   "title": "Negotiating in Spanish",
+   "summary": "Make offers and reach agreements.",
+   "term": {
+    "word": "la negociación",
+    "meaning": "Negotiation."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Proposals: Le proponemos… / ¿Qué le parecería si…? (How would you feel if…?)\nConditional offers: Si ustedes aumentan el pedido, podríamos ofrecer un descuento del 5%.\nPushing back: Entiendo su posición, pero… / Eso supera nuestro presupuesto.\nClosing: Entonces, quedamos así. / Trato hecho."
+    },
+    {
+     "h": "Use it",
+     "b": "Use conditionals to keep offers flexible and polite."
+    },
+    {
+     "h": "Tip",
+     "b": "Spanish-speaking business cultures value relationship-building before hard bargaining."
+    }
+   ],
+   "example": "Si ustedes firman por dos años, podríamos ofrecerles un descuento del siete por ciento. ¿Qué le parece?",
+   "speak": [
+    "¿Qué le parecería si firmamos por dos años?",
+    "Podríamos ofrecer un descuento",
+    "Trato hecho"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a conditional offer and a polite push-back in Spanish.",
+   "quiz": [
+    {
+     "q": "'Trato hecho' means…",
+     "options": [
+      "It's a deal",
+      "No deal",
+      "Deal later",
+      "Bad deal"
+     ],
+     "answer": 0,
+     "why": "Agreement."
+    },
+    {
+     "q": "'Eso supera nuestro presupuesto' means…",
+     "options": [
+      "That's cheap",
+      "That's within budget",
+      "That's free",
+      "That exceeds our budget"
+     ],
+     "answer": 3,
+     "why": "Too expensive."
+    },
+    {
+     "q": "Conditional offers use…",
+     "options": [
+      "past tense only",
+      "no verbs",
+      "si + present, podríamos…",
+      "imperative only"
+     ],
+     "answer": 2,
+     "why": "Flexible offers."
+    }
+   ]
+  },
+  {
+   "id": "es-78",
+   "level": "B2",
+   "title": "Presenting data and trends",
+   "summary": "Describe figures in presentations.",
+   "term": {
+    "word": "aumentar / disminuir",
+    "meaning": "To increase / to decrease."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Up: aumentar, subir, crecer, incrementarse. Down: disminuir, bajar, caer, reducirse. Stable: mantenerse estable.\nDegree: considerablemente, ligeramente, de forma constante.\nLas ventas aumentaron un 15% (by 15%) hasta los 2 millones (to 2 million). Con respecto al año anterior (year on year)."
+    },
+    {
+     "h": "Use it",
+     "b": "Finance updates: Los ingresos crecieron un 12% con respecto al año anterior."
+    },
+    {
+     "h": "Tip",
+     "b": "Use 'un' before percentages: un 15% (quince por ciento)."
+    }
+   ],
+   "example": "Como pueden ver en el gráfico, los ingresos aumentaron ligeramente en el primer trimestre y luego se mantuvieron estables.",
+   "speak": [
+    "Las ventas aumentaron un quince por ciento",
+    "Los costes se mantuvieron estables",
+    "Como pueden ver en el gráfico"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe a chart from your work or the news in 3 Spanish sentences.",
+   "quiz": [
+    {
+     "q": "'Disminuir' means…",
+     "options": [
+      "Decrease",
+      "Double",
+      "Stay stable",
+      "Increase"
+     ],
+     "answer": 0,
+     "why": "Go down."
+    },
+    {
+     "q": "'Ligeramente' means…",
+     "options": [
+      "Never",
+      "Sharply",
+      "Slightly",
+      "Constantly"
+     ],
+     "answer": 2,
+     "why": "A little."
+    },
+    {
+     "q": "'Con respecto al año anterior' means…",
+     "options": [
+      "Compared with the previous year",
+      "Next year",
+      "Every year",
+      "In respect"
+     ],
+     "answer": 0,
+     "why": "YoY."
+    }
+   ]
+  },
+  {
+   "id": "es-79",
+   "level": "B2",
+   "title": "Finance vocabulary",
+   "summary": "Talk business numbers in Spanish.",
+   "term": {
+    "word": "los ingresos",
+    "meaning": "Revenue / income."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "ingresos (revenue) · gastos (expenses) · beneficio (profit) · pérdidas (losses) · flujo de caja (cash flow) · activo/pasivo (assets/liabilities) · patrimonio neto (equity) · deuda (debt) · rentabilidad (profitability/return) · acciones (shares) · balance (balance sheet) · cuenta de resultados (income statement)"
+    },
+    {
+     "h": "Use it",
+     "b": "Link to Gyaanly's finance path: explain NPV as 'valor actual neto (VAN)' and IRR as 'tasa interna de retorno (TIR)'."
+    },
+    {
+     "h": "Tip",
+     "b": "'Beneficio' = profit; 'ganancia' is also common in Latin America."
+    }
+   ],
+   "example": "La empresa aumentó sus ingresos un 10%, pero el beneficio neto cayó por el incremento de los gastos financieros.",
+   "speak": [
+    "Los ingresos aumentaron un diez por ciento",
+    "El beneficio neto cayó",
+    "El flujo de caja es positivo"
+   ],
+   "speakLang": "es-ES",
+   "action": "Explain one finance concept in Spanish using 5 of these words.",
+   "quiz": [
+    {
+     "q": "'Beneficio' means…",
+     "options": [
+      "Benefit only",
+      "Debt",
+      "Revenue",
+      "Profit"
+     ],
+     "answer": 3,
+     "why": "Profit."
+    },
+    {
+     "q": "NPV in Spanish is…",
+     "options": [
+      "VAN",
+      "PIB",
+      "IVA",
+      "TIR"
+     ],
+     "answer": 0,
+     "why": "Valor actual neto."
+    },
+    {
+     "q": "'Pasivo' means…",
+     "options": [
+      "Equity",
+      "Assets",
+      "Passive income",
+      "Liabilities"
+     ],
+     "answer": 3,
+     "why": "Balance-sheet liabilities."
+    }
+   ]
+  },
+  {
+   "id": "es-80",
+   "level": "B2",
+   "title": "Debating both sides",
+   "summary": "Structure arguments like a pro.",
+   "term": {
+    "word": "por un lado… por otro lado",
+    "meaning": "On the one hand… on the other hand."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Por un lado… por otro (lado)… · Es cierto que… pero… · No obstante… · Hay que tener en cuenta que… (we must consider) · En definitiva… (in short)"
+    },
+    {
+     "h": "Use it",
+     "b": "Balanced recommendations in meetings and essays."
+    },
+    {
+     "h": "Tip",
+     "b": "'Tener en cuenta' (take into account) is one of the most useful B2 phrases."
+    }
+   ],
+   "example": "Por un lado, el teletrabajo ahorra tiempo. Por otro lado, dificulta la comunicación. Hay que tener en cuenta las necesidades de cada equipo.",
+   "speak": [
+    "Por un lado, ahorra tiempo",
+    "Por otro lado, es más caro",
+    "Hay que tener en cuenta los riesgos"
+   ],
+   "speakLang": "es-ES",
+   "action": "Argue for and against a 4-day work week in Spanish.",
+   "quiz": [
+    {
+     "q": "'Tener en cuenta' means…",
+     "options": [
+      "Have an account",
+      "Count money",
+      "Take into account",
+      "Tell a story"
+     ],
+     "answer": 2,
+     "why": "Consider."
+    },
+    {
+     "q": "'No obstante' means…",
+     "options": [
+      "However/nevertheless",
+      "For example",
+      "Obviously",
+      "Therefore"
+     ],
+     "answer": 0,
+     "why": "Formal contrast."
+    },
+    {
+     "q": "'En definitiva' introduces…",
+     "options": [
+      "An example",
+      "A conclusion/summary",
+      "A contrast",
+      "A question"
+     ],
+     "answer": 1,
+     "why": "In short."
+    }
+   ]
+  },
+  {
+   "id": "es-81",
+   "level": "B2",
+   "title": "Expressing feelings with nuance",
+   "summary": "Say exactly how something affects you.",
+   "term": {
+    "word": "me molesta que…",
+    "meaning": "It bothers me that…"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "me molesta que / me preocupa que / me sorprende que / me encanta que + subjunctive.\nme da igual (I don't mind) · me da vergüenza (I'm embarrassed) · me da miedo (it scares me) · me pone nervioso (it makes me nervous)."
+    },
+    {
+     "h": "Use it",
+     "b": "Honest workplace conversations: Me preocupa que el plazo sea tan corto."
+    },
+    {
+     "h": "Tip",
+     "b": "'Me da igual' can sound indifferent; 'Como prefieras' (as you prefer) is softer."
+    }
+   ],
+   "example": "Me sorprende que no hayan respondido todavía. Me preocupa que perdamos al cliente.",
+   "speak": [
+    "Me preocupa que el plazo sea tan corto",
+    "Me da igual, como prefieras",
+    "Me pone nervioso hablar en público"
+   ],
+   "speakLang": "es-ES",
+   "action": "Describe three feelings about your current projects using these structures.",
+   "quiz": [
+    {
+     "q": "'Me preocupa que' takes…",
+     "options": [
+      "Nothing",
+      "Indicative",
+      "Subjunctive",
+      "Infinitive only"
+     ],
+     "answer": 2,
+     "why": "Emotion → subjunctive."
+    },
+    {
+     "q": "'Me da igual' means…",
+     "options": [
+      "I'm angry",
+      "I don't mind / it's all the same",
+      "I'm equal",
+      "Give it to me"
+     ],
+     "answer": 1,
+     "why": "Indifference."
+    },
+    {
+     "q": "'Me da vergüenza' means…",
+     "options": [
+      "I'm embarrassed",
+      "I'm hungry",
+      "I'm late",
+      "I'm proud"
+     ],
+     "answer": 0,
+     "why": "Shame/embarrassment."
+    }
+   ]
+  },
+  {
+   "id": "es-82",
+   "level": "B2",
+   "title": "Colloquial Spanish",
+   "summary": "Understand everyday slang in Spain and Latin America.",
+   "term": {
+    "word": "coloquial",
+    "meaning": "Colloquial / informal."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Spain: vale (OK) · guay (cool) · tío/tía (dude) · ¡Qué fuerte! (wow!) · currar (to work) · flipar (be amazed).\nMexico: ¿Qué onda? (what's up?) · chido (cool) · ahorita (right now / in a bit).\nArgentina: che (hey) · re (very) · boludo (mate/idiot, careful!).\nColombia/Peru: chévere (great) · bacán (cool)."
+    },
+    {
+     "h": "Use it",
+     "b": "Understanding slang helps with films, series and friends; use it carefully at work."
+    },
+    {
+     "h": "Tip",
+     "b": "'Ahorita' in Mexico can mean 'right now' or 'later' depending on tone. Clarify for deadlines!"
+    }
+   ],
+   "example": "A (Spain): ¿Quedamos mañana?\nB: ¡Vale! Qué guay.\nA (Mexico): ¿Qué onda? ¿Vamos ahorita?\nB: ¡Chido!",
+   "speak": [
+    "¡Vale, perfecto!",
+    "¡Qué guay!",
+    "¿Qué onda?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Watch a Spanish or Mexican series clip and spot 3 slang words.",
+   "quiz": [
+    {
+     "q": "'Vale' in Spain means…",
+     "options": [
+      "Value",
+      "OK",
+      "Goodbye",
+      "Valley"
+     ],
+     "answer": 1,
+     "why": "Very common."
+    },
+    {
+     "q": "'Chévere' means…",
+     "options": [
+      "Late",
+      "Bad",
+      "Cheap",
+      "Great/cool"
+     ],
+     "answer": 3,
+     "why": "Colombia/Venezuela/Peru."
+    },
+    {
+     "q": "'Ahorita' in Mexico can mean…",
+     "options": [
+      "Yesterday",
+      "Right now or a bit later",
+      "Only 'never'",
+      "Tomorrow only"
+     ],
+     "answer": 1,
+     "why": "Ambiguous!"
+    }
+   ]
+  },
+  {
+   "id": "es-83",
+   "level": "B2",
+   "title": "Idioms 2",
+   "summary": "More expressions for natural speech.",
+   "term": {
+    "word": "meter la pata",
+    "meaning": "To put your foot in it / make a blunder."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "meter la pata (make a blunder) · estar hasta las narices (be fed up) · echar una mano (lend a hand) · dar en el clavo (hit the nail on the head) · hacer la vista gorda (turn a blind eye) · tirar la toalla (throw in the towel) · consultar con la almohada (sleep on it)."
+    },
+    {
+     "h": "Use it",
+     "b": "Team life: ¿Me echas una mano con la presentación? / ¡Has dado en el clavo!"
+    },
+    {
+     "h": "Tip",
+     "b": "'Echar una mano' is safe at work and very friendly."
+    }
+   ],
+   "example": "Metí la pata en la reunión, pero mi compañera me echó una mano. ¡No pienso tirar la toalla!",
+   "speak": [
+    "¿Me echas una mano?",
+    "Has dado en el clavo",
+    "No voy a tirar la toalla"
+   ],
+   "speakLang": "es-ES",
+   "action": "Use 'echar una mano' and 'dar en el clavo' in two sentences.",
+   "quiz": [
+    {
+     "q": "'Echar una mano' means…",
+     "options": [
+      "Lend a hand",
+      "Throw a hand",
+      "Clap",
+      "Shake hands"
+     ],
+     "answer": 0,
+     "why": "Help."
+    },
+    {
+     "q": "'Tirar la toalla' means…",
+     "options": [
+      "Do laundry",
+      "Win",
+      "Give up",
+      "Go to the beach"
+     ],
+     "answer": 2,
+     "why": "Throw in the towel."
+    },
+    {
+     "q": "'Consultarlo con la almohada' means…",
+     "options": [
+      "Go to bed early",
+      "Sleep on it",
+      "Consult a doctor",
+      "Ask a pillow"
+     ],
+     "answer": 1,
+     "why": "Think overnight."
+    }
+   ]
+  },
+  {
+   "id": "es-84",
+   "level": "B2",
+   "title": "Formal writing and reports",
+   "summary": "Write clear, professional Spanish documents.",
+   "term": {
+    "word": "el informe",
+    "meaning": "The report."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Structure: Introducción → Análisis → Conclusiones → Recomendaciones.\nFormal phrases: Cabe destacar que (it's worth noting) · En primer lugar… · Por consiguiente (consequently) · Se recomienda… · A continuación se presenta… (below is presented).\nUse impersonal se and avoid slang."
+    },
+    {
+     "h": "Use it",
+     "b": "Business reports, proposals and academic writing all follow this pattern."
+    },
+    {
+     "h": "Tip",
+     "b": "Spanish formal writing tends to use longer sentences than English; keep yours clear anyway."
+    }
+   ],
+   "example": "En primer lugar, cabe destacar que los ingresos crecieron un 8%. Por consiguiente, se recomienda ampliar la inversión en marketing digital.",
+   "speak": [
+    "Cabe destacar que los ingresos crecieron",
+    "Se recomienda ampliar la inversión",
+    "A continuación se presentan los resultados"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a 5-sentence formal mini-report in Spanish.",
+   "quiz": [
+    {
+     "q": "'Cabe destacar que' means…",
+     "options": [
+      "It doesn't fit",
+      "However",
+      "Finally",
+      "It's worth noting that"
+     ],
+     "answer": 3,
+     "why": "Formal highlight."
+    },
+    {
+     "q": "'Por consiguiente' means…",
+     "options": [
+      "Although",
+      "Consequently",
+      "For example",
+      "In contrast"
+     ],
+     "answer": 1,
+     "why": "Formal result."
+    },
+    {
+     "q": "A report usually ends with…",
+     "options": [
+      "Questions",
+      "Jokes",
+      "Conclusions and recommendations",
+      "Greetings"
+     ],
+     "answer": 2,
+     "why": "Action points."
+    }
+   ]
+  },
+  {
+   "id": "es-85",
+   "level": "B2",
+   "title": "Video calls and remote work",
+   "summary": "Run virtual meetings in Spanish.",
+   "term": {
+    "word": "la videollamada",
+    "meaning": "The video call."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "¿Me oís/oyen bien? (Can you hear me?) · Se te ha congelado la imagen (your video froze) · Estás silenciado/a (you're muted) · Voy a compartir pantalla (I'll share my screen) · Se ha cortado (it cut out) · Te escribo por el chat."
+    },
+    {
+     "h": "Use it",
+     "b": "Remote collaboration with Spanish-speaking teams is common in global companies."
+    },
+    {
+     "h": "Tip",
+     "b": "'Oís' is Spain (vosotros); in Latin America say '¿Me oyen?'."
+    }
+   ],
+   "example": "Hola a todos, ¿me oyen bien? Voy a compartir pantalla. Carlos, creo que estás silenciado.",
+   "speak": [
+    "¿Me oyen bien?",
+    "Voy a compartir pantalla",
+    "Creo que estás silenciado"
+   ],
+   "speakLang": "es-ES",
+   "action": "Run a pretend 30-second Spanish video-call opening.",
+   "quiz": [
+    {
+     "q": "'Estás silenciado' means…",
+     "options": [
+      "You left",
+      "You're late",
+      "You're silent by choice",
+      "You're muted"
+     ],
+     "answer": 3,
+     "why": "Muted."
+    },
+    {
+     "q": "'Compartir pantalla' means…",
+     "options": [
+      "Turn off camera",
+      "Send file",
+      "Share screen",
+      "End call"
+     ],
+     "answer": 2,
+     "why": "Screen sharing."
+    },
+    {
+     "q": "'Se ha cortado' means…",
+     "options": [
+      "It's finished well",
+      "It's expensive",
+      "It's been cut / dropped",
+      "It's recording"
+     ],
+     "answer": 2,
+     "why": "Connection dropped."
+    }
+   ]
+  },
+  {
+   "id": "es-86",
+   "level": "C1",
+   "title": "Pluperfect subjunctive",
+   "summary": "Talk about unreal past situations and regrets.",
+   "term": {
+    "word": "si hubiera sabido…",
+    "meaning": "If I had known…"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "hubiera, hubieras, hubiera, hubiéramos, hubierais, hubieran + participle.\nUnreal past: Si hubiera sabido, te habría avisado. (If I had known, I would have told you.)\nRegret: Ojalá hubiera estudiado más. Me habría gustado que vinieras."
+    },
+    {
+     "h": "Use it",
+     "b": "Post-project reviews: Si hubiéramos probado antes, habríamos detectado el error."
+    },
+    {
+     "h": "Tip",
+     "b": "Both 'habría' and 'hubiera' can appear in the result clause: Si hubiera sabido, te lo hubiera dicho."
+    }
+   ],
+   "example": "Si hubiéramos invertido en automatización hace un año, ahora no tendríamos tantos problemas.",
+   "speak": [
+    "Si hubiera sabido, te habría avisado",
+    "Ojalá hubiera estudiado más",
+    "Si hubiéramos probado antes, habríamos detectado el error"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 2 regrets and 1 'if I had…' about your career.",
+   "quiz": [
+    {
+     "q": "'If I had known':",
+     "options": [
+      "Si sabía",
+      "Si sepa",
+      "Si hubiera sabido",
+      "Si habría sabido"
+     ],
+     "answer": 2,
+     "why": "Pluperfect subjunctive."
+    },
+    {
+     "q": "'Ojalá hubiera…' expresses…",
+     "options": [
+      "A fact",
+      "A future plan",
+      "An order",
+      "A past regret / wish"
+     ],
+     "answer": 3,
+     "why": "If only."
+    },
+    {
+     "q": "Mixed: 'If we had invested, we wouldn't have problems now' uses…",
+     "options": [
+      "invertimos + tenemos",
+      "habríamos + tuviéramos",
+      "hubiéramos + tendríamos",
+      "invertiríamos + tenemos"
+     ],
+     "answer": 2,
+     "why": "Past condition, present result."
+    }
+   ]
+  },
+  {
+   "id": "es-87",
+   "level": "C1",
+   "title": "Advanced connectors",
+   "summary": "Sound sophisticated in speech and writing.",
+   "term": {
+    "word": "a pesar de que",
+    "meaning": "Despite the fact that."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Concession: a pesar de (que), si bien, aun así, con todo · Cause: dado que, puesto que, debido a · Consequence: por consiguiente, de ahí que (+ subjunctive) · Condition: siempre y cuando (+ subj.), a menos que (+ subj.), en caso de que (+ subj.) · Addition: asimismo, es más."
+    },
+    {
+     "h": "Use it",
+     "b": "Executive communication: Siempre y cuando se cumplan los plazos, aprobaremos el presupuesto."
+    },
+    {
+     "h": "Tip",
+     "b": "'Siempre y cuando', 'a menos que' and 'de ahí que' trigger the subjunctive."
+    }
+   ],
+   "example": "A pesar de que el mercado se contrajo, aumentamos la cuota. De ahí que propongamos mantener la estrategia, siempre y cuando los costes no suban.",
+   "speak": [
+    "A pesar de que el mercado cayó, crecimos",
+    "Siempre y cuando se cumplan los plazos",
+    "De ahí que propongamos un cambio"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a 4-sentence argument using 4 advanced connectors.",
+   "quiz": [
+    {
+     "q": "'Siempre y cuando' means…",
+     "options": [
+      "Whenever",
+      "Provided that",
+      "Forever",
+      "Always and when"
+     ],
+     "answer": 1,
+     "why": "Condition (+ subjunctive)."
+    },
+    {
+     "q": "'A menos que' takes…",
+     "options": [
+      "Infinitive",
+      "Gerund",
+      "Indicative",
+      "Subjunctive"
+     ],
+     "answer": 3,
+     "why": "Unless."
+    },
+    {
+     "q": "'Dado que' means…",
+     "options": [
+      "Despite",
+      "Unless",
+      "Although",
+      "Given that / since"
+     ],
+     "answer": 3,
+     "why": "Cause."
+    }
+   ]
+  },
+  {
+   "id": "es-88",
+   "level": "C1",
+   "title": "Versatile verbs: quedar, llevar, echar, dar",
+   "summary": "Master verbs with many meanings.",
+   "term": {
+    "word": "quedar",
+    "meaning": "To remain, to meet, to fit, to be located…"
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "quedar: Quedamos a las 8 (meet) · Me queda bien (it fits) · No queda leche (there's none left) · Quedó claro (it was clear).\nllevar: Llevo 3 años aquí (I've been here 3 years) · llevar gafas (wear).\nechar: echar de menos (miss) · echar un vistazo (take a look).\ndar: dar igual, dar pena, darse cuenta (realise)."
+    },
+    {
+     "h": "Use it",
+     "b": "Natural phrases at work: ¿Le echas un vistazo al informe? Llevo dos años en el equipo."
+    },
+    {
+     "h": "Tip",
+     "b": "'Llevar + time' is the natural way to say how long you've been doing something."
+    }
+   ],
+   "example": "Llevo cinco años en finanzas. ¿Puedes echar un vistazo a este informe? Me di cuenta de un error.",
+   "speak": [
+    "Llevo cinco años en esta empresa",
+    "¿Puedes echar un vistazo?",
+    "Me di cuenta de un error"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write one sentence with each of quedar, llevar, echar and darse cuenta.",
+   "quiz": [
+    {
+     "q": "'Llevo dos años aquí' means…",
+     "options": [
+      "Two years ago",
+      "I carry two years",
+      "I'll stay two years",
+      "I've been here for two years"
+     ],
+     "answer": 3,
+     "why": "Duration."
+    },
+    {
+     "q": "'Echar de menos' means…",
+     "options": [
+      "To reduce",
+      "To miss someone/something",
+      "To throw less",
+      "To forget"
+     ],
+     "answer": 1,
+     "why": "Miss."
+    },
+    {
+     "q": "'Darse cuenta' means…",
+     "options": [
+      "Give an account",
+      "Count",
+      "Give up",
+      "Realise"
+     ],
+     "answer": 3,
+     "why": "Realise."
+    }
+   ]
+  },
+  {
+   "id": "es-89",
+   "level": "C1",
+   "title": "Diminutives and augmentatives",
+   "summary": "Add warmth, size or attitude to words.",
+   "term": {
+    "word": "-ito / -ón",
+    "meaning": "Small/affectionate / big."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Diminutives: -ito/-ita (casita, cafecito, ahorita), -illo, -ico (Colombia/Costa Rica).\nThey show smallness, affection or politeness: ¿Un momentito? (just a moment).\nAugmentatives: -ón/-ona (casona = big house), -azo (golazo = great goal; also a blow: portazo = door slam)."
+    },
+    {
+     "h": "Use it",
+     "b": "Softening requests: ¿Tienes un minutito? sounds friendlier than '¿Tienes un minuto?'"
+    },
+    {
+     "h": "Tip",
+     "b": "Some words changed meaning entirely: 'ratón' (mouse) isn't a big 'rata'!"
+    }
+   ],
+   "example": "¿Me esperas un momentito? Voy por un cafecito y vuelvo enseguida.",
+   "speak": [
+    "¿Tienes un minutito?",
+    "Voy por un cafecito",
+    "¡Qué golazo!"
+   ],
+   "speakLang": "es-ES",
+   "action": "Find 5 diminutives in a Spanish song or series.",
+   "quiz": [
+    {
+     "q": "'Cafecito' suggests…",
+     "options": [
+      "No coffee",
+      "A small/friendly coffee",
+      "Cold coffee",
+      "A huge coffee"
+     ],
+     "answer": 1,
+     "why": "Diminutive."
+    },
+    {
+     "q": "'Un momentito' sounds…",
+     "options": [
+      "Formal written",
+      "Angry",
+      "Friendly and soft",
+      "Rude"
+     ],
+     "answer": 2,
+     "why": "Softener."
+    },
+    {
+     "q": "'-ón' usually indicates…",
+     "options": [
+      "Plural",
+      "Past",
+      "Largeness/intensity",
+      "Smallness"
+     ],
+     "answer": 2,
+     "why": "Augmentative."
+    }
+   ]
+  },
+  {
+   "id": "es-90",
+   "level": "C1",
+   "title": "Register: tú, usted and vos",
+   "summary": "Adapt your formality like a native.",
+   "term": {
+    "word": "registro",
+    "meaning": "Register / level of formality."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Spain: tú is widespread even at work; usted for elders, officials and formal clients.\nLatin America: usted is more common; in Colombia some even use usted with family.\nArgentina/Uruguay: vos (vos sos, vos tenés).\nShifting: '¿Nos tuteamos?' (Shall we use tú?) shows rapport."
+    },
+    {
+     "h": "Use it",
+     "b": "Mirror the other person's choice. If they use usted, stay formal until invited."
+    },
+    {
+     "h": "Tip",
+     "b": "Switching from usted to tú too early with a senior client can seem presumptuous."
+    }
+   ],
+   "example": "Cliente (Colombia): ¿Usted cómo está?\nYou: Muy bien, gracias. ¿Y usted?\nColega (Argentina): ¿Vos sos de la India? ¡Qué bueno!",
+   "speak": [
+    "¿Nos tuteamos?",
+    "¿Usted cómo está?",
+    "¿Vos sos de la India?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Decide the right register for 5 professional contacts and greet each.",
+   "quiz": [
+    {
+     "q": "'Vos sos' is typical of…",
+     "options": [
+      "Spain",
+      "Cuba",
+      "Argentina/Uruguay",
+      "Mexico"
+     ],
+     "answer": 2,
+     "why": "Voseo."
+    },
+    {
+     "q": "'¿Nos tuteamos?' proposes…",
+     "options": [
+      "Ending the meeting",
+      "Speaking English",
+      "Using tú with each other",
+      "Using usted"
+     ],
+     "answer": 2,
+     "why": "Rapport."
+    },
+    {
+     "q": "The safest strategy is to…",
+     "options": [
+      "Always use vos",
+      "Always use tú",
+      "Avoid pronouns",
+      "Mirror the other person"
+     ],
+     "answer": 3,
+     "why": "Adapt."
+    }
+   ]
+  },
+  {
+   "id": "es-91",
+   "level": "C1",
+   "title": "Persuasive speaking",
+   "summary": "Convince audiences with rhetoric.",
+   "term": {
+    "word": "persuadir",
+    "meaning": "To persuade."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Rhetorical questions: ¿Qué pasaría si no hacemos nada?\nTriads: Más rápido, más barato y más seguro.\nContrast: No se trata de trabajar más, sino de trabajar mejor.\nEmphasis: Lo que realmente importa es…"
+    },
+    {
+     "h": "Use it",
+     "b": "Pitches and leadership speeches use these structures in any language."
+    },
+    {
+     "h": "Tip",
+     "b": "'No se trata de… sino de…' (It's not about… but about…) is a powerful Spanish structure."
+    }
+   ],
+   "example": "¿Qué pasaría si no hacemos nada? Perderíamos clientes. No se trata de gastar más, sino de invertir mejor. Lo que realmente importa es el cliente.",
+   "speak": [
+    "¿Qué pasaría si no hacemos nada?",
+    "No se trata de trabajar más, sino de trabajar mejor",
+    "Lo que realmente importa es el cliente"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a 30-second persuasive pitch in Spanish using 3 techniques.",
+   "quiz": [
+    {
+     "q": "'No se trata de… sino de…' means…",
+     "options": [
+      "It's about… and…",
+      "Try… then…",
+      "It's not about… but about…",
+      "Without… or…"
+     ],
+     "answer": 2,
+     "why": "Contrast structure."
+    },
+    {
+     "q": "A triad is…",
+     "options": [
+      "A question",
+      "A proverb",
+      "A list of three",
+      "A contrast"
+     ],
+     "answer": 2,
+     "why": "Rule of three."
+    },
+    {
+     "q": "'Lo que realmente importa' means…",
+     "options": [
+      "What I want",
+      "What really happened",
+      "What really matters",
+      "What I imported"
+     ],
+     "answer": 2,
+     "why": "Emphasis."
+    }
+   ]
+  },
+  {
+   "id": "es-92",
+   "level": "C1",
+   "title": "Proverbs (refranes)",
+   "summary": "Quote wisdom like a native speaker.",
+   "term": {
+    "word": "el refrán",
+    "meaning": "The proverb/saying."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Más vale tarde que nunca (better late than never) · No hay mal que por bien no venga (every cloud has a silver lining) · A quien madruga, Dios le ayuda (the early bird catches the worm) · Del dicho al hecho hay mucho trecho (easier said than done) · En boca cerrada no entran moscas (silence is golden)."
+    },
+    {
+     "h": "Use it",
+     "b": "Using a proverb at the right moment makes you sound fluent and culturally aware."
+    },
+    {
+     "h": "Tip",
+     "b": "Introduce it with 'Como dice el refrán…' (As the saying goes…)."
+    }
+   ],
+   "example": "El proyecto se retrasó, pero como dice el refrán, más vale tarde que nunca.",
+   "speak": [
+    "Más vale tarde que nunca",
+    "A quien madruga, Dios le ayuda",
+    "Del dicho al hecho hay mucho trecho"
+   ],
+   "speakLang": "es-ES",
+   "action": "Memorise two refranes and find their Hindi or English equivalents.",
+   "quiz": [
+    {
+     "q": "'Del dicho al hecho hay mucho trecho' means…",
+     "options": [
+      "Easier said than done",
+      "Words are actions",
+      "Facts are long",
+      "Speak quickly"
+     ],
+     "answer": 0,
+     "why": "Saying vs doing."
+    },
+    {
+     "q": "'A quien madruga, Dios le ayuda' equals…",
+     "options": [
+      "Silence is golden",
+      "Better late than never",
+      "No pain no gain",
+      "Early bird catches the worm"
+     ],
+     "answer": 3,
+     "why": "Get up early."
+    },
+    {
+     "q": "'Como dice el refrán' means…",
+     "options": [
+      "As the saying goes",
+      "As the king says",
+      "Like the song",
+      "As I said"
+     ],
+     "answer": 0,
+     "why": "Introducing a proverb."
+    }
+   ]
+  },
+  {
+   "id": "es-93",
+   "level": "C1",
+   "title": "News and current affairs",
+   "summary": "Follow Spanish-language news.",
+   "term": {
+    "word": "la actualidad",
+    "meaning": "Current affairs."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "el Gobierno · las elecciones · la economía · la inflación · el desempleo (unemployment) · el crecimiento · la sostenibilidad · la inteligencia artificial · según fuentes (according to sources) · se prevé que (it's expected that) · ha anunciado (has announced)."
+    },
+    {
+     "h": "Use it",
+     "b": "Reading headlines in El País, BBC Mundo or CNN en Español builds vocabulary fast."
+    },
+    {
+     "h": "Tip",
+     "b": "News uses 'se prevé que', 'según' and the passive a lot. Recognise them to understand faster."
+    }
+   ],
+   "example": "Según el Banco Central, se prevé que la inflación baje al 3% el próximo año, lo que favorecería el crecimiento.",
+   "speak": [
+    "Se prevé que la inflación baje",
+    "Según fuentes oficiales",
+    "El desempleo ha disminuido"
+   ],
+   "speakLang": "es-ES",
+   "action": "Read one Spanish news headline today and summarise it aloud.",
+   "quiz": [
+    {
+     "q": "'El desempleo' is…",
+     "options": [
+      "Employment",
+      "Employer",
+      "Salary",
+      "Unemployment"
+     ],
+     "answer": 3,
+     "why": "Unemployment."
+    },
+    {
+     "q": "'Se prevé que' means…",
+     "options": [
+      "It's prevented",
+      "It's previous",
+      "It's expected/forecast that",
+      "It's proven"
+     ],
+     "answer": 2,
+     "why": "Forecast."
+    },
+    {
+     "q": "BBC Mundo is…",
+     "options": [
+      "A Spanish-language news source",
+      "A sports team",
+      "A bank",
+      "A slang word"
+     ],
+     "answer": 0,
+     "why": "Good for practice."
+    }
+   ]
+  },
+  {
+   "id": "es-94",
+   "level": "C1",
+   "title": "Advanced subjunctive: como si, ojalá",
+   "summary": "Express wishes and comparisons with nuance.",
+   "term": {
+    "word": "ojalá",
+    "meaning": "Hopefully / I wish (from Arabic 'if God wills')."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Ojalá + present subjunctive (possible): Ojalá llegue a tiempo.\nOjalá + imperfect subjunctive (unlikely/unreal): Ojalá tuviera más tiempo.\nComo si + imperfect subjunctive: Habla como si fuera el jefe. (He talks as if he were the boss.)\nCualquier/quienquiera que + subjunctive: Cualquier cosa que necesites, avísame."
+    },
+    {
+     "h": "Use it",
+     "b": "Warm closings: Cualquier cosa que necesites, me dices."
+    },
+    {
+     "h": "Tip",
+     "b": "'Ojalá' always takes the subjunctive, never the indicative."
+    }
+   ],
+   "example": "Ojalá consigamos el contrato. Actúa como si no le importara, pero sé que le preocupa.",
+   "speak": [
+    "Ojalá consigamos el contrato",
+    "Habla como si fuera el jefe",
+    "Cualquier cosa que necesites, avísame"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 2 'ojalá' wishes and one 'como si' sentence.",
+   "quiz": [
+    {
+     "q": "'Ojalá' is followed by…",
+     "options": [
+      "Imperative",
+      "Infinitive",
+      "Subjunctive",
+      "Indicative"
+     ],
+     "answer": 2,
+     "why": "Always subjunctive."
+    },
+    {
+     "q": "'Como si fuera' means…",
+     "options": [
+      "As if he were",
+      "Because he was",
+      "If he is",
+      "Since he was"
+     ],
+     "answer": 0,
+     "why": "Unreal comparison."
+    },
+    {
+     "q": "'Ojalá tuviera más tiempo' suggests the wish is…",
+     "options": [
+      "A past fact",
+      "Already true",
+      "Very likely",
+      "Unlikely/unreal"
+     ],
+     "answer": 3,
+     "why": "Imperfect subjunctive = less likely."
+    }
+   ]
+  },
+  {
+   "id": "es-95",
+   "level": "C1",
+   "title": "Leadership and feedback in Spanish",
+   "summary": "Lead teams and give feedback diplomatically.",
+   "term": {
+    "word": "la retroalimentación / el feedback",
+    "meaning": "Feedback."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Positive: Has hecho un trabajo excelente con… · Valoro mucho tu…\nConstructive: Me gustaría comentarte algo sobre… · Creo que podríamos mejorar… · ¿Cómo lo ves tú?\nMotivating: Confío en ti. · Cuenta conmigo. · Lo estamos haciendo muy bien como equipo."
+    },
+    {
+     "h": "Use it",
+     "b": "Use the SBI model in Spanish: Situación, Comportamiento, Impacto."
+    },
+    {
+     "h": "Tip",
+     "b": "Latin American and Spanish cultures value warmth: start with appreciation and personal connection."
+    }
+   ],
+   "example": "Me gustaría comentarte algo sobre la presentación de ayer. Explicaste los datos muy bien; sin embargo, creo que podríamos mejorar los tiempos. ¿Cómo lo ves tú?",
+   "speak": [
+    "Has hecho un trabajo excelente",
+    "Me gustaría comentarte algo",
+    "¿Cómo lo ves tú?"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write a short SBI feedback message in Spanish.",
+   "quiz": [
+    {
+     "q": "'Cuenta conmigo' means…",
+     "options": [
+      "Count me",
+      "Count with me",
+      "Tell me",
+      "You can count on me"
+     ],
+     "answer": 3,
+     "why": "Support."
+    },
+    {
+     "q": "A soft opener for feedback is…",
+     "options": [
+      "Me gustaría comentarte algo",
+      "Siempre fallas",
+      "Escucha",
+      "Lo hiciste mal"
+     ],
+     "answer": 0,
+     "why": "Diplomatic."
+    },
+    {
+     "q": "'¿Cómo lo ves tú?' invites…",
+     "options": [
+      "Silence",
+      "The other person's view",
+      "A decision",
+      "An apology"
+     ],
+     "answer": 1,
+     "why": "Two-way dialogue."
+    }
+   ]
+  },
+  {
+   "id": "es-96",
+   "level": "C1",
+   "title": "Culture: time, food and social life",
+   "summary": "Understand Hispanic cultural rhythms.",
+   "term": {
+    "word": "la sobremesa",
+    "meaning": "Time spent chatting at the table after a meal."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Spain eats late: lunch 2-4 pm, dinner 9-11 pm. La sobremesa can last hours.\nTapas culture: ir de tapas / de cañas.\nTime: punctuality is more relaxed socially, but expected in business.\nGreetings: two kisses in Spain, one in much of Latin America."
+    },
+    {
+     "h": "Use it",
+     "b": "Business lunches are relationship-building time; don't rush to talk business immediately."
+    },
+    {
+     "h": "Tip",
+     "b": "Siesta is less common in big cities today; don't assume everyone naps!"
+    }
+   ],
+   "example": "Después de la comida nos quedamos de sobremesa hasta las cinco, hablando de todo menos de trabajo.",
+   "speak": [
+    "Nos quedamos de sobremesa",
+    "¿Vamos de tapas?",
+    "Cenamos a las diez"
+   ],
+   "speakLang": "es-ES",
+   "action": "Compare meal times in Spain and India in 3 Spanish sentences.",
+   "quiz": [
+    {
+     "q": "'Sobremesa' is…",
+     "options": [
+      "A dessert",
+      "A tablecloth",
+      "A tip",
+      "Chatting at the table after eating"
+     ],
+     "answer": 3,
+     "why": "Very Spanish concept."
+    },
+    {
+     "q": "Typical dinner time in Spain is…",
+     "options": [
+      "6 pm",
+      "Noon",
+      "9-11 pm",
+      "4 pm"
+     ],
+     "answer": 2,
+     "why": "Late dinners."
+    },
+    {
+     "q": "In business, punctuality is…",
+     "options": [
+      "Expected",
+      "Only for foreigners",
+      "Considered rude",
+      "Irrelevant"
+     ],
+     "answer": 0,
+     "why": "Be on time."
+    }
+   ]
+  },
+  {
+   "id": "es-97",
+   "level": "C1",
+   "title": "Abstract ideas and nuance",
+   "summary": "Discuss concepts, values and ideas.",
+   "term": {
+    "word": "abstracto",
+    "meaning": "Abstract."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Nouns: la confianza (trust), el compromiso (commitment), la equidad (fairness), el desarrollo sostenible, el bienestar (wellbeing), la resiliencia.\nStructures: Lo + adjective: Lo importante es… · Lo mejor/peor es que…\nEl hecho de que + subjunctive: El hecho de que haya debate es positivo."
+    },
+    {
+     "h": "Use it",
+     "b": "Leadership talks and essays on values, culture and strategy."
+    },
+    {
+     "h": "Tip",
+     "b": "'Lo + adjective' is a uniquely Spanish way to talk about abstract qualities: lo bueno, lo difícil."
+    }
+   ],
+   "example": "Lo importante no es solo crecer, sino hacerlo de forma sostenible. El hecho de que hablemos de bienestar ya es un avance.",
+   "speak": [
+    "Lo importante es la confianza",
+    "El hecho de que haya debate es positivo",
+    "Lo mejor es que aprendimos mucho"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write 3 sentences about your values using 'lo + adjective'.",
+   "quiz": [
+    {
+     "q": "'Lo importante es…' means…",
+     "options": [
+      "It's important to him",
+      "The important thing is",
+      "The important one is",
+      "Importantly he is"
+     ],
+     "answer": 1,
+     "why": "Abstract noun."
+    },
+    {
+     "q": "'El hecho de que' is followed by…",
+     "options": [
+      "Infinitive",
+      "Usually subjunctive",
+      "Gerund",
+      "Always indicative"
+     ],
+     "answer": 1,
+     "why": "Subjunctive."
+    },
+    {
+     "q": "'Bienestar' means…",
+     "options": [
+      "Goodbye",
+      "Benefit",
+      "Wellbeing",
+      "Good star"
+     ],
+     "answer": 2,
+     "why": "Wellbeing."
+    }
+   ]
+  },
+  {
+   "id": "es-98",
+   "level": "C1",
+   "title": "Pronunciation polish",
+   "summary": "Sound smoother and more natural.",
+   "term": {
+    "word": "la entonación",
+    "meaning": "Intonation."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Linking (sinalefa): vowels join between words: 'mi_amigo' → 'mya-MEE-go'; 'lo_hago' (h is silent).\nIntonation: statements fall ↘, yes/no questions rise ↗, wh-questions usually fall.\nRegional: Spain distinguishes c/z ('th') and s; most of Latin America uses 's' (seseo). Caribbean speakers may drop final s.\nRhythm: Spanish is syllable-timed: every syllable gets similar length, unlike English."
+    },
+    {
+     "h": "Use it",
+     "b": "Shadowing native audio (repeating right after the speaker) is the fastest way to improve."
+    },
+    {
+     "h": "Tip",
+     "b": "Don't reduce unstressed vowels as in English. Every Spanish vowel stays clear."
+    }
+   ],
+   "example": "¿Vas a ir a la oficina? ↗ — No, hoy trabajo en casa. ↘ ¿A qué hora es la reunión? ↘",
+   "speak": [
+    "Mi amigo está en la oficina",
+    "¿Vas a ir a la reunión?",
+    "Hoy trabajo en casa"
+   ],
+   "speakLang": "es-ES",
+   "action": "Shadow a 1-minute Spanish audio clip three times, then record yourself.",
+   "quiz": [
+    {
+     "q": "Yes/no questions in Spanish usually…",
+     "options": [
+      "Rise",
+      "Stay flat",
+      "Are whispered",
+      "Fall"
+     ],
+     "answer": 0,
+     "why": "Rising intonation."
+    },
+    {
+     "q": "'Seseo' means…",
+     "options": [
+      "Pronouncing c/z as 's'",
+      "Speaking fast",
+      "Using vos",
+      "Dropping all vowels"
+     ],
+     "answer": 0,
+     "why": "Latin American feature."
+    },
+    {
+     "q": "Spanish rhythm is…",
+     "options": [
+      "Stress-timed like English",
+      "Syllable-timed",
+      "Random",
+      "Tonal"
+     ],
+     "answer": 1,
+     "why": "Even syllables."
+    }
+   ]
+  },
+  {
+   "id": "es-99",
+   "level": "C1",
+   "title": "DELE and SIELE exam strategy",
+   "summary": "Certify your Spanish level.",
+   "term": {
+    "word": "el DELE",
+    "meaning": "Official Spanish diplomas from Instituto Cervantes."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "DELE (A1-C2): lifelong certificate from Instituto Cervantes; separate exams per level.\nSIELE: computer-based, multi-level score valid for 5 years.\nSkills tested: reading, listening, writing, speaking (interaction).\nStrategy: take mock exams, time each section, practise speaking monologues (2-3 minutes) on common topics."
+    },
+    {
+     "h": "Use it",
+     "b": "A certificate strengthens CVs for roles with Spanish-speaking markets."
+    },
+    {
+     "h": "Tip",
+     "b": "For speaking tests, structure answers: introduction → 2-3 points with examples → conclusion."
+    }
+   ],
+   "example": "Mi objetivo es aprobar el DELE B2 el próximo año. Practico cada día y hago un examen de prueba al mes.",
+   "speak": [
+    "Mi objetivo es aprobar el DELE B2",
+    "Practico español todos los días",
+    "Hago un examen de prueba al mes"
+   ],
+   "speakLang": "es-ES",
+   "action": "Choose a target exam (DELE or SIELE) and level, and set a date.",
+   "quiz": [
+    {
+     "q": "Who issues the DELE?",
+     "options": [
+      "Goethe-Institut",
+      "Instituto Cervantes",
+      "Alliance Française",
+      "British Council"
+     ],
+     "answer": 1,
+     "why": "Spain's institute."
+    },
+    {
+     "q": "The DELE certificate is valid…",
+     "options": [
+      "For life",
+      "1 year",
+      "5 years",
+      "10 years"
+     ],
+     "answer": 0,
+     "why": "Lifelong."
+    },
+    {
+     "q": "SIELE results are valid for…",
+     "options": [
+      "5 years",
+      "1 year",
+      "Forever",
+      "1 month"
+     ],
+     "answer": 0,
+     "why": "Five years."
+    }
+   ]
+  },
+  {
+   "id": "es-100",
+   "level": "C1",
+   "title": "Your Spanish mastery plan",
+   "summary": "Keep improving for the long term.",
+   "term": {
+    "word": "la constancia",
+    "meaning": "Consistency, perseverance."
+   },
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Daily: 15 min Gyaanly lesson + speak drills; 10 min podcast or series with Spanish subtitles.\nWeekly: one conversation exchange (Tandem, HelloTalk, a tutor); one news article; one short written text.\nMonthly: record yourself and compare with last month; review your mistakes notebook.\nYearly: certify your level (DELE/SIELE) and use Spanish at work or on a trip."
+    },
+    {
+     "h": "Use it",
+     "b": "Consistency beats intensity: 20 minutes daily for a year can take you from A1 to B1+."
+    },
+    {
+     "h": "Tip",
+     "b": "Make Spanish part of your life: switch your phone or a favourite app to Spanish."
+    }
+   ],
+   "example": "Mi plan es estudiar veinte minutos al día, hablar con un nativo cada semana y presentarme al DELE B2 en un año.",
+   "speak": [
+    "Voy a estudiar veinte minutos al día",
+    "Hablaré con un nativo cada semana",
+    "¡No voy a tirar la toalla!"
+   ],
+   "speakLang": "es-ES",
+   "action": "Write your 12-month Spanish plan in Spanish and set a reminder in Gyaanly.",
+   "quiz": [
+    {
+     "q": "What matters most for long-term progress?",
+     "options": [
+      "Intensity once a month",
+      "Expensive courses only",
+      "Luck",
+      "Daily consistency"
+     ],
+     "answer": 3,
+     "why": "Constancia."
+    },
+    {
+     "q": "A language exchange app helps you…",
+     "options": [
+      "Practise conversation with natives",
+      "Book hotels",
+      "Pay taxes",
+      "Avoid speaking"
+     ],
+     "answer": 0,
+     "why": "Real practice."
+    },
+    {
+     "q": "Switching your phone to Spanish helps by…",
+     "options": [
+      "Saving battery",
+      "Nothing",
+      "Creating daily immersion",
+      "Breaking it"
+     ],
+     "answer": 2,
+     "why": "Immersion."
+    }
+   ]
+  }
+ ]
+}

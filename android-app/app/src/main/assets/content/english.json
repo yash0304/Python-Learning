@@ -14,7 +14,8 @@
   "B1",
   "B2",
   "C1",
-  "C2"
+  "C2",
+  "Interview Prep"
  ],
  "lessons": [
   {
@@ -6114,6 +6115,936 @@
      ],
      "answer": 0,
      "why": "A powerful speaking drill."
+    }
+   ]
+  },
+  {
+   "id": "en-int-01",
+   "level": "Interview Prep",
+   "title": "Day 1: Decode the job and the company",
+   "summary": "Great answers start with knowing exactly what they want.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Read the job description (JD) like a detective. Highlight: (1) must-have skills, (2) nice-to-have skills, (3) repeated words (they show priorities), (4) the problems this role solves.\nResearch the company: products, customers, recent news, annual report highlights, competitors, culture (Glassdoor/AmbitionBox, LinkedIn posts of employees).\nMake a 'match table': JD requirement → your proof (project, number, story)."
+    },
+    {
+     "h": "Practise",
+     "b": "Build a one-page cheat sheet: company in 3 lines, 5 JD keywords, 5 matching proofs, 2 recent news items, and why you're excited."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't memorise the company's 'About us' page. Interviewers want to hear how YOU connect to their problems."
+    }
+   ],
+   "example": "JD says: 'Experience in financial reporting and automation.'\nYour proof: 'At my last company I automated the monthly MIS report in Excel and Python, cutting preparation time from 3 days to 4 hours.'",
+   "speak": [
+    "I've researched your recent expansion into tier-two cities.",
+    "This role needs strong reporting skills, and that's my core strength.",
+    "I'm excited because this role combines finance and technology."
+   ],
+   "action": "Create your match table for one real job posting today.",
+   "quiz": [
+    {
+     "q": "What is a 'match table'?",
+     "options": [
+      "JD requirements mapped to your proof",
+      "A list of companies",
+      "A seating plan",
+      "A salary chart"
+     ],
+     "answer": 0,
+     "why": "It turns your experience into evidence."
+    },
+    {
+     "q": "Repeated words in a JD usually show…",
+     "options": [
+      "Salary",
+      "Typos",
+      "Location",
+      "Priorities"
+     ],
+     "answer": 3,
+     "why": "Repetition signals importance."
+    },
+    {
+     "q": "Good company research includes…",
+     "options": [
+      "Nothing; improvise",
+      "Only the CEO's age",
+      "Only the logo",
+      "Products, customers, recent news and culture"
+     ],
+     "answer": 3,
+     "why": "Context makes answers relevant."
+    }
+   ]
+  },
+  {
+   "id": "en-int-02",
+   "level": "Interview Prep",
+   "title": "Day 2: 'Tell me about yourself'",
+   "summary": "Nail the most common opening question in 60-90 seconds.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Use Present → Past → Future:\nPresent: who you are now and your current role/impact.\nPast: 1-2 highlights that led here (with numbers).\nFuture: why this role is the logical next step.\nKeep it professional and relevant; personal details only if they support the story."
+    },
+    {
+     "h": "Practise",
+     "b": "Write your answer (150-200 words), then say it aloud 5 times. Record yourself and cut anything that doesn't help you get THIS job."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't recite your CV line by line or start with your school and hometown. Lead with your current professional identity."
+    }
+   ],
+   "example": "'I'm a finance professional with four years in FP&A at a fintech company. Currently I lead monthly reporting for a ₹200 crore business. Before that, I automated our MIS reports, saving 40 hours a month. Now I want to bring that mix of finance and automation to a larger team, which is why this role at your company excites me.'",
+   "speak": [
+    "I'm a finance professional with four years of experience in planning and analysis.",
+    "Most recently, I automated our monthly reports and saved forty hours a month.",
+    "That's why I'm excited about this role."
+   ],
+   "action": "Write and record your 'Tell me about yourself' answer. Keep it under 90 seconds.",
+   "quiz": [
+    {
+     "q": "The recommended structure is…",
+     "options": [
+      "Past → Present → Hobbies",
+      "Childhood → School → Job",
+      "Present → Past → Future",
+      "Salary → Skills → Questions"
+     ],
+     "answer": 2,
+     "why": "Start with who you are now."
+    },
+    {
+     "q": "Ideal length is about…",
+     "options": [
+      "10 seconds",
+      "60-90 seconds",
+      "5 minutes",
+      "10 minutes"
+     ],
+     "answer": 1,
+     "why": "Concise and complete."
+    },
+    {
+     "q": "The 'Future' part should explain…",
+     "options": [
+      "Your salary",
+      "Why this role is your logical next step",
+      "Your retirement plans",
+      "Your weekend plans"
+     ],
+     "answer": 1,
+     "why": "Connect to the job."
+    }
+   ]
+  },
+  {
+   "id": "en-int-03",
+   "level": "Interview Prep",
+   "title": "Day 3: Build your STAR story bank",
+   "summary": "Prepare 6 stories that answer 80% of behavioural questions.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "STAR = Situation, Task, Action, Result (+ Learning).\nPrepare 6 stories: (1) a big achievement, (2) a failure/mistake, (3) conflict or disagreement, (4) leadership/initiative, (5) working under pressure/deadline, (6) learning something new fast.\nEach story: 90-120 seconds, mostly Action and Result, with numbers."
+    },
+    {
+     "h": "Practise",
+     "b": "Fill a table: story name, S, T, A (3 bullet actions using 'I'), R (number), learning. Then map each story to likely questions."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Say 'I' for your actions. 'We did…' hides your contribution, and interviewers hire individuals."
+    }
+   ],
+   "example": "Question: 'Tell me about a time you worked under pressure.'\nS: Quarter-end close, two team members on leave. T: Deliver the board pack in 3 days. A: I prioritised critical schedules, automated two reconciliations and set twice-daily check-ins. R: Delivered a day early with zero audit comments. L: I now build buffers into close calendars.",
+   "speak": [
+    "The situation was a tight quarter-end deadline.",
+    "I automated two reconciliations to save time.",
+    "As a result, we delivered a day early with zero errors."
+   ],
+   "action": "Write your 6 STAR stories in a table with one number in each result.",
+   "quiz": [
+    {
+     "q": "In STAR, most time should go to…",
+     "options": [
+      "Task",
+      "Situation",
+      "Introductions",
+      "Action and Result"
+     ],
+     "answer": 3,
+     "why": "That's where your value shows."
+    },
+    {
+     "q": "How many core stories are recommended?",
+     "options": [
+      "About 6",
+      "None",
+      "1",
+      "20"
+     ],
+     "answer": 0,
+     "why": "A versatile bank."
+    },
+    {
+     "q": "Which word shows your contribution best?",
+     "options": [
+      "We",
+      "They",
+      "I",
+      "Someone"
+     ],
+     "answer": 2,
+     "why": "Own your actions."
+    }
+   ]
+  },
+  {
+   "id": "en-int-04",
+   "level": "Interview Prep",
+   "title": "Day 4: Strengths and weaknesses",
+   "summary": "Answer honestly, with evidence and growth.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Strength = skill + proof + relevance to the job. Pick 2-3 strengths that match the JD.\nWeakness = a real but non-critical gap + what you're doing about it + progress so far.\nAvoid fake weaknesses ('I'm a perfectionist')."
+    },
+    {
+     "h": "Practise",
+     "b": "Write 3 strengths with a one-line story each, and 1 weakness with your improvement plan and evidence of progress."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Never pick a weakness that is a core requirement of the role, e.g. 'attention to detail' for an audit job."
+    }
+   ],
+   "example": "Strength: 'Turning messy data into decisions. For example, I built a dashboard that helped sales cut discount leakage by 2%.'\nWeakness: 'I used to say yes to too many requests. Now I prioritise with my manager every Monday, and my on-time delivery improved to 98%.'",
+   "speak": [
+    "One of my key strengths is turning data into decisions.",
+    "For example, my dashboard helped reduce discount leakage by two percent.",
+    "I'm working on delegation, and I now plan tasks with my team every Monday."
+   ],
+   "action": "Write and practise your strength and weakness answers aloud three times.",
+   "quiz": [
+    {
+     "q": "A strong strength answer includes…",
+     "options": [
+      "Proof and relevance to the job",
+      "Only adjectives",
+      "A joke",
+      "Your hobbies"
+     ],
+     "answer": 0,
+     "why": "Evidence wins."
+    },
+    {
+     "q": "A good weakness answer shows…",
+     "options": [
+      "A core skill you lack",
+      "No weaknesses",
+      "A real gap plus improvement",
+      "Blame on others"
+     ],
+     "answer": 2,
+     "why": "Self-awareness and growth."
+    },
+    {
+     "q": "Which weakness would hurt an auditor candidate?",
+     "options": [
+      "Saying yes too often",
+      "Public speaking",
+      "Delegation",
+      "Attention to detail"
+     ],
+     "answer": 3,
+     "why": "Core to the role."
+    }
+   ]
+  },
+  {
+   "id": "en-int-05",
+   "level": "Interview Prep",
+   "title": "Day 5: Why this company, why this role, why leave?",
+   "summary": "Show genuine motivation without negativity.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Why this company: 1-2 specific reasons (product, mission, growth, culture) + how you'll contribute.\nWhy this role: the skills you'll use and grow.\nWhy leave: focus on moving TOWARD something (growth, scope, learning), never bad-mouth your employer."
+    },
+    {
+     "h": "Practise",
+     "b": "Draft three 30-second answers. Include one fact from your research in 'Why this company'."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Never say 'my manager is bad' or 'I just need more money' as your main reason. Negativity is a red flag."
+    }
+   ],
+   "example": "'Your company is expanding lending to small businesses, and I've spent three years in SME credit analytics. I'd love to help scale that. I'm looking to move because I've learned a lot in my current role, and I'm ready for broader responsibility in a faster-growing team.'",
+   "speak": [
+    "I'm excited by your expansion into small-business lending.",
+    "I've learned a lot in my current role, and I'm ready for broader responsibility.",
+    "This role lets me use my analytics skills at a larger scale."
+   ],
+   "action": "Write all three answers for one target company and say them aloud.",
+   "quiz": [
+    {
+     "q": "The best 'why leave' answers focus on…",
+     "options": [
+      "Salary only",
+      "Office politics",
+      "Complaints",
+      "Moving toward growth"
+     ],
+     "answer": 3,
+     "why": "Positive direction."
+    },
+    {
+     "q": "A strong 'why this company' includes…",
+     "options": [
+      "The office location only",
+      "Generic praise",
+      "Nothing",
+      "A specific fact and how you'll contribute"
+     ],
+     "answer": 3,
+     "why": "Specific and relevant."
+    },
+    {
+     "q": "Bad-mouthing your employer signals…",
+     "options": [
+      "Honesty",
+      "A potential red flag",
+      "Leadership",
+      "Confidence"
+     ],
+     "answer": 1,
+     "why": "Interviewers worry you'll do it again."
+    }
+   ]
+  },
+  {
+   "id": "en-int-06",
+   "level": "Interview Prep",
+   "title": "Day 6: Teamwork and conflict questions",
+   "summary": "Show you can work with difficult people and situations.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Common questions: 'Tell me about a conflict with a colleague.' 'How do you handle disagreement with your manager?'\nFramework: describe the disagreement neutrally → how you listened → how you found common ground (data, shared goal) → outcome → relationship after."
+    },
+    {
+     "h": "Practise",
+     "b": "Pick a real conflict story. Remove blame words. Add the line 'I wanted to understand their perspective, so I…'"
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid stories where you 'won' and the other person 'lost'. Interviewers look for collaboration, not victory."
+    }
+   ],
+   "example": "'A sales head wanted to change the forecast every week. Instead of arguing, I asked what worried him. It was missing early signals. We agreed on a weekly flash report and a monthly forecast. Forecast accuracy improved, and we still work closely.'",
+   "speak": [
+    "I wanted to understand their perspective first.",
+    "We agreed on a solution that met both our goals.",
+    "We still have a strong working relationship."
+   ],
+   "action": "Write your conflict story using neutral language and practise it.",
+   "quiz": [
+    {
+     "q": "A good conflict story ends with…",
+     "options": [
+      "No resolution",
+      "A shared solution and a good relationship",
+      "You winning",
+      "The other person leaving"
+     ],
+     "answer": 1,
+     "why": "Collaboration."
+    },
+    {
+     "q": "A key behaviour to show is…",
+     "options": [
+      "Arguing loudly",
+      "Escalating immediately",
+      "Listening to understand",
+      "Avoiding the person"
+     ],
+     "answer": 2,
+     "why": "Empathy and curiosity."
+    },
+    {
+     "q": "Which word should you avoid in conflict stories?",
+     "options": [
+      "Blame words like 'incompetent'",
+      "Understand",
+      "Data",
+      "Agree"
+     ],
+     "answer": 0,
+     "why": "Stay neutral."
+    }
+   ]
+  },
+  {
+   "id": "en-int-07",
+   "level": "Interview Prep",
+   "title": "Day 7: Leadership, ownership and failure",
+   "summary": "Prove you take initiative, even without a title.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Leadership = influencing outcomes: leading a project, mentoring, fixing a broken process, speaking up.\nFailure question: choose a real failure, own it, explain what you learned and what you do differently now.\nOwnership phrases: 'I took responsibility for…', 'I noticed X and proposed Y.'"
+    },
+    {
+     "h": "Practise",
+     "b": "Prepare one leadership story and one failure story. In the failure story, at least 40% should be about learning and change."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't pick a fake failure or blame others. 'My failure was that my team didn't…' is not ownership."
+    }
+   ],
+   "example": "'I underestimated the time needed for a data migration and we missed the first deadline. I told my manager immediately, re-planned with the team and we delivered two weeks later. Since then I add a 20% buffer and do a risk check before committing dates.'",
+   "speak": [
+    "I took responsibility for fixing the process.",
+    "I told my manager immediately and created a new plan.",
+    "Since then, I always add a buffer to my estimates."
+   ],
+   "action": "Write your failure story and highlight the learning part.",
+   "quiz": [
+    {
+     "q": "Leadership without a title can include…",
+     "options": [
+      "Fixing a broken process on your own initiative",
+      "Waiting for instructions",
+      "Only managing people",
+      "Avoiding risk"
+     ],
+     "answer": 0,
+     "why": "Influence matters."
+    },
+    {
+     "q": "In a failure story, focus heavily on…",
+     "options": [
+      "Excuses",
+      "Who was at fault",
+      "Learning and what you changed",
+      "Hiding details"
+     ],
+     "answer": 2,
+     "why": "Growth mindset."
+    },
+    {
+     "q": "'I told my manager immediately' shows…",
+     "options": [
+      "Weakness",
+      "Laziness",
+      "Ownership and transparency",
+      "Panic"
+     ],
+     "answer": 2,
+     "why": "Early escalation builds trust."
+    }
+   ]
+  },
+  {
+   "id": "en-int-08",
+   "level": "Interview Prep",
+   "title": "Day 8: The technical / functional round",
+   "summary": "Explain your expertise clearly and handle tough questions.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Revise the fundamentals of your field (for finance: three statements, ratios, NPV/IRR, WACC, working capital, budgeting, variance analysis; use Gyaanly's finance path!).\nExplain simply: definition → why it matters → example from your work.\nIf you don't know: say what you do know, how you'd find out, and don't bluff."
+    },
+    {
+     "h": "Practise",
+     "b": "List 15 likely technical questions from the JD. Answer each in 3 sentences: definition, importance, example."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't bluff. 'I haven't used that tool, but I've used a similar one and I learn fast; for example…' is far better than a wrong answer."
+    }
+   ],
+   "example": "Q: 'What's the difference between profit and cash flow?'\nA: 'Profit is revenue minus expenses on an accrual basis; cash flow is actual cash in and out. A company can be profitable but short of cash, for example if customers pay late. At my last company we tracked DSO weekly for exactly that reason.'",
+   "speak": [
+    "Profit and cash flow are different, and here's why it matters.",
+    "Let me give you an example from my work.",
+    "I haven't used that tool, but I've used a similar one."
+   ],
+   "action": "Answer 5 technical questions aloud using definition, importance, example.",
+   "quiz": [
+    {
+     "q": "A strong technical answer has…",
+     "options": [
+      "A long story",
+      "Jargon only",
+      "Definition, why it matters, and an example",
+      "A question back"
+     ],
+     "answer": 2,
+     "why": "Clear and practical."
+    },
+    {
+     "q": "If you don't know an answer, you should…",
+     "options": [
+      "Stay silent",
+      "Share what you know and how you'd find out",
+      "Change the topic",
+      "Make something up"
+     ],
+     "answer": 1,
+     "why": "Honesty builds trust."
+    },
+    {
+     "q": "Where can you revise finance fundamentals?",
+     "options": [
+      "Gyaanly's Corporate Finance path",
+      "Social media gossip",
+      "Only textbooks from 1990",
+      "Nowhere"
+     ],
+     "answer": 0,
+     "why": "Use your own app!"
+    }
+   ]
+  },
+  {
+   "id": "en-int-09",
+   "level": "Interview Prep",
+   "title": "Day 9: Case questions and structured thinking",
+   "summary": "Solve business problems out loud.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Many interviews include a mini case: 'Profits fell 20%, why?' or a guesstimate: 'How many cups of tea are sold in Mumbai daily?'\nApproach: clarify the question → state assumptions → structure (issue tree: revenue vs costs; population × % × frequency) → calculate → sanity-check → recommend."
+    },
+    {
+     "h": "Practise",
+     "b": "Practise 2 cases: one profitability case, one guesstimate. Speak your thinking aloud."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't jump to answers. Interviewers grade your structure and communication more than the final number."
+    }
+   ],
+   "example": "'Profits fell 20%. Let me clarify: over what period, and are competitors affected too? I'll split profit into revenue (price × volume) and costs (fixed and variable). Let me start with revenue: has our price or volume changed?'",
+   "speak": [
+    "Let me clarify the question first.",
+    "I'll break profit into revenue and costs.",
+    "Based on these assumptions, my estimate is about two million cups a day."
+   ],
+   "action": "Solve one guesstimate aloud in under 5 minutes and record it.",
+   "quiz": [
+    {
+     "q": "The first step in a case is to…",
+     "options": [
+      "Give the answer",
+      "Ask for salary",
+      "Draw a chart",
+      "Clarify the question"
+     ],
+     "answer": 3,
+     "why": "Avoid solving the wrong problem."
+    },
+    {
+     "q": "Profit can first be split into…",
+     "options": [
+      "Logos and fonts",
+      "Revenue and costs",
+      "Staff and offices",
+      "Emails and calls"
+     ],
+     "answer": 1,
+     "why": "Classic issue tree."
+    },
+    {
+     "q": "Interviewers mainly assess…",
+     "options": [
+      "Your speed only",
+      "Your handwriting",
+      "Your structure and reasoning",
+      "Your exact number"
+     ],
+     "answer": 2,
+     "why": "Process over precision."
+    }
+   ]
+  },
+  {
+   "id": "en-int-10",
+   "level": "Interview Prep",
+   "title": "Day 10: AI, tools and digital skills questions",
+   "summary": "Show you use AI wisely, a hot topic in every interview now.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Expect: 'How do you use AI in your work?' 'What tools are you good at?' 'How do you check AI output?'\nAnswer with: a specific workflow → time or quality gain → how you verify → where you deliberately don't use AI (confidential data, final judgment)."
+    },
+    {
+     "h": "Practise",
+     "b": "Write two examples of AI or automation in your work with numbers, plus your verification method."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Avoid 'I use ChatGPT for everything' as well as 'I never use AI'. Both sound risky. Show judgment."
+    }
+   ],
+   "example": "'I use AI to draft variance commentary from our MIS data. It cuts drafting time by about half. I always check every number against the source file and edit the business explanation myself. I never paste confidential client data into public tools.'",
+   "speak": [
+    "I use AI to create first drafts, then I verify every number.",
+    "It reduced my report preparation time by half.",
+    "I never share confidential data with public tools."
+   ],
+   "action": "Prepare your 'How do you use AI?' answer using the Human Edge path ideas.",
+   "quiz": [
+    {
+     "q": "A strong AI answer includes…",
+     "options": [
+      "Only tool names",
+      "'AI does my job'",
+      "'I never use it'",
+      "A workflow, the gain, and how you verify"
+     ],
+     "answer": 3,
+     "why": "Shows judgment."
+    },
+    {
+     "q": "A responsible AI habit to mention is…",
+     "options": [
+      "Hiding AI use always",
+      "Skipping checks",
+      "Pasting client data anywhere",
+      "Protecting confidential data"
+     ],
+     "answer": 3,
+     "why": "Data responsibility."
+    },
+    {
+     "q": "Why mention where you don't use AI?",
+     "options": [
+      "To seem old-fashioned",
+      "To waste time",
+      "It shows judgment and risk awareness",
+      "It's required by law"
+     ],
+     "answer": 2,
+     "why": "Thoughtful use."
+    }
+   ]
+  },
+  {
+   "id": "en-int-11",
+   "level": "Interview Prep",
+   "title": "Day 11: Body language, voice and video interviews",
+   "summary": "Look and sound confident, in person and online.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "In person: firm (not crushing) handshake, eye contact, upright posture, open hands, smile.\nVoice: moderate pace (≈140-160 words/min), pause before answering, lower pitch at the end of statements.\nVideo: camera at eye level, light in front of you, plain background, test audio, look at the camera when speaking, keep notes off-screen."
+    },
+    {
+     "h": "Practise",
+     "b": "Record a 2-minute mock answer on video. Review posture, eye contact, filler words ('um', 'like') and lighting."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Looking at your own video image instead of the camera makes you seem distracted. Look at the lens when making key points."
+    }
+   ],
+   "example": "Before a video interview: 'Test link 15 minutes early, laptop charged, phone on silent, water nearby, JD and STAR notes on a sticky note behind the camera.'",
+   "speak": [
+    "Thank you for having me today.",
+    "That's a great question; let me think for a moment.",
+    "Could you please repeat the last part? The audio cut out."
+   ],
+   "action": "Set up your video interview space and do a 2-minute test recording.",
+   "quiz": [
+    {
+     "q": "Where should the camera be?",
+     "options": [
+      "On the ceiling",
+      "At eye level",
+      "Behind you",
+      "Below your chin"
+     ],
+     "answer": 1,
+     "why": "Natural eye contact."
+    },
+    {
+     "q": "A good speaking pace is about…",
+     "options": [
+      "Variable and rushed",
+      "140-160 words/min",
+      "300 words/min",
+      "60 words/min"
+     ],
+     "answer": 1,
+     "why": "Clear and confident."
+    },
+    {
+     "q": "Before answering a hard question it's fine to…",
+     "options": [
+      "Laugh",
+      "Pause briefly to think",
+      "Leave the call",
+      "Panic"
+     ],
+     "answer": 1,
+     "why": "Pauses look thoughtful."
+    }
+   ]
+  },
+  {
+   "id": "en-int-12",
+   "level": "Interview Prep",
+   "title": "Day 12: Questions to ask the interviewer",
+   "summary": "End strong and learn whether the job fits you.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Always have 3-5 questions. Good ones:\n• 'What does success look like in the first 6 months?'\n• 'What are the biggest challenges for this team right now?'\n• 'How does the team use data/AI in decision-making?'\n• 'What do you enjoy most about working here?'\n• 'What are the next steps in the process?'\nAvoid asking about salary or leave in the first round unless they raise it."
+    },
+    {
+     "h": "Practise",
+     "b": "Write 5 questions tailored to your target company and rank your top 3."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "'No, I don't have any questions' signals low interest. Always ask at least two."
+    }
+   ],
+   "example": "Interviewer: 'Do you have any questions for us?'\nYou: 'Yes, thank you. What would success look like for this role in the first six months? And what's the biggest challenge the team is facing right now?'",
+   "speak": [
+    "What does success look like in the first six months?",
+    "What are the biggest challenges for the team right now?",
+    "What are the next steps in the process?"
+   ],
+   "action": "Prepare your 5 questions and memorise the top 3.",
+   "quiz": [
+    {
+     "q": "Saying 'No questions' can signal…",
+     "options": [
+      "Intelligence",
+      "Confidence",
+      "Low interest",
+      "Politeness"
+     ],
+     "answer": 2,
+     "why": "Always ask something."
+    },
+    {
+     "q": "A strong question is…",
+     "options": [
+      "How many leaves do I get?",
+      "What does success look like in 6 months?",
+      "When is my first raise?",
+      "Can I work from home daily?"
+     ],
+     "answer": 1,
+     "why": "Shows performance focus."
+    },
+    {
+     "q": "When is it usually fine to discuss salary?",
+     "options": [
+      "In the first minute",
+      "When the employer raises it or at the HR/offer stage",
+      "In your cover letter only",
+      "Never"
+     ],
+     "answer": 1,
+     "why": "Timing matters."
+    }
+   ]
+  },
+  {
+   "id": "en-int-13",
+   "level": "Interview Prep",
+   "title": "Day 13: HR round and salary negotiation",
+   "summary": "Discuss pay confidently and professionally.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Research the range (AmbitionBox, Glassdoor, LinkedIn Salary, peers). Know your current CTC breakdown, notice period and minimum acceptable number.\nWhen asked expectations: give a researched range, anchored slightly high, linked to value.\nNegotiate the full package: fixed, variable, joining bonus, ESOPs, notice buyout, learning budget, flexibility."
+    },
+    {
+     "h": "Practise",
+     "b": "Write your target range, walk-away number and 3 value points (achievements with numbers). Practise the script aloud."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't give a number with no research, and don't accept immediately. 'Thank you, could I have a day to review the full offer?' is professional."
+    }
+   ],
+   "example": "'Based on my research for similar roles and the impact I've delivered, such as automating reporting that saved 40 hours a month, I'm looking for a range of ₹18 to 21 lakh fixed. I'm open to discussing the overall package.'",
+   "speak": [
+    "Based on my research, I'm looking for a range of eighteen to twenty-one lakh.",
+    "I'm open to discussing the overall package.",
+    "Thank you. Could I have a day to review the offer?"
+   ],
+   "action": "Fill in your salary research sheet and rehearse your expectation answer.",
+   "quiz": [
+    {
+     "q": "When asked salary expectations, give…",
+     "options": [
+      "Your current salary only",
+      "A researched range linked to your value",
+      "Any random number",
+      "'Whatever you offer'"
+     ],
+     "answer": 1,
+     "why": "Prepared and confident."
+    },
+    {
+     "q": "Besides fixed pay, you can negotiate…",
+     "options": [
+      "Joining bonus, ESOPs, notice buyout, learning budget",
+      "Only the job title",
+      "Nothing",
+      "Only leave"
+     ],
+     "answer": 0,
+     "why": "The whole package."
+    },
+    {
+     "q": "A professional response to an offer is…",
+     "options": [
+      "Reject it immediately",
+      "Accept within seconds",
+      "Thank them and ask for time to review",
+      "Ignore it"
+     ],
+     "answer": 2,
+     "why": "Time to evaluate."
+    }
+   ]
+  },
+  {
+   "id": "en-int-14",
+   "level": "Interview Prep",
+   "title": "Day 14: Full mock interview",
+   "summary": "Put everything together under realistic pressure.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Run a 30-45 minute mock: tell me about yourself → 2 behavioural (STAR) → 2 technical → 1 case/guesstimate → why us → your questions.\nUse a friend, mentor or an AI interviewer (paste the JD and ask it to act as the hiring manager and give scored feedback).\nScore yourself 1-5 on: structure, clarity, evidence (numbers), confidence, relevance."
+    },
+    {
+     "h": "Practise",
+     "b": "Record the mock. Watch it once and list the 3 biggest improvements. Re-answer those three questions."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't just read answers. Interviewers can tell. Use bullet keywords, not scripts, so you sound natural."
+    }
+   ],
+   "example": "AI interviewer prompt: 'Act as the hiring manager for this JD. Ask me 8 interview questions one at a time, wait for my answer, then give a score out of 5 and one improvement for each.'",
+   "speak": [
+    "Thank you for the opportunity to interview today.",
+    "Let me walk you through a relevant example.",
+    "I'd like to summarise why I'm a strong fit."
+   ],
+   "action": "Complete one full recorded mock interview and write your top 3 fixes.",
+   "quiz": [
+    {
+     "q": "A full mock should include…",
+     "options": [
+      "Only one question",
+      "Intro, behavioural, technical, case and your questions",
+      "Only small talk",
+      "Only salary talk"
+     ],
+     "answer": 1,
+     "why": "Realistic coverage."
+    },
+    {
+     "q": "Why record the mock?",
+     "options": [
+      "To spot habits you can't notice live",
+      "For fun only",
+      "To post online",
+      "It's required"
+     ],
+     "answer": 0,
+     "why": "Self-review is powerful."
+    },
+    {
+     "q": "Better than a full script is…",
+     "options": [
+      "Bullet keywords to sound natural",
+      "Improvising with no prep",
+      "Reading paragraphs",
+      "Memorising the JD"
+     ],
+     "answer": 0,
+     "why": "Natural delivery."
+    }
+   ]
+  },
+  {
+   "id": "en-int-15",
+   "level": "Interview Prep",
+   "title": "Day 15: Interview day, follow-up and next steps",
+   "summary": "Finish strong and handle any outcome professionally.",
+   "sections": [
+    {
+     "h": "Learn",
+     "b": "Day before: confirm time/location/link, plan the route, prepare documents (CV copies, ID, certificates), outfit, sleep well.\nOn the day: arrive 10-15 minutes early (online: log in 5 minutes early), review your cheat sheet, breathe.\nAfter: send a thank-you email within 24 hours referencing one specific discussion point.\nOutcome: if rejected, ask politely for feedback; if offered, review the full offer before accepting."
+    },
+    {
+     "h": "Practise",
+     "b": "Write your thank-you email template and your interview-day checklist."
+    },
+    {
+     "h": "Common mistake / tip",
+     "b": "Don't stop applying while waiting for one result. Keep momentum with multiple opportunities."
+    }
+   ],
+   "example": "Subject: Thank you, Financial Analyst interview\n'Dear Ms Rao, thank you for your time today. I enjoyed discussing how your team plans to automate monthly reporting, and I'm even more excited about contributing my experience there. Please let me know if I can share anything else. Best regards, Yash'",
+   "speak": [
+    "Thank you for your time today.",
+    "I enjoyed our discussion about automating monthly reporting.",
+    "I look forward to hearing about the next steps."
+   ],
+   "action": "Send yourself the thank-you email template and tick off your checklist. You've completed the 15-day course! 🎉",
+   "quiz": [
+    {
+     "q": "When should you send a thank-you email?",
+     "options": [
+      "Within 24 hours",
+      "After a month",
+      "Before the interview",
+      "Never"
+     ],
+     "answer": 0,
+     "why": "Timely follow-up."
+    },
+    {
+     "q": "A strong thank-you email mentions…",
+     "options": [
+      "Your salary demand",
+      "A specific discussion point",
+      "Complaints",
+      "Other job offers"
+     ],
+     "answer": 1,
+     "why": "Personal and memorable."
+    },
+    {
+     "q": "If rejected, a professional step is…",
+     "options": [
+      "Ignoring it",
+      "Asking politely for feedback",
+      "Posting angrily online",
+      "Arguing"
+     ],
+     "answer": 1,
+     "why": "Learn for next time."
     }
    ]
   }

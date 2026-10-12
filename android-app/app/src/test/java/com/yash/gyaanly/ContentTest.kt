@@ -57,10 +57,14 @@ class ContentTest {
     fun trackSpecificBlocksArePresent() {
         pack("english")!!.lessons.forEach { assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty()) }
         pack("ai")!!.lessons.forEach { assertTrue("${it.id}: no action", it.action != null) }
-        pack("korean")?.lessons?.forEach {
-            assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty())
-            assertEquals("${it.id}: wrong speech language", "ko-KR", it.speakLang)
+        mapOf("korean" to "ko-KR", "spanish" to "es-ES").forEach { (key, lang) ->
+            pack(key)?.lessons?.forEach {
+                assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty())
+                assertEquals("${it.id}: wrong speech language", lang, it.speakLang)
+            }
         }
+        val interview = pack("english")!!.lessons.filter { it.level == "Interview Prep" }
+        assertEquals("15-day interview course", 15, interview.size)
         pack("finance")!!.lessons.forEach {
             assertTrue("${it.id}: no key term", it.keyTerm != null)
             assertTrue("${it.id}: no calculation", it.calculation != null)

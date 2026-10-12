@@ -5,7 +5,8 @@ Bite-sized daily lessons with quizzes, streaks, XP and levels. Fully **offline**
 | Path | Lessons | What you get each day |
 |---|---|---|
 | 🧠 **Human Edge in AI** | 100 lessons across AI Literacy → Mindset → Skills → Work & Career → Future-proofing → Industry Playbooks | One idea, why humans win, how to apply it, a deeper dive, *today's mission*, 3-question quiz |
-| 🗣️ **English Speaking** | 100 lessons, CEFR **A1 → C2** (~17 per level) | Grammar/phrases, workplace usage, common mistakes, a dialogue, a **speak-it drill** (text-to-speech + speech-recognition score), 3-question quiz |
+| 🗣️ **English Speaking** | 100 lessons, CEFR **A1 → C2** (~17 per level), plus a **15-day Interview Prep course** (Day 1 job research → Day 15 follow-up) | Grammar/phrases, workplace usage, common mistakes, a dialogue, a **speak-it drill** (text-to-speech + speech-recognition score), 3-question quiz |
+| 🇪🇸 **Spanish** | 100 lessons, CEFR **A1 → C1**: sounds, survival Spanish, all main tenses and the subjunctive, work emails, meetings, interviews, finance vocabulary, idioms, Spain vs Latin America | Grammar + pronunciation tips, a dialogue, **speak-it drill in Spanish** (`es-ES`), today's mission, 3-question quiz |
 | 🇰🇷 **Korean** | 100 lessons, **TOPIK 1 → 6**: Hangul, survival Korean, grammar, workplace and business Korean, idioms, TOPIK essay skills | Hangul + romanisation, usage tips, a dialogue, **speak-it drill in Korean** (`ko-KR` voice + speech scoring), today's mission, 3-question quiz |
 | 💰 **Corporate Finance** | 100 lessons: Basics → Intermediate → Advanced | Concept, word of the day, real example, **solve-it-yourself calculation** with step-by-step reveal, 3-question quiz |
 
