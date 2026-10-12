@@ -78,6 +78,8 @@ Each path is **one self-describing JSON file**. The app discovers every `*.json`
 ## Build & install
 
 * **Download:** every push runs the *Android app* GitHub Action. Open the run → *Artifacts* → `gyaanly-debug-apk`, unzip and install `app-debug.apk` (allow "install unknown apps").
+* **Updating:** every build is signed with the same committed key (`keystore/gyaanly-debug.keystore`) and has a higher version number, so a new APK installs straight over the old one and keeps your progress. (Builds made before this change used a random key per build. If Android says *"package conflicts with an existing package"*, uninstall that old build once, then install the new one.)
+* **Backup:** Me → 💾 *Back up progress* saves a JSON file (e.g. to Google Drive); *Restore from backup* brings it back on a new phone or after a reinstall.
 * **Locally:** open `android-app/` in Android Studio or run `./gradlew assembleDebug` (Android SDK + JDK 17).
 
 Requires Android 8.0+ (API 26). Speaking drills use the device's speech services (Google app / Speech Services). For Spanish (or any new language), install the voice once: Settings → Speech → Text-to-speech → Google → Install voice data → Español; and add the language to Google voice typing for offline recognition.

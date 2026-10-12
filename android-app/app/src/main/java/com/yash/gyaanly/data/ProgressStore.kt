@@ -5,26 +5,6 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
-data class Progress(
-    val completed: Set<String> = emptySet(),
-    /** ISO dates (yyyy-MM-dd) on which at least one lesson was completed. */
-    val activeDays: Set<String> = emptySet(),
-    /** Best quiz score per lesson id, as "correct/total". */
-    val quizScores: Map<String, String> = emptyMap(),
-    /** Lesson picked for each track on [planDate]; keeps "today" stable for the whole day. */
-    val planDate: String = "",
-    val plan: Map<String, String> = emptyMap(),
-    /** Chosen starting level per track key (for tracks with a level picker). */
-    val levels: Map<String, String> = emptyMap(),
-    val reminderEnabled: Boolean = false,
-    val reminderHour: Int = 8,
-    val reminderMinute: Int = 0,
-) {
-    /** 10 XP per lesson finished + 5 XP per best correct quiz answer. */
-    val xp: Int
-        get() = completed.size * 10 + quizScores.values.sumOf { it.substringBefore("/").toIntOrNull() ?: 0 } * 5
-}
-
 /** Small SharedPreferences-backed store exposing progress as a StateFlow. */
 class ProgressStore(context: Context) {
 

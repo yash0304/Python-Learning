@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.yash.gyaanly.GyaanlyApp
 import com.yash.gyaanly.data.Lesson
 import com.yash.gyaanly.data.Progress
+import com.yash.gyaanly.data.ProgressCodec
 import com.yash.gyaanly.data.Track
 import com.yash.gyaanly.data.TrackContent
 import com.yash.gyaanly.domain.DailyPlanner
@@ -101,6 +102,17 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     fun setReminder(enabled: Boolean, hour: Int, minute: Int) {
         store.update { it.copy(reminderEnabled = enabled, reminderHour = hour, reminderMinute = minute) }
         if (enabled) ReminderScheduler.schedule(app, hour, minute) else ReminderScheduler.cancel(app)
+    }
+
+    fun exportProgress(): String = ProgressCodec.encode(store.state.value)
+
+    /** Replaces progress with a backup. Returns false if the file isn't a valid backup. */
+    fun importProgress(json: String): Boolean {
+        val restored = runCatching { ProgressCodec.decode(json) }.getOrElse { return false }
+        store.update { restored }
+        if (restored.reminderEnabled) ReminderScheduler.schedule(app, restored.reminderHour, restored.reminderMinute)
+        refreshPlan()
+        return true
     }
 
     fun resetProgress() {

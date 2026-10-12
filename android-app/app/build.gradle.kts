@@ -12,8 +12,21 @@ android {
         applicationId = "com.yash.gyaanly"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        // CI run number keeps every build installable as an update of the previous one.
+        versionCode = System.getenv("GITHUB_RUN_NUMBER")?.toIntOrNull() ?: 1
+        versionName = "1.0.$versionCode"
+    }
+
+    signingConfigs {
+        // A fixed, committed debug key: every build (local or CI) gets the same signature, so a new
+        // APK installs over the old one and keeps the learner's progress. Use a separate, secret
+        // key for any Play Store release.
+        getByName("debug") {
+            storeFile = rootProject.file("keystore/gyaanly-debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
     }
 
     buildTypes {
