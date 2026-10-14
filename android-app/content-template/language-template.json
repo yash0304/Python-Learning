@@ -1,0 +1,36 @@
+{
+ "track": {
+  "key": "spanish",
+  "title": "Spanish for Beginners",
+  "tagline": "Speak everyday Spanish in 10 minutes a day",
+  "emoji": "🇪🇸",
+  "color": "#E11D48",
+  "order": 4,
+  "levelPicker": true,
+  "tools": []
+ },
+ "levels": ["A1", "A2", "B1"],
+ "lessons": [
+  {
+   "id": "es-01",
+   "level": "A1",
+   "title": "Saying hello",
+   "summary": "Greet people politely at any time of day.",
+   "term": {"word": "Hola", "meaning": "Hello (works any time, with anyone)"},
+   "sections": [
+    {"h": "Learn", "b": "Buenos días = Good morning. Buenas tardes = Good afternoon. Buenas noches = Good evening / Good night. ¿Qué tal? = How's it going?"},
+    {"h": "Use it", "b": "Use 'Buenos días' with colleagues and clients in the morning; 'Hola, ¿qué tal?' with friends."},
+    {"h": "Tip", "b": "Spanish questions start with an upside-down question mark: ¿Cómo estás?"}
+   ],
+   "example": "A: ¡Hola! ¿Qué tal?\nB: Muy bien, gracias. ¿Y tú?",
+   "speak": ["Hola, ¿qué tal?", "Buenos días.", "Muy bien, gracias."],
+   "speakLang": "es-ES",
+   "action": "Greet one person in Spanish today (even yourself in the mirror!).",
+   "quiz": [
+    {"q": "How do you say 'Good morning'?", "options": ["Buenas noches", "Buenos días", "Hasta luego", "Gracias"], "answer": 1, "why": "Días = days; used in the morning."},
+    {"q": "'Gracias' means…", "options": ["Please", "Sorry", "Thank you", "Goodbye"], "answer": 2, "why": "Gracias = thank you."},
+    {"q": "Which question mark opens a Spanish question?", "options": ["?", "¿", "!", "¡"], "answer": 1, "why": "Questions open with ¿ and close with ?."}
+   ]
+  }
+ ]
+}

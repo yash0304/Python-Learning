@@ -1,0 +1,6536 @@
+{
+ "track": {
+  "key": "finance",
+  "title": "Corporate Finance",
+  "tagline": "One concept, term and calculation at a time",
+  "emoji": "💰",
+  "color": "#FF7A00",
+  "order": 3,
+  "tools": [
+   "calculators"
+  ]
+ },
+ "levels": [
+  "Basics",
+  "Intermediate",
+  "Advanced"
+ ],
+ "lessons": [
+  {
+   "id": "fin-01",
+   "level": "Basics",
+   "title": "Time value of money",
+   "summary": "₹100 today is worth more than ₹100 next year.",
+   "term": {
+    "word": "Future Value (FV)",
+    "meaning": "What money invested today grows to: FV = PV × (1 + r)^n."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Money can earn a return, so receiving it earlier is better. Compounding means you earn returns on past returns. This idea sits under every valuation, loan and investment decision."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies compare projects, price loans and value businesses using the time value of money. Individuals use it for SIPs, FDs and retirement planning."
+    }
+   ],
+   "example": "An FD of ₹1,00,000 at 7% for 2 years grows to ₹1,14,490: interest is earned on the first year's interest too.",
+   "calc": {
+    "problem": "You invest ₹10,000 at 8% per year compounded annually for 3 years. What is the future value?",
+    "steps": [
+     "FV = PV × (1 + r)^n",
+     "FV = 10,000 × (1.08)^3",
+     "1.08^3 = 1.259712",
+     "FV = 10,000 × 1.259712"
+    ],
+    "answer": "₹12,597.12"
+   },
+   "quiz": [
+    {
+     "q": "Why is money today worth more than the same amount later?",
+     "options": [
+      "Banks say so",
+      "It can be invested to earn a return",
+      "Taxes are lower today",
+      "Inflation never exists"
+     ],
+     "answer": 1,
+     "why": "Earning capacity (and inflation) make earlier money more valuable."
+    },
+    {
+     "q": "FV of ₹1,000 at 10% for 2 years is…",
+     "options": [
+      "₹1,100",
+      "₹1,020",
+      "₹1,200",
+      "₹1,210"
+     ],
+     "answer": 3,
+     "why": "1,000 × 1.1² = 1,210."
+    },
+    {
+     "q": "In FV = PV × (1 + r)^n, 'n' is…",
+     "options": [
+      "The number of periods",
+      "Inflation",
+      "The rate",
+      "The principal"
+     ],
+     "answer": 0,
+     "why": "Number of compounding periods."
+    }
+   ],
+   "calculator": "cagr"
+  },
+  {
+   "id": "fin-02",
+   "level": "Basics",
+   "title": "Present value and discounting",
+   "summary": "Bring future money back to today's value.",
+   "term": {
+    "word": "Discount rate",
+    "meaning": "The rate used to convert future cash into today's value; reflects risk and opportunity cost."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Present value reverses compounding: PV = FV / (1 + r)^n. The higher the discount rate or the longer the wait, the lower the present value."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Valuing bonds, projects and companies means discounting expected future cash flows to today."
+    }
+   ],
+   "example": "A customer offers ₹1,10,000 in one year instead of ₹1,00,000 now. At a 12% discount rate, PV = ₹98,214, so take the ₹1,00,000 now.",
+   "calc": {
+    "problem": "What is the present value of ₹50,000 received in 4 years if the discount rate is 10%?",
+    "steps": [
+     "PV = FV / (1 + r)^n",
+     "PV = 50,000 / (1.10)^4",
+     "1.10^4 = 1.4641",
+     "PV = 50,000 / 1.4641"
+    ],
+    "answer": "₹34,150.67"
+   },
+   "quiz": [
+    {
+     "q": "If the discount rate increases, the present value of a future cash flow…",
+     "options": [
+      "Stays the same",
+      "Decreases",
+      "Doubles",
+      "Increases"
+     ],
+     "answer": 1,
+     "why": "A higher rate divides by a bigger number."
+    },
+    {
+     "q": "PV of ₹1,100 received in 1 year at 10% is…",
+     "options": [
+      "₹1,000",
+      "₹1,100",
+      "₹990",
+      "₹1,210"
+     ],
+     "answer": 0,
+     "why": "1,100 / 1.1."
+    },
+    {
+     "q": "Discounting is the reverse of…",
+     "options": [
+      "Taxation",
+      "Compounding",
+      "Budgeting",
+      "Depreciation"
+     ],
+     "answer": 1,
+     "why": "Brings future values back."
+    }
+   ],
+   "calculator": "npv"
+  },
+  {
+   "id": "fin-03",
+   "level": "Basics",
+   "title": "Simple vs compound interest",
+   "summary": "Compounding is interest on interest. Over time the gap is huge.",
+   "term": {
+    "word": "Compounding",
+    "meaning": "Earning returns on both the original amount and previously earned returns."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Simple interest = P × r × n (interest only on principal). Compound amount = P × (1 + r)^n. The longer the period and the higher the rate, the bigger the compounding advantage."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Loans, deposits and investment returns are usually compounded. Understanding it helps you evaluate debt costs and long-term investing."
+    }
+   ],
+   "example": "Rule of 72: money doubles in roughly 72 / rate years. At 12%, about 6 years.",
+   "calc": {
+    "problem": "Invest ₹1,00,000 at 10% for 5 years. Compare total interest under simple vs compound interest.",
+    "steps": [
+     "Simple interest = 1,00,000 × 10% × 5 = ₹50,000",
+     "Compound amount = 1,00,000 × 1.10^5 = ₹1,61,051",
+     "Compound interest = 1,61,051 − 1,00,000 = ₹61,051",
+     "Difference = 61,051 − 50,000"
+    ],
+    "answer": "Compounding earns ₹11,051 more (₹61,051 vs ₹50,000)"
+   },
+   "quiz": [
+    {
+     "q": "Using the Rule of 72, at 8% money doubles in about…",
+     "options": [
+      "9 years",
+      "6 years",
+      "72 years",
+      "12 years"
+     ],
+     "answer": 0,
+     "why": "72 / 8 = 9 years."
+    },
+    {
+     "q": "Simple interest on ₹10,000 at 8% for 3 years is…",
+     "options": [
+      "₹3,000",
+      "₹2,400",
+      "₹800",
+      "₹2,597"
+     ],
+     "answer": 1,
+     "why": "10,000 × 8% × 3."
+    },
+    {
+     "q": "Compounding benefits most from…",
+     "options": [
+      "Low rates",
+      "Long time horizons",
+      "Withdrawals",
+      "Short periods"
+     ],
+     "answer": 1,
+     "why": "Time is the multiplier."
+    }
+   ]
+  },
+  {
+   "id": "fin-04",
+   "level": "Basics",
+   "title": "The income statement",
+   "summary": "Revenue minus costs, step by step, down to net profit.",
+   "term": {
+    "word": "EBIT",
+    "meaning": "Earnings Before Interest and Taxes, i.e. operating profit."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Revenue − Cost of goods sold (COGS) = Gross profit. Gross profit − Operating expenses = EBIT. EBIT − Interest = EBT (profit before tax). EBT − Tax = Net income (PAT)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "The income statement (P&L) shows profitability over a period. Each line tells a different story: pricing power (gross), efficiency (operating), financing (interest)."
+    }
+   ],
+   "example": "A café sells ₹10 lakh of coffee; beans and milk cost ₹4 lakh (COGS); rent and salaries ₹4 lakh. Operating profit is ₹2 lakh.",
+   "calc": {
+    "problem": "Revenue ₹10,00,000; COGS ₹6,00,000; Operating expenses ₹2,00,000; Interest ₹50,000; Tax rate 25%. Find net income.",
+    "steps": [
+     "Gross profit = 10,00,000 − 6,00,000 = ₹4,00,000",
+     "EBIT = 4,00,000 − 2,00,000 = ₹2,00,000",
+     "EBT = 2,00,000 − 50,000 = ₹1,50,000",
+     "Tax = 25% × 1,50,000 = ₹37,500",
+     "Net income = 1,50,000 − 37,500"
+    ],
+    "answer": "₹1,12,500"
+   },
+   "quiz": [
+    {
+     "q": "EBIT is calculated before deducting…",
+     "options": [
+      "Operating expenses",
+      "Revenue",
+      "COGS",
+      "Interest and taxes"
+     ],
+     "answer": 3,
+     "why": "Earnings Before Interest and Taxes."
+    },
+    {
+     "q": "Gross profit =",
+     "options": [
+      "Net income + Tax",
+      "EBIT − Tax",
+      "Revenue − All expenses",
+      "Revenue − COGS"
+     ],
+     "answer": 3,
+     "why": "First line of profitability."
+    },
+    {
+     "q": "PAT stands for…",
+     "options": [
+      "Payment After Transfer",
+      "Profit After Tax",
+      "Profit At Total",
+      "Price And Tax"
+     ],
+     "answer": 1,
+     "why": "Net income."
+    }
+   ]
+  },
+  {
+   "id": "fin-05",
+   "level": "Basics",
+   "title": "The balance sheet",
+   "summary": "What a company owns, owes and what belongs to shareholders.",
+   "term": {
+    "word": "Shareholders' equity",
+    "meaning": "Owners' claim on the business: Assets − Liabilities."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "The accounting equation: Assets = Liabilities + Equity. Assets: cash, receivables, inventory, machinery. Liabilities: loans, payables. Equity: share capital + retained earnings. It is a snapshot at a point in time."
+    },
+    {
+     "h": "Why it matters",
+     "b": "The balance sheet shows financial strength, leverage and liquidity, which is key for lenders and investors."
+    }
+   ],
+   "example": "You buy a ₹50 lakh flat with a ₹40 lakh loan. Asset ₹50L = Liability ₹40L + Your equity ₹10L.",
+   "calc": {
+    "problem": "A company has total assets of ₹500 crore and total liabilities of ₹320 crore. What is shareholders' equity?",
+    "steps": [
+     "Assets = Liabilities + Equity",
+     "Equity = Assets − Liabilities",
+     "Equity = 500 − 320"
+    ],
+    "answer": "₹180 crore"
+   },
+   "quiz": [
+    {
+     "q": "Which is a liability?",
+     "options": [
+      "Cash",
+      "Bank loan",
+      "Inventory",
+      "Machinery"
+     ],
+     "answer": 1,
+     "why": "A loan is an amount owed."
+    },
+    {
+     "q": "Assets = Liabilities + …",
+     "options": [
+      "Expenses",
+      "Cash",
+      "Revenue",
+      "Equity"
+     ],
+     "answer": 3,
+     "why": "The accounting equation."
+    },
+    {
+     "q": "The balance sheet shows a position…",
+     "options": [
+      "At a point in time",
+      "Over a year",
+      "For the future",
+      "Monthly only"
+     ],
+     "answer": 0,
+     "why": "A snapshot."
+    }
+   ]
+  },
+  {
+   "id": "fin-06",
+   "level": "Basics",
+   "title": "Cash flow vs profit",
+   "summary": "Profit is an opinion; cash is a fact.",
+   "term": {
+    "word": "Operating cash flow (OCF)",
+    "meaning": "Cash generated from core business operations in a period."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Accrual accounting records revenue when earned, not when cash arrives. The cash flow statement has three parts: operating, investing and financing. Indirect method: start with net income, add back non-cash expenses (depreciation), adjust for working capital changes."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Profitable companies can still go bankrupt if cash runs out. Lenders and investors watch operating cash flow closely."
+    }
+   ],
+   "example": "A company books a ₹10 lakh sale on 90-day credit: profit rises today, but cash comes only in 3 months.",
+   "calc": {
+    "problem": "Net income ₹100; Depreciation ₹30; Receivables increased by ₹40; Payables increased by ₹10. Calculate operating cash flow (₹ lakh).",
+    "steps": [
+     "Start with net income: 100",
+     "Add depreciation (non-cash): +30",
+     "Increase in receivables uses cash: −40",
+     "Increase in payables saves cash: +10",
+     "OCF = 100 + 30 − 40 + 10"
+    ],
+    "answer": "₹100 lakh"
+   },
+   "quiz": [
+    {
+     "q": "An increase in accounts receivable…",
+     "options": [
+      "Increases profit only",
+      "Increases operating cash flow",
+      "Has no effect",
+      "Reduces operating cash flow"
+     ],
+     "answer": 3,
+     "why": "Sales not yet collected tie up cash."
+    },
+    {
+     "q": "Which section shows buying machinery?",
+     "options": [
+      "Operating",
+      "None",
+      "Financing",
+      "Investing"
+     ],
+     "answer": 3,
+     "why": "Capex is investing."
+    },
+    {
+     "q": "Raising a bank loan appears in…",
+     "options": [
+      "Investing",
+      "Operating",
+      "Financing activities",
+      "Revenue"
+     ],
+     "answer": 2,
+     "why": "Financing."
+    }
+   ]
+  },
+  {
+   "id": "fin-07",
+   "level": "Basics",
+   "title": "Working capital",
+   "summary": "The cash needed to run day-to-day operations.",
+   "term": {
+    "word": "Net working capital",
+    "meaning": "Current assets − Current liabilities."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Current assets (cash, receivables, inventory) convert to cash within a year; current liabilities (payables, short-term debt) are due within a year. Positive working capital means short-term obligations are covered."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Too little working capital risks a liquidity crunch; too much ties up cash that could be invested."
+    }
+   ],
+   "example": "A retailer stocks up before Diwali: inventory rises, so working capital needs rise, often financed by a short-term loan.",
+   "calc": {
+    "problem": "Current assets ₹800 lakh; Current liabilities ₹500 lakh. Find net working capital and the current ratio.",
+    "steps": [
+     "NWC = 800 − 500 = ₹300 lakh",
+     "Current ratio = Current assets / Current liabilities",
+     "= 800 / 500"
+    ],
+    "answer": "NWC ₹300 lakh; current ratio 1.6x"
+   },
+   "quiz": [
+    {
+     "q": "Net working capital equals…",
+     "options": [
+      "Total assets − Total liabilities",
+      "Current assets − Current liabilities",
+      "Cash − Debt",
+      "Revenue − COGS"
+     ],
+     "answer": 1,
+     "why": "It focuses on short-term items."
+    },
+    {
+     "q": "A current ratio below 1 suggests…",
+     "options": [
+      "Strong liquidity",
+      "High profits",
+      "No debt",
+      "Possible short-term liquidity stress"
+     ],
+     "answer": 3,
+     "why": "CL exceed CA."
+    },
+    {
+     "q": "Too much working capital can…",
+     "options": [
+      "Raise prices",
+      "Reduce risk to zero",
+      "Improve returns",
+      "Tie up cash that could be invested"
+     ],
+     "answer": 3,
+     "why": "Idle resources."
+    }
+   ],
+   "calculator": "ratios"
+  },
+  {
+   "id": "fin-08",
+   "level": "Basics",
+   "title": "Depreciation",
+   "summary": "Spreading the cost of an asset over its useful life.",
+   "term": {
+    "word": "Salvage value",
+    "meaning": "Estimated value of an asset at the end of its useful life."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Straight-line depreciation = (Cost − Salvage value) / Useful life. Depreciation is a non-cash expense: it reduces profit (and tax) but not cash directly."
+    },
+    {
+     "h": "Why it matters",
+     "b": "It matches costs with the revenue an asset helps generate and creates a tax shield."
+    }
+   ],
+   "example": "A delivery van costing ₹10 lakh used for 5 years with no salvage value is depreciated at ₹2 lakh per year.",
+   "calc": {
+    "problem": "A machine costs ₹5,00,000, has a salvage value of ₹50,000 and a life of 5 years. Find annual straight-line depreciation.",
+    "steps": [
+     "Depreciable amount = 5,00,000 − 50,000 = ₹4,50,000",
+     "Annual depreciation = 4,50,000 / 5"
+    ],
+    "answer": "₹90,000 per year"
+   },
+   "quiz": [
+    {
+     "q": "Depreciation is…",
+     "options": [
+      "A non-cash expense",
+      "A liability",
+      "A type of revenue",
+      "A cash outflow each year"
+     ],
+     "answer": 0,
+     "why": "Cash was spent when the asset was bought."
+    },
+    {
+     "q": "Depreciation creates a tax shield because it…",
+     "options": [
+      "Reduces taxable profit",
+      "Increases revenue",
+      "Is a cash inflow",
+      "Is refundable"
+     ],
+     "answer": 0,
+     "why": "Lower taxes, no cash out."
+    },
+    {
+     "q": "Straight-line depreciation charges…",
+     "options": [
+      "More in early years",
+      "Only at sale",
+      "Nothing",
+      "The same amount each year"
+     ],
+     "answer": 3,
+     "why": "Equal annual charge."
+    }
+   ]
+  },
+  {
+   "id": "fin-09",
+   "level": "Basics",
+   "title": "Break-even analysis",
+   "summary": "How many units must you sell to cover all costs?",
+   "term": {
+    "word": "Contribution margin",
+    "meaning": "Selling price − Variable cost per unit; what each unit contributes to fixed costs and profit."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Fixed costs (rent, salaries) don't change with volume; variable costs (materials) do. Break-even units = Fixed costs / Contribution margin per unit."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Used for pricing, launching products, and understanding business risk."
+    }
+   ],
+   "example": "A startup with ₹3 lakh monthly fixed costs selling a ₹1,000 product with ₹400 variable cost needs 500 sales a month to break even.",
+   "calc": {
+    "problem": "Fixed costs ₹2,00,000; Price ₹500; Variable cost ₹300 per unit. Find break-even units and revenue.",
+    "steps": [
+     "Contribution margin = 500 − 300 = ₹200",
+     "Break-even units = 2,00,000 / 200 = 1,000 units",
+     "Break-even revenue = 1,000 × 500"
+    ],
+    "answer": "1,000 units, ₹5,00,000 revenue"
+   },
+   "quiz": [
+    {
+     "q": "If variable cost per unit rises, the break-even point…",
+     "options": [
+      "Rises",
+      "Becomes zero",
+      "Stays the same",
+      "Falls"
+     ],
+     "answer": 0,
+     "why": "Lower contribution per unit means more units needed."
+    },
+    {
+     "q": "Break-even units = Fixed costs ÷ …",
+     "options": [
+      "Price",
+      "Profit",
+      "Contribution margin per unit",
+      "Variable cost"
+     ],
+     "answer": 2,
+     "why": "Each unit covers CM."
+    },
+    {
+     "q": "At break-even, profit is…",
+     "options": [
+      "Maximum",
+      "Zero",
+      "Equal to revenue",
+      "Negative"
+     ],
+     "answer": 1,
+     "why": "No profit, no loss."
+    }
+   ],
+   "calculator": "breakeven"
+  },
+  {
+   "id": "fin-10",
+   "level": "Basics",
+   "title": "Profit margins",
+   "summary": "How much of each rupee of sales becomes profit.",
+   "term": {
+    "word": "Net profit margin",
+    "meaning": "Net income / Revenue: profit kept per rupee of sales."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Gross margin = Gross profit / Revenue (pricing & production efficiency). Operating margin = EBIT / Revenue. Net margin = Net income / Revenue (after everything)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Margins allow comparison across companies of different sizes and track efficiency over time."
+    }
+   ],
+   "example": "Software firms often have 70%+ gross margins; supermarkets often under 25%. Different business models, different margins.",
+   "calc": {
+    "problem": "Revenue ₹2,000 crore; Gross profit ₹800 crore; Net income ₹150 crore. Find gross and net margins.",
+    "steps": [
+     "Gross margin = 800 / 2,000 = 40%",
+     "Net margin = 150 / 2,000 = 7.5%"
+    ],
+    "answer": "Gross 40%, Net 7.5%"
+   },
+   "quiz": [
+    {
+     "q": "Gross margin mainly reflects…",
+     "options": [
+      "Interest costs",
+      "Dividend policy",
+      "Pricing and production costs",
+      "Tax rates"
+     ],
+     "answer": 2,
+     "why": "Revenue minus COGS, relative to revenue."
+    },
+    {
+     "q": "Operating margin =",
+     "options": [
+      "EBIT ÷ Revenue",
+      "Net income ÷ Assets",
+      "Tax ÷ Profit",
+      "COGS ÷ Revenue"
+     ],
+     "answer": 0,
+     "why": "Operating efficiency."
+    },
+    {
+     "q": "Margins help compare companies of…",
+     "options": [
+      "Different sizes",
+      "No companies",
+      "Only the same size",
+      "Only same sector names"
+     ],
+     "answer": 0,
+     "why": "Ratios normalise size."
+    }
+   ],
+   "calculator": "ratios"
+  },
+  {
+   "id": "fin-11",
+   "level": "Basics",
+   "title": "EBITDA",
+   "summary": "A popular measure of operating cash earnings.",
+   "term": {
+    "word": "EBITDA",
+    "meaning": "Earnings Before Interest, Taxes, Depreciation and Amortisation."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "EBITDA = Net income + Taxes + Interest + Depreciation & Amortisation (or EBIT + D&A). It removes financing, tax and accounting choices to compare operating performance."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Used in valuation multiples (EV/EBITDA) and loan covenants. But it ignores capex and working capital, so it is not the same as cash."
+    }
+   ],
+   "example": "Telecom companies have huge depreciation; EBITDA helps compare their operating performance before those charges.",
+   "calc": {
+    "problem": "Net income ₹120 cr; Tax ₹40 cr; Interest ₹30 cr; D&A ₹50 cr. Find EBIT and EBITDA.",
+    "steps": [
+     "EBIT = 120 + 40 + 30 = ₹190 cr",
+     "EBITDA = EBIT + D&A = 190 + 50"
+    ],
+    "answer": "EBITDA ₹240 crore"
+   },
+   "quiz": [
+    {
+     "q": "A key limitation of EBITDA is that it ignores…",
+     "options": [
+      "COGS",
+      "Capital expenditure",
+      "Operating costs",
+      "Revenue"
+     ],
+     "answer": 1,
+     "why": "Capex is a real cash need that EBITDA leaves out."
+    },
+    {
+     "q": "EBITDA = EBIT + …",
+     "options": [
+      "Tax",
+      "Depreciation & amortisation",
+      "Dividends",
+      "Interest"
+     ],
+     "answer": 1,
+     "why": "Add back D&A."
+    },
+    {
+     "q": "EBITDA is often used in…",
+     "options": [
+      "Inventory counts",
+      "Payroll",
+      "EV/EBITDA valuation multiples",
+      "GST returns"
+     ],
+     "answer": 2,
+     "why": "Common multiple."
+    }
+   ]
+  },
+  {
+   "id": "fin-12",
+   "level": "Basics",
+   "title": "CAGR: compound growth rate",
+   "summary": "Smooth, annualised growth between two points.",
+   "term": {
+    "word": "CAGR",
+    "meaning": "Compound Annual Growth Rate = (End / Start)^(1/n) − 1."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "CAGR gives the constant yearly rate that would take a value from start to end. It hides volatility but makes comparisons easy."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Used to describe revenue growth, investment returns and market size."
+    }
+   ],
+   "example": "A mutual fund going from ₹1 lakh to ₹2 lakh in 6 years has a CAGR of about 12.2%.",
+   "calc": {
+    "problem": "Revenue grew from ₹50 crore to ₹80 crore in 4 years. What is the CAGR?",
+    "steps": [
+     "CAGR = (80 / 50)^(1/4) − 1",
+     "80 / 50 = 1.6",
+     "1.6^0.25 = 1.1247",
+     "CAGR = 1.1247 − 1"
+    ],
+    "answer": "≈ 12.47% per year"
+   },
+   "quiz": [
+    {
+     "q": "CAGR assumes…",
+     "options": [
+      "Growth varies each year",
+      "A constant annual growth rate",
+      "Simple interest",
+      "No compounding"
+     ],
+     "answer": 1,
+     "why": "It's a smoothed annual rate."
+    },
+    {
+     "q": "A value tripling in 10 years has a CAGR of about…",
+     "options": [
+      "20%",
+      "11.6%",
+      "30%",
+      "3%"
+     ],
+     "answer": 1,
+     "why": "3^(1/10) − 1 ≈ 11.6%."
+    },
+    {
+     "q": "CAGR hides…",
+     "options": [
+      "Year-to-year volatility",
+      "The start value",
+      "Time",
+      "Growth"
+     ],
+     "answer": 0,
+     "why": "It smooths the path."
+    }
+   ],
+   "calculator": "cagr"
+  },
+  {
+   "id": "fin-37",
+   "level": "Basics",
+   "title": "Current vs non-current assets",
+   "summary": "Sort what a company owns by how quickly it turns into cash.",
+   "term": {
+    "word": "Current asset",
+    "meaning": "An asset expected to be converted to cash or used up within 12 months."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Current assets: cash, receivables, inventory, short-term investments. Non-current (fixed) assets: land, buildings, machinery, long-term investments, intangibles like software and brands. The split shows liquidity and capital intensity."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Lenders look at current assets to judge short-term safety; investors look at non-current assets to understand how capital-heavy the business is."
+    }
+   ],
+   "example": "A steel plant is dominated by non-current assets (furnaces, land), while a software company's assets are mostly cash and receivables.",
+   "calc": {
+    "problem": "Cash ₹50 lakh, receivables ₹80 lakh, inventory ₹70 lakh, machinery ₹300 lakh, land ₹200 lakh. Find current, non-current and total assets.",
+    "steps": [
+     "Current = 50 + 80 + 70 = ₹200 lakh",
+     "Non-current = 300 + 200 = ₹500 lakh",
+     "Total = 200 + 500"
+    ],
+    "answer": "Current ₹200 L; non-current ₹500 L; total ₹700 L"
+   },
+   "quiz": [
+    {
+     "q": "Which is a current asset?",
+     "options": [
+      "Factory building",
+      "Inventory",
+      "Brand value",
+      "Land"
+     ],
+     "answer": 1,
+     "why": "Inventory is sold within a year."
+    },
+    {
+     "q": "A capital-intensive business has a high share of…",
+     "options": [
+      "Cash",
+      "Receivables",
+      "Payables",
+      "Non-current assets"
+     ],
+     "answer": 3,
+     "why": "Heavy fixed assets."
+    },
+    {
+     "q": "Software is usually classified as…",
+     "options": [
+      "A liability",
+      "A current asset",
+      "Revenue",
+      "An intangible non-current asset"
+     ],
+     "answer": 3,
+     "why": "Intangibles are long-term."
+    }
+   ]
+  },
+  {
+   "id": "fin-38",
+   "level": "Basics",
+   "title": "Debt vs equity financing",
+   "summary": "Two ways to fund a business, each with different costs and risks.",
+   "term": {
+    "word": "Debt-to-equity ratio",
+    "meaning": "Total debt ÷ shareholders' equity; shows how much borrowing is used relative to owners' money."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Debt: borrowed money with fixed interest and repayment; lenders don't own the company. Equity: owners' money; no fixed payment, but shareholders share profits and control. Debt is cheaper (tax-deductible interest) but riskier if cash flows fall."
+    },
+    {
+     "h": "Why it matters",
+     "b": "The financing mix affects risk, control, cost of capital and how much growth the company can fund."
+    }
+   ],
+   "example": "A family business may prefer a bank loan to keep control; a startup raises equity because it lacks steady cash flow to service debt.",
+   "calc": {
+    "problem": "A company raises ₹100 crore: ₹60 crore through a loan and ₹40 crore from shareholders. What is its debt-to-equity ratio?",
+    "steps": [
+     "D/E = Debt / Equity",
+     "= 60 / 40"
+    ],
+    "answer": "1.5x"
+   },
+   "quiz": [
+    {
+     "q": "Which is true about debt?",
+     "options": [
+      "No repayment needed",
+      "Interest is usually tax-deductible",
+      "Lenders own the company",
+      "It always dilutes ownership"
+     ],
+     "answer": 1,
+     "why": "The tax shield makes debt cheaper."
+    },
+    {
+     "q": "Why might a founder prefer debt?",
+     "options": [
+      "It's free",
+      "To keep ownership and control",
+      "It has no risk",
+      "To give away control"
+     ],
+     "answer": 1,
+     "why": "Debt doesn't dilute ownership."
+    },
+    {
+     "q": "Equity investors are paid…",
+     "options": [
+      "Nothing ever",
+      "Before lenders",
+      "Fixed interest",
+      "From profits/dividends and share value growth"
+     ],
+     "answer": 3,
+     "why": "Residual claim on profits."
+    }
+   ]
+  },
+  {
+   "id": "fin-39",
+   "level": "Basics",
+   "title": "Accrual vs cash accounting",
+   "summary": "When is revenue recorded: when earned, or when cash arrives?",
+   "term": {
+    "word": "Accrual accounting",
+    "meaning": "Recording revenue when earned and expenses when incurred, regardless of cash timing."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Cash accounting records transactions only when cash moves. Accrual accounting matches revenue and expenses to the period they relate to. Companies in India report under accrual-based Ind AS or Indian GAAP."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Accrual accounts show true performance; cash accounts show liquidity. You need both views to manage a business."
+    }
+   ],
+   "example": "A consultant finishes a ₹5 lakh project in March but gets paid in May. Accrual: March revenue. Cash: May inflow.",
+   "calc": {
+    "problem": "In March a firm sells goods worth ₹10 lakh. It collects ₹6 lakh in March and ₹4 lakh in April. What is March revenue under accrual vs cash accounting?",
+    "steps": [
+     "Accrual: revenue earned in March = ₹10 lakh",
+     "Cash: cash received in March = ₹6 lakh",
+     "The ₹4 lakh is a receivable at month-end"
+    ],
+    "answer": "Accrual ₹10 L; cash ₹6 L (₹4 L receivable)"
+   },
+   "quiz": [
+    {
+     "q": "Under accrual accounting, revenue is recorded when…",
+     "options": [
+      "Tax is paid",
+      "Cash is received",
+      "It is earned",
+      "The year ends"
+     ],
+     "answer": 2,
+     "why": "Earned, not collected."
+    },
+    {
+     "q": "Unpaid sales at month-end become…",
+     "options": [
+      "Depreciation",
+      "Equity",
+      "Payables",
+      "Receivables"
+     ],
+     "answer": 3,
+     "why": "Money owed to the company."
+    },
+    {
+     "q": "Which basis do listed Indian companies use?",
+     "options": [
+      "Cash basis",
+      "Barter",
+      "Accrual-based Ind AS",
+      "No standard"
+     ],
+     "answer": 2,
+     "why": "Ind AS is accrual-based."
+    }
+   ]
+  },
+  {
+   "id": "fin-40",
+   "level": "Basics",
+   "title": "Revenue recognition and deferred revenue",
+   "summary": "Cash received in advance isn't revenue until you deliver.",
+   "term": {
+    "word": "Deferred revenue",
+    "meaning": "Cash received for goods or services not yet delivered; a liability until earned."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Under Ind AS 115 / IFRS 15, revenue is recognised when control of goods or services passes to the customer. Subscription businesses recognise revenue over the service period."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Correct recognition prevents overstated profits. Deferred revenue also signals future revenue visibility, which investors like."
+    }
+   ],
+   "example": "Netflix-style annual subscriptions: you pay upfront, but the company recognises one-twelfth each month.",
+   "calc": {
+    "problem": "A SaaS company receives ₹12 lakh upfront on 1 January for a 12-month subscription. How much revenue is recognised by 31 March, and what deferred revenue remains?",
+    "steps": [
+     "Monthly revenue = 12 / 12 = ₹1 lakh",
+     "Revenue Jan-Mar = 3 × 1 = ₹3 lakh",
+     "Deferred revenue = 12 − 3"
+    ],
+    "answer": "Revenue ₹3 L; deferred revenue ₹9 L"
+   },
+   "quiz": [
+    {
+     "q": "Deferred revenue is a…",
+     "options": [
+      "Liability",
+      "Asset",
+      "Expense",
+      "Equity"
+     ],
+     "answer": 0,
+     "why": "The company owes the service."
+    },
+    {
+     "q": "When is subscription revenue recognised?",
+     "options": [
+      "At year-end",
+      "Over the service period",
+      "Never",
+      "All upfront"
+     ],
+     "answer": 1,
+     "why": "As the service is delivered."
+    },
+    {
+     "q": "The standard for revenue recognition in India is…",
+     "options": [
+      "SEBI LODR",
+      "Ind AS 1",
+      "GST Act",
+      "Ind AS 115"
+     ],
+     "answer": 3,
+     "why": "Revenue from contracts with customers."
+    }
+   ]
+  },
+  {
+   "id": "fin-41",
+   "level": "Basics",
+   "title": "Fixed and variable costs",
+   "summary": "Which costs move with volume, and which don't?",
+   "term": {
+    "word": "Variable cost",
+    "meaning": "A cost that changes in proportion to output, like raw materials or delivery charges."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Fixed costs (rent, salaries, insurance) stay the same within a range of output. Variable costs rise with each unit. Total cost = Fixed + Variable per unit × Units. Average cost falls as volume rises because fixed costs are spread."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Pricing, scaling decisions and break-even analysis all depend on understanding cost behaviour."
+    }
+   ],
+   "example": "A cloud kitchen pays fixed rent of ₹1 lakh a month; each meal costs ₹50 in ingredients and packaging.",
+   "calc": {
+    "problem": "Fixed costs ₹1,00,000 per month; variable cost ₹50 per unit; 3,000 units produced. Find total cost and average cost per unit.",
+    "steps": [
+     "Variable total = 50 × 3,000 = ₹1,50,000",
+     "Total cost = 1,00,000 + 1,50,000 = ₹2,50,000",
+     "Average cost = 2,50,000 / 3,000"
+    ],
+    "answer": "Total ₹2,50,000; ≈ ₹83.33 per unit"
+   },
+   "quiz": [
+    {
+     "q": "Which is usually a fixed cost?",
+     "options": [
+      "Sales commission",
+      "Raw materials",
+      "Packaging per unit",
+      "Office rent"
+     ],
+     "answer": 3,
+     "why": "Rent doesn't change with output."
+    },
+    {
+     "q": "As output rises, average cost per unit usually…",
+     "options": [
+      "Rises",
+      "Falls (fixed costs are spread)",
+      "Stays the same",
+      "Becomes zero"
+     ],
+     "answer": 1,
+     "why": "Economies of scale."
+    },
+    {
+     "q": "Total cost =",
+     "options": [
+      "Fixed + Variable per unit × Units",
+      "Fixed × Variable",
+      "Revenue − Profit only",
+      "Variable only"
+     ],
+     "answer": 0,
+     "why": "Standard cost equation."
+    }
+   ],
+   "calculator": "breakeven"
+  },
+  {
+   "id": "fin-42",
+   "level": "Basics",
+   "title": "Contribution margin ratio",
+   "summary": "What share of each sale is left to cover fixed costs and profit?",
+   "term": {
+    "word": "Contribution margin ratio",
+    "meaning": "(Price − Variable cost) ÷ Price; contribution per rupee of sales."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Contribution margin per unit = Price − Variable cost. CM ratio = CM ÷ Price. Total contribution = Sales × CM ratio. Profit = Contribution − Fixed costs."
+    },
+    {
+     "h": "Why it matters",
+     "b": "CM ratio tells you how profitable extra sales are, which helps with pricing, discounts and product-mix decisions."
+    }
+   ],
+   "example": "If a discount cuts the CM ratio from 40% to 30%, you need a third more sales just to earn the same contribution.",
+   "calc": {
+    "problem": "Price ₹200 per unit; variable cost ₹120. Sales are ₹10 lakh. Find the CM ratio and total contribution.",
+    "steps": [
+     "CM per unit = 200 − 120 = ₹80",
+     "CM ratio = 80 / 200 = 40%",
+     "Contribution = 10,00,000 × 40%"
+    ],
+    "answer": "40%; ₹4,00,000 contribution"
+   },
+   "quiz": [
+    {
+     "q": "CM ratio of 40% means…",
+     "options": [
+      "Costs are 40%",
+      "40 paise per rupee of sales covers fixed costs and profit",
+      "40% of sales is profit",
+      "Tax is 40%"
+     ],
+     "answer": 1,
+     "why": "Contribution per rupee."
+    },
+    {
+     "q": "Profit equals…",
+     "options": [
+      "Contribution − Fixed costs",
+      "Contribution + Fixed costs",
+      "Variable costs − Sales",
+      "Sales − Fixed costs"
+     ],
+     "answer": 0,
+     "why": "After covering fixed costs."
+    },
+    {
+     "q": "A discount that lowers the CM ratio means you need…",
+     "options": [
+      "Higher rent",
+      "Fewer sales",
+      "No change",
+      "More sales to earn the same contribution"
+     ],
+     "answer": 3,
+     "why": "Lower margin per sale."
+    }
+   ],
+   "calculator": "breakeven"
+  },
+  {
+   "id": "fin-43",
+   "level": "Basics",
+   "title": "Budgets and variance",
+   "summary": "Plan the numbers, then explain the gaps.",
+   "term": {
+    "word": "Variance",
+    "meaning": "Difference between actual and budgeted figures; favourable or unfavourable."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A budget is a financial plan for a period. Variance = Actual − Budget. For costs, spending more than budget is unfavourable; for revenue, earning more is favourable. Analysts explain material variances (e.g. >5-10%)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Variance analysis turns numbers into management action: why did costs rise, and what will we do?"
+    }
+   ],
+   "example": "Marketing spent ₹12 lakh against a ₹10 lakh budget because of an extra festive campaign: an unfavourable ₹2 lakh variance with a clear reason.",
+   "calc": {
+    "problem": "Travel budget ₹5,00,000; actual spend ₹5,60,000. Find the variance in ₹ and %.",
+    "steps": [
+     "Variance = 5,60,000 − 5,00,000 = ₹60,000",
+     "% = 60,000 / 5,00,000 = 12%",
+     "Higher cost than budget → unfavourable"
+    ],
+    "answer": "₹60,000 (12%) unfavourable"
+   },
+   "quiz": [
+    {
+     "q": "Spending more than the cost budget is…",
+     "options": [
+      "Unfavourable",
+      "Favourable",
+      "Profit",
+      "Neutral"
+     ],
+     "answer": 0,
+     "why": "Higher costs hurt profit."
+    },
+    {
+     "q": "Revenue above budget is…",
+     "options": [
+      "A liability",
+      "Unfavourable",
+      "Favourable",
+      "Irrelevant"
+     ],
+     "answer": 2,
+     "why": "More revenue helps."
+    },
+    {
+     "q": "Good variance analysis includes…",
+     "options": [
+      "Only the number",
+      "Nothing",
+      "The reason and the action",
+      "Blame"
+     ],
+     "answer": 2,
+     "why": "Explain and act."
+    }
+   ]
+  },
+  {
+   "id": "fin-44",
+   "level": "Basics",
+   "title": "Inflation and real returns",
+   "summary": "Your true gain is what's left after inflation.",
+   "term": {
+    "word": "Real return",
+    "meaning": "Return adjusted for inflation: (1 + nominal) ÷ (1 + inflation) − 1."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Nominal return is the stated rate. Inflation reduces purchasing power. Real return ≈ nominal − inflation (approximation); exact formula uses division. Negative real returns mean you lose purchasing power."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies set prices, wages and investment hurdles with inflation in mind; investors judge returns in real terms."
+    }
+   ],
+   "example": "An FD paying 6% when inflation is 6% gives roughly zero real return. Your money keeps pace, but doesn't grow.",
+   "calc": {
+    "problem": "Nominal return 8%; inflation 6%. Find the exact real return.",
+    "steps": [
+     "Real = (1 + 0.08) / (1 + 0.06) − 1",
+     "= 1.08 / 1.06 − 1",
+     "= 1.01887 − 1"
+    ],
+    "answer": "≈ 1.89% (approx. rule gives 2%)"
+   },
+   "quiz": [
+    {
+     "q": "If inflation exceeds your return, your real return is…",
+     "options": [
+      "Zero always",
+      "Negative",
+      "Positive",
+      "Doubled"
+     ],
+     "answer": 1,
+     "why": "Purchasing power falls."
+    },
+    {
+     "q": "The quick approximation for real return is…",
+     "options": [
+      "Nominal − inflation",
+      "Nominal + inflation",
+      "Nominal × inflation",
+      "Inflation ÷ nominal"
+     ],
+     "answer": 0,
+     "why": "Good for small rates."
+    },
+    {
+     "q": "Which body targets inflation in India?",
+     "options": [
+      "GST Council",
+      "RBI's Monetary Policy Committee",
+      "SEBI",
+      "NSE"
+     ],
+     "answer": 1,
+     "why": "RBI MPC targets CPI inflation."
+    }
+   ]
+  },
+  {
+   "id": "fin-45",
+   "level": "Basics",
+   "title": "Effective annual rate",
+   "summary": "Compounding frequency changes the true cost of a loan.",
+   "term": {
+    "word": "Effective annual rate (EAR)",
+    "meaning": "The actual yearly rate after compounding: (1 + r/m)^m − 1."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A loan quoted at 12% per year compounded monthly charges 1% a month, but compounding makes the true annual rate higher than 12%. More frequent compounding → higher EAR."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Comparing loans, credit cards and deposits fairly requires converting all rates to EAR."
+    }
+   ],
+   "example": "Credit cards charging about 3.5% a month have an EAR above 50%, far higher than they look.",
+   "calc": {
+    "problem": "A loan charges 12% per year compounded monthly. What is the effective annual rate?",
+    "steps": [
+     "Monthly rate = 12% / 12 = 1%",
+     "EAR = (1.01)^12 − 1",
+     "(1.01)^12 = 1.126825"
+    ],
+    "answer": "≈ 12.68%"
+   },
+   "quiz": [
+    {
+     "q": "More frequent compounding makes EAR…",
+     "options": [
+      "Higher",
+      "Lower",
+      "Zero",
+      "Unchanged"
+     ],
+     "answer": 0,
+     "why": "Interest on interest more often."
+    },
+    {
+     "q": "To compare loans fairly, use…",
+     "options": [
+      "The quoted nominal rate",
+      "EAR",
+      "The bank's logo",
+      "The EMI only"
+     ],
+     "answer": 1,
+     "why": "Common basis."
+    },
+    {
+     "q": "3% per month compounded is roughly…",
+     "options": [
+      "Above 42% EAR",
+      "36% EAR",
+      "3% EAR",
+      "12% EAR"
+     ],
+     "answer": 0,
+     "why": "1.03^12 − 1 ≈ 42.6%."
+    }
+   ]
+  },
+  {
+   "id": "fin-46",
+   "level": "Basics",
+   "title": "Annuities",
+   "summary": "Value a stream of equal payments.",
+   "term": {
+    "word": "Annuity",
+    "meaning": "A series of equal payments at regular intervals for a fixed period."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "PV of an ordinary annuity = PMT × [1 − (1 + r)^−n] ÷ r. Examples: EMIs, lease payments, pension payouts, coupon payments."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Annuities are everywhere in finance: loan pricing, lease valuation and retirement planning."
+    }
+   ],
+   "example": "A company comparing a ₹10,000 yearly lease for 5 years against buying the asset uses the annuity formula.",
+   "calc": {
+    "problem": "What is the present value of ₹10,000 received at the end of each year for 5 years at 8%?",
+    "steps": [
+     "Annuity factor = (1 − 1.08^−5) / 0.08",
+     "1.08^−5 = 0.680583",
+     "Factor = 0.319417 / 0.08 = 3.99271",
+     "PV = 10,000 × 3.99271"
+    ],
+    "answer": "≈ ₹39,927.10"
+   },
+   "quiz": [
+    {
+     "q": "Which is an annuity?",
+     "options": [
+      "A share price",
+      "Equal monthly EMIs",
+      "A lottery win paid once",
+      "A one-time bonus"
+     ],
+     "answer": 1,
+     "why": "Regular equal payments."
+    },
+    {
+     "q": "Ordinary annuity payments occur…",
+     "options": [
+      "At the end of each period",
+      "At the start of each period",
+      "Only once",
+      "Randomly"
+     ],
+     "answer": 0,
+     "why": "End of period (annuity due = start)."
+    },
+    {
+     "q": "A higher discount rate makes an annuity's PV…",
+     "options": [
+      "Unchanged",
+      "Higher",
+      "Infinite",
+      "Lower"
+     ],
+     "answer": 3,
+     "why": "Future payments are discounted more."
+    }
+   ]
+  },
+  {
+   "id": "fin-47",
+   "level": "Basics",
+   "title": "The power of SIPs (future value of an annuity)",
+   "summary": "Small regular investments grow into large sums.",
+   "term": {
+    "word": "Systematic Investment Plan (SIP)",
+    "meaning": "Investing a fixed amount at regular intervals, usually monthly, in a mutual fund."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "FV of an annuity = PMT × [(1 + r)^n − 1] ÷ r. Regular investing benefits from compounding and rupee-cost averaging (buying more units when prices are low)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies use the same maths for sinking funds (saving to repay debt). Individuals use it for long-term goals."
+    }
+   ],
+   "example": "₹5,000 a month invested from age 25 to 55 at 12% a year can grow to about ₹1.7 crore.",
+   "calc": {
+    "problem": "₹5,000 invested at the end of every month for 10 years at 12% per year (1% per month). Find the future value.",
+    "steps": [
+     "r = 1% per month, n = 120",
+     "(1.01)^120 = 3.300387",
+     "FV = 5,000 × (3.300387 − 1) / 0.01",
+     "= 5,000 × 230.0387"
+    ],
+    "answer": "≈ ₹11,50,193 (invested ₹6,00,000)"
+   },
+   "quiz": [
+    {
+     "q": "Rupee-cost averaging means…",
+     "options": [
+      "Buying fewer units when prices fall",
+      "Buying more units when prices are low",
+      "Selling every month",
+      "Fixed prices"
+     ],
+     "answer": 1,
+     "why": "Fixed amount buys more at lower prices."
+    },
+    {
+     "q": "The biggest driver of SIP growth over decades is…",
+     "options": [
+      "Monthly date chosen",
+      "Fund name",
+      "Fees",
+      "Compounding over time"
+     ],
+     "answer": 3,
+     "why": "Time plus returns."
+    },
+    {
+     "q": "A sinking fund is used by companies to…",
+     "options": [
+      "Pay salaries",
+      "Save regularly to repay debt",
+      "Sink ships",
+      "Buy shares"
+     ],
+     "answer": 1,
+     "why": "Planned saving."
+    }
+   ],
+   "calculator": "cagr"
+  },
+  {
+   "id": "fin-48",
+   "level": "Basics",
+   "title": "Perpetuities",
+   "summary": "Valuing cash flows that last forever.",
+   "term": {
+    "word": "Perpetuity",
+    "meaning": "A constant cash flow that continues indefinitely; PV = Cash flow ÷ r."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A perpetuity's value is simply CF ÷ r. A growing perpetuity is CF₁ ÷ (r − g). This is the maths behind terminal values and the dividend discount model."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Perpetuities help value stable businesses, preference shares and endowments."
+    }
+   ],
+   "example": "A preference share paying ₹9 a year forever, with a required return of 9%, is worth ₹100.",
+   "calc": {
+    "problem": "An investment pays ₹5,000 every year forever. The required return is 10%. What is it worth today?",
+    "steps": [
+     "PV = CF / r",
+     "= 5,000 / 0.10"
+    ],
+    "answer": "₹50,000"
+   },
+   "quiz": [
+    {
+     "q": "PV of a perpetuity =",
+     "options": [
+      "CF − r",
+      "CF + r",
+      "CF ÷ r",
+      "CF × r"
+     ],
+     "answer": 2,
+     "why": "Simple division."
+    },
+    {
+     "q": "A growing perpetuity uses…",
+     "options": [
+      "CF₁ ÷ (r − g)",
+      "CF ÷ (r + g)",
+      "CF ÷ g",
+      "CF × g"
+     ],
+     "answer": 0,
+     "why": "Gordon growth form."
+    },
+    {
+     "q": "If required return rises, perpetuity value…",
+     "options": [
+      "Rises",
+      "Falls",
+      "Doubles",
+      "Unchanged"
+     ],
+     "answer": 1,
+     "why": "Bigger denominator."
+    }
+   ]
+  },
+  {
+   "id": "fin-49",
+   "level": "Basics",
+   "title": "Shares and market capitalisation",
+   "summary": "What a company is worth on the stock market.",
+   "term": {
+    "word": "Market capitalisation",
+    "meaning": "Share price × number of shares outstanding."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Face value is the nominal value printed on a share (e.g. ₹10). Market price is what investors pay. Market cap = price × shares. SEBI classifies large caps as the top 100 companies by market cap, mid caps as 101-250 and small caps as 251 onwards."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Market cap shows investor expectations of future earnings, not just current profits."
+    }
+   ],
+   "example": "Two companies with the same profit can have very different market caps if investors expect one to grow faster.",
+   "calc": {
+    "problem": "A company has 10 crore shares trading at ₹250 each. What is its market capitalisation?",
+    "steps": [
+     "Market cap = Price × Shares",
+     "= 250 × 10 crore"
+    ],
+    "answer": "₹2,500 crore"
+   },
+   "quiz": [
+    {
+     "q": "Market cap =",
+     "options": [
+      "Profit × 10",
+      "Face value × shares",
+      "Share price × shares outstanding",
+      "Assets − liabilities"
+     ],
+     "answer": 2,
+     "why": "Market value of equity."
+    },
+    {
+     "q": "In SEBI's classification, large caps are…",
+     "options": [
+      "Only PSUs",
+      "Top 100 by market cap",
+      "Top 500",
+      "Any company above ₹100 crore"
+     ],
+     "answer": 1,
+     "why": "Ranks 1-100."
+    },
+    {
+     "q": "Face value of a share is…",
+     "options": [
+      "The nominal value printed on it",
+      "Its dividend",
+      "Its book value",
+      "Its market price"
+     ],
+     "answer": 0,
+     "why": "Often ₹1, ₹2 or ₹10."
+    }
+   ]
+  },
+  {
+   "id": "fin-50",
+   "level": "Basics",
+   "title": "Dividends, yield and payout",
+   "summary": "How much profit is returned to shareholders?",
+   "term": {
+    "word": "Dividend yield",
+    "meaning": "Annual dividend per share ÷ share price."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Dividend per share (DPS) is the cash paid per share. Dividend yield = DPS ÷ price. Payout ratio = DPS ÷ EPS (or dividends ÷ net income). Mature firms pay more; growth firms reinvest."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Investors seeking income look at yield; payout ratio shows sustainability and reinvestment."
+    }
+   ],
+   "example": "Large Indian IT services companies have often paid out most of their profits through dividends and buybacks.",
+   "calc": {
+    "problem": "DPS ₹12; share price ₹300; EPS ₹30. Find dividend yield and payout ratio.",
+    "steps": [
+     "Yield = 12 / 300 = 4%",
+     "Payout = 12 / 30 = 40%"
+    ],
+    "answer": "Yield 4%; payout 40%"
+   },
+   "quiz": [
+    {
+     "q": "Dividend yield =",
+     "options": [
+      "DPS ÷ price",
+      "EPS ÷ price",
+      "DPS ÷ EPS",
+      "Price ÷ DPS"
+     ],
+     "answer": 0,
+     "why": "Income return on price."
+    },
+    {
+     "q": "A 100% payout ratio means…",
+     "options": [
+      "All profit is paid as dividends",
+      "Half paid",
+      "Debt repaid",
+      "No dividends"
+     ],
+     "answer": 0,
+     "why": "Nothing retained."
+    },
+    {
+     "q": "Growth companies typically…",
+     "options": [
+      "Have no profits ever",
+      "Avoid investment",
+      "Pay high dividends",
+      "Reinvest profits"
+     ],
+     "answer": 3,
+     "why": "Funding growth."
+    }
+   ]
+  },
+  {
+   "id": "fin-51",
+   "level": "Basics",
+   "title": "Bonds: coupons and current yield",
+   "summary": "How fixed-income securities pay investors.",
+   "term": {
+    "word": "Coupon rate",
+    "meaning": "Annual interest paid by a bond as a percentage of its face value."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A bond has a face value (e.g. ₹1,000), a coupon rate and a maturity date. Current yield = annual coupon ÷ market price. If a bond trades below face value (discount), its yield is higher than the coupon."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies raise debt by issuing bonds/debentures; treasurers and investors must understand pricing and yields."
+    }
+   ],
+   "example": "Government securities (G-secs) are considered risk-free in rupee terms and serve as the benchmark for corporate bond yields.",
+   "calc": {
+    "problem": "A bond with face value ₹1,000 pays an 8% coupon and trades at ₹950. Find the current yield.",
+    "steps": [
+     "Annual coupon = 8% × 1,000 = ₹80",
+     "Current yield = 80 / 950"
+    ],
+    "answer": "≈ 8.42%"
+   },
+   "quiz": [
+    {
+     "q": "If a bond trades below face value, its yield is…",
+     "options": [
+      "Above the coupon",
+      "Zero",
+      "Equal to the coupon",
+      "Below the coupon"
+     ],
+     "answer": 0,
+     "why": "Same coupon, lower price."
+    },
+    {
+     "q": "The coupon is calculated on…",
+     "options": [
+      "Maturity",
+      "Market price",
+      "Yield",
+      "Face value"
+     ],
+     "answer": 3,
+     "why": "Coupon rate × face value."
+    },
+    {
+     "q": "In India, the benchmark risk-free bonds are…",
+     "options": [
+      "Equity shares",
+      "Government securities (G-secs)",
+      "Fixed deposits",
+      "Corporate debentures"
+     ],
+     "answer": 1,
+     "why": "Sovereign bonds."
+    }
+   ]
+  },
+  {
+   "id": "fin-52",
+   "level": "Basics",
+   "title": "Bond prices and interest rates",
+   "summary": "When rates rise, bond prices fall.",
+   "term": {
+    "word": "Yield to maturity (YTM)",
+    "meaning": "The total annual return if a bond is held to maturity; the discount rate that equates price with future cash flows."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Bond price = PV of coupons + PV of face value, discounted at the market yield. If market yields rise above the coupon, the bond's price falls below face value, and vice versa."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Banks and treasuries holding bonds face mark-to-market losses when RBI raises rates."
+    }
+   ],
+   "example": "When yields rose sharply in 2022, many banks globally reported losses on their bond portfolios.",
+   "calc": {
+    "problem": "A 3-year bond, face value ₹1,000, 8% annual coupon. The market yield is 10%. What is its price?",
+    "steps": [
+     "Year 1: 80 / 1.10 = 72.73",
+     "Year 2: 80 / 1.21 = 66.12",
+     "Year 3: 1,080 / 1.331 = 811.42",
+     "Price = 72.73 + 66.12 + 811.42"
+    ],
+    "answer": "≈ ₹950.26"
+   },
+   "quiz": [
+    {
+     "q": "When market interest rates rise, bond prices…",
+     "options": [
+      "Stay the same",
+      "Fall",
+      "Rise",
+      "Double"
+     ],
+     "answer": 1,
+     "why": "Inverse relationship."
+    },
+    {
+     "q": "If YTM equals the coupon rate, the bond trades at…",
+     "options": [
+      "Par (face value)",
+      "A discount",
+      "Zero",
+      "A premium"
+     ],
+     "answer": 0,
+     "why": "Price = face value."
+    },
+    {
+     "q": "A bond's price is the PV of…",
+     "options": [
+      "Coupons and face value",
+      "Dividends",
+      "Only the face value",
+      "Its rating"
+     ],
+     "answer": 0,
+     "why": "All promised cash flows."
+    }
+   ]
+  },
+  {
+   "id": "fin-53",
+   "level": "Basics",
+   "title": "GST basics for businesses",
+   "summary": "How input tax credit makes GST a tax on value added.",
+   "term": {
+    "word": "Input tax credit (ITC)",
+    "meaning": "GST paid on purchases that can be set off against GST collected on sales."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "GST is charged at each stage of supply. Businesses collect output GST on sales and claim credit for GST paid on inputs. Net GST payable = Output GST − ITC. Common rates: 5%, 12%, 18% and 28% (rates are revised periodically by the GST Council)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "GST affects pricing, cash flow and compliance. Missed ITC is a direct cost; delays in claiming tie up working capital."
+    }
+   ],
+   "example": "A consultancy billing ₹1 lakh + 18% GST collects ₹18,000 but can deduct GST it paid on software subscriptions.",
+   "calc": {
+    "problem": "A firm sells services worth ₹1,00,000 + 18% GST. It paid ₹9,000 GST on its inputs. Find invoice value and net GST payable.",
+    "steps": [
+     "Output GST = 18% × 1,00,000 = ₹18,000",
+     "Invoice value = 1,00,000 + 18,000 = ₹1,18,000",
+     "Net GST = 18,000 − 9,000"
+    ],
+    "answer": "Invoice ₹1,18,000; net GST payable ₹9,000"
+   },
+   "quiz": [
+    {
+     "q": "Input tax credit is…",
+     "options": [
+      "A bank loan",
+      "GST paid on purchases set off against output GST",
+      "Income tax",
+      "A discount"
+     ],
+     "answer": 1,
+     "why": "Avoids tax on tax."
+    },
+    {
+     "q": "Net GST payable =",
+     "options": [
+      "ITC only",
+      "Output GST − ITC",
+      "Output GST + ITC",
+      "Sales × 28%"
+     ],
+     "answer": 1,
+     "why": "Tax on value added."
+    },
+    {
+     "q": "Who decides GST rate changes in India?",
+     "options": [
+      "RBI",
+      "Each company",
+      "SEBI",
+      "The GST Council"
+     ],
+     "answer": 3,
+     "why": "Centre + states."
+    }
+   ]
+  },
+  {
+   "id": "fin-54",
+   "level": "Basics",
+   "title": "Inventory valuation: FIFO vs weighted average",
+   "summary": "The method you choose changes reported profit.",
+   "term": {
+    "word": "FIFO",
+    "meaning": "First In, First Out: oldest inventory costs are expensed first."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "FIFO assumes the earliest purchases are sold first. Weighted average uses the average cost of all units available. Ind AS 2 allows FIFO or weighted average (not LIFO). In rising prices, FIFO gives lower COGS and higher profit."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Inventory method affects margins, taxes and comparisons between companies."
+    }
+   ],
+   "example": "A retailer buying at rising prices reports higher gross profit under FIFO than under weighted average.",
+   "calc": {
+    "problem": "Bought 100 units at ₹10, then 100 units at ₹12. Sold 150 units. Find COGS under FIFO and weighted average.",
+    "steps": [
+     "FIFO: 100 × 10 + 50 × 12 = ₹1,600",
+     "Weighted average cost = (1,000 + 1,200) / 200 = ₹11",
+     "Weighted average COGS = 150 × 11 = ₹1,650"
+    ],
+    "answer": "FIFO ₹1,600; weighted average ₹1,650"
+   },
+   "quiz": [
+    {
+     "q": "Under FIFO, which costs are expensed first?",
+     "options": [
+      "Newest",
+      "Random",
+      "Oldest",
+      "Average"
+     ],
+     "answer": 2,
+     "why": "First in, first out."
+    },
+    {
+     "q": "When prices rise, FIFO profit is usually…",
+     "options": [
+      "Higher",
+      "Same",
+      "Lower",
+      "Negative"
+     ],
+     "answer": 0,
+     "why": "Older, cheaper costs in COGS."
+    },
+    {
+     "q": "Which method is NOT allowed under Ind AS 2?",
+     "options": [
+      "LIFO",
+      "Specific identification",
+      "FIFO",
+      "Weighted average"
+     ],
+     "answer": 0,
+     "why": "LIFO is prohibited."
+    }
+   ]
+  },
+  {
+   "id": "fin-55",
+   "level": "Basics",
+   "title": "Receivables and DSO",
+   "summary": "How long customers take to pay you.",
+   "term": {
+    "word": "Days Sales Outstanding (DSO)",
+    "meaning": "(Receivables ÷ Revenue) × 365; average days to collect cash from customers."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "High DSO means cash is stuck with customers. Businesses manage DSO through credit terms, reminders, early-payment discounts and credit checks."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Lower DSO improves cash flow and reduces bad-debt risk. MSMEs in India often struggle with delayed payments from large buyers."
+    }
+   ],
+   "example": "The MSME Samadhaan portal and TReDS platforms help small businesses address delayed payments and finance receivables.",
+   "calc": {
+    "problem": "Receivables ₹15 lakh; annual revenue ₹1.2 crore. Find DSO.",
+    "steps": [
+     "DSO = Receivables / Revenue × 365",
+     "= 15 / 120 × 365"
+    ],
+    "answer": "≈ 45.6 days"
+   },
+   "quiz": [
+    {
+     "q": "Higher DSO means…",
+     "options": [
+      "Slower collection",
+      "Lower sales",
+      "Faster collection",
+      "More inventory"
+     ],
+     "answer": 0,
+     "why": "Cash stuck longer."
+    },
+    {
+     "q": "A way to reduce DSO is…",
+     "options": [
+      "Early-payment discounts and follow-ups",
+      "Longer credit terms",
+      "Higher prices",
+      "Ignoring overdue accounts"
+     ],
+     "answer": 0,
+     "why": "Encourage faster payment."
+    },
+    {
+     "q": "TReDS helps MSMEs to…",
+     "options": [
+      "Hire staff",
+      "List shares",
+      "Finance their receivables",
+      "File GST"
+     ],
+     "answer": 2,
+     "why": "Invoice discounting platform."
+    }
+   ]
+  },
+  {
+   "id": "fin-56",
+   "level": "Basics",
+   "title": "Inventory turnover and DIO",
+   "summary": "How fast stock is sold.",
+   "term": {
+    "word": "Inventory turnover",
+    "meaning": "COGS ÷ Average inventory; times inventory is sold and replaced in a year."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Days Inventory Outstanding (DIO) = 365 ÷ Inventory turnover. Higher turnover means leaner operations; too high can risk stock-outs."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Inventory ties up cash and can become obsolete. Retail and FMCG businesses obsess over turnover."
+    }
+   ],
+   "example": "Fast-fashion retailers turn inventory many times a year; a jewellery store turns it slowly.",
+   "calc": {
+    "problem": "COGS ₹90 lakh; average inventory ₹15 lakh. Find inventory turnover and DIO.",
+    "steps": [
+     "Turnover = 90 / 15 = 6x",
+     "DIO = 365 / 6"
+    ],
+    "answer": "6x; ≈ 60.8 days"
+   },
+   "quiz": [
+    {
+     "q": "Higher inventory turnover usually means…",
+     "options": [
+      "Faster-selling stock",
+      "More debt",
+      "Lower sales",
+      "Slow-moving stock"
+     ],
+     "answer": 0,
+     "why": "Efficient inventory use."
+    },
+    {
+     "q": "DIO =",
+     "options": [
+      "365 × turnover",
+      "365 ÷ turnover",
+      "COGS ÷ 365",
+      "Inventory × 365"
+     ],
+     "answer": 1,
+     "why": "Days of stock held."
+    },
+    {
+     "q": "A risk of very low inventory is…",
+     "options": [
+      "High storage costs",
+      "Theft",
+      "Obsolescence",
+      "Stock-outs and lost sales"
+     ],
+     "answer": 3,
+     "why": "Too lean can hurt sales."
+    }
+   ]
+  },
+  {
+   "id": "fin-57",
+   "level": "Basics",
+   "title": "Asset turnover and ROA",
+   "summary": "How efficiently assets generate sales and profit.",
+   "term": {
+    "word": "Return on Assets (ROA)",
+    "meaning": "Net income ÷ Total assets."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Asset turnover = Sales ÷ Total assets. ROA = Net margin × Asset turnover. Asset-light businesses (software, platforms) typically have high turnover."
+    },
+    {
+     "h": "Why it matters",
+     "b": "ROA shows how well management uses all resources, regardless of financing."
+    }
+   ],
+   "example": "A supermarket earns thin margins but high asset turnover; a power utility has low turnover but steady margins.",
+   "calc": {
+    "problem": "Sales ₹50 crore; total assets ₹25 crore; net income ₹4 crore. Find asset turnover and ROA.",
+    "steps": [
+     "Asset turnover = 50 / 25 = 2x",
+     "ROA = 4 / 25 = 16%",
+     "Check: net margin 8% × 2 = 16%"
+    ],
+    "answer": "Asset turnover 2x; ROA 16%"
+   },
+   "quiz": [
+    {
+     "q": "ROA =",
+     "options": [
+      "Net income ÷ Total assets",
+      "Assets ÷ Net income",
+      "Net income ÷ Equity",
+      "Sales ÷ Assets"
+     ],
+     "answer": 0,
+     "why": "Return on all assets."
+    },
+    {
+     "q": "Asset-light businesses usually have…",
+     "options": [
+      "High asset turnover",
+      "No assets",
+      "Low asset turnover",
+      "No sales"
+     ],
+     "answer": 0,
+     "why": "Sales from few assets."
+    },
+    {
+     "q": "ROA = Net margin × …",
+     "options": [
+      "Asset turnover",
+      "Payout ratio",
+      "Equity multiplier",
+      "Beta"
+     ],
+     "answer": 0,
+     "why": "A DuPont component."
+    }
+   ]
+  },
+  {
+   "id": "fin-58",
+   "level": "Basics",
+   "title": "How the three statements connect",
+   "summary": "Profit, balance sheet and cash flow are one linked system.",
+   "term": {
+    "word": "Retained earnings",
+    "meaning": "Cumulative profits kept in the business after dividends."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Net income from the P&L flows into retained earnings on the balance sheet (minus dividends) and is the starting point of the cash flow statement. Ending cash on the cash flow statement equals cash on the balance sheet."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Understanding linkages helps you build financial models and spot accounting errors."
+    }
+   ],
+   "example": "If a model's balance sheet doesn't balance, the error usually lies in a broken link between statements.",
+   "calc": {
+    "problem": "Opening retained earnings ₹200 crore; net income ₹50 crore; dividends ₹20 crore. Find closing retained earnings.",
+    "steps": [
+     "Closing RE = Opening + Net income − Dividends",
+     "= 200 + 50 − 20"
+    ],
+    "answer": "₹230 crore"
+   },
+   "quiz": [
+    {
+     "q": "Net income flows to which balance sheet item?",
+     "options": [
+      "Inventory",
+      "Retained earnings",
+      "Cash only",
+      "Debt"
+     ],
+     "answer": 1,
+     "why": "Via retained earnings."
+    },
+    {
+     "q": "The cash flow statement usually starts with…",
+     "options": [
+      "Revenue",
+      "Dividends",
+      "Total assets",
+      "Net income"
+     ],
+     "answer": 3,
+     "why": "Indirect method."
+    },
+    {
+     "q": "Ending cash on the cash flow statement should equal…",
+     "options": [
+      "Revenue",
+      "Equity",
+      "Net income",
+      "Cash on the balance sheet"
+     ],
+     "answer": 3,
+     "why": "The key check."
+    }
+   ]
+  },
+  {
+   "id": "fin-13",
+   "level": "Intermediate",
+   "title": "Net Present Value (NPV)",
+   "summary": "The gold standard for evaluating investments.",
+   "term": {
+    "word": "NPV",
+    "meaning": "Sum of discounted future cash flows minus the initial investment."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "NPV = Σ CFt / (1 + r)^t − Initial investment. If NPV > 0, the project earns more than the required return and creates value."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Capital budgeting decisions (new plants, products, acquisitions) rely on NPV because it accounts for the time value of money and risk."
+    }
+   ],
+   "example": "A ₹1 crore solar project with a positive NPV at a 10% cost of capital adds value to the firm.",
+   "calc": {
+    "problem": "Initial investment ₹1,000; cash flows ₹400, ₹500, ₹600 in years 1-3; discount rate 10%. Find NPV.",
+    "steps": [
+     "PV1 = 400 / 1.10 = 363.64",
+     "PV2 = 500 / 1.21 = 413.22",
+     "PV3 = 600 / 1.331 = 450.79",
+     "Sum = 1,227.65",
+     "NPV = 1,227.65 − 1,000"
+    ],
+    "answer": "NPV ≈ ₹227.65 (accept)"
+   },
+   "quiz": [
+    {
+     "q": "A project with negative NPV should generally be…",
+     "options": [
+      "Rejected",
+      "Doubled",
+      "Accepted",
+      "Ignored for a year"
+     ],
+     "answer": 0,
+     "why": "It destroys value at the required return."
+    },
+    {
+     "q": "Which discount rate is typically used for NPV of an average project?",
+     "options": [
+      "GST rate",
+      "Dividend yield",
+      "WACC",
+      "Inflation"
+     ],
+     "answer": 2,
+     "why": "Firm's cost of capital."
+    },
+    {
+     "q": "NPV accounts for…",
+     "options": [
+      "Only payback",
+      "Only accounting profit",
+      "Time value of money and risk",
+      "Only revenue"
+     ],
+     "answer": 2,
+     "why": "Discounted cash flows."
+    }
+   ],
+   "calculator": "npv"
+  },
+  {
+   "id": "fin-14",
+   "level": "Intermediate",
+   "title": "Internal Rate of Return (IRR)",
+   "summary": "The project's own rate of return.",
+   "term": {
+    "word": "IRR",
+    "meaning": "The discount rate that makes NPV equal zero."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Find the rate where NPV = 0 (trial and error or a calculator). Accept if IRR > cost of capital (hurdle rate)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "IRR is intuitive (a percentage) and widely used in private equity and corporate finance, but can mislead with unusual cash flows or when comparing projects of different sizes."
+    }
+   ],
+   "example": "If a project's IRR is 18% and the company's WACC is 11%, it clears the hurdle.",
+   "calc": {
+    "problem": "Initial investment ₹1,000; cash flows ₹400, ₹500, ₹600. Estimate IRR.",
+    "steps": [
+     "At 20%: PV = 333.33 + 347.22 + 347.22 = 1,027.78 → NPV +27.78",
+     "At 22%: PV = 327.87 + 335.93 + 330.43 = 994.23 → NPV −5.77",
+     "NPV crosses zero between 20% and 22%",
+     "Interpolate: 20% + 2% × 27.78 / (27.78 + 5.77)"
+    ],
+    "answer": "IRR ≈ 21.65%"
+   },
+   "quiz": [
+    {
+     "q": "Accept a project when IRR is…",
+     "options": [
+      "Negative",
+      "Above the cost of capital",
+      "Below the cost of capital",
+      "Equal to inflation"
+     ],
+     "answer": 1,
+     "why": "It must beat the hurdle rate."
+    },
+    {
+     "q": "At the IRR, NPV equals…",
+     "options": [
+      "0",
+      "1",
+      "100",
+      "WACC"
+     ],
+     "answer": 0,
+     "why": "Definition of IRR."
+    },
+    {
+     "q": "IRR can mislead when…",
+     "options": [
+      "Projects are simple",
+      "Cash flows change sign multiple times",
+      "Cash flows are positive",
+      "Rates are positive"
+     ],
+     "answer": 1,
+     "why": "Multiple IRRs possible."
+    }
+   ],
+   "calculator": "irr"
+  },
+  {
+   "id": "fin-15",
+   "level": "Intermediate",
+   "title": "Payback period",
+   "summary": "How quickly do you get your money back?",
+   "term": {
+    "word": "Payback period",
+    "meaning": "Time required for cumulative cash inflows to recover the initial investment."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Add cash flows year by year until the investment is recovered. Payback = years before full recovery + unrecovered amount / cash flow in recovery year."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Simple measure of liquidity and risk. Popular with small businesses. Weakness: ignores time value and cash flows after payback."
+    }
+   ],
+   "example": "A ₹6 lakh machine saving ₹2 lakh a year pays back in 3 years.",
+   "calc": {
+    "problem": "Initial investment ₹1,000; cash flows ₹300, ₹400, ₹500. Find the payback period.",
+    "steps": [
+     "After year 1: 300 recovered (700 left)",
+     "After year 2: 700 recovered (300 left)",
+     "Year 3 brings 500; need 300",
+     "Payback = 2 + 300 / 500"
+    ],
+    "answer": "2.6 years"
+   },
+   "quiz": [
+    {
+     "q": "A key weakness of the payback method is that it…",
+     "options": [
+      "Uses discounting",
+      "Ignores cash flows after the payback point",
+      "Is hard to compute",
+      "Requires IRR"
+     ],
+     "answer": 1,
+     "why": "It also ignores the time value of money (in its simple form)."
+    },
+    {
+     "q": "Payback ignores…",
+     "options": [
+      "All flows",
+      "Initial investment",
+      "Year 1 flows",
+      "Cash flows after payback"
+     ],
+     "answer": 3,
+     "why": "And time value in simple form."
+    },
+    {
+     "q": "Payback is popular because it is…",
+     "options": [
+      "Complex",
+      "Simple and shows liquidity risk",
+      "Required by law",
+      "Always correct"
+     ],
+     "answer": 1,
+     "why": "Easy to grasp."
+    }
+   ],
+   "calculator": "payback"
+  },
+  {
+   "id": "fin-16",
+   "level": "Intermediate",
+   "title": "Cost of equity (CAPM)",
+   "summary": "What return do shareholders expect?",
+   "term": {
+    "word": "Beta (β)",
+    "meaning": "Measure of a stock's sensitivity to market movements; β = 1 moves with the market."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "CAPM: Re = Rf + β × (Rm − Rf). Rf = risk-free rate (e.g. 10-year G-sec), (Rm − Rf) = market risk premium. Higher beta → higher required return."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Cost of equity feeds into WACC and valuation. Equity is usually more expensive than debt because shareholders bear more risk."
+    }
+   ],
+   "example": "A high-beta tech stock (β = 1.5) needs a higher expected return than a utility stock (β = 0.6).",
+   "calc": {
+    "problem": "Risk-free rate 7%, beta 1.2, expected market return 12%. Find the cost of equity.",
+    "steps": [
+     "Market risk premium = 12% − 7% = 5%",
+     "Re = 7% + 1.2 × 5%",
+     "= 7% + 6%"
+    ],
+    "answer": "13%"
+   },
+   "quiz": [
+    {
+     "q": "A stock with beta 0.5 is…",
+     "options": [
+      "Risk-free",
+      "Less sensitive than the market",
+      "Uncorrelated",
+      "Twice as volatile as the market"
+     ],
+     "answer": 1,
+     "why": "Beta < 1 means smaller moves than the market."
+    },
+    {
+     "q": "The market risk premium is…",
+     "options": [
+      "β × Rf",
+      "Rm + Rf",
+      "Rm − Rf",
+      "Rf − Rm"
+     ],
+     "answer": 2,
+     "why": "Extra return for market risk."
+    },
+    {
+     "q": "A typical Indian proxy for the risk-free rate is…",
+     "options": [
+      "Nifty return",
+      "Bank FD rate",
+      "10-year G-sec yield",
+      "Repo rate only"
+     ],
+     "answer": 2,
+     "why": "Long-term sovereign yield."
+    }
+   ],
+   "calculator": "capm"
+  },
+  {
+   "id": "fin-17",
+   "level": "Intermediate",
+   "title": "After-tax cost of debt",
+   "summary": "Interest is tax-deductible, so debt is cheaper than it looks.",
+   "term": {
+    "word": "Tax shield",
+    "meaning": "Tax saved because interest expense reduces taxable income."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "After-tax cost of debt = Rd × (1 − Tax rate). Rd is usually the yield on the company's debt or its borrowing rate."
+    },
+    {
+     "h": "Why it matters",
+     "b": "This tax advantage is why companies use some debt. It reduces WACC up to the point where financial risk rises."
+    }
+   ],
+   "example": "A company paying ₹10 crore interest at a 25% tax rate saves ₹2.5 crore in tax.",
+   "calc": {
+    "problem": "A company borrows at 9% and pays tax at 25%. What is the after-tax cost of debt?",
+    "steps": [
+     "After-tax Rd = Rd × (1 − T)",
+     "= 9% × (1 − 0.25)",
+     "= 9% × 0.75"
+    ],
+    "answer": "6.75%"
+   },
+   "quiz": [
+    {
+     "q": "Why is the after-tax cost of debt lower than the interest rate?",
+     "options": [
+      "Interest is tax-deductible",
+      "Inflation",
+      "Debt has no risk",
+      "Banks give discounts"
+     ],
+     "answer": 0,
+     "why": "The tax shield reduces the effective cost."
+    },
+    {
+     "q": "At a 30% tax rate, 10% debt costs after tax…",
+     "options": [
+      "10%",
+      "13%",
+      "7%",
+      "3%"
+     ],
+     "answer": 2,
+     "why": "10% × 0.7."
+    },
+    {
+     "q": "The tax shield on ₹100 interest at 25% tax is…",
+     "options": [
+      "₹75",
+      "₹25",
+      "₹100",
+      "₹0"
+     ],
+     "answer": 1,
+     "why": "Interest × tax rate."
+    }
+   ]
+  },
+  {
+   "id": "fin-18",
+   "level": "Intermediate",
+   "title": "WACC",
+   "summary": "The minimum return a company must earn on its investments.",
+   "term": {
+    "word": "WACC",
+    "meaning": "Weighted Average Cost of Capital: cost of each funding source weighted by its share."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "WACC = E/V × Re + D/V × Rd × (1 − T), where V = E + D (market values). It is used as the discount rate for the firm's average-risk projects."
+    },
+    {
+     "h": "Why it matters",
+     "b": "If a project returns less than WACC, it destroys value. Lower WACC → higher valuations."
+    }
+   ],
+   "example": "A company funded 60% by equity at 13% and 40% by debt at 6.75% after tax has a WACC of 10.5%.",
+   "calc": {
+    "problem": "Equity ₹600 cr at 13%; Debt ₹400 cr at 9% pre-tax; Tax 25%. Find WACC.",
+    "steps": [
+     "V = 600 + 400 = 1,000; E/V = 0.6, D/V = 0.4",
+     "After-tax Rd = 9% × 0.75 = 6.75%",
+     "WACC = 0.6 × 13% + 0.4 × 6.75%",
+     "= 7.8% + 2.7%"
+    ],
+    "answer": "10.5%"
+   },
+   "quiz": [
+    {
+     "q": "WACC is typically used as…",
+     "options": [
+      "The tax rate",
+      "The discount rate for average-risk projects",
+      "The inflation rate",
+      "The dividend payout"
+     ],
+     "answer": 1,
+     "why": "It reflects the blended cost of capital."
+    },
+    {
+     "q": "WACC weights should ideally use…",
+     "options": [
+      "Random weights",
+      "Market values",
+      "Face values",
+      "Book values only"
+     ],
+     "answer": 1,
+     "why": "Market values reflect current cost."
+    },
+    {
+     "q": "If a company adds cheaper debt (within limits), WACC usually…",
+     "options": [
+      "Falls",
+      "Becomes zero",
+      "Unchanged",
+      "Rises"
+     ],
+     "answer": 0,
+     "why": "Cheaper capital mix."
+    }
+   ],
+   "calculator": "wacc"
+  },
+  {
+   "id": "fin-19",
+   "level": "Intermediate",
+   "title": "Liquidity ratios",
+   "summary": "Can the company pay its short-term bills?",
+   "term": {
+    "word": "Quick ratio",
+    "meaning": "(Current assets − Inventory) / Current liabilities; a stricter liquidity test."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Current ratio = Current assets / Current liabilities. Quick (acid-test) ratio excludes inventory because it may be hard to sell quickly. Cash ratio uses only cash and equivalents."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Suppliers and lenders check liquidity before giving credit. Too low = risk; too high = idle resources."
+    }
+   ],
+   "example": "A manufacturer with lots of slow-moving inventory may have a fine current ratio but a weak quick ratio.",
+   "calc": {
+    "problem": "Current assets ₹500 lakh (incl. inventory ₹150 lakh); Current liabilities ₹250 lakh. Find current and quick ratios.",
+    "steps": [
+     "Current ratio = 500 / 250 = 2.0x",
+     "Quick assets = 500 − 150 = 350",
+     "Quick ratio = 350 / 250"
+    ],
+    "answer": "Current 2.0x; Quick 1.4x"
+   },
+   "quiz": [
+    {
+     "q": "The quick ratio excludes…",
+     "options": [
+      "Payables",
+      "Inventory",
+      "Cash",
+      "Receivables"
+     ],
+     "answer": 1,
+     "why": "Inventory is the least liquid current asset."
+    },
+    {
+     "q": "A quick ratio of 1.4 means…",
+     "options": [
+      "Inventory is 1.4x",
+      "Profit is 1.4x",
+      "Liquid assets cover current liabilities 1.4 times",
+      "Debt is 1.4x equity"
+     ],
+     "answer": 2,
+     "why": "Excluding inventory."
+    },
+    {
+     "q": "The cash ratio uses…",
+     "options": [
+      "Fixed assets",
+      "All current assets",
+      "Inventory only",
+      "Only cash and equivalents"
+     ],
+     "answer": 3,
+     "why": "The strictest test."
+    }
+   ],
+   "calculator": "ratios"
+  },
+  {
+   "id": "fin-20",
+   "level": "Intermediate",
+   "title": "Leverage and coverage",
+   "summary": "How much debt, and can the company service it?",
+   "term": {
+    "word": "Interest coverage ratio",
+    "meaning": "EBIT / Interest expense: times interest is covered by operating profit."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Debt-to-equity (D/E) = Total debt / Equity. Interest coverage = EBIT / Interest. Net debt = Debt − Cash. Net debt/EBITDA is a common lender metric."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Leverage magnifies returns in good times and losses in bad times. Rating agencies and banks set limits on these ratios."
+    }
+   ],
+   "example": "Lenders may require interest coverage above 3x and net debt/EBITDA below 3x as loan covenants.",
+   "calc": {
+    "problem": "Debt ₹400 cr; Equity ₹800 cr; EBIT ₹300 cr; Interest ₹60 cr. Find D/E and interest coverage.",
+    "steps": [
+     "D/E = 400 / 800 = 0.5x",
+     "Interest coverage = 300 / 60"
+    ],
+    "answer": "D/E 0.5x; coverage 5.0x"
+   },
+   "quiz": [
+    {
+     "q": "Interest coverage of 1.2x suggests…",
+     "options": [
+      "Little room to service debt if profits fall",
+      "No debt",
+      "Very safe debt levels",
+      "High cash"
+     ],
+     "answer": 0,
+     "why": "EBIT barely covers interest."
+    },
+    {
+     "q": "Net debt =",
+     "options": [
+      "Debt + Cash",
+      "Debt × 2",
+      "Equity − Debt",
+      "Debt − Cash"
+     ],
+     "answer": 3,
+     "why": "Debt net of cash."
+    },
+    {
+     "q": "A common lender covenant limit is net debt/EBITDA below about…",
+     "options": [
+      "0.1x",
+      "100x",
+      "50x",
+      "3x"
+     ],
+     "answer": 3,
+     "why": "Typical covenant level."
+    }
+   ],
+   "calculator": "ratios"
+  },
+  {
+   "id": "fin-21",
+   "level": "Intermediate",
+   "title": "ROE and DuPont analysis",
+   "summary": "Break return on equity into its drivers.",
+   "term": {
+    "word": "Return on Equity (ROE)",
+    "meaning": "Net income / Shareholders' equity."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "DuPont: ROE = Net margin × Asset turnover × Equity multiplier = (NI/Sales) × (Sales/Assets) × (Assets/Equity). It shows whether ROE comes from profitability, efficiency or leverage."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Two companies with 15% ROE can be very different: one highly profitable, another heavily leveraged."
+    }
+   ],
+   "example": "Asian Paints' high ROE is driven by strong margins, while a retailer might rely on high asset turnover.",
+   "calc": {
+    "problem": "Net income ₹120 cr; Sales ₹1,500 cr; Assets ₹2,000 cr; Equity ₹800 cr. Compute ROE using DuPont.",
+    "steps": [
+     "Net margin = 120 / 1,500 = 8%",
+     "Asset turnover = 1,500 / 2,000 = 0.75x",
+     "Equity multiplier = 2,000 / 800 = 2.5x",
+     "ROE = 8% × 0.75 × 2.5"
+    ],
+    "answer": "15%"
+   },
+   "quiz": [
+    {
+     "q": "Which DuPont component reflects leverage?",
+     "options": [
+      "Asset turnover",
+      "Equity multiplier",
+      "Net margin",
+      "Gross margin"
+     ],
+     "answer": 1,
+     "why": "Assets/Equity rises with more debt."
+    },
+    {
+     "q": "ROE =",
+     "options": [
+      "EBIT ÷ Assets",
+      "Net income ÷ Equity",
+      "Sales ÷ Equity",
+      "Debt ÷ Equity"
+     ],
+     "answer": 1,
+     "why": "Return to shareholders."
+    },
+    {
+     "q": "DuPont helps identify whether ROE comes from…",
+     "options": [
+      "Margin, efficiency or leverage",
+      "Only taxes",
+      "GST",
+      "Share price"
+     ],
+     "answer": 0,
+     "why": "Three drivers."
+    }
+   ],
+   "calculator": "ratios"
+  },
+  {
+   "id": "fin-22",
+   "level": "Intermediate",
+   "title": "Cash conversion cycle",
+   "summary": "Days between paying suppliers and collecting from customers.",
+   "term": {
+    "word": "DSO",
+    "meaning": "Days Sales Outstanding: average days to collect receivables."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "CCC = DIO (days inventory outstanding) + DSO (days sales outstanding) − DPO (days payables outstanding). Shorter cycle = less cash tied up."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Improving CCC frees cash without new financing. Companies like Amazon even run negative cycles."
+    }
+   ],
+   "example": "D-Mart's fast inventory turnover and quick supplier payments are part of its strategic model.",
+   "calc": {
+    "problem": "DIO 45 days; DSO 30 days; DPO 40 days. Find the cash conversion cycle.",
+    "steps": [
+     "CCC = DIO + DSO − DPO",
+     "= 45 + 30 − 40"
+    ],
+    "answer": "35 days"
+   },
+   "quiz": [
+    {
+     "q": "Which change shortens the cash conversion cycle?",
+     "options": [
+      "Holding more inventory",
+      "Paying suppliers sooner",
+      "Offering longer credit",
+      "Collecting from customers faster"
+     ],
+     "answer": 3,
+     "why": "Lower DSO reduces the cycle."
+    },
+    {
+     "q": "DPO stands for…",
+     "options": [
+      "Days Payables Outstanding",
+      "Debt Per Owner",
+      "Dividend Payout",
+      "Daily Profit Output"
+     ],
+     "answer": 0,
+     "why": "Time taken to pay suppliers."
+    },
+    {
+     "q": "A negative cash conversion cycle means…",
+     "options": [
+      "No sales",
+      "The business needs more cash",
+      "Customers pay before suppliers are paid",
+      "High inventory"
+     ],
+     "answer": 2,
+     "why": "Suppliers fund operations."
+    }
+   ]
+  },
+  {
+   "id": "fin-23",
+   "level": "Intermediate",
+   "title": "Operating leverage",
+   "summary": "How fixed costs magnify profit changes.",
+   "term": {
+    "word": "Degree of Operating Leverage (DOL)",
+    "meaning": "% change in EBIT / % change in sales = Contribution / EBIT."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "High fixed costs mean small changes in sales cause big changes in operating profit. DOL = Contribution margin / EBIT."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Airlines and software firms have high operating leverage: great in booms, painful in downturns."
+    }
+   ],
+   "example": "An airline with mostly fixed costs sees profits soar when planes fill up and collapse when demand drops.",
+   "calc": {
+    "problem": "Sales ₹1,000; Variable costs ₹600; Fixed costs ₹250. Find DOL and the EBIT change if sales rise 10%.",
+    "steps": [
+     "Contribution = 1,000 − 600 = 400",
+     "EBIT = 400 − 250 = 150",
+     "DOL = 400 / 150 = 2.67x",
+     "EBIT change = 2.67 × 10%"
+    ],
+    "answer": "DOL 2.67x → EBIT rises ≈ 26.7%"
+   },
+   "quiz": [
+    {
+     "q": "A company with high fixed costs has…",
+     "options": [
+      "High operating leverage",
+      "No contribution margin",
+      "No risk",
+      "Low operating leverage"
+     ],
+     "answer": 0,
+     "why": "Fixed costs amplify profit swings."
+    },
+    {
+     "q": "DOL =",
+     "options": [
+      "EBIT ÷ Interest",
+      "Sales ÷ Assets",
+      "Debt ÷ Equity",
+      "Contribution ÷ EBIT"
+     ],
+     "answer": 3,
+     "why": "Operating leverage."
+    },
+    {
+     "q": "High operating leverage is risky in…",
+     "options": [
+      "Downturns",
+      "Never",
+      "Stable times only",
+      "Booms"
+     ],
+     "answer": 0,
+     "why": "Profits fall sharply."
+    }
+   ]
+  },
+  {
+   "id": "fin-24",
+   "level": "Intermediate",
+   "title": "Loan amortisation and EMI",
+   "summary": "How loan repayments split between interest and principal.",
+   "term": {
+    "word": "Amortisation",
+    "meaning": "Paying off a loan through regular instalments covering interest and principal."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "EMI = P × r × (1 + r)^n / ((1 + r)^n − 1), with r = monthly rate. Early EMIs are mostly interest; later EMIs are mostly principal."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies and individuals use amortisation schedules to plan cash flows and compare loan offers."
+    }
+   ],
+   "example": "Prepaying a home loan early saves far more interest than prepaying late, because interest is front-loaded.",
+   "calc": {
+    "problem": "Loan ₹10,00,000 at 9% annual interest for 10 years (120 months). Find the EMI and total interest.",
+    "steps": [
+     "r = 9% / 12 = 0.75% per month",
+     "(1.0075)^120 = 2.4514",
+     "EMI = 10,00,000 × 0.0075 × 2.4514 / 1.4514",
+     "Total paid = EMI × 120 = ₹15,20,109"
+    ],
+    "answer": "EMI ≈ ₹12,667.58; total interest ≈ ₹5,20,109"
+   },
+   "quiz": [
+    {
+     "q": "In early EMIs, most of the payment goes to…",
+     "options": [
+      "Taxes",
+      "Fees",
+      "Interest",
+      "Principal"
+     ],
+     "answer": 2,
+     "why": "Interest is charged on a large outstanding balance."
+    },
+    {
+     "q": "Prepaying a loan early saves the most interest because…",
+     "options": [
+      "Interest is front-loaded",
+      "Tax rules",
+      "EMIs rise",
+      "Banks give bonuses"
+     ],
+     "answer": 0,
+     "why": "Early EMIs are mostly interest."
+    },
+    {
+     "q": "EMI uses a…",
+     "options": [
+      "Monthly interest rate",
+      "Daily rate",
+      "Annual rate directly",
+      "Zero rate"
+     ],
+     "answer": 0,
+     "why": "r = annual rate ÷ 12."
+    }
+   ],
+   "calculator": "emi"
+  },
+  {
+   "id": "fin-59",
+   "level": "Intermediate",
+   "title": "Relevant cash flows and sunk costs",
+   "summary": "Only future, incremental cash flows matter for decisions.",
+   "term": {
+    "word": "Sunk cost",
+    "meaning": "Money already spent that cannot be recovered; irrelevant to future decisions."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Relevant cash flows are incremental: they change because of the decision. Ignore sunk costs, include opportunity costs, side effects (cannibalisation) and working capital needs. Operating cash flow = (Revenue − Costs − Depreciation) × (1 − T) + Depreciation."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Including sunk costs (or ignoring opportunity costs) leads to wrong investment decisions. This is the 'sunk cost fallacy'."
+    }
+   ],
+   "example": "A company spent ₹5 lakh on a market study. Whether to launch the product should ignore that ₹5 lakh; it's spent either way.",
+   "calc": {
+    "problem": "A new project adds revenue of ₹30 lakh and cash costs of ₹18 lakh a year. Depreciation is ₹4 lakh; tax 25%. A feasibility study already cost ₹5 lakh. Find annual operating cash flow.",
+    "steps": [
+     "Ignore the ₹5 lakh study (sunk)",
+     "EBIT = 30 − 18 − 4 = ₹8 lakh",
+     "Tax = 25% × 8 = ₹2 lakh → NOPAT ₹6 lakh",
+     "OCF = 6 + 4 (add back depreciation)"
+    ],
+    "answer": "₹10 lakh per year"
+   },
+   "quiz": [
+    {
+     "q": "A sunk cost should be…",
+     "options": [
+      "Taxed",
+      "Included in NPV",
+      "Ignored for future decisions",
+      "Doubled"
+     ],
+     "answer": 2,
+     "why": "It doesn't change with the decision."
+    },
+    {
+     "q": "Which is a relevant cost?",
+     "options": [
+      "Last year's research spend",
+      "Past marketing",
+      "Opportunity cost of using an owned building",
+      "Old salaries"
+     ],
+     "answer": 2,
+     "why": "Forgone alternative value."
+    },
+    {
+     "q": "Why add back depreciation in OCF?",
+     "options": [
+      "It's revenue",
+      "It's a cash inflow",
+      "It's a non-cash expense that reduced taxable profit",
+      "Tax rules require it"
+     ],
+     "answer": 2,
+     "why": "No cash left the business."
+    }
+   ]
+  },
+  {
+   "id": "fin-60",
+   "level": "Intermediate",
+   "title": "Profitability index",
+   "summary": "Value created per rupee invested, which is useful under capital rationing.",
+   "term": {
+    "word": "Profitability index (PI)",
+    "meaning": "PV of future cash flows ÷ Initial investment."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "PI > 1 means positive NPV. When capital is limited, rank projects by PI to maximise total NPV per rupee of budget."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies often have more good ideas than capital. PI helps allocate a fixed budget."
+    }
+   ],
+   "example": "With a ₹10 crore budget, choosing three projects with PI 1.4, 1.3 and 1.25 may beat one big project with PI 1.1.",
+   "calc": {
+    "problem": "PV of future cash flows ₹1,227.65; initial investment ₹1,000. Find the profitability index.",
+    "steps": [
+     "PI = PV of inflows / Investment",
+     "= 1,227.65 / 1,000"
+    ],
+    "answer": "≈ 1.23 (accept)"
+   },
+   "quiz": [
+    {
+     "q": "PI greater than 1 means…",
+     "options": [
+      "NPV is positive",
+      "Payback is long",
+      "NPV is negative",
+      "IRR is zero"
+     ],
+     "answer": 0,
+     "why": "PV exceeds investment."
+    },
+    {
+     "q": "PI is most useful when…",
+     "options": [
+      "Capital is rationed",
+      "There's one project",
+      "Capital is unlimited",
+      "Rates are zero"
+     ],
+     "answer": 0,
+     "why": "Ranks value per rupee."
+    },
+    {
+     "q": "PI =",
+     "options": [
+      "NPV × Investment",
+      "Investment ÷ PV",
+      "IRR ÷ WACC",
+      "PV of inflows ÷ Investment"
+     ],
+     "answer": 3,
+     "why": "Benefit-cost ratio."
+    }
+   ],
+   "calculator": "npv"
+  },
+  {
+   "id": "fin-61",
+   "level": "Intermediate",
+   "title": "Discounted payback period",
+   "summary": "Payback that respects the time value of money.",
+   "term": {
+    "word": "Discounted payback",
+    "meaning": "Time until cumulative discounted cash flows recover the initial investment."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Discount each year's cash flow, accumulate them, and find when the total reaches the investment. It is always longer than simple payback."
+    },
+    {
+     "h": "Why it matters",
+     "b": "It adds time value to a quick liquidity measure, which is useful for risky or fast-changing industries."
+    }
+   ],
+   "example": "A tech project with fast obsolescence might require discounted payback under 3 years.",
+   "calc": {
+    "problem": "Investment ₹1,000; cash flows ₹400, ₹500, ₹600; discount rate 10%. Find the discounted payback.",
+    "steps": [
+     "PVs: 363.64, 413.22, 450.79",
+     "Cumulative: 363.64, 776.86, 1,227.65",
+     "Still needed after year 2: 1,000 − 776.86 = 223.14",
+     "Payback = 2 + 223.14 / 450.79"
+    ],
+    "answer": "≈ 2.49 years"
+   },
+   "quiz": [
+    {
+     "q": "Discounted payback is usually…",
+     "options": [
+      "Equal",
+      "Longer than simple payback",
+      "Undefined",
+      "Shorter than simple payback"
+     ],
+     "answer": 1,
+     "why": "Discounting shrinks cash flows."
+    },
+    {
+     "q": "A remaining weakness of discounted payback is…",
+     "options": [
+      "It ignores cash flows after payback",
+      "It ignores time value",
+      "It uses NPV",
+      "It's too complex"
+     ],
+     "answer": 0,
+     "why": "Later flows are ignored."
+    },
+    {
+     "q": "Which input is needed?",
+     "options": [
+      "A discount rate",
+      "A logo",
+      "A tax refund",
+      "A share price"
+     ],
+     "answer": 0,
+     "why": "To compute PVs."
+    }
+   ],
+   "calculator": "payback"
+  },
+  {
+   "id": "fin-62",
+   "level": "Intermediate",
+   "title": "When NPV and IRR disagree",
+   "summary": "For mutually exclusive projects, trust NPV.",
+   "term": {
+    "word": "Mutually exclusive projects",
+    "meaning": "Choosing one project rules out the other."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "IRR measures percentage return; NPV measures value in rupees. A small project can have a higher IRR but create less value. Conflicts arise from scale and timing differences. NPV maximises shareholder wealth."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Choosing by IRR alone can leave money on the table."
+    }
+   ],
+   "example": "Would you prefer a 50% return on ₹100 or a 20% return on ₹1 crore? The second creates far more value.",
+   "calc": {
+    "problem": "Project A: invest ₹100, receive ₹130 in a year (IRR 30%). Project B: invest ₹500, receive ₹600 in a year (IRR 20%). Discount rate 10%. Which creates more value?",
+    "steps": [
+     "NPV A = 130 / 1.1 − 100 = ₹18.18",
+     "NPV B = 600 / 1.1 − 500 = ₹45.45",
+     "B has lower IRR but higher NPV"
+    ],
+    "answer": "Choose B (NPV ₹45.45 vs ₹18.18)"
+   },
+   "quiz": [
+    {
+     "q": "For mutually exclusive projects, prefer the one with higher…",
+     "options": [
+      "NPV",
+      "Cost",
+      "IRR",
+      "Payback"
+     ],
+     "answer": 0,
+     "why": "NPV measures value created."
+    },
+    {
+     "q": "NPV-IRR conflicts often arise from…",
+     "options": [
+      "Identical cash flows",
+      "Same size projects",
+      "Zero rates",
+      "Scale and timing differences"
+     ],
+     "answer": 3,
+     "why": "Different sizes and patterns."
+    },
+    {
+     "q": "IRR is expressed as…",
+     "options": [
+      "Rupees",
+      "Years",
+      "Units",
+      "A percentage"
+     ],
+     "answer": 3,
+     "why": "A rate of return."
+    }
+   ],
+   "calculator": "irr"
+  },
+  {
+   "id": "fin-63",
+   "level": "Intermediate",
+   "title": "Sensitivity analysis",
+   "summary": "Which assumptions could break your project?",
+   "term": {
+    "word": "Sensitivity analysis",
+    "meaning": "Changing one input at a time to see its effect on NPV or profit."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Vary key inputs (volume, price, costs, discount rate) by ±10-20% and observe NPV. Inputs with the biggest impact deserve the most research and risk management. Tornado charts visualise this."
+    },
+    {
+     "h": "Why it matters",
+     "b": "It shows decision-makers where the risks are concentrated before committing capital."
+    }
+   ],
+   "example": "If a 10% price drop makes NPV negative, pricing power becomes the critical question.",
+   "calc": {
+    "problem": "Base case: PV of inflows ₹1,227.65, investment ₹1,000, NPV ₹227.65. What is NPV if all cash inflows are 10% lower?",
+    "steps": [
+     "New PV = 1,227.65 × 0.9 = 1,104.89",
+     "New NPV = 1,104.89 − 1,000"
+    ],
+    "answer": "≈ ₹104.89 (still positive, but NPV falls 54%)"
+   },
+   "quiz": [
+    {
+     "q": "Sensitivity analysis changes…",
+     "options": [
+      "Only taxes",
+      "All inputs together",
+      "Nothing",
+      "One input at a time"
+     ],
+     "answer": 3,
+     "why": "Isolates each driver."
+    },
+    {
+     "q": "A tornado chart shows…",
+     "options": [
+      "Which inputs most affect the result",
+      "Share prices",
+      "Org charts",
+      "Weather"
+     ],
+     "answer": 0,
+     "why": "Ranks sensitivity."
+    },
+    {
+     "q": "If a small change flips NPV negative, the project is…",
+     "options": [
+      "Irrelevant",
+      "Very safe",
+      "Highly sensitive and risky",
+      "Guaranteed"
+     ],
+     "answer": 2,
+     "why": "Thin margin for error."
+    }
+   ],
+   "calculator": "npv"
+  },
+  {
+   "id": "fin-64",
+   "level": "Intermediate",
+   "title": "Cost of preference shares",
+   "summary": "The cost of a hybrid between debt and equity.",
+   "term": {
+    "word": "Preference shares",
+    "meaning": "Shares with a fixed dividend paid before ordinary shareholders, usually without voting rights."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Cost of preference capital Rp = Preference dividend ÷ Net issue price. Unlike interest, preference dividends are not tax-deductible."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Preference capital is part of the capital structure and enters WACC with its own weight and cost."
+    }
+   ],
+   "example": "Banks and NBFCs sometimes issue preference shares to raise capital without diluting voting control.",
+   "calc": {
+    "problem": "Preference shares with face value ₹100 pay a 9% dividend and are issued at ₹100 (no costs). What is the cost of preference capital?",
+    "steps": [
+     "Dividend = 9% × 100 = ₹9",
+     "Rp = 9 / 100"
+    ],
+    "answer": "9%"
+   },
+   "quiz": [
+    {
+     "q": "Preference dividends are paid…",
+     "options": [
+      "Only in losses",
+      "Before ordinary dividends",
+      "After ordinary dividends",
+      "Never"
+     ],
+     "answer": 1,
+     "why": "Preference = priority."
+    },
+    {
+     "q": "Are preference dividends tax-deductible for the company?",
+     "options": [
+      "No",
+      "Yes",
+      "Only in India",
+      "Only for banks"
+     ],
+     "answer": 0,
+     "why": "Unlike interest."
+    },
+    {
+     "q": "Rp =",
+     "options": [
+      "Interest × (1 − T)",
+      "Dividend ÷ Net issue price",
+      "Beta × premium",
+      "Price ÷ Dividend"
+     ],
+     "answer": 1,
+     "why": "Perpetuity yield."
+    }
+   ]
+  },
+  {
+   "id": "fin-65",
+   "level": "Intermediate",
+   "title": "Estimating beta",
+   "summary": "Measuring how a stock moves with the market.",
+   "term": {
+    "word": "Covariance",
+    "meaning": "A measure of how two variables move together."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Beta = Covariance(stock, market) ÷ Variance(market). It is usually estimated by regressing stock returns on index returns (e.g. Nifty 50) over 2-5 years of weekly or monthly data."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Beta drives cost of equity via CAPM. Analysts often adjust or use industry betas for stability."
+    }
+   ],
+   "example": "Defensive sectors like FMCG tend to have betas below 1; cyclical sectors like metals often exceed 1.",
+   "calc": {
+    "problem": "Covariance of a stock's returns with the market = 0.012; variance of market returns = 0.010. Find beta.",
+    "steps": [
+     "β = Cov / Var(market)",
+     "= 0.012 / 0.010"
+    ],
+    "answer": "1.2"
+   },
+   "quiz": [
+    {
+     "q": "Beta =",
+     "options": [
+      "Price ÷ EPS",
+      "Var(market) ÷ Cov",
+      "Cov(stock, market) ÷ Var(market)",
+      "Return ÷ Risk"
+     ],
+     "answer": 2,
+     "why": "Regression slope."
+    },
+    {
+     "q": "A cyclical metals company likely has beta…",
+     "options": [
+      "Below 0",
+      "Exactly 0",
+      "Above 1",
+      "Undefined"
+     ],
+     "answer": 2,
+     "why": "Amplified market moves."
+    },
+    {
+     "q": "Indian betas are commonly measured against…",
+     "options": [
+      "The Nifty 50 or Sensex",
+      "Gold prices",
+      "The dollar",
+      "Inflation"
+     ],
+     "answer": 0,
+     "why": "Market index."
+    }
+   ],
+   "calculator": "capm"
+  },
+  {
+   "id": "fin-66",
+   "level": "Intermediate",
+   "title": "Cost of equity from the dividend growth model",
+   "summary": "An alternative to CAPM for dividend payers.",
+   "term": {
+    "word": "Dividend growth model",
+    "meaning": "Re = D₁ ÷ P₀ + g; required return implied by price, next dividend and growth."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Rearranging the Gordon model gives the market's implied cost of equity: dividend yield plus expected growth."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Comparing CAPM and DGM estimates gives a sanity check on cost of equity."
+    }
+   ],
+   "example": "A utility with a 5% dividend yield and 6% expected growth implies about an 11% cost of equity.",
+   "calc": {
+    "problem": "Next year's dividend ₹6; current price ₹120; expected growth 7%. Find the cost of equity.",
+    "steps": [
+     "Re = D₁ / P₀ + g",
+     "= 6 / 120 + 7%",
+     "= 5% + 7%"
+    ],
+    "answer": "12%"
+   },
+   "quiz": [
+    {
+     "q": "In the DGM, Re =",
+     "options": [
+      "D₁ ÷ P₀ + g",
+      "EPS ÷ Price",
+      "P₀ ÷ D₁ − g",
+      "β × premium"
+     ],
+     "answer": 0,
+     "why": "Yield plus growth."
+    },
+    {
+     "q": "The model works best for…",
+     "options": [
+      "Startups with no dividends",
+      "Stable dividend-paying companies",
+      "Bonds",
+      "Loss-making firms"
+     ],
+     "answer": 1,
+     "why": "Needs predictable dividends."
+    },
+    {
+     "q": "Why compare CAPM and DGM?",
+     "options": [
+      "As a sanity check on estimates",
+      "To confuse investors",
+      "Regulations require it",
+      "They always match"
+     ],
+     "answer": 0,
+     "why": "Triangulation."
+    }
+   ]
+  },
+  {
+   "id": "fin-67",
+   "level": "Intermediate",
+   "title": "Financial leverage and EPS",
+   "summary": "Debt magnifies shareholder returns, both ways.",
+   "term": {
+    "word": "Degree of Financial Leverage (DFL)",
+    "meaning": "EBIT ÷ (EBIT − Interest); % change in EPS for 1% change in EBIT."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "EPS = (EBIT − Interest) × (1 − T) ÷ Shares. With fixed interest, a rise in EBIT boosts EPS disproportionately, but a fall hurts more."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Financial leverage decisions trade higher expected EPS for higher risk."
+    }
+   ],
+   "example": "A highly leveraged real-estate developer sees profits swing wildly as sales cycle up and down.",
+   "calc": {
+    "problem": "EBIT ₹200 crore; interest ₹50 crore; tax 25%; 10 crore shares. Find EPS and DFL.",
+    "steps": [
+     "PBT = 200 − 50 = 150",
+     "PAT = 150 × 0.75 = 112.5",
+     "EPS = 112.5 / 10 = ₹11.25",
+     "DFL = 200 / 150 = 1.33"
+    ],
+    "answer": "EPS ₹11.25; DFL 1.33x"
+   },
+   "quiz": [
+    {
+     "q": "DFL of 1.33 means a 10% rise in EBIT raises EPS by about…",
+     "options": [
+      "1.33%",
+      "33%",
+      "13.3%",
+      "10%"
+     ],
+     "answer": 2,
+     "why": "10% × 1.33."
+    },
+    {
+     "q": "Financial leverage comes from…",
+     "options": [
+      "Dividends",
+      "Variable costs",
+      "Fixed operating costs",
+      "Fixed interest costs"
+     ],
+     "answer": 3,
+     "why": "Debt financing."
+    },
+    {
+     "q": "Higher leverage makes EPS…",
+     "options": [
+      "More volatile",
+      "Zero",
+      "Unaffected",
+      "More stable"
+     ],
+     "answer": 0,
+     "why": "Magnified swings."
+    }
+   ]
+  },
+  {
+   "id": "fin-68",
+   "level": "Intermediate",
+   "title": "Combined leverage",
+   "summary": "Operating plus financial leverage: total risk magnification.",
+   "term": {
+    "word": "Degree of Combined Leverage (DCL)",
+    "meaning": "DOL × DFL; % change in EPS for 1% change in sales."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "DCL links sales changes directly to EPS changes. High fixed costs (operating leverage) plus high debt (financial leverage) make earnings very sensitive."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies with high operating leverage often choose lower debt to keep total risk manageable."
+    }
+   ],
+   "example": "Airlines combine high fixed costs and heavy debt, so a small demand drop can wipe out profits.",
+   "calc": {
+    "problem": "DOL = 2.0 and DFL = 1.5. If sales rise 10%, by how much does EPS change?",
+    "steps": [
+     "DCL = 2.0 × 1.5 = 3.0",
+     "EPS change = 3.0 × 10%"
+    ],
+    "answer": "DCL 3.0x → EPS rises ≈ 30%"
+   },
+   "quiz": [
+    {
+     "q": "DCL =",
+     "options": [
+      "DOL ÷ DFL",
+      "DOL + DFL",
+      "DFL − DOL",
+      "DOL × DFL"
+     ],
+     "answer": 3,
+     "why": "Multiplicative effect."
+    },
+    {
+     "q": "A firm with high operating leverage should usually prefer…",
+     "options": [
+      "No equity",
+      "Very high debt",
+      "Moderate or lower debt",
+      "More fixed costs"
+     ],
+     "answer": 2,
+     "why": "Balance total risk."
+    },
+    {
+     "q": "DCL of 3 and a 10% sales fall means EPS falls by about…",
+     "options": [
+      "10%",
+      "30%",
+      "3%",
+      "0%"
+     ],
+     "answer": 1,
+     "why": "3 × 10%."
+    }
+   ]
+  },
+  {
+   "id": "fin-69",
+   "level": "Intermediate",
+   "title": "Cost of skipping a cash discount",
+   "summary": "Trade credit can be surprisingly expensive.",
+   "term": {
+    "word": "Cash discount",
+    "meaning": "A reduction offered for paying early, e.g. '2/10 net 30'."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "'2/10 net 30' means 2% discount if paid within 10 days; otherwise full amount in 30 days. Annualised cost of skipping = (Discount ÷ (100 − Discount)) × (365 ÷ (Credit days − Discount days))."
+    },
+    {
+     "h": "Why it matters",
+     "b": "If borrowing is cheaper than the implied cost, take the discount, which often boosts profit."
+    }
+   ],
+   "example": "Paying suppliers early using a 10% working capital loan to capture a 37% implied return is a smart move.",
+   "calc": {
+    "problem": "Terms: 2/10 net 30. What is the annualised cost of not taking the discount?",
+    "steps": [
+     "Cost per period = 2 / 98 = 2.04%",
+     "Periods per year = 365 / (30 − 10) = 18.25",
+     "Annualised ≈ 2.04% × 18.25"
+    ],
+    "answer": "≈ 37.2% per year"
+   },
+   "quiz": [
+    {
+     "q": "'2/10 net 30' means…",
+     "options": [
+      "2% interest for 30 days",
+      "10% discount",
+      "2% discount if paid in 10 days, else full by day 30",
+      "Pay in 2 days"
+     ],
+     "answer": 2,
+     "why": "Standard trade terms."
+    },
+    {
+     "q": "If your bank loan costs 11%, should you take a discount costing 37% to skip?",
+     "options": [
+      "Yes, borrow and pay early",
+      "No",
+      "Pay late",
+      "Ignore it"
+     ],
+     "answer": 0,
+     "why": "Cheaper financing wins."
+    },
+    {
+     "q": "The annualised cost of skipping a 2/10 net 30 discount is roughly…",
+     "options": [
+      "10%",
+      "37%",
+      "2%",
+      "100%"
+     ],
+     "answer": 1,
+     "why": "Expensive credit."
+    }
+   ]
+  },
+  {
+   "id": "fin-70",
+   "level": "Intermediate",
+   "title": "Economic order quantity (EOQ)",
+   "summary": "How much to order to minimise inventory costs.",
+   "term": {
+    "word": "EOQ",
+    "meaning": "√(2DS ÷ H): the order size that minimises total ordering plus holding cost."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "D = annual demand, S = cost per order, H = holding cost per unit per year. Ordering too often raises ordering costs; ordering too much raises holding costs. EOQ balances them."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Inventory decisions affect working capital, storage costs and service levels."
+    }
+   ],
+   "example": "A pharma distributor uses EOQ (adjusted for safety stock) to plan reorders of fast-moving medicines.",
+   "calc": {
+    "problem": "Annual demand 12,000 units; ordering cost ₹500 per order; holding cost ₹20 per unit per year. Find EOQ.",
+    "steps": [
+     "EOQ = √(2 × 12,000 × 500 / 20)",
+     "= √(6,00,000)"
+    ],
+    "answer": "≈ 775 units per order (≈ 15.5 orders a year)"
+   },
+   "quiz": [
+    {
+     "q": "EOQ balances…",
+     "options": [
+      "Debt and equity",
+      "Sales and marketing",
+      "Tax and dividends",
+      "Ordering costs and holding costs"
+     ],
+     "answer": 3,
+     "why": "Two opposing costs."
+    },
+    {
+     "q": "If holding cost rises, EOQ…",
+     "options": [
+      "Rises",
+      "Unchanged",
+      "Doubles",
+      "Falls"
+     ],
+     "answer": 3,
+     "why": "H is in the denominator."
+    },
+    {
+     "q": "Safety stock is held to…",
+     "options": [
+      "Avoid orders",
+      "Increase costs",
+      "Protect against demand or supply uncertainty",
+      "Reduce sales"
+     ],
+     "answer": 2,
+     "why": "Buffer for surprises."
+    }
+   ]
+  },
+  {
+   "id": "fin-71",
+   "level": "Intermediate",
+   "title": "Cash budgeting",
+   "summary": "Forecast cash month by month to avoid surprises.",
+   "term": {
+    "word": "Cash budget",
+    "meaning": "A forecast of cash receipts and payments to project cash balances and financing needs."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Closing cash = Opening cash + Receipts − Payments. Compare with a minimum cash balance to see when you need to borrow or can invest surplus."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Many profitable businesses fail from cash shortages. Cash budgets give early warning."
+    }
+   ],
+   "example": "Retailers build cash budgets to fund inventory before Diwali and repay loans after the festive season.",
+   "calc": {
+    "problem": "Opening cash ₹5 lakh; expected receipts ₹20 lakh; payments ₹23 lakh. Minimum cash balance required ₹3 lakh. How much must the firm borrow?",
+    "steps": [
+     "Closing cash = 5 + 20 − 23 = ₹2 lakh",
+     "Shortfall vs minimum = 3 − 2"
+    ],
+    "answer": "Borrow ₹1 lakh"
+   },
+   "quiz": [
+    {
+     "q": "Closing cash =",
+     "options": [
+      "Profit",
+      "Receipts only",
+      "Opening + Receipts − Payments",
+      "Opening − Receipts + Payments"
+     ],
+     "answer": 2,
+     "why": "Basic cash equation."
+    },
+    {
+     "q": "Why keep a minimum cash balance?",
+     "options": [
+      "No reason",
+      "To earn high returns",
+      "As a buffer against unexpected needs",
+      "Tax rules"
+     ],
+     "answer": 2,
+     "why": "Liquidity safety."
+    },
+    {
+     "q": "Cash budgets mainly help to…",
+     "options": [
+      "Calculate tax",
+      "Design logos",
+      "Value shares",
+      "Anticipate financing needs early"
+     ],
+     "answer": 3,
+     "why": "Plan ahead."
+    }
+   ]
+  },
+  {
+   "id": "fin-72",
+   "level": "Intermediate",
+   "title": "Factoring and invoice discounting",
+   "summary": "Turn receivables into cash today.",
+   "term": {
+    "word": "Factoring",
+    "meaning": "Selling receivables to a financier (factor) for immediate cash, minus fees."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A factor advances a percentage (e.g. 80-90%) of invoice value, charges a fee/discount, and may collect from customers. Invoice discounting is similar but the business keeps collection. TReDS enables this for MSMEs in India."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Factoring improves liquidity without traditional loans, but has a cost."
+    }
+   ],
+   "example": "An MSME supplying a large automaker uses TReDS to get paid in days instead of waiting 90 days.",
+   "calc": {
+    "problem": "Receivables of ₹10 lakh are factored at an 85% advance with a 2% fee on invoice value. How much cash is received now, and what is the fee?",
+    "steps": [
+     "Advance = 85% × 10 lakh = ₹8.5 lakh",
+     "Fee = 2% × 10 lakh = ₹20,000",
+     "Balance (minus fee) is paid when the customer pays"
+    ],
+    "answer": "₹8.5 lakh now; fee ₹20,000"
+   },
+   "quiz": [
+    {
+     "q": "Factoring means…",
+     "options": [
+      "Paying suppliers",
+      "Selling receivables for immediate cash",
+      "Issuing shares",
+      "Buying inventory"
+     ],
+     "answer": 1,
+     "why": "Receivables financing."
+    },
+    {
+     "q": "A key benefit of factoring is…",
+     "options": [
+      "More inventory",
+      "Faster cash flow",
+      "Zero cost",
+      "Higher taxes"
+     ],
+     "answer": 1,
+     "why": "Liquidity now."
+    },
+    {
+     "q": "TReDS is designed for…",
+     "options": [
+      "MSME receivables financing",
+      "Large banks",
+      "Insurance",
+      "Stock trading"
+     ],
+     "answer": 0,
+     "why": "Invoice platform for MSMEs."
+    }
+   ]
+  },
+  {
+   "id": "fin-73",
+   "level": "Intermediate",
+   "title": "Lease or buy?",
+   "summary": "Compare the present value cost of each option.",
+   "term": {
+    "word": "Lease",
+    "meaning": "A contract to use an asset in exchange for periodic payments."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Compare PV of lease payments with the purchase price (adjusted for tax effects and residual value in a full analysis). Under Ind AS 116, most leases appear on the balance sheet as right-of-use assets and lease liabilities."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Lease vs buy decisions affect cash, flexibility and reported debt."
+    }
+   ],
+   "example": "Many retail chains lease stores to keep flexibility and conserve capital for expansion.",
+   "calc": {
+    "problem": "An asset costs ₹5,20,000 to buy, or ₹2,00,000 a year (end of year) to lease for 3 years. Discount rate 10%. Ignoring taxes and residual value, which is cheaper?",
+    "steps": [
+     "Annuity factor (3 yrs, 10%) = 2.4869",
+     "PV of lease = 2,00,000 × 2.4869 = ₹4,97,370",
+     "Compare with ₹5,20,000 purchase"
+    ],
+    "answer": "Lease is cheaper by ≈ ₹22,630"
+   },
+   "quiz": [
+    {
+     "q": "Under Ind AS 116, most leases are…",
+     "options": [
+      "Ignored",
+      "Expensed only",
+      "Off balance sheet",
+      "Recognised as right-of-use assets and lease liabilities"
+     ],
+     "answer": 3,
+     "why": "On-balance-sheet leasing."
+    },
+    {
+     "q": "To compare lease vs buy, compare…",
+     "options": [
+      "Brand names",
+      "Payment dates",
+      "Total lease payments without discounting",
+      "PV of lease payments with purchase cost"
+     ],
+     "answer": 3,
+     "why": "Time value matters."
+    },
+    {
+     "q": "A benefit of leasing is…",
+     "options": [
+      "No payments",
+      "Always cheaper",
+      "Owning the asset",
+      "Flexibility and lower upfront cash"
+     ],
+     "answer": 3,
+     "why": "Conserve capital."
+    }
+   ]
+  },
+  {
+   "id": "fin-74",
+   "level": "Intermediate",
+   "title": "Target profit analysis",
+   "summary": "How many units to hit a profit goal?",
+   "term": {
+    "word": "Target profit",
+    "meaning": "The desired profit level used to calculate required sales volume."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Required units = (Fixed costs + Target profit) ÷ Contribution margin per unit. Required revenue = (Fixed costs + Target profit) ÷ CM ratio."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Sales targets, pricing and incentive plans are built from this calculation."
+    }
+   ],
+   "example": "A startup aiming for ₹10 lakh monthly profit can tell its sales team exactly how many subscriptions to sell.",
+   "calc": {
+    "problem": "Fixed costs ₹2,00,000; contribution margin ₹200 per unit; target profit ₹1,00,000. How many units must be sold?",
+    "steps": [
+     "Required contribution = 2,00,000 + 1,00,000 = ₹3,00,000",
+     "Units = 3,00,000 / 200"
+    ],
+    "answer": "1,500 units"
+   },
+   "quiz": [
+    {
+     "q": "Required units =",
+     "options": [
+      "Target profit ÷ Price",
+      "Variable cost × Units",
+      "(Fixed costs + Target profit) ÷ CM per unit",
+      "Fixed costs ÷ Price"
+     ],
+     "answer": 2,
+     "why": "Cover costs and profit."
+    },
+    {
+     "q": "If CM per unit rises, required units…",
+     "options": [
+      "Unchanged",
+      "Rise",
+      "Fall",
+      "Double"
+     ],
+     "answer": 2,
+     "why": "Each unit contributes more."
+    },
+    {
+     "q": "Target profit analysis helps set…",
+     "options": [
+      "Share prices",
+      "Sales targets",
+      "Interest rates",
+      "Tax rates"
+     ],
+     "answer": 1,
+     "why": "Volume goals."
+    }
+   ],
+   "calculator": "breakeven"
+  },
+  {
+   "id": "fin-75",
+   "level": "Intermediate",
+   "title": "Margin of safety",
+   "summary": "How far sales can fall before losses begin.",
+   "term": {
+    "word": "Margin of safety",
+    "meaning": "(Actual sales − Break-even sales) ÷ Actual sales."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A higher margin of safety means a business can absorb more sales decline before losing money. It can be expressed in units, revenue or percentage."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Lenders and managers use it as a quick risk indicator."
+    }
+   ],
+   "example": "A restaurant with a 10% margin of safety is fragile; one with 40% can survive a slow season.",
+   "calc": {
+    "problem": "Actual sales 1,500 units; break-even 1,000 units. Find the margin of safety.",
+    "steps": [
+     "MOS units = 1,500 − 1,000 = 500",
+     "MOS % = 500 / 1,500"
+    ],
+    "answer": "500 units (≈ 33.3%)"
+   },
+   "quiz": [
+    {
+     "q": "A higher margin of safety means…",
+     "options": [
+      "Lower sales",
+      "More risk",
+      "More cushion before losses",
+      "Higher fixed costs"
+     ],
+     "answer": 2,
+     "why": "Room to absorb declines."
+    },
+    {
+     "q": "MOS % =",
+     "options": [
+      "Profit ÷ Tax",
+      "(Actual − Break-even) ÷ Actual",
+      "Break-even ÷ Actual",
+      "Actual ÷ Fixed costs"
+     ],
+     "answer": 1,
+     "why": "Distance from break-even."
+    },
+    {
+     "q": "Raising fixed costs usually makes MOS…",
+     "options": [
+      "Infinite",
+      "Larger",
+      "Unchanged",
+      "Smaller"
+     ],
+     "answer": 3,
+     "why": "Break-even rises."
+    }
+   ],
+   "calculator": "breakeven"
+  },
+  {
+   "id": "fin-76",
+   "level": "Intermediate",
+   "title": "Price and volume variance",
+   "summary": "Explain why revenue differed from budget.",
+   "term": {
+    "word": "Volume variance",
+    "meaning": "Revenue impact of selling more or fewer units than budgeted, at budget price."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Volume variance = (Actual units − Budget units) × Budget price. Price variance = (Actual price − Budget price) × Actual units. Together they explain total revenue variance."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Separating price from volume tells management whether to fix pricing or sales effort."
+    }
+   ],
+   "example": "A company may hit revenue targets only by discounting heavily: a favourable volume variance hiding an unfavourable price variance.",
+   "calc": {
+    "problem": "Budget: 1,000 units at ₹50 (₹50,000). Actual: 1,100 units at ₹48 (₹52,800). Find volume and price variances.",
+    "steps": [
+     "Volume = (1,100 − 1,000) × 50 = +₹5,000 (F)",
+     "Price = (48 − 50) × 1,100 = −₹2,200 (U)",
+     "Total = 5,000 − 2,200 = +₹2,800 = 52,800 − 50,000"
+    ],
+    "answer": "Volume +₹5,000 F; price −₹2,200 U; total +₹2,800 F"
+   },
+   "quiz": [
+    {
+     "q": "Volume variance uses…",
+     "options": [
+      "Cost price",
+      "Market price",
+      "Budget price",
+      "Actual price"
+     ],
+     "answer": 2,
+     "why": "Isolates the volume effect."
+    },
+    {
+     "q": "Selling at a lower price than budget creates…",
+     "options": [
+      "Volume variance",
+      "No variance",
+      "Favourable price variance",
+      "Unfavourable price variance"
+     ],
+     "answer": 3,
+     "why": "Less revenue per unit."
+    },
+    {
+     "q": "Why split price and volume?",
+     "options": [
+      "Tax filing",
+      "It's required by GST",
+      "For decoration",
+      "To identify the real driver of performance"
+     ],
+     "answer": 3,
+     "why": "Targeted action."
+    }
+   ]
+  },
+  {
+   "id": "fin-77",
+   "level": "Intermediate",
+   "title": "Return on capital employed (ROCE)",
+   "summary": "How efficiently a business uses its long-term capital.",
+   "term": {
+    "word": "Capital employed",
+    "meaning": "Total assets − Current liabilities (or Equity + Non-current debt)."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "ROCE = EBIT ÷ Capital employed. Because it uses EBIT (pre-interest), it compares companies with different financing. Compare ROCE with the cost of capital."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Investors like businesses with high, stable ROCE. It signals a competitive advantage."
+    }
+   ],
+   "example": "Companies with strong brands or network effects often sustain ROCE well above 20%.",
+   "calc": {
+    "problem": "EBIT ₹300 crore; total assets ₹2,000 crore; current liabilities ₹500 crore. Find ROCE.",
+    "steps": [
+     "Capital employed = 2,000 − 500 = ₹1,500 crore",
+     "ROCE = 300 / 1,500"
+    ],
+    "answer": "20%"
+   },
+   "quiz": [
+    {
+     "q": "ROCE uses which profit measure?",
+     "options": [
+      "Net income",
+      "Dividends",
+      "EBIT",
+      "Revenue"
+     ],
+     "answer": 2,
+     "why": "Pre-interest, pre-tax."
+    },
+    {
+     "q": "Capital employed =",
+     "options": [
+      "Equity only",
+      "Total assets − Current liabilities",
+      "Revenue − Costs",
+      "Cash + Inventory"
+     ],
+     "answer": 1,
+     "why": "Long-term funding."
+    },
+    {
+     "q": "High, stable ROCE often suggests…",
+     "options": [
+      "A competitive advantage",
+      "Fraud",
+      "Too much debt",
+      "A weak business"
+     ],
+     "answer": 0,
+     "why": "Efficient capital use."
+    }
+   ]
+  },
+  {
+   "id": "fin-78",
+   "level": "Intermediate",
+   "title": "ROIC vs WACC: the value spread",
+   "summary": "Growth only creates value when returns beat the cost of capital.",
+   "term": {
+    "word": "ROIC",
+    "meaning": "Return on Invested Capital = NOPAT ÷ Invested capital."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Value spread = ROIC − WACC. Economic profit = Spread × Invested capital. Growth with ROIC below WACC destroys value, however impressive revenue looks."
+    },
+    {
+     "h": "Why it matters",
+     "b": "This is the single most important idea in corporate valuation and capital allocation."
+    }
+   ],
+   "example": "A company growing 30% a year with ROIC of 6% and WACC of 11% is shrinking shareholder value.",
+   "calc": {
+    "problem": "NOPAT ₹150 crore; invested capital ₹1,000 crore; WACC 11%. Find ROIC, spread and economic profit.",
+    "steps": [
+     "ROIC = 150 / 1,000 = 15%",
+     "Spread = 15% − 11% = 4%",
+     "Economic profit = 4% × 1,000"
+    ],
+    "answer": "ROIC 15%; spread 4%; ₹40 crore value created"
+   },
+   "quiz": [
+    {
+     "q": "Value is created when…",
+     "options": [
+      "WACC > ROIC",
+      "Debt rises",
+      "Revenue grows",
+      "ROIC > WACC"
+     ],
+     "answer": 3,
+     "why": "Positive spread."
+    },
+    {
+     "q": "Growth with ROIC below WACC…",
+     "options": [
+      "Creates value",
+      "Always helps",
+      "Destroys value",
+      "Has no effect"
+     ],
+     "answer": 2,
+     "why": "Each new rupee loses value."
+    },
+    {
+     "q": "Economic profit =",
+     "options": [
+      "Revenue − Costs",
+      "(ROIC − WACC) × Invested capital",
+      "Net income × 2",
+      "EBITDA"
+     ],
+     "answer": 1,
+     "why": "Profit after capital charge."
+    }
+   ]
+  },
+  {
+   "id": "fin-79",
+   "level": "Intermediate",
+   "title": "Credit ratings and spreads",
+   "summary": "How lenders price default risk.",
+   "term": {
+    "word": "Credit spread",
+    "meaning": "Extra yield over a risk-free government bond to compensate for default risk."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Rating agencies (CRISIL, ICRA, CARE, India Ratings) grade issuers from AAA (highest safety) downwards; BBB- and above is investment grade. Lower ratings mean higher spreads and borrowing costs. Spreads are measured in basis points (1 bp = 0.01%)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "A rating upgrade can cut interest costs significantly; a downgrade can trigger covenant breaches."
+    }
+   ],
+   "example": "After the IL&FS default in 2018, spreads for many NBFCs widened sharply as investors repriced risk.",
+   "calc": {
+    "problem": "A corporate bond yields 9.2%; a G-sec of similar maturity yields 7.1%. Find the credit spread in basis points.",
+    "steps": [
+     "Spread = 9.2% − 7.1% = 2.1%",
+     "1% = 100 bps"
+    ],
+    "answer": "210 basis points"
+   },
+   "quiz": [
+    {
+     "q": "1 basis point equals…",
+     "options": [
+      "1%",
+      "0.01%",
+      "10%",
+      "0.1%"
+     ],
+     "answer": 1,
+     "why": "One-hundredth of a percent."
+    },
+    {
+     "q": "A lower credit rating usually means…",
+     "options": [
+      "No change",
+      "Lower borrowing cost",
+      "Free loans",
+      "Higher spread and borrowing cost"
+     ],
+     "answer": 3,
+     "why": "More risk, more yield."
+    },
+    {
+     "q": "Which is an Indian rating agency?",
+     "options": [
+      "CRISIL",
+      "SEBI",
+      "NPCI",
+      "RBI"
+     ],
+     "answer": 0,
+     "why": "CRISIL, ICRA, CARE…"
+    }
+   ]
+  },
+  {
+   "id": "fin-80",
+   "level": "Intermediate",
+   "title": "Interest rate risk on loans",
+   "summary": "How a change in rates hits your interest bill.",
+   "term": {
+    "word": "Floating rate",
+    "meaning": "An interest rate that resets with a benchmark (e.g. repo-linked or MCLR)."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "On floating-rate debt, a rise in the benchmark directly raises interest expense. Extra interest = Loan × Rate change. Companies manage this with fixed-rate debt or interest rate swaps."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Treasurers must model rate scenarios: a 1% rise on large borrowings can wipe out a big share of profit."
+    }
+   ],
+   "example": "When RBI raised the repo rate by 250 bps in 2022-23, floating-rate borrowers saw EMIs and interest costs jump.",
+   "calc": {
+    "problem": "A company has a ₹100 crore floating-rate loan. Rates rise by 50 basis points. How much extra annual interest does it pay?",
+    "steps": [
+     "50 bps = 0.50%",
+     "Extra interest = 100 crore × 0.50%"
+    ],
+    "answer": "₹50 lakh per year"
+   },
+   "quiz": [
+    {
+     "q": "50 basis points =",
+     "options": [
+      "50%",
+      "5%",
+      "0.05%",
+      "0.5%"
+     ],
+     "answer": 3,
+     "why": "50 × 0.01%."
+    },
+    {
+     "q": "A tool to fix a floating rate is…",
+     "options": [
+      "GST",
+      "An interest rate swap",
+      "A bonus issue",
+      "A dividend"
+     ],
+     "answer": 1,
+     "why": "Swap floating for fixed."
+    },
+    {
+     "q": "Floating-rate borrowers are hurt when rates…",
+     "options": [
+      "Are zero",
+      "Stay flat",
+      "Fall",
+      "Rise"
+     ],
+     "answer": 3,
+     "why": "Higher interest costs."
+    }
+   ]
+  },
+  {
+   "id": "fin-25",
+   "level": "Advanced",
+   "title": "Free cash flow to firm (FCFF)",
+   "summary": "The cash available to all investors after reinvestment.",
+   "term": {
+    "word": "NOPAT",
+    "meaning": "Net Operating Profit After Tax = EBIT × (1 − Tax rate)."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "FCFF = EBIT × (1 − T) + D&A − Capex − Increase in net working capital. It is the cash available to both debt and equity holders."
+    },
+    {
+     "h": "Why it matters",
+     "b": "FCFF is the foundation of DCF valuation. Growing companies may show profit but negative FCF due to heavy investment."
+    }
+   ],
+   "example": "A fast-growing EV maker can have rising EBIT but negative FCFF because it is building factories.",
+   "calc": {
+    "problem": "EBIT ₹500 cr; Tax 25%; D&A ₹80 cr; Capex ₹150 cr; Increase in NWC ₹30 cr. Find FCFF.",
+    "steps": [
+     "NOPAT = 500 × 0.75 = 375",
+     "Add D&A: 375 + 80 = 455",
+     "Less capex: 455 − 150 = 305",
+     "Less ΔNWC: 305 − 30"
+    ],
+    "answer": "₹275 crore"
+   },
+   "quiz": [
+    {
+     "q": "Which item reduces free cash flow?",
+     "options": [
+      "Higher EBIT",
+      "Lower taxes",
+      "Depreciation add-back",
+      "Capital expenditure"
+     ],
+     "answer": 3,
+     "why": "Capex is cash spent on long-term assets."
+    },
+    {
+     "q": "FCFF is the cash available to…",
+     "options": [
+      "Only lenders",
+      "Employees",
+      "Both debt and equity holders",
+      "Only shareholders"
+     ],
+     "answer": 2,
+     "why": "All capital providers."
+    },
+    {
+     "q": "An increase in net working capital ___ FCFF.",
+     "options": [
+      "Doesn't affect",
+      "Doubles",
+      "Increases",
+      "Reduces"
+     ],
+     "answer": 3,
+     "why": "Cash tied up."
+    }
+   ]
+  },
+  {
+   "id": "fin-26",
+   "level": "Advanced",
+   "title": "Terminal value (Gordon growth)",
+   "summary": "Valuing all cash flows beyond the forecast period.",
+   "term": {
+    "word": "Terminal value (TV)",
+    "meaning": "Value of a business beyond the explicit forecast, assuming stable growth forever."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Gordon growth: TV = FCF(next year) / (WACC − g). g must be below WACC and sustainable (often ≈ long-term GDP/inflation growth). TV often makes up 60-80% of a DCF value."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Small changes in g or WACC can swing valuations enormously, so always run sensitivity tables."
+    }
+   ],
+   "example": "Changing g from 4% to 5% with WACC 10% raises TV by 20% (1/0.06 → 1/0.05).",
+   "calc": {
+    "problem": "Next year's FCF ₹110 cr, WACC 10%, perpetual growth 4%. Find the terminal value.",
+    "steps": [
+     "TV = FCF / (WACC − g)",
+     "= 110 / (0.10 − 0.04)",
+     "= 110 / 0.06"
+    ],
+    "answer": "≈ ₹1,833.33 crore"
+   },
+   "quiz": [
+    {
+     "q": "In the Gordon growth model, g must be…",
+     "options": [
+      "Negative",
+      "Less than WACC",
+      "Greater than WACC",
+      "Equal to WACC"
+     ],
+     "answer": 1,
+     "why": "Otherwise the formula breaks (infinite/negative value)."
+    },
+    {
+     "q": "Terminal value often accounts for…",
+     "options": [
+      "100% always",
+      "5% of DCF value",
+      "60-80% of DCF value",
+      "0%"
+     ],
+     "answer": 2,
+     "why": "Most of the value."
+    },
+    {
+     "q": "A reasonable perpetual growth rate is close to…",
+     "options": [
+      "Zero always",
+      "Long-term nominal GDP growth or lower",
+      "WACC",
+      "50%"
+     ],
+     "answer": 1,
+     "why": "Sustainable growth."
+    }
+   ]
+  },
+  {
+   "id": "fin-27",
+   "level": "Advanced",
+   "title": "DCF valuation",
+   "summary": "Value = present value of all future free cash flows.",
+   "term": {
+    "word": "Discounted Cash Flow (DCF)",
+    "meaning": "Valuation method that discounts projected free cash flows and a terminal value at WACC."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Steps: 1) forecast FCFF for 3-10 years, 2) compute terminal value, 3) discount everything at WACC, 4) sum to get enterprise value."
+    },
+    {
+     "h": "Why it matters",
+     "b": "DCF estimates intrinsic value based on fundamentals, used in M&A, equity research and investment decisions."
+    }
+   ],
+   "example": "Analysts value companies like TCS by forecasting cash flows and discounting them, then comparing with the market price.",
+   "calc": {
+    "problem": "FCFF: Y1 ₹100, Y2 ₹110, Y3 ₹121 cr; WACC 10%; growth after Y3 = 3%. Find enterprise value.",
+    "steps": [
+     "PV of FCFs: 100/1.1 + 110/1.21 + 121/1.331 = 90.91 × 3 = 272.73",
+     "TV at Y3 = 121 × 1.03 / (0.10 − 0.03) = 1,780.43",
+     "PV of TV = 1,780.43 / 1.331 = 1,337.66",
+     "EV = 272.73 + 1,337.66"
+    ],
+    "answer": "≈ ₹1,610.39 crore"
+   },
+   "quiz": [
+    {
+     "q": "In a typical DCF, which part often contributes the most value?",
+     "options": [
+      "Depreciation",
+      "Tax rate",
+      "Year 1 cash flow",
+      "Terminal value"
+     ],
+     "answer": 3,
+     "why": "TV often accounts for most of the value."
+    },
+    {
+     "q": "Step 1 of a DCF is…",
+     "options": [
+      "Compute TV",
+      "Pick a P/E",
+      "Forecast free cash flows",
+      "Pay dividends"
+     ],
+     "answer": 2,
+     "why": "Projections first."
+    },
+    {
+     "q": "DCF value is highly sensitive to…",
+     "options": [
+      "Office location",
+      "CEO age",
+      "WACC and growth assumptions",
+      "The company logo"
+     ],
+     "answer": 2,
+     "why": "Run sensitivity tables."
+    }
+   ],
+   "calculator": "npv"
+  },
+  {
+   "id": "fin-28",
+   "level": "Advanced",
+   "title": "Enterprise value vs equity value",
+   "summary": "From the value of the business to the value per share.",
+   "term": {
+    "word": "Enterprise value (EV)",
+    "meaning": "Value of the whole business to all capital providers = Equity value + Net debt."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Equity value = EV − Debt + Cash (i.e. EV − Net debt). Per-share value = Equity value / Shares outstanding."
+    },
+    {
+     "h": "Why it matters",
+     "b": "DCF gives EV; investors care about share price. M&A buyers pay for equity but also take on debt."
+    }
+   ],
+   "example": "Buying a house worth ₹1 crore with a ₹60 lakh mortgage: the 'equity' you pay the seller is ₹40 lakh, but the 'EV' is ₹1 crore.",
+   "calc": {
+    "problem": "EV ₹5,000 cr; Debt ₹1,500 cr; Cash ₹300 cr; 100 crore shares. Find equity value per share.",
+    "steps": [
+     "Net debt = 1,500 − 300 = 1,200",
+     "Equity value = 5,000 − 1,200 = 3,800",
+     "Per share = 3,800 / 100"
+    ],
+    "answer": "₹38 per share"
+   },
+   "quiz": [
+    {
+     "q": "Equity value equals…",
+     "options": [
+      "Debt − Cash",
+      "EV + Net debt",
+      "EV − Net debt",
+      "EV × Shares"
+     ],
+     "answer": 2,
+     "why": "Subtract what's owed to lenders, add back cash."
+    },
+    {
+     "q": "To go from EV to equity value you…",
+     "options": [
+      "Add debt",
+      "Subtract net debt",
+      "Add revenue",
+      "Multiply by shares"
+     ],
+     "answer": 1,
+     "why": "Remove lenders' claims."
+    },
+    {
+     "q": "Per-share value =",
+     "options": [
+      "Debt ÷ Shares",
+      "Revenue ÷ Shares",
+      "EV ÷ Shares",
+      "Equity value ÷ Shares"
+     ],
+     "answer": 3,
+     "why": "Equity per share."
+    }
+   ]
+  },
+  {
+   "id": "fin-29",
+   "level": "Advanced",
+   "title": "Valuation multiples (EV/EBITDA, P/E)",
+   "summary": "Value a company by comparing it with peers.",
+   "term": {
+    "word": "EV/EBITDA",
+    "meaning": "Enterprise value divided by EBITDA; a capital-structure-neutral multiple."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Relative valuation: find comparable companies, compute their multiples, apply the median to your company's metric. Common: EV/EBITDA, P/E, EV/Sales."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Quick, market-based and widely used in investment banking. But it assumes peers are fairly valued."
+    }
+   ],
+   "example": "If listed peers trade at 8x EV/EBITDA, a similar private company with ₹250 cr EBITDA might be worth around ₹2,000 cr EV.",
+   "calc": {
+    "problem": "Peer median EV/EBITDA 8x; target EBITDA ₹250 cr; net debt ₹400 cr. Find EV and equity value.",
+    "steps": [
+     "EV = 8 × 250 = ₹2,000 cr",
+     "Equity value = 2,000 − 400"
+    ],
+    "answer": "EV ₹2,000 cr; equity ₹1,600 cr"
+   },
+   "quiz": [
+    {
+     "q": "Why is EV/EBITDA useful for comparing companies?",
+     "options": [
+      "It is neutral to capital structure",
+      "It ignores revenue",
+      "It excludes operations",
+      "It uses net income"
+     ],
+     "answer": 0,
+     "why": "Both EV and EBITDA are before financing effects."
+    },
+    {
+     "q": "Relative valuation assumes peers are…",
+     "options": [
+      "Bankrupt",
+      "Overvalued",
+      "Unlisted",
+      "Fairly valued"
+     ],
+     "answer": 3,
+     "why": "Key assumption."
+    },
+    {
+     "q": "P/E compares price with…",
+     "options": [
+      "Earnings per share",
+      "Sales",
+      "EBITDA",
+      "Assets"
+     ],
+     "answer": 0,
+     "why": "Price-to-earnings."
+    }
+   ]
+  },
+  {
+   "id": "fin-30",
+   "level": "Advanced",
+   "title": "Capital structure and the tax shield",
+   "summary": "How debt can add value, up to a point.",
+   "term": {
+    "word": "Modigliani–Miller (MM)",
+    "meaning": "Theory: without taxes, capital structure doesn't change firm value; with taxes, debt adds value via the tax shield."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Value of levered firm = Value unlevered + PV of tax shield. For permanent debt, PV of tax shield = D × T. Beyond a point, bankruptcy and distress costs outweigh benefits (trade-off theory)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "CFOs choose a target debt level balancing tax benefits, flexibility and risk of financial distress."
+    }
+   ],
+   "example": "Infrastructure firms with stable cash flows carry more debt than volatile tech firms.",
+   "calc": {
+    "problem": "Permanent debt ₹1,000 cr at 8%; tax rate 25%. Find the annual tax shield and its present value.",
+    "steps": [
+     "Annual interest = 1,000 × 8% = 80",
+     "Annual tax shield = 80 × 25% = 20",
+     "PV (perpetual, discounted at Rd) = 20 / 0.08 = D × T"
+    ],
+    "answer": "₹20 cr per year; PV ₹250 crore"
+   },
+   "quiz": [
+    {
+     "q": "According to trade-off theory, too much debt is bad because of…",
+     "options": [
+      "Higher dividends",
+      "Lower interest",
+      "Financial distress costs",
+      "Tax shields"
+     ],
+     "answer": 2,
+     "why": "Distress costs eventually exceed tax benefits."
+    },
+    {
+     "q": "In MM without taxes, capital structure…",
+     "options": [
+      "Maximises value with debt",
+      "Minimises value",
+      "Doesn't change firm value",
+      "Is illegal"
+     ],
+     "answer": 2,
+     "why": "Irrelevance proposition."
+    },
+    {
+     "q": "PV of a permanent tax shield = ",
+     "options": [
+      "D ÷ T",
+      "D + T",
+      "D × T",
+      "T ÷ D"
+     ],
+     "answer": 2,
+     "why": "Debt × tax rate."
+    }
+   ]
+  },
+  {
+   "id": "fin-31",
+   "level": "Advanced",
+   "title": "Dividend discount model",
+   "summary": "Value a share by its future dividends.",
+   "term": {
+    "word": "Dividend payout ratio",
+    "meaning": "Share of net income paid out as dividends."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Gordon growth DDM: Price = D1 / (Re − g), where D1 = next year's dividend. Sustainable growth g ≈ ROE × Retention ratio."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Useful for stable dividend payers like utilities and FMCG companies."
+    }
+   ],
+   "example": "A company with ROE 20% retaining 40% of profits can grow at about 8%.",
+   "calc": {
+    "problem": "Next year's dividend ₹5; cost of equity 12%; growth 5%. Find the share value.",
+    "steps": [
+     "P = D1 / (Re − g)",
+     "= 5 / (0.12 − 0.05)",
+     "= 5 / 0.07"
+    ],
+    "answer": "≈ ₹71.43"
+   },
+   "quiz": [
+    {
+     "q": "Sustainable growth rate ≈",
+     "options": [
+      "Debt / Equity",
+      "EBITDA / Sales",
+      "Payout × Beta",
+      "ROE × Retention ratio"
+     ],
+     "answer": 3,
+     "why": "Reinvested earnings × return on them."
+    },
+    {
+     "q": "DDM requires the cost of equity to be…",
+     "options": [
+      "Equal to g",
+      "Greater than g",
+      "Less than g",
+      "Zero"
+     ],
+     "answer": 1,
+     "why": "Otherwise the formula breaks."
+    },
+    {
+     "q": "D1 in the DDM means…",
+     "options": [
+      "Next year's dividend",
+      "Debt",
+      "Dividend yield",
+      "Last year's dividend"
+     ],
+     "answer": 0,
+     "why": "Expected next dividend."
+    }
+   ]
+  },
+  {
+   "id": "fin-32",
+   "level": "Advanced",
+   "title": "EPS and P/E",
+   "summary": "Earnings per share and what the market pays for them.",
+   "term": {
+    "word": "P/E ratio",
+    "meaning": "Price per share / Earnings per share: how many rupees investors pay per rupee of earnings."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "EPS = Net income / Shares outstanding. P/E = Price / EPS. High P/E often signals high growth expectations (or overvaluation). Diluted EPS includes options and convertibles."
+    },
+    {
+     "h": "Why it matters",
+     "b": "P/E is the most quoted valuation metric in equity markets and investor communication."
+    }
+   ],
+   "example": "FMCG stocks often trade at higher P/Es than PSU banks because of steadier growth and higher ROE.",
+   "calc": {
+    "problem": "Net income ₹200 cr; 50 crore shares; sector P/E 15x. Find EPS and implied share price.",
+    "steps": [
+     "EPS = 200 / 50 = ₹4",
+     "Price = P/E × EPS = 15 × 4"
+    ],
+    "answer": "EPS ₹4; price ₹60"
+   },
+   "quiz": [
+    {
+     "q": "Issuing new shares without increasing profit will…",
+     "options": [
+      "Increase EPS",
+      "Dilute (reduce) EPS",
+      "Raise net income",
+      "Not affect EPS"
+     ],
+     "answer": 1,
+     "why": "Same earnings spread over more shares."
+    },
+    {
+     "q": "A high P/E often reflects…",
+     "options": [
+      "Low growth expectations",
+      "No earnings",
+      "High growth expectations",
+      "Bankruptcy"
+     ],
+     "answer": 2,
+     "why": "Investors pay for growth."
+    },
+    {
+     "q": "Diluted EPS includes…",
+     "options": [
+      "Dividends",
+      "Options and convertibles",
+      "Debt",
+      "Only current shares"
+     ],
+     "answer": 1,
+     "why": "Potential shares."
+    }
+   ]
+  },
+  {
+   "id": "fin-33",
+   "level": "Advanced",
+   "title": "Economic Value Added (EVA)",
+   "summary": "Profit after charging for all capital used.",
+   "term": {
+    "word": "EVA",
+    "meaning": "NOPAT − (WACC × Invested capital)."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A company truly creates value only if its return on invested capital (ROIC) exceeds WACC. EVA measures this surplus in rupees."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Used for performance management and executive compensation to encourage efficient use of capital."
+    }
+   ],
+   "example": "A division earning 9% ROIC with a 12% WACC is accounting-profitable but destroying economic value.",
+   "calc": {
+    "problem": "NOPAT ₹375 cr; invested capital ₹3,000 cr; WACC 10%. Find ROIC and EVA.",
+    "steps": [
+     "ROIC = 375 / 3,000 = 12.5%",
+     "Capital charge = 10% × 3,000 = 300",
+     "EVA = 375 − 300"
+    ],
+    "answer": "ROIC 12.5%; EVA ₹75 crore"
+   },
+   "quiz": [
+    {
+     "q": "Positive EVA means…",
+     "options": [
+      "Negative profit",
+      "No debt",
+      "ROIC > WACC",
+      "ROIC < WACC"
+     ],
+     "answer": 2,
+     "why": "Returns exceed the cost of capital."
+    },
+    {
+     "q": "EVA =",
+     "options": [
+      "EBITDA − Tax",
+      "Revenue − Costs",
+      "NOPAT − WACC × Invested capital",
+      "Net income ÷ Equity"
+     ],
+     "answer": 2,
+     "why": "Profit after capital charge."
+    },
+    {
+     "q": "A division with ROIC 9% and WACC 12% is…",
+     "options": [
+      "Creating value",
+      "Destroying economic value",
+      "Neutral",
+      "Tax-free"
+     ],
+     "answer": 1,
+     "why": "Negative spread."
+    }
+   ]
+  },
+  {
+   "id": "fin-34",
+   "level": "Advanced",
+   "title": "Portfolio return and beta",
+   "summary": "Combining assets changes risk and return.",
+   "term": {
+    "word": "Diversification",
+    "meaning": "Spreading investments to reduce unsystematic (company-specific) risk."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Portfolio expected return = Σ weight × return. Portfolio beta = Σ weight × beta. Diversification reduces company-specific risk but not market (systematic) risk."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Corporate treasuries, pension funds and individuals manage risk using these principles."
+    }
+   ],
+   "example": "Holding both an IT exporter and an importer can partly offset currency risk.",
+   "calc": {
+    "problem": "60% in Stock A (expected return 12%, β 1.2) and 40% in Stock B (8%, β 0.8). Find portfolio return and beta.",
+    "steps": [
+     "Return = 0.6 × 12% + 0.4 × 8% = 7.2% + 3.2%",
+     "Beta = 0.6 × 1.2 + 0.4 × 0.8 = 0.72 + 0.32"
+    ],
+    "answer": "Return 10.4%; beta 1.04"
+   },
+   "quiz": [
+    {
+     "q": "Diversification mainly reduces…",
+     "options": [
+      "Interest rates",
+      "Inflation",
+      "Market risk",
+      "Company-specific risk"
+     ],
+     "answer": 3,
+     "why": "Systematic risk remains."
+    },
+    {
+     "q": "Systematic risk is…",
+     "options": [
+      "Market-wide and not diversifiable",
+      "Diversifiable",
+      "Zero for stocks",
+      "Company-specific"
+     ],
+     "answer": 0,
+     "why": "Market risk remains."
+    },
+    {
+     "q": "Portfolio beta is the…",
+     "options": [
+      "Lowest beta",
+      "Sum of betas",
+      "Weighted average of betas",
+      "Highest beta"
+     ],
+     "answer": 2,
+     "why": "Weights × betas."
+    }
+   ]
+  },
+  {
+   "id": "fin-35",
+   "level": "Advanced",
+   "title": "Hedging currency risk with forwards",
+   "summary": "Lock in exchange rates to protect margins.",
+   "term": {
+    "word": "Forward contract",
+    "meaning": "Agreement to buy/sell currency at a fixed rate on a future date."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Importers fear the rupee weakening; exporters fear it strengthening. A forward locks the rate, removing uncertainty (and also any upside)."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Treasury teams hedge to protect budgets and margins; unhedged exposure can wipe out profits."
+    }
+   ],
+   "example": "An Indian IT exporter sells USD forwards to lock in rupee revenue.",
+   "calc": {
+    "problem": "An importer must pay $1,00,000 in 3 months. Forward rate ₹84.50/$. At maturity spot is ₹86.00/$. How much did the hedge save?",
+    "steps": [
+     "Hedged cost = 1,00,000 × 84.50 = ₹84,50,000",
+     "Unhedged cost = 1,00,000 × 86.00 = ₹86,00,000",
+     "Saving = 86,00,000 − 84,50,000"
+    ],
+    "answer": "₹1,50,000 saved"
+   },
+   "quiz": [
+    {
+     "q": "An Indian importer paying in USD is hurt when…",
+     "options": [
+      "Exports rise",
+      "Interest rates fall",
+      "The rupee strengthens",
+      "The rupee weakens"
+     ],
+     "answer": 3,
+     "why": "More rupees are needed per dollar."
+    },
+    {
+     "q": "An exporter receiving USD fears the rupee…",
+     "options": [
+      "Weakening",
+      "Staying flat",
+      "Strengthening",
+      "Being digital"
+     ],
+     "answer": 2,
+     "why": "Fewer rupees per dollar."
+    },
+    {
+     "q": "A forward contract removes…",
+     "options": [
+      "Revenue",
+      "Customers",
+      "All costs",
+      "Exchange-rate uncertainty"
+     ],
+     "answer": 3,
+     "why": "Locks the rate."
+    }
+   ]
+  },
+  {
+   "id": "fin-36",
+   "level": "Advanced",
+   "title": "Scenario analysis and expected NPV",
+   "summary": "Plan for multiple futures, not just one forecast.",
+   "term": {
+    "word": "Expected value",
+    "meaning": "Probability-weighted average of possible outcomes."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Build scenarios (bear, base, bull), assign probabilities, compute NPV in each, then the expected NPV = Σ probability × NPV. Sensitivity analysis changes one input at a time."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Helps leaders understand risk, downside protection and what drives value. Investment committees expect it."
+    }
+   ],
+   "example": "Before launching in a new market, a company models low, medium and high demand cases.",
+   "calc": {
+    "problem": "Scenarios: Bear 30% probability NPV −₹200 cr; Base 50% NPV ₹300 cr; Bull 20% NPV ₹800 cr. Find expected NPV.",
+    "steps": [
+     "Bear: 0.3 × (−200) = −60",
+     "Base: 0.5 × 300 = 150",
+     "Bull: 0.2 × 800 = 160",
+     "Expected NPV = −60 + 150 + 160"
+    ],
+    "answer": "₹250 crore"
+   },
+   "quiz": [
+    {
+     "q": "Sensitivity analysis changes…",
+     "options": [
+      "Nothing",
+      "Only the tax rate",
+      "One input at a time",
+      "All inputs at once"
+     ],
+     "answer": 2,
+     "why": "Scenario analysis changes several inputs together."
+    },
+    {
+     "q": "Expected value =",
+     "options": [
+      "Highest outcome",
+      "Average without weights",
+      "Lowest outcome",
+      "Probability-weighted average of outcomes"
+     ],
+     "answer": 3,
+     "why": "Σ p × outcome."
+    },
+    {
+     "q": "A bear case represents…",
+     "options": [
+      "The pessimistic scenario",
+      "The base case",
+      "No scenario",
+      "The optimistic scenario"
+     ],
+     "answer": 0,
+     "why": "Downside case."
+    }
+   ]
+  },
+  {
+   "id": "fin-81",
+   "level": "Advanced",
+   "title": "M&A synergies and the acquisition premium",
+   "summary": "An acquisition creates value only if synergies exceed the premium paid.",
+   "term": {
+    "word": "Synergy",
+    "meaning": "Extra value from combining two firms: cost savings, revenue gains or financial benefits."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Synergy = Value(combined) − Value(A) − Value(B). Premium = Price paid − Target's standalone value. NPV to the acquirer = Synergy − Premium. Many deals overpay because synergies are overestimated."
+    },
+    {
+     "h": "Why it matters",
+     "b": "M&A is one of the largest capital allocation decisions a CEO makes, and research shows many acquisitions destroy acquirer value."
+    }
+   ],
+   "example": "Merging two cement companies can cut logistics and procurement costs, a classic cost synergy.",
+   "calc": {
+    "problem": "Acquirer worth ₹1,000 crore; target worth ₹400 crore; combined worth ₹1,550 crore. The acquirer pays ₹480 crore. Find synergy, premium and NPV to the acquirer.",
+    "steps": [
+     "Synergy = 1,550 − 1,000 − 400 = ₹150 crore",
+     "Premium = 480 − 400 = ₹80 crore",
+     "NPV to acquirer = 150 − 80"
+    ],
+    "answer": "₹70 crore"
+   },
+   "quiz": [
+    {
+     "q": "NPV to the acquirer =",
+     "options": [
+      "Synergy + Premium",
+      "Target value",
+      "Synergy − Premium",
+      "Price paid"
+     ],
+     "answer": 2,
+     "why": "Value created minus overpayment."
+    },
+    {
+     "q": "Which is a cost synergy?",
+     "options": [
+      "New markets",
+      "Combining procurement to cut costs",
+      "Higher brand value",
+      "Cross-selling products"
+     ],
+     "answer": 1,
+     "why": "Lower costs from scale."
+    },
+    {
+     "q": "A common reason acquisitions fail is…",
+     "options": [
+      "Too much due diligence",
+      "Low premiums",
+      "Overestimating synergies",
+      "Underpaying"
+     ],
+     "answer": 2,
+     "why": "Optimism bias."
+    }
+   ]
+  },
+  {
+   "id": "fin-82",
+   "level": "Advanced",
+   "title": "Accretion and dilution",
+   "summary": "Will the deal raise or lower EPS?",
+   "term": {
+    "word": "Accretive deal",
+    "meaning": "A deal that increases the acquirer's EPS."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Pro-forma EPS = (Acquirer NI + Target NI + synergies − financing costs) ÷ (Acquirer shares + new shares issued). If pro-forma EPS > current EPS, the deal is accretive; otherwise dilutive. A stock deal is usually accretive when the target's P/E is lower than the acquirer's."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Boards and markets watch EPS impact, though accretion doesn't guarantee value creation."
+    }
+   ],
+   "example": "Paying with highly valued stock can make a deal accretive even if the price is high.",
+   "calc": {
+    "problem": "Acquirer: NI ₹100 crore, 50 crore shares (EPS ₹2.00). Target NI ₹30 crore. The acquirer issues 20 crore new shares. Find pro-forma EPS (ignore synergies).",
+    "steps": [
+     "Combined NI = 100 + 30 = ₹130 crore",
+     "Shares = 50 + 20 = 70 crore",
+     "Pro-forma EPS = 130 / 70 = ₹1.857",
+     "Change = 1.857 / 2.00 − 1"
+    ],
+    "answer": "≈ ₹1.86, dilutive by ≈ 7.1%"
+   },
+   "quiz": [
+    {
+     "q": "A deal is accretive when…",
+     "options": [
+      "Debt falls",
+      "Pro-forma EPS rises",
+      "Shares rise",
+      "Pro-forma EPS falls"
+     ],
+     "answer": 1,
+     "why": "EPS goes up."
+    },
+    {
+     "q": "In a stock deal, buying a target with a lower P/E is usually…",
+     "options": [
+      "Dilutive",
+      "Accretive",
+      "Illegal",
+      "Neutral always"
+     ],
+     "answer": 1,
+     "why": "You buy earnings cheaply."
+    },
+    {
+     "q": "Does accretion guarantee value creation?",
+     "options": [
+      "No",
+      "Yes",
+      "Only for banks",
+      "Only in India"
+     ],
+     "answer": 0,
+     "why": "EPS isn't value; check NPV."
+    }
+   ]
+  },
+  {
+   "id": "fin-83",
+   "level": "Advanced",
+   "title": "Leveraged buyouts (LBO)",
+   "summary": "How private equity uses debt to amplify returns.",
+   "term": {
+    "word": "MOIC",
+    "meaning": "Multiple on Invested Capital = Exit equity value ÷ Equity invested."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "In an LBO, a PE fund buys a company using a large share of debt, improves operations, repays debt from cash flows and exits after 3-7 years. Returns come from EBITDA growth, multiple expansion and debt paydown."
+    },
+    {
+     "h": "Why it matters",
+     "b": "LBO maths shows how leverage and cash generation drive equity returns, plus the risks if cash flows disappoint."
+    }
+   ],
+   "example": "PE funds in India have bought controlling stakes in companies across healthcare, IT services and consumer brands.",
+   "calc": {
+    "problem": "A PE fund buys a company for ₹1,000 crore with ₹600 crore debt and ₹400 crore equity. After 5 years it sells for ₹1,400 crore, with debt reduced to ₹300 crore. Find MOIC and IRR.",
+    "steps": [
+     "Exit equity = 1,400 − 300 = ₹1,100 crore",
+     "MOIC = 1,100 / 400 = 2.75x",
+     "IRR = 2.75^(1/5) − 1"
+    ],
+    "answer": "MOIC 2.75x; IRR ≈ 22.4%"
+   },
+   "quiz": [
+    {
+     "q": "LBO returns come from…",
+     "options": [
+      "EBITDA growth, multiple expansion and debt paydown",
+      "Only luck",
+      "Tax refunds",
+      "Dividends only"
+     ],
+     "answer": 0,
+     "why": "Three value levers."
+    },
+    {
+     "q": "A key LBO risk is…",
+     "options": [
+      "High equity",
+      "Too little debt",
+      "Low interest",
+      "Cash flows too weak to service debt"
+     ],
+     "answer": 3,
+     "why": "Leverage cuts both ways."
+    },
+    {
+     "q": "MOIC =",
+     "options": [
+      "EV ÷ EBITDA",
+      "Debt ÷ Equity",
+      "IRR × 5",
+      "Exit equity ÷ Equity invested"
+     ],
+     "answer": 3,
+     "why": "Money multiple."
+    }
+   ],
+   "calculator": "cagr"
+  },
+  {
+   "id": "fin-84",
+   "level": "Advanced",
+   "title": "Levered and unlevered beta",
+   "summary": "Adjust beta for different capital structures.",
+   "term": {
+    "word": "Unlevered beta (asset beta)",
+    "meaning": "Beta of the business without debt; reflects pure business risk."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Hamada equation: βL = βU × [1 + (1 − T) × D/E]. Analysts unlever peer betas to remove their financing effects, average them, then relever at the target's capital structure."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Using an unadjusted peer beta can mis-state cost of equity, especially for highly leveraged firms."
+    }
+   ],
+   "example": "Valuing a private company: take listed peers' betas, unlever them, then relever at the private company's D/E.",
+   "calc": {
+    "problem": "Unlevered beta 0.9; tax rate 25%; target D/E 0.5. Find the levered beta.",
+    "steps": [
+     "βL = βU × [1 + (1 − T) × D/E]",
+     "= 0.9 × [1 + 0.75 × 0.5]",
+     "= 0.9 × 1.375"
+    ],
+    "answer": "≈ 1.24"
+   },
+   "quiz": [
+    {
+     "q": "More debt makes levered beta…",
+     "options": [
+      "Zero",
+      "Unchanged",
+      "Higher",
+      "Lower"
+     ],
+     "answer": 2,
+     "why": "Financial risk adds to equity risk."
+    },
+    {
+     "q": "Unlevered beta reflects…",
+     "options": [
+      "Market cap",
+      "Financial risk only",
+      "Business (asset) risk only",
+      "Dividends"
+     ],
+     "answer": 2,
+     "why": "Pure operating risk."
+    },
+    {
+     "q": "Why unlever peer betas?",
+     "options": [
+      "To remove their financing effects",
+      "Regulators insist",
+      "For fun",
+      "To raise them"
+     ],
+     "answer": 0,
+     "why": "Compare like with like."
+    }
+   ],
+   "calculator": "capm"
+  },
+  {
+   "id": "fin-85",
+   "level": "Advanced",
+   "title": "Adjusted present value (APV)",
+   "summary": "Value the business and its financing effects separately.",
+   "term": {
+    "word": "APV",
+    "meaning": "Base-case NPV (all-equity) + PV of financing side effects (tax shields, subsidies, issue costs)."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "APV = NPV if all-equity financed + PV(tax shields) − PV(issue costs) ± other financing effects. It is useful when capital structure changes over time, as in LBOs and project finance."
+    },
+    {
+     "h": "Why it matters",
+     "b": "APV makes the value contributed by financing decisions transparent."
+    }
+   ],
+   "example": "A project with a government-subsidised loan gets an APV boost from the interest subsidy.",
+   "calc": {
+    "problem": "All-equity NPV ₹50 crore; PV of interest tax shields ₹30 crore; debt issue costs ₹5 crore. Find APV.",
+    "steps": [
+     "APV = Base NPV + PV tax shields − Issue costs",
+     "= 50 + 30 − 5"
+    ],
+    "answer": "₹75 crore"
+   },
+   "quiz": [
+    {
+     "q": "APV separates…",
+     "options": [
+      "Tax and GST",
+      "Operating value and financing effects",
+      "Revenue and costs",
+      "Debt and equity holders"
+     ],
+     "answer": 1,
+     "why": "Two components."
+    },
+    {
+     "q": "APV is especially useful when…",
+     "options": [
+      "Capital structure is constant",
+      "There's no debt",
+      "Capital structure changes over time",
+      "Projects are tiny"
+     ],
+     "answer": 2,
+     "why": "e.g. LBOs."
+    },
+    {
+     "q": "Debt issue costs in APV are…",
+     "options": [
+      "Added",
+      "Subtracted",
+      "Ignored",
+      "Doubled"
+     ],
+     "answer": 1,
+     "why": "They reduce value."
+    }
+   ],
+   "calculator": "npv"
+  },
+  {
+   "id": "fin-86",
+   "level": "Advanced",
+   "title": "Real options",
+   "summary": "The value of flexibility in uncertain projects.",
+   "term": {
+    "word": "Real option",
+    "meaning": "The right, but not obligation, to take a business action such as expanding, delaying or abandoning."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Standard NPV ignores managerial flexibility. Strategic NPV = Static NPV + Option value. Common options: expand, delay, abandon, switch."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Pilot projects and phased investments often look unattractive on static NPV but are valuable because they create options."
+    }
+   ],
+   "example": "A company launching in one city first keeps the option to expand nationally if demand proves strong, and to stop if not.",
+   "calc": {
+    "problem": "A pilot project has a static NPV of −₹20 crore, but the option to expand is valued at ₹35 crore. Find the strategic NPV.",
+    "steps": [
+     "Strategic NPV = Static NPV + Option value",
+     "= −20 + 35"
+    ],
+    "answer": "+₹15 crore (accept the pilot)"
+   },
+   "quiz": [
+    {
+     "q": "A real option is…",
+     "options": [
+      "A right but not obligation to act",
+      "A stock option only",
+      "A loan",
+      "An obligation"
+     ],
+     "answer": 0,
+     "why": "Flexibility has value."
+    },
+    {
+     "q": "Which is a real option?",
+     "options": [
+      "Filing GST",
+      "Paying salaries",
+      "Option to expand a factory later",
+      "Issuing invoices"
+     ],
+     "answer": 2,
+     "why": "Managerial flexibility."
+    },
+    {
+     "q": "Static NPV may undervalue projects because it ignores…",
+     "options": [
+      "Flexibility",
+      "Revenue",
+      "Costs",
+      "Taxes"
+     ],
+     "answer": 0,
+     "why": "Options add value."
+    }
+   ]
+  },
+  {
+   "id": "fin-87",
+   "level": "Advanced",
+   "title": "Options: calls and puts",
+   "summary": "Payoffs from the right to buy or sell.",
+   "term": {
+    "word": "Call option",
+    "meaning": "The right to buy an asset at a fixed strike price before or at expiry."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Call payoff = max(S − K, 0); put payoff = max(K − S, 0). Profit = payoff − premium paid. Buyers have limited loss (the premium); sellers take on larger risk. NSE has one of the world's highest volumes of index options."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Companies use options to hedge; investors use them to hedge or speculate. Understanding payoffs prevents costly mistakes."
+    }
+   ],
+   "example": "SEBI studies have found that the large majority of individual traders in equity F&O lose money, a warning about speculative use.",
+   "calc": {
+    "problem": "You buy a call with strike ₹100 for a premium of ₹5. At expiry the stock is ₹120. Find the payoff and profit.",
+    "steps": [
+     "Payoff = max(120 − 100, 0) = ₹20",
+     "Profit = 20 − 5"
+    ],
+    "answer": "Payoff ₹20; profit ₹15 per share"
+   },
+   "quiz": [
+    {
+     "q": "A put option gives the right to…",
+     "options": [
+      "Sell",
+      "Vote",
+      "Borrow",
+      "Buy"
+     ],
+     "answer": 0,
+     "why": "Puts protect against falls."
+    },
+    {
+     "q": "Maximum loss for an option buyer is…",
+     "options": [
+      "Zero",
+      "Unlimited",
+      "The premium paid",
+      "The strike price"
+     ],
+     "answer": 2,
+     "why": "Limited downside."
+    },
+    {
+     "q": "Call payoff at expiry =",
+     "options": [
+      "max(K − S, 0)",
+      "S + K",
+      "max(S − K, 0)",
+      "Premium"
+     ],
+     "answer": 2,
+     "why": "Value if S > K."
+    }
+   ]
+  },
+  {
+   "id": "fin-88",
+   "level": "Advanced",
+   "title": "Put-call parity",
+   "summary": "Calls, puts, stock and bonds are linked by arbitrage.",
+   "term": {
+    "word": "Arbitrage",
+    "meaning": "Risk-free profit from price differences; markets quickly eliminate it."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "For European options: C − P = S − K ÷ (1 + r)^T. If prices break this relationship, traders can lock in riskless profit, so prices stay in line."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Parity helps price options, detect mispricing and build synthetic positions."
+    }
+   ],
+   "example": "A protective put (stock + put) has the same payoff as a call plus a bond, which is a synthetic equivalent.",
+   "calc": {
+    "problem": "Stock ₹100; strike ₹100; risk-free 5%; 1 year; call price ₹10. What should the put cost?",
+    "steps": [
+     "P = C − S + K / (1 + r)^T",
+     "K / 1.05 = ₹95.24",
+     "P = 10 − 100 + 95.24"
+    ],
+    "answer": "≈ ₹5.24"
+   },
+   "quiz": [
+    {
+     "q": "Put-call parity links…",
+     "options": [
+      "Calls, puts, stock and a bond",
+      "Dividends and GST",
+      "Only calls",
+      "EPS and P/E"
+     ],
+     "answer": 0,
+     "why": "Four instruments."
+    },
+    {
+     "q": "If parity is violated, traders can…",
+     "options": [
+      "Do nothing",
+      "Earn risk-free arbitrage",
+      "Only lose",
+      "Call SEBI"
+     ],
+     "answer": 1,
+     "why": "Mispricing gets arbitraged."
+    },
+    {
+     "q": "Stock + put has the same payoff as…",
+     "options": [
+      "Short stock",
+      "Cash only",
+      "Two calls",
+      "Call + bond"
+     ],
+     "answer": 3,
+     "why": "Synthetic equivalence."
+    }
+   ]
+  },
+  {
+   "id": "fin-89",
+   "level": "Advanced",
+   "title": "Hedging with futures",
+   "summary": "Lock in prices to protect margins.",
+   "term": {
+    "word": "Futures contract",
+    "meaning": "A standardised exchange-traded agreement to buy or sell an asset at a set price on a future date."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "A buyer worried about rising prices goes long futures; a producer worried about falling prices goes short. Gains on futures offset losses in the physical market and vice versa. Futures are marked to market daily."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Fuel, metals and agricultural price swings can wipe out margins; hedging stabilises earnings."
+    }
+   ],
+   "example": "Airlines hedge jet fuel; jewellers hedge gold; sugar mills may hedge sugar prices.",
+   "calc": {
+    "problem": "An airline hedges 1,000 kilolitres of fuel at ₹90,000 per kL. The price rises to ₹1,00,000 per kL. How much did the hedge save?",
+    "steps": [
+     "Unhedged cost = 1,000 × 1,00,000 = ₹10 crore",
+     "Hedged cost = 1,000 × 90,000 = ₹9 crore",
+     "Saving = 10 − 9"
+    ],
+    "answer": "₹1 crore"
+   },
+   "quiz": [
+    {
+     "q": "A buyer fearing price rises should…",
+     "options": [
+      "Buy puts on its own shares",
+      "Buy (go long) futures",
+      "Sell futures",
+      "Do nothing"
+     ],
+     "answer": 1,
+     "why": "Lock in purchase price."
+    },
+    {
+     "q": "'Marked to market' means…",
+     "options": [
+      "Gains and losses settled daily",
+      "Sold at market",
+      "Advertised",
+      "Priced at year-end"
+     ],
+     "answer": 0,
+     "why": "Daily settlement."
+    },
+    {
+     "q": "A downside of hedging is…",
+     "options": [
+      "Illegal",
+      "No cost",
+      "Unlimited losses always",
+      "No benefit if prices fall"
+     ],
+     "answer": 3,
+     "why": "You give up favourable moves."
+    }
+   ]
+  },
+  {
+   "id": "fin-90",
+   "level": "Advanced",
+   "title": "Duration and bond price risk",
+   "summary": "Measure how sensitive a bond is to rate changes.",
+   "term": {
+    "word": "Modified duration",
+    "meaning": "Approximate % change in bond price for a 1% change in yield."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "% price change ≈ −Modified duration × Change in yield. Longer maturity and lower coupons → higher duration → more rate risk. Banks and insurers match asset and liability durations."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Duration is the main tool for managing interest-rate risk in bond portfolios and balance sheets."
+    }
+   ],
+   "example": "Silicon Valley Bank's 2023 collapse was linked to holding long-duration bonds funded by short-term deposits as rates rose.",
+   "calc": {
+    "problem": "A bond priced at ₹1,000 has a modified duration of 5. Yields rise by 1%. Estimate the new price.",
+    "steps": [
+     "% change ≈ −5 × 1% = −5%",
+     "New price ≈ 1,000 × (1 − 0.05)"
+    ],
+    "answer": "≈ ₹950"
+   },
+   "quiz": [
+    {
+     "q": "Higher duration means…",
+     "options": [
+      "More rate sensitivity",
+      "Higher coupon",
+      "Less rate sensitivity",
+      "No risk"
+     ],
+     "answer": 0,
+     "why": "Bigger price swings."
+    },
+    {
+     "q": "Which bond has higher duration?",
+     "options": [
+      "Cash",
+      "Short maturity, high coupon",
+      "Overnight deposit",
+      "Long maturity, low coupon"
+     ],
+     "answer": 3,
+     "why": "Cash flows further out."
+    },
+    {
+     "q": "SVB's collapse highlighted…",
+     "options": [
+      "GST issues",
+      "Duration mismatch risk",
+      "Low deposits",
+      "High equity"
+     ],
+     "answer": 1,
+     "why": "Long assets, short liabilities."
+    }
+   ]
+  },
+  {
+   "id": "fin-91",
+   "level": "Advanced",
+   "title": "Value at Risk (VaR)",
+   "summary": "How much could we lose on a bad day?",
+   "term": {
+    "word": "Value at Risk",
+    "meaning": "The maximum expected loss over a period at a given confidence level."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Parametric VaR = Portfolio value × Volatility × z-score (1.65 for 95%, 2.33 for 99%). A 1-day 95% VaR of ₹25 lakh means losses should exceed ₹25 lakh on only about 1 day in 20."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Banks, treasuries and funds use VaR for risk limits and regulatory capital. But VaR doesn't say how bad the worst days can be (tail risk)."
+    }
+   ],
+   "example": "During market crashes, losses can far exceed VaR estimates, which is why stress testing complements it.",
+   "calc": {
+    "problem": "Portfolio ₹10 crore; daily volatility 1.5%; 95% confidence (z = 1.65). Find 1-day VaR.",
+    "steps": [
+     "VaR = 10 crore × 1.5% × 1.65",
+     "= 10 crore × 0.02475"
+    ],
+    "answer": "≈ ₹24.75 lakh"
+   },
+   "quiz": [
+    {
+     "q": "A 95% 1-day VaR of ₹25 lakh means…",
+     "options": [
+      "You'll never lose more",
+      "Losses exceed ₹25 lakh about 1 day in 20",
+      "You'll gain ₹25 lakh",
+      "Losses every day"
+     ],
+     "answer": 1,
+     "why": "Confidence-based threshold."
+    },
+    {
+     "q": "A key limitation of VaR is…",
+     "options": [
+      "It's too simple to compute",
+      "It uses money",
+      "It ignores how bad tail losses can be",
+      "It's illegal"
+     ],
+     "answer": 2,
+     "why": "Tail risk."
+    },
+    {
+     "q": "The z-score for 99% confidence is about…",
+     "options": [
+      "1.65",
+      "5",
+      "0.5",
+      "2.33"
+     ],
+     "answer": 3,
+     "why": "One-tailed 99%."
+    }
+   ]
+  },
+  {
+   "id": "fin-92",
+   "level": "Advanced",
+   "title": "Sharpe ratio",
+   "summary": "Return per unit of risk.",
+   "term": {
+    "word": "Sharpe ratio",
+    "meaning": "(Portfolio return − Risk-free rate) ÷ Standard deviation of returns."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Higher Sharpe means better risk-adjusted performance. It lets you compare funds or strategies with different risk levels."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Treasurers and investors shouldn't chase raw returns; they should compare returns per unit of risk."
+    }
+   ],
+   "example": "Fund A returning 18% with high volatility may be worse than Fund B returning 14% with low volatility.",
+   "calc": {
+    "problem": "A portfolio returns 14%; risk-free rate 7%; standard deviation 20%. Find the Sharpe ratio.",
+    "steps": [
+     "Excess return = 14% − 7% = 7%",
+     "Sharpe = 7% / 20%"
+    ],
+    "answer": "0.35"
+   },
+   "quiz": [
+    {
+     "q": "Sharpe ratio measures…",
+     "options": [
+      "Dividend yield",
+      "Total return",
+      "Liquidity",
+      "Risk-adjusted return"
+     ],
+     "answer": 3,
+     "why": "Excess return per unit of risk."
+    },
+    {
+     "q": "A higher Sharpe ratio is…",
+     "options": [
+      "Irrelevant",
+      "Worse",
+      "Always above 10",
+      "Better"
+     ],
+     "answer": 3,
+     "why": "More reward per risk."
+    },
+    {
+     "q": "The denominator of the Sharpe ratio is…",
+     "options": [
+      "Risk-free rate",
+      "Beta",
+      "Standard deviation",
+      "Price"
+     ],
+     "answer": 2,
+     "why": "Total volatility."
+    }
+   ]
+  },
+  {
+   "id": "fin-93",
+   "level": "Advanced",
+   "title": "Free cash flow to equity (FCFE)",
+   "summary": "Cash available to shareholders after debt holders.",
+   "term": {
+    "word": "FCFE",
+    "meaning": "FCFF − Interest × (1 − T) + Net borrowing."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "FCFE values equity directly when discounted at the cost of equity. It's useful for banks and companies with stable leverage."
+    },
+    {
+     "h": "Why it matters",
+     "b": "FCFE shows how much could be paid as dividends or buybacks without hurting operations."
+    }
+   ],
+   "example": "Analysts value banks with equity-based models because debt is part of their operations.",
+   "calc": {
+    "problem": "FCFF ₹275 crore; interest ₹40 crore; tax 25%; net new borrowing ₹20 crore. Find FCFE.",
+    "steps": [
+     "After-tax interest = 40 × 0.75 = ₹30 crore",
+     "FCFE = 275 − 30 + 20"
+    ],
+    "answer": "₹265 crore"
+   },
+   "quiz": [
+    {
+     "q": "FCFE is discounted at…",
+     "options": [
+      "Cost of debt",
+      "Cost of equity",
+      "Risk-free rate",
+      "WACC"
+     ],
+     "answer": 1,
+     "why": "Cash to equity holders."
+    },
+    {
+     "q": "Net new borrowing ___ FCFE.",
+     "options": [
+      "Doesn't affect",
+      "Reduces",
+      "Increases",
+      "Doubles"
+     ],
+     "answer": 2,
+     "why": "Borrowed cash is available to equity."
+    },
+    {
+     "q": "FCFE is often used to value…",
+     "options": [
+      "Banks",
+      "Bonds",
+      "Commodities",
+      "Currencies"
+     ],
+     "answer": 0,
+     "why": "Debt is operational for banks."
+    }
+   ]
+  },
+  {
+   "id": "fin-94",
+   "level": "Advanced",
+   "title": "Buybacks vs dividends",
+   "summary": "Two ways to return cash, with different effects.",
+   "term": {
+    "word": "Share buyback",
+    "meaning": "A company repurchasing its own shares, reducing shares outstanding."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Buybacks reduce share count, raising EPS if earnings are unchanged. Dividends give cash to all shareholders. In theory both return value equally; in practice taxes, signalling and flexibility differ."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Capital return policy is a key board decision and a signal of management confidence."
+    }
+   ],
+   "example": "Large Indian IT companies have used repeated buybacks alongside dividends to return surplus cash.",
+   "calc": {
+    "problem": "Net income ₹100 crore; shares 50 crore (EPS ₹2.00). The company buys back 10% of shares. Find the new EPS (assume net income unchanged).",
+    "steps": [
+     "Shares after buyback = 50 × 0.9 = 45 crore",
+     "New EPS = 100 / 45 = ₹2.22",
+     "Increase = 2.22 / 2.00 − 1"
+    ],
+    "answer": "≈ ₹2.22 (+11.1%)"
+   },
+   "quiz": [
+    {
+     "q": "A buyback usually ___ EPS if profit is unchanged.",
+     "options": [
+      "Raises",
+      "Lowers",
+      "Doesn't change",
+      "Halves"
+     ],
+     "answer": 0,
+     "why": "Fewer shares."
+    },
+    {
+     "q": "Buybacks are often seen as a signal that management thinks shares are…",
+     "options": [
+      "Illegal",
+      "Worthless",
+      "Overvalued",
+      "Undervalued"
+     ],
+     "answer": 3,
+     "why": "Confidence signal."
+    },
+    {
+     "q": "A benefit of buybacks vs regular dividends is…",
+     "options": [
+      "More flexibility",
+      "Mandatory every year",
+      "No cash used",
+      "Always tax-free"
+     ],
+     "answer": 0,
+     "why": "One-off, flexible."
+    }
+   ]
+  },
+  {
+   "id": "fin-95",
+   "level": "Advanced",
+   "title": "Stock splits and bonus issues",
+   "summary": "More shares, same company value.",
+   "term": {
+    "word": "Bonus issue",
+    "meaning": "Free additional shares to existing shareholders, funded from reserves."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Splits divide each share into smaller units (e.g. ₹10 face value into ₹2). Bonus issues give extra shares (e.g. 1:1). Both raise share count and lower price proportionally; market cap and ownership % don't change."
+    },
+    {
+     "h": "Why it matters",
+     "b": "They improve liquidity and affordability, but create no value by themselves."
+    }
+   ],
+   "example": "Many Indian companies announce bonus issues after strong years, and share prices adjust on the ex-date.",
+   "calc": {
+    "problem": "10 crore shares trade at ₹500. The company announces a 1:1 bonus. Find the new share count, theoretical price and market cap.",
+    "steps": [
+     "New shares = 10 × 2 = 20 crore",
+     "Theoretical price = 500 / 2 = ₹250",
+     "Market cap = 20 crore × 250 = ₹5,000 crore (unchanged)"
+    ],
+    "answer": "20 crore shares at ≈ ₹250; market cap ₹5,000 crore"
+   },
+   "quiz": [
+    {
+     "q": "A 1:1 bonus issue…",
+     "options": [
+      "Doubles market cap",
+      "Halves shares",
+      "Doubles shares, roughly halves price",
+      "Adds cash"
+     ],
+     "answer": 2,
+     "why": "Value unchanged."
+    },
+    {
+     "q": "Does a stock split create value by itself?",
+     "options": [
+      "No",
+      "Yes, always",
+      "Only in bull markets",
+      "Only for banks"
+     ],
+     "answer": 0,
+     "why": "Same pie, more slices."
+    },
+    {
+     "q": "Bonus shares are funded from…",
+     "options": [
+      "Bank loans",
+      "New investors",
+      "Reserves",
+      "GST refunds"
+     ],
+     "answer": 2,
+     "why": "Capitalising reserves."
+    }
+   ]
+  },
+  {
+   "id": "fin-96",
+   "level": "Advanced",
+   "title": "IPOs and pre/post-money valuation",
+   "summary": "How raising capital changes ownership.",
+   "term": {
+    "word": "Post-money valuation",
+    "meaning": "Company value immediately after new investment = Pre-money + New money."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Investor ownership = New money ÷ Post-money valuation. In an IPO, a fresh issue raises money for the company; an offer for sale (OFS) lets existing shareholders sell. SEBI regulates disclosures through the DRHP and RHP."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Understanding dilution and valuation is essential for founders, employees with ESOPs and investors."
+    }
+   ],
+   "example": "Many Indian startup IPOs combine a fresh issue with an OFS by early investors.",
+   "calc": {
+    "problem": "Pre-money valuation ₹800 crore; a fresh issue raises ₹200 crore. Find post-money valuation and the new investors' stake.",
+    "steps": [
+     "Post-money = 800 + 200 = ₹1,000 crore",
+     "New investors' stake = 200 / 1,000"
+    ],
+    "answer": "Post-money ₹1,000 crore; stake 20%"
+   },
+   "quiz": [
+    {
+     "q": "Post-money =",
+     "options": [
+      "Pre-money + New money",
+      "Pre-money − New money",
+      "New money only",
+      "Revenue × 10"
+     ],
+     "answer": 0,
+     "why": "Value after investment."
+    },
+    {
+     "q": "In an offer for sale (OFS), money goes to…",
+     "options": [
+      "SEBI",
+      "The company",
+      "Selling shareholders",
+      "The exchange"
+     ],
+     "answer": 2,
+     "why": "Existing holders sell."
+    },
+    {
+     "q": "The IPO draft document filed with SEBI is the…",
+     "options": [
+      "GSTR-1",
+      "DRHP",
+      "ITR",
+      "MoA"
+     ],
+     "answer": 1,
+     "why": "Draft Red Herring Prospectus."
+    }
+   ]
+  },
+  {
+   "id": "fin-97",
+   "level": "Advanced",
+   "title": "Dilution across funding rounds",
+   "summary": "How a founder's stake shrinks as the company grows.",
+   "term": {
+    "word": "Dilution",
+    "meaning": "Reduction in ownership percentage when new shares are issued."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Each round, existing holders' stakes multiply by (1 − % sold in the round). ESOP pools also dilute. A smaller share of a much bigger company can still be worth far more."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Founders and employees must understand how much ownership they'll keep through seed, Series A, B and beyond."
+    }
+   ],
+   "example": "Successful founders often end up with 10-25% at IPO, yet their stakes are worth hundreds or thousands of crores.",
+   "calc": {
+    "problem": "A founder owns 100%. Seed investors buy 20%; then Series A investors buy 25% of the post-round company. What does the founder own after Series A?",
+    "steps": [
+     "After seed: 100% × (1 − 0.20) = 80%",
+     "After Series A: 80% × (1 − 0.25)"
+    ],
+    "answer": "60%"
+   },
+   "quiz": [
+    {
+     "q": "Issuing new shares to investors…",
+     "options": [
+      "Dilutes existing holders' %",
+      "Increases founder %",
+      "Has no effect",
+      "Reduces company value"
+     ],
+     "answer": 0,
+     "why": "Ownership is shared."
+    },
+    {
+     "q": "ESOP pools…",
+     "options": [
+      "Are loans",
+      "Also dilute existing holders",
+      "Don't dilute",
+      "Increase founder stake"
+     ],
+     "answer": 1,
+     "why": "New shares for employees."
+    },
+    {
+     "q": "Why can dilution still be good?",
+     "options": [
+      "A smaller share of a much bigger company can be worth more",
+      "It never is",
+      "It reduces tax",
+      "It removes investors"
+     ],
+     "answer": 0,
+     "why": "Value over percentage."
+    }
+   ]
+  },
+  {
+   "id": "fin-98",
+   "level": "Advanced",
+   "title": "Unit economics: LTV and CAC",
+   "summary": "Does each customer make money over their lifetime?",
+   "term": {
+    "word": "Customer Acquisition Cost (CAC)",
+    "meaning": "Total sales and marketing spend ÷ new customers acquired."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "LTV (simplified) = ARPU × Gross margin ÷ Churn rate. LTV/CAC > 3 is a common benchmark; CAC payback = CAC ÷ (ARPU × Gross margin) in months."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Startups and digital businesses live or die by unit economics; growth with poor LTV/CAC burns cash."
+    }
+   ],
+   "example": "Many quick-commerce and food-delivery businesses focus intensely on improving contribution per order and LTV/CAC.",
+   "calc": {
+    "problem": "ARPU ₹500 per month; gross margin 60%; monthly churn 5%; CAC ₹2,000. Find LTV, LTV/CAC and CAC payback.",
+    "steps": [
+     "Monthly gross profit per user = 500 × 60% = ₹300",
+     "LTV = 300 / 0.05 = ₹6,000",
+     "LTV/CAC = 6,000 / 2,000 = 3x",
+     "CAC payback = 2,000 / 300 ≈ 6.7 months"
+    ],
+    "answer": "LTV ₹6,000; 3x; payback ≈ 6.7 months"
+   },
+   "quiz": [
+    {
+     "q": "A common healthy LTV/CAC benchmark is…",
+     "options": [
+      "Exactly 0",
+      "Below 1",
+      "Above 3",
+      "Above 100"
+     ],
+     "answer": 2,
+     "why": "3x or more."
+    },
+    {
+     "q": "Higher churn makes LTV…",
+     "options": [
+      "Lower",
+      "Higher",
+      "Unchanged",
+      "Infinite"
+     ],
+     "answer": 0,
+     "why": "Customers leave sooner."
+    },
+    {
+     "q": "CAC includes…",
+     "options": [
+      "Rent only",
+      "Only salaries of engineers",
+      "Sales and marketing spend to acquire customers",
+      "Taxes"
+     ],
+     "answer": 2,
+     "why": "Acquisition costs."
+    }
+   ]
+  },
+  {
+   "id": "fin-99",
+   "level": "Advanced",
+   "title": "ESG and carbon pricing in decisions",
+   "summary": "Putting a price on emissions changes project economics.",
+   "term": {
+    "word": "Internal carbon price",
+    "meaning": "A notional cost per tonne of CO₂ that companies apply to projects to account for climate risk."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "ESG covers Environmental, Social and Governance factors. SEBI requires top listed companies to file a Business Responsibility and Sustainability Report (BRSR). Internal carbon pricing makes future regulation and transition risks visible in NPV today."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Investors and lenders increasingly price ESG risks; green bonds and sustainability-linked loans offer financing advantages."
+    }
+   ],
+   "example": "Several large Indian companies have adopted internal carbon prices and net-zero targets.",
+   "calc": {
+    "problem": "A project emits 10,000 tonnes of CO₂ per year. The company uses an internal carbon price of ₹2,000 per tonne. What annual cost is added to the project analysis?",
+    "steps": [
+     "Carbon cost = 10,000 × 2,000"
+    ],
+    "answer": "₹2 crore per year"
+   },
+   "quiz": [
+    {
+     "q": "ESG stands for…",
+     "options": [
+      "Environmental, Social, Governance",
+      "Equity, Shares, Growth",
+      "Energy, Solar, Gas",
+      "Earnings, Sales, GDP"
+     ],
+     "answer": 0,
+     "why": "Sustainability factors."
+    },
+    {
+     "q": "SEBI's sustainability report for top listed companies is the…",
+     "options": [
+      "DRHP",
+      "BRSR",
+      "GSTR",
+      "CARO"
+     ],
+     "answer": 1,
+     "why": "Business Responsibility and Sustainability Report."
+    },
+    {
+     "q": "An internal carbon price helps to…",
+     "options": [
+      "Raise share price directly",
+      "Reduce GST",
+      "Reflect climate risks in investment decisions",
+      "Avoid taxes"
+     ],
+     "answer": 2,
+     "why": "Future-proof decisions."
+    }
+   ]
+  },
+  {
+   "id": "fin-100",
+   "level": "Advanced",
+   "title": "Capital allocation: the CEO's biggest job",
+   "summary": "Where every rupee of capital goes decides long-term value.",
+   "term": {
+    "word": "Capital allocation",
+    "meaning": "Deciding how to deploy cash among reinvestment, acquisitions, debt reduction, dividends and buybacks."
+   },
+   "sections": [
+    {
+     "h": "Concept",
+     "b": "Options: reinvest in the business (if ROIC > WACC), acquire (if synergies > premium), pay down debt, pay dividends, buy back shares (if undervalued). The best allocators are disciplined and return cash when good opportunities are scarce."
+    },
+    {
+     "h": "Why it matters",
+     "b": "Over a decade, capital allocation decisions often matter more to shareholder returns than operating performance."
+    }
+   ],
+   "example": "William Thorndike's 'The Outsiders' profiles CEOs who created exceptional value mainly through disciplined capital allocation.",
+   "calc": {
+    "problem": "A company has ₹500 crore to reinvest at an ROIC of 18%; its WACC is 11%. How much economic value does this investment add each year?",
+    "steps": [
+     "Spread = 18% − 11% = 7%",
+     "Annual economic profit = 500 × 7%"
+    ],
+    "answer": "₹35 crore per year"
+   },
+   "quiz": [
+    {
+     "q": "Reinvesting is best when…",
+     "options": [
+      "Cash is zero",
+      "ROIC < WACC",
+      "ROIC > WACC",
+      "Rates are high"
+     ],
+     "answer": 2,
+     "why": "Positive spread."
+    },
+    {
+     "q": "Buybacks make most sense when shares are…",
+     "options": [
+      "Undervalued",
+      "Overvalued",
+      "Delisted",
+      "Illiquid"
+     ],
+     "answer": 0,
+     "why": "Buy below intrinsic value."
+    },
+    {
+     "q": "Which is NOT a capital allocation option?",
+     "options": [
+      "Dividends",
+      "Changing the company logo",
+      "Acquisitions",
+      "Debt repayment"
+     ],
+     "answer": 1,
+     "why": "The others deploy capital."
+    }
+   ]
+  }
+ ]
+}
