@@ -2,13 +2,13 @@
  "track": {
   "key": "ai",
   "title": "Human Edge in AI",
-  "tagline": "Stay irreplaceable in the age of AI",
+  "tagline": "Your lasting edge, even if AI overpowers everything else",
   "emoji": "🧠",
   "color": "#6C3BFF",
   "order": 1
  },
  "levels": [
-  "AI Literacy",
+  "Edge in an AI-Run World",
   "Mindset",
   "Skills",
   "Work & Career",
@@ -17,842 +17,842 @@
  ],
  "lessons": [
   {
-   "id": "ai-35",
-   "level": "AI Literacy",
-   "title": "What AI really is (and isn't)",
-   "summary": "AI is pattern-finding software trained on data. It isn't a mind, and it isn't magic.",
+   "id": "ai-101",
+   "level": "Edge in an AI-Run World",
+   "title": "The authenticity premium",
+   "summary": "When machines can fake anything, proven human work becomes more valuable.",
    "sections": [
     {
      "h": "The idea",
-     "b": "Most modern AI is machine learning. Instead of programmers writing every rule, a model learns patterns from millions of examples. Show it enough labelled photos and it learns to recognise cats. Show it enough text and it learns how language flows."
+     "b": "If AI can generate perfect photos, voices, essays and music in seconds, the market floods with synthetic content. Anything that is verifiably made, said or done by a real person gains value: a handwritten note, a live performance, a signed opinion, a real customer review."
     },
     {
      "h": "Why humans win here",
-     "b": "Because AI learns from past data, it is strongest where the future looks like the past. Humans are strongest where situations are new, values conflict or there is no data yet. Knowing this boundary tells you where to lean in."
+     "b": "Only humans can offer provenance: 'I was there, I made this, I stand behind it.' People pay more for handmade goods, live concerts and trusted experts precisely because they are scarce and real."
     },
     {
      "h": "In practice",
-     "b": "When you meet an AI tool, ask three questions. What data was it trained on? What exactly is it predicting? How will I know when it's wrong? These three questions remove most of the mystery and most of the fear."
+     "b": "Build a visible trail of genuine work: show your process (drafts, photos, behind-the-scenes), sign your work with your name, meet people in person, and be transparent when you used AI help."
     },
     {
      "h": "Go deeper",
-     "b": "Classic software follows explicit rules (IF salary > X THEN tax = Y). Machine learning finds the rule from examples. Deep learning uses large neural networks with many layers. Generative AI is deep learning that produces new text, images, audio or code."
+     "b": "Economists call this a 'scarcity shift': when something becomes abundant (AI content), value moves to what stays scarce (verified human attention, trust, presence). Watch for 'human-made' labels and content credentials spreading."
     }
    ],
-   "action": "Pick one AI feature you use (spam filter, Maps ETA, YouTube recommendations) and write down what it predicts and what data it probably learned from.",
+   "action": "Share one piece of your work today with your process visible: a draft, a photo of your notes or a short explanation of how you made it.",
    "quiz": [
     {
-     "q": "What does a machine-learning model mainly do?",
+     "q": "When AI content becomes abundant, what becomes more valuable?",
      "options": [
-      "Follows rules typed by programmers",
-      "Learns patterns from examples",
-      "Thinks like a human brain",
-      "Searches the internet live"
-     ],
-     "answer": 1,
-     "why": "ML models learn statistical patterns from training data."
-    },
-    {
-     "q": "Where is AI usually strongest?",
-     "options": [
-      "Moral dilemmas",
-      "Brand-new situations",
-      "Situations similar to its training data",
-      "Situations with no data"
-     ],
-     "answer": 2,
-     "why": "Models generalise from past patterns."
-    },
-    {
-     "q": "Generative AI is best described as…",
-     "options": [
-      "Rule-based automation",
-      "A type of spreadsheet",
-      "Models that produce new content like text or images",
-      "A database"
-     ],
-     "answer": 2,
-     "why": "It generates new outputs from learned patterns."
-    }
-   ]
-  },
-  {
-   "id": "ai-36",
-   "level": "AI Literacy",
-   "title": "How chatbots like ChatGPT work",
-   "summary": "Large language models predict the next word extremely well. That simple trick produces surprising abilities.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "A large language model (LLM) is trained on huge amounts of text to predict the next token (a word or word-piece). After pre-training, it is fine-tuned with human feedback so it follows instructions and is helpful."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "An LLM doesn't 'know' things the way you do. It has no lived experience, no goals and no stake in the outcome. You bring purpose, verification and accountability."
-    },
-    {
-     "h": "In practice",
-     "b": "Treat an LLM like a brilliant, fast intern who has read the internet but has never worked at your company. Give it context, check its work and don't let it make final decisions on important matters."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Key terms: parameters (the model's learned weights), pre-training (learning from raw text), fine-tuning (specialising), RLHF (reinforcement learning from human feedback), temperature (how random the output is). Higher temperature gives more creative but less predictable answers."
-    }
-   ],
-   "action": "Ask a chatbot the same creative question three times and notice how the answers differ. That variation is sampling at work.",
-   "quiz": [
-    {
-     "q": "At its core, an LLM is trained to…",
-     "options": [
-      "Store facts in a table",
-      "Predict the next token",
-      "Browse websites",
-      "Copy answers from humans"
-     ],
-     "answer": 1,
-     "why": "Next-token prediction at massive scale."
-    },
-    {
-     "q": "What does RLHF add?",
-     "options": [
-      "Image generation",
-      "Human feedback to make answers helpful",
-      "Faster chips",
-      "More internet data"
-     ],
-     "answer": 1,
-     "why": "Human ratings teach the model preferred behaviour."
-    },
-    {
-     "q": "A higher 'temperature' setting makes outputs…",
-     "options": [
-      "More predictable",
-      "Free",
-      "More varied and creative",
-      "Shorter"
-     ],
-     "answer": 2,
-     "why": "Temperature controls randomness."
-    }
-   ]
-  },
-  {
-   "id": "ai-37",
-   "level": "AI Literacy",
-   "title": "Why AI makes things up",
-   "summary": "Hallucinations happen because models generate what sounds likely, not what is verified.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "An LLM produces the most plausible continuation of text. If it lacks the fact, it may still generate a fluent, confident and wrong answer: a fake citation, a wrong number, a non-existent law section."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Humans can say 'I don't know', check primary sources and feel the cost of being wrong. That professional scepticism is the antidote to hallucination."
-    },
-    {
-     "h": "In practice",
-     "b": "High-risk outputs (numbers, legal or medical claims, quotes, citations) always need verification. Ask the AI for sources, then open them. Use tools that ground answers in your documents (retrieval) when accuracy matters."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Techniques that reduce hallucination: retrieval-augmented generation (RAG), asking for quotes from provided text, lower temperature, and asking the model to say 'not found' when unsure. They reduce the risk but never remove it."
-    }
-   ],
-   "action": "Ask an AI for 3 research papers on a niche topic with authors and years, then check whether each one really exists.",
-   "quiz": [
-    {
-     "q": "Why do LLMs hallucinate?",
-     "options": [
-      "They generate plausible text even without verified facts",
-      "Servers are slow",
-      "They are lazy",
-      "Users type badly"
+      "Verifiably human-made work",
+      "Faster internet",
+      "More AI content",
+      "Cheaper phones"
      ],
      "answer": 0,
-     "why": "Fluency isn't the same as truth."
+     "why": "Scarcity shifts value to real human work."
     },
     {
-     "q": "Which output most needs verification?",
+     "q": "What is 'provenance'?",
      "options": [
-      "A poem",
-      "A brainstorm of slogans",
-      "A friendly email opener",
-      "A legal section number in a contract note"
+      "Proof of who made something and how",
+      "A social media trend",
+      "A type of AI",
+      "A tax"
+     ],
+     "answer": 0,
+     "why": "Origin you can trust."
+    },
+    {
+     "q": "A practical way to show authenticity is to…",
+     "options": [
+      "Hide your process",
+      "Show drafts and behind-the-scenes work",
+      "Use only AI",
+      "Post anonymously"
+     ],
+     "answer": 1,
+     "why": "Visible process builds belief."
+    }
+   ]
+  },
+  {
+   "id": "ai-102",
+   "level": "Edge in an AI-Run World",
+   "title": "Trust is the last moat",
+   "summary": "AI can be smarter; people still choose whom they trust.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Even if AI gives better answers than any expert, people will still ask: 'Who is responsible if this goes wrong? Who knows me? Who has my interests at heart?' Trust is earned over years through reliability, honesty and shared history, and it can't be downloaded."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Doctors, CAs, lawyers, teachers and local shopkeepers keep clients not only for knowledge but for trust. In an AI-heavy world, the trusted human advisor becomes the 'final filter' people rely on."
+    },
+    {
+     "h": "In practice",
+     "b": "Keep promises, even small ones. Admit mistakes fast. Be consistent online and offline. Help people when there's nothing in it for you. Your reputation compounds like interest."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Research on trust (e.g. the 'trust equation': credibility + reliability + intimacy, divided by self-orientation) shows that putting others' interests first is the strongest trust builder."
+    }
+   ],
+   "action": "Do one small favour today with no expectation of return, and keep one promise exactly on time.",
+   "quiz": [
+    {
+     "q": "Why does trust stay valuable even if AI is smarter?",
+     "options": [
+      "Laws ban AI",
+      "AI is always wrong",
+      "People want someone accountable who knows them",
+      "Trust is free"
+     ],
+     "answer": 2,
+     "why": "Responsibility and relationship."
+    },
+    {
+     "q": "In the trust equation, what lowers trust?",
+     "options": [
+      "Intimacy",
+      "Credibility",
+      "Reliability",
+      "Self-orientation (putting yourself first)"
      ],
      "answer": 3,
-     "why": "Specific facts with consequences must be checked."
+     "why": "Selfishness destroys trust."
     },
     {
-     "q": "RAG reduces hallucination by…",
+     "q": "The fastest way to rebuild trust after a mistake is to…",
      "options": [
-      "Removing all data",
-      "Using emojis",
-      "Grounding answers in retrieved documents",
-      "Making the model bigger"
+      "Blame AI",
+      "Hide it",
+      "Change jobs",
+      "Admit it quickly and fix it"
      ],
-     "answer": 2,
-     "why": "Retrieval provides real sources to answer from."
+     "answer": 3,
+     "why": "Ownership."
     }
    ]
   },
   {
-   "id": "ai-38",
-   "level": "AI Literacy",
-   "title": "Bias in, bias out",
-   "summary": "AI reflects the data it learns from, including society's biases.",
+   "id": "ai-103",
+   "level": "Edge in an AI-Run World",
+   "title": "Being physically present",
+   "summary": "AI lives in screens; life happens in rooms, streets and homes.",
    "sections": [
     {
      "h": "The idea",
-     "b": "If historical hiring data favoured one group, a model trained on it may learn to prefer that group. If training images under-represent darker skin tones, recognition accuracy drops for them. Bias can enter through data, labels, design choices or how results are used."
+     "b": "The more interactions move online, the more valuable in-person presence becomes: weddings, hospital visits, site inspections, classrooms, protests, festivals. Being there signals care and creates bonds no video call can match."
     },
     {
      "h": "Why humans win here",
-     "b": "Spotting unfairness requires lived experience, ethics and diverse perspectives. Humans decide what 'fair' means in context, and that is a social choice, not a statistical one."
+     "b": "Physical presence lets you read body language, notice what's not said, build trust faster and respond to real situations. Robots and AI avatars can't replace the meaning of 'you came'."
     },
     {
      "h": "In practice",
-     "b": "When AI influences decisions about people (hiring, lending, grading), ask: Who is in the training data? Who is missing? How do error rates differ across groups? Who can appeal a decision?"
+     "b": "Show up for the important moments: visit clients, attend family events, join local meetups, mentor in person. Use AI to free time for presence, not to replace it."
     },
     {
      "h": "Go deeper",
-     "b": "Famous example: a large tech company scrapped an experimental recruiting tool after finding it down-ranked CVs containing the word 'women's'. Fairness audits, diverse teams and human review are standard safeguards."
+     "b": "Studies of remote work show that in-person contact still drives mentoring, promotions and innovation. Many companies use 'office for collaboration, home for focus' models."
     }
    ],
-   "action": "Think of one decision at your workplace or college that uses data about people. Write one way bias could creep in.",
+   "action": "Replace one call or chat this week with an in-person meeting or visit.",
    "quiz": [
     {
-     "q": "A main source of AI bias is…",
+     "q": "Why does presence gain value as life goes digital?",
      "options": [
-      "Historical data that reflects past unfairness",
-      "Dark mode",
-      "Fast internet",
-      "Long prompts"
+      "It's cheaper",
+      "It becomes scarcer and signals real care",
+      "AI requires it",
+      "It's faster"
      ],
-     "answer": 0,
-     "why": "Models learn patterns, including unfair ones."
+     "answer": 1,
+     "why": "Scarcity and meaning."
     },
     {
-     "q": "Who should define what 'fair' means for a use case?",
+     "q": "Presence helps you notice…",
+     "options": [
+      "Nothing new",
+      "Only words",
+      "Body language and what's unsaid",
+      "Server errors"
+     ],
+     "answer": 2,
+     "why": "Rich human signals."
+    },
+    {
+     "q": "A smart use of AI is to…",
+     "options": [
+      "Avoid people",
+      "Send more emails",
+      "Replace all meetings",
+      "Free time to spend with people"
+     ],
+     "answer": 3,
+     "why": "Buy back time for presence."
+    }
+   ]
+  },
+  {
+   "id": "ai-104",
+   "level": "Edge in an AI-Run World",
+   "title": "Skills of hands and body",
+   "summary": "Real-world dexterity stays hard for machines for a long time.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Robots improve, but messy real-world tasks (repairing old wiring, cooking for a family, nursing, carpentry, farming, fixing a two-wheeler on a rainy road) need adaptable hands, judgment and context. These skills are also deeply useful in daily life."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Humans adapt instantly to unpredictable environments: a leaking pipe in a cramped space, a nervous patient, a half-broken machine. Machines need structured environments and huge investment to do the same."
+    },
+    {
+     "h": "In practice",
+     "b": "Learn at least one practical skill well: first aid, basic electrical safety, cooking, plumbing basics, gardening or a craft. These protect you in emergencies and can become income."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Moravec's paradox explains why: what is easy for us (perception, movement) is hard for machines. Skilled trades in many countries already face shortages and rising wages."
+    }
+   ],
+   "action": "Pick one hands-on skill and watch a tutorial today; practise it this weekend.",
+   "quiz": [
+    {
+     "q": "Why are hands-on skills resilient?",
+     "options": [
+      "Real-world variability is hard for machines",
+      "They are online",
+      "They need no learning",
+      "They pay least"
+     ],
+     "answer": 0,
+     "why": "Unstructured environments."
+    },
+    {
+     "q": "Which is a practical life skill worth learning?",
+     "options": [
+      "Typing in caps",
+      "Scrolling faster",
+      "First aid",
+      "Memorising passwords"
+     ],
+     "answer": 2,
+     "why": "Protects you and others."
+    },
+    {
+     "q": "Moravec's paradox says…",
+     "options": [
+      "Easy-for-humans tasks are often hard for machines",
+      "Robots are cheap",
+      "AI can't do maths",
+      "Machines find physical skills easy"
+     ],
+     "answer": 0,
+     "why": "Perception and movement are hard to automate."
+    }
+   ]
+  },
+  {
+   "id": "ai-105",
+   "level": "Edge in an AI-Run World",
+   "title": "The care economy",
+   "summary": "Caring for people is the most human work there is.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "India's population is ageing, families are smaller and many parents live alone. Care work (elder care, childcare, nursing, therapy, disability support, palliative care) will grow enormously, and it needs warmth, patience and trust."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "AI can remind someone to take medicine; it can't hold a hand, notice loneliness in a voice or make a grandparent feel valued. Care is relationship, not just service."
+    },
+    {
+     "h": "In practice",
+     "b": "Build care skills: listening, patience, basic health knowledge, first aid, understanding dementia and mental health. Use tech (medicine reminders, video calls, fall-detection devices) to support care, not replace it."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Healthcare and social care are among the fastest-growing job sectors worldwide. In India, eldercare services and home nursing are expanding quickly. Elderline 14567 offers help for senior citizens."
+    }
+   ],
+   "action": "Call an elderly relative or neighbour today and ask about their week, then listen for 10 minutes.",
+   "quiz": [
+    {
+     "q": "Why will care work grow?",
+     "options": [
+      "It's banned",
+      "AI does it all",
+      "Ageing population and smaller families",
+      "Population is getting younger"
+     ],
+     "answer": 2,
+     "why": "Demographic shift."
+    },
+    {
+     "q": "What can AI NOT easily provide in care?",
+     "options": [
+      "Medicine reminders",
+      "Step counting",
+      "Appointment booking",
+      "Warmth and genuine companionship"
+     ],
+     "answer": 3,
+     "why": "Human connection."
+    },
+    {
+     "q": "India's helpline for senior citizens is…",
+     "options": [
+      "1906",
+      "1098",
+      "100",
+      "14567 (Elderline)"
+     ],
+     "answer": 3,
+     "why": "Elderline."
+    }
+   ]
+  },
+  {
+   "id": "ai-106",
+   "level": "Edge in an AI-Run World",
+   "title": "Own assets, not just skills",
+   "summary": "If AI makes labour cheaper, owning things matters more.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "If AI does more work, income may shift from wages (selling your time) toward capital (owning businesses, shares, property, intellectual property). People who only sell time could be squeezed; people who own productive assets benefit from AI's productivity."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Humans decide where to invest, which businesses to back and when to take risks. Patience and discipline in investing are human traits that compound over decades."
+    },
+    {
+     "h": "In practice",
+     "b": "Start early and regularly: SIPs in diversified index funds, an emergency fund, health insurance, and if possible a small side business or digital asset (a course, an app, a book) you own."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Economists debate how AI will split gains between labour and capital. A simple hedge: own a slice of the companies building and using AI through broad index funds. Use SEBI-registered advisers only."
+    }
+   ],
+   "action": "Check whether you have a monthly SIP and an emergency fund; if not, plan the first step today.",
+   "quiz": [
+    {
+     "q": "If AI cheapens labour, gains may shift toward…",
+     "options": [
+      "Owners of capital and assets",
+      "Only wages",
+      "Only governments",
+      "Nobody"
+     ],
+     "answer": 0,
+     "why": "Capital vs labour."
+    },
+    {
+     "q": "A simple way to own part of many companies is…",
+     "options": [
+      "Crypto tips from strangers",
+      "Diversified index funds",
+      "Chain messages",
+      "Lottery tickets"
+     ],
+     "answer": 1,
+     "why": "Broad ownership."
+    },
+    {
+     "q": "Before following investment advice, check that the adviser is…",
+     "options": [
+      "Very confident",
+      "Your neighbour",
+      "Popular on Instagram",
+      "SEBI-registered"
+     ],
+     "answer": 3,
+     "why": "Regulated advice."
+    }
+   ]
+  },
+  {
+   "id": "ai-107",
+   "level": "Edge in an AI-Run World",
+   "title": "Local knowledge and ground truth",
+   "summary": "AI knows the internet; you know your street.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "AI is trained on what's written online. Much of real life isn't written anywhere: which road floods first, which official actually helps, which supplier is reliable, what your community really needs. That 'ground truth' is a human advantage."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "People with deep local networks and first-hand observation spot problems and opportunities before data shows them, from a new market need to a safety risk."
+    },
+    {
+     "h": "In practice",
+     "b": "Walk your neighbourhood, talk to shopkeepers, attend RWA or panchayat meetings, keep notes. Combine local insight with AI tools to act faster than either alone."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Many successful Indian startups (from local delivery to agritech) began with founders noticing a hyper-local problem that big platforms ignored."
+    }
+   ],
+   "action": "Write down 3 problems in your neighbourhood that no app solves well today.",
+   "quiz": [
+    {
+     "q": "Why is local knowledge a human edge?",
+     "options": [
+      "AI has no maps",
+      "It's always online",
+      "It's illegal to share",
+      "Much of it isn't written anywhere AI can learn from"
+     ],
+     "answer": 3,
+     "why": "Unwritten ground truth."
+    },
+    {
+     "q": "A good way to build local knowledge is…",
+     "options": [
+      "Avoiding neighbours",
+      "Talking to shopkeepers and attending local meetings",
+      "Scrolling reels",
+      "Only reading news"
+     ],
+     "answer": 1,
+     "why": "First-hand contact."
+    },
+    {
+     "q": "Combining local insight with AI tools lets you…",
+     "options": [
+      "Replace all people",
+      "Avoid work",
+      "Ignore data",
+      "Act faster and smarter"
+     ],
+     "answer": 3,
+     "why": "Best of both."
+    }
+   ]
+  },
+  {
+   "id": "ai-108",
+   "level": "Edge in an AI-Run World",
+   "title": "The accountable signature",
+   "summary": "Someone must sign, decide and answer for it.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Even powerful AI can't go to court, lose its licence or apologise to a family. Societies require named humans to sign audits, prescribe medicines, approve bridges, judge cases and certify safety. Accountability is a human job by design."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Being the person who understands the AI output, checks it and puts their name on the decision is a durable, respected and well-paid role."
+    },
+    {
+     "h": "In practice",
+     "b": "Deepen expertise in an area where sign-off matters (finance, health, law, engineering, safety). Learn to verify AI outputs and document your reasoning. Be known as someone whose signature means something."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Regulators worldwide are adding 'human-in-the-loop' requirements for high-risk AI decisions, from credit to medical devices."
+    }
+   ],
+   "action": "Write one 'decision note' this week: what you decided, what you checked and what risk remains.",
+   "quiz": [
+    {
+     "q": "Why does accountability stay human?",
+     "options": [
+      "It's tradition only",
+      "AI can't type",
+      "AI is free",
+      "Laws and society require a responsible person"
+     ],
+     "answer": 3,
+     "why": "Liability needs a person."
+    },
+    {
+     "q": "A durable role is being the person who…",
+     "options": [
+      "Only writes prompts",
+      "Verifies AI output and signs the decision",
+      "Copies AI output blindly",
+      "Avoids decisions"
+     ],
+     "answer": 1,
+     "why": "Human-in-the-loop."
+    },
+    {
+     "q": "'Human-in-the-loop' rules are spreading for…",
+     "options": [
+      "Low-risk games",
+      "Music playlists",
+      "High-risk decisions like credit and health",
+      "Wallpaper apps"
+     ],
+     "answer": 2,
+     "why": "High stakes."
+    }
+   ]
+  },
+  {
+   "id": "ai-109",
+   "level": "Edge in an AI-Run World",
+   "title": "Meaning beyond work",
+   "summary": "If AI does more of the work, purpose must come from more than a job.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Many people get identity and purpose from their job. If AI reduces working hours or changes careers rapidly, people who have purpose beyond work (family, community, faith, art, learning, service) will cope and thrive better."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Only humans ask 'why does this matter?' and create meaning. Purpose drives resilience, health and happiness, and it can't be automated."
+    },
+    {
+     "h": "In practice",
+     "b": "Invest in 3 non-work identities: a relationship role (parent, friend), a community role (volunteer, mentor) and a growth role (learner, artist, athlete). Spend time on each weekly."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Research on retirees and long-lived communities (like Okinawa's 'ikigai') shows purpose is linked to longer, healthier lives."
+    }
+   ],
+   "action": "Write down three roles you play outside work and one way to deepen each this month.",
+   "quiz": [
+    {
+     "q": "Why does purpose beyond work matter in an AI world?",
+     "options": [
+      "Work will disappear tomorrow",
+      "AI forbids hobbies",
+      "Jobs may change or shrink",
+      "It doesn't"
+     ],
+     "answer": 2,
+     "why": "Resilience to change."
+    },
+    {
+     "q": "Which is a non-work identity?",
+     "options": [
+      "Job title",
+      "Office badge",
+      "Volunteer mentor",
+      "Salary"
+     ],
+     "answer": 2,
+     "why": "Community role."
+    },
+    {
+     "q": "Purpose is linked in research to…",
+     "options": [
+      "Nothing",
+      "Higher taxes",
+      "Longer, healthier lives",
+      "Shorter life"
+     ],
+     "answer": 2,
+     "why": "Ikigai studies."
+    }
+   ]
+  },
+  {
+   "id": "ai-110",
+   "level": "Edge in an AI-Run World",
+   "title": "Real relationships in a lonely world",
+   "summary": "AI companions are everywhere; real friendship is rare and precious.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "AI chatbots can be endlessly patient 'friends'. That may increase isolation if people withdraw from real relationships. Deep human friendships, with their friction, loyalty and shared history, become rarer and more valuable."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Real relationships involve mutual sacrifice and growth. Being a reliable friend, connector and community builder is a human edge that also protects your mental health."
+    },
+    {
+     "h": "In practice",
+     "b": "Keep a 'people list': 10 close relationships. Contact two each week. Host simple gatherings. Join a club or sports group. Use tech to arrange meetings, not to replace them."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Loneliness has been compared to smoking 15 cigarettes a day in health risk. India's Tele-MANAS helpline (14416) supports mental health."
+    }
+   ],
+   "action": "Message two friends today to plan a meet-up.",
+   "quiz": [
+    {
+     "q": "A risk of AI companions is…",
+     "options": [
+      "Better sleep",
+      "Lower bills",
+      "Withdrawing from real relationships",
+      "Too many real friends"
+     ],
+     "answer": 2,
+     "why": "Isolation."
+    },
+    {
+     "q": "What makes real relationships valuable?",
+     "options": [
+      "They're digital",
+      "They're effortless",
+      "They're one-sided",
+      "Mutual care, loyalty and shared history"
+     ],
+     "answer": 3,
+     "why": "Depth and reciprocity."
+    },
+    {
+     "q": "India's mental health helpline is…",
+     "options": [
+      "1098",
+      "14416 (Tele-MANAS)",
+      "139",
+      "1906"
+     ],
+     "answer": 1,
+     "why": "Tele-MANAS."
+    }
+   ]
+  },
+  {
+   "id": "ai-111",
+   "level": "Edge in an AI-Run World",
+   "title": "Moral courage",
+   "summary": "AI can calculate options; humans must stand up for what's right.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Powerful AI can be used for surveillance, manipulation, fraud and unfair decisions. Societies need people who say 'no, this is wrong', who blow the whistle, protect the vulnerable and refuse shortcuts even when it costs them."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Values-driven courage can't be outsourced. Organisations and communities trust people who have shown they'll do the right thing under pressure."
+    },
+    {
+     "h": "In practice",
+     "b": "Decide your red lines in advance (e.g. no misusing personal data, no fake reviews, no hiding risks). Practise speaking up early and calmly with facts. Know whistle-blower channels at work."
+    },
+    {
+     "h": "Go deeper",
+     "b": "History's biggest scandals often had insiders who noticed problems early. Ethical courage is a career asset in the long run."
+    }
+   ],
+   "action": "Write your three 'red lines', things you won't do at work even if asked.",
+   "quiz": [
+    {
+     "q": "Why is moral courage a human edge?",
+     "options": [
+      "AI always refuses wrong tasks",
+      "It's not needed",
+      "Humans must decide and stand up for values",
+      "It's automatic"
+     ],
+     "answer": 2,
+     "why": "Values need humans."
+    },
+    {
+     "q": "Deciding red lines in advance helps because…",
+     "options": [
+      "Pressure makes it harder to decide in the moment",
+      "AI asks for it",
+      "It's required by law",
+      "It wastes time"
+     ],
+     "answer": 0,
+     "why": "Pre-commitment."
+    },
+    {
+     "q": "A good way to raise a concern is…",
+     "options": [
+      "Early, calmly and with facts",
+      "Anonymously gossip",
+      "Never",
+      "Angrily on social media first"
+     ],
+     "answer": 0,
+     "why": "Effective speaking up."
+    }
+   ]
+  },
+  {
+   "id": "ai-112",
+   "level": "Edge in an AI-Run World",
+   "title": "Your civic voice",
+   "summary": "Citizens decide how AI is used in their society.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Rules on AI (data protection, deepfakes, surveillance, jobs) are made by governments influenced by citizens. If people stay silent, powerful interests decide alone. Voting, public consultations, RTI and community action shape the future."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Democracy is a human process: deliberation, compromise and representation. An informed, active citizen has real influence, especially locally."
+    },
+    {
+     "h": "In practice",
+     "b": "Vote in every election, read draft policies (MeitY consultations), use RTI to get information, and support consumer and digital rights groups. Know your rights under the DPDP Act, 2023."
+    },
+    {
+     "h": "Go deeper",
+     "b": "India's Digital Personal Data Protection Act, 2023 gives you rights to know how your data is used and to seek correction and grievance redressal."
+    }
+   ],
+   "action": "Check your name on the electoral roll (voters.eci.gov.in) and note one policy issue you care about.",
+   "quiz": [
+    {
+     "q": "Who shapes AI rules in a democracy?",
      "options": [
       "Nobody",
-      "The fastest computer",
-      "Humans, considering context and stakeholders",
-      "The model itself"
-     ],
-     "answer": 2,
-     "why": "Fairness is a human value judgment."
-    },
-    {
-     "q": "A good safeguard for AI decisions about people is…",
-     "options": [
-      "Human review and the ability to appeal",
-      "Hiding the model",
-      "No appeals",
-      "Using only one dataset forever"
-     ],
-     "answer": 0,
-     "why": "Oversight and recourse protect people."
-    }
-   ]
-  },
-  {
-   "id": "ai-39",
-   "level": "AI Literacy",
-   "title": "Predictive vs generative AI",
-   "summary": "One kind of AI forecasts and classifies; the other creates. Use the right one.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "Predictive AI answers 'what will happen' or 'which category': fraud detection, demand forecasting, credit scoring. Generative AI creates content: drafts, images, code, summaries."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Choosing the right tool for the business problem, and judging if AI is needed at all, is a human design decision. Sometimes a simple spreadsheet rule beats a fancy model."
-    },
-    {
-     "h": "In practice",
-     "b": "Map your problems: Is it a decision (approve or reject)? Use predictive models with clear metrics. Is it content creation or transformation? Use generative AI with human editing."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Predictive models are evaluated with accuracy, precision and recall. Generative outputs are judged on quality, factuality and tone, which are harder to measure and need human evaluation."
-    }
-   ],
-   "action": "List three problems at work. Label each as predictive, generative or 'no AI needed'.",
-   "quiz": [
-    {
-     "q": "Forecasting next month's sales is an example of…",
-     "options": [
-      "Generative AI",
-      "Predictive AI",
-      "Robotics",
-      "Blockchain"
-     ],
-     "answer": 1,
-     "why": "It predicts a future value."
-    },
-    {
-     "q": "Drafting a product description is…",
-     "options": [
-      "Predictive AI",
-      "Hardware",
-      "Data cleaning",
-      "Generative AI"
+      "AI itself",
+      "Only tech companies",
+      "Governments influenced by citizens"
      ],
      "answer": 3,
-     "why": "It creates new content."
+     "why": "Citizens matter."
     },
     {
-     "q": "Why can generative output be harder to evaluate?",
+     "q": "India's 2023 data protection law is the…",
      "options": [
-      "It has no text",
-      "Quality and tone need human judgment",
-      "It is always wrong",
-      "It is too fast"
-     ],
-     "answer": 1,
-     "why": "There is often no single right answer."
-    }
-   ]
-  },
-  {
-   "id": "ai-40",
-   "level": "AI Literacy",
-   "title": "AI agents: from chat to action",
-   "summary": "Agents don't just answer; they plan steps and use tools to complete tasks.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "An AI agent is a model that can break a goal into steps, call tools (search, spreadsheets, email, code), check results and continue. Examples: booking travel, reconciling invoices, fixing code bugs."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Agents need goals, guardrails and someone to approve risky actions. Deciding what an agent may do, and owning the outcome, stays human."
-    },
-    {
-     "h": "In practice",
-     "b": "Start with low-risk, reversible tasks. Require human approval for payments, external emails and deletions. Log what the agent did so you can audit it."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Agent design patterns: planning, tool use, memory, and reflection (checking its own work). Common failure modes: looping, wrong tool use and confidently finishing the wrong task."
-    }
-   ],
-   "action": "Write down one repetitive multi-step task you do. Mark the steps where you'd want an approval checkpoint.",
-   "quiz": [
-    {
-     "q": "What makes an agent different from a basic chatbot?",
-     "options": [
-      "It plans and uses tools to take actions",
-      "It works offline only",
-      "It only answers questions",
-      "It has no model"
-     ],
-     "answer": 0,
-     "why": "Agents act, not just chat."
-    },
-    {
-     "q": "Which action should usually require human approval?",
-     "options": [
-      "Sending a payment",
-      "Drafting a to-do list",
-      "Formatting a table",
-      "Summarising a public article"
-     ],
-     "answer": 0,
-     "why": "Irreversible or risky actions need sign-off."
-    },
-    {
-     "q": "Why log an agent's actions?",
-     "options": [
-      "To audit and correct mistakes",
-      "It's illegal not to",
-      "For decoration",
-      "To slow it down"
-     ],
-     "answer": 0,
-     "why": "Logs enable accountability."
-    }
-   ]
-  },
-  {
-   "id": "ai-41",
-   "level": "AI Literacy",
-   "title": "What's easy for humans is hard for AI",
-   "summary": "Moravec's paradox: AI aces exams but struggles to fold laundry.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "Researchers noticed that high-level reasoning (chess, maths) was easier to automate than skills a toddler has: perception, movement, common sense. Evolution spent millions of years refining those abilities."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Everyday common sense, physical dexterity and social intuition remain hard for machines. Jobs that blend these with judgment are more resilient."
-    },
-    {
-     "h": "In practice",
-     "b": "When predicting which tasks AI will take, don't ask 'is it intellectually hard?' Ask 'is it well-defined, digital and data-rich?' Those tasks automate first."
-    },
-    {
-     "h": "Go deeper",
-     "b": "The paradox explains why AI drafts legal memos before it can reliably tidy a messy room. It also explains why plumbers, nurses and electricians face lower automation risk than many office roles."
-    }
-   ],
-   "action": "List two tasks in your job that feel 'easy' to you but would be hard for a machine. Why?",
-   "quiz": [
-    {
-     "q": "Moravec's paradox says that…",
-     "options": [
-      "Robots are cheap",
-      "Humans can't reason",
-      "Sensorimotor and common-sense skills are hard to automate",
-      "AI is bad at maths"
-     ],
-     "answer": 2,
-     "why": "Easy-for-us often means hard-for-machines."
-    },
-    {
-     "q": "Which task tends to automate first?",
-     "options": [
-      "Unpredictable physical work",
-      "Comforting a grieving person",
-      "Repairing old wiring",
-      "Well-defined digital tasks with lots of data"
-     ],
-     "answer": 3,
-     "why": "Structured digital tasks are easiest."
-    },
-    {
-     "q": "Why are many skilled trades resilient?",
-     "options": [
-      "They pay less",
-      "They are new",
-      "They need no training",
-      "They require dexterity in varied environments"
-     ],
-     "answer": 3,
-     "why": "Real-world variability is hard for robots."
-    }
-   ]
-  },
-  {
-   "id": "ai-42",
-   "level": "AI Literacy",
-   "title": "Lessons from past automation",
-   "summary": "ATMs didn't end bank tellers. History shows jobs change shape more than they vanish.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "When ATMs spread, the cost of running a branch fell, banks opened more branches, and teller jobs shifted toward relationship and sales work. Spreadsheets didn't eliminate accountants; they shifted work to analysis."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Each wave automated tasks and raised the value of human skills around them: judgment, relationships and handling exceptions."
-    },
-    {
-     "h": "In practice",
-     "b": "Look for the 'ATM effect' in your field. When AI makes a task cheap, where does demand grow? Move toward that growing work."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Not every story ends well. Typists and switchboard operators largely disappeared. The difference is whether the job contains tasks that grow in value when other tasks become cheap. Economists call this complementarity."
-    }
-   ],
-   "action": "Name one task in your field that AI makes cheaper. What new, more valuable work might that create?",
-   "quiz": [
-    {
-     "q": "What happened to bank tellers after ATMs?",
-     "options": [
-      "Salaries tripled",
-      "They vanished overnight",
-      "Banks closed all branches",
-      "Their role shifted toward relationship work"
-     ],
-     "answer": 3,
-     "why": "Tasks changed; the role adapted."
-    },
-    {
-     "q": "Complementarity means a skill…",
-     "options": [
-      "Is unrelated to tech",
-      "Becomes more valuable as AI makes other tasks cheaper",
-      "Is replaced by AI",
-      "Is a compliment"
-     ],
-     "answer": 1,
-     "why": "Complements gain value from automation."
-    },
-    {
-     "q": "A smart career move when AI cheapens a task is to…",
-     "options": [
-      "Move toward the work whose demand grows",
-      "Ignore it",
-      "Quit learning",
-      "Compete on speed with AI"
-     ],
-     "answer": 0,
-     "why": "Ride the growing demand."
-    }
-   ]
-  },
-  {
-   "id": "ai-43",
-   "level": "AI Literacy",
-   "title": "Tokens, context and cost",
-   "summary": "Understanding tokens and context windows helps you use AI tools smarter.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "Models read and write in tokens. In English one token is about ¾ of a word. A context window is how many tokens the model can consider at once: your prompt, documents and its answer. Paid APIs charge per token."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Choosing what context to give is judgment: what's relevant, what's confidential, what's noise. Better context beats longer context."
-    },
-    {
-     "h": "In practice",
-     "b": "For long documents, give clear instructions and the relevant sections, not everything. Ask for structured outputs (tables, bullet points) to reduce rework."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Very long contexts can still 'lose' details in the middle. For critical work, ask the model to quote the exact source lines it used, so you can verify quickly."
-    }
-   ],
-   "action": "Next time you use AI on a long document, first write 3 bullet points of what you need from it and paste only the relevant parts.",
-   "quiz": [
-    {
-     "q": "Roughly how much of an English word is one token?",
-     "options": [
-      "10 words",
-      "One letter",
-      "About ¾ of a word",
-      "One paragraph"
-     ],
-     "answer": 2,
-     "why": "Common rule of thumb."
-    },
-    {
-     "q": "The context window is…",
-     "options": [
-      "The amount of text a model can consider at once",
-      "The screen size",
-      "A browser tab",
-      "Office hours"
-     ],
-     "answer": 0,
-     "why": "It limits input plus output length."
-    },
-    {
-     "q": "A good way to verify answers from long documents is to…",
-     "options": [
-      "Trust the summary",
-      "Ask the model to quote its source lines",
-      "Use more emojis",
-      "Shorten your name"
-     ],
-     "answer": 1,
-     "why": "Quotes allow quick checking."
-    }
-   ]
-  },
-  {
-   "id": "ai-44",
-   "level": "AI Literacy",
-   "title": "Multimodal AI: text, image, voice, video",
-   "summary": "AI now sees, hears and speaks. New uses open, and so do new risks.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "Multimodal models can read images and charts, transcribe meetings, describe photos, generate voices and create video. You can photograph a whiteboard and get clean notes, or ask questions about a chart."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Deepfakes and voice cloning make trust harder. Humans who verify identity, use code words and check provenance protect their organisations."
-    },
-    {
-     "h": "In practice",
-     "b": "Use multimodal AI for meeting notes, document scanning and accessibility. For any unusual money request by voice or video, verify through a second channel."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Content credentials (like C2PA) and watermarking help show where media came from. Fraudsters have used deepfake video calls of 'CFOs' to trick employees into transfers, so verification processes matter."
-    }
-   ],
-   "action": "Agree on a family or team 'safe word' for urgent money requests made by phone or video.",
-   "quiz": [
-    {
-     "q": "Multimodal AI can…",
-     "options": [
-      "Work across text, images, audio and video",
-      "Only translate",
-      "Only do maths",
-      "Only read text"
-     ],
-     "answer": 0,
-     "why": "Multiple input and output types."
-    },
-    {
-     "q": "Best defence against a deepfake 'CEO' asking for an urgent transfer?",
-     "options": [
-      "Reply with an emoji",
-      "Verify through a separate trusted channel",
-      "Pay quickly",
-      "Forward to everyone"
-     ],
-     "answer": 1,
-     "why": "Out-of-band verification stops fraud."
-    },
-    {
-     "q": "Content credentials help to…",
-     "options": [
-      "Compress files",
-      "Show where a piece of media came from",
-      "Speed up Wi-Fi",
-      "Increase likes"
-     ],
-     "answer": 1,
-     "why": "Provenance builds trust."
-    }
-   ]
-  },
-  {
-   "id": "ai-45",
-   "level": "AI Literacy",
-   "title": "Your data and AI",
-   "summary": "What you type into AI tools may be stored, reviewed or used for training.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "Free consumer AI tools may use conversations to improve models unless you opt out. Enterprise plans usually promise not to train on your data. India's Digital Personal Data Protection Act (DPDP), 2023 sets rules for handling personal data."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Deciding what's safe to share, respecting colleagues' and customers' privacy and following the law is professional judgment."
-    },
-    {
-     "h": "In practice",
-     "b": "Never paste passwords, customer personal data, unreleased financials or source code you're not allowed to share into public tools. Use anonymised examples instead ('Customer A', '₹X')."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Check settings: chat history, training opt-out and data retention. Ask IT which tools are approved. Under DPDP, organisations need a lawful basis such as consent to process personal data, and face penalties for breaches."
-    }
-   ],
-   "action": "Open the settings of an AI tool you use and check whether your chats are used for training.",
-   "quiz": [
-    {
-     "q": "Which is safe to paste into a public AI tool?",
-     "options": [
-      "An anonymised sample like 'Customer A paid ₹X'",
-      "Your password",
-      "A customer's Aadhaar number",
-      "Unreleased quarterly results"
-     ],
-     "answer": 0,
-     "why": "Anonymise before sharing."
-    },
-    {
-     "q": "India's 2023 law on personal data is the…",
-     "options": [
-      "RBI Act",
       "GST Act",
-      "Companies Act",
-      "DPDP Act"
+      "RTI Act",
+      "DPDP Act",
+      "IT Rules 1990"
      ],
-     "answer": 3,
+     "answer": 2,
      "why": "Digital Personal Data Protection Act."
     },
     {
-     "q": "Enterprise AI plans typically…",
+     "q": "A practical civic action is…",
      "options": [
-      "Promise not to train on your data",
-      "Have no admin controls",
-      "Are illegal",
-      "Publish your data"
+      "Checking your voter registration and voting",
+      "Ignoring elections",
+      "Avoiding RTI",
+      "Sharing fake news"
      ],
      "answer": 0,
-     "why": "Business plans add data protections."
+     "why": "Participation."
     }
    ]
   },
   {
-   "id": "ai-46",
-   "level": "AI Literacy",
-   "title": "Reading AI news without the hype",
-   "summary": "Separate real progress from marketing with a few simple questions.",
+   "id": "ai-113",
+   "level": "Edge in an AI-Run World",
+   "title": "Resilience when systems fail",
+   "summary": "The more we depend on AI and networks, the more offline skills matter.",
    "sections": [
     {
      "h": "The idea",
-     "b": "Every week brings claims like 'AI will replace X by next year'. The Gartner hype cycle describes a pattern: inflated expectations, then disillusionment, then steady productive use."
+     "b": "Power cuts, network outages, cyberattacks, floods and app failures happen. When digital systems fail, people with offline skills (cash, paper maps, first aid, cooking, memory of key numbers, local contacts) keep functioning and help others."
     },
     {
      "h": "Why humans win here",
-     "b": "Calm, evidence-based thinking helps you invest time wisely instead of chasing every trend or freezing in fear."
+     "b": "Calm judgment in a crisis, improvisation and community coordination are human strengths no system guarantees."
     },
     {
      "h": "In practice",
-     "b": "Ask: Who is making the claim, and what do they sell? Is there a demo, a peer-reviewed study or real customer data? What's the timeline and what are the conditions? What would change my mind?"
+     "b": "Keep an emergency kit (torch, power bank, cash, medicines, copies of documents), memorise 3 key phone numbers, learn first aid and know 112 (emergency) and 108 (ambulance)."
     },
     {
      "h": "Go deeper",
-     "b": "Benchmarks can be gamed and demos can be cherry-picked. Look for independent evaluations, adoption numbers and real-world case studies. Change often comes slower than headlines say, then faster than people expect."
+     "b": "Large outages (bank servers, UPI downtime, cloud failures) show how dependent we've become. Redundancy is a classic engineering principle; apply it to your life."
     }
    ],
-   "action": "Take one AI headline this week and answer the four questions above in a note.",
+   "action": "Build a basic emergency kit this week and write key numbers on paper.",
    "quiz": [
     {
-     "q": "The hype cycle's phase after inflated expectations is…",
+     "q": "Why do offline skills matter more in a digital world?",
      "options": [
-      "Extinction",
-      "Trough of disillusionment",
-      "Instant success",
-      "Free usage"
+      "Phones are banned",
+      "They don't",
+      "Systems never fail",
+      "Outages and failures still happen"
      ],
-     "answer": 1,
-     "why": "Expectations crash before steady adoption."
+     "answer": 3,
+     "why": "Redundancy."
     },
     {
-     "q": "A good first question about a bold AI claim is…",
+     "q": "India's single emergency number is…",
      "options": [
-      "How many likes does it have?",
-      "Is the logo nice?",
-      "Who is making it, and what do they sell?",
-      "Is it trending?"
+      "999",
+      "911",
+      "112",
+      "101 only"
      ],
      "answer": 2,
-     "why": "Incentives matter."
+     "why": "112 for police, fire and ambulance."
     },
     {
-     "q": "Why be careful with demos?",
+     "q": "Which belongs in an emergency kit?",
      "options": [
-      "They can be cherry-picked best cases",
-      "They are always fake",
-      "They are illegal",
-      "They are too long"
-     ],
-     "answer": 0,
-     "why": "Demos show best-case results."
-    }
-   ]
-  },
-  {
-   "id": "ai-47",
-   "level": "AI Literacy",
-   "title": "How to judge AI output quality",
-   "summary": "Build simple evaluations so you know when AI is good enough.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "Professionals evaluate AI the way they'd evaluate a new hire: give test tasks with known answers, check accuracy, consistency and edge cases. In AI teams these test sets are called 'evals'."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Defining 'good' (accuracy, tone, compliance, usefulness) needs domain expertise. You are the benchmark."
-    },
-    {
-     "h": "In practice",
-     "b": "Create 10 test cases from real work with ideal answers. Run your AI workflow, score each output 1-5 and note failure patterns. Re-run when tools or prompts change."
-    },
-    {
-     "h": "Go deeper",
-     "b": "Look at both precision (when it says yes, is it right?) and recall (does it catch all the cases?). Track error types: factual, formatting, tone, missing information. A small, well-chosen eval beats intuition."
-    }
-   ],
-   "action": "Write 5 test questions with ideal answers for an AI task you do often.",
-   "quiz": [
-    {
-     "q": "What is an 'eval' in AI work?",
-     "options": [
-      "A test set used to measure AI quality",
-      "A tax form",
-      "A chatbot name",
-      "A GPU"
-     ],
-     "answer": 0,
-     "why": "Evals measure performance on known tasks."
-    },
-    {
-     "q": "Who is best placed to define 'good output' for a finance memo?",
-     "options": [
-      "Any random user",
-      "The model",
-      "The printer",
-      "A domain expert"
-     ],
-     "answer": 3,
-     "why": "Domain experts set the standard."
-    },
-    {
-     "q": "Why re-run evals when you change prompts?",
-     "options": [
-      "To get more tokens",
-      "It's required by law",
-      "To waste time",
-      "To catch quality changes"
-     ],
-     "answer": 3,
-     "why": "Changes can silently break quality."
-    }
-   ]
-  },
-  {
-   "id": "ai-48",
-   "level": "AI Literacy",
-   "title": "The jagged frontier",
-   "summary": "AI is superhuman at some tasks and surprisingly weak at others, even similar-looking ones.",
-   "sections": [
-    {
-     "h": "The idea",
-     "b": "A Harvard and BCG study found consultants using AI finished tasks faster and with higher quality, but on a task just outside AI's ability, AI users did worse because they trusted wrong answers. Researchers called this the 'jagged frontier'."
-    },
-    {
-     "h": "Why humans win here",
-     "b": "Knowing where the frontier lies for your tasks, and when to switch off autopilot, is a human skill built through experiment and expertise."
-    },
-    {
-     "h": "In practice",
-     "b": "Map your tasks: where does AI reliably help, where is it hit-or-miss, where does it fail? Use 'centaur' mode (divide tasks between you and AI) or 'cyborg' mode (tight back-and-forth). Never use full autopilot on tasks near the edge."
-    },
-    {
-     "h": "Go deeper",
-     "b": "The frontier keeps moving as models improve, so re-test every few months. Skills that let you notice when AI is wrong are the ones that keep you valuable."
-    }
-   ],
-   "action": "Try one task with AI that you suspect it will fail. Note exactly how it fails.",
-   "quiz": [
-    {
-     "q": "The 'jagged frontier' means…",
-     "options": [
-      "AI's ability is uneven across similar tasks",
-      "AI is useless",
-      "AI is equally good at everything",
-      "AI only works on weekends"
-     ],
-     "answer": 0,
-     "why": "Capabilities are uneven and surprising."
-    },
-    {
-     "q": "In the BCG study, what happened on tasks outside AI's ability?",
-     "options": [
-      "AI users did worse by trusting wrong answers",
-      "AI users did better",
-      "The AI refused",
-      "No difference"
-     ],
-     "answer": 0,
-     "why": "Over-trust hurt performance."
-    },
-    {
-     "q": "'Centaur' mode means…",
-     "options": [
-      "No AI",
-      "Dividing tasks clearly between human and AI",
-      "Full autopilot",
-      "Using two monitors"
+      "Nothing",
+      "Torch, power bank, cash, medicines and document copies",
+      "Gaming console",
+      "Only a smartphone"
      ],
      "answer": 1,
-     "why": "Split the work by strengths."
+     "why": "Basics."
+    }
+   ]
+  },
+  {
+   "id": "ai-114",
+   "level": "Edge in an AI-Run World",
+   "title": "Raising the next generation",
+   "summary": "Children need character and curiosity, not just answers.",
+   "sections": [
+    {
+     "h": "The idea",
+     "b": "Children will grow up with AI that can do their homework. The human edge for them lies in curiosity, resilience, kindness, physical health, creativity and the ability to think independently and work with others."
+    },
+    {
+     "h": "Why humans win here",
+     "b": "Parents, teachers and mentors model values, encourage effort and build confidence. These are relationships, not downloads."
+    },
+    {
+     "h": "In practice",
+     "b": "Encourage questions over memorised answers, outdoor play, reading, hands-on projects and responsible AI use (AI as tutor, not shortcut). Talk about online safety and screen limits."
+    },
+    {
+     "h": "Go deeper",
+     "b": "Research on 'growth mindset' (Carol Dweck) shows praising effort over talent helps children persist through difficulty."
+    }
+   ],
+   "action": "Ask a child (or your younger self!) an open question today: 'What made you curious this week?'",
+   "quiz": [
+    {
+     "q": "What will matter most for children in an AI world?",
+     "options": [
+      "Curiosity, character and independent thinking",
+      "Memorising facts",
+      "Owning gadgets",
+      "Typing speed"
+     ],
+     "answer": 0,
+     "why": "Human foundations."
+    },
+    {
+     "q": "Healthy AI use for students means using it as…",
+     "options": [
+      "A replacement for school",
+      "A tutor that guides learning",
+      "A toy only",
+      "A shortcut to copy answers"
+     ],
+     "answer": 1,
+     "why": "Tutor, not shortcut."
+    },
+    {
+     "q": "Growth-mindset research suggests praising…",
+     "options": [
+      "Speed",
+      "Marks only",
+      "Effort and strategies",
+      "Talent"
+     ],
+     "answer": 2,
+     "why": "Effort builds persistence."
     }
    ]
   },

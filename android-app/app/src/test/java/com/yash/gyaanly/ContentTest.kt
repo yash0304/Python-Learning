@@ -47,7 +47,7 @@ class ContentTest {
 
     @Test
     fun builtInPathsAreExtensive() {
-        listOf("ai", "english", "finance").forEach { key ->
+        listOf("ai", "english", "finance", "india").forEach { key ->
             val p = pack(key) ?: error("missing built-in pack $key")
             assertTrue("$key has only ${p.lessons.size} lessons", p.lessons.size >= 100)
             p.lessons.forEach { assertTrue("${it.id}: needs 3 quiz questions", it.quiz.size >= 3) }
@@ -57,7 +57,12 @@ class ContentTest {
     @Test
     fun trackSpecificBlocksArePresent() {
         pack("english")!!.lessons.forEach { assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty()) }
-        pack("ai")!!.lessons.forEach { assertTrue("${it.id}: no action", it.action != null) }
+        listOf("ai", "india").forEach { key ->
+            pack(key)!!.lessons.forEach { assertTrue("${it.id}: no action", it.action != null) }
+        }
+        val india = pack("india")!!
+        assertEquals("200 everyday India problems", 200, india.lessons.size)
+        india.lessons.forEach { assertEquals("${it.id}: needs 4 sections", 4, it.sections.size) }
         mapOf("spanish" to "es-ES").forEach { (key, lang) ->
             pack(key)?.lessons?.forEach {
                 assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty())
