@@ -1,0 +1,6525 @@
+{
+ "track": {
+  "key": "people",
+  "title": "People Skills at Work",
+  "tagline": "Practise corporate communication and people skills every day",
+  "emoji": "🤝",
+  "color": "#C2255C",
+  "order": 2,
+  "levelPicker": true
+ },
+ "levels": [
+  "Self-awareness & First Impressions",
+  "Working with Your Manager",
+  "Peers & Teamwork",
+  "Meetings",
+  "Emails, Chat & Writing",
+  "Influence & Stakeholders",
+  "Feedback & Difficult Conversations",
+  "Conflict, Politics & Power",
+  "Visibility, Presentations & Executive Presence",
+  "Leading Others"
+ ],
+ "lessons": [
+  {
+   "id": "pp-001",
+   "level": "Self-awareness & First Impressions",
+   "title": "Technical skill gets you in; people skills move you up",
+   "summary": "Why relationships decide promotions as much as output.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You do excellent work, but colleagues with weaker skills get noticed, promoted or chosen for projects. Often the difference is how they communicate, build relationships and make others' work easier."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They treat people skills as learnable skills, not personality. They practise small behaviours daily: greeting people, listening fully, sharing credit, updating proactively and asking good questions."
+    },
+    {
+     "h": "Say it like this",
+     "b": "To yourself: 'Today I'll practise one people skill on purpose.'\nTo a colleague: 'How's your week going? Anything I can help with on the project?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Believing 'my work should speak for itself'. Work speaks quietly; people need context, visibility and trust to value it."
+    }
+   ],
+   "speak": [
+    "How's your week going?",
+    "Is there anything I can help with?",
+    "Thanks, that really helped me."
+   ],
+   "action": "Pick one person you work with and have a 2-minute non-work chat with them today.",
+   "quiz": [
+    {
+     "q": "Why do people skills matter for promotions?",
+     "options": [
+      "Only managers need them",
+      "They don't",
+      "Others must trust and want to work with you",
+      "They replace technical skill"
+     ],
+     "answer": 2,
+     "why": "Trust and collaboration drive decisions."
+    },
+    {
+     "q": "People skills are best seen as…",
+     "options": [
+      "Learnable, practisable skills",
+      "Luck",
+      "Politics only",
+      "Fixed personality"
+     ],
+     "answer": 0,
+     "why": "You can build them."
+    },
+    {
+     "q": "'My work will speak for itself' is risky because…",
+     "options": [
+      "It's true always",
+      "Work needs context and visibility to be valued",
+      "Managers don't read",
+      "Work is never good"
+     ],
+     "answer": 1,
+     "why": "Make your work visible."
+    }
+   ]
+  },
+  {
+   "id": "pp-002",
+   "level": "Self-awareness & First Impressions",
+   "title": "Know your communication style",
+   "summary": "Understand how you come across before changing it.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Technical people often come across as blunt, quiet or overly detailed, while they intend to be efficient or precise."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They ask for honest feedback on how they come across, notice patterns (e.g. interrupting, long explanations, rarely smiling) and adapt their style to the listener."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Could I ask for quick feedback? When I explain things in meetings, is it clear, or too detailed?'\n'If there's one thing I could do to communicate better with you, what would it be?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Assuming people understand your intent. Others judge your behaviour, not your intentions."
+    }
+   ],
+   "speak": [
+    "Could I ask for quick feedback on how I communicate?",
+    "Is my explanation clear, or too detailed?",
+    "What's one thing I could do better?"
+   ],
+   "action": "Ask one trusted colleague: 'What's one thing I could do to communicate better?' and just listen.",
+   "quiz": [
+    {
+     "q": "Others judge you mainly by…",
+     "options": [
+      "Your visible behaviour",
+      "Your degree",
+      "Your intentions",
+      "Your salary"
+     ],
+     "answer": 0,
+     "why": "Impact over intent."
+    },
+    {
+     "q": "A common blind spot for technical experts is…",
+     "options": [
+      "Overly detailed or blunt explanations",
+      "Over-smiling",
+      "Too much small talk",
+      "Too little detail"
+     ],
+     "answer": 0,
+     "why": "Adapt to listeners."
+    },
+    {
+     "q": "The fastest way to learn your style is…",
+     "options": [
+      "Guessing",
+      "Ignoring others",
+      "Asking for specific feedback",
+      "Reading horoscopes"
+     ],
+     "answer": 2,
+     "why": "Ask and listen."
+    }
+   ]
+  },
+  {
+   "id": "pp-003",
+   "level": "Self-awareness & First Impressions",
+   "title": "First impressions in the office",
+   "summary": "The first 30 seconds set the tone for a relationship.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Meeting new colleagues, clients or leaders, you may freeze, avoid eye contact or jump straight into work."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They make eye contact, smile, use the person's name, introduce themselves with a one-line role description, and ask a friendly question."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Hi Priya, I'm Yash from the finance team. I work on monthly reporting. Nice to finally meet you. How long have you been with the sales team?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Looking at your phone, a weak mumbled introduction, or talking only about yourself."
+    }
+   ],
+   "speak": [
+    "Hi, I'm Yash from the finance team.",
+    "Nice to finally meet you.",
+    "How long have you been with the team?"
+   ],
+   "action": "Introduce yourself to one person you haven't properly met, using your name, team and one-line role.",
+   "quiz": [
+    {
+     "q": "A strong introduction includes…",
+     "options": [
+      "Your salary",
+      "Only your name",
+      "Name, team and a one-line role",
+      "Your complaints"
+     ],
+     "answer": 2,
+     "why": "Context helps."
+    },
+    {
+     "q": "Using someone's name…",
+     "options": [
+      "Builds connection",
+      "Is unnecessary",
+      "Is only for seniors",
+      "Is rude"
+     ],
+     "answer": 0,
+     "why": "People like hearing their name."
+    },
+    {
+     "q": "A good first-impression habit is…",
+     "options": [
+      "Talking about yourself only",
+      "Checking your phone",
+      "Silence",
+      "Eye contact and a smile"
+     ],
+     "answer": 3,
+     "why": "Warmth."
+    }
+   ]
+  },
+  {
+   "id": "pp-004",
+   "level": "Self-awareness & First Impressions",
+   "title": "Small talk that doesn't feel fake",
+   "summary": "Short friendly chats build trust over time.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You find small talk pointless or awkward, so you skip it and seem distant."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They see small talk as relationship-building. They ask open questions, remember details (kids, hobbies, trips) and follow up later."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'How was your weekend? Did you end up going to Jaipur?'\n'That sounds fun. What was the best part?'\nLater: 'How did your daughter's exam go?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Yes/no questions only, talking about controversial topics, or one-word answers."
+    }
+   ],
+   "speak": [
+    "How was your weekend?",
+    "What was the best part?",
+    "How did the trip go?"
+   ],
+   "action": "Start one small-talk conversation today and remember one detail to follow up on next week.",
+   "quiz": [
+    {
+     "q": "Small talk mainly builds…",
+     "options": [
+      "Conflict",
+      "Trust and rapport",
+      "Workload",
+      "Gossip"
+     ],
+     "answer": 1,
+     "why": "Relationship glue."
+    },
+    {
+     "q": "A good follow-up is…",
+     "options": [
+      "Changing topic",
+      "Ignoring what they said",
+      "Remembering and asking about a detail later",
+      "Talking about yourself"
+     ],
+     "answer": 2,
+     "why": "Shows care."
+    },
+    {
+     "q": "Better question type for small talk is…",
+     "options": [
+      "Yes/no",
+      "Personal finances",
+      "Open questions",
+      "Controversial"
+     ],
+     "answer": 2,
+     "why": "Invites conversation."
+    }
+   ]
+  },
+  {
+   "id": "pp-005",
+   "level": "Self-awareness & First Impressions",
+   "title": "Active listening",
+   "summary": "Make people feel heard, and understand them better.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "In discussions you're often preparing your answer instead of listening, or you interrupt to correct details."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They listen fully, nod, take notes, paraphrase key points and ask clarifying questions before responding."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'So if I understand correctly, the main concern is the deadline, not the budget?'\n'Tell me more about that.'\n'What would a good outcome look like for you?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Interrupting, looking at your laptop, or jumping to solutions too quickly."
+    }
+   ],
+   "speak": [
+    "So if I understand correctly, the main concern is the deadline?",
+    "Tell me more about that.",
+    "What would a good outcome look like for you?"
+   ],
+   "action": "In one conversation today, paraphrase what the other person said before giving your view.",
+   "quiz": [
+    {
+     "q": "Paraphrasing shows…",
+     "options": [
+      "You understood and care",
+      "You disagree",
+      "You weren't listening",
+      "You're bored"
+     ],
+     "answer": 0,
+     "why": "Feeling heard."
+    },
+    {
+     "q": "A sign of poor listening is…",
+     "options": [
+      "Nodding",
+      "Asking questions",
+      "Taking notes",
+      "Interrupting to correct details"
+     ],
+     "answer": 3,
+     "why": "Wait your turn."
+    },
+    {
+     "q": "'Tell me more' helps by…",
+     "options": [
+      "Showing impatience",
+      "Changing the topic",
+      "Ending the talk",
+      "Inviting deeper information"
+     ],
+     "answer": 3,
+     "why": "Curiosity."
+    }
+   ]
+  },
+  {
+   "id": "pp-006",
+   "level": "Self-awareness & First Impressions",
+   "title": "Managing your emotions at work",
+   "summary": "Stay calm when you're frustrated or criticised.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "When your work is criticised or a colleague is unreasonable, you react sharply or shut down."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They pause before responding, name the emotion to themselves ('I'm frustrated'), ask questions to understand, and respond later if needed."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'That's a fair point. Let me think about it and come back to you by tomorrow.'\n'Can you help me understand what concerns you most?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Replying instantly to an annoying email, raising your voice, or sulking silently."
+    }
+   ],
+   "speak": [
+    "That's a fair point. Let me think about it.",
+    "Can you help me understand your concern?",
+    "I'll come back to you by tomorrow."
+   ],
+   "action": "Next time you feel irritated at work, wait 10 seconds and ask one question before responding.",
+   "quiz": [
+    {
+     "q": "A good first reaction to criticism is…",
+     "options": [
+      "Complaining",
+      "Pausing and asking questions",
+      "Defending immediately",
+      "Ignoring it"
+     ],
+     "answer": 1,
+     "why": "Understand first."
+    },
+    {
+     "q": "Replying to an annoying email immediately…",
+     "options": [
+      "Is ideal",
+      "Is required",
+      "Often leads to regret",
+      "Builds trust"
+     ],
+     "answer": 2,
+     "why": "Cool down first."
+    },
+    {
+     "q": "Naming your emotion helps you…",
+     "options": [
+      "Lose control",
+      "Look weak",
+      "Nothing",
+      "Regain control"
+     ],
+     "answer": 3,
+     "why": "Self-regulation."
+    }
+   ]
+  },
+  {
+   "id": "pp-007",
+   "level": "Self-awareness & First Impressions",
+   "title": "Body language and presence",
+   "summary": "Your posture and face speak before you do.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You may sit slouched, avoid eye contact or look serious, so people think you're uninterested or unapproachable."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They sit upright, face the speaker, nod, keep an open posture and smile naturally. On video calls they look at the camera and keep it on."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Non-verbal: lean slightly forward when listening; nod; brief eye contact; relaxed smile when greeting."
+    },
+    {
+     "h": "Avoid",
+     "b": "Crossed arms, checking your phone in meetings, or a blank face on camera."
+    }
+   ],
+   "speak": [
+    "I'm glad to be part of this discussion.",
+    "That's interesting, please go on.",
+    "Thanks for explaining that."
+   ],
+   "action": "In your next meeting, keep your phone away and maintain an open, attentive posture.",
+   "quiz": [
+    {
+     "q": "An open posture signals…",
+     "options": [
+      "Defensiveness",
+      "Anger",
+      "Engagement",
+      "Boredom"
+     ],
+     "answer": 2,
+     "why": "Approachable."
+    },
+    {
+     "q": "On video calls, look at…",
+     "options": [
+      "Your own image",
+      "The ceiling",
+      "The camera when speaking",
+      "Your phone"
+     ],
+     "answer": 2,
+     "why": "Eye contact."
+    },
+    {
+     "q": "Checking your phone in meetings signals…",
+     "options": [
+      "Nothing",
+      "Efficiency",
+      "Seniority",
+      "Disrespect or disinterest"
+     ],
+     "answer": 3,
+     "why": "Avoid it."
+    }
+   ]
+  },
+  {
+   "id": "pp-008",
+   "level": "Self-awareness & First Impressions",
+   "title": "Remembering names and details",
+   "summary": "A small habit with big relationship returns.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You forget names of people from other teams, which feels awkward and distant."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They repeat the name when introduced, connect it to something memorable, and note key details after meetings (team, project, interests)."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Nice to meet you, Ankit. Ankit from procurement, right?'\nIf you forget: 'I'm sorry, remind me of your name again?' (honest is better than avoiding)."
+    },
+    {
+     "h": "Avoid",
+     "b": "Avoiding people because you forgot their name."
+    }
+   ],
+   "speak": [
+    "Nice to meet you, Ankit.",
+    "Ankit from procurement, right?",
+    "Sorry, could you remind me of your name?"
+   ],
+   "action": "Write down names and one detail of 3 people you interacted with this week.",
+   "quiz": [
+    {
+     "q": "A trick to remember names is…",
+     "options": [
+      "Ignoring them",
+      "Asking their salary",
+      "Avoiding meetings",
+      "Repeating the name when introduced"
+     ],
+     "answer": 3,
+     "why": "Repetition."
+    },
+    {
+     "q": "If you forget a name, it's best to…",
+     "options": [
+      "Politely ask again",
+      "Avoid the person",
+      "Never speak again",
+      "Guess a name"
+     ],
+     "answer": 0,
+     "why": "Honesty."
+    },
+    {
+     "q": "Noting details after meetings helps…",
+     "options": [
+      "Build stronger relationships",
+      "Waste time",
+      "Nothing",
+      "Gossip"
+     ],
+     "answer": 0,
+     "why": "Memory aid."
+    }
+   ]
+  },
+  {
+   "id": "pp-009",
+   "level": "Self-awareness & First Impressions",
+   "title": "Being approachable",
+   "summary": "People bring opportunities to those who seem open.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Colleagues hesitate to ask you questions because you seem busy, serious or irritated."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They respond warmly to questions, say 'good question', share knowledge generously and signal availability ('Ping me anytime about the model')."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Good question. Happy to explain.'\n'I'm in the middle of something; can we talk at 3?'\n'Feel free to ping me anytime about this.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Sighing, short replies or making people feel stupid for asking."
+    }
+   ],
+   "speak": [
+    "Good question, happy to explain.",
+    "Can we talk at three? I'm finishing something.",
+    "Feel free to ping me anytime."
+   ],
+   "action": "When someone asks you a question today, start with 'Good question' and explain kindly.",
+   "quiz": [
+    {
+     "q": "Approachable people get…",
+     "options": [
+      "More conflicts",
+      "Nothing",
+      "More information and opportunities",
+      "Fewer opportunities"
+     ],
+     "answer": 2,
+     "why": "People come to them."
+    },
+    {
+     "q": "If busy, a good response is…",
+     "options": [
+      "Sigh loudly",
+      "Offer a specific later time",
+      "Say 'not now' only",
+      "Ignore them"
+     ],
+     "answer": 1,
+     "why": "Respectful boundary."
+    },
+    {
+     "q": "Making people feel stupid for asking…",
+     "options": [
+      "Is helpful",
+      "Shows expertise",
+      "Saves time",
+      "Damages trust"
+     ],
+     "answer": 3,
+     "why": "Avoid it."
+    }
+   ]
+  },
+  {
+   "id": "pp-010",
+   "level": "Self-awareness & First Impressions",
+   "title": "Saying thank you specifically",
+   "summary": "Specific appreciation is remembered.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You say 'thanks' automatically or forget to recognise others' help."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They thank people specifically, mention the impact, and sometimes thank them in front of their manager or the team."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Thanks for pulling the data so quickly, Neha. It helped us finish the report a day early.'\nIn a group mail: 'Special thanks to Rohan for fixing the reconciliation issue.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Generic 'thanks' only, or taking credit for team effort."
+    }
+   ],
+   "speak": [
+    "Thanks for pulling the data so quickly.",
+    "It helped us finish a day early.",
+    "Special thanks to Rohan for his help."
+   ],
+   "action": "Send one specific thank-you message today mentioning the impact of someone's help.",
+   "quiz": [
+    {
+     "q": "Effective appreciation is…",
+     "options": [
+      "Generic",
+      "Only in private",
+      "Specific with impact",
+      "Rare"
+     ],
+     "answer": 2,
+     "why": "Specific is memorable."
+    },
+    {
+     "q": "Thanking someone in front of their manager…",
+     "options": [
+      "Is useless",
+      "Embarrasses them",
+      "Is unprofessional",
+      "Boosts their visibility"
+     ],
+     "answer": 3,
+     "why": "Visible credit."
+    },
+    {
+     "q": "Taking credit for team effort…",
+     "options": [
+      "Is smart",
+      "Damages trust",
+      "Builds trust",
+      "Is required"
+     ],
+     "answer": 1,
+     "why": "Share credit."
+    }
+   ]
+  },
+  {
+   "id": "pp-011",
+   "level": "Working with Your Manager",
+   "title": "Understand your manager's priorities",
+   "summary": "Help your manager succeed and you succeed too.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You work hard on tasks but don't know what your manager is measured on or worried about."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They ask about their manager's goals and pressures, and align their work to those priorities."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'What are your top priorities this quarter?'\n'What's keeping you up at night on this project?'\n'How can I make your job easier?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Assuming your priorities match your manager's."
+    }
+   ],
+   "speak": [
+    "What are your top priorities this quarter?",
+    "How can I make your job easier?",
+    "What does success look like for you?"
+   ],
+   "action": "Ask your manager: 'What are your top three priorities this quarter?'",
+   "quiz": [
+    {
+     "q": "Knowing your manager's priorities helps you…",
+     "options": [
+      "Gossip",
+      "Align your work to what matters",
+      "Avoid work",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Impact."
+    },
+    {
+     "q": "A strong question is…",
+     "options": [
+      "Who do you dislike?",
+      "Why are you so busy?",
+      "Can I leave early?",
+      "How can I make your job easier?"
+     ],
+     "answer": 3,
+     "why": "Supportive."
+    },
+    {
+     "q": "Assuming priorities match is…",
+     "options": [
+      "Required",
+      "Safe",
+      "Always true",
+      "Risky"
+     ],
+     "answer": 3,
+     "why": "Ask instead."
+    }
+   ]
+  },
+  {
+   "id": "pp-012",
+   "level": "Working with Your Manager",
+   "title": "Weekly updates that build trust",
+   "summary": "Your manager should never have to chase you.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your manager asks 'What's the status?' frequently, which signals they lack visibility."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They send short, regular updates: done, next, risks/blocked, without being asked."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Quick update: Done: reconciliation for March. Next: variance commentary by Thursday. Risk: waiting for sales data, which may delay by a day.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Long unstructured messages, or updates only when something goes wrong."
+    }
+   ],
+   "speak": [
+    "Quick update on the project.",
+    "The main risk is the delayed sales data.",
+    "I'll have the draft ready by Thursday."
+   ],
+   "action": "Send your manager a 3-line update today: done, next, risks.",
+   "quiz": [
+    {
+     "q": "A good update structure is…",
+     "options": [
+      "Random thoughts",
+      "Only achievements",
+      "Done, next, risks",
+      "Only problems"
+     ],
+     "answer": 2,
+     "why": "Simple and clear."
+    },
+    {
+     "q": "When should updates be sent?",
+     "options": [
+      "Never",
+      "Once a year",
+      "Only when asked",
+      "Regularly and proactively"
+     ],
+     "answer": 3,
+     "why": "Avoid chasing."
+    },
+    {
+     "q": "Proactive updates show…",
+     "options": [
+      "Weakness",
+      "Nothing",
+      "Ownership and reliability",
+      "Confusion"
+     ],
+     "answer": 2,
+     "why": "Trust builder."
+    }
+   ]
+  },
+  {
+   "id": "pp-013",
+   "level": "Working with Your Manager",
+   "title": "No surprises: escalate early",
+   "summary": "Bad news ages badly.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You hope to fix a problem quietly, but the manager hears about it from others, damaging trust."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They escalate risks early with options, so the manager can help or prepare."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Heads-up: the vendor may miss Friday's delivery. Option A: we partially deliver; option B: we push the deadline by 3 days. I recommend A. What do you think?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Hiding problems, or bringing problems without any options."
+    }
+   ],
+   "speak": [
+    "Just a heads-up about a possible delay.",
+    "There are two options we could consider.",
+    "I recommend the first option."
+   ],
+   "action": "Identify one risk in your current work and inform your manager with two options.",
+   "quiz": [
+    {
+     "q": "The 'no surprises' rule means…",
+     "options": [
+      "Share risks early with options",
+      "Hide problems",
+      "Only share good news",
+      "Surprise gifts"
+     ],
+     "answer": 0,
+     "why": "Early warnings."
+    },
+    {
+     "q": "When escalating, bring…",
+     "options": [
+      "Excuses",
+      "Complaints",
+      "The problem plus options",
+      "Only the problem"
+     ],
+     "answer": 2,
+     "why": "Solutions mindset."
+    },
+    {
+     "q": "Managers lose trust when…",
+     "options": [
+      "You plan",
+      "They hear bad news from others first",
+      "You ask questions",
+      "You update them"
+     ],
+     "answer": 1,
+     "why": "Transparency."
+    }
+   ]
+  },
+  {
+   "id": "pp-014",
+   "level": "Working with Your Manager",
+   "title": "Running a great 1:1",
+   "summary": "Use 1:1s to grow, not just report status.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your 1:1s are short status updates or get cancelled."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They prepare an agenda: wins, blockers, decisions needed, feedback and career. They take notes and follow up."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'For today I have three things: a quick win, one decision I need from you, and I'd like your feedback on my presentation.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Coming unprepared or only talking about tasks."
+    }
+   ],
+   "speak": [
+    "I have three things for today.",
+    "There's one decision I need from you.",
+    "Could I get your feedback on my presentation?"
+   ],
+   "action": "Prepare a 3-point agenda for your next 1:1 with your manager.",
+   "quiz": [
+    {
+     "q": "A great 1:1 includes…",
+     "options": [
+      "Wins, blockers, decisions, feedback, career",
+      "Gossip",
+      "Only status",
+      "Nothing planned"
+     ],
+     "answer": 0,
+     "why": "Structured."
+    },
+    {
+     "q": "Who should prepare the agenda?",
+     "options": [
+      "Only the manager",
+      "Nobody",
+      "HR",
+      "You (the employee) too"
+     ],
+     "answer": 3,
+     "why": "Own your 1:1."
+    },
+    {
+     "q": "After the 1:1 you should…",
+     "options": [
+      "Follow up on actions",
+      "Cancel the next",
+      "Complain",
+      "Forget it"
+     ],
+     "answer": 0,
+     "why": "Accountability."
+    }
+   ]
+  },
+  {
+   "id": "pp-015",
+   "level": "Working with Your Manager",
+   "title": "Asking for help without seeming weak",
+   "summary": "Smart people ask early and well.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You stay stuck for days because you don't want to look incompetent."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They try first, then ask specific questions showing what they've tried."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I've tried reconciling using the March ledger and the bank file, but there's a ₹2 lakh gap. Could you spare 10 minutes to look at it with me?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Asking too early without effort, or too late after deadlines are at risk."
+    }
+   ],
+   "speak": [
+    "I've tried two approaches already.",
+    "Could you spare ten minutes to look at this with me?",
+    "What would you suggest I try next?"
+   ],
+   "action": "If stuck on anything today, ask for help with a specific question and what you've tried.",
+   "quiz": [
+    {
+     "q": "A strong help request includes…",
+     "options": [
+      "Just 'help'",
+      "Nothing",
+      "Complaints",
+      "What you've tried and a specific question"
+     ],
+     "answer": 3,
+     "why": "Shows effort."
+    },
+    {
+     "q": "Waiting too long to ask for help can…",
+     "options": [
+      "Put deadlines at risk",
+      "Save time",
+      "Impress managers",
+      "Show strength"
+     ],
+     "answer": 0,
+     "why": "Ask early."
+    },
+    {
+     "q": "Asking good questions is seen as…",
+     "options": [
+      "Laziness",
+      "Annoying always",
+      "Weakness",
+      "Competence and engagement"
+     ],
+     "answer": 3,
+     "why": "Smart behaviour."
+    }
+   ]
+  },
+  {
+   "id": "pp-016",
+   "level": "Working with Your Manager",
+   "title": "Disagreeing with your manager",
+   "summary": "Respectful disagreement builds credibility.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You disagree with your manager's decision but stay quiet or complain to peers."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They raise concerns privately, with data and alternatives, then commit if the decision stands ('disagree and commit')."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Can I share a concern about the timeline? Based on last quarter's data, testing took two weeks. Could we consider…? If we still go ahead, I'll fully support it.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Arguing in front of others, or silently not following the decision."
+    }
+   ],
+   "speak": [
+    "Can I share a concern about the timeline?",
+    "Based on last quarter's data, testing took two weeks.",
+    "If we still go ahead, I'll fully support it."
+   ],
+   "action": "Practise phrasing one concern you have as: concern + data + alternative.",
+   "quiz": [
+    {
+     "q": "Where is it best to disagree with your manager?",
+     "options": [
+      "Privately, with data",
+      "Never",
+      "On social media",
+      "In a big meeting"
+     ],
+     "answer": 0,
+     "why": "Respectful setting."
+    },
+    {
+     "q": "'Disagree and commit' means…",
+     "options": [
+      "Disagree forever",
+      "Voice concerns, then support the decision",
+      "Ignore decisions",
+      "Quit"
+     ],
+     "answer": 1,
+     "why": "Team player."
+    },
+    {
+     "q": "A strong concern includes…",
+     "options": [
+      "Only emotion",
+      "Rumours",
+      "Data and an alternative",
+      "Threats"
+     ],
+     "answer": 2,
+     "why": "Constructive."
+    }
+   ]
+  },
+  {
+   "id": "pp-017",
+   "level": "Working with Your Manager",
+   "title": "Understanding your manager's style",
+   "summary": "Adapt to how your manager works.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your manager prefers short messages but you send long emails, or they like calls and you only email."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They observe and ask: preferred channel, level of detail, best time to talk, and how they like decisions presented."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Do you prefer quick updates on chat, or a summary email at the end of the week?'\n'Would you like the headline first or the full detail?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Assuming one style fits all managers."
+    }
+   ],
+   "speak": [
+    "Do you prefer updates on chat or email?",
+    "Would you like the headline first?",
+    "When is a good time to discuss this?"
+   ],
+   "action": "Ask your manager how they prefer updates and adjust this week.",
+   "quiz": [
+    {
+     "q": "Adapting to your manager's style…",
+     "options": [
+      "Makes collaboration easier",
+      "Is manipulation",
+      "Is unnecessary",
+      "Shows weakness"
+     ],
+     "answer": 0,
+     "why": "Smoother work."
+    },
+    {
+     "q": "A useful question is…",
+     "options": [
+      "Who's your favourite?",
+      "Can I skip updates?",
+      "Why do you work like that?",
+      "How do you prefer updates?"
+     ],
+     "answer": 3,
+     "why": "Ask preferences."
+    },
+    {
+     "q": "Many senior managers prefer…",
+     "options": [
+      "No updates",
+      "Headlines first",
+      "Only calls at midnight",
+      "Long unstructured emails"
+     ],
+     "answer": 1,
+     "why": "BLUF."
+    }
+   ]
+  },
+  {
+   "id": "pp-018",
+   "level": "Working with Your Manager",
+   "title": "Asking for feedback regularly",
+   "summary": "Don't wait for the annual review.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You only learn what your manager thinks during appraisals, when it's too late to change."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They ask for specific feedback monthly and act on it visibly."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'What's one thing I did well this month and one thing I could improve?'\n'Last time you suggested shorter updates; have you noticed a difference?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Asking 'Any feedback?' (too vague) or arguing when receiving it."
+    }
+   ],
+   "speak": [
+    "What's one thing I did well this month?",
+    "What's one thing I could improve?",
+    "Thank you, I'll work on that."
+   ],
+   "action": "Ask your manager: 'What's one thing I could do better next month?'",
+   "quiz": [
+    {
+     "q": "A better feedback question is…",
+     "options": [
+      "Do you like me?",
+      "Am I perfect?",
+      "Any feedback?",
+      "What's one thing I could improve next month?"
+     ],
+     "answer": 3,
+     "why": "Specific."
+    },
+    {
+     "q": "When receiving feedback you should…",
+     "options": [
+      "Listen and thank",
+      "Cry",
+      "Argue",
+      "Ignore"
+     ],
+     "answer": 0,
+     "why": "Openness."
+    },
+    {
+     "q": "Acting visibly on feedback…",
+     "options": [
+      "Hurts careers",
+      "Builds trust and growth",
+      "Wastes time",
+      "Is optional"
+     ],
+     "answer": 1,
+     "why": "Show change."
+    }
+   ]
+  },
+  {
+   "id": "pp-019",
+   "level": "Working with Your Manager",
+   "title": "Making your achievements visible",
+   "summary": "Help your manager advocate for you.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your manager doesn't remember your wins at appraisal time."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They keep a 'wins log' with numbers and share highlights regularly, framed as team impact."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Quick win to share: the automated report went live and saves the team about 10 hours a week.'\nAt appraisal: 'Here are my top 5 contributions this year with impact.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Bragging constantly, or never mentioning wins."
+    }
+   ],
+   "speak": [
+    "Quick win to share with you.",
+    "The new report saves the team ten hours a week.",
+    "Here are my top contributions this year."
+   ],
+   "action": "Start a 'wins log' today and add your last three achievements with numbers.",
+   "quiz": [
+    {
+     "q": "A 'wins log' helps…",
+     "options": [
+      "Gossip",
+      "Hide work",
+      "At appraisal and promotion discussions",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Evidence."
+    },
+    {
+     "q": "Wins are most persuasive with…",
+     "options": [
+      "Adjectives",
+      "Complaints",
+      "Length",
+      "Numbers and impact"
+     ],
+     "answer": 3,
+     "why": "Quantify."
+    },
+    {
+     "q": "Sharing wins should be…",
+     "options": [
+      "Regular and framed as team impact",
+      "Never",
+      "Anonymous",
+      "Constant bragging"
+     ],
+     "answer": 0,
+     "why": "Balance."
+    }
+   ]
+  },
+  {
+   "id": "pp-020",
+   "level": "Working with Your Manager",
+   "title": "Career conversations",
+   "summary": "Tell your manager what you want next.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You hope your manager will notice your ambitions, but they're focused on today's work."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They state goals clearly, ask what skills are needed, request stretch opportunities and review progress every few months."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'In the next 12-18 months I'd like to move toward an FP&A lead role. What skills or experiences would make me ready? Could I take ownership of the budget process this year?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Expecting promotions without discussing them, or demanding them without a plan."
+    }
+   ],
+   "speak": [
+    "In the next year I'd like to move toward a lead role.",
+    "What skills would make me ready?",
+    "Could I take ownership of the budget process?"
+   ],
+   "action": "Write your 12-month career goal and one stretch opportunity to request.",
+   "quiz": [
+    {
+     "q": "Career conversations should be…",
+     "options": [
+      "Clear about goals and gaps",
+      "Demands only",
+      "Avoided",
+      "Once a decade"
+     ],
+     "answer": 0,
+     "why": "Plan together."
+    },
+    {
+     "q": "A stretch opportunity is…",
+     "options": [
+      "Less work",
+      "A pay cut",
+      "A challenging task that builds new skills",
+      "Extra holiday"
+     ],
+     "answer": 2,
+     "why": "Growth."
+    },
+    {
+     "q": "A good question to ask is…",
+     "options": [
+      "Can I have your job?",
+      "Why am I not promoted yet?",
+      "Who's leaving?",
+      "What skills would make me ready?"
+     ],
+     "answer": 3,
+     "why": "Constructive."
+    }
+   ]
+  },
+  {
+   "id": "pp-021",
+   "level": "Peers & Teamwork",
+   "title": "Building relationships with peers",
+   "summary": "Peers become your network, allies and future leaders.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You interact with colleagues only when you need something from them."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They invest before they need: lunch or coffee chats, helping with small things, sharing useful info and celebrating others' wins."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Want to grab a coffee this week? I'd love to understand how your team works.'\n'Saw this article on automation, thought it might help your project.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Transactional relationships: only reaching out when you need a favour."
+    }
+   ],
+   "speak": [
+    "Want to grab a coffee this week?",
+    "I'd love to understand how your team works.",
+    "I saw this and thought of your project."
+   ],
+   "action": "Invite one peer from another team for a 15-minute coffee or call this week.",
+   "quiz": [
+    {
+     "q": "Strong peer relationships are built…",
+     "options": [
+      "By avoiding people",
+      "Through gossip",
+      "Only when you need help",
+      "Before you need anything"
+     ],
+     "answer": 3,
+     "why": "Invest early."
+    },
+    {
+     "q": "A good relationship gesture is…",
+     "options": [
+      "Sharing useful information",
+      "Ignoring messages",
+      "Taking credit",
+      "Interrupting"
+     ],
+     "answer": 0,
+     "why": "Give value."
+    },
+    {
+     "q": "Transactional relationships feel…",
+     "options": [
+      "Self-serving",
+      "Trustworthy",
+      "Warm",
+      "Genuine"
+     ],
+     "answer": 0,
+     "why": "Avoid."
+    }
+   ]
+  },
+  {
+   "id": "pp-022",
+   "level": "Peers & Teamwork",
+   "title": "Sharing credit generously",
+   "summary": "Credit shared multiplies; credit hoarded divides.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "In presentations you say 'I did this' even though others contributed, and colleagues feel unappreciated."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They name contributors specifically and talk about 'we' for team work and 'I' only for their own part."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'This dashboard was a team effort. Rahul cleaned the data and Meera designed the visuals; I built the model.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Taking credit for others' work or never mentioning helpers."
+    }
+   ],
+   "speak": [
+    "This was a team effort.",
+    "Rahul cleaned the data and Meera designed the visuals.",
+    "I built the forecasting model."
+   ],
+   "action": "In your next update or presentation, name at least one colleague's contribution.",
+   "quiz": [
+    {
+     "q": "Sharing credit…",
+     "options": [
+      "Makes you look weak",
+      "Builds trust and goodwill",
+      "Hurts your career",
+      "Is unnecessary"
+     ],
+     "answer": 1,
+     "why": "Generosity pays."
+    },
+    {
+     "q": "When describing team work, use…",
+     "options": [
+      "Nobody's name",
+      "'We' for team and 'I' for your part",
+      "'I' for everything",
+      "Only the manager's name"
+     ],
+     "answer": 1,
+     "why": "Accurate credit."
+    },
+    {
+     "q": "Taking others' credit leads to…",
+     "options": [
+      "Promotion always",
+      "Resentment",
+      "Loyalty",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Damages trust."
+    }
+   ]
+  },
+  {
+   "id": "pp-023",
+   "level": "Peers & Teamwork",
+   "title": "Helping without overcommitting",
+   "summary": "Be generous, but protect your time.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You say yes to every request and end up overloaded and late on your own work."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They help when possible, clarify scope and time, and say no kindly with alternatives when needed."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I can help for 30 minutes this afternoon.'\n'I'd like to help, but I'm on a deadline until Thursday. Could we look at it on Friday, or would Ankit be able to help sooner?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Saying yes and then delivering late, or a blunt 'no'."
+    }
+   ],
+   "speak": [
+    "I can help for thirty minutes this afternoon.",
+    "I'm on a deadline until Thursday.",
+    "Could we look at it on Friday?"
+   ],
+   "action": "Practise one 'kind no' with an alternative this week.",
+   "quiz": [
+    {
+     "q": "A 'kind no' includes…",
+     "options": [
+      "Just 'no'",
+      "Anger",
+      "A reason and an alternative",
+      "Ignoring the request"
+     ],
+     "answer": 2,
+     "why": "Respectful."
+    },
+    {
+     "q": "Saying yes to everything leads to…",
+     "options": [
+      "Better sleep",
+      "Nothing",
+      "Promotion",
+      "Overload and missed deadlines"
+     ],
+     "answer": 3,
+     "why": "Overcommitment."
+    },
+    {
+     "q": "Clarifying scope means…",
+     "options": [
+      "Agreeing how much help and when",
+      "Doing everything",
+      "Refusing",
+      "Delegating to the boss"
+     ],
+     "answer": 0,
+     "why": "Set expectations."
+    }
+   ]
+  },
+  {
+   "id": "pp-024",
+   "level": "Peers & Teamwork",
+   "title": "Working across departments",
+   "summary": "Different teams, different priorities.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Sales, operations and finance clash because each sees only its own goals."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They learn other teams' targets and pain points, speak their language and frame requests around shared goals."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I know month-end is busy for you. To help both teams, could we agree on a 2-day cut-off for invoices? It'll reduce your follow-up calls too.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Using your team's jargon, or blaming other departments."
+    }
+   ],
+   "speak": [
+    "I know month-end is busy for you.",
+    "Could we agree on a two-day cut-off?",
+    "It'll reduce follow-up calls for both teams."
+   ],
+   "action": "Ask someone from another department: 'What's your biggest challenge working with our team?'",
+   "quiz": [
+    {
+     "q": "To work well across departments, learn…",
+     "options": [
+      "Their targets and pain points",
+      "Their gossip",
+      "Nothing",
+      "Their salaries"
+     ],
+     "answer": 0,
+     "why": "Understand them."
+    },
+    {
+     "q": "Frame requests around…",
+     "options": [
+      "Your needs only",
+      "Shared goals",
+      "Threats",
+      "Rules only"
+     ],
+     "answer": 1,
+     "why": "Win-win."
+    },
+    {
+     "q": "Blaming other teams…",
+     "options": [
+      "Damages collaboration",
+      "Is effective",
+      "Solves issues",
+      "Is required"
+     ],
+     "answer": 0,
+     "why": "Avoid."
+    }
+   ]
+  },
+  {
+   "id": "pp-025",
+   "level": "Peers & Teamwork",
+   "title": "Asking colleagues for favours",
+   "summary": "Make it easy for people to say yes.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your requests get ignored or delayed."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They make specific, polite requests with context, deadline and reason, and thank afterwards."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Hi Neha, could you share the Q3 sales file by Wednesday 3 pm? I need it for the board deck on Thursday. Thanks so much!'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Vague requests ('send the data'), no deadline, or urgent requests at the last minute."
+    }
+   ],
+   "speak": [
+    "Could you share the sales file by Wednesday?",
+    "I need it for the board deck on Thursday.",
+    "Thanks so much for your help!"
+   ],
+   "action": "Rewrite one request you need to make using: specific ask + deadline + reason.",
+   "quiz": [
+    {
+     "q": "A clear request includes…",
+     "options": [
+      "Ask, deadline and reason",
+      "Pressure",
+      "Nothing",
+      "Only urgency"
+     ],
+     "answer": 0,
+     "why": "Easy to act on."
+    },
+    {
+     "q": "Explaining why you need something…",
+     "options": [
+      "Is rude",
+      "Is unnecessary",
+      "Wastes time",
+      "Increases cooperation"
+     ],
+     "answer": 3,
+     "why": "Context helps."
+    },
+    {
+     "q": "After help is given you should…",
+     "options": [
+      "Ask for more immediately",
+      "Complain",
+      "Say thanks",
+      "Forget it"
+     ],
+     "answer": 2,
+     "why": "Gratitude."
+    }
+   ]
+  },
+  {
+   "id": "pp-026",
+   "level": "Peers & Teamwork",
+   "title": "Handling a difficult colleague",
+   "summary": "Focus on behaviour, not personality.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A colleague is rude, misses deadlines or dismisses your ideas."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They stay professional, talk privately about specific behaviours and impact, seek understanding, and escalate only after trying directly."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Can we talk for a minute? In the last two meetings my points were interrupted. I'd like to make sure we both get heard. How can we handle this better?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Complaining behind their back, matching their rudeness, or avoiding them entirely."
+    }
+   ],
+   "speak": [
+    "Can we talk for a minute?",
+    "I'd like to make sure we both get heard.",
+    "How can we handle this better?"
+   ],
+   "action": "Write a private, calm opening line for a conversation with one challenging colleague.",
+   "quiz": [
+    {
+     "q": "With a difficult colleague, focus on…",
+     "options": [
+      "Gossip",
+      "Revenge",
+      "Their personality",
+      "Specific behaviours and impact"
+     ],
+     "answer": 3,
+     "why": "Objective."
+    },
+    {
+     "q": "Best first step is usually…",
+     "options": [
+      "Group email",
+      "Escalating to HR",
+      "Ignoring forever",
+      "A private direct conversation"
+     ],
+     "answer": 3,
+     "why": "Try directly."
+    },
+    {
+     "q": "Matching rudeness…",
+     "options": [
+      "Escalates conflict",
+      "Is wise",
+      "Wins respect",
+      "Solves it"
+     ],
+     "answer": 0,
+     "why": "Stay professional."
+    }
+   ]
+  },
+  {
+   "id": "pp-027",
+   "level": "Peers & Teamwork",
+   "title": "Team trust: reliability",
+   "summary": "Do what you say, when you say.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Small missed commitments make colleagues stop relying on you."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They commit carefully, write down promises, deliver on time or warn early if they can't."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'll send it by 4 pm.' (and do it)\n'Quick heads-up: I'll need until tomorrow 11 am instead of today; the data came late.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Vague commitments ('I'll try') or silent delays."
+    }
+   ],
+   "speak": [
+    "I'll send it by four o'clock.",
+    "Quick heads-up, I'll need until tomorrow morning.",
+    "Done, it's in your inbox."
+   ],
+   "action": "List today's promises you've made and deliver or update on each.",
+   "quiz": [
+    {
+     "q": "Trust grows when you…",
+     "options": [
+      "Avoid commitments",
+      "Say 'I'll try'",
+      "Overpromise",
+      "Keep small commitments consistently"
+     ],
+     "answer": 3,
+     "why": "Reliability."
+    },
+    {
+     "q": "If you'll miss a deadline…",
+     "options": [
+      "Warn early with a new time",
+      "Blame others",
+      "Stay silent",
+      "Hope nobody notices"
+     ],
+     "answer": 0,
+     "why": "Communicate."
+    },
+    {
+     "q": "Writing down promises helps…",
+     "options": [
+      "You remember and deliver",
+      "Nothing",
+      "Avoid work",
+      "Waste paper"
+     ],
+     "answer": 0,
+     "why": "Accountability."
+    }
+   ]
+  },
+  {
+   "id": "pp-028",
+   "level": "Peers & Teamwork",
+   "title": "Celebrating others",
+   "summary": "Recognising peers builds a positive culture.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Team wins go unnoticed; birthdays and milestones pass without acknowledgement."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They congratulate peers publicly, remember milestones and share wins in team channels."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Huge congratulations, Meera, on clearing the CFA Level 2! Well deserved.'\n'Shout-out to the ops team for closing the audit early.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Ignoring others' success or seeing it as competition."
+    }
+   ],
+   "speak": [
+    "Huge congratulations, well deserved!",
+    "Shout-out to the ops team.",
+    "Great job on the presentation."
+   ],
+   "action": "Post one genuine shout-out for a colleague in a team channel this week.",
+   "quiz": [
+    {
+     "q": "Celebrating peers…",
+     "options": [
+      "Is a waste of time",
+      "Builds goodwill and culture",
+      "Is only HR's job",
+      "Makes you look weak"
+     ],
+     "answer": 1,
+     "why": "Positive culture."
+    },
+    {
+     "q": "Seeing others' success as competition…",
+     "options": [
+      "Is required",
+      "Builds teams",
+      "Creates resentment",
+      "Is healthy always"
+     ],
+     "answer": 2,
+     "why": "Abundance mindset."
+    },
+    {
+     "q": "A good place for shout-outs is…",
+     "options": [
+      "Gossip",
+      "Nowhere",
+      "Secret notes",
+      "Team channels"
+     ],
+     "answer": 3,
+     "why": "Visible."
+    }
+   ]
+  },
+  {
+   "id": "pp-029",
+   "level": "Peers & Teamwork",
+   "title": "Collaborating on shared work",
+   "summary": "Clear roles prevent duplicate work and blame.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Projects stall because nobody knows who does what."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They clarify roles, owners and deadlines at the start, and use shared trackers."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'To avoid confusion, can we agree who owns each part? I'll take the model, Rahul the data, Meera the slides, by Friday.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Assuming roles, or doing others' parts silently and then resenting it."
+    }
+   ],
+   "speak": [
+    "Can we agree who owns each part?",
+    "I'll take the model.",
+    "Let's review progress on Friday."
+   ],
+   "action": "For one shared task, write owner + deadline for each part and share it.",
+   "quiz": [
+    {
+     "q": "At project start, clarify…",
+     "options": [
+      "Nothing",
+      "Roles, owners and deadlines",
+      "Blame",
+      "Lunch plans"
+     ],
+     "answer": 1,
+     "why": "Avoid confusion."
+    },
+    {
+     "q": "A shared tracker helps…",
+     "options": [
+      "Nothing",
+      "Hide work",
+      "Delay tasks",
+      "Visibility of progress"
+     ],
+     "answer": 3,
+     "why": "Transparency."
+    },
+    {
+     "q": "Silently doing others' work leads to…",
+     "options": [
+      "Efficiency",
+      "Harmony",
+      "Resentment",
+      "Promotion"
+     ],
+     "answer": 2,
+     "why": "Talk instead."
+    }
+   ]
+  },
+  {
+   "id": "pp-030",
+   "level": "Peers & Teamwork",
+   "title": "Office gossip",
+   "summary": "Stay out of it without being cold.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Colleagues gossip about others or management, and you feel pressure to join."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They don't spread gossip, redirect the conversation politely, and avoid saying anything they wouldn't say to the person."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I haven't heard about that. Anyway, how's your project going?'\n'I'd rather not guess; maybe we can ask her directly.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Joining in, sharing confidential information, or lecturing others harshly."
+    }
+   ],
+   "speak": [
+    "I haven't heard about that.",
+    "Anyway, how's your project going?",
+    "Maybe we can ask her directly."
+   ],
+   "action": "If gossip comes up today, redirect with a neutral question.",
+   "quiz": [
+    {
+     "q": "A safe way to handle gossip is…",
+     "options": [
+      "Redirect politely",
+      "Lecture loudly",
+      "Spread it further",
+      "Join in"
+     ],
+     "answer": 0,
+     "why": "Stay neutral."
+    },
+    {
+     "q": "A good rule is…",
+     "options": [
+      "Say anything",
+      "Share secrets",
+      "Record everything",
+      "Don't say what you wouldn't say to the person"
+     ],
+     "answer": 3,
+     "why": "Integrity."
+    },
+    {
+     "q": "Gossip damages…",
+     "options": [
+      "Only the target",
+      "Trust and reputation",
+      "Only managers",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Everyone loses."
+    }
+   ]
+  },
+  {
+   "id": "pp-031",
+   "level": "Meetings",
+   "title": "Preparing for meetings",
+   "summary": "Five minutes of prep makes you sound sharp.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You join meetings without knowing the purpose and stay quiet or ramble."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They check the agenda, prepare 1-2 points or questions, and bring key numbers."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Before: 'What's the decision we need today?'\nIn meeting: 'I have one point on the budget and one question about the timeline.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Joining blind, or reading emails during the meeting."
+    }
+   ],
+   "speak": [
+    "I have one point on the budget.",
+    "And one question about the timeline.",
+    "What decision do we need today?"
+   ],
+   "action": "Before your next meeting, write one point and one question you'll contribute.",
+   "quiz": [
+    {
+     "q": "Good meeting prep includes…",
+     "options": [
+      "Arriving late",
+      "Reading unrelated email",
+      "Nothing",
+      "Knowing the purpose and preparing points"
+     ],
+     "answer": 3,
+     "why": "Be ready."
+    },
+    {
+     "q": "Bringing key numbers helps you…",
+     "options": [
+      "Sound credible",
+      "Nothing",
+      "Waste time",
+      "Confuse people"
+     ],
+     "answer": 0,
+     "why": "Evidence."
+    },
+    {
+     "q": "A useful pre-meeting question is…",
+     "options": [
+      "What's the decision we need today?",
+      "What's for lunch?",
+      "Can I skip?",
+      "Who's late?"
+     ],
+     "answer": 0,
+     "why": "Purpose."
+    }
+   ]
+  },
+  {
+   "id": "pp-032",
+   "level": "Meetings",
+   "title": "Speaking up in meetings",
+   "summary": "Your ideas only count if you share them.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You have good ideas but stay silent because others speak faster or you fear being wrong."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They speak within the first 10 minutes, keep points short, build on others' ideas and use bridging phrases."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Building on Ravi's point, we could also…'\n'Can I add something here?'\n'One quick thought: …'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Waiting for the perfect moment, or long rambling contributions."
+    }
+   ],
+   "speak": [
+    "Building on Ravi's point, we could also automate this.",
+    "Can I add something here?",
+    "One quick thought on the timeline."
+   ],
+   "action": "Make one contribution in the first 10 minutes of your next meeting.",
+   "quiz": [
+    {
+     "q": "A good habit is speaking…",
+     "options": [
+      "Only at the end",
+      "Never",
+      "Only when asked",
+      "Early in the meeting"
+     ],
+     "answer": 3,
+     "why": "Break the ice."
+    },
+    {
+     "q": "'Building on X's point' helps…",
+     "options": [
+      "Connect ideas and include others",
+      "Interrupt",
+      "Take credit",
+      "End the meeting"
+     ],
+     "answer": 0,
+     "why": "Collaborative."
+    },
+    {
+     "q": "Effective contributions are…",
+     "options": [
+      "Off-topic",
+      "Long and detailed",
+      "Silent",
+      "Short and clear"
+     ],
+     "answer": 3,
+     "why": "Concise."
+    }
+   ]
+  },
+  {
+   "id": "pp-033",
+   "level": "Meetings",
+   "title": "Interrupting politely",
+   "summary": "Enter the conversation without being rude.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Fast talkers dominate; you can't get a word in."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They use a polite interruption, signal with a raised hand on video, and keep it brief."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Sorry to jump in, but…'\n'If I may add one point…'\n'Before we move on, could I share something?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Talking over people, or giving up entirely."
+    }
+   ],
+   "speak": [
+    "Sorry to jump in, but I have a quick point.",
+    "If I may add one thing.",
+    "Before we move on, could I share something?"
+   ],
+   "action": "Use 'Sorry to jump in, but…' once this week when you need the floor.",
+   "quiz": [
+    {
+     "q": "A polite interruption phrase is…",
+     "options": [
+      "Be quiet",
+      "Stop talking",
+      "Listen to me",
+      "Sorry to jump in, but…"
+     ],
+     "answer": 3,
+     "why": "Soft entry."
+    },
+    {
+     "q": "On video calls you can signal by…",
+     "options": [
+      "Muting",
+      "Shouting",
+      "Raising your hand (or using the hand icon)",
+      "Leaving"
+     ],
+     "answer": 2,
+     "why": "Visual cue."
+    },
+    {
+     "q": "After interrupting, keep your point…",
+     "options": [
+      "Off-topic",
+      "Unclear",
+      "Brief",
+      "Long"
+     ],
+     "answer": 2,
+     "why": "Respect time."
+    }
+   ]
+  },
+  {
+   "id": "pp-034",
+   "level": "Meetings",
+   "title": "When someone talks over you",
+   "summary": "Hold your ground calmly.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Colleagues interrupt you mid-sentence."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They calmly finish their point, or reclaim the floor after the interruption."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'd like to finish my point, then I'm keen to hear yours.'\n'Coming back to what I was saying…'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Getting angry or giving up."
+    }
+   ],
+   "speak": [
+    "I'd like to finish my point.",
+    "Then I'm keen to hear yours.",
+    "Coming back to what I was saying."
+   ],
+   "action": "Practise 'I'd like to finish my point' aloud three times.",
+   "quiz": [
+    {
+     "q": "If interrupted, a calm response is…",
+     "options": [
+      "Shouting",
+      "Silence forever",
+      "'I'd like to finish my point'",
+      "Leaving"
+     ],
+     "answer": 2,
+     "why": "Assertive, polite."
+    },
+    {
+     "q": "Assertiveness means…",
+     "options": [
+      "Aggression",
+      "Rudeness",
+      "Passivity",
+      "Calmly standing up for yourself"
+     ],
+     "answer": 3,
+     "why": "Balance."
+    },
+    {
+     "q": "'Coming back to what I was saying' helps…",
+     "options": [
+      "Nothing",
+      "Reclaim the floor",
+      "End the meeting",
+      "Blame"
+     ],
+     "answer": 1,
+     "why": "Return to your point."
+    }
+   ]
+  },
+  {
+   "id": "pp-035",
+   "level": "Meetings",
+   "title": "Asking smart questions",
+   "summary": "Good questions make you look thoughtful.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You hesitate to ask questions, fearing they'll seem basic."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They ask clarifying and strategic questions that help the whole group."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'What's the main risk if we delay?'\n'How will we measure success?'\n'Just to clarify, are we optimising for cost or speed?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Asking questions to show off, or never asking."
+    }
+   ],
+   "speak": [
+    "How will we measure success?",
+    "What's the main risk if we delay?",
+    "Are we optimising for cost or speed?"
+   ],
+   "action": "Ask one clarifying question in your next meeting.",
+   "quiz": [
+    {
+     "q": "A strategic question is…",
+     "options": [
+      "How will we measure success?",
+      "Can we end?",
+      "Who's late?",
+      "When is lunch?"
+     ],
+     "answer": 0,
+     "why": "Big picture."
+    },
+    {
+     "q": "Clarifying questions often…",
+     "options": [
+      "Annoy everyone",
+      "Embarrass you",
+      "Help the whole group",
+      "Waste time"
+     ],
+     "answer": 2,
+     "why": "Others wonder too."
+    },
+    {
+     "q": "Questions asked to show off…",
+     "options": [
+      "Damage credibility",
+      "Are required",
+      "Are ideal",
+      "Build respect"
+     ],
+     "answer": 0,
+     "why": "Be genuine."
+    }
+   ]
+  },
+  {
+   "id": "pp-036",
+   "level": "Meetings",
+   "title": "Summarising decisions and actions",
+   "summary": "Be the person who brings clarity.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Meetings end without clear decisions; nobody knows who does what."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They summarise at the end: decisions, owners, deadlines, and send a short recap."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Let me quickly recap: we agreed on option B; Neha will update the forecast by Friday; I'll share the deck on Monday.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Leaving without clarity or long, unstructured minutes."
+    }
+   ],
+   "speak": [
+    "Let me quickly recap.",
+    "We agreed on option B.",
+    "Neha will update the forecast by Friday."
+   ],
+   "action": "Offer to summarise actions at the end of your next meeting.",
+   "quiz": [
+    {
+     "q": "A meeting recap should include…",
+     "options": [
+      "Decisions, owners and deadlines",
+      "Everything said",
+      "Nothing",
+      "Jokes"
+     ],
+     "answer": 0,
+     "why": "Actionable."
+    },
+    {
+     "q": "Offering to summarise shows…",
+     "options": [
+      "Confusion",
+      "Leadership",
+      "Weakness",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Visible value."
+    },
+    {
+     "q": "A short recap email is sent…",
+     "options": [
+      "Never",
+      "After the meeting",
+      "Before the meeting",
+      "Next month"
+     ],
+     "answer": 1,
+     "why": "Alignment."
+    }
+   ]
+  },
+  {
+   "id": "pp-037",
+   "level": "Meetings",
+   "title": "Presenting your work in meetings",
+   "summary": "Lead with the answer, then the details.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You explain your analysis step by step and lose the audience before reaching the conclusion."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They lead with the conclusion, give 2-3 reasons and offer details if asked."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'The bottom line: we're 5% over budget, mainly due to freight costs. I recommend renegotiating with two vendors. Happy to walk through the details.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Starting with methodology, or too many slides."
+    }
+   ],
+   "speak": [
+    "The bottom line is we're five percent over budget.",
+    "The main reason is freight costs.",
+    "I recommend renegotiating with two vendors."
+   ],
+   "action": "Rewrite one update so the first sentence is the conclusion.",
+   "quiz": [
+    {
+     "q": "Start your update with…",
+     "options": [
+      "Methodology",
+      "Apologies",
+      "Your background",
+      "The conclusion"
+     ],
+     "answer": 3,
+     "why": "BLUF."
+    },
+    {
+     "q": "After the conclusion give…",
+     "options": [
+      "20 slides",
+      "Nothing",
+      "2-3 reasons",
+      "Jokes"
+     ],
+     "answer": 2,
+     "why": "Support it."
+    },
+    {
+     "q": "Details should be…",
+     "options": [
+      "Skipped always",
+      "Forced on everyone",
+      "Offered if asked",
+      "Hidden"
+     ],
+     "answer": 2,
+     "why": "Respect time."
+    }
+   ]
+  },
+  {
+   "id": "pp-038",
+   "level": "Meetings",
+   "title": "Handling tough questions in meetings",
+   "summary": "Stay calm, honest and structured.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A senior asks a hard question and you panic or guess."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They pause, clarify the question, answer what they know, and promise a follow-up for what they don't."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Good question. If I understand correctly, you're asking about the Q4 impact. We expect about 3%; I'll confirm the exact number by tomorrow.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Bluffing numbers, getting defensive, or long rambles."
+    }
+   ],
+   "speak": [
+    "If I understand correctly, you're asking about Q4.",
+    "We expect about three percent.",
+    "I'll confirm the exact number by tomorrow."
+   ],
+   "action": "Practise the line: 'I don't have that exact figure, but I'll get back to you by tomorrow.'",
+   "quiz": [
+    {
+     "q": "If you don't know an answer…",
+     "options": [
+      "Change topic",
+      "Say what you know and promise a follow-up",
+      "Guess confidently",
+      "Blame others"
+     ],
+     "answer": 1,
+     "why": "Honesty."
+    },
+    {
+     "q": "Clarifying the question helps…",
+     "options": [
+      "Nothing",
+      "Answer the right thing",
+      "Waste time",
+      "Avoid answering"
+     ],
+     "answer": 1,
+     "why": "Accuracy."
+    },
+    {
+     "q": "Getting defensive…",
+     "options": [
+      "Is expected",
+      "Builds credibility",
+      "Shows expertise",
+      "Damages credibility"
+     ],
+     "answer": 3,
+     "why": "Stay calm."
+    }
+   ]
+  },
+  {
+   "id": "pp-039",
+   "level": "Meetings",
+   "title": "Running your own meeting",
+   "summary": "Short, focused meetings earn respect.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your meetings run long and drift off-topic."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They send an agenda with the goal, invite only needed people, timebox topics and end with actions."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'The goal today is to agree on the vendor. We have 30 minutes: 10 for options, 15 for discussion, 5 for decision.'\n'Let's park that and take it offline.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "No agenda, too many attendees, or ending without decisions."
+    }
+   ],
+   "speak": [
+    "The goal today is to agree on the vendor.",
+    "We have thirty minutes.",
+    "Let's park that and take it offline."
+   ],
+   "action": "For your next meeting, write a one-line goal and a timed agenda.",
+   "quiz": [
+    {
+     "q": "A good meeting starts with…",
+     "options": [
+      "Complaints",
+      "Small talk for 30 minutes",
+      "A clear goal",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Purpose."
+    },
+    {
+     "q": "'Let's park that' means…",
+     "options": [
+      "End the meeting",
+      "Ignore forever",
+      "Leave the room",
+      "Postpone an off-topic item"
+     ],
+     "answer": 3,
+     "why": "Stay on track."
+    },
+    {
+     "q": "Invite…",
+     "options": [
+      "Nobody",
+      "Everyone",
+      "Only people needed",
+      "Only seniors"
+     ],
+     "answer": 2,
+     "why": "Respect time."
+    }
+   ]
+  },
+  {
+   "id": "pp-040",
+   "level": "Meetings",
+   "title": "Virtual meeting presence",
+   "summary": "Show up well on video calls.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "On calls you're on mute, camera off and invisible."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They turn the camera on for important calls, use good lighting, speak first in round-robins and use chat for links and summaries."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Hi everyone, Yash here from finance.'\n'I'll drop the link in the chat.'\n'Could everyone see my screen?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Multitasking visibly, background noise, or never speaking."
+    }
+   ],
+   "speak": [
+    "Hi everyone, Yash here from finance.",
+    "I'll drop the link in the chat.",
+    "Can everyone see my screen?"
+   ],
+   "action": "In your next video call, turn your camera on and speak in the first five minutes.",
+   "quiz": [
+    {
+     "q": "For important calls, it's best to…",
+     "options": [
+      "Stay muted always",
+      "Turn camera on",
+      "Keep camera off always",
+      "Join late"
+     ],
+     "answer": 1,
+     "why": "Presence."
+    },
+    {
+     "q": "A good use of chat is…",
+     "options": [
+      "Side gossip",
+      "Memes only",
+      "Spam",
+      "Sharing links and summaries"
+     ],
+     "answer": 3,
+     "why": "Support the meeting."
+    },
+    {
+     "q": "Visible multitasking signals…",
+     "options": [
+      "Seniority",
+      "Nothing",
+      "Disinterest",
+      "Efficiency"
+     ],
+     "answer": 2,
+     "why": "Avoid it."
+    }
+   ]
+  },
+  {
+   "id": "pp-041",
+   "level": "Emails, Chat & Writing",
+   "title": "Writing clear emails",
+   "summary": "Make every email easy to read and act on.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your emails are long, and people miss the key ask or don't reply."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They write a clear subject, put the ask in the first two lines, use bullets and end with a deadline."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Subject: 'Approval needed: Q3 budget revision by Friday'\n'Hi Ravi, could you approve the revised Q3 budget by Friday? Key changes: • Freight +₹12 L • Marketing −₹5 L. Details attached.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Burying the ask at the end, vague subjects like 'Update', or walls of text."
+    }
+   ],
+   "speak": [
+    "Could you approve the revised budget by Friday?",
+    "The key changes are listed below.",
+    "Details are attached."
+   ],
+   "action": "Rewrite your next email so the ask is in the first two lines.",
+   "quiz": [
+    {
+     "q": "Where should the main ask go?",
+     "options": [
+      "In the attachment",
+      "In the first two lines",
+      "At the end",
+      "Nowhere"
+     ],
+     "answer": 1,
+     "why": "Make it obvious."
+    },
+    {
+     "q": "A strong subject line is…",
+     "options": [
+      "Approval needed: Q3 budget by Friday",
+      "Hi",
+      "Important!!!",
+      "Update"
+     ],
+     "answer": 0,
+     "why": "Specific."
+    },
+    {
+     "q": "Bullets help by…",
+     "options": [
+      "Confusing readers",
+      "Making key points scannable",
+      "Adding length",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Readability."
+    }
+   ]
+  },
+  {
+   "id": "pp-042",
+   "level": "Emails, Chat & Writing",
+   "title": "Tone in written messages",
+   "summary": "Text loses tone; choose words carefully.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Short messages like 'Why is this late?' sound angry, even if you're just asking."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They add greeting, context and softeners, and reread messages from the receiver's point of view."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Instead of 'Why is this late?': 'Hi Neha, just checking on the report. Is anything blocking you? Happy to help.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "ALL CAPS, many exclamation marks, or one-word replies like 'Ok.'"
+    }
+   ],
+   "speak": [
+    "Hi Neha, just checking on the report.",
+    "Is anything blocking you?",
+    "Happy to help if needed."
+   ],
+   "action": "Reread three messages before sending today and soften any that sound harsh.",
+   "quiz": [
+    {
+     "q": "Written messages often lose…",
+     "options": [
+      "Words",
+      "Spelling",
+      "Length",
+      "Tone"
+     ],
+     "answer": 3,
+     "why": "Add warmth."
+    },
+    {
+     "q": "A softer version of 'Why is this late?' is…",
+     "options": [
+      "Just checking, anything blocking you?",
+      "Late again.",
+      "WHY IS THIS LATE",
+      "Explain now."
+     ],
+     "answer": 0,
+     "why": "Supportive."
+    },
+    {
+     "q": "Before sending, reread from…",
+     "options": [
+      "The receiver's viewpoint",
+      "Nobody's",
+      "Your viewpoint",
+      "A robot's"
+     ],
+     "answer": 0,
+     "why": "Empathy."
+    }
+   ]
+  },
+  {
+   "id": "pp-043",
+   "level": "Emails, Chat & Writing",
+   "title": "Chat etiquette (Teams, Slack, WhatsApp)",
+   "summary": "Respect time and attention in chats.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You send 'Hi' and wait, or message colleagues late at night expecting replies."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They write the full message at once, respect working hours, use threads and set clear urgency."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Instead of 'Hi' (wait): 'Hi Ankit, quick question: is the vendor invoice approved? Need it for today's payment run by 3 pm.'\nLate night: schedule the message for the morning."
+    },
+    {
+     "h": "Avoid",
+     "b": "Sending 'Hi' alone, spamming group chats, or expecting instant replies at night."
+    }
+   ],
+   "speak": [
+    "Quick question: is the vendor invoice approved?",
+    "I need it for today's payment run by three.",
+    "No rush, tomorrow morning is fine."
+   ],
+   "action": "Send your next chat message as one complete message with the ask and timing.",
+   "quiz": [
+    {
+     "q": "Instead of sending just 'Hi', you should…",
+     "options": [
+      "Send the full question at once",
+      "Call immediately",
+      "Wait for a reply",
+      "Send emojis"
+     ],
+     "answer": 0,
+     "why": "Save time."
+    },
+    {
+     "q": "Late-night messages are best…",
+     "options": [
+      "Sent with 'urgent'",
+      "Sent repeatedly",
+      "Scheduled for working hours",
+      "Voice notes"
+     ],
+     "answer": 2,
+     "why": "Respect boundaries."
+    },
+    {
+     "q": "Threads in chat help…",
+     "options": [
+      "Keep discussions organised",
+      "Hide messages",
+      "Nothing",
+      "Spam"
+     ],
+     "answer": 0,
+     "why": "Order."
+    }
+   ]
+  },
+  {
+   "id": "pp-044",
+   "level": "Emails, Chat & Writing",
+   "title": "Following up without nagging",
+   "summary": "Persistent and polite gets results.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "People don't reply, and you feel awkward reminding them."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They follow up with context, make it easy to respond, and escalate politely after a couple of tries."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Hi Ravi, gently bumping this up. Could you confirm by Thursday so we can close the vendor payment?'\n'Would a quick 5-minute call be easier?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Angry reminders, or giving up silently."
+    }
+   ],
+   "speak": [
+    "Gently bumping this up.",
+    "Could you confirm by Thursday?",
+    "Would a quick five-minute call be easier?"
+   ],
+   "action": "Follow up on one pending item today with a polite nudge and an easy option.",
+   "quiz": [
+    {
+     "q": "A good follow-up includes…",
+     "options": [
+      "All caps",
+      "Context and an easy next step",
+      "Anger",
+      "Threats"
+     ],
+     "answer": 1,
+     "why": "Polite persistence."
+    },
+    {
+     "q": "Offering a short call helps when…",
+     "options": [
+      "To annoy",
+      "Emails are being ignored",
+      "Never",
+      "Always first"
+     ],
+     "answer": 1,
+     "why": "Change channel."
+    },
+    {
+     "q": "Giving up silently means…",
+     "options": [
+      "Efficiency",
+      "Good manners",
+      "Problems stay unresolved",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Follow through."
+    }
+   ]
+  },
+  {
+   "id": "pp-045",
+   "level": "Emails, Chat & Writing",
+   "title": "Writing for senior leaders",
+   "summary": "Executives read the first lines only.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your updates to leadership are long and technical."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They lead with the conclusion, key numbers and decision needed, in under 100 words, with details attached."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Summary: Q3 revenue is 4% below plan due to delayed client X orders. We expect recovery in Q4. Decision needed: approve ₹20 L marketing push by Oct 25.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Technical jargon, long background, or no clear ask."
+    }
+   ],
+   "speak": [
+    "Summary: revenue is four percent below plan.",
+    "We expect recovery in Q4.",
+    "Decision needed: approve the marketing push."
+   ],
+   "action": "Write a 3-line executive summary of your current project.",
+   "quiz": [
+    {
+     "q": "Executive summaries should start with…",
+     "options": [
+      "Background",
+      "Methodology",
+      "Apologies",
+      "Conclusion and key numbers"
+     ],
+     "answer": 3,
+     "why": "Top-down."
+    },
+    {
+     "q": "A good length for an executive update is…",
+     "options": [
+      "5 pages",
+      "50 slides",
+      "Under ~100 words",
+      "Any length"
+     ],
+     "answer": 2,
+     "why": "Brief."
+    },
+    {
+     "q": "Always include…",
+     "options": [
+      "Rumours",
+      "The decision needed",
+      "Jokes",
+      "Every detail"
+     ],
+     "answer": 1,
+     "why": "Clear ask."
+    }
+   ]
+  },
+  {
+   "id": "pp-046",
+   "level": "Emails, Chat & Writing",
+   "title": "Saying no in writing",
+   "summary": "Decline clearly but kindly.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You avoid replying to requests you can't fulfil, leaving people waiting."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They reply promptly, say no clearly, give a short reason and offer an alternative."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Thanks for thinking of me. I can't take this on this week because of the audit, but I could help after the 25th, or Meera may be able to help sooner.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Ignoring the email, or overly long apologies."
+    }
+   ],
+   "speak": [
+    "Thanks for thinking of me.",
+    "I can't take this on this week because of the audit.",
+    "I could help after the twenty-fifth."
+   ],
+   "action": "Reply to one pending request you can't accept using reason + alternative.",
+   "quiz": [
+    {
+     "q": "A good written 'no' includes…",
+     "options": [
+      "A reason and an alternative",
+      "A long apology",
+      "Silence",
+      "Anger"
+     ],
+     "answer": 0,
+     "why": "Respectful."
+    },
+    {
+     "q": "Ignoring requests…",
+     "options": [
+      "Saves time",
+      "Is professional",
+      "Is polite",
+      "Leaves people waiting and damages trust"
+     ],
+     "answer": 3,
+     "why": "Reply."
+    },
+    {
+     "q": "Starting with 'Thanks for thinking of me' sounds…",
+     "options": [
+      "Rude",
+      "Fake always",
+      "Confusing",
+      "Warm"
+     ],
+     "answer": 3,
+     "why": "Gracious."
+    }
+   ]
+  },
+  {
+   "id": "pp-047",
+   "level": "Emails, Chat & Writing",
+   "title": "Email escalations",
+   "summary": "Escalate facts, not emotions.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "An issue isn't resolved and you're tempted to CC senior people angrily."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They escalate with a neutral summary: issue, impact, what's been tried, and what's needed, and inform the person first."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Hi Ravi, as discussed, I'm looping in Priya to help unblock the vendor payment. Issue: invoice pending since Oct 5. Impact: supply delay risk. Needed: approval by Oct 21.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Surprise CCs, emotional language or blame."
+    }
+   ],
+   "speak": [
+    "I'm looping in Priya to help unblock this.",
+    "The invoice has been pending since October fifth.",
+    "We need approval by the twenty-first."
+   ],
+   "action": "Draft a neutral escalation template: issue, impact, tried, needed.",
+   "quiz": [
+    {
+     "q": "A good escalation is…",
+     "options": [
+      "Emotional",
+      "Blaming",
+      "A surprise CC",
+      "Neutral and factual"
+     ],
+     "answer": 3,
+     "why": "Professional."
+    },
+    {
+     "q": "Before escalating, ideally…",
+     "options": [
+      "Complain to everyone",
+      "Post on social media",
+      "Inform the person",
+      "Wait a year"
+     ],
+     "answer": 2,
+     "why": "No surprises."
+    },
+    {
+     "q": "Include…",
+     "options": [
+      "Rumours",
+      "Nothing",
+      "Issue, impact, what's tried, what's needed",
+      "Only anger"
+     ],
+     "answer": 2,
+     "why": "Structure."
+    }
+   ]
+  },
+  {
+   "id": "pp-048",
+   "level": "Emails, Chat & Writing",
+   "title": "Meeting recaps and minutes",
+   "summary": "Written recaps prevent confusion later.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "After meetings, people remember decisions differently."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They send a short recap within 24 hours with decisions, actions, owners and dates."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Thanks all. Recap: • Decision: go with vendor B • Actions: Neha (contract by Oct 25), Yash (budget update by Oct 23). Let me know if I missed anything.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "No recap, or long transcripts nobody reads."
+    }
+   ],
+   "speak": [
+    "Thanks all, here's a quick recap.",
+    "We decided to go with vendor B.",
+    "Let me know if I missed anything."
+   ],
+   "action": "Send a 4-line recap after your next meeting.",
+   "quiz": [
+    {
+     "q": "Recaps should be sent within…",
+     "options": [
+      "A year",
+      "24 hours",
+      "A month",
+      "Never"
+     ],
+     "answer": 1,
+     "why": "While fresh."
+    },
+    {
+     "q": "A recap includes…",
+     "options": [
+      "Nothing",
+      "Decisions and actions with owners",
+      "Jokes",
+      "Full transcript"
+     ],
+     "answer": 1,
+     "why": "Actionable."
+    },
+    {
+     "q": "'Let me know if I missed anything' invites…",
+     "options": [
+      "Corrections and alignment",
+      "Complaints",
+      "Arguments",
+      "Silence"
+     ],
+     "answer": 0,
+     "why": "Accuracy."
+    }
+   ]
+  },
+  {
+   "id": "pp-049",
+   "level": "Emails, Chat & Writing",
+   "title": "Writing persuasive proposals",
+   "summary": "Get approvals with clear business cases.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your proposals are rejected or ignored."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They frame the problem, show the cost of inaction, propose a solution with numbers, address risks and give a clear ask."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Problem: manual reconciliation takes 40 hours/month. Cost: ~₹2 L/month. Proposal: automation tool (₹5 L one-time), payback in 3 months. Risk: training time, mitigated by vendor support. Ask: approval by Nov 1.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Focusing on features, not business impact."
+    }
+   ],
+   "speak": [
+    "The problem is forty hours of manual work a month.",
+    "The payback period is three months.",
+    "I'm asking for approval by November first."
+   ],
+   "action": "Outline one improvement idea using problem, cost, proposal, risk, ask.",
+   "quiz": [
+    {
+     "q": "A strong proposal shows…",
+     "options": [
+      "Business impact with numbers",
+      "Features only",
+      "Your opinion only",
+      "Nothing"
+     ],
+     "answer": 0,
+     "why": "Value."
+    },
+    {
+     "q": "'Cost of inaction' means…",
+     "options": [
+      "Tax",
+      "Discount",
+      "Salary",
+      "What it costs to do nothing"
+     ],
+     "answer": 3,
+     "why": "Urgency."
+    },
+    {
+     "q": "Addressing risks…",
+     "options": [
+      "Hides issues",
+      "Builds credibility",
+      "Weakens proposals",
+      "Is unnecessary"
+     ],
+     "answer": 1,
+     "why": "Balanced."
+    }
+   ]
+  },
+  {
+   "id": "pp-050",
+   "level": "Emails, Chat & Writing",
+   "title": "Using AI to draft, not to think",
+   "summary": "AI writes faster; you make it right.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "AI-written emails sound generic or wrong in tone."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They write the key points themselves, use AI to polish or shorten, then edit for tone, accuracy and context."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Prompt: 'Make this email shorter and more polite for a senior client; keep the numbers unchanged.' Then reread and personalise."
+    },
+    {
+     "h": "Avoid",
+     "b": "Sending AI drafts unread, or pasting confidential data into public tools."
+    }
+   ],
+   "speak": [
+    "Please keep the numbers unchanged.",
+    "Make this shorter and more polite.",
+    "I'll review and personalise the draft."
+   ],
+   "action": "Use AI to shorten one email today, then edit it in your own voice.",
+   "quiz": [
+    {
+     "q": "Best use of AI in writing is…",
+     "options": [
+      "Polishing your own key points",
+      "Replacing thinking",
+      "Sending drafts unread",
+      "Sharing confidential data"
+     ],
+     "answer": 0,
+     "why": "Human judgment."
+    },
+    {
+     "q": "Before sending an AI draft…",
+     "options": [
+      "Reread and personalise",
+      "Send immediately",
+      "Delete it",
+      "Add more emojis"
+     ],
+     "answer": 0,
+     "why": "Your voice."
+    },
+    {
+     "q": "Avoid pasting into public AI tools…",
+     "options": [
+      "Recipes",
+      "Public news",
+      "Weather",
+      "Confidential company data"
+     ],
+     "answer": 3,
+     "why": "Protect data."
+    }
+   ]
+  },
+  {
+   "id": "pp-051",
+   "level": "Influence & Stakeholders",
+   "title": "Mapping stakeholders",
+   "summary": "Know who decides, who influences and who's affected.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your project gets blocked by someone you didn't consult."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They list stakeholders by power and interest, and plan how to engage each."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Before we finalise, who else should we involve? Legal and procurement may need to sign off.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Ignoring quiet but powerful stakeholders."
+    }
+   ],
+   "speak": [
+    "Who else should we involve?",
+    "Legal may need to sign off.",
+    "Let's update procurement early."
+   ],
+   "action": "Draw a quick power/interest grid for your current project.",
+   "quiz": [
+    {
+     "q": "A power/interest grid helps you…",
+     "options": [
+      "Avoid people",
+      "Hide information",
+      "Nothing",
+      "Plan stakeholder engagement"
+     ],
+     "answer": 3,
+     "why": "Prioritise."
+    },
+    {
+     "q": "High-power, high-interest stakeholders need…",
+     "options": [
+      "Close management",
+      "Occasional emails",
+      "To be ignored",
+      "No updates"
+     ],
+     "answer": 0,
+     "why": "Engage closely."
+    },
+    {
+     "q": "Projects often fail when…",
+     "options": [
+      "A key stakeholder is ignored",
+      "Teams collaborate",
+      "Everyone is informed",
+      "Plans are clear"
+     ],
+     "answer": 0,
+     "why": "Blind spots."
+    }
+   ]
+  },
+  {
+   "id": "pp-052",
+   "level": "Influence & Stakeholders",
+   "title": "Influence without authority",
+   "summary": "Persuade people who don't report to you.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You need help from another team but can't order them."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They understand others' goals, offer value first, and frame requests around mutual benefit."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I know your team wants faster approvals. If we standardise this template, both teams save time. Could we pilot it next week?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Pulling rank, or pestering repeatedly."
+    }
+   ],
+   "speak": [
+    "I know your team wants faster approvals.",
+    "This could save both teams time.",
+    "Could we pilot it next week?"
+   ],
+   "action": "Identify one request you need from another team and frame it around their benefit.",
+   "quiz": [
+    {
+     "q": "Influence without authority relies on…",
+     "options": [
+      "Pressure",
+      "Shared goals and trust",
+      "Threats",
+      "Titles"
+     ],
+     "answer": 1,
+     "why": "Mutual benefit."
+    },
+    {
+     "q": "Offering value first…",
+     "options": [
+      "Builds reciprocity",
+      "Wastes time",
+      "Is manipulative always",
+      "Is weak"
+     ],
+     "answer": 0,
+     "why": "Give first."
+    },
+    {
+     "q": "A pilot proposal reduces…",
+     "options": [
+      "Risk and resistance",
+      "Speed",
+      "Trust",
+      "Quality"
+     ],
+     "answer": 0,
+     "why": "Easy yes."
+    }
+   ]
+  },
+  {
+   "id": "pp-053",
+   "level": "Influence & Stakeholders",
+   "title": "Pre-wiring decisions",
+   "summary": "Discuss ideas one-on-one before big meetings.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your proposal gets shot down in a meeting because key people hear it for the first time."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They share ideas privately beforehand, gather feedback and address concerns, so the meeting confirms rather than debates."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Before Thursday's meeting, could I get your view on this proposal? I'd value your input on the risks.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Surprising senior people in big meetings."
+    }
+   ],
+   "speak": [
+    "Before Thursday's meeting, could I get your view?",
+    "I'd value your input on the risks.",
+    "What would make this work for your team?"
+   ],
+   "action": "Before your next proposal meeting, talk to one key person privately.",
+   "quiz": [
+    {
+     "q": "Pre-wiring means…",
+     "options": [
+      "Electrical work",
+      "Skipping meetings",
+      "Discussing ideas with key people before a meeting",
+      "Rehearsing alone"
+     ],
+     "answer": 2,
+     "why": "Build support."
+    },
+    {
+     "q": "Why avoid surprising seniors in meetings?",
+     "options": [
+      "They like surprises",
+      "No reason",
+      "They may resist unfamiliar ideas publicly",
+      "It's illegal"
+     ],
+     "answer": 2,
+     "why": "Face-saving."
+    },
+    {
+     "q": "Asking for input…",
+     "options": [
+      "Is rude",
+      "Shows weakness",
+      "Delays everything",
+      "Builds ownership and support"
+     ],
+     "answer": 3,
+     "why": "Co-creation."
+    }
+   ]
+  },
+  {
+   "id": "pp-054",
+   "level": "Influence & Stakeholders",
+   "title": "Persuading with data and stories",
+   "summary": "Numbers convince minds; stories move people.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You present data-heavy arguments that don't persuade."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They combine one strong number with a short human story and a clear recommendation."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Our support team spends 30% of time on password resets, about 2,000 hours a year. Last week Riya missed a client call because of it. Self-service resets would fix this.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Data dumps without meaning, or emotional stories without data."
+    }
+   ],
+   "speak": [
+    "Our team spends thirty percent of its time on password resets.",
+    "That's about two thousand hours a year.",
+    "Self-service resets would fix this."
+   ],
+   "action": "Pair one key number with a short real example in your next update.",
+   "quiz": [
+    {
+     "q": "Persuasion works best with…",
+     "options": [
+      "Only emotion",
+      "Data plus a story",
+      "Only data",
+      "Long reports"
+     ],
+     "answer": 1,
+     "why": "Head and heart."
+    },
+    {
+     "q": "A data dump…",
+     "options": [
+      "Overwhelms listeners",
+      "Persuades everyone",
+      "Is ideal",
+      "Saves time"
+     ],
+     "answer": 0,
+     "why": "Choose key numbers."
+    },
+    {
+     "q": "End persuasive messages with…",
+     "options": [
+      "Nothing",
+      "Apologies",
+      "A joke",
+      "A clear recommendation"
+     ],
+     "answer": 3,
+     "why": "Call to action."
+    }
+   ]
+  },
+  {
+   "id": "pp-055",
+   "level": "Influence & Stakeholders",
+   "title": "Building your reputation",
+   "summary": "Be known for something specific.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "People don't know what you're good at beyond your job title."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They become known for a specific strength (e.g. 'the Excel automation person'), help others with it and share knowledge."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Happy to show you the macro I built; it might save your team time too.'\nRun a 15-minute lunch-and-learn."
+    },
+    {
+     "h": "Avoid",
+     "b": "Being invisible, or claiming expertise you don't have."
+    }
+   ],
+   "speak": [
+    "Happy to show you the macro I built.",
+    "It might save your team time too.",
+    "I'm running a short session on Friday."
+   ],
+   "action": "Decide what you want to be known for and share one tip about it this week.",
+   "quiz": [
+    {
+     "q": "A strong reputation is…",
+     "options": [
+      "Unimportant",
+      "Known for a specific strength",
+      "Built on gossip",
+      "Vague"
+     ],
+     "answer": 1,
+     "why": "Clear brand."
+    },
+    {
+     "q": "A good way to build reputation is…",
+     "options": [
+      "Avoiding people",
+      "Sharing knowledge and helping",
+      "Bragging",
+      "Hoarding knowledge"
+     ],
+     "answer": 1,
+     "why": "Generosity."
+    },
+    {
+     "q": "A lunch-and-learn is…",
+     "options": [
+      "A meeting with no agenda",
+      "A long lunch",
+      "A short knowledge-sharing session",
+      "A party"
+     ],
+     "answer": 2,
+     "why": "Visibility."
+    }
+   ]
+  },
+  {
+   "id": "pp-056",
+   "level": "Influence & Stakeholders",
+   "title": "Managing expectations",
+   "summary": "Under-promise and over-deliver.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Stakeholders expect more, faster, than you can deliver."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They clarify scope, timelines and trade-offs upfront and update early when things change."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Realistically, we can deliver the core report by Friday; the extra analysis would take another week. Which would you prefer?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Saying yes to everything, then missing deadlines."
+    }
+   ],
+   "speak": [
+    "Realistically, we can deliver the core report by Friday.",
+    "The extra analysis would take another week.",
+    "Which would you prefer?"
+   ],
+   "action": "For one current request, clarify scope and timeline in writing.",
+   "quiz": [
+    {
+     "q": "Managing expectations means…",
+     "options": [
+      "Promising everything",
+      "Avoiding commitments",
+      "Clarifying scope, time and trade-offs",
+      "Delaying updates"
+     ],
+     "answer": 2,
+     "why": "Clarity."
+    },
+    {
+     "q": "Offering a choice ('which would you prefer?')…",
+     "options": [
+      "Delays",
+      "Confuses",
+      "Shows weakness",
+      "Gives stakeholders control"
+     ],
+     "answer": 3,
+     "why": "Collaborative."
+    },
+    {
+     "q": "Under-promise and over-deliver builds…",
+     "options": [
+      "Trust",
+      "Stress",
+      "Nothing",
+      "Confusion"
+     ],
+     "answer": 0,
+     "why": "Reliability."
+    }
+   ]
+  },
+  {
+   "id": "pp-057",
+   "level": "Influence & Stakeholders",
+   "title": "Negotiating at work",
+   "summary": "Find win-win agreements on deadlines and resources.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You accept unrealistic deadlines or fight over resources."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They understand the other side's needs, trade what's cheap for them, and use conditional offers."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'If you can share the data by Tuesday, I can deliver the forecast by Friday.'\n'What's most important to you: speed or completeness?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Accepting everything, or rigid positions."
+    }
+   ],
+   "speak": [
+    "If you can share the data by Tuesday, I can deliver by Friday.",
+    "What's most important to you?",
+    "Let's find something that works for both of us."
+   ],
+   "action": "Use one 'If you…, I can…' statement this week.",
+   "quiz": [
+    {
+     "q": "Conditional offers start with…",
+     "options": [
+      "Never",
+      "You must",
+      "If you…, I can…",
+      "No"
+     ],
+     "answer": 2,
+     "why": "Trade."
+    },
+    {
+     "q": "Understanding the other side's needs…",
+     "options": [
+      "Is a waste",
+      "Weakens you",
+      "Reveals win-win options",
+      "Is impossible"
+     ],
+     "answer": 2,
+     "why": "Interests."
+    },
+    {
+     "q": "A rigid position…",
+     "options": [
+      "Blocks agreement",
+      "Is ideal",
+      "Builds agreement",
+      "Is fast"
+     ],
+     "answer": 0,
+     "why": "Stay flexible."
+    }
+   ]
+  },
+  {
+   "id": "pp-058",
+   "level": "Influence & Stakeholders",
+   "title": "Getting buy-in for change",
+   "summary": "People support what they help create.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your process improvement faces resistance from colleagues used to the old way."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They explain why, involve people early, address 'what's in it for me', run a small pilot and celebrate quick wins."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'This new template could save each of us an hour a week. Could we try it for two weeks and review together?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Imposing change suddenly or dismissing concerns."
+    }
+   ],
+   "speak": [
+    "This could save each of us an hour a week.",
+    "Could we try it for two weeks?",
+    "Let's review it together afterwards."
+   ],
+   "action": "Propose one small improvement as a 2-week pilot with feedback.",
+   "quiz": [
+    {
+     "q": "People support change more when they…",
+     "options": [
+      "Are ignored",
+      "Are surprised",
+      "Are ordered",
+      "Are involved early"
+     ],
+     "answer": 3,
+     "why": "Ownership."
+    },
+    {
+     "q": "A pilot helps by…",
+     "options": [
+      "Delaying",
+      "Reducing risk and showing results",
+      "Forcing change",
+      "Hiding"
+     ],
+     "answer": 1,
+     "why": "Low risk."
+    },
+    {
+     "q": "'What's in it for me' addresses…",
+     "options": [
+      "Nothing",
+      "Rules",
+      "Personal benefits for those affected",
+      "Your salary"
+     ],
+     "answer": 2,
+     "why": "Motivation."
+    }
+   ]
+  },
+  {
+   "id": "pp-059",
+   "level": "Influence & Stakeholders",
+   "title": "Building alliances",
+   "summary": "Allies help ideas succeed.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You push ideas alone and run out of support."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They find people who share goals, support others' initiatives and build coalitions across teams."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I noticed you're also working on reducing manual work. Want to combine efforts and present a joint proposal?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Going solo on big changes, or forming cliques that exclude others."
+    }
+   ],
+   "speak": [
+    "You're also working on reducing manual work.",
+    "Want to combine efforts?",
+    "We could present a joint proposal."
+   ],
+   "action": "Find one colleague with a similar goal and suggest working together.",
+   "quiz": [
+    {
+     "q": "Allies help because…",
+     "options": [
+      "They slow you down",
+      "Nothing",
+      "Ideas gain support and credibility",
+      "They take credit"
+     ],
+     "answer": 2,
+     "why": "Coalitions."
+    },
+    {
+     "q": "Supporting others' initiatives…",
+     "options": [
+      "Wastes time",
+      "Builds reciprocity",
+      "Is political only",
+      "Is weak"
+     ],
+     "answer": 1,
+     "why": "Give support."
+    },
+    {
+     "q": "Cliques that exclude others…",
+     "options": [
+      "Are efficient",
+      "Are required",
+      "Build culture",
+      "Damage trust"
+     ],
+     "answer": 3,
+     "why": "Be inclusive."
+    }
+   ]
+  },
+  {
+   "id": "pp-060",
+   "level": "Influence & Stakeholders",
+   "title": "Earning a seat at the table",
+   "summary": "Get invited to important discussions.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Decisions affecting your work are made without you."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They add value in every interaction, ask to join relevant meetings with a clear reason, and contribute insights rather than just data."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'd like to join the pricing discussion. I can bring the margin analysis and highlight risks early.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Complaining about being excluded without showing value."
+    }
+   ],
+   "speak": [
+    "I'd like to join the pricing discussion.",
+    "I can bring the margin analysis.",
+    "I can highlight risks early."
+   ],
+   "action": "Request to join one relevant meeting this month with a clear value statement.",
+   "quiz": [
+    {
+     "q": "To be invited, show…",
+     "options": [
+      "The value you'll add",
+      "Seniority only",
+      "Nothing",
+      "Complaints"
+     ],
+     "answer": 0,
+     "why": "Value."
+    },
+    {
+     "q": "Insights are more valued than…",
+     "options": [
+      "Raw data alone",
+      "Questions",
+      "Context",
+      "Ideas"
+     ],
+     "answer": 0,
+     "why": "Interpretation."
+    },
+    {
+     "q": "A good request explains…",
+     "options": [
+      "That you're bored",
+      "Why your presence helps",
+      "Nothing",
+      "Your salary"
+     ],
+     "answer": 1,
+     "why": "Clear reason."
+    }
+   ]
+  },
+  {
+   "id": "pp-061",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Receiving criticism gracefully",
+   "summary": "Feedback is data, not an attack.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "When someone criticises your work, you feel defensive and argue."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They listen fully, thank the person, ask clarifying questions and decide later what to act on."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Thanks for telling me. Could you give me an example so I understand better?'\n'That's helpful. I'll work on it.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Interrupting with excuses, or taking it personally for days."
+    }
+   ],
+   "speak": [
+    "Thanks for telling me.",
+    "Could you give me an example?",
+    "That's helpful, I'll work on it."
+   ],
+   "action": "Next time you get feedback, say 'Thanks, can you give me an example?' before anything else.",
+   "quiz": [
+    {
+     "q": "First response to criticism should be…",
+     "options": [
+      "Anger",
+      "Excuses",
+      "Thanks and a clarifying question",
+      "Silence forever"
+     ],
+     "answer": 2,
+     "why": "Open."
+    },
+    {
+     "q": "Asking for an example helps…",
+     "options": [
+      "Delay",
+      "Nothing",
+      "Understand the feedback",
+      "Argue"
+     ],
+     "answer": 2,
+     "why": "Clarity."
+    },
+    {
+     "q": "Feedback is best seen as…",
+     "options": [
+      "Useful information",
+      "Irrelevant",
+      "Gossip",
+      "A personal attack"
+     ],
+     "answer": 0,
+     "why": "Data for growth."
+    }
+   ]
+  },
+  {
+   "id": "pp-062",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Giving feedback with SBI",
+   "summary": "Situation, Behaviour, Impact: specific and fair.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You avoid giving feedback or it comes out as criticism of personality."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They describe the situation, the observable behaviour and its impact, then ask for the other person's view."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'In yesterday's client call (situation), you shared the draft numbers before they were checked (behaviour). The client is now quoting them (impact). How can we avoid that next time?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Labels like 'You're careless', or feedback in public."
+    }
+   ],
+   "speak": [
+    "In yesterday's client call, you explained the numbers very clearly.",
+    "The client felt confident as a result.",
+    "How can we avoid that next time?"
+   ],
+   "action": "Prepare one piece of SBI feedback (positive or constructive) and deliver it privately.",
+   "quiz": [
+    {
+     "q": "SBI stands for…",
+     "options": [
+      "Salary, Bonus, Incentive",
+      "Situation, Behaviour, Impact",
+      "Start, Build, Improve",
+      "Skills, Background, Interest"
+     ],
+     "answer": 1,
+     "why": "Feedback model."
+    },
+    {
+     "q": "Feedback should focus on…",
+     "options": [
+      "Appearance",
+      "Personality",
+      "Rumours",
+      "Observable behaviour"
+     ],
+     "answer": 3,
+     "why": "Specific."
+    },
+    {
+     "q": "Constructive feedback is best given…",
+     "options": [
+      "In public",
+      "Privately",
+      "Never",
+      "By email to everyone"
+     ],
+     "answer": 1,
+     "why": "Respect."
+    }
+   ]
+  },
+  {
+   "id": "pp-063",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Delivering bad news",
+   "summary": "Clear, early and with a plan.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You must tell a client or manager about a delay or mistake."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They state the news early and clearly, explain briefly, show the plan and acknowledge impact."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'm afraid the report will be delayed by two days because the data had errors. We've fixed the source issue and will deliver by Thursday. I'm sorry for the inconvenience.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Hiding the news, long excuses, or blaming others."
+    }
+   ],
+   "speak": [
+    "I'm afraid the report will be delayed by two days.",
+    "We've fixed the source issue.",
+    "We'll deliver by Thursday."
+   ],
+   "action": "Practise one bad-news message using: news, reason, plan, apology.",
+   "quiz": [
+    {
+     "q": "Bad news should be shared…",
+     "options": [
+      "Never",
+      "Early and clearly",
+      "Through gossip",
+      "Late"
+     ],
+     "answer": 1,
+     "why": "Trust."
+    },
+    {
+     "q": "Include…",
+     "options": [
+      "A plan",
+      "Blame",
+      "Nothing",
+      "Only excuses"
+     ],
+     "answer": 0,
+     "why": "Show control."
+    },
+    {
+     "q": "'I'm afraid…' is used to…",
+     "options": [
+      "Show fear",
+      "Complain",
+      "Ask questions",
+      "Soften bad news"
+     ],
+     "answer": 3,
+     "why": "Polite opener."
+    }
+   ]
+  },
+  {
+   "id": "pp-064",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Saying no to your manager",
+   "summary": "Protect quality by negotiating priorities.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your manager adds new tasks while you're already overloaded."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They don't refuse outright; they ask to re-prioritise and show trade-offs."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'm happy to take this on. To do it well, which of my current tasks should I pause: the audit prep or the forecast?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Silently accepting and missing deadlines, or refusing bluntly."
+    }
+   ],
+   "speak": [
+    "I'm happy to take this on.",
+    "Which current task should I pause?",
+    "I want to make sure I do it well."
+   ],
+   "action": "Next time you get a new task while overloaded, ask about priorities.",
+   "quiz": [
+    {
+     "q": "A smart way to handle extra work is…",
+     "options": [
+      "Refuse bluntly",
+      "Ignore it",
+      "Ask which priority to change",
+      "Accept and miss deadlines"
+     ],
+     "answer": 2,
+     "why": "Trade-offs."
+    },
+    {
+     "q": "Showing trade-offs helps your manager…",
+     "options": [
+      "Nothing",
+      "Ignore you",
+      "Get angry",
+      "Make informed decisions"
+     ],
+     "answer": 3,
+     "why": "Visibility."
+    },
+    {
+     "q": "Silent overload leads to…",
+     "options": [
+      "Nothing",
+      "Better work",
+      "Missed deadlines and burnout",
+      "Promotion"
+     ],
+     "answer": 2,
+     "why": "Speak up."
+    }
+   ]
+  },
+  {
+   "id": "pp-065",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Apologising professionally",
+   "summary": "A good apology repairs trust quickly.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You made a mistake that affected others."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They apologise promptly, take responsibility, explain the fix and prevention, without over-explaining."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'm sorry, I sent the wrong version to the client. That's on me. I've sent the correct one and added a check before every client send.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Blaming tools or others, or excessive apologies that make others uncomfortable."
+    }
+   ],
+   "speak": [
+    "I'm sorry, that's on me.",
+    "I've sent the correct version.",
+    "I've added a check to prevent it."
+   ],
+   "action": "Recall one recent mistake and write how you'd apologise using: sorry, ownership, fix, prevention.",
+   "quiz": [
+    {
+     "q": "A professional apology includes…",
+     "options": [
+      "Sorry, ownership, fix, prevention",
+      "Excuses",
+      "Blame",
+      "Silence"
+     ],
+     "answer": 0,
+     "why": "Repair."
+    },
+    {
+     "q": "'That's on me' shows…",
+     "options": [
+      "Ownership",
+      "Blame",
+      "Weakness",
+      "Confusion"
+     ],
+     "answer": 0,
+     "why": "Responsibility."
+    },
+    {
+     "q": "Over-apologising can…",
+     "options": [
+      "Make others uncomfortable",
+      "Hide mistakes",
+      "Always help",
+      "Be required"
+     ],
+     "answer": 0,
+     "why": "Keep it brief."
+    }
+   ]
+  },
+  {
+   "id": "pp-066",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Handling an angry colleague or client",
+   "summary": "Lower the temperature first.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Someone is upset and raising their voice at you."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They stay calm, let the person vent, acknowledge feelings, ask questions and move to solutions."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I can see this is really frustrating. Let me make sure I understand what happened.'\n'What would be a good outcome for you?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Arguing back, saying 'calm down', or taking it personally."
+    }
+   ],
+   "speak": [
+    "I can see this is really frustrating.",
+    "Let me make sure I understand what happened.",
+    "What would be a good outcome for you?"
+   ],
+   "action": "Memorise: 'I can see this is frustrating. Help me understand what happened.'",
+   "quiz": [
+    {
+     "q": "First step with an angry person is…",
+     "options": [
+      "Say 'calm down'",
+      "Argue",
+      "Acknowledge their feelings",
+      "Leave"
+     ],
+     "answer": 2,
+     "why": "De-escalation."
+    },
+    {
+     "q": "Saying 'calm down' usually…",
+     "options": [
+      "Makes them angrier",
+      "Solves it",
+      "Calms them",
+      "Is polite"
+     ],
+     "answer": 0,
+     "why": "Avoid it."
+    },
+    {
+     "q": "Move to solutions by asking…",
+     "options": [
+      "What would be a good outcome?",
+      "Nothing",
+      "Who's to blame?",
+      "Why are you shouting?"
+     ],
+     "answer": 0,
+     "why": "Forward focus."
+    }
+   ]
+  },
+  {
+   "id": "pp-067",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Performance concerns with a peer",
+   "summary": "Address issues before they grow.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A teammate's late work keeps affecting your deliverables."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They raise it privately, focus on impact, ask about obstacles and agree on next steps, escalating only if needed."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'The last two data files came after the cut-off, which delayed the report. Is something making it hard? How can we make Tuesday cut-offs work?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Complaining to the manager first, or doing their work silently."
+    }
+   ],
+   "speak": [
+    "The last two files came after the cut-off.",
+    "Is something making it hard?",
+    "How can we make the Tuesday cut-off work?"
+   ],
+   "action": "If a peer's delay affects you, schedule a 10-minute private chat about it.",
+   "quiz": [
+    {
+     "q": "Best first step with a peer's performance issue is…",
+     "options": [
+      "Do their work",
+      "Talk to them privately",
+      "Ignore it",
+      "Complain to the manager"
+     ],
+     "answer": 1,
+     "why": "Direct."
+    },
+    {
+     "q": "Asking about obstacles shows…",
+     "options": [
+      "Nothing",
+      "Blame",
+      "Empathy and problem-solving",
+      "Weakness"
+     ],
+     "answer": 2,
+     "why": "Understanding."
+    },
+    {
+     "q": "Escalate when…",
+     "options": [
+      "Always first",
+      "Never",
+      "Direct conversation hasn't worked",
+      "Immediately"
+     ],
+     "answer": 2,
+     "why": "Sequence."
+    }
+   ]
+  },
+  {
+   "id": "pp-068",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Asking for a raise or promotion",
+   "summary": "Prepare evidence, then ask clearly.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You feel underpaid or ready for more but don't know how to ask."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They prepare achievements with numbers, market data, a clear ask, and timing (before budget cycles)."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'd like to discuss my growth. Over the last year I automated reporting (saving 40 hours/month) and led the audit. Based on that and market data, I'd like to be considered for the senior analyst role.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Comparing yourself to colleagues' pay, or threatening to leave."
+    }
+   ],
+   "speak": [
+    "I'd like to discuss my growth.",
+    "I automated reporting and saved forty hours a month.",
+    "I'd like to be considered for the senior role."
+   ],
+   "action": "List your top 3 achievements with numbers for your next growth conversation.",
+   "quiz": [
+    {
+     "q": "A strong raise request includes…",
+     "options": [
+      "Threats",
+      "Complaints",
+      "Gossip about others' pay",
+      "Achievements with numbers and market data"
+     ],
+     "answer": 3,
+     "why": "Evidence."
+    },
+    {
+     "q": "Good timing for such requests is…",
+     "options": [
+      "Randomly",
+      "In a crisis",
+      "Never",
+      "Before budget/appraisal cycles"
+     ],
+     "answer": 3,
+     "why": "Planning."
+    },
+    {
+     "q": "Threatening to leave…",
+     "options": [
+      "Can damage trust",
+      "Is required",
+      "Is polite",
+      "Is persuasive always"
+     ],
+     "answer": 0,
+     "why": "Avoid ultimatums."
+    }
+   ]
+  },
+  {
+   "id": "pp-069",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Talking to your manager about a problem with them",
+   "summary": "Upward feedback, carefully.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your manager's behaviour (last-minute changes, harsh tone) is affecting you."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They choose a private, calm moment, ask permission, use SBI and propose a solution, focusing on shared goals."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Could I share something that would help me do better work? When requirements change on Friday evening, the team works weekends and quality drops. Could we lock changes by Thursday?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Complaining to others, or confronting in public."
+    }
+   ],
+   "speak": [
+    "Could I share something that would help me do better work?",
+    "When requirements change late, quality drops.",
+    "Could we lock changes by Thursday?"
+   ],
+   "action": "Write a respectful upward-feedback opener for one issue with your manager.",
+   "quiz": [
+    {
+     "q": "Upward feedback should be…",
+     "options": [
+      "Aggressive",
+      "Public",
+      "Anonymous gossip",
+      "Private and respectful"
+     ],
+     "answer": 3,
+     "why": "Careful."
+    },
+    {
+     "q": "Ask permission by saying…",
+     "options": [
+      "You're wrong",
+      "Listen to me",
+      "Could I share something that would help?",
+      "We need to talk now!"
+     ],
+     "answer": 2,
+     "why": "Soft opener."
+    },
+    {
+     "q": "Focus on…",
+     "options": [
+      "Past grudges",
+      "Shared goals and a solution",
+      "Personality",
+      "Blame"
+     ],
+     "answer": 1,
+     "why": "Constructive."
+    }
+   ]
+  },
+  {
+   "id": "pp-070",
+   "level": "Feedback & Difficult Conversations",
+   "title": "Turning feedback into action",
+   "summary": "Show people you listened.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You receive feedback but nothing visibly changes."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They choose one or two points, make a plan, act and later tell the person what changed."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Last month you suggested shorter updates. I've switched to a 3-line format. Is that working better for you?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Trying to fix everything at once, or forgetting feedback."
+    }
+   ],
+   "speak": [
+    "Last month you suggested shorter updates.",
+    "I've switched to a three-line format.",
+    "Is that working better for you?"
+   ],
+   "action": "Pick one piece of feedback you received and act on it this week; then tell the person.",
+   "quiz": [
+    {
+     "q": "Closing the loop on feedback means…",
+     "options": [
+      "Telling the person what you changed",
+      "Ignoring it",
+      "Forgetting it",
+      "Arguing later"
+     ],
+     "answer": 0,
+     "why": "Visible change."
+    },
+    {
+     "q": "How many feedback points to act on at once?",
+     "options": [
+      "Twenty",
+      "All",
+      "One or two",
+      "None"
+     ],
+     "answer": 2,
+     "why": "Focus."
+    },
+    {
+     "q": "Acting on feedback builds…",
+     "options": [
+      "Confusion",
+      "Nothing",
+      "Trust and growth",
+      "Conflict"
+     ],
+     "answer": 2,
+     "why": "Credibility."
+    }
+   ]
+  },
+  {
+   "id": "pp-071",
+   "level": "Conflict, Politics & Power",
+   "title": "Understanding office politics",
+   "summary": "Politics is how decisions really get made.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You dismiss office politics as dirty and get blindsided by decisions."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They understand formal and informal power: who influences decisions, who trusts whom, and what each person wants, and they use this ethically."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Ask yourself: 'Who will be affected? Who has influence? What does each person care about?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Ignoring politics entirely, or playing manipulative games."
+    }
+   ],
+   "speak": [
+    "Who will be affected by this decision?",
+    "What does each person care about?",
+    "How can we find a solution that works for everyone?"
+   ],
+   "action": "Map who really influences decisions in your team (it may not be the most senior person).",
+   "quiz": [
+    {
+     "q": "Healthy 'politics' means…",
+     "options": [
+      "Backstabbing",
+      "Gossip",
+      "Manipulation",
+      "Understanding influence and interests ethically"
+     ],
+     "answer": 3,
+     "why": "Awareness."
+    },
+    {
+     "q": "Informal influence can come from…",
+     "options": [
+      "Age only",
+      "Only titles",
+      "Expertise and trust, not just title",
+      "Salary"
+     ],
+     "answer": 2,
+     "why": "Real power."
+    },
+    {
+     "q": "Ignoring politics can lead to…",
+     "options": [
+      "Nothing",
+      "Promotion",
+      "Peace",
+      "Being blindsided"
+     ],
+     "answer": 3,
+     "why": "Stay aware."
+    }
+   ]
+  },
+  {
+   "id": "pp-072",
+   "level": "Conflict, Politics & Power",
+   "title": "Handling conflict between teammates",
+   "summary": "Be a calm mediator.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Two colleagues argue, and the team suffers."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They stay neutral, let each person explain, find common goals and agree on next steps."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I hear two different views. Ravi, you're focused on speed; Neha, on accuracy. We both want a reliable report on time. Could we agree on a quick check step?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Taking sides, or ignoring the conflict."
+    }
+   ],
+   "speak": [
+    "I hear two different views.",
+    "We both want a reliable report on time.",
+    "Could we agree on a quick check step?"
+   ],
+   "action": "If you see tension in your team, summarise both sides fairly in your next discussion.",
+   "quiz": [
+    {
+     "q": "A good mediator…",
+     "options": [
+      "Stays neutral and finds common goals",
+      "Ignores conflict",
+      "Escalates immediately",
+      "Takes sides"
+     ],
+     "answer": 0,
+     "why": "Balance."
+    },
+    {
+     "q": "Summarising both views helps people feel…",
+     "options": [
+      "Angry",
+      "Confused",
+      "Heard",
+      "Ignored"
+     ],
+     "answer": 2,
+     "why": "Fairness."
+    },
+    {
+     "q": "Conflict left unresolved…",
+     "options": [
+      "Disappears",
+      "Damages the team",
+      "Is healthy always",
+      "Builds trust"
+     ],
+     "answer": 1,
+     "why": "Address it."
+    }
+   ]
+  },
+  {
+   "id": "pp-073",
+   "level": "Conflict, Politics & Power",
+   "title": "When someone takes credit for your work",
+   "summary": "Reclaim credit without drama.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A colleague presents your idea or work as theirs."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They speak up calmly in the moment or follow up privately, and make their work visible in future (emails, documents with names)."
+    },
+    {
+     "h": "Say it like this",
+     "b": "In a meeting: 'Thanks for mentioning the automation. Happy to add detail, since I built the model.'\nPrivately: 'I noticed my analysis was presented without mention. Next time, could we present it together?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Public anger or silent resentment."
+    }
+   ],
+   "speak": [
+    "Happy to add detail, since I built the model.",
+    "Next time, could we present it together?",
+    "I've documented the analysis in the shared folder."
+   ],
+   "action": "Start documenting your contributions in shared docs and emails with your name.",
+   "quiz": [
+    {
+     "q": "If someone takes credit, respond…",
+     "options": [
+      "With public anger",
+      "With revenge",
+      "Calmly and factually",
+      "With silence forever"
+     ],
+     "answer": 2,
+     "why": "Professional."
+    },
+    {
+     "q": "A preventive habit is…",
+     "options": [
+      "Working alone",
+      "Never sharing ideas",
+      "Hiding work",
+      "Documenting your contributions visibly"
+     ],
+     "answer": 3,
+     "why": "Evidence."
+    },
+    {
+     "q": "A private follow-up can…",
+     "options": [
+      "Prevent repeats without drama",
+      "Waste time",
+      "Cause fights",
+      "Nothing"
+     ],
+     "answer": 0,
+     "why": "Direct."
+    }
+   ]
+  },
+  {
+   "id": "pp-074",
+   "level": "Conflict, Politics & Power",
+   "title": "Dealing with a micromanager",
+   "summary": "Earn autonomy through trust.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your manager checks every detail and you feel stifled."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They over-communicate early, agree on check-in points, deliver reliably and gradually ask for more autonomy."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'To keep you updated without interrupting, could I send a short status every morning? If that works, maybe we can move to twice a week.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Resisting openly, or hiding information (which increases micromanagement)."
+    }
+   ],
+   "speak": [
+    "Could I send you a short status every morning?",
+    "That way you'll always know where things stand.",
+    "Maybe later we can move to twice a week."
+   ],
+   "action": "Propose a regular update rhythm to your manager.",
+   "quiz": [
+    {
+     "q": "Micromanagement often decreases when…",
+     "options": [
+      "You argue",
+      "You avoid them",
+      "You share regular, reliable updates",
+      "You hide information"
+     ],
+     "answer": 2,
+     "why": "Build trust."
+    },
+    {
+     "q": "Hiding information from a micromanager…",
+     "options": [
+      "Is ideal",
+      "Increases checking",
+      "Has no effect",
+      "Reduces checking"
+     ],
+     "answer": 1,
+     "why": "Backfires."
+    },
+    {
+     "q": "Autonomy is usually earned through…",
+     "options": [
+      "Demands",
+      "Silence",
+      "Complaints",
+      "Reliability"
+     ],
+     "answer": 3,
+     "why": "Trust."
+    }
+   ]
+  },
+  {
+   "id": "pp-075",
+   "level": "Conflict, Politics & Power",
+   "title": "Working with difficult seniors",
+   "summary": "Respect hierarchy while protecting yourself.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A senior leader is dismissive or harsh with you."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They stay professional, prepare thoroughly, keep communication concise and factual, and document key decisions."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Understood. To make sure I get this right: you'd like the summary by 5 pm with only three key numbers?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Reacting emotionally, or avoiding them completely."
+    }
+   ],
+   "speak": [
+    "Understood.",
+    "To make sure I get this right, you'd like the summary by five?",
+    "I'll keep it to three key numbers."
+   ],
+   "action": "Before your next interaction with a challenging senior, prepare your 3 key points.",
+   "quiz": [
+    {
+     "q": "With a harsh senior, it helps to be…",
+     "options": [
+      "Sarcastic",
+      "Absent",
+      "Emotional",
+      "Concise, prepared and factual"
+     ],
+     "answer": 3,
+     "why": "Professional."
+    },
+    {
+     "q": "Confirming instructions helps…",
+     "options": [
+      "Avoid misunderstandings",
+      "Annoy them",
+      "Nothing",
+      "Waste time"
+     ],
+     "answer": 0,
+     "why": "Clarity."
+    },
+    {
+     "q": "Documenting key decisions…",
+     "options": [
+      "Is useless",
+      "Is paranoid",
+      "Breaks rules",
+      "Protects you"
+     ],
+     "answer": 3,
+     "why": "Record."
+    }
+   ]
+  },
+  {
+   "id": "pp-076",
+   "level": "Conflict, Politics & Power",
+   "title": "Navigating hierarchy in Indian workplaces",
+   "summary": "Respectful but confident communication.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Hierarchical cultures can make juniors hesitant to speak or disagree."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They show respect (titles, timing, private disagreement) while still contributing ideas confidently and with data."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Sir/Ma'am, may I suggest an alternative? Based on last quarter's numbers, option B might reduce costs by 8%.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Total silence, or ignoring hierarchy norms entirely."
+    }
+   ],
+   "speak": [
+    "May I suggest an alternative?",
+    "Based on last quarter's numbers, option B might reduce costs.",
+    "I'd be happy to share the analysis."
+   ],
+   "action": "Prepare one data-backed suggestion and share it respectfully with a senior this week.",
+   "quiz": [
+    {
+     "q": "In hierarchical workplaces, effective juniors…",
+     "options": [
+      "Argue publicly",
+      "Stay silent always",
+      "Ignore seniors",
+      "Contribute confidently and respectfully"
+     ],
+     "answer": 3,
+     "why": "Balance."
+    },
+    {
+     "q": "Data-backed suggestions…",
+     "options": [
+      "Are rude",
+      "Are unnecessary",
+      "Are easier for seniors to accept",
+      "Are ignored always"
+     ],
+     "answer": 2,
+     "why": "Credibility."
+    },
+    {
+     "q": "'May I suggest…' is…",
+     "options": [
+      "Rude",
+      "Too casual",
+      "Respectful and confident",
+      "Weak"
+     ],
+     "answer": 2,
+     "why": "Polite entry."
+    }
+   ]
+  },
+  {
+   "id": "pp-077",
+   "level": "Conflict, Politics & Power",
+   "title": "Protecting yourself with documentation",
+   "summary": "Write things down without seeming defensive.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Verbal instructions change and you get blamed."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They confirm important verbal decisions by short email or chat and keep organised records."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Thanks for the discussion. Just confirming: we'll go with the revised numbers and send them to the client on Monday.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Relying on memory, or sending aggressive 'as per my last email' messages."
+    }
+   ],
+   "speak": [
+    "Thanks for the discussion.",
+    "Just confirming we'll go with the revised numbers.",
+    "We'll send them to the client on Monday."
+   ],
+   "action": "After your next important verbal decision, send a 2-line confirmation message.",
+   "quiz": [
+    {
+     "q": "Confirming decisions in writing…",
+     "options": [
+      "Is rude",
+      "Is illegal",
+      "Protects everyone",
+      "Wastes time"
+     ],
+     "answer": 2,
+     "why": "Clarity."
+    },
+    {
+     "q": "'As per my last email' can sound…",
+     "options": [
+      "Funny",
+      "Passive-aggressive",
+      "Friendly",
+      "Neutral always"
+     ],
+     "answer": 1,
+     "why": "Tone matters."
+    },
+    {
+     "q": "Records help when…",
+     "options": [
+      "Instructions change",
+      "Never",
+      "Only in audits",
+      "Only for managers"
+     ],
+     "answer": 0,
+     "why": "Memory aid."
+    }
+   ]
+  },
+  {
+   "id": "pp-078",
+   "level": "Conflict, Politics & Power",
+   "title": "Staying neutral in office conflicts",
+   "summary": "Don't get pulled into camps.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Two groups or leaders are in conflict and both want your support."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They stay professional with everyone, focus on work, avoid gossip and express views on issues, not people."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I work well with both teams. On this issue, my view is based on the data: option A meets the deadline.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Picking sides publicly, or sharing confidential information."
+    }
+   ],
+   "speak": [
+    "I work well with both teams.",
+    "My view is based on the data.",
+    "Let's focus on what helps the project."
+   ],
+   "action": "If pulled into a conflict, respond with an issue-focused, neutral statement.",
+   "quiz": [
+    {
+     "q": "In office conflicts, focus on…",
+     "options": [
+      "Issues and data",
+      "Revenge",
+      "People",
+      "Gossip"
+     ],
+     "answer": 0,
+     "why": "Neutral."
+    },
+    {
+     "q": "Sharing confidential information…",
+     "options": [
+      "Is required",
+      "Damages trust",
+      "Is helpful",
+      "Builds trust"
+     ],
+     "answer": 1,
+     "why": "Avoid."
+    },
+    {
+     "q": "Staying professional with everyone…",
+     "options": [
+      "Protects your reputation",
+      "Is fake",
+      "Is impossible",
+      "Is weak"
+     ],
+     "answer": 0,
+     "why": "Integrity."
+    }
+   ]
+  },
+  {
+   "id": "pp-079",
+   "level": "Conflict, Politics & Power",
+   "title": "Handling unfair blame",
+   "summary": "Respond with facts, not anger.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You're blamed for a problem caused by others or by process gaps."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They stay calm, share facts and timelines, focus on the fix, and suggest process improvements."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I understand the concern. Here's the timeline: the data reached us on the 15th, after the cut-off. To prevent this, could we set an automated reminder for data owners?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Counter-blaming, emotional reactions or silence."
+    }
+   ],
+   "speak": [
+    "I understand the concern.",
+    "Here's the timeline of what happened.",
+    "To prevent this, could we set an automated reminder?"
+   ],
+   "action": "Prepare a factual timeline for any current issue where blame might arise.",
+   "quiz": [
+    {
+     "q": "When blamed unfairly, respond with…",
+     "options": [
+      "Anger",
+      "Facts, timeline and a fix",
+      "Counter-blame",
+      "Silence"
+     ],
+     "answer": 1,
+     "why": "Calm facts."
+    },
+    {
+     "q": "Suggesting a process improvement shows…",
+     "options": [
+      "Weakness",
+      "Nothing",
+      "Guilt",
+      "Leadership"
+     ],
+     "answer": 3,
+     "why": "Solution focus."
+    },
+    {
+     "q": "Counter-blaming usually…",
+     "options": [
+      "Wins respect",
+      "Is ideal",
+      "Resolves the issue",
+      "Escalates conflict"
+     ],
+     "answer": 3,
+     "why": "Avoid."
+    }
+   ]
+  },
+  {
+   "id": "pp-080",
+   "level": "Conflict, Politics & Power",
+   "title": "Building power ethically",
+   "summary": "Earn influence through expertise and generosity.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You feel powerless because you're not senior."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They build expertise power (being the go-to person), relationship power (wide network) and information power (knowing context), and use it to help others."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I can help with that; I've built a similar model before.'\n'Let me connect you with Priya in tax; she'll know.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Hoarding information or using influence to harm others."
+    }
+   ],
+   "speak": [
+    "I can help with that, I've built a similar model.",
+    "Let me connect you with Priya.",
+    "She'll know the answer."
+   ],
+   "action": "Connect two colleagues who could help each other this week.",
+   "quiz": [
+    {
+     "q": "Ethical sources of power include…",
+     "options": [
+      "Expertise and relationships",
+      "Hoarding information",
+      "Gossip",
+      "Threats"
+     ],
+     "answer": 0,
+     "why": "Earned influence."
+    },
+    {
+     "q": "Connecting people builds…",
+     "options": [
+      "Confusion",
+      "Conflict",
+      "Nothing",
+      "Network and goodwill"
+     ],
+     "answer": 3,
+     "why": "Relationship power."
+    },
+    {
+     "q": "Hoarding information…",
+     "options": [
+      "Is required",
+      "Is wise",
+      "Builds trust",
+      "Damages trust long-term"
+     ],
+     "answer": 3,
+     "why": "Share generously."
+    }
+   ]
+  },
+  {
+   "id": "pp-081",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Making your work visible",
+   "summary": "Good work that nobody sees doesn't count for much.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You work hard, but leaders don't know what you've delivered."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They share short, regular updates on outcomes (not activity), credit the team and link results to business goals."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Quick update: the new reconciliation process cut month-end close by two days. Thanks to Ravi for the automation script.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Bragging, listing hours worked, or staying silent and hoping someone notices."
+    }
+   ],
+   "speak": [
+    "Quick update on the reconciliation project.",
+    "It cut month-end close by two days.",
+    "Thanks to Ravi for the automation script."
+   ],
+   "action": "Send your manager a three-line update today: what you finished, the impact, what's next.",
+   "quiz": [
+    {
+     "q": "Visible updates should focus on…",
+     "options": [
+      "Gossip",
+      "Outcomes and impact",
+      "Complaints",
+      "Hours worked"
+     ],
+     "answer": 1,
+     "why": "Results matter."
+    },
+    {
+     "q": "Crediting the team makes you look…",
+     "options": [
+      "Junior",
+      "Lazy",
+      "Weak",
+      "Confident and fair"
+     ],
+     "answer": 3,
+     "why": "Leaders share credit."
+    },
+    {
+     "q": "Staying silent about your work…",
+     "options": [
+      "Is always best",
+      "Guarantees promotion",
+      "Risks it going unnoticed",
+      "Annoys people"
+     ],
+     "answer": 2,
+     "why": "Speak up."
+    }
+   ]
+  },
+  {
+   "id": "pp-082",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Your 30-second introduction",
+   "summary": "Introduce yourself by the value you bring.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "In meetings or events, you only say your name and job title."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They give a short line: who they are, what they help with, and something memorable or relevant to the audience."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Hi, I'm Yash. I work in the finance analytics team; I help business units turn raw numbers into decisions. Lately I've been automating our monthly reporting.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Long life stories, or mumbling your title and stopping."
+    }
+   ],
+   "speak": [
+    "Hi, I'm Yash, from the finance analytics team.",
+    "I help business units turn numbers into decisions.",
+    "Lately I've been automating our monthly reporting."
+   ],
+   "action": "Write and practise your 30-second introduction aloud three times.",
+   "quiz": [
+    {
+     "q": "A strong introduction highlights…",
+     "options": [
+      "Your salary",
+      "Only your title",
+      "Your problems",
+      "Your value"
+     ],
+     "answer": 3,
+     "why": "What you help with."
+    },
+    {
+     "q": "A good length is about…",
+     "options": [
+      "10 minutes",
+      "2 seconds",
+      "30 seconds",
+      "An hour"
+     ],
+     "answer": 2,
+     "why": "Short and clear."
+    },
+    {
+     "q": "Adding a recent project makes it…",
+     "options": [
+      "Rude",
+      "Boring",
+      "Memorable",
+      "Too long always"
+     ],
+     "answer": 2,
+     "why": "Specific hook."
+    }
+   ]
+  },
+  {
+   "id": "pp-083",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Structuring a presentation",
+   "summary": "Tell them the answer first, then the support.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your slides walk through every step before reaching the point; leaders lose interest."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They lead with the key message (the 'so what'), give three supporting points, and end with a clear ask."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'My recommendation: we move vendor payments to weekly runs. Three reasons: cash visibility, fewer errors, better discounts. I need your approval to pilot it next month.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Data dumps, reading slides aloud, or no clear ask."
+    }
+   ],
+   "speak": [
+    "My recommendation is to move to weekly payment runs.",
+    "There are three reasons.",
+    "I need your approval to pilot it next month."
+   ],
+   "action": "Take your next update and rewrite the first line as the main message.",
+   "quiz": [
+    {
+     "q": "For senior audiences, start with…",
+     "options": [
+      "Background history",
+      "Jokes",
+      "An apology",
+      "The key message"
+     ],
+     "answer": 3,
+     "why": "Answer first."
+    },
+    {
+     "q": "A presentation should end with…",
+     "options": [
+      "Questions only",
+      "Nothing",
+      "More data",
+      "A clear ask or next step"
+     ],
+     "answer": 3,
+     "why": "Drive action."
+    },
+    {
+     "q": "Reading slides word for word…",
+     "options": [
+      "Loses the audience",
+      "Engages people",
+      "Is required",
+      "Saves time"
+     ],
+     "answer": 0,
+     "why": "Talk, don't read."
+    }
+   ]
+  },
+  {
+   "id": "pp-084",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Handling nerves when speaking",
+   "summary": "Nerves are normal; preparation and breathing tame them.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your voice shakes and your mind goes blank when presenting."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They rehearse the opening aloud, breathe slowly before starting, pause instead of saying 'um', and focus on helping the audience."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Let me take a moment to find that number.'\n'Good question; let me think about that for a second.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Rushing, apologising for being nervous, or memorising every word."
+    }
+   ],
+   "speak": [
+    "Let me take a moment to find that number.",
+    "Good question, let me think about that.",
+    "Here's the key point."
+   ],
+   "action": "Before your next meeting, take three slow breaths and practise your first sentence aloud.",
+   "quiz": [
+    {
+     "q": "A good fix for 'um' is…",
+     "options": [
+      "Speaking faster",
+      "Apologising",
+      "Stopping",
+      "A short pause"
+     ],
+     "answer": 3,
+     "why": "Pauses sound confident."
+    },
+    {
+     "q": "Rehearse especially…",
+     "options": [
+      "The opening",
+      "Nothing",
+      "Only jokes",
+      "Your bio"
+     ],
+     "answer": 0,
+     "why": "Strong start calms nerves."
+    },
+    {
+     "q": "Focusing on the audience's needs…",
+     "options": [
+      "Reduces self-consciousness",
+      "Is irrelevant",
+      "Is rude",
+      "Increases nerves"
+     ],
+     "answer": 0,
+     "why": "Shift focus outward."
+    }
+   ]
+  },
+  {
+   "id": "pp-085",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Answering tough questions",
+   "summary": "Stay calm, answer briefly, and admit what you don't know.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A senior leader challenges your numbers in a meeting."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They listen fully, restate the question, answer in one or two sentences, and offer to follow up if unsure."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'So the question is why costs rose in Q2. The main driver was freight, up 18%. I'll send a detailed breakdown by tomorrow.'\n'I don't have that figure right now; I'll confirm by 3 pm.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Guessing, getting defensive, or giving a long rambling answer."
+    }
+   ],
+   "speak": [
+    "So the question is why costs rose.",
+    "The main driver was freight.",
+    "I'll confirm that by 3 pm."
+   ],
+   "action": "List three tough questions someone could ask about your current work and prepare short answers.",
+   "quiz": [
+    {
+     "q": "If you don't know an answer…",
+     "options": [
+      "Guess confidently",
+      "Change the topic",
+      "Say so and promise a follow-up",
+      "Leave"
+     ],
+     "answer": 2,
+     "why": "Honesty builds trust."
+    },
+    {
+     "q": "Restating the question helps…",
+     "options": [
+      "Annoy people",
+      "Nothing",
+      "Avoid answering",
+      "Buy time and confirm understanding"
+     ],
+     "answer": 3,
+     "why": "Clarity."
+    },
+    {
+     "q": "Answers to leaders should be…",
+     "options": [
+      "Vague",
+      "Defensive",
+      "Long and detailed",
+      "Brief and direct"
+     ],
+     "answer": 3,
+     "why": "Respect their time."
+    }
+   ]
+  },
+  {
+   "id": "pp-086",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Executive presence",
+   "summary": "How you show up: calm, clear and composed.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You know your material, but you come across as hesitant or flustered."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They speak at a measured pace, use fewer filler words, keep good posture and eye contact, and stay calm under pressure."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Here's where we are, here's the risk, and here's what I recommend.'\n'Let's focus on what we can control.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Upspeak (statements that sound like questions), over-apologising, or visible panic."
+    }
+   ],
+   "speak": [
+    "Here's where we are.",
+    "Here's the risk.",
+    "Here's what I recommend."
+   ],
+   "action": "In your next meeting, make one point slowly and finish with a firm full stop, not a question tone.",
+   "quiz": [
+    {
+     "q": "Executive presence includes…",
+     "options": [
+      "Speaking fastest",
+      "Fancy clothes only",
+      "Loudest voice",
+      "Calm, clear communication"
+     ],
+     "answer": 3,
+     "why": "Composure."
+    },
+    {
+     "q": "Upspeak can make you sound…",
+     "options": [
+      "Funny",
+      "Confident",
+      "Unsure",
+      "Senior"
+     ],
+     "answer": 2,
+     "why": "End statements firmly."
+    },
+    {
+     "q": "Under pressure, leaders…",
+     "options": [
+      "Disappear",
+      "Panic",
+      "Blame",
+      "Focus on what they can control"
+     ],
+     "answer": 3,
+     "why": "Steady."
+    }
+   ]
+  },
+  {
+   "id": "pp-087",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Talking to senior leaders",
+   "summary": "Short, prepared and focused on their priorities.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You meet a senior leader in the lift or a review and freeze."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They prepare one or two talking points, connect their work to the leader's goals, and keep it short."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Good morning. I'm on the team working on the cost-savings project. We're on track to save ₹2 crore this year.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Complaining, oversharing details, or avoiding them completely."
+    }
+   ],
+   "speak": [
+    "Good morning, I'm on the cost-savings project.",
+    "We're on track to save two crore this year.",
+    "Happy to share more if useful."
+   ],
+   "action": "Prepare a two-line 'lift pitch' about your current project.",
+   "quiz": [
+    {
+     "q": "With senior leaders, keep it…",
+     "options": [
+      "Silent",
+      "Long and detailed",
+      "Full of complaints",
+      "Short and relevant"
+     ],
+     "answer": 3,
+     "why": "Their time is scarce."
+    },
+    {
+     "q": "Link your work to…",
+     "options": [
+      "Their goals",
+      "Your weekend",
+      "Nothing",
+      "Office gossip"
+     ],
+     "answer": 0,
+     "why": "Relevance."
+    },
+    {
+     "q": "A 'lift pitch' is…",
+     "options": [
+      "A short prepared update",
+      "A sales call",
+      "A joke",
+      "A complaint"
+     ],
+     "answer": 0,
+     "why": "Be ready."
+    }
+   ]
+  },
+  {
+   "id": "pp-088",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Building your personal brand at work",
+   "summary": "Be known for something specific.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "People don't know what you're good at."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They choose one or two strengths, deliver consistently, share knowledge (short demos, notes), and help others with that skill."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I put together a quick guide on Excel Power Query; happy to walk anyone through it.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Trying to be known for everything, or self-promotion without substance."
+    }
+   ],
+   "speak": [
+    "I put together a quick guide on Power Query.",
+    "Happy to walk anyone through it.",
+    "Let me know if it helps."
+   ],
+   "action": "Pick one skill you want to be known for and share one tip about it with your team this week.",
+   "quiz": [
+    {
+     "q": "A personal brand should be…",
+     "options": [
+      "Fake",
+      "Secret",
+      "Specific and consistent",
+      "Everything at once"
+     ],
+     "answer": 2,
+     "why": "Focus."
+    },
+    {
+     "q": "Sharing knowledge builds…",
+     "options": [
+      "Reputation",
+      "Confusion",
+      "Enemies",
+      "Nothing"
+     ],
+     "answer": 0,
+     "why": "Generosity."
+    },
+    {
+     "q": "Brand without substance…",
+     "options": [
+      "Is ideal",
+      "Lasts forever",
+      "Fails quickly",
+      "Wins promotions"
+     ],
+     "answer": 2,
+     "why": "Deliver first."
+    }
+   ]
+  },
+  {
+   "id": "pp-089",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Networking inside the company",
+   "summary": "Relationships across teams open doors.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You only know people in your own team."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They have regular short coffee chats with people in other teams, ask about their work, and look for ways to help."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Hi Neha, I'd love to learn more about how the treasury team works. Could we grab a 20-minute coffee this week?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Only reaching out when you need something."
+    }
+   ],
+   "speak": [
+    "I'd love to learn more about your team's work.",
+    "Could we grab a quick coffee this week?",
+    "How can I help from my side?"
+   ],
+   "action": "Invite one person from another team for a 20-minute chat this week.",
+   "quiz": [
+    {
+     "q": "Internal networking means…",
+     "options": [
+      "Only your manager",
+      "Gossiping",
+      "Knowing people beyond your team",
+      "Social media only"
+     ],
+     "answer": 2,
+     "why": "Cross-team."
+    },
+    {
+     "q": "A good coffee chat focuses on…",
+     "options": [
+      "Their work and how to help",
+      "Complaining",
+      "Yourself only",
+      "Asking for a job"
+     ],
+     "answer": 0,
+     "why": "Curiosity."
+    },
+    {
+     "q": "Reaching out only when you need help…",
+     "options": [
+      "Is best",
+      "Feels transactional",
+      "Is required",
+      "Builds strong ties"
+     ],
+     "answer": 1,
+     "why": "Give first."
+    }
+   ]
+  },
+  {
+   "id": "pp-090",
+   "level": "Visibility, Presentations & Executive Presence",
+   "title": "Asking for a promotion or raise",
+   "summary": "Make a business case, not a complaint.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You feel you deserve more but haven't asked."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They prepare evidence of impact, understand the role's expectations, ask their manager what's needed, and agree a timeline."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'd like to discuss my growth. Over the last year I led the close automation and mentored two analysts. What would I need to show to be considered for senior analyst?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Comparing with colleagues' salaries, ultimatums, or asking without evidence."
+    }
+   ],
+   "speak": [
+    "I'd like to discuss my growth.",
+    "Over the last year I led the close automation.",
+    "What would I need to show for the next level?"
+   ],
+   "action": "Start an 'impact list' today: write down three results you delivered this quarter.",
+   "quiz": [
+    {
+     "q": "A promotion request should be based on…",
+     "options": [
+      "Evidence of impact",
+      "Colleagues' salaries",
+      "Ultimatums",
+      "Years only"
+     ],
+     "answer": 0,
+     "why": "Business case."
+    },
+    {
+     "q": "Asking 'what would I need to show?' helps…",
+     "options": [
+      "Annoy your manager",
+      "Clarify expectations",
+      "Avoid work",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Clear path."
+    },
+    {
+     "q": "An 'impact list' is…",
+     "options": [
+      "A budget",
+      "A to-do list",
+      "A record of your results",
+      "A complaint log"
+     ],
+     "answer": 2,
+     "why": "Keep evidence."
+    }
+   ]
+  },
+  {
+   "id": "pp-091",
+   "level": "Leading Others",
+   "title": "Mentoring a junior",
+   "summary": "Teach them to fish, patiently.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A new joiner keeps asking you basic questions."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They make time, explain the 'why', share resources, ask questions instead of giving answers, and check in regularly."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Good question. What do you think the first step might be?'\n'Here's why we do it this way. Try it and I'll review.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Doing the work for them, showing impatience, or making them feel stupid."
+    }
+   ],
+   "speak": [
+    "Good question, what do you think?",
+    "Here's why we do it this way.",
+    "Try it and I'll review."
+   ],
+   "action": "Offer a junior colleague 15 minutes this week to answer their questions.",
+   "quiz": [
+    {
+     "q": "Good mentoring involves…",
+     "options": [
+      "Ignoring them",
+      "Doing their work",
+      "Asking guiding questions",
+      "Impatience"
+     ],
+     "answer": 2,
+     "why": "Build thinking."
+    },
+    {
+     "q": "Explaining 'why' helps juniors…",
+     "options": [
+      "Leave",
+      "Get confused",
+      "Understand and apply it",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Context."
+    },
+    {
+     "q": "Making someone feel stupid…",
+     "options": [
+      "Stops them asking",
+      "Motivates them",
+      "Is leadership",
+      "Is helpful"
+     ],
+     "answer": 0,
+     "why": "Psychological safety."
+    }
+   ]
+  },
+  {
+   "id": "pp-092",
+   "level": "Leading Others",
+   "title": "Delegating well",
+   "summary": "Give the outcome, context and freedom.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You do everything yourself because it's faster."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They explain the goal, deadline and quality bar, share context, agree check-ins and let the person choose the method."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I'd like you to own the vendor analysis. The goal is to pick the top three by Friday. Here's last year's file for context. Shall we check in Wednesday?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Micromanaging, dumping tasks without context, or taking work back at the first problem."
+    }
+   ],
+   "speak": [
+    "I'd like you to own the vendor analysis.",
+    "The goal is the top three by Friday.",
+    "Shall we check in on Wednesday?"
+   ],
+   "action": "Delegate one task this week using: goal, deadline, context, check-in.",
+   "quiz": [
+    {
+     "q": "When delegating, share…",
+     "options": [
+      "Your frustrations",
+      "Nothing",
+      "Only the task name",
+      "Goal, deadline and context"
+     ],
+     "answer": 3,
+     "why": "Clarity."
+    },
+    {
+     "q": "Micromanaging…",
+     "options": [
+      "Reduces ownership",
+      "Builds trust",
+      "Is efficient",
+      "Is required"
+     ],
+     "answer": 0,
+     "why": "Trust people."
+    },
+    {
+     "q": "A check-in point helps…",
+     "options": [
+      "Nothing",
+      "Control everything",
+      "Catch issues early",
+      "Delay work"
+     ],
+     "answer": 2,
+     "why": "Support."
+    }
+   ]
+  },
+  {
+   "id": "pp-093",
+   "level": "Leading Others",
+   "title": "Recognising others",
+   "summary": "Specific praise motivates more than any speech.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your team works hard, but appreciation is rare or generic."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They praise specifically and promptly, in public when appropriate, and tell the person's manager."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Anita, your quick reconciliation saved the client deadline. Thank you. I've let your manager know too.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Generic 'good job', praise only at year-end, or taking the credit yourself."
+    }
+   ],
+   "speak": [
+    "Your quick work saved the deadline.",
+    "Thank you, it made a real difference.",
+    "I've let your manager know too."
+   ],
+   "action": "Give one colleague specific, sincere recognition today.",
+   "quiz": [
+    {
+     "q": "Effective recognition is…",
+     "options": [
+      "Generic",
+      "Once a year",
+      "Private only always",
+      "Specific and timely"
+     ],
+     "answer": 3,
+     "why": "Make it real."
+    },
+    {
+     "q": "Telling someone's manager about their good work…",
+     "options": [
+      "Is unnecessary",
+      "Hurts them",
+      "Boosts their visibility",
+      "Is gossip"
+     ],
+     "answer": 2,
+     "why": "Amplify."
+    },
+    {
+     "q": "Taking credit for others' work…",
+     "options": [
+      "Destroys trust",
+      "Is normal",
+      "Builds loyalty",
+      "Is leadership"
+     ],
+     "answer": 0,
+     "why": "Avoid."
+    }
+   ]
+  },
+  {
+   "id": "pp-094",
+   "level": "Leading Others",
+   "title": "Leading without a title",
+   "summary": "Influence comes from behaviour, not designation.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You see problems but feel it's not your place to act."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They take ownership of small improvements, rally others around shared goals, and keep their manager informed."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I noticed our handover notes are inconsistent. I've drafted a simple template; could we try it for two weeks?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Waiting for permission for everything, or acting without informing others."
+    }
+   ],
+   "speak": [
+    "I noticed our handover notes are inconsistent.",
+    "I've drafted a simple template.",
+    "Could we try it for two weeks?"
+   ],
+   "action": "Pick one small team problem and propose a simple fix this week.",
+   "quiz": [
+    {
+     "q": "Leading without a title means…",
+     "options": [
+      "Doing nothing",
+      "Waiting for promotion",
+      "Bossing peers",
+      "Taking ownership and influencing"
+     ],
+     "answer": 3,
+     "why": "Behaviour."
+    },
+    {
+     "q": "Proposing a trial period…",
+     "options": [
+      "Is rude",
+      "Forces change",
+      "Lowers resistance",
+      "Delays everything"
+     ],
+     "answer": 2,
+     "why": "Easy yes."
+    },
+    {
+     "q": "Keep your manager…",
+     "options": [
+      "Informed",
+      "Confused",
+      "In the dark",
+      "Out of it"
+     ],
+     "answer": 0,
+     "why": "No surprises."
+    }
+   ]
+  },
+  {
+   "id": "pp-095",
+   "level": "Leading Others",
+   "title": "Working across cultures",
+   "summary": "Adapt your style to how others communicate.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You work with colleagues from other regions and misunderstandings happen."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They learn cultural norms (directness, hierarchy, time), avoid idioms, confirm understanding in writing, and stay curious."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Just to confirm, we agreed on Tuesday 10 am UK time for the review, correct?'\n'How does your team usually prefer to receive feedback?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Assuming everyone thinks like you, heavy slang, or stereotyping."
+    }
+   ],
+   "speak": [
+    "Just to confirm, we agreed on Tuesday 10 am UK time.",
+    "How does your team prefer feedback?",
+    "Please let me know if anything was unclear."
+   ],
+   "action": "Ask a colleague from another region how their team prefers to communicate.",
+   "quiz": [
+    {
+     "q": "In cross-cultural work, avoid…",
+     "options": [
+      "Idioms and slang",
+      "Clear summaries",
+      "Confirming in writing",
+      "Curiosity"
+     ],
+     "answer": 0,
+     "why": "Plain language."
+    },
+    {
+     "q": "Confirming time zones helps…",
+     "options": [
+      "Avoid confusion",
+      "Nothing",
+      "Delay meetings",
+      "Annoy people"
+     ],
+     "answer": 0,
+     "why": "Precision."
+    },
+    {
+     "q": "Cultures can differ in…",
+     "options": [
+      "Directness and hierarchy",
+      "Nothing",
+      "Only language",
+      "Only food"
+     ],
+     "answer": 0,
+     "why": "Norms vary."
+    }
+   ]
+  },
+  {
+   "id": "pp-096",
+   "level": "Leading Others",
+   "title": "Leading remote and hybrid teams",
+   "summary": "Over-communicate and include everyone.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Remote colleagues feel left out of decisions made in the office."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They document decisions, set clear norms (response times, cameras), run inclusive meetings and check in one-to-one."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'Let's hear from those online first.'\n'I'll post the decision and next steps in the team channel.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Corridor decisions, ignoring people on calls, or measuring presence instead of output."
+    }
+   ],
+   "speak": [
+    "Let's hear from those online first.",
+    "I'll post the decision in the team channel.",
+    "Does anyone joining remotely have thoughts?"
+   ],
+   "action": "In your next hybrid meeting, invite remote participants to speak first.",
+   "quiz": [
+    {
+     "q": "A key habit for hybrid teams is…",
+     "options": [
+      "Fewer updates",
+      "Documenting decisions",
+      "Ignoring remote staff",
+      "Corridor decisions"
+     ],
+     "answer": 1,
+     "why": "Transparency."
+    },
+    {
+     "q": "Inviting remote people first…",
+     "options": [
+      "Wastes time",
+      "Is unnecessary",
+      "Includes them",
+      "Is rude"
+     ],
+     "answer": 2,
+     "why": "Fairness."
+    },
+    {
+     "q": "Remote work is best judged by…",
+     "options": [
+      "Online status",
+      "Messages sent",
+      "Camera time",
+      "Output"
+     ],
+     "answer": 3,
+     "why": "Results."
+    }
+   ]
+  },
+  {
+   "id": "pp-097",
+   "level": "Leading Others",
+   "title": "Running effective one-to-ones",
+   "summary": "Their meeting, their agenda.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your one-to-ones turn into status updates only."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They let the other person set the agenda, ask open questions about goals and blockers, and follow up on commitments."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'What's on your mind this week?'\n'What's one thing I could do to make your work easier?'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Cancelling often, talking most of the time, or only discussing tasks."
+    }
+   ],
+   "speak": [
+    "What's on your mind this week?",
+    "What's getting in your way?",
+    "What could I do to make your work easier?"
+   ],
+   "action": "In your next one-to-one, ask 'What could I do to make your work easier?'",
+   "quiz": [
+    {
+     "q": "A one-to-one agenda should be led by…",
+     "options": [
+      "The team member",
+      "HR",
+      "Only the manager",
+      "Nobody"
+     ],
+     "answer": 0,
+     "why": "Their time."
+    },
+    {
+     "q": "Cancelling one-to-ones often signals…",
+     "options": [
+      "They don't matter",
+      "Nothing",
+      "Trust",
+      "Efficiency"
+     ],
+     "answer": 0,
+     "why": "Protect the slot."
+    },
+    {
+     "q": "Good one-to-ones cover…",
+     "options": [
+      "Gossip",
+      "Nothing",
+      "Only tasks",
+      "Goals, blockers and growth"
+     ],
+     "answer": 3,
+     "why": "Beyond status."
+    }
+   ]
+  },
+  {
+   "id": "pp-098",
+   "level": "Leading Others",
+   "title": "Handling underperformance",
+   "summary": "Address it early, kindly and clearly.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "A team member's work keeps slipping and you avoid the conversation."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They raise it early in private, use specific examples, listen for causes, agree clear expectations and offer support."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I've noticed the last three reports were late. Is something getting in the way? Let's agree what on time looks like and how I can help.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Waiting until appraisal time, public criticism, or vague hints."
+    }
+   ],
+   "speak": [
+    "I've noticed the last three reports were late.",
+    "Is something getting in the way?",
+    "How can I help?"
+   ],
+   "action": "If someone's work is slipping, plan a private, specific conversation using SBI.",
+   "quiz": [
+    {
+     "q": "Underperformance should be addressed…",
+     "options": [
+      "Early and privately",
+      "Never",
+      "Publicly",
+      "At year-end only"
+     ],
+     "answer": 0,
+     "why": "Timely."
+    },
+    {
+     "q": "Asking about causes helps…",
+     "options": [
+      "Embarrass them",
+      "Find the real problem",
+      "Delay",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": "Understand first."
+    },
+    {
+     "q": "Vague hints usually…",
+     "options": [
+      "Motivate",
+      "Confuse people",
+      "Fix the issue",
+      "Are best"
+     ],
+     "answer": 1,
+     "why": "Be clear."
+    }
+   ]
+  },
+  {
+   "id": "pp-099",
+   "level": "Leading Others",
+   "title": "Building trust in a team",
+   "summary": "Trust = reliability + honesty + care.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "Your team works in silos and hides problems."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They keep promises, admit their own mistakes first, share information openly and show care for people."
+    },
+    {
+     "h": "Say it like this",
+     "b": "'I got that wrong last week; here's what I learned.'\n'It's fine to raise problems early; I'd rather know.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Punishing bad news, playing favourites, or inconsistency."
+    }
+   ],
+   "speak": [
+    "I got that wrong last week.",
+    "Here's what I learned.",
+    "Please raise problems early, I'd rather know."
+   ],
+   "action": "Share one mistake you made and what you learned at your next team meeting.",
+   "quiz": [
+    {
+     "q": "Trust is built through…",
+     "options": [
+      "Reliability, honesty and care",
+      "Strictness only",
+      "Titles",
+      "Secrecy"
+     ],
+     "answer": 0,
+     "why": "Consistent behaviour."
+    },
+    {
+     "q": "Leaders admitting mistakes…",
+     "options": [
+      "Shows weakness",
+      "Hurts trust",
+      "Is unnecessary",
+      "Makes it safe for others"
+     ],
+     "answer": 3,
+     "why": "Psychological safety."
+    },
+    {
+     "q": "Punishing bad news leads to…",
+     "options": [
+      "Hidden problems",
+      "Nothing",
+      "Better results",
+      "More honesty"
+     ],
+     "answer": 0,
+     "why": "Encourage openness."
+    }
+   ]
+  },
+  {
+   "id": "pp-100",
+   "level": "Leading Others",
+   "title": "Your daily people-skills routine",
+   "summary": "Small daily habits compound into a reputation.",
+   "sections": [
+    {
+     "h": "The situation",
+     "b": "You've learned many skills, but you need to practise them every day."
+    },
+    {
+     "h": "What skilled people do",
+     "b": "They follow a simple routine: greet people by name, listen fully in one conversation, send one clear update, give one specific thank-you, and reflect for two minutes at day's end."
+    },
+    {
+     "h": "Say it like this",
+     "b": "Morning: 'Good morning, Priya! How was your weekend?'\nDay: 'Quick update: the draft is ready for review.'\nEvening: 'Thanks, Ravi, your help today made a difference.'"
+    },
+    {
+     "h": "Avoid",
+     "b": "Trying to change everything at once, or giving up after one bad day."
+    }
+   ],
+   "speak": [
+    "Good morning, how was your weekend?",
+    "Quick update, the draft is ready for review.",
+    "Thanks, your help today made a difference."
+   ],
+   "action": "Start the routine today and write a two-line reflection tonight: what went well, what to try tomorrow.",
+   "quiz": [
+    {
+     "q": "Daily habits work because they…",
+     "options": [
+      "Are optional",
+      "Are dramatic",
+      "Compound over time",
+      "Need no effort"
+     ],
+     "answer": 2,
+     "why": "Consistency."
+    },
+    {
+     "q": "An end-of-day reflection asks…",
+     "options": [
+      "Who to blame",
+      "How much you earned",
+      "What went well and what to try next",
+      "Nothing"
+     ],
+     "answer": 2,
+     "why": "Learn and improve."
+    },
+    {
+     "q": "After a bad day, you should…",
+     "options": [
+      "Continue the routine",
+      "Change jobs",
+      "Blame others",
+      "Give up"
+     ],
+     "answer": 0,
+     "why": "Keep going."
+    }
+   ]
+  }
+ ]
+}
