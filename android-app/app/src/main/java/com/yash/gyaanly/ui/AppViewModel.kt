@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.yash.gyaanly.GyaanlyApp
+import com.yash.gyaanly.data.Book
 import com.yash.gyaanly.data.Lesson
 import com.yash.gyaanly.data.Progress
 import com.yash.gyaanly.data.ProgressCodec
@@ -45,6 +46,10 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     fun pack(key: String): TrackContent? = content.pack(key)
 
     fun lesson(id: String): Lesson? = content.lesson(id)
+
+    fun book(key: String): Book? = content.book(key)
+
+    fun bookEpub(key: String): ByteArray? = content.bookEpub(key)
 
     /** Fixes today's lesson per track so it doesn't change after you complete it. */
     fun refreshPlan() {

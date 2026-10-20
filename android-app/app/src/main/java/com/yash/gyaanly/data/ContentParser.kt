@@ -56,6 +56,20 @@ object ContentParser {
     )
 
     /** Parses "#RRGGBB" or "#AARRGGBB" into an ARGB long. */
+    fun parseBook(json: String): Book {
+        val o = JSONObject(json)
+        return Book(
+            key = o.getString("key"),
+            title = o.getString("title"),
+            subtitle = o.optString("subtitle"),
+            author = o.optString("author"),
+            notice = o.optString("notice"),
+            chapters = o.getJSONArray("chapters").objects().map { c ->
+                BookChapter(c.getString("title"), c.getJSONArray("blocks").objects().map { BookBlock(it.getString("t"), it.getString("x")) })
+            },
+        )
+    }
+
     fun parseColor(hex: String): Long {
         val clean = hex.removePrefix("#")
         val value = clean.toLong(16)

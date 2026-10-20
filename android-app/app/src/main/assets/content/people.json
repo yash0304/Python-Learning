@@ -6,7 +6,10 @@
   "emoji": "🤝",
   "color": "#C2255C",
   "order": 2,
-  "levelPicker": true
+  "levelPicker": true,
+  "tools": [
+   "book"
+  ]
  },
  "levels": [
   "Self-awareness & First Impressions",

@@ -100,6 +100,9 @@ fun TrackScreen(
                     }
                 }
             }
+            if ("book" in track.tools) {
+                item { PopButton("📖  Read the e-book", color, onClick = { openTool("book") }) }
+            }
             if ("calculators" in track.tools) {
                 item { PopButton("🧮  Open finance calculators", Pop.Sun, onClick = { openTool("calculators") }, contentColor = Color(0xFF3B2600)) }
             }

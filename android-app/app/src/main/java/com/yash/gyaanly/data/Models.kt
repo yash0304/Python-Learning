@@ -79,3 +79,17 @@ data class Progress(
     val xp: Int
         get() = completed.size * 10 + quizScores.values.sumOf { it.substringBefore("/").toIntOrNull() ?: 0 } * 5
 }
+
+/** A book that goes with a track (assets/books/<track>.json). Block types: h, h3, p, em, q (quote), li. */
+data class BookBlock(val type: String, val text: String)
+
+data class BookChapter(val title: String, val blocks: List<BookBlock>)
+
+data class Book(
+    val key: String,
+    val title: String,
+    val subtitle: String,
+    val author: String,
+    val notice: String,
+    val chapters: List<BookChapter>,
+)

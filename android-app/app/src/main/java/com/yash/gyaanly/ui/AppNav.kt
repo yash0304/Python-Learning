@@ -17,6 +17,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.yash.gyaanly.ui.screens.BookScreen
 import com.yash.gyaanly.ui.screens.CalculatorListScreen
 import com.yash.gyaanly.ui.screens.CalculatorScreen
 import com.yash.gyaanly.ui.screens.LearnScreen
@@ -68,13 +69,17 @@ fun AppNav(vm: AppViewModel) {
                 LearnScreen(vm, openTrack = { nav.navigate("track/$it") })
             }
             composable("track/{key}") { entry ->
+                val key = entry.arguments?.getString("key").orEmpty()
                 TrackScreen(
                     vm = vm,
-                    trackKey = entry.arguments?.getString("key").orEmpty(),
+                    trackKey = key,
                     onBack = { nav.popBackStack() },
                     openLesson = { nav.navigate("lesson/$it") },
-                    openTool = { nav.navigate("calculators") },
+                    openTool = { tool -> nav.navigate(if (tool == "book") "book/$key" else "calculators") },
                 )
+            }
+            composable("book/{key}") { entry ->
+                BookScreen(vm, entry.arguments?.getString("key").orEmpty(), onBack = { nav.popBackStack() })
             }
             composable("lesson/{id}") { entry ->
                 LessonScreen(
