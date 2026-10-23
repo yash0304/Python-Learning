@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.FilterChip
@@ -28,6 +29,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -39,6 +41,7 @@ import com.yash.gyaanly.ui.theme.Pop
 import com.yash.gyaanly.ui.theme.accent
 import com.yash.gyaanly.ui.theme.gradient
 import com.yash.gyaanly.ui.theme.soft
+import kotlinx.coroutines.launch
 
 @Composable
 fun TrackScreen(
@@ -53,6 +56,18 @@ fun TrackScreen(
     val progress by vm.progress.collectAsStateWithLifecycle()
     val done = pack.lessons.count { it.id in progress.completed }
     val color = track.accent
+    val levels = vm.visibleLevels(track, progress)
+    val list = rememberLazyListState()
+    val scope = rememberCoroutineScope()
+    // Row index of each level's header, so tapping a level chip can jump straight to its lessons.
+    val headerIndex = buildMap {
+        var index = 1 + (if (track.levelPicker) 1 else 0) +
+            (if ("book" in track.tools) 1 else 0) + (if ("calculators" in track.tools) 1 else 0)
+        levels.forEach { level ->
+            val count = pack.lessons.count { it.level == level }
+            if (count > 0) { put(level, index); index += 1 + count }
+        }
+    }
 
     Scaffold(
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
@@ -61,6 +76,7 @@ fun TrackScreen(
     ) { padding ->
         LazyColumn(
             Modifier.fillMaxSize().padding(padding),
+            state = list,
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
@@ -82,13 +98,16 @@ fun TrackScreen(
             if (track.levelPicker) {
                 item {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Text("🎚️  My level: today's lesson starts here", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+                        Text("🎚️  Tap a level to jump to it. Today's lesson starts there too.", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
                         Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                             val chosen = progress.levels[track.key] ?: track.levels.firstOrNull()
-                            track.levels.forEach { level ->
+                            levels.forEach { level ->
                                 FilterChip(
                                     selected = chosen == level,
-                                    onClick = { vm.setLevel(track.key, level) },
+                                    onClick = {
+                                        vm.setLevel(track.key, level)
+                                        headerIndex[level]?.let { scope.launch { list.animateScrollToItem(it) } }
+                                    },
                                     label = { Text(level, fontWeight = FontWeight.Bold) },
                                     colors = FilterChipDefaults.filterChipColors(
                                         selectedContainerColor = color,
@@ -106,7 +125,7 @@ fun TrackScreen(
             if ("calculators" in track.tools) {
                 item { PopButton("🧮  Open finance calculators", Pop.Sun, onClick = { openTool("calculators") }, contentColor = Color(0xFF3B2600)) }
             }
-            track.levels.forEach { level ->
+            levels.forEach { level ->
                 val lessons = pack.lessons.filter { it.level == level }
                 if (lessons.isEmpty()) return@forEach
                 val levelDone = lessons.count { it.id in progress.completed }

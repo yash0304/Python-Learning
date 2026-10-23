@@ -57,20 +57,47 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         store.update { p ->
             val keep = if (p.planDate == todayStr) p.plan else emptyMap()
             val plan = tracks.associate { track ->
-                val existing = keep[track.key]?.takeIf { content.lesson(it) != null }
-                track.key to (existing ?: pickFor(track.key, p, p.completed)?.id.orEmpty())
+                val existing = keep[track.key]?.let(content::lesson)?.takeIf { p.showsLevel(track.key, it.level) }
+                track.key to (existing?.id ?: pickFor(track.key, p, p.completed)?.id.orEmpty())
             }
             p.copy(planDate = todayStr, plan = plan)
         }
     }
 
     private fun planFor(p: Progress): List<Pair<Track, Lesson>> =
-        tracks.mapNotNull { t -> p.plan[t.key]?.let(content::lesson)?.let { t to it } }
+        tracks.filter { p.showsTrack(it.key) }.mapNotNull { t -> p.plan[t.key]?.let(content::lesson)?.let { t to it } }
+
+    /** Courses not switched off in Settings, in display order. */
+    fun visibleTracks(p: Progress): List<Track> = tracks.filter { p.showsTrack(it.key) }
+
+    /** A course's topics (levels) not switched off in Settings. */
+    fun visibleLevels(track: Track, p: Progress): List<String> = track.levels.filter { p.showsLevel(track.key, it) }
 
     private fun pickFor(key: String, p: Progress, exclude: Set<String>): Lesson? {
         val pack = content.pack(key) ?: return null
+        if (!p.showsTrack(key)) return null
+        val lessons = pack.lessons.filter { p.showsLevel(key, it.level) }
         val minLevel = if (pack.track.levelPicker) p.levels[key] else null
-        return DailyPlanner.pick(pack.lessons, pack.track.levels, exclude, LocalDate.now(), minLevel)
+        val today = LocalDate.now()
+        val seed = if (pack.track.shuffle) today.toEpochDay() * 31 + key.hashCode() + exclude.size else null
+        return DailyPlanner.pick(lessons, pack.track.levels, exclude, today, minLevel, seed)
+    }
+
+    /** Switches a whole course on or off; today's plan follows immediately. */
+    fun setTrackEnabled(key: String, enabled: Boolean) {
+        store.update { p ->
+            val updated = p.copy(hiddenTracks = if (enabled) p.hiddenTracks - key else p.hiddenTracks + key)
+            updated.copy(plan = updated.plan + (key to pickFor(key, updated, updated.completed)?.id.orEmpty()))
+        }
+    }
+
+    /** Switches one topic (level) of a course on or off. */
+    fun setLevelEnabled(key: String, level: String, enabled: Boolean) {
+        val id = Progress.levelId(key, level)
+        store.update { p ->
+            val updated = p.copy(hiddenLevels = if (enabled) p.hiddenLevels - id else p.hiddenLevels + id)
+            updated.copy(plan = updated.plan + (key to pickFor(key, updated, updated.completed)?.id.orEmpty()))
+        }
     }
 
     /** Records completion; returns the XP earned by this attempt. */
@@ -122,7 +149,10 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
 
     fun resetProgress() {
         store.update {
-            Progress(levels = it.levels, reminderEnabled = it.reminderEnabled, reminderHour = it.reminderHour, reminderMinute = it.reminderMinute)
+            Progress(
+                levels = it.levels, reminderEnabled = it.reminderEnabled, reminderHour = it.reminderHour, reminderMinute = it.reminderMinute,
+                hiddenTracks = it.hiddenTracks, hiddenLevels = it.hiddenLevels,
+            )
         }
         refreshPlan()
     }

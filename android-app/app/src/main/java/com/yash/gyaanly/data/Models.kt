@@ -18,6 +18,8 @@ data class Track(
     /** Optional tools linked from the track, e.g. "calculators". */
     val tools: List<String>,
     val levels: List<String>,
+    /** Today's lesson is a random unfinished one instead of the next in order. */
+    val shuffle: Boolean = false,
 )
 
 data class Section(val heading: String, val body: String)
@@ -74,7 +76,19 @@ data class Progress(
     val reminderEnabled: Boolean = false,
     val reminderHour: Int = 8,
     val reminderMinute: Int = 0,
+    /** Courses switched off in Settings. */
+    val hiddenTracks: Set<String> = emptySet(),
+    /** Topics switched off in Settings, as [levelId] strings. */
+    val hiddenLevels: Set<String> = emptySet(),
 ) {
+    fun showsTrack(key: String) = key !in hiddenTracks
+
+    fun showsLevel(key: String, level: String) = levelId(key, level) !in hiddenLevels
+
+    companion object {
+        fun levelId(key: String, level: String) = "$key|$level"
+    }
+
     /** 10 XP per lesson finished + 5 XP per best correct quiz answer. */
     val xp: Int
         get() = completed.size * 10 + quizScores.values.sumOf { it.substringBefore("/").toIntOrNull() ?: 0 } * 5

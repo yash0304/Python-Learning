@@ -19,6 +19,8 @@ class ProgressCodecTest {
             reminderEnabled = true,
             reminderHour = 7,
             reminderMinute = 30,
+            hiddenTracks = setOf("finance"),
+            hiddenLevels = setOf(Progress.levelId("english", "Interview Prep")),
         )
         // Today's plan isn't part of the backup; the app rebuilds it after restoring.
         assertEquals(original.copy(planDate = "", plan = emptyMap()), ProgressCodec.decode(ProgressCodec.encode(original)))

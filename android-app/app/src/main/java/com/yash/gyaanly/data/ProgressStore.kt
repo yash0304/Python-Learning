@@ -32,6 +32,8 @@ class ProgressStore(context: Context) {
             reminderEnabled = prefs.getBoolean(KEY_REMINDER, false),
             reminderHour = prefs.getInt(KEY_HOUR, 8),
             reminderMinute = prefs.getInt(KEY_MINUTE, 0),
+            hiddenTracks = prefs.getStringSet(KEY_HIDDEN_TRACKS, emptySet())!!.toSet(),
+            hiddenLevels = prefs.getStringSet(KEY_HIDDEN_LEVELS, emptySet())!!.toSet(),
         )
     }
 
@@ -47,6 +49,8 @@ class ProgressStore(context: Context) {
             .putBoolean(KEY_REMINDER, p.reminderEnabled)
             .putInt(KEY_HOUR, p.reminderHour)
             .putInt(KEY_MINUTE, p.reminderMinute)
+            .putStringSet(KEY_HIDDEN_TRACKS, p.hiddenTracks)
+            .putStringSet(KEY_HIDDEN_LEVELS, p.hiddenLevels)
             .apply()
     }
 
@@ -67,5 +71,7 @@ class ProgressStore(context: Context) {
         const val KEY_REMINDER = "reminder_enabled"
         const val KEY_HOUR = "reminder_hour"
         const val KEY_MINUTE = "reminder_minute"
+        const val KEY_HIDDEN_TRACKS = "hidden_tracks"
+        const val KEY_HIDDEN_LEVELS = "hidden_levels"
     }
 }

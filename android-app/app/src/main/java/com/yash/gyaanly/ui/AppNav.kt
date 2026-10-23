@@ -23,6 +23,7 @@ import com.yash.gyaanly.ui.screens.CalculatorScreen
 import com.yash.gyaanly.ui.screens.LearnScreen
 import com.yash.gyaanly.ui.screens.LessonScreen
 import com.yash.gyaanly.ui.screens.ProfileScreen
+import com.yash.gyaanly.ui.screens.SettingsScreen
 import com.yash.gyaanly.ui.screens.TodayScreen
 import com.yash.gyaanly.ui.screens.TrackScreen
 
@@ -66,7 +67,7 @@ fun AppNav(vm: AppViewModel) {
                 TodayScreen(vm, openLesson = { nav.navigate("lesson/$it") }, openTrack = { nav.navigate("track/$it") })
             }
             composable("learn") {
-                LearnScreen(vm, openTrack = { nav.navigate("track/$it") })
+                LearnScreen(vm, openTrack = { nav.navigate("track/$it") }, openSettings = { nav.navigate("settings") })
             }
             composable("track/{key}") { entry ->
                 val key = entry.arguments?.getString("key").orEmpty()
@@ -98,7 +99,8 @@ fun AppNav(vm: AppViewModel) {
             composable("calculator/{id}") { entry ->
                 CalculatorScreen(entry.arguments?.getString("id").orEmpty(), onBack = { nav.popBackStack() })
             }
-            composable("me") { ProfileScreen(vm) }
+            composable("me") { ProfileScreen(vm, openSettings = { nav.navigate("settings") }) }
+            composable("settings") { SettingsScreen(vm, onBack = { nav.popBackStack() }) }
         }
     }
 }

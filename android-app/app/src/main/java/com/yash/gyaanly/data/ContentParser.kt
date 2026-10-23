@@ -24,6 +24,7 @@ object ContentParser {
         levelPicker = o.optBoolean("levelPicker", false),
         tools = o.optJSONArray("tools")?.strings().orEmpty(),
         levels = levels,
+        shuffle = o.optBoolean("shuffle", false),
     )
 
     private fun parseLesson(o: JSONObject, track: Track): Lesson = Lesson(

@@ -2,6 +2,7 @@ package com.yash.gyaanly.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -11,10 +12,13 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.yash.gyaanly.ui.AppViewModel
@@ -22,7 +26,7 @@ import com.yash.gyaanly.ui.theme.gradient
 
 /** Grid of every track found in assets/content — new packs appear here automatically. */
 @Composable
-fun LearnScreen(vm: AppViewModel, openTrack: (String) -> Unit) {
+fun LearnScreen(vm: AppViewModel, openTrack: (String) -> Unit, openSettings: () -> Unit) {
     val progress by vm.progress.collectAsStateWithLifecycle()
 
     LazyVerticalGrid(
@@ -33,13 +37,16 @@ fun LearnScreen(vm: AppViewModel, openTrack: (String) -> Unit) {
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item(span = { GridItemSpan(maxLineSpan) }) {
-            Column(Modifier.padding(bottom = 4.dp)) {
-                Text("Learning paths 🗺️", style = MaterialTheme.typography.headlineMedium)
-                Text("Pick a path to explore every lesson.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Row(Modifier.padding(bottom = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text("Learning paths 🗺️", style = MaterialTheme.typography.headlineMedium)
+                    Text("Pick a path to explore every lesson.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+                TextButton(onClick = openSettings) { Text("⚙️ Choose", fontWeight = FontWeight.Bold) }
             }
         }
-        items(vm.tracks, key = { it.key }) { track ->
-            val lessons = vm.pack(track.key)?.lessons.orEmpty()
+        items(vm.visibleTracks(progress), key = { it.key }) { track ->
+            val lessons = vm.pack(track.key)?.lessons.orEmpty().filter { progress.showsLevel(track.key, it.level) }
             val done = lessons.count { it.id in progress.completed }
             GradientCard(track.gradient, onClick = { openTrack(track.key) }) {
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {

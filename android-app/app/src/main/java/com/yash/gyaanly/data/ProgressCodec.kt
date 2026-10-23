@@ -18,6 +18,8 @@ object ProgressCodec {
         .put("reminderEnabled", p.reminderEnabled)
         .put("reminderHour", p.reminderHour)
         .put("reminderMinute", p.reminderMinute)
+        .put("hiddenTracks", JSONArray(p.hiddenTracks.sorted()))
+        .put("hiddenLevels", JSONArray(p.hiddenLevels.sorted()))
         .toString(2)
 
     /** Restores learning data from a backup; today's plan is rebuilt by the app afterwards. */
@@ -32,6 +34,8 @@ object ProgressCodec {
             reminderEnabled = o.optBoolean("reminderEnabled", false),
             reminderHour = o.optInt("reminderHour", 8),
             reminderMinute = o.optInt("reminderMinute", 0),
+            hiddenTracks = o.optJSONArray("hiddenTracks")?.strings()?.toSet().orEmpty(),
+            hiddenLevels = o.optJSONArray("hiddenLevels")?.strings()?.toSet().orEmpty(),
         )
     }
 

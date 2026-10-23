@@ -37,6 +37,18 @@ class DailyPlannerTest {
     }
 
     @Test
+    fun shufflePicksOnlyUnfinishedAndIsStableForASeed() {
+        val done = setOf("a1-1", "a2-1")
+        repeat(20) { seed ->
+            val pick = DailyPlanner.pick(lessons, levels, done, today, shuffleSeed = seed.toLong())!!
+            assertTrue(pick.id !in done)
+            assertEquals(pick, DailyPlanner.pick(lessons, levels, done, today, shuffleSeed = seed.toLong()))
+        }
+        val picks = (0L until 50L).map { DailyPlanner.pick(lessons, levels, emptySet(), today, shuffleSeed = it)!!.id }.toSet()
+        assertTrue("shuffle should vary the topic", picks.size > 1)
+    }
+
+    @Test
     fun cyclesForRevisionWhenAllDone() {
         val all = lessons.map { it.id }.toSet()
         assertTrue(DailyPlanner.pick(lessons, levels, all, today)!!.id in all)

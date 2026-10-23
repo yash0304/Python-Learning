@@ -43,7 +43,7 @@ private val ranks = listOf("Curious Starter", "Steady Learner", "Skill Builder",
 private const val XP_PER_RANK = 250
 
 @Composable
-fun ProfileScreen(vm: AppViewModel) {
+fun ProfileScreen(vm: AppViewModel, openSettings: () -> Unit) {
     val today by vm.today.collectAsStateWithLifecycle()
     val p = today.progress
     val context = LocalContext.current
@@ -90,8 +90,9 @@ fun ProfileScreen(vm: AppViewModel) {
         }
 
         SectionTitle("Paths", "🗺️")
-        vm.tracks.forEach { track ->
-            val lessons = vm.pack(track.key)?.lessons.orEmpty()
+        PopButton("⚙️  Choose courses & topics", Pop.Grape, onClick = openSettings)
+        vm.visibleTracks(p).forEach { track ->
+            val lessons = vm.pack(track.key)?.lessons.orEmpty().filter { p.showsLevel(track.key, it.level) }
             val done = lessons.count { it.id in p.completed }
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
