@@ -47,7 +47,7 @@ class ContentTest {
 
     @Test
     fun builtInPathsAreExtensive() {
-        listOf("ai", "people", "english", "finance", "india", "spanish", "mind").forEach { key ->
+        listOf("ai", "people", "english", "finance", "india", "spanish", "mind", "fss").forEach { key ->
             val p = pack(key) ?: error("missing built-in pack $key")
             assertTrue("$key has only ${p.lessons.size} lessons", p.lessons.size >= 100)
             p.lessons.forEach { assertTrue("${it.id}: needs 3 quiz questions", it.quiz.size >= 3) }
@@ -80,6 +80,14 @@ class ContentTest {
         assertEquals("100 mind topics", 100, mind.lessons.size)
         mind.lessons.forEach {
             assertEquals("${it.id}: needs 4 sections", 4, it.sections.size)
+            assertTrue("${it.id}: no key term", it.keyTerm != null)
+            assertTrue("${it.id}: no action", it.action != null)
+        }
+        val fss = pack("fss")!!
+        assertEquals("11 shared-services teams", 11, fss.track.levels.size)
+        fss.track.levels.forEach { t -> assertEquals("$t needs 10 lessons", 10, fss.lessons.count { it.level == t }) }
+        assertEquals("2026-12-31", fss.track.deadline)
+        fss.lessons.forEach {
             assertTrue("${it.id}: no key term", it.keyTerm != null)
             assertTrue("${it.id}: no action", it.action != null)
         }
