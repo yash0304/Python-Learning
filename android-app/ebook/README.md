@@ -8,7 +8,7 @@ Files in this folder:
 | `cover.jpg` | 1600 × 2560 cover (KDP's recommended size) |
 | `build_ebook.py` | Rebuilds the book, cover and in-app copy from `people.json`. Change `AUTHOR`, `TITLE` and the chapter intros here |
 
-The same book is in the app: **People Skills at Work → 📖 Read the e-book**. The **Save EPUB for Kindle** button there saves this file to your phone.
+The same book is in the app: **People Skills at Work → 📖 Read the e-book**. There you can also listen to it, share it, or save it as an EPUB. For Amazon, upload the files in this folder: they include the cover.
 
 ---
 

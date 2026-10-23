@@ -27,6 +27,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
@@ -66,7 +67,7 @@ fun TrackScreen(
     // Row index of each level's header, so tapping a level chip can jump straight to its lessons.
     val headerIndex = buildMap {
         var index = 1 + (if (track.levelPicker) 1 else 0) + (if (deadline != null) 1 else 0) +
-            (if ("book" in track.tools) 1 else 0) + (if ("calculators" in track.tools) 1 else 0)
+            1 + (if ("calculators" in track.tools) 1 else 0)
         levels.forEach { level ->
             val count = pack.lessons.count { it.level == level }
             if (count > 0) { put(level, index); index += 1 + count }
@@ -141,9 +142,7 @@ fun TrackScreen(
                     }
                 }
             }
-            if ("book" in track.tools) {
-                item { PopButton("📖  Read the e-book", color, onClick = { openTool("book") }) }
-            }
+            item { PopButton("📖  Read, listen or share as e-book", color, onClick = { openTool("book") }) }
             if ("calculators" in track.tools) {
                 item { PopButton("🧮  Open finance calculators", Pop.Sun, onClick = { openTool("calculators") }, contentColor = Color(0xFF3B2600)) }
             }
@@ -152,10 +151,12 @@ fun TrackScreen(
                 if (lessons.isEmpty()) return@forEach
                 val levelDone = lessons.count { it.id in progress.completed }
                 item(key = "h-$level") {
-                    Row(Modifier.padding(top = 12.dp), verticalAlignment = Alignment.CenterVertically) {
-                        Chip(level.uppercase(), color, filled = true)
+                    Row(Modifier.fillMaxWidth().padding(top = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+                        Box(Modifier.weight(1f, fill = false)) { Chip(level.uppercase(), color, filled = true) }
                         Spacer(Modifier.width(10.dp))
                         Text("$levelDone / ${lessons.size}", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Spacer(Modifier.weight(1f))
+                        TextButton(onClick = { openTool("book:$level") }) { Text("📖 Book", color = color, fontWeight = FontWeight.Bold) }
                     }
                 }
                 itemsIndexed(lessons, key = { _, l -> l.id }) { index, lesson ->

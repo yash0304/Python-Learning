@@ -7,8 +7,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -26,9 +26,14 @@ import androidx.compose.material3.AssistChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -37,28 +42,49 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.yash.gyaanly.data.BookBlock
+import com.yash.gyaanly.data.EpubWriter
+import com.yash.gyaanly.domain.BookBuilder
+import com.yash.gyaanly.speech.EXPLAIN_LANG
+import com.yash.gyaanly.speech.Speaker
 import com.yash.gyaanly.ui.AppViewModel
+import com.yash.gyaanly.ui.Share
 import com.yash.gyaanly.ui.theme.accent
 import com.yash.gyaanly.ui.theme.gradient
 import com.yash.gyaanly.ui.theme.soft
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
-/** Reads a track's companion e-book, the same text that ships as the KDP EPUB. */
+/** Reads a course (or one topic) as an e-book: listen chapter by chapter, share or save it as EPUB. */
 @Composable
-fun BookScreen(vm: AppViewModel, trackKey: String, onBack: () -> Unit) {
+fun BookScreen(vm: AppViewModel, trackKey: String, level: String?, onBack: () -> Unit) {
     val pack = vm.pack(trackKey)
-    val book = remember(trackKey) { vm.book(trackKey) }
+    val book = remember(trackKey, level) { vm.book(trackKey, level) }
     if (pack == null || book == null) { BackBar("Book not found", onBack); return }
     val color = pack.track.accent
     val context = LocalContext.current
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
+    val speaker = remember { Speaker(context) }
+    DisposableEffect(Unit) { onDispose { speaker.shutdown() } }
+    var reading by remember { mutableStateOf(-1) }
 
     val saveEpub = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/epub+zip")) { uri ->
         if (uri == null) return@rememberLauncherForActivityResult
-        val bytes = vm.bookEpub(trackKey)
-        val ok = bytes != null && runCatching { context.contentResolver.openOutputStream(uri)!!.use { it.write(bytes) } }.isSuccess
-        Toast.makeText(context, if (ok) "EPUB saved ✅" else "Couldn't save the EPUB", Toast.LENGTH_SHORT).show()
+        scope.launch {
+            val ok = withContext(Dispatchers.IO) {
+                runCatching { context.contentResolver.openOutputStream(uri)!!.use { EpubWriter.write(book, it) } }.isSuccess
+            }
+            Toast.makeText(context, if (ok) "EPUB saved ✅" else "Couldn't save the EPUB", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    // Lesson-based speech keeps Spanish lines in a Spanish voice; hand-written chapters are read as they are.
+    fun chapterSpeech(index: Int): List<BookBuilder.Speech> {
+        val chapter = book.chapters[index]
+        val lessons = pack.lessons.filter { it.level == chapter.title.substringAfter(": ") }
+        return if (lessons.isEmpty()) BookBuilder.speech(chapter, EXPLAIN_LANG)
+        else listOf(BookBuilder.Speech(chapter.title, EXPLAIN_LANG)) + lessons.flatMap { BookBuilder.speech(it, EXPLAIN_LANG) }
     }
 
     // Flatten into list rows so long chapters scroll lazily; remember where each chapter starts.
@@ -92,7 +118,8 @@ fun BookScreen(vm: AppViewModel, trackKey: String, onBack: () -> Unit) {
                         Text(book.author, color = Color.White, style = MaterialTheme.typography.labelLarge)
                         Text(book.notice, color = Color.White.copy(alpha = 0.8f), style = MaterialTheme.typography.bodySmall)
                         Spacer(Modifier.height(4.dp))
-                        PopButton("⬇️  Save EPUB for Kindle", Color.White, onClick = { saveEpub.launch("${book.key}-book.epub") }, contentColor = color)
+                        PopButton("📤  Share e-book", Color.White, onClick = { scope.launch { Share.epub(context, book) } }, contentColor = color)
+                        PopButton("⬇️  Save EPUB to phone", Color.White.copy(alpha = 0.85f), onClick = { saveEpub.launch(Share.fileName(book)) }, contentColor = color)
                     }
                 }
             }
@@ -106,7 +133,27 @@ fun BookScreen(vm: AppViewModel, trackKey: String, onBack: () -> Unit) {
                     }
                 }
             }
-            items(rows.size) { i -> BookRow(rows[i], color) }
+            items(rows.size) { i ->
+                val chapter = chapterRows.indexOf(i)
+                if (chapter >= 0) {
+                    Column(Modifier.padding(top = 24.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        Text(rows[i].text, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Black, color = color)
+                        TextButton(onClick = {
+                            if (reading == chapter) {
+                                speaker.stop()
+                            } else if (speaker.read(chapterSpeech(chapter)) { reading = -1 }) {
+                                reading = chapter
+                            } else {
+                                Toast.makeText(context, "Text-to-speech isn't ready yet", Toast.LENGTH_SHORT).show()
+                            }
+                        }) {
+                            Text(if (reading == chapter) "⏹  Stop listening" else "🔊  Listen to this chapter", color = color, fontWeight = FontWeight.Bold)
+                        }
+                    }
+                } else {
+                    BookRow(rows[i], color)
+                }
+            }
         }
     }
 }

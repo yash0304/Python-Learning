@@ -26,10 +26,6 @@ class ContentRepository(private val context: Context) {
         runCatching { context.assets.open("$BOOKS/$key.json").bufferedReader().use { ContentParser.parseBook(it.readText()) } }.getOrNull()
     }
 
-    /** The KDP-ready EPUB bundled next to the book, for saving to the phone. */
-    fun bookEpub(key: String): ByteArray? =
-        runCatching { context.assets.open("$BOOKS/$key.epub").use { it.readBytes() } }.getOrNull()
-
     private companion object {
         const val DIR = "content"
         const val BOOKS = "books"

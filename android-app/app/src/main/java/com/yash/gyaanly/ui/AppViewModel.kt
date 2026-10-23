@@ -10,6 +10,7 @@ import com.yash.gyaanly.data.Progress
 import com.yash.gyaanly.data.ProgressCodec
 import com.yash.gyaanly.data.Track
 import com.yash.gyaanly.data.TrackContent
+import com.yash.gyaanly.domain.BookBuilder
 import com.yash.gyaanly.domain.DailyPlanner
 import com.yash.gyaanly.notify.ReminderScheduler
 import kotlinx.coroutines.flow.SharingStarted
@@ -47,9 +48,16 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
 
     fun lesson(id: String): Lesson? = content.lesson(id)
 
-    fun book(key: String): Book? = content.book(key)
-
-    fun bookEpub(key: String): ByteArray? = content.bookEpub(key)
+    /**
+     * The e-book for a course: its hand-written book if it has one, otherwise one built from the
+     * lessons in the topics you have switched on. With [level], just that topic.
+     */
+    fun book(key: String, level: String? = null): Book? {
+        val pack = content.pack(key) ?: return null
+        if (level == null) content.book(key)?.let { return it }
+        val levels = level?.let(::listOf) ?: visibleLevels(pack.track, store.state.value)
+        return BookBuilder.fromTrack(pack, levels)
+    }
 
     /** Fixes today's lesson per track so it doesn't change after you complete it. */
     fun refreshPlan() {

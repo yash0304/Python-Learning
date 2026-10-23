@@ -132,7 +132,6 @@ def build():
     make_cover(cover)
     epub = f"{KDP}/the-office-playbook.epub"
     make_epub(book, cover, epub)
-    shutil.copy(epub, f"{BOOKS}/people.epub")  # the app offers it as "Save EPUB"
     words = sum(len(b["x"].split()) for c in chapters for b in c["blocks"])
     print(len(chapters), "chapters,", words, "words ->", epub)
 

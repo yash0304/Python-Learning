@@ -15,6 +15,8 @@ Bite-sized daily lessons with quizzes, streaks, XP and levels. Fully **offline**
 
 Plus a 🧰 **Finance toolbox**: NPV, IRR, WACC, CAPM, CAGR, EMI, break-even, payback and key ratios, all showing their working.
 
+**Listen, share and e-books, for every course:** in any lesson tap **🔊 Listen** to hear the whole lesson (Spanish lines in a Spanish voice) or **📤 Share** to send it as text. In any path, **📖 Read, listen or share as e-book** turns the course into a book you can read in the app, listen to chapter by chapter, share (WhatsApp, Drive, email) or save as EPUB. Each topic also has a **📖 Book** button for just that topic.
+
 **Too much at once?** Learn → ⚙️ Choose (or Me → Choose courses & topics) lets you switch whole courses or single topics off. They vanish from Today and Learn, and your progress is kept. Tapping a level chip inside a path jumps straight to that level's lessons.
 
 ## Look & feel

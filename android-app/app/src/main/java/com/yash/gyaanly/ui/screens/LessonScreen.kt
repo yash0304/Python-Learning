@@ -55,9 +55,12 @@ import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.yash.gyaanly.data.Lesson
 import com.yash.gyaanly.data.QuizQuestion
+import com.yash.gyaanly.domain.BookBuilder
 import com.yash.gyaanly.domain.SpeechMatch
+import com.yash.gyaanly.speech.EXPLAIN_LANG
 import com.yash.gyaanly.speech.Speaker
 import com.yash.gyaanly.ui.AppViewModel
+import com.yash.gyaanly.ui.Share
 import com.yash.gyaanly.ui.theme.Pop
 import com.yash.gyaanly.ui.theme.accent
 import com.yash.gyaanly.ui.theme.gradient
@@ -75,6 +78,9 @@ fun LessonScreen(vm: AppViewModel, lessonId: String, onBack: () -> Unit, openCal
     val scope = rememberCoroutineScope()
     var celebration by remember { mutableStateOf<Celebration?>(null) }
     val context = LocalContext.current
+    val speaker = remember { Speaker(context) }
+    DisposableEffect(Unit) { onDispose { speaker.shutdown() } }
+    var listening by remember(lessonId) { mutableStateOf(false) }
 
     Scaffold(
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
@@ -96,6 +102,27 @@ fun LessonScreen(vm: AppViewModel, lessonId: String, onBack: () -> Unit, openCal
                     Text(lesson.title, color = Color.White, style = MaterialTheme.typography.headlineSmall)
                     Text(lesson.summary, color = Color.White.copy(alpha = 0.92f), fontStyle = FontStyle.Italic)
                 }
+            }
+
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                PopButton(
+                    if (listening) "⏹  Stop" else "🔊  Listen",
+                    if (listening) Pop.Coral else Pop.Sky,
+                    onClick = {
+                        when {
+                            listening -> speaker.stop()
+                            speaker.read(BookBuilder.speech(lesson, EXPLAIN_LANG)) { listening = false } -> listening = true
+                            else -> scope.launch { snackbar.showSnackbar("Text-to-speech isn't ready yet. Try again in a moment.") }
+                        }
+                    },
+                    modifier = Modifier.weight(1f),
+                )
+                PopButton(
+                    "📤  Share",
+                    Pop.Grape,
+                    onClick = { Share.text(context, lesson.title, BookBuilder.plainText(lesson)) },
+                    modifier = Modifier.weight(1f),
+                )
             }
 
             lesson.link?.let { link ->
@@ -153,7 +180,7 @@ fun LessonScreen(vm: AppViewModel, lessonId: String, onBack: () -> Unit, openCal
             }
 
             if (lesson.speak.isNotEmpty()) {
-                SpeakingPractice(lesson, onError = { scope.launch { snackbar.showSnackbar(it) } })
+                SpeakingPractice(lesson, speaker, onError = { scope.launch { snackbar.showSnackbar(it) } })
             }
 
             lesson.action?.let { InfoCard("Today's mission", "🚀", Pop.Mint) { Text(it, style = MaterialTheme.typography.bodyLarge) } }
@@ -221,10 +248,8 @@ private fun CelebrationDialog(c: Celebration, lesson: Lesson, onContinue: () -> 
 }
 
 @Composable
-private fun SpeakingPractice(lesson: Lesson, onError: (String) -> Unit) {
+private fun SpeakingPractice(lesson: Lesson, speaker: Speaker, onError: (String) -> Unit) {
     val context = LocalContext.current
-    val speaker = remember { Speaker(context) }
-    DisposableEffect(Unit) { onDispose { speaker.shutdown() } }
 
     var target by remember { mutableIntStateOf(-1) }
     val results = remember(lesson.id) { mutableStateMapOf<Int, Pair<String, SpeechMatch.Result>>() }

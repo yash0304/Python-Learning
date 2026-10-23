@@ -1,5 +1,6 @@
 package com.yash.gyaanly.ui
 
+import android.net.Uri
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -13,10 +14,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import com.yash.gyaanly.ui.screens.BookScreen
 import com.yash.gyaanly.ui.screens.CalculatorListScreen
 import com.yash.gyaanly.ui.screens.CalculatorScreen
@@ -76,11 +79,22 @@ fun AppNav(vm: AppViewModel) {
                     trackKey = key,
                     onBack = { nav.popBackStack() },
                     openLesson = { nav.navigate("lesson/$it") },
-                    openTool = { tool -> nav.navigate(if (tool == "book") "book/$key" else "calculators") },
+                    openTool = { tool ->
+                        nav.navigate(
+                            when {
+                                tool == "book" -> "book/$key"
+                                tool.startsWith("book:") -> "book/$key?level=${Uri.encode(tool.removePrefix("book:"))}"
+                                else -> "calculators"
+                            },
+                        )
+                    },
                 )
             }
-            composable("book/{key}") { entry ->
-                BookScreen(vm, entry.arguments?.getString("key").orEmpty(), onBack = { nav.popBackStack() })
+            composable(
+                "book/{key}?level={level}",
+                arguments = listOf(navArgument("level") { type = NavType.StringType; nullable = true; defaultValue = null }),
+            ) { entry ->
+                BookScreen(vm, entry.arguments?.getString("key").orEmpty(), entry.arguments?.getString("level"), onBack = { nav.popBackStack() })
             }
             composable("lesson/{id}") { entry ->
                 LessonScreen(
