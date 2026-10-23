@@ -20,6 +20,8 @@ data class Track(
     val levels: List<String>,
     /** Today's lesson is a random unfinished one instead of the next in order. */
     val shuffle: Boolean = false,
+    /** Optional target date (yyyy-MM-dd) to finish the track by; the app shows the pace needed. */
+    val deadline: String? = null,
 )
 
 data class Section(val heading: String, val body: String)

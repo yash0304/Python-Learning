@@ -25,6 +25,7 @@ object ContentParser {
         tools = o.optJSONArray("tools")?.strings().orEmpty(),
         levels = levels,
         shuffle = o.optBoolean("shuffle", false),
+        deadline = o.optStringOrNull("deadline"),
     )
 
     private fun parseLesson(o: JSONObject, track: Track): Lesson = Lesson(

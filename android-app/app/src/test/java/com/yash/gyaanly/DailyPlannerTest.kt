@@ -49,6 +49,14 @@ class DailyPlannerTest {
     }
 
     @Test
+    fun paceRoundsUpAndStopsAfterDeadline() {
+        val end = LocalDate.of(2026, 12, 31)
+        assertEquals(2, DailyPlanner.pacePerDay(110, LocalDate.of(2026, 10, 23), end)) // 70 days
+        assertEquals(1, DailyPlanner.pacePerDay(1, end, end))
+        assertEquals(null, DailyPlanner.pacePerDay(5, end.plusDays(1), end))
+    }
+
+    @Test
     fun cyclesForRevisionWhenAllDone() {
         val all = lessons.map { it.id }.toSet()
         assertTrue(DailyPlanner.pick(lessons, levels, all, today)!!.id in all)

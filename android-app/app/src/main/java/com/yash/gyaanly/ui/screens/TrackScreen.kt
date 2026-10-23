@@ -36,7 +36,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.yash.gyaanly.domain.DailyPlanner
 import com.yash.gyaanly.ui.AppViewModel
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import com.yash.gyaanly.ui.theme.Pop
 import com.yash.gyaanly.ui.theme.accent
 import com.yash.gyaanly.ui.theme.gradient
@@ -57,11 +60,12 @@ fun TrackScreen(
     val done = pack.lessons.count { it.id in progress.completed }
     val color = track.accent
     val levels = vm.visibleLevels(track, progress)
+    val deadline = track.deadline?.let { runCatching { LocalDate.parse(it) }.getOrNull() }
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
     // Row index of each level's header, so tapping a level chip can jump straight to its lessons.
     val headerIndex = buildMap {
-        var index = 1 + (if (track.levelPicker) 1 else 0) +
+        var index = 1 + (if (track.levelPicker) 1 else 0) + (if (deadline != null) 1 else 0) +
             (if ("book" in track.tools) 1 else 0) + (if ("calculators" in track.tools) 1 else 0)
         levels.forEach { level ->
             val count = pack.lessons.count { it.level == level }
@@ -116,6 +120,24 @@ fun TrackScreen(
                                 )
                             }
                         }
+                    }
+                }
+            }
+            if (deadline != null) {
+                item {
+                    val visible = pack.lessons.filter { progress.showsLevel(track.key, it.level) }
+                    val left = visible.count { it.id !in progress.completed }
+                    val today = LocalDate.now()
+                    val pace = DailyPlanner.pacePerDay(left, today, deadline)
+                    val date = deadline.format(DateTimeFormatter.ofPattern("d MMM yyyy"))
+                    InfoCard("Finish by $date", "🎯", color) {
+                        Text(
+                            when {
+                                left == 0 -> "All done. Brilliant work! 🎉"
+                                pace == null -> "The target date has passed; $left lessons left. Keep going!"
+                                else -> "$left lessons left, ${deadline.toEpochDay() - today.toEpochDay() + 1} days to go: do $pace a day to finish on time."
+                            },
+                        )
                     }
                 }
             }

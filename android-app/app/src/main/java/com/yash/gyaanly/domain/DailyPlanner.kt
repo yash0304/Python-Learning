@@ -32,6 +32,16 @@ object DailyPlanner {
             ?: lessons[(today.toEpochDay() % lessons.size).toInt()]
     }
 
+    /**
+     * Lessons per day needed to finish [remaining] lessons by [deadline] (inclusive of today),
+     * rounded up; null once the deadline has passed.
+     */
+    fun pacePerDay(remaining: Int, today: LocalDate, deadline: LocalDate): Int? {
+        val days = deadline.toEpochDay() - today.toEpochDay() + 1
+        if (days <= 0) return null
+        return ((remaining + days - 1) / days).toInt()
+    }
+
     /** Consecutive active days ending today, or yesterday if today has no activity yet. */
     fun streak(activeDays: Set<String>, today: LocalDate): Int {
         var day = if (today.toString() in activeDays) today else today.minusDays(1)

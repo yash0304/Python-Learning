@@ -8,10 +8,14 @@ Bite-sized daily lessons with quizzes, streaks, XP and levels. Fully **offline**
 | 🤝 **People Skills at Work** | 100 lessons for corporate people skills & communication: Self-awareness & First Impressions → Working with Your Manager → Peers & Teamwork → Meetings → Emails, Chat & Writing → Influence & Stakeholders → Feedback & Difficult Conversations → Conflict, Politics & Power → Visibility, Presentations & Executive Presence → Leading Others | The situation, what skilled people do, **say-it-like-this scripts**, what to avoid, a speak-it drill, *practise at the office today*, 3-question quiz. Also a built-in **e-book** (📖 Read the e-book), see [`ebook/`](ebook/README.md) |
 | 🇮🇳 **Smart Citizen India** | 200 everyday Indian problems in 10 categories: roads, air & water (NCR focus), health, money, cyber fraud, documents & rights, home, work, safety & climate, consumer rights | The problem, your human edge, how AI & tech help, rights/helplines/portals, *today's mission*, 3-question quiz |
 | 🗣️ **English Speaking** | 100 lessons, CEFR **A1 → C2** (~17 per level), plus **Learn with Videos** (10 shadowing lessons with a ▶ button to the *Speak English With Class* YouTube channel) and a **15-day Interview Prep course** (Day 1 job research → Day 15 follow-up) | Grammar/phrases, workplace usage, common mistakes, a dialogue, a **speak-it drill** (text-to-speech + speech-recognition score), 3-question quiz |
-| 🇪🇸 **Spanish** | 100 lessons, CEFR **A1 → C1**: sounds, survival Spanish, all main tenses and the subjunctive, work emails, meetings, interviews, finance vocabulary, idioms, Spain vs Latin America | Grammar + pronunciation tips, a dialogue, **speak-it drill in Spanish** (`es-ES`), today's mission, 3-question quiz |
+| 🇪🇸 **Spanish** | 120 lessons in **12 Duolingo-style units** (A1 → B1), each grammar point taught completely in one unit, then reviewed: Hello & Café → Ser → Estar → Family & Tener → Everyday Verbs → Likes & Plans → Irregular Present → Daily Routine → Preterite → Imperfect → Future & Experiences → Commands & Subjunctive | Grammar + pronunciation tips, a dialogue, **speak-it drill in Spanish** (`es-ES`), today's mission, 3-question quiz |
+| 🏢 **Finance Shared Services** | 110 lessons, one key word each, for 11 teams: AP, O2C Collections, Master Creation, Billing, ES (payroll & employee services), CRT (central revenue), Banking & Treasury, Taxation, Central MIS, IC & Softex, Fixed Assets. Each team ends with its reconciliation. **Finish-by-31-Dec-2026 pace tracker** | Explain like I'm 20, what the team actually does, a real example, what to watch out for, worked calculations, 3-question quiz |
+| 🧩 **Mind & Words** | 100 topics shown in **random order**: cognitive biases, manipulation tactics (gaslighting, triangulation, covert narcissism, double bind…), psychology effects (halo effect…), money & modern life (guilt tipping, dark patterns…), manifesting & mindset (the honest, evidence-based version) and trending words | Explain like I'm 20, a real-life example, how to spot it, what to do, 3-question quiz |
 | 💰 **Corporate Finance** | 100 lessons: Basics → Intermediate → Advanced | Concept, word of the day, real example, **solve-it-yourself calculation** with step-by-step reveal, 3-question quiz |
 
 Plus a 🧰 **Finance toolbox**: NPV, IRR, WACC, CAPM, CAGR, EMI, break-even, payback and key ratios, all showing their working.
+
+**Too much at once?** Learn → ⚙️ Choose (or Me → Choose courses & topics) lets you switch whole courses or single topics off. They vanish from Today and Learn, and your progress is kept. Tapping a level chip inside a path jumps straight to that level's lessons.
 
 ## Look & feel
 
@@ -53,7 +57,9 @@ Each path is **one self-describing JSON file**. The app discovers every `*.json`
 | `color` | Hex colour for the path's gradient, e.g. `"#E11D48"` |
 | `order` | Position in lists (built-ins use 1-6) |
 | `levelPicker` | `true` lets learners choose their starting level |
-| `tools` | Optional, e.g. `["calculators"]` |
+| `tools` | Optional, e.g. `["calculators"]` or `["book"]` |
+| `shuffle` | `true` gives a random unfinished lesson each day |
+| `deadline` | Optional `"yyyy-MM-dd"`; the path shows how many lessons a day you need to finish on time |
 
 3. List your `levels` in order, then add lessons. Every block except `id`, `level`, `title`, `sections` and `quiz` is optional:
 
