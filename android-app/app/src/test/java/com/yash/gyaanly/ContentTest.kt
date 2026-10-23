@@ -47,7 +47,7 @@ class ContentTest {
 
     @Test
     fun builtInPathsAreExtensive() {
-        listOf("ai", "people", "english", "finance", "india").forEach { key ->
+        listOf("ai", "people", "english", "finance", "india", "spanish", "mind").forEach { key ->
             val p = pack(key) ?: error("missing built-in pack $key")
             assertTrue("$key has only ${p.lessons.size} lessons", p.lessons.size >= 100)
             p.lessons.forEach { assertTrue("${it.id}: needs 3 quiz questions", it.quiz.size >= 3) }
@@ -71,6 +71,17 @@ class ContentTest {
                 assertTrue("${it.id}: no speaking drill", it.speak.isNotEmpty())
                 assertEquals("${it.id}: wrong speech language", lang, it.speakLang)
             }
+        }
+        val spanish = pack("spanish")!!
+        assertEquals("Spanish is 12 units", 12, spanish.track.levels.size)
+        spanish.track.levels.forEach { u -> assertEquals("$u needs 10 lessons", 10, spanish.lessons.count { it.level == u }) }
+        val mind = pack("mind")!!
+        assertTrue("Mind & Words shows a random topic", mind.track.shuffle)
+        assertEquals("100 mind topics", 100, mind.lessons.size)
+        mind.lessons.forEach {
+            assertEquals("${it.id}: needs 4 sections", 4, it.sections.size)
+            assertTrue("${it.id}: no key term", it.keyTerm != null)
+            assertTrue("${it.id}: no action", it.action != null)
         }
         val interview = pack("english")!!.lessons.filter { it.level == "Interview Prep" }
         assertEquals("15-day interview course", 15, interview.size)
