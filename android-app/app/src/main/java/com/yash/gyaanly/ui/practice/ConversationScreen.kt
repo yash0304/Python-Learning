@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -20,7 +19,9 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -278,36 +279,41 @@ fun ConversationScreen(vm: PracticeViewModel, scenarioId: String, onBack: () -> 
 
 @Composable
 private fun Intro(s: Scenario, convo: Conversation, aiAvailable: Boolean, micDenied: Boolean, color: Color, begin: () -> Unit) {
-    Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-        GradientCard(androidx.compose.ui.graphics.Brush.linearGradient(listOf(color, Pop.Grape))) {
-            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text(s.title, color = Color.White, style = MaterialTheme.typography.headlineSmall)
-                Text("🎭 The app plays: ${s.partner}", color = Color.White)
-                Text("🙋 You are: ${s.you}", color = Color.White)
-                Text("🎯 ${s.goal}", color = Color.White, fontWeight = FontWeight.Bold)
-            }
-        }
-        if (s.focus.isNotEmpty()) InfoCard("Keep in mind", "💡", color) {
-            Column { s.focus.forEach { Text("• $it") } }
-        }
-        InfoCard("How it works", "🎧", Pop.Sky) {
-            Text(
-                "Hands-free: listen, then simply start talking when they finish. Short pauses are fine; stay quiet for about two seconds when you're done. " +
-                    "Speak in your own words: there's nothing to read. Use headphones in a noisy place.",
-            )
-        }
-        if (aiAvailable && s.source != ScenarioSource.MY_SCRIPT) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Column(Modifier.weight(1f)) {
-                    Text("🤖 Smart partner", fontWeight = FontWeight.Bold)
-                    Text("Replies to what you actually say instead of following the script.", style = MaterialTheme.typography.bodySmall)
+    Column(Modifier.fillMaxSize()) {
+        // The details scroll; the Start button stays pinned at the bottom so it's always reachable.
+        Column(
+            Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(14.dp),
+        ) {
+            GradientCard(androidx.compose.ui.graphics.Brush.linearGradient(listOf(color, Pop.Grape))) {
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(s.title, color = Color.White, style = MaterialTheme.typography.headlineSmall)
+                    Text("🎭 The app plays: ${s.partner}", color = Color.White)
+                    Text("🙋 You are: ${s.you}", color = Color.White)
+                    Text("🎯 ${s.goal}", color = Color.White, fontWeight = FontWeight.Bold)
                 }
-                Switch(checked = convo.smart, onCheckedChange = { convo.smart = it })
             }
+            if (s.focus.isNotEmpty()) InfoCard("Keep in mind", "💡", color) {
+                Column { s.focus.forEach { Text("• $it") } }
+            }
+            InfoCard("How it works", "🎧", Pop.Sky) {
+                Text(
+                    "Hands-free: listen, then simply start talking when they finish. Short pauses are fine; stay quiet for about two seconds when you're done. " +
+                        "Speak in your own words: there's nothing to read. Use headphones in a noisy place.",
+                )
+            }
+            if (aiAvailable && s.source != ScenarioSource.MY_SCRIPT) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text("🤖 Smart partner", fontWeight = FontWeight.Bold)
+                        Text("Replies to what you actually say instead of following the script.", style = MaterialTheme.typography.bodySmall)
+                    }
+                    Switch(checked = convo.smart, onCheckedChange = { convo.smart = it })
+                }
+            }
+            if (micDenied) Text("Microphone access is needed for speaking practice. Allow it in the app's Android settings.", color = Pop.Bad)
         }
-        if (micDenied) Text("Microphone access is needed for speaking practice. Allow it in the app's Android settings.", color = Pop.Bad)
-        Spacer(Modifier.weight(1f))
-        PopButton("🎙️  Start the conversation", color, onClick = begin)
+        PopButton("🎙️  Start the conversation", color, onClick = begin, modifier = Modifier.padding(16.dp))
     }
 }
 
