@@ -1,0 +1,8616 @@
+{
+ "key": "people",
+ "title": "The Office Playbook",
+ "subtitle": "100 People-Skills Scripts for Indian Professionals: what to say to your manager, peers and stakeholders, practised in 5 minutes a day",
+ "author": "Yash Modi",
+ "notice": "Written with the help of AI and reviewed by the author. The scripts are general guidance, not legal or HR advice.",
+ "chapters": [
+  {
+   "title": "Who this book is for",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "You are good at the technical side of your job. You can build the model, fix the system or close the books. But some parts of office life feel harder than the work itself: speaking up in meetings, pushing back on your manager, handling a difficult colleague, or getting noticed by leadership."
+    },
+    {
+     "t": "p",
+     "x": "This book is for engineers, analysts, accountants and other specialists, especially in Indian workplaces, who want to get better at the people side of work without becoming someone they're not."
+    }
+   ]
+  },
+  {
+   "title": "How to use this book",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "There are 100 short lessons in 10 chapters. Each one takes about five minutes to read and gives you something to try at the office the same day."
+    },
+    {
+     "t": "li",
+     "x": "The situation: a common problem at work."
+    },
+    {
+     "t": "li",
+     "x": "What skilled people do: the habit to copy."
+    },
+    {
+     "t": "li",
+     "x": "Say it like this: ready-made phrases you can use word for word."
+    },
+    {
+     "t": "li",
+     "x": "Avoid: the mistakes that make things worse."
+    },
+    {
+     "t": "li",
+     "x": "Practise today: one small action for your next working day."
+    },
+    {
+     "t": "li",
+     "x": "Say it aloud: three phrases to rehearse until they feel natural."
+    },
+    {
+     "t": "p",
+     "x": "Read one lesson a day, or jump to the chapter you need right now. A quick self-check closes every chapter. The 30-day plan and phrase bank at the end help you keep practising."
+    },
+    {
+     "t": "p",
+     "x": "The scripts are starting points, not rules. Adapt the words to your company, your culture and your own voice."
+    }
+   ]
+  },
+  {
+   "title": "Chapter 1: Self-awareness & First Impressions",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Most people skills start before you say a word. How you greet people, how you listen, how you handle your own nerves and moods: colleagues notice all of it, and they form opinions fast. This chapter covers the basics that make every later conversation easier."
+    },
+    {
+     "t": "h",
+     "x": "1.1  Technical skill gets you in; people skills move you up"
+    },
+    {
+     "t": "em",
+     "x": "Why relationships decide promotions as much as output."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You do excellent work, but colleagues with weaker skills get noticed, promoted or chosen for projects. Often the difference is how they communicate, build relationships and make others' work easier."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They treat people skills as learnable skills, not personality. They practise small behaviours daily: greeting people, listening fully, sharing credit, updating proactively and asking good questions."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "To yourself: 'Today I'll practise one people skill on purpose.'"
+    },
+    {
+     "t": "q",
+     "x": "To a colleague: 'How's your week going? Anything I can help with on the project?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Believing 'my work should speak for itself'. Work speaks quietly; people need context, visibility and trust to value it."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Pick one person you work with and have a 2-minute non-work chat with them today."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "How's your week going?"
+    },
+    {
+     "t": "li",
+     "x": "Is there anything I can help with?"
+    },
+    {
+     "t": "li",
+     "x": "Thanks, that really helped me."
+    },
+    {
+     "t": "h",
+     "x": "1.2  Know your communication style"
+    },
+    {
+     "t": "em",
+     "x": "Understand how you come across before changing it."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Technical people often come across as blunt, quiet or overly detailed, while they intend to be efficient or precise."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They ask for honest feedback on how they come across, notice patterns (e.g. interrupting, long explanations, rarely smiling) and adapt their style to the listener."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Could I ask for quick feedback? When I explain things in meetings, is it clear, or too detailed?'"
+    },
+    {
+     "t": "q",
+     "x": "'If there's one thing I could do to communicate better with you, what would it be?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Assuming people understand your intent. Others judge your behaviour, not your intentions."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Ask one trusted colleague: 'What's one thing I could do to communicate better?' and just listen."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Could I ask for quick feedback on how I communicate?"
+    },
+    {
+     "t": "li",
+     "x": "Is my explanation clear, or too detailed?"
+    },
+    {
+     "t": "li",
+     "x": "What's one thing I could do better?"
+    },
+    {
+     "t": "h",
+     "x": "1.3  First impressions in the office"
+    },
+    {
+     "t": "em",
+     "x": "The first 30 seconds set the tone for a relationship."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Meeting new colleagues, clients or leaders, you may freeze, avoid eye contact or jump straight into work."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They make eye contact, smile, use the person's name, introduce themselves with a one-line role description, and ask a friendly question."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Hi Priya, I'm Yash from the finance team. I work on monthly reporting. Nice to finally meet you. How long have you been with the sales team?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Looking at your phone, a weak mumbled introduction, or talking only about yourself."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Introduce yourself to one person you haven't properly met, using your name, team and one-line role."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Hi, I'm Yash from the finance team."
+    },
+    {
+     "t": "li",
+     "x": "Nice to finally meet you."
+    },
+    {
+     "t": "li",
+     "x": "How long have you been with the team?"
+    },
+    {
+     "t": "h",
+     "x": "1.4  Small talk that doesn't feel fake"
+    },
+    {
+     "t": "em",
+     "x": "Short friendly chats build trust over time."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You find small talk pointless or awkward, so you skip it and seem distant."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They see small talk as relationship-building. They ask open questions, remember details (kids, hobbies, trips) and follow up later."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'How was your weekend? Did you end up going to Jaipur?'"
+    },
+    {
+     "t": "q",
+     "x": "'That sounds fun. What was the best part?'"
+    },
+    {
+     "t": "q",
+     "x": "Later: 'How did your daughter's exam go?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Yes/no questions only, talking about controversial topics, or one-word answers."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Start one small-talk conversation today and remember one detail to follow up on next week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "How was your weekend?"
+    },
+    {
+     "t": "li",
+     "x": "What was the best part?"
+    },
+    {
+     "t": "li",
+     "x": "How did the trip go?"
+    },
+    {
+     "t": "h",
+     "x": "1.5  Active listening"
+    },
+    {
+     "t": "em",
+     "x": "Make people feel heard, and understand them better."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "In discussions you're often preparing your answer instead of listening, or you interrupt to correct details."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They listen fully, nod, take notes, paraphrase key points and ask clarifying questions before responding."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'So if I understand correctly, the main concern is the deadline, not the budget?'"
+    },
+    {
+     "t": "q",
+     "x": "'Tell me more about that.'"
+    },
+    {
+     "t": "q",
+     "x": "'What would a good outcome look like for you?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Interrupting, looking at your laptop, or jumping to solutions too quickly."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "In one conversation today, paraphrase what the other person said before giving your view."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "So if I understand correctly, the main concern is the deadline?"
+    },
+    {
+     "t": "li",
+     "x": "Tell me more about that."
+    },
+    {
+     "t": "li",
+     "x": "What would a good outcome look like for you?"
+    },
+    {
+     "t": "h",
+     "x": "1.6  Managing your emotions at work"
+    },
+    {
+     "t": "em",
+     "x": "Stay calm when you're frustrated or criticised."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "When your work is criticised or a colleague is unreasonable, you react sharply or shut down."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They pause before responding, name the emotion to themselves ('I'm frustrated'), ask questions to understand, and respond later if needed."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'That's a fair point. Let me think about it and come back to you by tomorrow.'"
+    },
+    {
+     "t": "q",
+     "x": "'Can you help me understand what concerns you most?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Replying instantly to an annoying email, raising your voice, or sulking silently."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Next time you feel irritated at work, wait 10 seconds and ask one question before responding."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "That's a fair point. Let me think about it."
+    },
+    {
+     "t": "li",
+     "x": "Can you help me understand your concern?"
+    },
+    {
+     "t": "li",
+     "x": "I'll come back to you by tomorrow."
+    },
+    {
+     "t": "h",
+     "x": "1.7  Body language and presence"
+    },
+    {
+     "t": "em",
+     "x": "Your posture and face speak before you do."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You may sit slouched, avoid eye contact or look serious, so people think you're uninterested or unapproachable."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They sit upright, face the speaker, nod, keep an open posture and smile naturally. On video calls they look at the camera and keep it on."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Non-verbal: lean slightly forward when listening; nod; brief eye contact; relaxed smile when greeting."
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Crossed arms, checking your phone in meetings, or a blank face on camera."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "In your next meeting, keep your phone away and maintain an open, attentive posture."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'm glad to be part of this discussion."
+    },
+    {
+     "t": "li",
+     "x": "That's interesting, please go on."
+    },
+    {
+     "t": "li",
+     "x": "Thanks for explaining that."
+    },
+    {
+     "t": "h",
+     "x": "1.8  Remembering names and details"
+    },
+    {
+     "t": "em",
+     "x": "A small habit with big relationship returns."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You forget names of people from other teams, which feels awkward and distant."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They repeat the name when introduced, connect it to something memorable, and note key details after meetings (team, project, interests)."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Nice to meet you, Ankit. Ankit from procurement, right?'"
+    },
+    {
+     "t": "q",
+     "x": "If you forget: 'I'm sorry, remind me of your name again?' (honest is better than avoiding)."
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Avoiding people because you forgot their name."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Write down names and one detail of 3 people you interacted with this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Nice to meet you, Ankit."
+    },
+    {
+     "t": "li",
+     "x": "Ankit from procurement, right?"
+    },
+    {
+     "t": "li",
+     "x": "Sorry, could you remind me of your name?"
+    },
+    {
+     "t": "h",
+     "x": "1.9  Being approachable"
+    },
+    {
+     "t": "em",
+     "x": "People bring opportunities to those who seem open."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Colleagues hesitate to ask you questions because you seem busy, serious or irritated."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They respond warmly to questions, say 'good question', share knowledge generously and signal availability ('Ping me anytime about the model')."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Good question. Happy to explain.'"
+    },
+    {
+     "t": "q",
+     "x": "'I'm in the middle of something; can we talk at 3?'"
+    },
+    {
+     "t": "q",
+     "x": "'Feel free to ping me anytime about this.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Sighing, short replies or making people feel stupid for asking."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "When someone asks you a question today, start with 'Good question' and explain kindly."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Good question, happy to explain."
+    },
+    {
+     "t": "li",
+     "x": "Can we talk at three? I'm finishing something."
+    },
+    {
+     "t": "li",
+     "x": "Feel free to ping me anytime."
+    },
+    {
+     "t": "h",
+     "x": "1.10  Saying thank you specifically"
+    },
+    {
+     "t": "em",
+     "x": "Specific appreciation is remembered."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You say 'thanks' automatically or forget to recognise others' help."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They thank people specifically, mention the impact, and sometimes thank them in front of their manager or the team."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Thanks for pulling the data so quickly, Neha. It helped us finish the report a day early.'"
+    },
+    {
+     "t": "q",
+     "x": "In a group mail: 'Special thanks to Rohan for fixing the reconciliation issue.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Generic 'thanks' only, or taking credit for team effort."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Send one specific thank-you message today mentioning the impact of someone's help."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Thanks for pulling the data so quickly."
+    },
+    {
+     "t": "li",
+     "x": "It helped us finish a day early."
+    },
+    {
+     "t": "li",
+     "x": "Special thanks to Rohan for his help."
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Why do people skills matter for promotions?  (A) Only managers need them  (B) They don't  (C) Others must trust and want to work with you  (D) They replace technical skill"
+    },
+    {
+     "t": "p",
+     "x": "2. Others judge you mainly by…  (A) Your visible behaviour  (B) Your degree  (C) Your intentions  (D) Your salary"
+    },
+    {
+     "t": "p",
+     "x": "3. A strong introduction includes…  (A) Your salary  (B) Only your name  (C) Name, team and a one-line role  (D) Your complaints"
+    },
+    {
+     "t": "p",
+     "x": "4. Small talk mainly builds…  (A) Conflict  (B) Trust and rapport  (C) Workload  (D) Gossip"
+    },
+    {
+     "t": "p",
+     "x": "5. Paraphrasing shows…  (A) You understood and care  (B) You disagree  (C) You weren't listening  (D) You're bored"
+    },
+    {
+     "t": "p",
+     "x": "6. A good first reaction to criticism is…  (A) Complaining  (B) Pausing and asking questions  (C) Defending immediately  (D) Ignoring it"
+    },
+    {
+     "t": "p",
+     "x": "7. An open posture signals…  (A) Defensiveness  (B) Anger  (C) Engagement  (D) Boredom"
+    },
+    {
+     "t": "p",
+     "x": "8. A trick to remember names is…  (A) Ignoring them  (B) Asking their salary  (C) Avoiding meetings  (D) Repeating the name when introduced"
+    },
+    {
+     "t": "p",
+     "x": "9. Approachable people get…  (A) More conflicts  (B) Nothing  (C) More information and opportunities  (D) Fewer opportunities"
+    },
+    {
+     "t": "p",
+     "x": "10. Effective appreciation is…  (A) Generic  (B) Only in private  (C) Specific with impact  (D) Rare"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: C, 2: A, 3: C, 4: B, 5: A, 6: B, 7: C, 8: D, 9: C, 10: C"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 2: Working with Your Manager",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Your manager is the single person with the most influence on your day-to-day work, your ratings and your growth. Technical people often treat that relationship as 'just do good work'. Good work matters, but so do updates, expectations and trust. This chapter shows how to manage that relationship deliberately."
+    },
+    {
+     "t": "h",
+     "x": "2.1  Understand your manager's priorities"
+    },
+    {
+     "t": "em",
+     "x": "Help your manager succeed and you succeed too."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You work hard on tasks but don't know what your manager is measured on or worried about."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They ask about their manager's goals and pressures, and align their work to those priorities."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'What are your top priorities this quarter?'"
+    },
+    {
+     "t": "q",
+     "x": "'What's keeping you up at night on this project?'"
+    },
+    {
+     "t": "q",
+     "x": "'How can I make your job easier?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Assuming your priorities match your manager's."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Ask your manager: 'What are your top three priorities this quarter?'"
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "What are your top priorities this quarter?"
+    },
+    {
+     "t": "li",
+     "x": "How can I make your job easier?"
+    },
+    {
+     "t": "li",
+     "x": "What does success look like for you?"
+    },
+    {
+     "t": "h",
+     "x": "2.2  Weekly updates that build trust"
+    },
+    {
+     "t": "em",
+     "x": "Your manager should never have to chase you."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your manager asks 'What's the status?' frequently, which signals they lack visibility."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They send short, regular updates: done, next, risks/blocked, without being asked."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Quick update: Done: reconciliation for March. Next: variance commentary by Thursday. Risk: waiting for sales data, which may delay by a day.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Long unstructured messages, or updates only when something goes wrong."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Send your manager a 3-line update today: done, next, risks."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Quick update on the project."
+    },
+    {
+     "t": "li",
+     "x": "The main risk is the delayed sales data."
+    },
+    {
+     "t": "li",
+     "x": "I'll have the draft ready by Thursday."
+    },
+    {
+     "t": "h",
+     "x": "2.3  No surprises: escalate early"
+    },
+    {
+     "t": "em",
+     "x": "Bad news ages badly."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You hope to fix a problem quietly, but the manager hears about it from others, damaging trust."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They escalate risks early with options, so the manager can help or prepare."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Heads-up: the vendor may miss Friday's delivery. Option A: we partially deliver; option B: we push the deadline by 3 days. I recommend A. What do you think?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Hiding problems, or bringing problems without any options."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Identify one risk in your current work and inform your manager with two options."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Just a heads-up about a possible delay."
+    },
+    {
+     "t": "li",
+     "x": "There are two options we could consider."
+    },
+    {
+     "t": "li",
+     "x": "I recommend the first option."
+    },
+    {
+     "t": "h",
+     "x": "2.4  Running a great 1:1"
+    },
+    {
+     "t": "em",
+     "x": "Use 1:1s to grow, not just report status."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your 1:1s are short status updates or get cancelled."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They prepare an agenda: wins, blockers, decisions needed, feedback and career. They take notes and follow up."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'For today I have three things: a quick win, one decision I need from you, and I'd like your feedback on my presentation.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Coming unprepared or only talking about tasks."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Prepare a 3-point agenda for your next 1:1 with your manager."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I have three things for today."
+    },
+    {
+     "t": "li",
+     "x": "There's one decision I need from you."
+    },
+    {
+     "t": "li",
+     "x": "Could I get your feedback on my presentation?"
+    },
+    {
+     "t": "h",
+     "x": "2.5  Asking for help without seeming weak"
+    },
+    {
+     "t": "em",
+     "x": "Smart people ask early and well."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You stay stuck for days because you don't want to look incompetent."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They try first, then ask specific questions showing what they've tried."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I've tried reconciling using the March ledger and the bank file, but there's a ₹2 lakh gap. Could you spare 10 minutes to look at it with me?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Asking too early without effort, or too late after deadlines are at risk."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "If stuck on anything today, ask for help with a specific question and what you've tried."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I've tried two approaches already."
+    },
+    {
+     "t": "li",
+     "x": "Could you spare ten minutes to look at this with me?"
+    },
+    {
+     "t": "li",
+     "x": "What would you suggest I try next?"
+    },
+    {
+     "t": "h",
+     "x": "2.6  Disagreeing with your manager"
+    },
+    {
+     "t": "em",
+     "x": "Respectful disagreement builds credibility."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You disagree with your manager's decision but stay quiet or complain to peers."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They raise concerns privately, with data and alternatives, then commit if the decision stands ('disagree and commit')."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Can I share a concern about the timeline? Based on last quarter's data, testing took two weeks. Could we consider…? If we still go ahead, I'll fully support it.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Arguing in front of others, or silently not following the decision."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Practise phrasing one concern you have as: concern + data + alternative."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Can I share a concern about the timeline?"
+    },
+    {
+     "t": "li",
+     "x": "Based on last quarter's data, testing took two weeks."
+    },
+    {
+     "t": "li",
+     "x": "If we still go ahead, I'll fully support it."
+    },
+    {
+     "t": "h",
+     "x": "2.7  Understanding your manager's style"
+    },
+    {
+     "t": "em",
+     "x": "Adapt to how your manager works."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your manager prefers short messages but you send long emails, or they like calls and you only email."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They observe and ask: preferred channel, level of detail, best time to talk, and how they like decisions presented."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Do you prefer quick updates on chat, or a summary email at the end of the week?'"
+    },
+    {
+     "t": "q",
+     "x": "'Would you like the headline first or the full detail?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Assuming one style fits all managers."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Ask your manager how they prefer updates and adjust this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Do you prefer updates on chat or email?"
+    },
+    {
+     "t": "li",
+     "x": "Would you like the headline first?"
+    },
+    {
+     "t": "li",
+     "x": "When is a good time to discuss this?"
+    },
+    {
+     "t": "h",
+     "x": "2.8  Asking for feedback regularly"
+    },
+    {
+     "t": "em",
+     "x": "Don't wait for the annual review."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You only learn what your manager thinks during appraisals, when it's too late to change."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They ask for specific feedback monthly and act on it visibly."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'What's one thing I did well this month and one thing I could improve?'"
+    },
+    {
+     "t": "q",
+     "x": "'Last time you suggested shorter updates; have you noticed a difference?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Asking 'Any feedback?' (too vague) or arguing when receiving it."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Ask your manager: 'What's one thing I could do better next month?'"
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "What's one thing I did well this month?"
+    },
+    {
+     "t": "li",
+     "x": "What's one thing I could improve?"
+    },
+    {
+     "t": "li",
+     "x": "Thank you, I'll work on that."
+    },
+    {
+     "t": "h",
+     "x": "2.9  Making your achievements visible"
+    },
+    {
+     "t": "em",
+     "x": "Help your manager advocate for you."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your manager doesn't remember your wins at appraisal time."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They keep a 'wins log' with numbers and share highlights regularly, framed as team impact."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Quick win to share: the automated report went live and saves the team about 10 hours a week.'"
+    },
+    {
+     "t": "q",
+     "x": "At appraisal: 'Here are my top 5 contributions this year with impact.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Bragging constantly, or never mentioning wins."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Start a 'wins log' today and add your last three achievements with numbers."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Quick win to share with you."
+    },
+    {
+     "t": "li",
+     "x": "The new report saves the team ten hours a week."
+    },
+    {
+     "t": "li",
+     "x": "Here are my top contributions this year."
+    },
+    {
+     "t": "h",
+     "x": "2.10  Career conversations"
+    },
+    {
+     "t": "em",
+     "x": "Tell your manager what you want next."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You hope your manager will notice your ambitions, but they're focused on today's work."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They state goals clearly, ask what skills are needed, request stretch opportunities and review progress every few months."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'In the next 12-18 months I'd like to move toward an FP&A lead role. What skills or experiences would make me ready? Could I take ownership of the budget process this year?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Expecting promotions without discussing them, or demanding them without a plan."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Write your 12-month career goal and one stretch opportunity to request."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "In the next year I'd like to move toward a lead role."
+    },
+    {
+     "t": "li",
+     "x": "What skills would make me ready?"
+    },
+    {
+     "t": "li",
+     "x": "Could I take ownership of the budget process?"
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Knowing your manager's priorities helps you…  (A) Gossip  (B) Align your work to what matters  (C) Avoid work  (D) Nothing"
+    },
+    {
+     "t": "p",
+     "x": "2. A good update structure is…  (A) Random thoughts  (B) Only achievements  (C) Done, next, risks  (D) Only problems"
+    },
+    {
+     "t": "p",
+     "x": "3. The 'no surprises' rule means…  (A) Share risks early with options  (B) Hide problems  (C) Only share good news  (D) Surprise gifts"
+    },
+    {
+     "t": "p",
+     "x": "4. A great 1:1 includes…  (A) Wins, blockers, decisions, feedback, career  (B) Gossip  (C) Only status  (D) Nothing planned"
+    },
+    {
+     "t": "p",
+     "x": "5. A strong help request includes…  (A) Just 'help'  (B) Nothing  (C) Complaints  (D) What you've tried and a specific question"
+    },
+    {
+     "t": "p",
+     "x": "6. Where is it best to disagree with your manager?  (A) Privately, with data  (B) Never  (C) On social media  (D) In a big meeting"
+    },
+    {
+     "t": "p",
+     "x": "7. Adapting to your manager's style…  (A) Makes collaboration easier  (B) Is manipulation  (C) Is unnecessary  (D) Shows weakness"
+    },
+    {
+     "t": "p",
+     "x": "8. A better feedback question is…  (A) Do you like me?  (B) Am I perfect?  (C) Any feedback?  (D) What's one thing I could improve next month?"
+    },
+    {
+     "t": "p",
+     "x": "9. A 'wins log' helps…  (A) Gossip  (B) Hide work  (C) At appraisal and promotion discussions  (D) Nothing"
+    },
+    {
+     "t": "p",
+     "x": "10. Career conversations should be…  (A) Clear about goals and gaps  (B) Demands only  (C) Avoided  (D) Once a decade"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: B, 2: C, 3: A, 4: A, 5: D, 6: A, 7: A, 8: D, 9: C, 10: A"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 3: Peers & Teamwork",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Your peers decide whether work flows smoothly or gets stuck. They are also your future managers, references and partners. This chapter is about being the colleague people want on their project: reliable, generous and easy to work with."
+    },
+    {
+     "t": "h",
+     "x": "3.1  Building relationships with peers"
+    },
+    {
+     "t": "em",
+     "x": "Peers become your network, allies and future leaders."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You interact with colleagues only when you need something from them."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They invest before they need: lunch or coffee chats, helping with small things, sharing useful info and celebrating others' wins."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Want to grab a coffee this week? I'd love to understand how your team works.'"
+    },
+    {
+     "t": "q",
+     "x": "'Saw this article on automation, thought it might help your project.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Transactional relationships: only reaching out when you need a favour."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Invite one peer from another team for a 15-minute coffee or call this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Want to grab a coffee this week?"
+    },
+    {
+     "t": "li",
+     "x": "I'd love to understand how your team works."
+    },
+    {
+     "t": "li",
+     "x": "I saw this and thought of your project."
+    },
+    {
+     "t": "h",
+     "x": "3.2  Sharing credit generously"
+    },
+    {
+     "t": "em",
+     "x": "Credit shared multiplies; credit hoarded divides."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "In presentations you say 'I did this' even though others contributed, and colleagues feel unappreciated."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They name contributors specifically and talk about 'we' for team work and 'I' only for their own part."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'This dashboard was a team effort. Rahul cleaned the data and Meera designed the visuals; I built the model.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Taking credit for others' work or never mentioning helpers."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "In your next update or presentation, name at least one colleague's contribution."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "This was a team effort."
+    },
+    {
+     "t": "li",
+     "x": "Rahul cleaned the data and Meera designed the visuals."
+    },
+    {
+     "t": "li",
+     "x": "I built the forecasting model."
+    },
+    {
+     "t": "h",
+     "x": "3.3  Helping without overcommitting"
+    },
+    {
+     "t": "em",
+     "x": "Be generous, but protect your time."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You say yes to every request and end up overloaded and late on your own work."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They help when possible, clarify scope and time, and say no kindly with alternatives when needed."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I can help for 30 minutes this afternoon.'"
+    },
+    {
+     "t": "q",
+     "x": "'I'd like to help, but I'm on a deadline until Thursday. Could we look at it on Friday, or would Ankit be able to help sooner?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Saying yes and then delivering late, or a blunt 'no'."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Practise one 'kind no' with an alternative this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I can help for thirty minutes this afternoon."
+    },
+    {
+     "t": "li",
+     "x": "I'm on a deadline until Thursday."
+    },
+    {
+     "t": "li",
+     "x": "Could we look at it on Friday?"
+    },
+    {
+     "t": "h",
+     "x": "3.4  Working across departments"
+    },
+    {
+     "t": "em",
+     "x": "Different teams, different priorities."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Sales, operations and finance clash because each sees only its own goals."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They learn other teams' targets and pain points, speak their language and frame requests around shared goals."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I know month-end is busy for you. To help both teams, could we agree on a 2-day cut-off for invoices? It'll reduce your follow-up calls too.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Using your team's jargon, or blaming other departments."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Ask someone from another department: 'What's your biggest challenge working with our team?'"
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I know month-end is busy for you."
+    },
+    {
+     "t": "li",
+     "x": "Could we agree on a two-day cut-off?"
+    },
+    {
+     "t": "li",
+     "x": "It'll reduce follow-up calls for both teams."
+    },
+    {
+     "t": "h",
+     "x": "3.5  Asking colleagues for favours"
+    },
+    {
+     "t": "em",
+     "x": "Make it easy for people to say yes."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your requests get ignored or delayed."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They make specific, polite requests with context, deadline and reason, and thank afterwards."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Hi Neha, could you share the Q3 sales file by Wednesday 3 pm? I need it for the board deck on Thursday. Thanks so much!'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Vague requests ('send the data'), no deadline, or urgent requests at the last minute."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Rewrite one request you need to make using: specific ask + deadline + reason."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Could you share the sales file by Wednesday?"
+    },
+    {
+     "t": "li",
+     "x": "I need it for the board deck on Thursday."
+    },
+    {
+     "t": "li",
+     "x": "Thanks so much for your help!"
+    },
+    {
+     "t": "h",
+     "x": "3.6  Handling a difficult colleague"
+    },
+    {
+     "t": "em",
+     "x": "Focus on behaviour, not personality."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A colleague is rude, misses deadlines or dismisses your ideas."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They stay professional, talk privately about specific behaviours and impact, seek understanding, and escalate only after trying directly."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Can we talk for a minute? In the last two meetings my points were interrupted. I'd like to make sure we both get heard. How can we handle this better?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Complaining behind their back, matching their rudeness, or avoiding them entirely."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Write a private, calm opening line for a conversation with one challenging colleague."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Can we talk for a minute?"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to make sure we both get heard."
+    },
+    {
+     "t": "li",
+     "x": "How can we handle this better?"
+    },
+    {
+     "t": "h",
+     "x": "3.7  Team trust: reliability"
+    },
+    {
+     "t": "em",
+     "x": "Do what you say, when you say."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Small missed commitments make colleagues stop relying on you."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They commit carefully, write down promises, deliver on time or warn early if they can't."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'll send it by 4 pm.' (and do it)"
+    },
+    {
+     "t": "q",
+     "x": "'Quick heads-up: I'll need until tomorrow 11 am instead of today; the data came late.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Vague commitments ('I'll try') or silent delays."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "List today's promises you've made and deliver or update on each."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'll send it by four o'clock."
+    },
+    {
+     "t": "li",
+     "x": "Quick heads-up, I'll need until tomorrow morning."
+    },
+    {
+     "t": "li",
+     "x": "Done, it's in your inbox."
+    },
+    {
+     "t": "h",
+     "x": "3.8  Celebrating others"
+    },
+    {
+     "t": "em",
+     "x": "Recognising peers builds a positive culture."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Team wins go unnoticed; birthdays and milestones pass without acknowledgement."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They congratulate peers publicly, remember milestones and share wins in team channels."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Huge congratulations, Meera, on clearing the CFA Level 2! Well deserved.'"
+    },
+    {
+     "t": "q",
+     "x": "'Shout-out to the ops team for closing the audit early.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Ignoring others' success or seeing it as competition."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Post one genuine shout-out for a colleague in a team channel this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Huge congratulations, well deserved!"
+    },
+    {
+     "t": "li",
+     "x": "Shout-out to the ops team."
+    },
+    {
+     "t": "li",
+     "x": "Great job on the presentation."
+    },
+    {
+     "t": "h",
+     "x": "3.9  Collaborating on shared work"
+    },
+    {
+     "t": "em",
+     "x": "Clear roles prevent duplicate work and blame."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Projects stall because nobody knows who does what."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They clarify roles, owners and deadlines at the start, and use shared trackers."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'To avoid confusion, can we agree who owns each part? I'll take the model, Rahul the data, Meera the slides, by Friday.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Assuming roles, or doing others' parts silently and then resenting it."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "For one shared task, write owner + deadline for each part and share it."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Can we agree who owns each part?"
+    },
+    {
+     "t": "li",
+     "x": "I'll take the model."
+    },
+    {
+     "t": "li",
+     "x": "Let's review progress on Friday."
+    },
+    {
+     "t": "h",
+     "x": "3.10  Office gossip"
+    },
+    {
+     "t": "em",
+     "x": "Stay out of it without being cold."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Colleagues gossip about others or management, and you feel pressure to join."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They don't spread gossip, redirect the conversation politely, and avoid saying anything they wouldn't say to the person."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I haven't heard about that. Anyway, how's your project going?'"
+    },
+    {
+     "t": "q",
+     "x": "'I'd rather not guess; maybe we can ask her directly.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Joining in, sharing confidential information, or lecturing others harshly."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "If gossip comes up today, redirect with a neutral question."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I haven't heard about that."
+    },
+    {
+     "t": "li",
+     "x": "Anyway, how's your project going?"
+    },
+    {
+     "t": "li",
+     "x": "Maybe we can ask her directly."
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Strong peer relationships are built…  (A) By avoiding people  (B) Through gossip  (C) Only when you need help  (D) Before you need anything"
+    },
+    {
+     "t": "p",
+     "x": "2. Sharing credit…  (A) Makes you look weak  (B) Builds trust and goodwill  (C) Hurts your career  (D) Is unnecessary"
+    },
+    {
+     "t": "p",
+     "x": "3. A 'kind no' includes…  (A) Just 'no'  (B) Anger  (C) A reason and an alternative  (D) Ignoring the request"
+    },
+    {
+     "t": "p",
+     "x": "4. To work well across departments, learn…  (A) Their targets and pain points  (B) Their gossip  (C) Nothing  (D) Their salaries"
+    },
+    {
+     "t": "p",
+     "x": "5. A clear request includes…  (A) Ask, deadline and reason  (B) Pressure  (C) Nothing  (D) Only urgency"
+    },
+    {
+     "t": "p",
+     "x": "6. With a difficult colleague, focus on…  (A) Gossip  (B) Revenge  (C) Their personality  (D) Specific behaviours and impact"
+    },
+    {
+     "t": "p",
+     "x": "7. Trust grows when you…  (A) Avoid commitments  (B) Say 'I'll try'  (C) Overpromise  (D) Keep small commitments consistently"
+    },
+    {
+     "t": "p",
+     "x": "8. Celebrating peers…  (A) Is a waste of time  (B) Builds goodwill and culture  (C) Is only HR's job  (D) Makes you look weak"
+    },
+    {
+     "t": "p",
+     "x": "9. At project start, clarify…  (A) Nothing  (B) Roles, owners and deadlines  (C) Blame  (D) Lunch plans"
+    },
+    {
+     "t": "p",
+     "x": "10. A safe way to handle gossip is…  (A) Redirect politely  (B) Lecture loudly  (C) Spread it further  (D) Join in"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: D, 2: B, 3: C, 4: A, 5: A, 6: D, 7: D, 8: B, 9: B, 10: A"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 4: Meetings",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Meetings are where many careers are quietly made or stalled. Leaders judge you by how you prepare, speak up and follow through, often more than by the work they never see. This chapter turns meetings from something you sit through into something you use."
+    },
+    {
+     "t": "h",
+     "x": "4.1  Preparing for meetings"
+    },
+    {
+     "t": "em",
+     "x": "Five minutes of prep makes you sound sharp."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You join meetings without knowing the purpose and stay quiet or ramble."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They check the agenda, prepare 1-2 points or questions, and bring key numbers."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Before: 'What's the decision we need today?'"
+    },
+    {
+     "t": "q",
+     "x": "In meeting: 'I have one point on the budget and one question about the timeline.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Joining blind, or reading emails during the meeting."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Before your next meeting, write one point and one question you'll contribute."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I have one point on the budget."
+    },
+    {
+     "t": "li",
+     "x": "And one question about the timeline."
+    },
+    {
+     "t": "li",
+     "x": "What decision do we need today?"
+    },
+    {
+     "t": "h",
+     "x": "4.2  Speaking up in meetings"
+    },
+    {
+     "t": "em",
+     "x": "Your ideas only count if you share them."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You have good ideas but stay silent because others speak faster or you fear being wrong."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They speak within the first 10 minutes, keep points short, build on others' ideas and use bridging phrases."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Building on Ravi's point, we could also…'"
+    },
+    {
+     "t": "q",
+     "x": "'Can I add something here?'"
+    },
+    {
+     "t": "q",
+     "x": "'One quick thought: …'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Waiting for the perfect moment, or long rambling contributions."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Make one contribution in the first 10 minutes of your next meeting."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Building on Ravi's point, we could also automate this."
+    },
+    {
+     "t": "li",
+     "x": "Can I add something here?"
+    },
+    {
+     "t": "li",
+     "x": "One quick thought on the timeline."
+    },
+    {
+     "t": "h",
+     "x": "4.3  Interrupting politely"
+    },
+    {
+     "t": "em",
+     "x": "Enter the conversation without being rude."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Fast talkers dominate; you can't get a word in."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They use a polite interruption, signal with a raised hand on video, and keep it brief."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Sorry to jump in, but…'"
+    },
+    {
+     "t": "q",
+     "x": "'If I may add one point…'"
+    },
+    {
+     "t": "q",
+     "x": "'Before we move on, could I share something?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Talking over people, or giving up entirely."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Use 'Sorry to jump in, but…' once this week when you need the floor."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Sorry to jump in, but I have a quick point."
+    },
+    {
+     "t": "li",
+     "x": "If I may add one thing."
+    },
+    {
+     "t": "li",
+     "x": "Before we move on, could I share something?"
+    },
+    {
+     "t": "h",
+     "x": "4.4  When someone talks over you"
+    },
+    {
+     "t": "em",
+     "x": "Hold your ground calmly."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Colleagues interrupt you mid-sentence."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They calmly finish their point, or reclaim the floor after the interruption."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'd like to finish my point, then I'm keen to hear yours.'"
+    },
+    {
+     "t": "q",
+     "x": "'Coming back to what I was saying…'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Getting angry or giving up."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Practise 'I'd like to finish my point' aloud three times."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to finish my point."
+    },
+    {
+     "t": "li",
+     "x": "Then I'm keen to hear yours."
+    },
+    {
+     "t": "li",
+     "x": "Coming back to what I was saying."
+    },
+    {
+     "t": "h",
+     "x": "4.5  Asking smart questions"
+    },
+    {
+     "t": "em",
+     "x": "Good questions make you look thoughtful."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You hesitate to ask questions, fearing they'll seem basic."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They ask clarifying and strategic questions that help the whole group."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'What's the main risk if we delay?'"
+    },
+    {
+     "t": "q",
+     "x": "'How will we measure success?'"
+    },
+    {
+     "t": "q",
+     "x": "'Just to clarify, are we optimising for cost or speed?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Asking questions to show off, or never asking."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Ask one clarifying question in your next meeting."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "How will we measure success?"
+    },
+    {
+     "t": "li",
+     "x": "What's the main risk if we delay?"
+    },
+    {
+     "t": "li",
+     "x": "Are we optimising for cost or speed?"
+    },
+    {
+     "t": "h",
+     "x": "4.6  Summarising decisions and actions"
+    },
+    {
+     "t": "em",
+     "x": "Be the person who brings clarity."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Meetings end without clear decisions; nobody knows who does what."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They summarise at the end: decisions, owners, deadlines, and send a short recap."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Let me quickly recap: we agreed on option B; Neha will update the forecast by Friday; I'll share the deck on Monday.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Leaving without clarity or long, unstructured minutes."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Offer to summarise actions at the end of your next meeting."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Let me quickly recap."
+    },
+    {
+     "t": "li",
+     "x": "We agreed on option B."
+    },
+    {
+     "t": "li",
+     "x": "Neha will update the forecast by Friday."
+    },
+    {
+     "t": "h",
+     "x": "4.7  Presenting your work in meetings"
+    },
+    {
+     "t": "em",
+     "x": "Lead with the answer, then the details."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You explain your analysis step by step and lose the audience before reaching the conclusion."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They lead with the conclusion, give 2-3 reasons and offer details if asked."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'The bottom line: we're 5% over budget, mainly due to freight costs. I recommend renegotiating with two vendors. Happy to walk through the details.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Starting with methodology, or too many slides."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Rewrite one update so the first sentence is the conclusion."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "The bottom line is we're five percent over budget."
+    },
+    {
+     "t": "li",
+     "x": "The main reason is freight costs."
+    },
+    {
+     "t": "li",
+     "x": "I recommend renegotiating with two vendors."
+    },
+    {
+     "t": "h",
+     "x": "4.8  Handling tough questions in meetings"
+    },
+    {
+     "t": "em",
+     "x": "Stay calm, honest and structured."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A senior asks a hard question and you panic or guess."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They pause, clarify the question, answer what they know, and promise a follow-up for what they don't."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Good question. If I understand correctly, you're asking about the Q4 impact. We expect about 3%; I'll confirm the exact number by tomorrow.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Bluffing numbers, getting defensive, or long rambles."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Practise the line: 'I don't have that exact figure, but I'll get back to you by tomorrow.'"
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "If I understand correctly, you're asking about Q4."
+    },
+    {
+     "t": "li",
+     "x": "We expect about three percent."
+    },
+    {
+     "t": "li",
+     "x": "I'll confirm the exact number by tomorrow."
+    },
+    {
+     "t": "h",
+     "x": "4.9  Running your own meeting"
+    },
+    {
+     "t": "em",
+     "x": "Short, focused meetings earn respect."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your meetings run long and drift off-topic."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They send an agenda with the goal, invite only needed people, timebox topics and end with actions."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'The goal today is to agree on the vendor. We have 30 minutes: 10 for options, 15 for discussion, 5 for decision.'"
+    },
+    {
+     "t": "q",
+     "x": "'Let's park that and take it offline.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "No agenda, too many attendees, or ending without decisions."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "For your next meeting, write a one-line goal and a timed agenda."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "The goal today is to agree on the vendor."
+    },
+    {
+     "t": "li",
+     "x": "We have thirty minutes."
+    },
+    {
+     "t": "li",
+     "x": "Let's park that and take it offline."
+    },
+    {
+     "t": "h",
+     "x": "4.10  Virtual meeting presence"
+    },
+    {
+     "t": "em",
+     "x": "Show up well on video calls."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "On calls you're on mute, camera off and invisible."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They turn the camera on for important calls, use good lighting, speak first in round-robins and use chat for links and summaries."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Hi everyone, Yash here from finance.'"
+    },
+    {
+     "t": "q",
+     "x": "'I'll drop the link in the chat.'"
+    },
+    {
+     "t": "q",
+     "x": "'Could everyone see my screen?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Multitasking visibly, background noise, or never speaking."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "In your next video call, turn your camera on and speak in the first five minutes."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Hi everyone, Yash here from finance."
+    },
+    {
+     "t": "li",
+     "x": "I'll drop the link in the chat."
+    },
+    {
+     "t": "li",
+     "x": "Can everyone see my screen?"
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Good meeting prep includes…  (A) Arriving late  (B) Reading unrelated email  (C) Nothing  (D) Knowing the purpose and preparing points"
+    },
+    {
+     "t": "p",
+     "x": "2. A good habit is speaking…  (A) Only at the end  (B) Never  (C) Only when asked  (D) Early in the meeting"
+    },
+    {
+     "t": "p",
+     "x": "3. A polite interruption phrase is…  (A) Be quiet  (B) Stop talking  (C) Listen to me  (D) Sorry to jump in, but…"
+    },
+    {
+     "t": "p",
+     "x": "4. If interrupted, a calm response is…  (A) Shouting  (B) Silence forever  (C) 'I'd like to finish my point'  (D) Leaving"
+    },
+    {
+     "t": "p",
+     "x": "5. A strategic question is…  (A) How will we measure success?  (B) Can we end?  (C) Who's late?  (D) When is lunch?"
+    },
+    {
+     "t": "p",
+     "x": "6. A meeting recap should include…  (A) Decisions, owners and deadlines  (B) Everything said  (C) Nothing  (D) Jokes"
+    },
+    {
+     "t": "p",
+     "x": "7. Start your update with…  (A) Methodology  (B) Apologies  (C) Your background  (D) The conclusion"
+    },
+    {
+     "t": "p",
+     "x": "8. If you don't know an answer…  (A) Change topic  (B) Say what you know and promise a follow-up  (C) Guess confidently  (D) Blame others"
+    },
+    {
+     "t": "p",
+     "x": "9. A good meeting starts with…  (A) Complaints  (B) Small talk for 30 minutes  (C) A clear goal  (D) Nothing"
+    },
+    {
+     "t": "p",
+     "x": "10. For important calls, it's best to…  (A) Stay muted always  (B) Turn camera on  (C) Keep camera off always  (D) Join late"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: D, 2: D, 3: D, 4: C, 5: A, 6: A, 7: D, 8: B, 9: C, 10: B"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 5: Emails, Chat & Writing",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Most office communication is now written, and written words can't smile, nod or correct themselves. Clear, polite, structured writing saves hours and avoids misunderstandings. This chapter gives you templates you can reuse every day."
+    },
+    {
+     "t": "h",
+     "x": "5.1  Writing clear emails"
+    },
+    {
+     "t": "em",
+     "x": "Make every email easy to read and act on."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your emails are long, and people miss the key ask or don't reply."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They write a clear subject, put the ask in the first two lines, use bullets and end with a deadline."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Subject: 'Approval needed: Q3 budget revision by Friday'"
+    },
+    {
+     "t": "q",
+     "x": "'Hi Ravi, could you approve the revised Q3 budget by Friday? Key changes: • Freight +₹12 L • Marketing −₹5 L. Details attached.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Burying the ask at the end, vague subjects like 'Update', or walls of text."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Rewrite your next email so the ask is in the first two lines."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Could you approve the revised budget by Friday?"
+    },
+    {
+     "t": "li",
+     "x": "The key changes are listed below."
+    },
+    {
+     "t": "li",
+     "x": "Details are attached."
+    },
+    {
+     "t": "h",
+     "x": "5.2  Tone in written messages"
+    },
+    {
+     "t": "em",
+     "x": "Text loses tone; choose words carefully."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Short messages like 'Why is this late?' sound angry, even if you're just asking."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They add greeting, context and softeners, and reread messages from the receiver's point of view."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Instead of 'Why is this late?': 'Hi Neha, just checking on the report. Is anything blocking you? Happy to help.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "ALL CAPS, many exclamation marks, or one-word replies like 'Ok.'"
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Reread three messages before sending today and soften any that sound harsh."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Hi Neha, just checking on the report."
+    },
+    {
+     "t": "li",
+     "x": "Is anything blocking you?"
+    },
+    {
+     "t": "li",
+     "x": "Happy to help if needed."
+    },
+    {
+     "t": "h",
+     "x": "5.3  Chat etiquette (Teams, Slack, WhatsApp)"
+    },
+    {
+     "t": "em",
+     "x": "Respect time and attention in chats."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You send 'Hi' and wait, or message colleagues late at night expecting replies."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They write the full message at once, respect working hours, use threads and set clear urgency."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Instead of 'Hi' (wait): 'Hi Ankit, quick question: is the vendor invoice approved? Need it for today's payment run by 3 pm.'"
+    },
+    {
+     "t": "q",
+     "x": "Late night: schedule the message for the morning."
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Sending 'Hi' alone, spamming group chats, or expecting instant replies at night."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Send your next chat message as one complete message with the ask and timing."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Quick question: is the vendor invoice approved?"
+    },
+    {
+     "t": "li",
+     "x": "I need it for today's payment run by three."
+    },
+    {
+     "t": "li",
+     "x": "No rush, tomorrow morning is fine."
+    },
+    {
+     "t": "h",
+     "x": "5.4  Following up without nagging"
+    },
+    {
+     "t": "em",
+     "x": "Persistent and polite gets results."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "People don't reply, and you feel awkward reminding them."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They follow up with context, make it easy to respond, and escalate politely after a couple of tries."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Hi Ravi, gently bumping this up. Could you confirm by Thursday so we can close the vendor payment?'"
+    },
+    {
+     "t": "q",
+     "x": "'Would a quick 5-minute call be easier?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Angry reminders, or giving up silently."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Follow up on one pending item today with a polite nudge and an easy option."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Gently bumping this up."
+    },
+    {
+     "t": "li",
+     "x": "Could you confirm by Thursday?"
+    },
+    {
+     "t": "li",
+     "x": "Would a quick five-minute call be easier?"
+    },
+    {
+     "t": "h",
+     "x": "5.5  Writing for senior leaders"
+    },
+    {
+     "t": "em",
+     "x": "Executives read the first lines only."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your updates to leadership are long and technical."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They lead with the conclusion, key numbers and decision needed, in under 100 words, with details attached."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Summary: Q3 revenue is 4% below plan due to delayed client X orders. We expect recovery in Q4. Decision needed: approve ₹20 L marketing push by Oct 25.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Technical jargon, long background, or no clear ask."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Write a 3-line executive summary of your current project."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Summary: revenue is four percent below plan."
+    },
+    {
+     "t": "li",
+     "x": "We expect recovery in Q4."
+    },
+    {
+     "t": "li",
+     "x": "Decision needed: approve the marketing push."
+    },
+    {
+     "t": "h",
+     "x": "5.6  Saying no in writing"
+    },
+    {
+     "t": "em",
+     "x": "Decline clearly but kindly."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You avoid replying to requests you can't fulfil, leaving people waiting."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They reply promptly, say no clearly, give a short reason and offer an alternative."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Thanks for thinking of me. I can't take this on this week because of the audit, but I could help after the 25th, or Meera may be able to help sooner.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Ignoring the email, or overly long apologies."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Reply to one pending request you can't accept using reason + alternative."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Thanks for thinking of me."
+    },
+    {
+     "t": "li",
+     "x": "I can't take this on this week because of the audit."
+    },
+    {
+     "t": "li",
+     "x": "I could help after the twenty-fifth."
+    },
+    {
+     "t": "h",
+     "x": "5.7  Email escalations"
+    },
+    {
+     "t": "em",
+     "x": "Escalate facts, not emotions."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "An issue isn't resolved and you're tempted to CC senior people angrily."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They escalate with a neutral summary: issue, impact, what's been tried, and what's needed, and inform the person first."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Hi Ravi, as discussed, I'm looping in Priya to help unblock the vendor payment. Issue: invoice pending since Oct 5. Impact: supply delay risk. Needed: approval by Oct 21.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Surprise CCs, emotional language or blame."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Draft a neutral escalation template: issue, impact, tried, needed."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'm looping in Priya to help unblock this."
+    },
+    {
+     "t": "li",
+     "x": "The invoice has been pending since October fifth."
+    },
+    {
+     "t": "li",
+     "x": "We need approval by the twenty-first."
+    },
+    {
+     "t": "h",
+     "x": "5.8  Meeting recaps and minutes"
+    },
+    {
+     "t": "em",
+     "x": "Written recaps prevent confusion later."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "After meetings, people remember decisions differently."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They send a short recap within 24 hours with decisions, actions, owners and dates."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Thanks all. Recap: • Decision: go with vendor B • Actions: Neha (contract by Oct 25), Yash (budget update by Oct 23). Let me know if I missed anything.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "No recap, or long transcripts nobody reads."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Send a 4-line recap after your next meeting."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Thanks all, here's a quick recap."
+    },
+    {
+     "t": "li",
+     "x": "We decided to go with vendor B."
+    },
+    {
+     "t": "li",
+     "x": "Let me know if I missed anything."
+    },
+    {
+     "t": "h",
+     "x": "5.9  Writing persuasive proposals"
+    },
+    {
+     "t": "em",
+     "x": "Get approvals with clear business cases."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your proposals are rejected or ignored."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They frame the problem, show the cost of inaction, propose a solution with numbers, address risks and give a clear ask."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Problem: manual reconciliation takes 40 hours/month. Cost: ~₹2 L/month. Proposal: automation tool (₹5 L one-time), payback in 3 months. Risk: training time, mitigated by vendor support. Ask: approval by Nov 1.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Focusing on features, not business impact."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Outline one improvement idea using problem, cost, proposal, risk, ask."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "The problem is forty hours of manual work a month."
+    },
+    {
+     "t": "li",
+     "x": "The payback period is three months."
+    },
+    {
+     "t": "li",
+     "x": "I'm asking for approval by November first."
+    },
+    {
+     "t": "h",
+     "x": "5.10  Using AI to draft, not to think"
+    },
+    {
+     "t": "em",
+     "x": "AI writes faster; you make it right."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "AI-written emails sound generic or wrong in tone."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They write the key points themselves, use AI to polish or shorten, then edit for tone, accuracy and context."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Prompt: 'Make this email shorter and more polite for a senior client; keep the numbers unchanged.' Then reread and personalise."
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Sending AI drafts unread, or pasting confidential data into public tools."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Use AI to shorten one email today, then edit it in your own voice."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Please keep the numbers unchanged."
+    },
+    {
+     "t": "li",
+     "x": "Make this shorter and more polite."
+    },
+    {
+     "t": "li",
+     "x": "I'll review and personalise the draft."
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Where should the main ask go?  (A) In the attachment  (B) In the first two lines  (C) At the end  (D) Nowhere"
+    },
+    {
+     "t": "p",
+     "x": "2. Written messages often lose…  (A) Words  (B) Spelling  (C) Length  (D) Tone"
+    },
+    {
+     "t": "p",
+     "x": "3. Instead of sending just 'Hi', you should…  (A) Send the full question at once  (B) Call immediately  (C) Wait for a reply  (D) Send emojis"
+    },
+    {
+     "t": "p",
+     "x": "4. A good follow-up includes…  (A) All caps  (B) Context and an easy next step  (C) Anger  (D) Threats"
+    },
+    {
+     "t": "p",
+     "x": "5. Executive summaries should start with…  (A) Background  (B) Methodology  (C) Apologies  (D) Conclusion and key numbers"
+    },
+    {
+     "t": "p",
+     "x": "6. A good written 'no' includes…  (A) A reason and an alternative  (B) A long apology  (C) Silence  (D) Anger"
+    },
+    {
+     "t": "p",
+     "x": "7. A good escalation is…  (A) Emotional  (B) Blaming  (C) A surprise CC  (D) Neutral and factual"
+    },
+    {
+     "t": "p",
+     "x": "8. Recaps should be sent within…  (A) A year  (B) 24 hours  (C) A month  (D) Never"
+    },
+    {
+     "t": "p",
+     "x": "9. A strong proposal shows…  (A) Business impact with numbers  (B) Features only  (C) Your opinion only  (D) Nothing"
+    },
+    {
+     "t": "p",
+     "x": "10. Best use of AI in writing is…  (A) Polishing your own key points  (B) Replacing thinking  (C) Sending drafts unread  (D) Sharing confidential data"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: B, 2: D, 3: A, 4: B, 5: D, 6: A, 7: D, 8: B, 9: A, 10: A"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 6: Influence & Stakeholders",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Sooner or later you need people who don't report to you to say yes. Influence is not manipulation; it is understanding what others care about and making it easy for them to agree. This chapter covers the core skills."
+    },
+    {
+     "t": "h",
+     "x": "6.1  Mapping stakeholders"
+    },
+    {
+     "t": "em",
+     "x": "Know who decides, who influences and who's affected."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your project gets blocked by someone you didn't consult."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They list stakeholders by power and interest, and plan how to engage each."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Before we finalise, who else should we involve? Legal and procurement may need to sign off.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Ignoring quiet but powerful stakeholders."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Draw a quick power/interest grid for your current project."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Who else should we involve?"
+    },
+    {
+     "t": "li",
+     "x": "Legal may need to sign off."
+    },
+    {
+     "t": "li",
+     "x": "Let's update procurement early."
+    },
+    {
+     "t": "h",
+     "x": "6.2  Influence without authority"
+    },
+    {
+     "t": "em",
+     "x": "Persuade people who don't report to you."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You need help from another team but can't order them."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They understand others' goals, offer value first, and frame requests around mutual benefit."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I know your team wants faster approvals. If we standardise this template, both teams save time. Could we pilot it next week?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Pulling rank, or pestering repeatedly."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Identify one request you need from another team and frame it around their benefit."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I know your team wants faster approvals."
+    },
+    {
+     "t": "li",
+     "x": "This could save both teams time."
+    },
+    {
+     "t": "li",
+     "x": "Could we pilot it next week?"
+    },
+    {
+     "t": "h",
+     "x": "6.3  Pre-wiring decisions"
+    },
+    {
+     "t": "em",
+     "x": "Discuss ideas one-on-one before big meetings."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your proposal gets shot down in a meeting because key people hear it for the first time."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They share ideas privately beforehand, gather feedback and address concerns, so the meeting confirms rather than debates."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Before Thursday's meeting, could I get your view on this proposal? I'd value your input on the risks.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Surprising senior people in big meetings."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Before your next proposal meeting, talk to one key person privately."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Before Thursday's meeting, could I get your view?"
+    },
+    {
+     "t": "li",
+     "x": "I'd value your input on the risks."
+    },
+    {
+     "t": "li",
+     "x": "What would make this work for your team?"
+    },
+    {
+     "t": "h",
+     "x": "6.4  Persuading with data and stories"
+    },
+    {
+     "t": "em",
+     "x": "Numbers convince minds; stories move people."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You present data-heavy arguments that don't persuade."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They combine one strong number with a short human story and a clear recommendation."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Our support team spends 30% of time on password resets, about 2,000 hours a year. Last week Riya missed a client call because of it. Self-service resets would fix this.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Data dumps without meaning, or emotional stories without data."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Pair one key number with a short real example in your next update."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Our team spends thirty percent of its time on password resets."
+    },
+    {
+     "t": "li",
+     "x": "That's about two thousand hours a year."
+    },
+    {
+     "t": "li",
+     "x": "Self-service resets would fix this."
+    },
+    {
+     "t": "h",
+     "x": "6.5  Building your reputation"
+    },
+    {
+     "t": "em",
+     "x": "Be known for something specific."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "People don't know what you're good at beyond your job title."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They become known for a specific strength (e.g. 'the Excel automation person'), help others with it and share knowledge."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Happy to show you the macro I built; it might save your team time too.'"
+    },
+    {
+     "t": "q",
+     "x": "Run a 15-minute lunch-and-learn."
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Being invisible, or claiming expertise you don't have."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Decide what you want to be known for and share one tip about it this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Happy to show you the macro I built."
+    },
+    {
+     "t": "li",
+     "x": "It might save your team time too."
+    },
+    {
+     "t": "li",
+     "x": "I'm running a short session on Friday."
+    },
+    {
+     "t": "h",
+     "x": "6.6  Managing expectations"
+    },
+    {
+     "t": "em",
+     "x": "Under-promise and over-deliver."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Stakeholders expect more, faster, than you can deliver."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They clarify scope, timelines and trade-offs upfront and update early when things change."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Realistically, we can deliver the core report by Friday; the extra analysis would take another week. Which would you prefer?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Saying yes to everything, then missing deadlines."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "For one current request, clarify scope and timeline in writing."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Realistically, we can deliver the core report by Friday."
+    },
+    {
+     "t": "li",
+     "x": "The extra analysis would take another week."
+    },
+    {
+     "t": "li",
+     "x": "Which would you prefer?"
+    },
+    {
+     "t": "h",
+     "x": "6.7  Negotiating at work"
+    },
+    {
+     "t": "em",
+     "x": "Find win-win agreements on deadlines and resources."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You accept unrealistic deadlines or fight over resources."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They understand the other side's needs, trade what's cheap for them, and use conditional offers."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'If you can share the data by Tuesday, I can deliver the forecast by Friday.'"
+    },
+    {
+     "t": "q",
+     "x": "'What's most important to you: speed or completeness?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Accepting everything, or rigid positions."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Use one 'If you…, I can…' statement this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "If you can share the data by Tuesday, I can deliver by Friday."
+    },
+    {
+     "t": "li",
+     "x": "What's most important to you?"
+    },
+    {
+     "t": "li",
+     "x": "Let's find something that works for both of us."
+    },
+    {
+     "t": "h",
+     "x": "6.8  Getting buy-in for change"
+    },
+    {
+     "t": "em",
+     "x": "People support what they help create."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your process improvement faces resistance from colleagues used to the old way."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They explain why, involve people early, address 'what's in it for me', run a small pilot and celebrate quick wins."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'This new template could save each of us an hour a week. Could we try it for two weeks and review together?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Imposing change suddenly or dismissing concerns."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Propose one small improvement as a 2-week pilot with feedback."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "This could save each of us an hour a week."
+    },
+    {
+     "t": "li",
+     "x": "Could we try it for two weeks?"
+    },
+    {
+     "t": "li",
+     "x": "Let's review it together afterwards."
+    },
+    {
+     "t": "h",
+     "x": "6.9  Building alliances"
+    },
+    {
+     "t": "em",
+     "x": "Allies help ideas succeed."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You push ideas alone and run out of support."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They find people who share goals, support others' initiatives and build coalitions across teams."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I noticed you're also working on reducing manual work. Want to combine efforts and present a joint proposal?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Going solo on big changes, or forming cliques that exclude others."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Find one colleague with a similar goal and suggest working together."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "You're also working on reducing manual work."
+    },
+    {
+     "t": "li",
+     "x": "Want to combine efforts?"
+    },
+    {
+     "t": "li",
+     "x": "We could present a joint proposal."
+    },
+    {
+     "t": "h",
+     "x": "6.10  Earning a seat at the table"
+    },
+    {
+     "t": "em",
+     "x": "Get invited to important discussions."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Decisions affecting your work are made without you."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They add value in every interaction, ask to join relevant meetings with a clear reason, and contribute insights rather than just data."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'd like to join the pricing discussion. I can bring the margin analysis and highlight risks early.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Complaining about being excluded without showing value."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Request to join one relevant meeting this month with a clear value statement."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to join the pricing discussion."
+    },
+    {
+     "t": "li",
+     "x": "I can bring the margin analysis."
+    },
+    {
+     "t": "li",
+     "x": "I can highlight risks early."
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. A power/interest grid helps you…  (A) Avoid people  (B) Hide information  (C) Nothing  (D) Plan stakeholder engagement"
+    },
+    {
+     "t": "p",
+     "x": "2. Influence without authority relies on…  (A) Pressure  (B) Shared goals and trust  (C) Threats  (D) Titles"
+    },
+    {
+     "t": "p",
+     "x": "3. Pre-wiring means…  (A) Electrical work  (B) Skipping meetings  (C) Discussing ideas with key people before a meeting  (D) Rehearsing alone"
+    },
+    {
+     "t": "p",
+     "x": "4. Persuasion works best with…  (A) Only emotion  (B) Data plus a story  (C) Only data  (D) Long reports"
+    },
+    {
+     "t": "p",
+     "x": "5. A strong reputation is…  (A) Unimportant  (B) Known for a specific strength  (C) Built on gossip  (D) Vague"
+    },
+    {
+     "t": "p",
+     "x": "6. Managing expectations means…  (A) Promising everything  (B) Avoiding commitments  (C) Clarifying scope, time and trade-offs  (D) Delaying updates"
+    },
+    {
+     "t": "p",
+     "x": "7. Conditional offers start with…  (A) Never  (B) You must  (C) If you…, I can…  (D) No"
+    },
+    {
+     "t": "p",
+     "x": "8. People support change more when they…  (A) Are ignored  (B) Are surprised  (C) Are ordered  (D) Are involved early"
+    },
+    {
+     "t": "p",
+     "x": "9. Allies help because…  (A) They slow you down  (B) Nothing  (C) Ideas gain support and credibility  (D) They take credit"
+    },
+    {
+     "t": "p",
+     "x": "10. To be invited, show…  (A) The value you'll add  (B) Seniority only  (C) Nothing  (D) Complaints"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: D, 2: B, 3: C, 4: B, 5: B, 6: C, 7: C, 8: D, 9: C, 10: A"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 7: Feedback & Difficult Conversations",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "The conversations we avoid are usually the ones that matter most. This chapter gives you a calm structure for receiving criticism, giving feedback, saying no, apologising and dealing with angry people, so these moments build trust instead of breaking it."
+    },
+    {
+     "t": "h",
+     "x": "7.1  Receiving criticism gracefully"
+    },
+    {
+     "t": "em",
+     "x": "Feedback is data, not an attack."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "When someone criticises your work, you feel defensive and argue."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They listen fully, thank the person, ask clarifying questions and decide later what to act on."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Thanks for telling me. Could you give me an example so I understand better?'"
+    },
+    {
+     "t": "q",
+     "x": "'That's helpful. I'll work on it.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Interrupting with excuses, or taking it personally for days."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Next time you get feedback, say 'Thanks, can you give me an example?' before anything else."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Thanks for telling me."
+    },
+    {
+     "t": "li",
+     "x": "Could you give me an example?"
+    },
+    {
+     "t": "li",
+     "x": "That's helpful, I'll work on it."
+    },
+    {
+     "t": "h",
+     "x": "7.2  Giving feedback with SBI"
+    },
+    {
+     "t": "em",
+     "x": "Situation, Behaviour, Impact: specific and fair."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You avoid giving feedback or it comes out as criticism of personality."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They describe the situation, the observable behaviour and its impact, then ask for the other person's view."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'In yesterday's client call (situation), you shared the draft numbers before they were checked (behaviour). The client is now quoting them (impact). How can we avoid that next time?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Labels like 'You're careless', or feedback in public."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Prepare one piece of SBI feedback (positive or constructive) and deliver it privately."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "In yesterday's client call, you explained the numbers very clearly."
+    },
+    {
+     "t": "li",
+     "x": "The client felt confident as a result."
+    },
+    {
+     "t": "li",
+     "x": "How can we avoid that next time?"
+    },
+    {
+     "t": "h",
+     "x": "7.3  Delivering bad news"
+    },
+    {
+     "t": "em",
+     "x": "Clear, early and with a plan."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You must tell a client or manager about a delay or mistake."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They state the news early and clearly, explain briefly, show the plan and acknowledge impact."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'm afraid the report will be delayed by two days because the data had errors. We've fixed the source issue and will deliver by Thursday. I'm sorry for the inconvenience.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Hiding the news, long excuses, or blaming others."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Practise one bad-news message using: news, reason, plan, apology."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'm afraid the report will be delayed by two days."
+    },
+    {
+     "t": "li",
+     "x": "We've fixed the source issue."
+    },
+    {
+     "t": "li",
+     "x": "We'll deliver by Thursday."
+    },
+    {
+     "t": "h",
+     "x": "7.4  Saying no to your manager"
+    },
+    {
+     "t": "em",
+     "x": "Protect quality by negotiating priorities."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your manager adds new tasks while you're already overloaded."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They don't refuse outright; they ask to re-prioritise and show trade-offs."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'm happy to take this on. To do it well, which of my current tasks should I pause: the audit prep or the forecast?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Silently accepting and missing deadlines, or refusing bluntly."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Next time you get a new task while overloaded, ask about priorities."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'm happy to take this on."
+    },
+    {
+     "t": "li",
+     "x": "Which current task should I pause?"
+    },
+    {
+     "t": "li",
+     "x": "I want to make sure I do it well."
+    },
+    {
+     "t": "h",
+     "x": "7.5  Apologising professionally"
+    },
+    {
+     "t": "em",
+     "x": "A good apology repairs trust quickly."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You made a mistake that affected others."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They apologise promptly, take responsibility, explain the fix and prevention, without over-explaining."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'm sorry, I sent the wrong version to the client. That's on me. I've sent the correct one and added a check before every client send.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Blaming tools or others, or excessive apologies that make others uncomfortable."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Recall one recent mistake and write how you'd apologise using: sorry, ownership, fix, prevention."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'm sorry, that's on me."
+    },
+    {
+     "t": "li",
+     "x": "I've sent the correct version."
+    },
+    {
+     "t": "li",
+     "x": "I've added a check to prevent it."
+    },
+    {
+     "t": "h",
+     "x": "7.6  Handling an angry colleague or client"
+    },
+    {
+     "t": "em",
+     "x": "Lower the temperature first."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Someone is upset and raising their voice at you."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They stay calm, let the person vent, acknowledge feelings, ask questions and move to solutions."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I can see this is really frustrating. Let me make sure I understand what happened.'"
+    },
+    {
+     "t": "q",
+     "x": "'What would be a good outcome for you?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Arguing back, saying 'calm down', or taking it personally."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Memorise: 'I can see this is frustrating. Help me understand what happened.'"
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I can see this is really frustrating."
+    },
+    {
+     "t": "li",
+     "x": "Let me make sure I understand what happened."
+    },
+    {
+     "t": "li",
+     "x": "What would be a good outcome for you?"
+    },
+    {
+     "t": "h",
+     "x": "7.7  Performance concerns with a peer"
+    },
+    {
+     "t": "em",
+     "x": "Address issues before they grow."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A teammate's late work keeps affecting your deliverables."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They raise it privately, focus on impact, ask about obstacles and agree on next steps, escalating only if needed."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'The last two data files came after the cut-off, which delayed the report. Is something making it hard? How can we make Tuesday cut-offs work?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Complaining to the manager first, or doing their work silently."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "If a peer's delay affects you, schedule a 10-minute private chat about it."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "The last two files came after the cut-off."
+    },
+    {
+     "t": "li",
+     "x": "Is something making it hard?"
+    },
+    {
+     "t": "li",
+     "x": "How can we make the Tuesday cut-off work?"
+    },
+    {
+     "t": "h",
+     "x": "7.8  Asking for a raise or promotion"
+    },
+    {
+     "t": "em",
+     "x": "Prepare evidence, then ask clearly."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You feel underpaid or ready for more but don't know how to ask."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They prepare achievements with numbers, market data, a clear ask, and timing (before budget cycles)."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'd like to discuss my growth. Over the last year I automated reporting (saving 40 hours/month) and led the audit. Based on that and market data, I'd like to be considered for the senior analyst role.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Comparing yourself to colleagues' pay, or threatening to leave."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "List your top 3 achievements with numbers for your next growth conversation."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to discuss my growth."
+    },
+    {
+     "t": "li",
+     "x": "I automated reporting and saved forty hours a month."
+    },
+    {
+     "t": "li",
+     "x": "I'd like to be considered for the senior role."
+    },
+    {
+     "t": "h",
+     "x": "7.9  Talking to your manager about a problem with them"
+    },
+    {
+     "t": "em",
+     "x": "Upward feedback, carefully."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your manager's behaviour (last-minute changes, harsh tone) is affecting you."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They choose a private, calm moment, ask permission, use SBI and propose a solution, focusing on shared goals."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Could I share something that would help me do better work? When requirements change on Friday evening, the team works weekends and quality drops. Could we lock changes by Thursday?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Complaining to others, or confronting in public."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Write a respectful upward-feedback opener for one issue with your manager."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Could I share something that would help me do better work?"
+    },
+    {
+     "t": "li",
+     "x": "When requirements change late, quality drops."
+    },
+    {
+     "t": "li",
+     "x": "Could we lock changes by Thursday?"
+    },
+    {
+     "t": "h",
+     "x": "7.10  Turning feedback into action"
+    },
+    {
+     "t": "em",
+     "x": "Show people you listened."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You receive feedback but nothing visibly changes."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They choose one or two points, make a plan, act and later tell the person what changed."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Last month you suggested shorter updates. I've switched to a 3-line format. Is that working better for you?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Trying to fix everything at once, or forgetting feedback."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Pick one piece of feedback you received and act on it this week; then tell the person."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Last month you suggested shorter updates."
+    },
+    {
+     "t": "li",
+     "x": "I've switched to a three-line format."
+    },
+    {
+     "t": "li",
+     "x": "Is that working better for you?"
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. First response to criticism should be…  (A) Anger  (B) Excuses  (C) Thanks and a clarifying question  (D) Silence forever"
+    },
+    {
+     "t": "p",
+     "x": "2. SBI stands for…  (A) Salary, Bonus, Incentive  (B) Situation, Behaviour, Impact  (C) Start, Build, Improve  (D) Skills, Background, Interest"
+    },
+    {
+     "t": "p",
+     "x": "3. Bad news should be shared…  (A) Never  (B) Early and clearly  (C) Through gossip  (D) Late"
+    },
+    {
+     "t": "p",
+     "x": "4. A smart way to handle extra work is…  (A) Refuse bluntly  (B) Ignore it  (C) Ask which priority to change  (D) Accept and miss deadlines"
+    },
+    {
+     "t": "p",
+     "x": "5. A professional apology includes…  (A) Sorry, ownership, fix, prevention  (B) Excuses  (C) Blame  (D) Silence"
+    },
+    {
+     "t": "p",
+     "x": "6. First step with an angry person is…  (A) Say 'calm down'  (B) Argue  (C) Acknowledge their feelings  (D) Leave"
+    },
+    {
+     "t": "p",
+     "x": "7. Best first step with a peer's performance issue is…  (A) Do their work  (B) Talk to them privately  (C) Ignore it  (D) Complain to the manager"
+    },
+    {
+     "t": "p",
+     "x": "8. A strong raise request includes…  (A) Threats  (B) Complaints  (C) Gossip about others' pay  (D) Achievements with numbers and market data"
+    },
+    {
+     "t": "p",
+     "x": "9. Upward feedback should be…  (A) Aggressive  (B) Public  (C) Anonymous gossip  (D) Private and respectful"
+    },
+    {
+     "t": "p",
+     "x": "10. Closing the loop on feedback means…  (A) Telling the person what you changed  (B) Ignoring it  (C) Forgetting it  (D) Arguing later"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: C, 2: B, 3: B, 4: C, 5: A, 6: C, 7: B, 8: D, 9: D, 10: A"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 8: Conflict, Politics & Power",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Every organisation has politics: people with different goals, limited resources and unwritten rules. Ignoring it doesn't make you neutral; it makes you naive. This chapter shows how to handle conflict and power ethically, without becoming the office politician you dislike."
+    },
+    {
+     "t": "h",
+     "x": "8.1  Understanding office politics"
+    },
+    {
+     "t": "em",
+     "x": "Politics is how decisions really get made."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You dismiss office politics as dirty and get blindsided by decisions."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They understand formal and informal power: who influences decisions, who trusts whom, and what each person wants, and they use this ethically."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Ask yourself: 'Who will be affected? Who has influence? What does each person care about?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Ignoring politics entirely, or playing manipulative games."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Map who really influences decisions in your team (it may not be the most senior person)."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Who will be affected by this decision?"
+    },
+    {
+     "t": "li",
+     "x": "What does each person care about?"
+    },
+    {
+     "t": "li",
+     "x": "How can we find a solution that works for everyone?"
+    },
+    {
+     "t": "h",
+     "x": "8.2  Handling conflict between teammates"
+    },
+    {
+     "t": "em",
+     "x": "Be a calm mediator."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Two colleagues argue, and the team suffers."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They stay neutral, let each person explain, find common goals and agree on next steps."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I hear two different views. Ravi, you're focused on speed; Neha, on accuracy. We both want a reliable report on time. Could we agree on a quick check step?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Taking sides, or ignoring the conflict."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "If you see tension in your team, summarise both sides fairly in your next discussion."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I hear two different views."
+    },
+    {
+     "t": "li",
+     "x": "We both want a reliable report on time."
+    },
+    {
+     "t": "li",
+     "x": "Could we agree on a quick check step?"
+    },
+    {
+     "t": "h",
+     "x": "8.3  When someone takes credit for your work"
+    },
+    {
+     "t": "em",
+     "x": "Reclaim credit without drama."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A colleague presents your idea or work as theirs."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They speak up calmly in the moment or follow up privately, and make their work visible in future (emails, documents with names)."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "In a meeting: 'Thanks for mentioning the automation. Happy to add detail, since I built the model.'"
+    },
+    {
+     "t": "q",
+     "x": "Privately: 'I noticed my analysis was presented without mention. Next time, could we present it together?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Public anger or silent resentment."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Start documenting your contributions in shared docs and emails with your name."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Happy to add detail, since I built the model."
+    },
+    {
+     "t": "li",
+     "x": "Next time, could we present it together?"
+    },
+    {
+     "t": "li",
+     "x": "I've documented the analysis in the shared folder."
+    },
+    {
+     "t": "h",
+     "x": "8.4  Dealing with a micromanager"
+    },
+    {
+     "t": "em",
+     "x": "Earn autonomy through trust."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your manager checks every detail and you feel stifled."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They over-communicate early, agree on check-in points, deliver reliably and gradually ask for more autonomy."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'To keep you updated without interrupting, could I send a short status every morning? If that works, maybe we can move to twice a week.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Resisting openly, or hiding information (which increases micromanagement)."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Propose a regular update rhythm to your manager."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Could I send you a short status every morning?"
+    },
+    {
+     "t": "li",
+     "x": "That way you'll always know where things stand."
+    },
+    {
+     "t": "li",
+     "x": "Maybe later we can move to twice a week."
+    },
+    {
+     "t": "h",
+     "x": "8.5  Working with difficult seniors"
+    },
+    {
+     "t": "em",
+     "x": "Respect hierarchy while protecting yourself."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A senior leader is dismissive or harsh with you."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They stay professional, prepare thoroughly, keep communication concise and factual, and document key decisions."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Understood. To make sure I get this right: you'd like the summary by 5 pm with only three key numbers?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Reacting emotionally, or avoiding them completely."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Before your next interaction with a challenging senior, prepare your 3 key points."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Understood."
+    },
+    {
+     "t": "li",
+     "x": "To make sure I get this right, you'd like the summary by five?"
+    },
+    {
+     "t": "li",
+     "x": "I'll keep it to three key numbers."
+    },
+    {
+     "t": "h",
+     "x": "8.6  Navigating hierarchy in Indian workplaces"
+    },
+    {
+     "t": "em",
+     "x": "Respectful but confident communication."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Hierarchical cultures can make juniors hesitant to speak or disagree."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They show respect (titles, timing, private disagreement) while still contributing ideas confidently and with data."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Sir/Ma'am, may I suggest an alternative? Based on last quarter's numbers, option B might reduce costs by 8%.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Total silence, or ignoring hierarchy norms entirely."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Prepare one data-backed suggestion and share it respectfully with a senior this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "May I suggest an alternative?"
+    },
+    {
+     "t": "li",
+     "x": "Based on last quarter's numbers, option B might reduce costs."
+    },
+    {
+     "t": "li",
+     "x": "I'd be happy to share the analysis."
+    },
+    {
+     "t": "h",
+     "x": "8.7  Protecting yourself with documentation"
+    },
+    {
+     "t": "em",
+     "x": "Write things down without seeming defensive."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Verbal instructions change and you get blamed."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They confirm important verbal decisions by short email or chat and keep organised records."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Thanks for the discussion. Just confirming: we'll go with the revised numbers and send them to the client on Monday.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Relying on memory, or sending aggressive 'as per my last email' messages."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "After your next important verbal decision, send a 2-line confirmation message."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Thanks for the discussion."
+    },
+    {
+     "t": "li",
+     "x": "Just confirming we'll go with the revised numbers."
+    },
+    {
+     "t": "li",
+     "x": "We'll send them to the client on Monday."
+    },
+    {
+     "t": "h",
+     "x": "8.8  Staying neutral in office conflicts"
+    },
+    {
+     "t": "em",
+     "x": "Don't get pulled into camps."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Two groups or leaders are in conflict and both want your support."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They stay professional with everyone, focus on work, avoid gossip and express views on issues, not people."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I work well with both teams. On this issue, my view is based on the data: option A meets the deadline.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Picking sides publicly, or sharing confidential information."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "If pulled into a conflict, respond with an issue-focused, neutral statement."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I work well with both teams."
+    },
+    {
+     "t": "li",
+     "x": "My view is based on the data."
+    },
+    {
+     "t": "li",
+     "x": "Let's focus on what helps the project."
+    },
+    {
+     "t": "h",
+     "x": "8.9  Handling unfair blame"
+    },
+    {
+     "t": "em",
+     "x": "Respond with facts, not anger."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You're blamed for a problem caused by others or by process gaps."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They stay calm, share facts and timelines, focus on the fix, and suggest process improvements."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I understand the concern. Here's the timeline: the data reached us on the 15th, after the cut-off. To prevent this, could we set an automated reminder for data owners?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Counter-blaming, emotional reactions or silence."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Prepare a factual timeline for any current issue where blame might arise."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I understand the concern."
+    },
+    {
+     "t": "li",
+     "x": "Here's the timeline of what happened."
+    },
+    {
+     "t": "li",
+     "x": "To prevent this, could we set an automated reminder?"
+    },
+    {
+     "t": "h",
+     "x": "8.10  Building power ethically"
+    },
+    {
+     "t": "em",
+     "x": "Earn influence through expertise and generosity."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You feel powerless because you're not senior."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They build expertise power (being the go-to person), relationship power (wide network) and information power (knowing context), and use it to help others."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I can help with that; I've built a similar model before.'"
+    },
+    {
+     "t": "q",
+     "x": "'Let me connect you with Priya in tax; she'll know.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Hoarding information or using influence to harm others."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Connect two colleagues who could help each other this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I can help with that, I've built a similar model."
+    },
+    {
+     "t": "li",
+     "x": "Let me connect you with Priya."
+    },
+    {
+     "t": "li",
+     "x": "She'll know the answer."
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Healthy 'politics' means…  (A) Backstabbing  (B) Gossip  (C) Manipulation  (D) Understanding influence and interests ethically"
+    },
+    {
+     "t": "p",
+     "x": "2. A good mediator…  (A) Stays neutral and finds common goals  (B) Ignores conflict  (C) Escalates immediately  (D) Takes sides"
+    },
+    {
+     "t": "p",
+     "x": "3. If someone takes credit, respond…  (A) With public anger  (B) With revenge  (C) Calmly and factually  (D) With silence forever"
+    },
+    {
+     "t": "p",
+     "x": "4. Micromanagement often decreases when…  (A) You argue  (B) You avoid them  (C) You share regular, reliable updates  (D) You hide information"
+    },
+    {
+     "t": "p",
+     "x": "5. With a harsh senior, it helps to be…  (A) Sarcastic  (B) Absent  (C) Emotional  (D) Concise, prepared and factual"
+    },
+    {
+     "t": "p",
+     "x": "6. In hierarchical workplaces, effective juniors…  (A) Argue publicly  (B) Stay silent always  (C) Ignore seniors  (D) Contribute confidently and respectfully"
+    },
+    {
+     "t": "p",
+     "x": "7. Confirming decisions in writing…  (A) Is rude  (B) Is illegal  (C) Protects everyone  (D) Wastes time"
+    },
+    {
+     "t": "p",
+     "x": "8. In office conflicts, focus on…  (A) Issues and data  (B) Revenge  (C) People  (D) Gossip"
+    },
+    {
+     "t": "p",
+     "x": "9. When blamed unfairly, respond with…  (A) Anger  (B) Facts, timeline and a fix  (C) Counter-blame  (D) Silence"
+    },
+    {
+     "t": "p",
+     "x": "10. Ethical sources of power include…  (A) Expertise and relationships  (B) Hoarding information  (C) Gossip  (D) Threats"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: D, 2: A, 3: C, 4: C, 5: D, 6: D, 7: C, 8: A, 9: B, 10: A"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 9: Visibility, Presentations & Executive Presence",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Good work that nobody sees rarely gets rewarded. This chapter is about being seen for the right reasons: clear updates, confident presentations, calm answers to tough questions, and asking for the growth you've earned."
+    },
+    {
+     "t": "h",
+     "x": "9.1  Making your work visible"
+    },
+    {
+     "t": "em",
+     "x": "Good work that nobody sees doesn't count for much."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You work hard, but leaders don't know what you've delivered."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They share short, regular updates on outcomes (not activity), credit the team and link results to business goals."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Quick update: the new reconciliation process cut month-end close by two days. Thanks to Ravi for the automation script.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Bragging, listing hours worked, or staying silent and hoping someone notices."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Send your manager a three-line update today: what you finished, the impact, what's next."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Quick update on the reconciliation project."
+    },
+    {
+     "t": "li",
+     "x": "It cut month-end close by two days."
+    },
+    {
+     "t": "li",
+     "x": "Thanks to Ravi for the automation script."
+    },
+    {
+     "t": "h",
+     "x": "9.2  Your 30-second introduction"
+    },
+    {
+     "t": "em",
+     "x": "Introduce yourself by the value you bring."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "In meetings or events, you only say your name and job title."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They give a short line: who they are, what they help with, and something memorable or relevant to the audience."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Hi, I'm Yash. I work in the finance analytics team; I help business units turn raw numbers into decisions. Lately I've been automating our monthly reporting.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Long life stories, or mumbling your title and stopping."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Write and practise your 30-second introduction aloud three times."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Hi, I'm Yash, from the finance analytics team."
+    },
+    {
+     "t": "li",
+     "x": "I help business units turn numbers into decisions."
+    },
+    {
+     "t": "li",
+     "x": "Lately I've been automating our monthly reporting."
+    },
+    {
+     "t": "h",
+     "x": "9.3  Structuring a presentation"
+    },
+    {
+     "t": "em",
+     "x": "Tell them the answer first, then the support."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your slides walk through every step before reaching the point; leaders lose interest."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They lead with the key message (the 'so what'), give three supporting points, and end with a clear ask."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'My recommendation: we move vendor payments to weekly runs. Three reasons: cash visibility, fewer errors, better discounts. I need your approval to pilot it next month.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Data dumps, reading slides aloud, or no clear ask."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Take your next update and rewrite the first line as the main message."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "My recommendation is to move to weekly payment runs."
+    },
+    {
+     "t": "li",
+     "x": "There are three reasons."
+    },
+    {
+     "t": "li",
+     "x": "I need your approval to pilot it next month."
+    },
+    {
+     "t": "h",
+     "x": "9.4  Handling nerves when speaking"
+    },
+    {
+     "t": "em",
+     "x": "Nerves are normal; preparation and breathing tame them."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your voice shakes and your mind goes blank when presenting."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They rehearse the opening aloud, breathe slowly before starting, pause instead of saying 'um', and focus on helping the audience."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Let me take a moment to find that number.'"
+    },
+    {
+     "t": "q",
+     "x": "'Good question; let me think about that for a second.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Rushing, apologising for being nervous, or memorising every word."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Before your next meeting, take three slow breaths and practise your first sentence aloud."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Let me take a moment to find that number."
+    },
+    {
+     "t": "li",
+     "x": "Good question, let me think about that."
+    },
+    {
+     "t": "li",
+     "x": "Here's the key point."
+    },
+    {
+     "t": "h",
+     "x": "9.5  Answering tough questions"
+    },
+    {
+     "t": "em",
+     "x": "Stay calm, answer briefly, and admit what you don't know."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A senior leader challenges your numbers in a meeting."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They listen fully, restate the question, answer in one or two sentences, and offer to follow up if unsure."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'So the question is why costs rose in Q2. The main driver was freight, up 18%. I'll send a detailed breakdown by tomorrow.'"
+    },
+    {
+     "t": "q",
+     "x": "'I don't have that figure right now; I'll confirm by 3 pm.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Guessing, getting defensive, or giving a long rambling answer."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "List three tough questions someone could ask about your current work and prepare short answers."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "So the question is why costs rose."
+    },
+    {
+     "t": "li",
+     "x": "The main driver was freight."
+    },
+    {
+     "t": "li",
+     "x": "I'll confirm that by 3 pm."
+    },
+    {
+     "t": "h",
+     "x": "9.6  Executive presence"
+    },
+    {
+     "t": "em",
+     "x": "How you show up: calm, clear and composed."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You know your material, but you come across as hesitant or flustered."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They speak at a measured pace, use fewer filler words, keep good posture and eye contact, and stay calm under pressure."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Here's where we are, here's the risk, and here's what I recommend.'"
+    },
+    {
+     "t": "q",
+     "x": "'Let's focus on what we can control.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Upspeak (statements that sound like questions), over-apologising, or visible panic."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "In your next meeting, make one point slowly and finish with a firm full stop, not a question tone."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Here's where we are."
+    },
+    {
+     "t": "li",
+     "x": "Here's the risk."
+    },
+    {
+     "t": "li",
+     "x": "Here's what I recommend."
+    },
+    {
+     "t": "h",
+     "x": "9.7  Talking to senior leaders"
+    },
+    {
+     "t": "em",
+     "x": "Short, prepared and focused on their priorities."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You meet a senior leader in the lift or a review and freeze."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They prepare one or two talking points, connect their work to the leader's goals, and keep it short."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Good morning. I'm on the team working on the cost-savings project. We're on track to save ₹2 crore this year.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Complaining, oversharing details, or avoiding them completely."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Prepare a two-line 'lift pitch' about your current project."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Good morning, I'm on the cost-savings project."
+    },
+    {
+     "t": "li",
+     "x": "We're on track to save two crore this year."
+    },
+    {
+     "t": "li",
+     "x": "Happy to share more if useful."
+    },
+    {
+     "t": "h",
+     "x": "9.8  Building your personal brand at work"
+    },
+    {
+     "t": "em",
+     "x": "Be known for something specific."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "People don't know what you're good at."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They choose one or two strengths, deliver consistently, share knowledge (short demos, notes), and help others with that skill."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I put together a quick guide on Excel Power Query; happy to walk anyone through it.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Trying to be known for everything, or self-promotion without substance."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Pick one skill you want to be known for and share one tip about it with your team this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I put together a quick guide on Power Query."
+    },
+    {
+     "t": "li",
+     "x": "Happy to walk anyone through it."
+    },
+    {
+     "t": "li",
+     "x": "Let me know if it helps."
+    },
+    {
+     "t": "h",
+     "x": "9.9  Networking inside the company"
+    },
+    {
+     "t": "em",
+     "x": "Relationships across teams open doors."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You only know people in your own team."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They have regular short coffee chats with people in other teams, ask about their work, and look for ways to help."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Hi Neha, I'd love to learn more about how the treasury team works. Could we grab a 20-minute coffee this week?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Only reaching out when you need something."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Invite one person from another team for a 20-minute chat this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'd love to learn more about your team's work."
+    },
+    {
+     "t": "li",
+     "x": "Could we grab a quick coffee this week?"
+    },
+    {
+     "t": "li",
+     "x": "How can I help from my side?"
+    },
+    {
+     "t": "h",
+     "x": "9.10  Asking for a promotion or raise"
+    },
+    {
+     "t": "em",
+     "x": "Make a business case, not a complaint."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You feel you deserve more but haven't asked."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They prepare evidence of impact, understand the role's expectations, ask their manager what's needed, and agree a timeline."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'd like to discuss my growth. Over the last year I led the close automation and mentored two analysts. What would I need to show to be considered for senior analyst?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Comparing with colleagues' salaries, ultimatums, or asking without evidence."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Start an 'impact list' today: write down three results you delivered this quarter."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to discuss my growth."
+    },
+    {
+     "t": "li",
+     "x": "Over the last year I led the close automation."
+    },
+    {
+     "t": "li",
+     "x": "What would I need to show for the next level?"
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Visible updates should focus on…  (A) Gossip  (B) Outcomes and impact  (C) Complaints  (D) Hours worked"
+    },
+    {
+     "t": "p",
+     "x": "2. A strong introduction highlights…  (A) Your salary  (B) Only your title  (C) Your problems  (D) Your value"
+    },
+    {
+     "t": "p",
+     "x": "3. For senior audiences, start with…  (A) Background history  (B) Jokes  (C) An apology  (D) The key message"
+    },
+    {
+     "t": "p",
+     "x": "4. A good fix for 'um' is…  (A) Speaking faster  (B) Apologising  (C) Stopping  (D) A short pause"
+    },
+    {
+     "t": "p",
+     "x": "5. If you don't know an answer…  (A) Guess confidently  (B) Change the topic  (C) Say so and promise a follow-up  (D) Leave"
+    },
+    {
+     "t": "p",
+     "x": "6. Executive presence includes…  (A) Speaking fastest  (B) Fancy clothes only  (C) Loudest voice  (D) Calm, clear communication"
+    },
+    {
+     "t": "p",
+     "x": "7. With senior leaders, keep it…  (A) Silent  (B) Long and detailed  (C) Full of complaints  (D) Short and relevant"
+    },
+    {
+     "t": "p",
+     "x": "8. A personal brand should be…  (A) Fake  (B) Secret  (C) Specific and consistent  (D) Everything at once"
+    },
+    {
+     "t": "p",
+     "x": "9. Internal networking means…  (A) Only your manager  (B) Gossiping  (C) Knowing people beyond your team  (D) Social media only"
+    },
+    {
+     "t": "p",
+     "x": "10. A promotion request should be based on…  (A) Evidence of impact  (B) Colleagues' salaries  (C) Ultimatums  (D) Years only"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: B, 2: D, 3: D, 4: D, 5: C, 6: D, 7: D, 8: C, 9: C, 10: A"
+    }
+   ]
+  },
+  {
+   "title": "Chapter 10: Leading Others",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "You don't need a title to lead. Mentoring a junior, delegating a task or running a good one-to-one are leadership skills you can practise from your current seat. This final chapter prepares you for the step up, and ends with a daily routine to keep everything going."
+    },
+    {
+     "t": "h",
+     "x": "10.1  Mentoring a junior"
+    },
+    {
+     "t": "em",
+     "x": "Teach them to fish, patiently."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A new joiner keeps asking you basic questions."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They make time, explain the 'why', share resources, ask questions instead of giving answers, and check in regularly."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Good question. What do you think the first step might be?'"
+    },
+    {
+     "t": "q",
+     "x": "'Here's why we do it this way. Try it and I'll review.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Doing the work for them, showing impatience, or making them feel stupid."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Offer a junior colleague 15 minutes this week to answer their questions."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Good question, what do you think?"
+    },
+    {
+     "t": "li",
+     "x": "Here's why we do it this way."
+    },
+    {
+     "t": "li",
+     "x": "Try it and I'll review."
+    },
+    {
+     "t": "h",
+     "x": "10.2  Delegating well"
+    },
+    {
+     "t": "em",
+     "x": "Give the outcome, context and freedom."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You do everything yourself because it's faster."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They explain the goal, deadline and quality bar, share context, agree check-ins and let the person choose the method."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I'd like you to own the vendor analysis. The goal is to pick the top three by Friday. Here's last year's file for context. Shall we check in Wednesday?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Micromanaging, dumping tasks without context, or taking work back at the first problem."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Delegate one task this week using: goal, deadline, context, check-in."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I'd like you to own the vendor analysis."
+    },
+    {
+     "t": "li",
+     "x": "The goal is the top three by Friday."
+    },
+    {
+     "t": "li",
+     "x": "Shall we check in on Wednesday?"
+    },
+    {
+     "t": "h",
+     "x": "10.3  Recognising others"
+    },
+    {
+     "t": "em",
+     "x": "Specific praise motivates more than any speech."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your team works hard, but appreciation is rare or generic."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They praise specifically and promptly, in public when appropriate, and tell the person's manager."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Anita, your quick reconciliation saved the client deadline. Thank you. I've let your manager know too.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Generic 'good job', praise only at year-end, or taking the credit yourself."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Give one colleague specific, sincere recognition today."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Your quick work saved the deadline."
+    },
+    {
+     "t": "li",
+     "x": "Thank you, it made a real difference."
+    },
+    {
+     "t": "li",
+     "x": "I've let your manager know too."
+    },
+    {
+     "t": "h",
+     "x": "10.4  Leading without a title"
+    },
+    {
+     "t": "em",
+     "x": "Influence comes from behaviour, not designation."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You see problems but feel it's not your place to act."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They take ownership of small improvements, rally others around shared goals, and keep their manager informed."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I noticed our handover notes are inconsistent. I've drafted a simple template; could we try it for two weeks?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Waiting for permission for everything, or acting without informing others."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Pick one small team problem and propose a simple fix this week."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I noticed our handover notes are inconsistent."
+    },
+    {
+     "t": "li",
+     "x": "I've drafted a simple template."
+    },
+    {
+     "t": "li",
+     "x": "Could we try it for two weeks?"
+    },
+    {
+     "t": "h",
+     "x": "10.5  Working across cultures"
+    },
+    {
+     "t": "em",
+     "x": "Adapt your style to how others communicate."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You work with colleagues from other regions and misunderstandings happen."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They learn cultural norms (directness, hierarchy, time), avoid idioms, confirm understanding in writing, and stay curious."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Just to confirm, we agreed on Tuesday 10 am UK time for the review, correct?'"
+    },
+    {
+     "t": "q",
+     "x": "'How does your team usually prefer to receive feedback?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Assuming everyone thinks like you, heavy slang, or stereotyping."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Ask a colleague from another region how their team prefers to communicate."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Just to confirm, we agreed on Tuesday 10 am UK time."
+    },
+    {
+     "t": "li",
+     "x": "How does your team prefer feedback?"
+    },
+    {
+     "t": "li",
+     "x": "Please let me know if anything was unclear."
+    },
+    {
+     "t": "h",
+     "x": "10.6  Leading remote and hybrid teams"
+    },
+    {
+     "t": "em",
+     "x": "Over-communicate and include everyone."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Remote colleagues feel left out of decisions made in the office."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They document decisions, set clear norms (response times, cameras), run inclusive meetings and check in one-to-one."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'Let's hear from those online first.'"
+    },
+    {
+     "t": "q",
+     "x": "'I'll post the decision and next steps in the team channel.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Corridor decisions, ignoring people on calls, or measuring presence instead of output."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "In your next hybrid meeting, invite remote participants to speak first."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Let's hear from those online first."
+    },
+    {
+     "t": "li",
+     "x": "I'll post the decision in the team channel."
+    },
+    {
+     "t": "li",
+     "x": "Does anyone joining remotely have thoughts?"
+    },
+    {
+     "t": "h",
+     "x": "10.7  Running effective one-to-ones"
+    },
+    {
+     "t": "em",
+     "x": "Their meeting, their agenda."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your one-to-ones turn into status updates only."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They let the other person set the agenda, ask open questions about goals and blockers, and follow up on commitments."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'What's on your mind this week?'"
+    },
+    {
+     "t": "q",
+     "x": "'What's one thing I could do to make your work easier?'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Cancelling often, talking most of the time, or only discussing tasks."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "In your next one-to-one, ask 'What could I do to make your work easier?'"
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "What's on your mind this week?"
+    },
+    {
+     "t": "li",
+     "x": "What's getting in your way?"
+    },
+    {
+     "t": "li",
+     "x": "What could I do to make your work easier?"
+    },
+    {
+     "t": "h",
+     "x": "10.8  Handling underperformance"
+    },
+    {
+     "t": "em",
+     "x": "Address it early, kindly and clearly."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "A team member's work keeps slipping and you avoid the conversation."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They raise it early in private, use specific examples, listen for causes, agree clear expectations and offer support."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I've noticed the last three reports were late. Is something getting in the way? Let's agree what on time looks like and how I can help.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Waiting until appraisal time, public criticism, or vague hints."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "If someone's work is slipping, plan a private, specific conversation using SBI."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I've noticed the last three reports were late."
+    },
+    {
+     "t": "li",
+     "x": "Is something getting in the way?"
+    },
+    {
+     "t": "li",
+     "x": "How can I help?"
+    },
+    {
+     "t": "h",
+     "x": "10.9  Building trust in a team"
+    },
+    {
+     "t": "em",
+     "x": "Trust = reliability + honesty + care."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "Your team works in silos and hides problems."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They keep promises, admit their own mistakes first, share information openly and show care for people."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "'I got that wrong last week; here's what I learned.'"
+    },
+    {
+     "t": "q",
+     "x": "'It's fine to raise problems early; I'd rather know.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Punishing bad news, playing favourites, or inconsistency."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Share one mistake you made and what you learned at your next team meeting."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "I got that wrong last week."
+    },
+    {
+     "t": "li",
+     "x": "Here's what I learned."
+    },
+    {
+     "t": "li",
+     "x": "Please raise problems early, I'd rather know."
+    },
+    {
+     "t": "h",
+     "x": "10.10  Your daily people-skills routine"
+    },
+    {
+     "t": "em",
+     "x": "Small daily habits compound into a reputation."
+    },
+    {
+     "t": "h3",
+     "x": "The situation"
+    },
+    {
+     "t": "p",
+     "x": "You've learned many skills, but you need to practise them every day."
+    },
+    {
+     "t": "h3",
+     "x": "What skilled people do"
+    },
+    {
+     "t": "p",
+     "x": "They follow a simple routine: greet people by name, listen fully in one conversation, send one clear update, give one specific thank-you, and reflect for two minutes at day's end."
+    },
+    {
+     "t": "h3",
+     "x": "Say it like this"
+    },
+    {
+     "t": "q",
+     "x": "Morning: 'Good morning, Priya! How was your weekend?'"
+    },
+    {
+     "t": "q",
+     "x": "Day: 'Quick update: the draft is ready for review.'"
+    },
+    {
+     "t": "q",
+     "x": "Evening: 'Thanks, Ravi, your help today made a difference.'"
+    },
+    {
+     "t": "h3",
+     "x": "Avoid"
+    },
+    {
+     "t": "p",
+     "x": "Trying to change everything at once, or giving up after one bad day."
+    },
+    {
+     "t": "h3",
+     "x": "Practise today"
+    },
+    {
+     "t": "p",
+     "x": "Start the routine today and write a two-line reflection tonight: what went well, what to try tomorrow."
+    },
+    {
+     "t": "h3",
+     "x": "Say it aloud"
+    },
+    {
+     "t": "li",
+     "x": "Good morning, how was your weekend?"
+    },
+    {
+     "t": "li",
+     "x": "Quick update, the draft is ready for review."
+    },
+    {
+     "t": "li",
+     "x": "Thanks, your help today made a difference."
+    },
+    {
+     "t": "h",
+     "x": "Quick self-check"
+    },
+    {
+     "t": "p",
+     "x": "1. Good mentoring involves…  (A) Ignoring them  (B) Doing their work  (C) Asking guiding questions  (D) Impatience"
+    },
+    {
+     "t": "p",
+     "x": "2. When delegating, share…  (A) Your frustrations  (B) Nothing  (C) Only the task name  (D) Goal, deadline and context"
+    },
+    {
+     "t": "p",
+     "x": "3. Effective recognition is…  (A) Generic  (B) Once a year  (C) Private only always  (D) Specific and timely"
+    },
+    {
+     "t": "p",
+     "x": "4. Leading without a title means…  (A) Doing nothing  (B) Waiting for promotion  (C) Bossing peers  (D) Taking ownership and influencing"
+    },
+    {
+     "t": "p",
+     "x": "5. In cross-cultural work, avoid…  (A) Idioms and slang  (B) Clear summaries  (C) Confirming in writing  (D) Curiosity"
+    },
+    {
+     "t": "p",
+     "x": "6. A key habit for hybrid teams is…  (A) Fewer updates  (B) Documenting decisions  (C) Ignoring remote staff  (D) Corridor decisions"
+    },
+    {
+     "t": "p",
+     "x": "7. A one-to-one agenda should be led by…  (A) The team member  (B) HR  (C) Only the manager  (D) Nobody"
+    },
+    {
+     "t": "p",
+     "x": "8. Underperformance should be addressed…  (A) Early and privately  (B) Never  (C) Publicly  (D) At year-end only"
+    },
+    {
+     "t": "p",
+     "x": "9. Trust is built through…  (A) Reliability, honesty and care  (B) Strictness only  (C) Titles  (D) Secrecy"
+    },
+    {
+     "t": "p",
+     "x": "10. Daily habits work because they…  (A) Are optional  (B) Are dramatic  (C) Compound over time  (D) Need no effort"
+    },
+    {
+     "t": "em",
+     "x": "Answers: 1: C, 2: D, 3: D, 4: D, 5: A, 6: B, 7: A, 8: A, 9: A, 10: C"
+    }
+   ]
+  },
+  {
+   "title": "Your 30-day practice plan",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Pick one habit a day. Repeat the week's habits until they feel normal. Each week, write two lines: what went well, and what to try next."
+    },
+    {
+     "t": "h3",
+     "x": "Week 1: Show up well"
+    },
+    {
+     "t": "li",
+     "x": "Greet five people by name"
+    },
+    {
+     "t": "li",
+     "x": "Listen fully in one conversation without interrupting"
+    },
+    {
+     "t": "li",
+     "x": "Send your manager a three-line update"
+    },
+    {
+     "t": "li",
+     "x": "Ask one clarifying question in a meeting"
+    },
+    {
+     "t": "li",
+     "x": "Thank one colleague for something specific"
+    },
+    {
+     "t": "h3",
+     "x": "Week 2: Speak up"
+    },
+    {
+     "t": "li",
+     "x": "Prepare one point before each meeting"
+    },
+    {
+     "t": "li",
+     "x": "Say 'Can I add something?' once"
+    },
+    {
+     "t": "li",
+     "x": "Summarise action items at the end of a call"
+    },
+    {
+     "t": "li",
+     "x": "Rewrite one email with the main point first"
+    },
+    {
+     "t": "li",
+     "x": "Give one piece of positive SBI feedback"
+    },
+    {
+     "t": "h3",
+     "x": "Week 3: Handle friction"
+    },
+    {
+     "t": "li",
+     "x": "Ask 'which task should I pause?' when overloaded"
+    },
+    {
+     "t": "li",
+     "x": "Disagree once using 'I see it differently because…'"
+    },
+    {
+     "t": "li",
+     "x": "Turn one complaint into a proposal"
+    },
+    {
+     "t": "li",
+     "x": "Apologise cleanly for one small mistake"
+    },
+    {
+     "t": "li",
+     "x": "Write a factual timeline for one ongoing issue"
+    },
+    {
+     "t": "h3",
+     "x": "Week 4: Get seen and lead"
+    },
+    {
+     "t": "li",
+     "x": "Send a one-paragraph win update"
+    },
+    {
+     "t": "li",
+     "x": "Practise your 30-second introduction aloud"
+    },
+    {
+     "t": "li",
+     "x": "Have a 20-minute coffee with someone from another team"
+    },
+    {
+     "t": "li",
+     "x": "Delegate or teach one small task"
+    },
+    {
+     "t": "li",
+     "x": "Start your impact list for your next review"
+    },
+    {
+     "t": "p",
+     "x": "Days 21 to 30: repeat the habits that felt hardest. The hard ones are where you grow."
+    }
+   ]
+  },
+  {
+   "title": "Phrase bank",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "Every 'say it aloud' phrase from the book, grouped by chapter. Read a few aloud on your way to work."
+    },
+    {
+     "t": "h3",
+     "x": "Self-awareness & First Impressions"
+    },
+    {
+     "t": "li",
+     "x": "How's your week going?"
+    },
+    {
+     "t": "li",
+     "x": "Is there anything I can help with?"
+    },
+    {
+     "t": "li",
+     "x": "Thanks, that really helped me."
+    },
+    {
+     "t": "li",
+     "x": "Could I ask for quick feedback on how I communicate?"
+    },
+    {
+     "t": "li",
+     "x": "Is my explanation clear, or too detailed?"
+    },
+    {
+     "t": "li",
+     "x": "What's one thing I could do better?"
+    },
+    {
+     "t": "li",
+     "x": "Hi, I'm Yash from the finance team."
+    },
+    {
+     "t": "li",
+     "x": "Nice to finally meet you."
+    },
+    {
+     "t": "li",
+     "x": "How long have you been with the team?"
+    },
+    {
+     "t": "li",
+     "x": "How was your weekend?"
+    },
+    {
+     "t": "li",
+     "x": "What was the best part?"
+    },
+    {
+     "t": "li",
+     "x": "How did the trip go?"
+    },
+    {
+     "t": "li",
+     "x": "So if I understand correctly, the main concern is the deadline?"
+    },
+    {
+     "t": "li",
+     "x": "Tell me more about that."
+    },
+    {
+     "t": "li",
+     "x": "What would a good outcome look like for you?"
+    },
+    {
+     "t": "li",
+     "x": "That's a fair point. Let me think about it."
+    },
+    {
+     "t": "li",
+     "x": "Can you help me understand your concern?"
+    },
+    {
+     "t": "li",
+     "x": "I'll come back to you by tomorrow."
+    },
+    {
+     "t": "li",
+     "x": "I'm glad to be part of this discussion."
+    },
+    {
+     "t": "li",
+     "x": "That's interesting, please go on."
+    },
+    {
+     "t": "li",
+     "x": "Thanks for explaining that."
+    },
+    {
+     "t": "li",
+     "x": "Nice to meet you, Ankit."
+    },
+    {
+     "t": "li",
+     "x": "Ankit from procurement, right?"
+    },
+    {
+     "t": "li",
+     "x": "Sorry, could you remind me of your name?"
+    },
+    {
+     "t": "li",
+     "x": "Good question, happy to explain."
+    },
+    {
+     "t": "li",
+     "x": "Can we talk at three? I'm finishing something."
+    },
+    {
+     "t": "li",
+     "x": "Feel free to ping me anytime."
+    },
+    {
+     "t": "li",
+     "x": "Thanks for pulling the data so quickly."
+    },
+    {
+     "t": "li",
+     "x": "It helped us finish a day early."
+    },
+    {
+     "t": "li",
+     "x": "Special thanks to Rohan for his help."
+    },
+    {
+     "t": "h3",
+     "x": "Working with Your Manager"
+    },
+    {
+     "t": "li",
+     "x": "What are your top priorities this quarter?"
+    },
+    {
+     "t": "li",
+     "x": "How can I make your job easier?"
+    },
+    {
+     "t": "li",
+     "x": "What does success look like for you?"
+    },
+    {
+     "t": "li",
+     "x": "Quick update on the project."
+    },
+    {
+     "t": "li",
+     "x": "The main risk is the delayed sales data."
+    },
+    {
+     "t": "li",
+     "x": "I'll have the draft ready by Thursday."
+    },
+    {
+     "t": "li",
+     "x": "Just a heads-up about a possible delay."
+    },
+    {
+     "t": "li",
+     "x": "There are two options we could consider."
+    },
+    {
+     "t": "li",
+     "x": "I recommend the first option."
+    },
+    {
+     "t": "li",
+     "x": "I have three things for today."
+    },
+    {
+     "t": "li",
+     "x": "There's one decision I need from you."
+    },
+    {
+     "t": "li",
+     "x": "Could I get your feedback on my presentation?"
+    },
+    {
+     "t": "li",
+     "x": "I've tried two approaches already."
+    },
+    {
+     "t": "li",
+     "x": "Could you spare ten minutes to look at this with me?"
+    },
+    {
+     "t": "li",
+     "x": "What would you suggest I try next?"
+    },
+    {
+     "t": "li",
+     "x": "Can I share a concern about the timeline?"
+    },
+    {
+     "t": "li",
+     "x": "Based on last quarter's data, testing took two weeks."
+    },
+    {
+     "t": "li",
+     "x": "If we still go ahead, I'll fully support it."
+    },
+    {
+     "t": "li",
+     "x": "Do you prefer updates on chat or email?"
+    },
+    {
+     "t": "li",
+     "x": "Would you like the headline first?"
+    },
+    {
+     "t": "li",
+     "x": "When is a good time to discuss this?"
+    },
+    {
+     "t": "li",
+     "x": "What's one thing I did well this month?"
+    },
+    {
+     "t": "li",
+     "x": "What's one thing I could improve?"
+    },
+    {
+     "t": "li",
+     "x": "Thank you, I'll work on that."
+    },
+    {
+     "t": "li",
+     "x": "Quick win to share with you."
+    },
+    {
+     "t": "li",
+     "x": "The new report saves the team ten hours a week."
+    },
+    {
+     "t": "li",
+     "x": "Here are my top contributions this year."
+    },
+    {
+     "t": "li",
+     "x": "In the next year I'd like to move toward a lead role."
+    },
+    {
+     "t": "li",
+     "x": "What skills would make me ready?"
+    },
+    {
+     "t": "li",
+     "x": "Could I take ownership of the budget process?"
+    },
+    {
+     "t": "h3",
+     "x": "Peers & Teamwork"
+    },
+    {
+     "t": "li",
+     "x": "Want to grab a coffee this week?"
+    },
+    {
+     "t": "li",
+     "x": "I'd love to understand how your team works."
+    },
+    {
+     "t": "li",
+     "x": "I saw this and thought of your project."
+    },
+    {
+     "t": "li",
+     "x": "This was a team effort."
+    },
+    {
+     "t": "li",
+     "x": "Rahul cleaned the data and Meera designed the visuals."
+    },
+    {
+     "t": "li",
+     "x": "I built the forecasting model."
+    },
+    {
+     "t": "li",
+     "x": "I can help for thirty minutes this afternoon."
+    },
+    {
+     "t": "li",
+     "x": "I'm on a deadline until Thursday."
+    },
+    {
+     "t": "li",
+     "x": "Could we look at it on Friday?"
+    },
+    {
+     "t": "li",
+     "x": "I know month-end is busy for you."
+    },
+    {
+     "t": "li",
+     "x": "Could we agree on a two-day cut-off?"
+    },
+    {
+     "t": "li",
+     "x": "It'll reduce follow-up calls for both teams."
+    },
+    {
+     "t": "li",
+     "x": "Could you share the sales file by Wednesday?"
+    },
+    {
+     "t": "li",
+     "x": "I need it for the board deck on Thursday."
+    },
+    {
+     "t": "li",
+     "x": "Thanks so much for your help!"
+    },
+    {
+     "t": "li",
+     "x": "Can we talk for a minute?"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to make sure we both get heard."
+    },
+    {
+     "t": "li",
+     "x": "How can we handle this better?"
+    },
+    {
+     "t": "li",
+     "x": "I'll send it by four o'clock."
+    },
+    {
+     "t": "li",
+     "x": "Quick heads-up, I'll need until tomorrow morning."
+    },
+    {
+     "t": "li",
+     "x": "Done, it's in your inbox."
+    },
+    {
+     "t": "li",
+     "x": "Huge congratulations, well deserved!"
+    },
+    {
+     "t": "li",
+     "x": "Shout-out to the ops team."
+    },
+    {
+     "t": "li",
+     "x": "Great job on the presentation."
+    },
+    {
+     "t": "li",
+     "x": "Can we agree who owns each part?"
+    },
+    {
+     "t": "li",
+     "x": "I'll take the model."
+    },
+    {
+     "t": "li",
+     "x": "Let's review progress on Friday."
+    },
+    {
+     "t": "li",
+     "x": "I haven't heard about that."
+    },
+    {
+     "t": "li",
+     "x": "Anyway, how's your project going?"
+    },
+    {
+     "t": "li",
+     "x": "Maybe we can ask her directly."
+    },
+    {
+     "t": "h3",
+     "x": "Meetings"
+    },
+    {
+     "t": "li",
+     "x": "I have one point on the budget."
+    },
+    {
+     "t": "li",
+     "x": "And one question about the timeline."
+    },
+    {
+     "t": "li",
+     "x": "What decision do we need today?"
+    },
+    {
+     "t": "li",
+     "x": "Building on Ravi's point, we could also automate this."
+    },
+    {
+     "t": "li",
+     "x": "Can I add something here?"
+    },
+    {
+     "t": "li",
+     "x": "One quick thought on the timeline."
+    },
+    {
+     "t": "li",
+     "x": "Sorry to jump in, but I have a quick point."
+    },
+    {
+     "t": "li",
+     "x": "If I may add one thing."
+    },
+    {
+     "t": "li",
+     "x": "Before we move on, could I share something?"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to finish my point."
+    },
+    {
+     "t": "li",
+     "x": "Then I'm keen to hear yours."
+    },
+    {
+     "t": "li",
+     "x": "Coming back to what I was saying."
+    },
+    {
+     "t": "li",
+     "x": "How will we measure success?"
+    },
+    {
+     "t": "li",
+     "x": "What's the main risk if we delay?"
+    },
+    {
+     "t": "li",
+     "x": "Are we optimising for cost or speed?"
+    },
+    {
+     "t": "li",
+     "x": "Let me quickly recap."
+    },
+    {
+     "t": "li",
+     "x": "We agreed on option B."
+    },
+    {
+     "t": "li",
+     "x": "Neha will update the forecast by Friday."
+    },
+    {
+     "t": "li",
+     "x": "The bottom line is we're five percent over budget."
+    },
+    {
+     "t": "li",
+     "x": "The main reason is freight costs."
+    },
+    {
+     "t": "li",
+     "x": "I recommend renegotiating with two vendors."
+    },
+    {
+     "t": "li",
+     "x": "If I understand correctly, you're asking about Q4."
+    },
+    {
+     "t": "li",
+     "x": "We expect about three percent."
+    },
+    {
+     "t": "li",
+     "x": "I'll confirm the exact number by tomorrow."
+    },
+    {
+     "t": "li",
+     "x": "The goal today is to agree on the vendor."
+    },
+    {
+     "t": "li",
+     "x": "We have thirty minutes."
+    },
+    {
+     "t": "li",
+     "x": "Let's park that and take it offline."
+    },
+    {
+     "t": "li",
+     "x": "Hi everyone, Yash here from finance."
+    },
+    {
+     "t": "li",
+     "x": "I'll drop the link in the chat."
+    },
+    {
+     "t": "li",
+     "x": "Can everyone see my screen?"
+    },
+    {
+     "t": "h3",
+     "x": "Emails, Chat & Writing"
+    },
+    {
+     "t": "li",
+     "x": "Could you approve the revised budget by Friday?"
+    },
+    {
+     "t": "li",
+     "x": "The key changes are listed below."
+    },
+    {
+     "t": "li",
+     "x": "Details are attached."
+    },
+    {
+     "t": "li",
+     "x": "Hi Neha, just checking on the report."
+    },
+    {
+     "t": "li",
+     "x": "Is anything blocking you?"
+    },
+    {
+     "t": "li",
+     "x": "Happy to help if needed."
+    },
+    {
+     "t": "li",
+     "x": "Quick question: is the vendor invoice approved?"
+    },
+    {
+     "t": "li",
+     "x": "I need it for today's payment run by three."
+    },
+    {
+     "t": "li",
+     "x": "No rush, tomorrow morning is fine."
+    },
+    {
+     "t": "li",
+     "x": "Gently bumping this up."
+    },
+    {
+     "t": "li",
+     "x": "Could you confirm by Thursday?"
+    },
+    {
+     "t": "li",
+     "x": "Would a quick five-minute call be easier?"
+    },
+    {
+     "t": "li",
+     "x": "Summary: revenue is four percent below plan."
+    },
+    {
+     "t": "li",
+     "x": "We expect recovery in Q4."
+    },
+    {
+     "t": "li",
+     "x": "Decision needed: approve the marketing push."
+    },
+    {
+     "t": "li",
+     "x": "Thanks for thinking of me."
+    },
+    {
+     "t": "li",
+     "x": "I can't take this on this week because of the audit."
+    },
+    {
+     "t": "li",
+     "x": "I could help after the twenty-fifth."
+    },
+    {
+     "t": "li",
+     "x": "I'm looping in Priya to help unblock this."
+    },
+    {
+     "t": "li",
+     "x": "The invoice has been pending since October fifth."
+    },
+    {
+     "t": "li",
+     "x": "We need approval by the twenty-first."
+    },
+    {
+     "t": "li",
+     "x": "Thanks all, here's a quick recap."
+    },
+    {
+     "t": "li",
+     "x": "We decided to go with vendor B."
+    },
+    {
+     "t": "li",
+     "x": "Let me know if I missed anything."
+    },
+    {
+     "t": "li",
+     "x": "The problem is forty hours of manual work a month."
+    },
+    {
+     "t": "li",
+     "x": "The payback period is three months."
+    },
+    {
+     "t": "li",
+     "x": "I'm asking for approval by November first."
+    },
+    {
+     "t": "li",
+     "x": "Please keep the numbers unchanged."
+    },
+    {
+     "t": "li",
+     "x": "Make this shorter and more polite."
+    },
+    {
+     "t": "li",
+     "x": "I'll review and personalise the draft."
+    },
+    {
+     "t": "h3",
+     "x": "Influence & Stakeholders"
+    },
+    {
+     "t": "li",
+     "x": "Who else should we involve?"
+    },
+    {
+     "t": "li",
+     "x": "Legal may need to sign off."
+    },
+    {
+     "t": "li",
+     "x": "Let's update procurement early."
+    },
+    {
+     "t": "li",
+     "x": "I know your team wants faster approvals."
+    },
+    {
+     "t": "li",
+     "x": "This could save both teams time."
+    },
+    {
+     "t": "li",
+     "x": "Could we pilot it next week?"
+    },
+    {
+     "t": "li",
+     "x": "Before Thursday's meeting, could I get your view?"
+    },
+    {
+     "t": "li",
+     "x": "I'd value your input on the risks."
+    },
+    {
+     "t": "li",
+     "x": "What would make this work for your team?"
+    },
+    {
+     "t": "li",
+     "x": "Our team spends thirty percent of its time on password resets."
+    },
+    {
+     "t": "li",
+     "x": "That's about two thousand hours a year."
+    },
+    {
+     "t": "li",
+     "x": "Self-service resets would fix this."
+    },
+    {
+     "t": "li",
+     "x": "Happy to show you the macro I built."
+    },
+    {
+     "t": "li",
+     "x": "It might save your team time too."
+    },
+    {
+     "t": "li",
+     "x": "I'm running a short session on Friday."
+    },
+    {
+     "t": "li",
+     "x": "Realistically, we can deliver the core report by Friday."
+    },
+    {
+     "t": "li",
+     "x": "The extra analysis would take another week."
+    },
+    {
+     "t": "li",
+     "x": "Which would you prefer?"
+    },
+    {
+     "t": "li",
+     "x": "If you can share the data by Tuesday, I can deliver by Friday."
+    },
+    {
+     "t": "li",
+     "x": "What's most important to you?"
+    },
+    {
+     "t": "li",
+     "x": "Let's find something that works for both of us."
+    },
+    {
+     "t": "li",
+     "x": "This could save each of us an hour a week."
+    },
+    {
+     "t": "li",
+     "x": "Could we try it for two weeks?"
+    },
+    {
+     "t": "li",
+     "x": "Let's review it together afterwards."
+    },
+    {
+     "t": "li",
+     "x": "You're also working on reducing manual work."
+    },
+    {
+     "t": "li",
+     "x": "Want to combine efforts?"
+    },
+    {
+     "t": "li",
+     "x": "We could present a joint proposal."
+    },
+    {
+     "t": "li",
+     "x": "I'd like to join the pricing discussion."
+    },
+    {
+     "t": "li",
+     "x": "I can bring the margin analysis."
+    },
+    {
+     "t": "li",
+     "x": "I can highlight risks early."
+    },
+    {
+     "t": "h3",
+     "x": "Feedback & Difficult Conversations"
+    },
+    {
+     "t": "li",
+     "x": "Thanks for telling me."
+    },
+    {
+     "t": "li",
+     "x": "Could you give me an example?"
+    },
+    {
+     "t": "li",
+     "x": "That's helpful, I'll work on it."
+    },
+    {
+     "t": "li",
+     "x": "In yesterday's client call, you explained the numbers very clearly."
+    },
+    {
+     "t": "li",
+     "x": "The client felt confident as a result."
+    },
+    {
+     "t": "li",
+     "x": "How can we avoid that next time?"
+    },
+    {
+     "t": "li",
+     "x": "I'm afraid the report will be delayed by two days."
+    },
+    {
+     "t": "li",
+     "x": "We've fixed the source issue."
+    },
+    {
+     "t": "li",
+     "x": "We'll deliver by Thursday."
+    },
+    {
+     "t": "li",
+     "x": "I'm happy to take this on."
+    },
+    {
+     "t": "li",
+     "x": "Which current task should I pause?"
+    },
+    {
+     "t": "li",
+     "x": "I want to make sure I do it well."
+    },
+    {
+     "t": "li",
+     "x": "I'm sorry, that's on me."
+    },
+    {
+     "t": "li",
+     "x": "I've sent the correct version."
+    },
+    {
+     "t": "li",
+     "x": "I've added a check to prevent it."
+    },
+    {
+     "t": "li",
+     "x": "I can see this is really frustrating."
+    },
+    {
+     "t": "li",
+     "x": "Let me make sure I understand what happened."
+    },
+    {
+     "t": "li",
+     "x": "What would be a good outcome for you?"
+    },
+    {
+     "t": "li",
+     "x": "The last two files came after the cut-off."
+    },
+    {
+     "t": "li",
+     "x": "Is something making it hard?"
+    },
+    {
+     "t": "li",
+     "x": "How can we make the Tuesday cut-off work?"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to discuss my growth."
+    },
+    {
+     "t": "li",
+     "x": "I automated reporting and saved forty hours a month."
+    },
+    {
+     "t": "li",
+     "x": "I'd like to be considered for the senior role."
+    },
+    {
+     "t": "li",
+     "x": "Could I share something that would help me do better work?"
+    },
+    {
+     "t": "li",
+     "x": "When requirements change late, quality drops."
+    },
+    {
+     "t": "li",
+     "x": "Could we lock changes by Thursday?"
+    },
+    {
+     "t": "li",
+     "x": "Last month you suggested shorter updates."
+    },
+    {
+     "t": "li",
+     "x": "I've switched to a three-line format."
+    },
+    {
+     "t": "li",
+     "x": "Is that working better for you?"
+    },
+    {
+     "t": "h3",
+     "x": "Conflict, Politics & Power"
+    },
+    {
+     "t": "li",
+     "x": "Who will be affected by this decision?"
+    },
+    {
+     "t": "li",
+     "x": "What does each person care about?"
+    },
+    {
+     "t": "li",
+     "x": "How can we find a solution that works for everyone?"
+    },
+    {
+     "t": "li",
+     "x": "I hear two different views."
+    },
+    {
+     "t": "li",
+     "x": "We both want a reliable report on time."
+    },
+    {
+     "t": "li",
+     "x": "Could we agree on a quick check step?"
+    },
+    {
+     "t": "li",
+     "x": "Happy to add detail, since I built the model."
+    },
+    {
+     "t": "li",
+     "x": "Next time, could we present it together?"
+    },
+    {
+     "t": "li",
+     "x": "I've documented the analysis in the shared folder."
+    },
+    {
+     "t": "li",
+     "x": "Could I send you a short status every morning?"
+    },
+    {
+     "t": "li",
+     "x": "That way you'll always know where things stand."
+    },
+    {
+     "t": "li",
+     "x": "Maybe later we can move to twice a week."
+    },
+    {
+     "t": "li",
+     "x": "Understood."
+    },
+    {
+     "t": "li",
+     "x": "To make sure I get this right, you'd like the summary by five?"
+    },
+    {
+     "t": "li",
+     "x": "I'll keep it to three key numbers."
+    },
+    {
+     "t": "li",
+     "x": "May I suggest an alternative?"
+    },
+    {
+     "t": "li",
+     "x": "Based on last quarter's numbers, option B might reduce costs."
+    },
+    {
+     "t": "li",
+     "x": "I'd be happy to share the analysis."
+    },
+    {
+     "t": "li",
+     "x": "Thanks for the discussion."
+    },
+    {
+     "t": "li",
+     "x": "Just confirming we'll go with the revised numbers."
+    },
+    {
+     "t": "li",
+     "x": "We'll send them to the client on Monday."
+    },
+    {
+     "t": "li",
+     "x": "I work well with both teams."
+    },
+    {
+     "t": "li",
+     "x": "My view is based on the data."
+    },
+    {
+     "t": "li",
+     "x": "Let's focus on what helps the project."
+    },
+    {
+     "t": "li",
+     "x": "I understand the concern."
+    },
+    {
+     "t": "li",
+     "x": "Here's the timeline of what happened."
+    },
+    {
+     "t": "li",
+     "x": "To prevent this, could we set an automated reminder?"
+    },
+    {
+     "t": "li",
+     "x": "I can help with that, I've built a similar model."
+    },
+    {
+     "t": "li",
+     "x": "Let me connect you with Priya."
+    },
+    {
+     "t": "li",
+     "x": "She'll know the answer."
+    },
+    {
+     "t": "h3",
+     "x": "Visibility, Presentations & Executive Presence"
+    },
+    {
+     "t": "li",
+     "x": "Quick update on the reconciliation project."
+    },
+    {
+     "t": "li",
+     "x": "It cut month-end close by two days."
+    },
+    {
+     "t": "li",
+     "x": "Thanks to Ravi for the automation script."
+    },
+    {
+     "t": "li",
+     "x": "Hi, I'm Yash, from the finance analytics team."
+    },
+    {
+     "t": "li",
+     "x": "I help business units turn numbers into decisions."
+    },
+    {
+     "t": "li",
+     "x": "Lately I've been automating our monthly reporting."
+    },
+    {
+     "t": "li",
+     "x": "My recommendation is to move to weekly payment runs."
+    },
+    {
+     "t": "li",
+     "x": "There are three reasons."
+    },
+    {
+     "t": "li",
+     "x": "I need your approval to pilot it next month."
+    },
+    {
+     "t": "li",
+     "x": "Let me take a moment to find that number."
+    },
+    {
+     "t": "li",
+     "x": "Good question, let me think about that."
+    },
+    {
+     "t": "li",
+     "x": "Here's the key point."
+    },
+    {
+     "t": "li",
+     "x": "So the question is why costs rose."
+    },
+    {
+     "t": "li",
+     "x": "The main driver was freight."
+    },
+    {
+     "t": "li",
+     "x": "I'll confirm that by 3 pm."
+    },
+    {
+     "t": "li",
+     "x": "Here's where we are."
+    },
+    {
+     "t": "li",
+     "x": "Here's the risk."
+    },
+    {
+     "t": "li",
+     "x": "Here's what I recommend."
+    },
+    {
+     "t": "li",
+     "x": "Good morning, I'm on the cost-savings project."
+    },
+    {
+     "t": "li",
+     "x": "We're on track to save two crore this year."
+    },
+    {
+     "t": "li",
+     "x": "Happy to share more if useful."
+    },
+    {
+     "t": "li",
+     "x": "I put together a quick guide on Power Query."
+    },
+    {
+     "t": "li",
+     "x": "Happy to walk anyone through it."
+    },
+    {
+     "t": "li",
+     "x": "Let me know if it helps."
+    },
+    {
+     "t": "li",
+     "x": "I'd love to learn more about your team's work."
+    },
+    {
+     "t": "li",
+     "x": "Could we grab a quick coffee this week?"
+    },
+    {
+     "t": "li",
+     "x": "How can I help from my side?"
+    },
+    {
+     "t": "li",
+     "x": "I'd like to discuss my growth."
+    },
+    {
+     "t": "li",
+     "x": "Over the last year I led the close automation."
+    },
+    {
+     "t": "li",
+     "x": "What would I need to show for the next level?"
+    },
+    {
+     "t": "h3",
+     "x": "Leading Others"
+    },
+    {
+     "t": "li",
+     "x": "Good question, what do you think?"
+    },
+    {
+     "t": "li",
+     "x": "Here's why we do it this way."
+    },
+    {
+     "t": "li",
+     "x": "Try it and I'll review."
+    },
+    {
+     "t": "li",
+     "x": "I'd like you to own the vendor analysis."
+    },
+    {
+     "t": "li",
+     "x": "The goal is the top three by Friday."
+    },
+    {
+     "t": "li",
+     "x": "Shall we check in on Wednesday?"
+    },
+    {
+     "t": "li",
+     "x": "Your quick work saved the deadline."
+    },
+    {
+     "t": "li",
+     "x": "Thank you, it made a real difference."
+    },
+    {
+     "t": "li",
+     "x": "I've let your manager know too."
+    },
+    {
+     "t": "li",
+     "x": "I noticed our handover notes are inconsistent."
+    },
+    {
+     "t": "li",
+     "x": "I've drafted a simple template."
+    },
+    {
+     "t": "li",
+     "x": "Could we try it for two weeks?"
+    },
+    {
+     "t": "li",
+     "x": "Just to confirm, we agreed on Tuesday 10 am UK time."
+    },
+    {
+     "t": "li",
+     "x": "How does your team prefer feedback?"
+    },
+    {
+     "t": "li",
+     "x": "Please let me know if anything was unclear."
+    },
+    {
+     "t": "li",
+     "x": "Let's hear from those online first."
+    },
+    {
+     "t": "li",
+     "x": "I'll post the decision in the team channel."
+    },
+    {
+     "t": "li",
+     "x": "Does anyone joining remotely have thoughts?"
+    },
+    {
+     "t": "li",
+     "x": "What's on your mind this week?"
+    },
+    {
+     "t": "li",
+     "x": "What's getting in your way?"
+    },
+    {
+     "t": "li",
+     "x": "What could I do to make your work easier?"
+    },
+    {
+     "t": "li",
+     "x": "I've noticed the last three reports were late."
+    },
+    {
+     "t": "li",
+     "x": "Is something getting in the way?"
+    },
+    {
+     "t": "li",
+     "x": "How can I help?"
+    },
+    {
+     "t": "li",
+     "x": "I got that wrong last week."
+    },
+    {
+     "t": "li",
+     "x": "Here's what I learned."
+    },
+    {
+     "t": "li",
+     "x": "Please raise problems early, I'd rather know."
+    },
+    {
+     "t": "li",
+     "x": "Good morning, how was your weekend?"
+    },
+    {
+     "t": "li",
+     "x": "Quick update, the draft is ready for review."
+    },
+    {
+     "t": "li",
+     "x": "Thanks, your help today made a difference."
+    }
+   ]
+  },
+  {
+   "title": "A final word",
+   "blocks": [
+    {
+     "t": "p",
+     "x": "People skills are not a personality type. They are habits, and habits can be practised. You don't need to change who you are; you need a few good words ready for the moments that matter, and the courage to use them."
+    },
+    {
+     "t": "p",
+     "x": "If this book helped you, an honest review on Amazon helps other professionals find it."
+    },
+    {
+     "t": "h3",
+     "x": "About the author"
+    },
+    {
+     "t": "p",
+     "x": "Yash Modi is a technical professional who found the people side of office life harder than the technical work, and collected these scripts while learning it."
+    }
+   ]
+  }
+ ]
+}

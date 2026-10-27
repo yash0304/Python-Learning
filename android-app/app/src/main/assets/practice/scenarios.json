@@ -1,0 +1,6414 @@
+{
+ "scenarios": [
+  {
+   "id": "daily-01",
+   "category": "Daily life",
+   "title": "Hotel check-in abroad",
+   "emoji": "🏨",
+   "partner": "Front-desk receptionist at a hotel in London",
+   "you": "A guest arriving for a three-night business trip",
+   "goal": "Check in smoothly, confirm your booking details and ask about breakfast and Wi-Fi.",
+   "turns": [
+    {
+     "say": "Good evening, welcome to the Kensington Park Hotel. Do you have a reservation with us?",
+     "points": [
+      {
+       "idea": "Confirm you have a booking",
+       "keywords": [
+        "reserv",
+        "book",
+        "confirm"
+       ]
+      },
+      {
+       "idea": "Give your name",
+       "keywords": [
+        "name",
+        "under",
+        "surname"
+       ]
+      }
+     ],
+     "sample": "Good evening. Yes, I have a reservation under the name Mehta, Rohan Mehta."
+    },
+    {
+     "say": "Lovely, I've found it. Could I see your passport and the card you'd like to use for any extra charges?",
+     "points": [
+      {
+       "idea": "Offer the passport",
+       "keywords": [
+        "passport",
+        "here",
+        "id"
+       ]
+      },
+      {
+       "idea": "Mention the payment card",
+       "keywords": [
+        "card",
+        "credit",
+        "debit",
+        "visa",
+        "pay"
+       ]
+      }
+     ],
+     "sample": "Sure, here's my passport. And please use this credit card for any incidentals."
+    },
+    {
+     "say": "Thank you. I have you down for three nights, checking out on Friday. Is that still correct?",
+     "points": [
+      {
+       "idea": "Confirm or correct the dates",
+       "keywords": [
+        "correct",
+        "right",
+        "three",
+        "friday",
+        "night",
+        "check"
+       ]
+      }
+     ],
+     "sample": "Yes, that's right, three nights, and I'll be checking out on Friday morning."
+    },
+    {
+     "say": "Perfect. Is there anything you'd like to know about the hotel?",
+     "points": [
+      {
+       "idea": "Ask about breakfast timings",
+       "keywords": [
+        "breakfast",
+        "morning",
+        "meal"
+       ]
+      },
+      {
+       "idea": "Ask about Wi-Fi or internet",
+       "keywords": [
+        "wifi",
+        "wi-fi",
+        "internet",
+        "password"
+       ]
+      }
+     ],
+     "sample": "Yes, what time is breakfast served? And could you tell me the Wi-Fi password, please?"
+    },
+    {
+     "say": "Breakfast is from 6:30 to 10 in the restaurant, and the Wi-Fi details are on your key card holder. Would you like a wake-up call or help with your luggage?",
+     "points": [
+      {
+       "idea": "Accept or decline politely",
+       "keywords": [
+        "thank",
+        "please",
+        "fine",
+        "no need",
+        "that's all",
+        "kind"
+       ]
+      },
+      {
+       "idea": "Give a time or detail if accepting",
+       "keywords": [
+        "wake",
+        "luggage",
+        "bag",
+        "seven",
+        "six",
+        "o'clock",
+        "a.m"
+       ]
+      }
+     ],
+     "sample": "A wake-up call at 6:30 tomorrow would be great, thank you. I can manage my bag myself."
+    },
+    {
+     "say": "Of course. And will you need a taxi or any directions for tomorrow?",
+     "points": [
+      {
+       "idea": "Ask for a taxi or directions",
+       "keywords": [
+        "taxi",
+        "cab",
+        "direction",
+        "underground",
+        "tube",
+        "way",
+        "office"
+       ]
+      },
+      {
+       "idea": "Give a time or place",
+       "keywords": [
+        "morning",
+        "eight",
+        "nine",
+        "o'clock",
+        "street",
+        "office",
+        "canary"
+       ]
+      }
+     ],
+     "sample": "Could you book a taxi for 8:15 tomorrow morning? I need to get to our office near Canary Wharf."
+    }
+   ],
+   "closing": "All done. You're in room 412 on the fourth floor. Enjoy your stay, and let us know if you need anything.",
+   "focus": [
+    "Use polite softeners: 'Could you...', 'Would it be possible...'.",
+    "Repeat key details back (dates, times) to avoid mix-ups.",
+    "Say 'room four-one-two', not 'room four hundred twelve', the way hotel staff do."
+   ]
+  },
+  {
+   "id": "daily-02",
+   "category": "Daily life",
+   "title": "Ordering with a dietary need",
+   "emoji": "🍽️",
+   "partner": "Waiter at a busy restaurant in Manchester",
+   "you": "A diner who is vegetarian and allergic to nuts",
+   "goal": "Order a meal clearly, explain your dietary needs and check the dish is safe.",
+   "turns": [
+    {
+     "say": "Hi there, welcome in. Can I get you something to drink while you look at the menu?",
+     "points": [
+      {
+       "idea": "Order a drink",
+       "keywords": [
+        "water",
+        "juice",
+        "coke",
+        "lemonade",
+        "tea",
+        "coffee",
+        "soda",
+        "drink"
+       ]
+      }
+     ],
+     "sample": "Yes, please. Could I have a sparkling water with lemon?"
+    },
+    {
+     "say": "Sure thing. Have you had a chance to look at the menu, or do you need a couple more minutes?",
+     "points": [
+      {
+       "idea": "Say you're ready or need time",
+       "keywords": [
+        "ready",
+        "minute",
+        "moment",
+        "time",
+        "decide"
+       ]
+      },
+      {
+       "idea": "Mention your dietary need",
+       "keywords": [
+        "vegetarian",
+        "veg",
+        "allerg",
+        "nut",
+        "meat"
+       ]
+      }
+     ],
+     "sample": "I'm nearly ready, but first I should mention that I'm vegetarian and I have a nut allergy."
+    },
+    {
+     "say": "Thanks for telling me. Which dishes were you thinking about?",
+     "points": [
+      {
+       "idea": "Name a dish you're interested in",
+       "keywords": [
+        "pasta",
+        "risotto",
+        "curry",
+        "salad",
+        "burger",
+        "pizza",
+        "soup",
+        "dish",
+        "mushroom"
+       ]
+      },
+      {
+       "idea": "Ask whether it is safe",
+       "keywords": [
+        "contain",
+        "nut",
+        "safe",
+        "ingredient",
+        "vegetarian",
+        "check"
+       ]
+      }
+     ],
+     "sample": "I was thinking about the mushroom risotto. Could you check whether it contains any nuts or meat stock?"
+    },
+    {
+     "say": "Let me double-check with the kitchen. The risotto has a little pine nut garnish, but they can leave it off. Is that all right for you?",
+     "points": [
+      {
+       "idea": "Explain how serious the allergy is",
+       "keywords": [
+        "serious",
+        "severe",
+        "cross",
+        "contamin",
+        "even",
+        "trace",
+        "careful"
+       ]
+      },
+      {
+       "idea": "Accept or choose something else",
+       "keywords": [
+        "fine",
+        "great",
+        "okay",
+        "instead",
+        "else",
+        "alternative",
+        "please"
+       ]
+      }
+     ],
+     "sample": "Thank you. My allergy is quite serious, so please ask the chef to avoid any cross-contamination. If that's possible, the risotto is fine."
+    },
+    {
+     "say": "Absolutely, I'll flag it on the order. Would you like any sides or a starter with that?",
+     "points": [
+      {
+       "idea": "Order or decline a side or starter",
+       "keywords": [
+        "side",
+        "starter",
+        "salad",
+        "bread",
+        "fries",
+        "chips",
+        "soup",
+        "no thank",
+        "just"
+       ]
+      }
+     ],
+     "sample": "Just a small green salad on the side, please, with the dressing separately."
+    },
+    {
+     "say": "Great choice. How is everything so far, and can I get you anything else?",
+     "points": [
+      {
+       "idea": "Give feedback on the meal",
+       "keywords": [
+        "delicious",
+        "lovely",
+        "great",
+        "good",
+        "tasty",
+        "nice"
+       ]
+      },
+      {
+       "idea": "Ask for the bill or something more",
+       "keywords": [
+        "bill",
+        "check",
+        "card",
+        "dessert",
+        "coffee",
+        "nothing"
+       ]
+      }
+     ],
+     "sample": "Everything's lovely, thank you. Could I have the bill when you get a moment? I'll pay by card."
+    }
+   ],
+   "closing": "Here you go. Thanks so much for coming in, and have a great evening!",
+   "focus": [
+    "State an allergy early and clearly: 'I have a nut allergy, it's quite serious.'",
+    "'Could I have...' sounds more natural than 'Give me...' in restaurants.",
+    "In the UK say 'the bill'; in the US say 'the check'."
+   ]
+  },
+  {
+   "id": "daily-03",
+   "category": "Daily life",
+   "title": "Small talk with a new neighbour",
+   "emoji": "🏡",
+   "partner": "Friendly neighbour in the apartment building in Dublin where you've just moved",
+   "you": "A new resident who moved in last week for a job",
+   "goal": "Introduce yourself, keep a light conversation going and build a friendly connection.",
+   "turns": [
+    {
+     "say": "Oh hello! I don't think we've met. Have you just moved in?",
+     "points": [
+      {
+       "idea": "Introduce yourself with your name",
+       "keywords": [
+        "name",
+        "i'm",
+        "call me"
+       ]
+      },
+      {
+       "idea": "Say when you moved in",
+       "keywords": [
+        "week",
+        "moved",
+        "days",
+        "recently",
+        "just"
+       ]
+      }
+     ],
+     "sample": "Hi, yes, I moved in last week. I'm Priya, in flat 3B. Nice to meet you!"
+    },
+    {
+     "say": "Lovely to meet you too, I'm Siobhan. So what brings you to Dublin?",
+     "points": [
+      {
+       "idea": "Mention work or a job",
+       "keywords": [
+        "work",
+        "job",
+        "company",
+        "office",
+        "transfer",
+        "role"
+       ]
+      },
+      {
+       "idea": "Add a personal detail",
+       "keywords": [
+        "india",
+        "mumbai",
+        "pune",
+        "bangalore",
+        "family",
+        "first time",
+        "excit"
+       ]
+      }
+     ],
+     "sample": "I've joined the finance team at a company here. I came over from Pune, so it's all quite new and exciting."
+    },
+    {
+     "say": "How are you finding it so far? It must be quite a change.",
+     "points": [
+      {
+       "idea": "Share an honest impression",
+       "keywords": [
+        "weather",
+        "cold",
+        "rain",
+        "people",
+        "friendly",
+        "different",
+        "change",
+        "love",
+        "enjoy"
+       ]
+      },
+      {
+       "idea": "Keep it positive",
+       "keywords": [
+        "nice",
+        "lovely",
+        "enjoy",
+        "like",
+        "beautiful",
+        "great"
+       ]
+      }
+     ],
+     "sample": "It's a big change, especially the weather! But people have been really friendly, and I'm enjoying exploring the city."
+    },
+    {
+     "say": "Ha, you get used to the rain eventually. Have you had a chance to look around the neighbourhood yet?",
+     "points": [
+      {
+       "idea": "Mention a place or ask for recommendations",
+       "keywords": [
+        "shop",
+        "cafe",
+        "coffee",
+        "park",
+        "supermarket",
+        "restaurant",
+        "recommend",
+        "suggest"
+       ]
+      },
+      {
+       "idea": "Ask a question back",
+       "keywords": [
+        "any",
+        "where",
+        "what",
+        "good"
+       ]
+      }
+     ],
+     "sample": "Only a little, I've found the supermarket and a nice café. Are there any good places to eat around here you'd recommend?"
+    },
+    {
+     "say": "Oh, there's a great little Italian place at the end of the road. So what do you like to do at the weekends?",
+     "points": [
+      {
+       "idea": "Share a hobby or interest",
+       "keywords": [
+        "walk",
+        "read",
+        "cook",
+        "cricket",
+        "music",
+        "movie",
+        "film",
+        "gym",
+        "travel",
+        "run",
+        "yoga",
+        "hik"
+       ]
+      },
+      {
+       "idea": "Return the question",
+       "keywords": [
+        "yourself",
+        "what about"
+       ]
+      }
+     ],
+     "sample": "I like walking and trying new food, and I'd love to see more of Ireland. What about you?"
+    }
+   ],
+   "closing": "Well, it's been lovely chatting. If you ever need anything, just knock on my door. Welcome to the building!",
+   "focus": [
+    "Keep answers to two or three sentences, then ask a question back: 'What about you?'",
+    "Small talk is about friendliness, not facts; light positive comments work best.",
+    "Use names: repeating the other person's name helps you remember it and builds warmth."
+   ]
+  },
+  {
+   "id": "daily-04",
+   "category": "Daily life",
+   "title": "Calling about a wrong bill",
+   "emoji": "📞",
+   "partner": "Customer care agent at a mobile phone company",
+   "you": "A customer who has been charged twice for international roaming",
+   "goal": "Explain the billing error clearly, stay calm and get a refund or credit with a reference number.",
+   "turns": [
+    {
+     "say": "Thank you for calling. My name is Daniel. How can I help you today?",
+     "points": [
+      {
+       "idea": "State the problem: wrong or extra charge on the bill",
+       "keywords": [
+        "bill",
+        "charg",
+        "invoice",
+        "wrong",
+        "incorrect",
+        "twice",
+        "double",
+        "extra"
+       ]
+      }
+     ],
+     "sample": "Hi Daniel, I'm calling about my latest bill. I've been charged twice for the international roaming pack."
+    },
+    {
+     "say": "I'm sorry to hear that. Could you confirm your account number or the phone number on the account?",
+     "points": [
+      {
+       "idea": "Give the account or phone number",
+       "keywords": [
+        "number",
+        "account",
+        "digit",
+        "nine",
+        "eight",
+        "seven",
+        "zero",
+        "plus"
+       ]
+      },
+      {
+       "idea": "Give your name for verification",
+       "keywords": [
+        "name",
+        "under",
+        "holder"
+       ]
+      }
+     ],
+     "sample": "Sure, the account is under Ankit Shah, and the number is 07700 900 123."
+    },
+    {
+     "say": "Thanks, Mr Shah. I can see the bill. Can you tell me exactly which charge looks wrong?",
+     "points": [
+      {
+       "idea": "Name the specific charge",
+       "keywords": [
+        "roaming",
+        "pack",
+        "international",
+        "data"
+       ]
+      },
+      {
+       "idea": "Give the amount or date",
+       "keywords": [
+        "pound",
+        "£",
+        "amount",
+        "date",
+        "fifteen",
+        "twenty",
+        "march",
+        "month"
+       ]
+      },
+      {
+       "idea": "Explain why it's wrong",
+       "keywords": [
+        "once",
+        "only",
+        "twice",
+        "double",
+        "duplicate",
+        "same"
+       ]
+      }
+     ],
+     "sample": "It's the roaming pack, fifteen pounds. It appears twice on the 3rd of March, but I only activated it once."
+    },
+    {
+     "say": "I see it. It looks like a system duplicate. What would you like us to do about it?",
+     "points": [
+      {
+       "idea": "Ask for a refund or credit",
+       "keywords": [
+        "refund",
+        "credit",
+        "reverse",
+        "remove",
+        "back",
+        "adjust"
+       ]
+      },
+      {
+       "idea": "Ask how long it will take",
+       "keywords": [
+        "how long",
+        "when",
+        "days",
+        "time",
+        "next bill"
+       ]
+      }
+     ],
+     "sample": "Could you please refund the duplicate charge or credit it to my account? And how long will that take?"
+    },
+    {
+     "say": "I've raised a credit of fifteen pounds. It should show on your next bill. Is there anything else I can help with?",
+     "points": [
+      {
+       "idea": "Ask for a reference or confirmation",
+       "keywords": [
+        "reference",
+        "ticket",
+        "number",
+        "email",
+        "confirm",
+        "writing"
+       ]
+      },
+      {
+       "idea": "Thank the agent",
+       "keywords": [
+        "thank",
+        "appreciat",
+        "help"
+       ]
+      }
+     ],
+     "sample": "That's great, thank you. Could I get a reference number for this, and maybe a confirmation by email?"
+    }
+   ],
+   "closing": "Your reference is CR-48217, and I've sent a confirmation email. Thanks for calling, and have a good day.",
+   "focus": [
+    "Lead with the problem in one sentence, then give details: amount, date, what you expected.",
+    "Stay calm and polite; 'Could you please...' gets faster help than complaining.",
+    "Always close by asking for a reference number and a written confirmation."
+   ]
+  },
+  {
+   "id": "daily-05",
+   "category": "Daily life",
+   "title": "Directions in a new city",
+   "emoji": "🗺️",
+   "partner": "Local person at a train station in Frankfurt who speaks English",
+   "you": "A visitor trying to reach a hotel and the office by public transport",
+   "goal": "Ask for directions politely, understand the transport options and check the details.",
+   "turns": [
+    {
+     "say": "You look a bit lost. Can I help you with something?",
+     "points": [
+      {
+       "idea": "Politely accept and say where you want to go",
+       "keywords": [
+        "hotel",
+        "office",
+        "get to",
+        "way",
+        "looking for",
+        "go to",
+        "find"
+       ]
+      }
+     ],
+     "sample": "Yes, thank you! I'm trying to get to the Marriott hotel near the trade fair. Could you tell me the best way?"
+    },
+    {
+     "say": "Sure. You can take the U-Bahn or a tram from here. Do you have a ticket already?",
+     "points": [
+      {
+       "idea": "Say whether you have a ticket",
+       "keywords": [
+        "ticket",
+        "pass",
+        "card",
+        "not yet"
+       ]
+      },
+      {
+       "idea": "Ask where to buy one",
+       "keywords": [
+        "buy",
+        "where",
+        "machine",
+        "app",
+        "counter",
+        "purchase"
+       ]
+      }
+     ],
+     "sample": "No, not yet. Where can I buy one? Is there a machine here, or can I use an app?"
+    },
+    {
+     "say": "The machines are just over there, and you can pay by card. Take line U4 towards Bockenheimer Warte. Would you like me to explain the stops?",
+     "points": [
+      {
+       "idea": "Ask how many stops or which stop",
+       "keywords": [
+        "stop",
+        "station",
+        "how many",
+        "which",
+        "get off"
+       ]
+      },
+      {
+       "idea": "Check the line or direction",
+       "keywords": [
+        "u4",
+        "line",
+        "direction",
+        "towards",
+        "platform"
+       ]
+      }
+     ],
+     "sample": "Yes, please. So I take the U4 line towards Bockenheimer Warte, but which stop should I get off at, and how many stops is it?"
+    },
+    {
+     "say": "It's only three stops, get off at Festhalle Messe. From there the hotel is a five-minute walk. Is there anything else?",
+     "points": [
+      {
+       "idea": "Repeat back the directions to check",
+       "keywords": [
+        "three",
+        "festhalle",
+        "messe",
+        "five",
+        "walk"
+       ]
+      },
+      {
+       "idea": "Ask about another place or the time it takes",
+       "keywords": [
+        "office",
+        "how long",
+        "taxi",
+        "tomorrow",
+        "far",
+        "minute"
+       ]
+      }
+     ],
+     "sample": "So, U4, three stops, get off at Festhalle Messe and walk five minutes. Great. And how far is the city centre from there?"
+    },
+    {
+     "say": "About fifteen minutes by tram. If you're in a hurry, taxis wait outside the main exit. Are you okay now?",
+     "points": [
+      {
+       "idea": "Thank the person",
+       "keywords": [
+        "thank",
+        "appreciat",
+        "help",
+        "kind"
+       ]
+      },
+      {
+       "idea": "Confirm you understand",
+       "keywords": [
+        "clear",
+        "understand",
+        "got it",
+        "perfect",
+        "okay",
+        "sure"
+       ]
+      }
+     ],
+     "sample": "Yes, that's really clear. Thank you so much for your help, I really appreciate it."
+    }
+   ],
+   "closing": "No problem at all. Enjoy your stay in Frankfurt!",
+   "focus": [
+    "Start with 'Excuse me, could you tell me how to get to...?'",
+    "Repeat the directions back in short form to check you understood.",
+    "Learn key transport words: platform, line, stop, change at, get off at."
+   ]
+  },
+  {
+   "id": "daily-06",
+   "category": "Daily life",
+   "title": "Doctor's appointment",
+   "emoji": "🩺",
+   "partner": "General practitioner (GP) at a clinic in Toronto",
+   "you": "A patient who has had a sore throat, fever and tiredness for four days",
+   "goal": "Describe your symptoms clearly, including when they started, and understand the advice.",
+   "turns": [
+    {
+     "say": "Hello, come in and have a seat. What seems to be the problem today?",
+     "points": [
+      {
+       "idea": "Describe the main symptoms",
+       "keywords": [
+        "throat",
+        "fever",
+        "temperature",
+        "cough",
+        "tired",
+        "pain",
+        "headache",
+        "cold",
+        "unwell"
+       ]
+      }
+     ],
+     "sample": "Hi doctor. I've had a sore throat and a fever, and I've been feeling very tired."
+    },
+    {
+     "say": "I see. When did it start, and has it been getting better or worse?",
+     "points": [
+      {
+       "idea": "Say when it started",
+       "keywords": [
+        "days",
+        "since",
+        "ago",
+        "monday",
+        "week",
+        "started",
+        "began"
+       ]
+      },
+      {
+       "idea": "Say if it's improving or worsening",
+       "keywords": [
+        "worse",
+        "better",
+        "same",
+        "improv",
+        "night"
+       ]
+      }
+     ],
+     "sample": "It started about four days ago. The fever comes and goes, but the throat is getting worse, especially at night."
+    },
+    {
+     "say": "Have you taken any medicine for it so far? And do you have any allergies?",
+     "points": [
+      {
+       "idea": "Mention any medicine taken",
+       "keywords": [
+        "paracetamol",
+        "tylenol",
+        "ibuprofen",
+        "medicine",
+        "tablet",
+        "syrup",
+        "nothing",
+        "haven't"
+       ]
+      },
+      {
+       "idea": "Mention allergies or say none",
+       "keywords": [
+        "allerg",
+        "none",
+        "not that",
+        "penicillin",
+        "no known"
+       ]
+      }
+     ],
+     "sample": "I've been taking paracetamol twice a day, which helps a little. I'm not allergic to any medicines that I know of."
+    },
+    {
+     "say": "Okay. Any other symptoms, like a cough, body aches, or trouble swallowing?",
+     "points": [
+      {
+       "idea": "Mention other symptoms or say no",
+       "keywords": [
+        "cough",
+        "ache",
+        "swallow",
+        "body",
+        "headache",
+        "no other",
+        "only",
+        "bit"
+       ]
+      }
+     ],
+     "sample": "Yes, swallowing is quite painful, and I have some body aches, but no cough."
+    },
+    {
+     "say": "Your throat is quite inflamed. I'll prescribe a short course of antibiotics. Do you have any questions?",
+     "points": [
+      {
+       "idea": "Ask how to take the medicine",
+       "keywords": [
+        "how",
+        "often",
+        "times",
+        "food",
+        "dose",
+        "course",
+        "take"
+       ]
+      },
+      {
+       "idea": "Ask about work or recovery",
+       "keywords": [
+        "work",
+        "office",
+        "rest",
+        "how long",
+        "recover",
+        "contagious",
+        "return"
+       ]
+      }
+     ],
+     "sample": "How often should I take them, and should it be with food? Also, is it okay to go back to work, or should I rest for a few days?"
+    }
+   ],
+   "closing": "Take one tablet three times a day after meals, and rest for two days. Come back if you're not better by next week. Take care.",
+   "focus": [
+    "Use time phrases: 'It started four days ago', 'It's been getting worse since Monday.'",
+    "Describe pain precisely: sharp, dull, constant, comes and goes.",
+    "Always check instructions before you leave: 'How often should I take it?'"
+   ]
+  },
+  {
+   "id": "daily-07",
+   "category": "Daily life",
+   "title": "Returning a faulty product",
+   "emoji": "🛍️",
+   "partner": "Customer service assistant at an electronics shop in Sydney",
+   "you": "A customer returning headphones that stopped working after a week",
+   "goal": "Explain the fault, show proof of purchase and ask for a replacement or refund politely but firmly.",
+   "turns": [
+    {
+     "say": "Hi, how can I help you today?",
+     "points": [
+      {
+       "idea": "Say you want to return or exchange an item",
+       "keywords": [
+        "return",
+        "exchange",
+        "replace",
+        "refund",
+        "bought"
+       ]
+      },
+      {
+       "idea": "Say what the product is and the problem",
+       "keywords": [
+        "headphone",
+        "earphone",
+        "not working",
+        "stopped",
+        "fault",
+        "broken",
+        "problem"
+       ]
+      }
+     ],
+     "sample": "Hi, I bought these headphones here last week, and they've stopped working. I'd like to return them, please."
+    },
+    {
+     "say": "Oh, sorry about that. What exactly is wrong with them?",
+     "points": [
+      {
+       "idea": "Describe the fault clearly",
+       "keywords": [
+        "left",
+        "right",
+        "side",
+        "sound",
+        "charg",
+        "bluetooth",
+        "connect",
+        "switch",
+        "turn on",
+        "noise"
+       ]
+      }
+     ],
+     "sample": "The left side has no sound at all, and sometimes they won't connect to Bluetooth, even when fully charged."
+    },
+    {
+     "say": "Do you have the receipt or the card you paid with?",
+     "points": [
+      {
+       "idea": "Show the receipt or proof of payment",
+       "keywords": [
+        "receipt",
+        "card",
+        "email",
+        "proof",
+        "invoice",
+        "here",
+        "phone"
+       ]
+      }
+     ],
+     "sample": "Yes, here's the receipt, and I paid with this card. I also have the email confirmation on my phone."
+    },
+    {
+     "say": "Thanks. We can send them for repair, which takes about two weeks. Would that work for you?",
+     "points": [
+      {
+       "idea": "Politely ask for a replacement or refund instead",
+       "keywords": [
+        "replace",
+        "refund",
+        "new",
+        "exchange",
+        "money back",
+        "instead",
+        "prefer"
+       ]
+      },
+      {
+       "idea": "Give a reason",
+       "keywords": [
+        "week",
+        "only",
+        "travel",
+        "need",
+        "new",
+        "fault",
+        "trip"
+       ]
+      }
+     ],
+     "sample": "I'd prefer a replacement or a refund, if possible. They're only a week old, and I need them for my work calls."
+    },
+    {
+     "say": "Let me check. Yes, since it's within thirty days, we can do a replacement. Would you like the same model?",
+     "points": [
+      {
+       "idea": "Choose same model or a different one",
+       "keywords": [
+        "same",
+        "model",
+        "different",
+        "other",
+        "upgrade"
+       ]
+      },
+      {
+       "idea": "Ask to test it or about warranty",
+       "keywords": [
+        "test",
+        "check",
+        "try",
+        "warranty",
+        "guarantee"
+       ]
+      }
+     ],
+     "sample": "The same model is fine. Could we quickly test the new pair here before I leave? And is the warranty still valid?"
+    }
+   ],
+   "closing": "Of course. Here's your new pair, tested and working, with a fresh one-year warranty. Thanks for your patience!",
+   "focus": [
+    "Explain the fault with specifics: what happens, when, and since when.",
+    "'I'd prefer...' is a polite but firm way to ask for what you want.",
+    "Keep your tone friendly; the assistant is more likely to help."
+   ]
+  },
+  {
+   "id": "daily-08",
+   "category": "Daily life",
+   "title": "Airport check-in and a delay",
+   "emoji": "✈️",
+   "partner": "Airline check-in agent at Heathrow airport",
+   "you": "A passenger flying to Singapore for a business meeting with a tight connection",
+   "goal": "Check in, handle a flight delay and find out your options for the connection.",
+   "turns": [
+    {
+     "say": "Good morning. Where are you flying to today, and may I see your passport?",
+     "points": [
+      {
+       "idea": "Give your destination",
+       "keywords": [
+        "singapore",
+        "flying",
+        "going",
+        "destination"
+       ]
+      },
+      {
+       "idea": "Hand over the passport",
+       "keywords": [
+        "passport",
+        "here",
+        "booking",
+        "reference"
+       ]
+      }
+     ],
+     "sample": "Good morning. I'm flying to Singapore, connecting through Dubai. Here's my passport."
+    },
+    {
+     "say": "Thank you. Are you checking in any bags today?",
+     "points": [
+      {
+       "idea": "Say how many bags",
+       "keywords": [
+        "one",
+        "bag",
+        "suitcase",
+        "luggage",
+        "cabin",
+        "carry",
+        "just",
+        "two"
+       ]
+      }
+     ],
+     "sample": "Yes, just this one suitcase. I'll keep my laptop bag with me as cabin luggage."
+    },
+    {
+     "say": "I'm afraid your flight to Dubai is delayed by about two hours due to a technical issue. Do you have a connecting flight?",
+     "points": [
+      {
+       "idea": "Confirm the connection and its timing",
+       "keywords": [
+        "connect",
+        "connection",
+        "transfer",
+        "layover",
+        "hour",
+        "dubai"
+       ]
+      },
+      {
+       "idea": "Express concern about missing it",
+       "keywords": [
+        "miss",
+        "worried",
+        "concern",
+        "tight",
+        "make it",
+        "afraid"
+       ]
+      }
+     ],
+     "sample": "Yes, I do, and the layover in Dubai is only ninety minutes. I'm worried I'll miss my connection."
+    },
+    {
+     "say": "I understand. We can try to rebook you on a later connection. Is there a time you need to be in Singapore by?",
+     "points": [
+      {
+       "idea": "Explain your deadline or meeting",
+       "keywords": [
+        "meeting",
+        "morning",
+        "tomorrow",
+        "by",
+        "nine",
+        "ten",
+        "o'clock",
+        "client"
+       ]
+      },
+      {
+       "idea": "Ask about options",
+       "keywords": [
+        "option",
+        "alternative",
+        "earlier",
+        "direct",
+        "other flight",
+        "possible",
+        "rebook"
+       ]
+      }
+     ],
+     "sample": "I have a client meeting at 10 a.m. tomorrow, Singapore time. Is there a direct flight or any other option that gets me there earlier?"
+    },
+    {
+     "say": "There's a direct flight leaving at 1:30 this afternoon, landing at 9:40 tomorrow morning. Shall I move you to that one?",
+     "points": [
+      {
+       "idea": "Accept the option",
+       "keywords": [
+        "please",
+        "great",
+        "perfect",
+        "move",
+        "go ahead",
+        "that works"
+       ]
+      },
+      {
+       "idea": "Ask about seat, bags or vouchers",
+       "keywords": [
+        "seat",
+        "aisle",
+        "window",
+        "bag",
+        "luggage",
+        "voucher",
+        "meal",
+        "lounge"
+       ]
+      }
+     ],
+     "sample": "Yes, please, that works much better. Could I have an aisle seat, and will my bag be transferred automatically?"
+    }
+   ],
+   "closing": "All done. You're in seat 32C on the direct flight, and your bag is checked through to Singapore. Have a safe trip.",
+   "focus": [
+    "Explain urgency calmly with facts: 'I have a client meeting at 10 a.m.'",
+    "Ask for options: 'What are my options?' or 'Is there an earlier flight?'",
+    "Use 'connecting flight', 'layover', 'checked through' like airline staff do."
+   ]
+  },
+  {
+   "id": "daily-09",
+   "category": "Daily life",
+   "title": "Networking mixer introduction",
+   "emoji": "🥂",
+   "partner": "Professional you meet at a finance networking event in Singapore",
+   "you": "A finance shared-services professional attending the event",
+   "goal": "Introduce yourself confidently, describe your work simply and exchange contacts.",
+   "turns": [
+    {
+     "say": "Hi, I don't think we've met. I'm Mei Lin. What brings you to this event?",
+     "points": [
+      {
+       "idea": "Introduce yourself with your name",
+       "keywords": [
+        "i'm",
+        "name",
+        "call me"
+       ]
+      },
+      {
+       "idea": "Say why you're attending",
+       "keywords": [
+        "network",
+        "meet",
+        "learn",
+        "colleague",
+        "invite",
+        "interest",
+        "event",
+        "topic"
+       ]
+      }
+     ],
+     "sample": "Hi Mei Lin, I'm Arjun. I'm here to meet people in the finance community and learn about automation in shared services."
+    },
+    {
+     "say": "Oh nice. So what do you do?",
+     "points": [
+      {
+       "idea": "Give your role and team",
+       "keywords": [
+        "finance",
+        "account",
+        "analyst",
+        "lead",
+        "manager",
+        "team",
+        "role"
+       ]
+      },
+      {
+       "idea": "Explain what your team does simply",
+       "keywords": [
+        "shared service",
+        "payable",
+        "receivable",
+        "reconcil",
+        "close",
+        "report",
+        "process",
+        "support"
+       ]
+      }
+     ],
+     "sample": "I work in finance shared services for a global bank. My team handles accounts payable and reconciliations for offices in Europe and Asia."
+    },
+    {
+     "say": "That sounds interesting. What do you enjoy most about your work?",
+     "points": [
+      {
+       "idea": "Share something you enjoy",
+       "keywords": [
+        "enjoy",
+        "like",
+        "love",
+        "favourite",
+        "favorite",
+        "best",
+        "interest"
+       ]
+      },
+      {
+       "idea": "Give a concrete example",
+       "keywords": [
+        "automat",
+        "improv",
+        "process",
+        "team",
+        "people",
+        "solv",
+        "problem",
+        "time zone",
+        "global"
+       ]
+      }
+     ],
+     "sample": "I really enjoy improving processes. Last year we automated part of our reconciliation work, which saved the team hours every week."
+    },
+    {
+     "say": "Impressive! I'm in consulting myself, mostly digital finance projects. Have you been in Singapore long?",
+     "points": [
+      {
+       "idea": "Answer about your time in the city",
+       "keywords": [
+        "month",
+        "year",
+        "week",
+        "visit",
+        "trip",
+        "moved",
+        "just",
+        "few"
+       ]
+      },
+      {
+       "idea": "Show interest in the other person",
+       "keywords": [
+        "consult",
+        "project",
+        "your",
+        "sound",
+        "interest",
+        "what kind"
+       ]
+      }
+     ],
+     "sample": "Just a few months, I moved here with work. Consulting sounds fascinating, what kind of digital finance projects do you work on?"
+    },
+    {
+     "say": "Mostly finance transformation for mid-sized companies. It's been great chatting. Shall we stay in touch?",
+     "points": [
+      {
+       "idea": "Suggest exchanging contacts",
+       "keywords": [
+        "linkedin",
+        "card",
+        "contact",
+        "email",
+        "number",
+        "connect",
+        "touch"
+       ]
+      },
+      {
+       "idea": "Suggest a next step",
+       "keywords": [
+        "coffee",
+        "catch up",
+        "meet",
+        "chat",
+        "soon",
+        "follow"
+       ]
+      }
+     ],
+     "sample": "Absolutely, let's connect on LinkedIn. Here's my card, too. Maybe we can grab a coffee sometime and talk more."
+    }
+   ],
+   "closing": "Definitely. Lovely meeting you, Arjun. Enjoy the rest of the evening!",
+   "focus": [
+    "Prepare a 15-second introduction: name, role, team, one interesting detail.",
+    "Explain your job in plain words; avoid internal jargon and acronyms.",
+    "Ask open questions back ('What kind of projects...?') to keep the conversation balanced."
+   ]
+  },
+  {
+   "id": "daily-10",
+   "category": "Daily life",
+   "title": "Landlord repair negotiation",
+   "emoji": "🔧",
+   "partner": "Landlord of the flat you rent in London",
+   "you": "A tenant whose boiler has broken and there is no hot water",
+   "goal": "Explain the problem, push politely for a quick repair and agree on a date.",
+   "turns": [
+    {
+     "say": "Hello, it's Mark. I got your message. What's going on with the flat?",
+     "points": [
+      {
+       "idea": "Describe the problem",
+       "keywords": [
+        "boiler",
+        "hot water",
+        "heating",
+        "broken",
+        "not working",
+        "leak",
+        "cold"
+       ]
+      },
+      {
+       "idea": "Say how long it's been",
+       "keywords": [
+        "since",
+        "days",
+        "yesterday",
+        "weekend",
+        "monday",
+        "ago"
+       ]
+      }
+     ],
+     "sample": "Hi Mark, thanks for calling back. The boiler stopped working on Saturday, so we've had no hot water or heating since then."
+    },
+    {
+     "say": "Oh dear. Have you tried resetting it? Sometimes that fixes it.",
+     "points": [
+      {
+       "idea": "Say you tried it",
+       "keywords": [
+        "tried",
+        "reset",
+        "already",
+        "twice",
+        "pressure",
+        "manual"
+       ]
+      },
+      {
+       "idea": "Say it didn't help and give detail",
+       "keywords": [
+        "still",
+        "didn't",
+        "not work",
+        "error",
+        "code",
+        "light",
+        "same"
+       ]
+      }
+     ],
+     "sample": "Yes, I tried resetting it twice, following the manual, but it still shows an error code and won't start."
+    },
+    {
+     "say": "Right. I can probably get someone round next week. Would that be okay?",
+     "points": [
+      {
+       "idea": "Explain why it's urgent",
+       "keywords": [
+        "urgent",
+        "cold",
+        "winter",
+        "can't",
+        "shower",
+        "child",
+        "work from home",
+        "difficult"
+       ]
+      },
+      {
+       "idea": "Ask for a sooner date",
+       "keywords": [
+        "sooner",
+        "earlier",
+        "tomorrow",
+        "this week",
+        "asap",
+        "quickly",
+        "possible"
+       ]
+      }
+     ],
+     "sample": "It's quite urgent, as it's very cold and we can't shower at home. Would it be possible to get someone in this week, ideally tomorrow?"
+    },
+    {
+     "say": "I'll see what I can do. My usual engineer is busy, though. What if I find someone else for Thursday?",
+     "points": [
+      {
+       "idea": "Accept or negotiate the day",
+       "keywords": [
+        "thursday",
+        "fine",
+        "okay",
+        "works",
+        "earlier",
+        "wednesday",
+        "morning",
+        "afternoon"
+       ]
+      },
+      {
+       "idea": "Ask for a temporary solution",
+       "keywords": [
+        "heater",
+        "temporary",
+        "meantime",
+        "meanwhile",
+        "electric",
+        "in the meantime"
+       ]
+      }
+     ],
+     "sample": "Thursday works if that's the earliest. In the meantime, could you provide a portable heater for a few days?"
+    },
+    {
+     "say": "That's fair, I'll drop one off tomorrow. What time on Thursday suits you for the engineer?",
+     "points": [
+      {
+       "idea": "Give a time slot",
+       "keywords": [
+        "morning",
+        "afternoon",
+        "after",
+        "before",
+        "o'clock",
+        "nine",
+        "ten",
+        "anytime",
+        "between"
+       ]
+      },
+      {
+       "idea": "Ask for confirmation",
+       "keywords": [
+        "confirm",
+        "text",
+        "message",
+        "email",
+        "let me know",
+        "number"
+       ]
+      }
+     ],
+     "sample": "Any time before 11 in the morning is best, as I'll be working from home. Could you text me the engineer's name and arrival time?"
+    }
+   ],
+   "closing": "Will do. Sorry for the trouble, and thanks for letting me know quickly. I'll message you tonight with the details.",
+   "focus": [
+    "Explain impact, not just the problem: 'We can't shower at home.'",
+    "Negotiate politely: 'Would it be possible to...', 'In the meantime, could you...'",
+    "Finish by confirming the agreement and asking for it in writing."
+   ]
+  },
+  {
+   "id": "office-01",
+   "category": "Office",
+   "title": "Daily stand-up update",
+   "emoji": "🧍",
+   "partner": "Team lead running the daily stand-up for a global finance operations team",
+   "you": "An accounts payable analyst giving your daily update",
+   "goal": "Give a crisp yesterday / today / blockers update in under a minute.",
+   "turns": [
+    {
+     "say": "Morning everyone. Let's go round quickly. What did you get done yesterday?",
+     "points": [
+      {
+       "idea": "Name completed tasks",
+       "keywords": [
+        "completed",
+        "finished",
+        "done",
+        "processed",
+        "closed",
+        "cleared",
+        "posted",
+        "reconcil",
+        "invoice"
+       ]
+      },
+      {
+       "idea": "Include a number or detail",
+       "keywords": [
+        "invoice",
+        "vendor",
+        "batch",
+        "account",
+        "hundred",
+        "fifty",
+        "twenty",
+        "entries"
+       ]
+      }
+     ],
+     "sample": "Yesterday I processed around eighty vendor invoices for the UK entity and cleared the open queries from last week."
+    },
+    {
+     "say": "Good. And what's your plan for today?",
+     "points": [
+      {
+       "idea": "Say what you'll work on",
+       "keywords": [
+        "today",
+        "plan",
+        "work on",
+        "focus",
+        "will",
+        "going to",
+        "start"
+       ]
+      },
+      {
+       "idea": "Mention a priority or deadline",
+       "keywords": [
+        "priorit",
+        "deadline",
+        "payment run",
+        "by",
+        "end of day",
+        "eod",
+        "cut-off",
+        "urgent"
+       ]
+      }
+     ],
+     "sample": "Today my priority is preparing the payment run for Thursday, and I'll also start on the vendor statement reconciliations."
+    },
+    {
+     "say": "Any blockers or anything you need from the team?",
+     "points": [
+      {
+       "idea": "State a blocker or say none",
+       "keywords": [
+        "block",
+        "wait",
+        "pending",
+        "approval",
+        "access",
+        "stuck",
+        "no block",
+        "nothing"
+       ]
+      },
+      {
+       "idea": "Say who can help",
+       "keywords": [
+        "need",
+        "help",
+        "from",
+        "could",
+        "anyone",
+        "procurement",
+        "manager"
+       ]
+      }
+     ],
+     "sample": "One blocker: about ten invoices are waiting for purchase-order approval. Could someone from procurement help me chase those?"
+    },
+    {
+     "say": "Okay, I'll ping procurement after this. Is that going to affect Thursday's payment run?",
+     "points": [
+      {
+       "idea": "Assess the impact",
+       "keywords": [
+        "impact",
+        "affect",
+        "risk",
+        "delay",
+        "might",
+        "could"
+       ]
+      },
+      {
+       "idea": "Give a time by which it must be resolved",
+       "keywords": [
+        "tomorrow",
+        "wednesday",
+        "by",
+        "noon",
+        "end of day",
+        "eod",
+        "time"
+       ]
+      }
+     ],
+     "sample": "It could, if the approvals don't come by tomorrow noon. Otherwise, those invoices will move to next week's run."
+    },
+    {
+     "say": "Thanks, that's clear. Anything else before we move on?",
+     "points": [
+      {
+       "idea": "Close briefly or add one item",
+       "keywords": [
+        "that's all",
+        "nothing",
+        "all from me",
+        "thank",
+        "just",
+        "quick"
+       ]
+      }
+     ],
+     "sample": "That's all from me, thanks."
+    }
+   ],
+   "closing": "Great, thanks. Let's move on to the next person.",
+   "focus": [
+    "Use the structure: yesterday, today, blockers; keep it under 60 seconds.",
+    "Use past tense for yesterday ('I processed'), future for today ('I'll start').",
+    "Be specific with numbers and deadlines instead of 'some invoices' or 'soon'."
+   ]
+  },
+  {
+   "id": "office-02",
+   "category": "Office",
+   "title": "First meeting with a new manager",
+   "emoji": "🤝",
+   "partner": "Your new manager, based in the London office, on a video call",
+   "you": "A senior analyst in the shared services centre in India",
+   "goal": "Introduce yourself professionally, explain your responsibilities and agree on ways of working.",
+   "turns": [
+    {
+     "say": "Hi, great to finally meet you. I'm Sarah. Could you tell me a bit about yourself?",
+     "points": [
+      {
+       "idea": "Give your name, role and experience",
+       "keywords": [
+        "year",
+        "experience",
+        "role",
+        "analyst",
+        "joined",
+        "work",
+        "team"
+       ]
+      },
+      {
+       "idea": "Mention your area of work",
+       "keywords": [
+        "payable",
+        "receivable",
+        "reconcil",
+        "close",
+        "report",
+        "general ledger",
+        "gl",
+        "account"
+       ]
+      }
+     ],
+     "sample": "Hi Sarah, great to meet you too. I'm Neha, a senior analyst. I've been with the team for four years, mainly on general ledger reconciliations and month-end close."
+    },
+    {
+     "say": "Lovely. What are your main responsibilities day to day?",
+     "points": [
+      {
+       "idea": "List main tasks",
+       "keywords": [
+        "reconcil",
+        "journal",
+        "close",
+        "report",
+        "review",
+        "process",
+        "invoice",
+        "entries"
+       ]
+      },
+      {
+       "idea": "Mention who you work with",
+       "keywords": [
+        "team",
+        "stakeholder",
+        "controller",
+        "europe",
+        "uk",
+        "us",
+        "local",
+        "colleague"
+       ]
+      }
+     ],
+     "sample": "Day to day, I prepare balance sheet reconciliations, post journals, and review my team's work. I work closely with the controllers in the UK and Europe."
+    },
+    {
+     "say": "That's helpful. What's going well, and where do you think we could improve?",
+     "points": [
+      {
+       "idea": "Share something going well",
+       "keywords": [
+        "well",
+        "good",
+        "strong",
+        "on time",
+        "accura",
+        "improv",
+        "proud"
+       ]
+      },
+      {
+       "idea": "Suggest an improvement",
+       "keywords": [
+        "improv",
+        "automat",
+        "better",
+        "could",
+        "suggest",
+        "manual",
+        "faster",
+        "process"
+       ]
+      }
+     ],
+     "sample": "Our close timelines are consistently on time. One area to improve is the manual work in intercompany reconciliations, which we could automate."
+    },
+    {
+     "say": "Good to know. How would you like us to work together? How often should we catch up?",
+     "points": [
+      {
+       "idea": "Suggest a meeting frequency",
+       "keywords": [
+        "week",
+        "fortnight",
+        "every",
+        "daily",
+        "monthly",
+        "regular",
+        "one-to-one",
+        "catch up"
+       ]
+      },
+      {
+       "idea": "Mention communication preference",
+       "keywords": [
+        "email",
+        "teams",
+        "chat",
+        "call",
+        "message",
+        "update"
+       ]
+      }
+     ],
+     "sample": "A weekly one-to-one would be great, maybe thirty minutes. For quick questions, I'll message you on Teams, and I'll send a short weekly update by email."
+    },
+    {
+     "say": "Sounds good. Is there anything you need from me to be successful in your role?",
+     "points": [
+      {
+       "idea": "Ask for support or clarity",
+       "keywords": [
+        "support",
+        "clarity",
+        "expect",
+        "priorit",
+        "goal",
+        "feedback",
+        "access",
+        "visibility"
+       ]
+      },
+      {
+       "idea": "Show enthusiasm",
+       "keywords": [
+        "look forward",
+        "looking forward",
+        "excit",
+        "happy",
+        "glad",
+        "keen"
+       ]
+      }
+     ],
+     "sample": "It would help to understand your top priorities for the team this year, and regular feedback. I'm really looking forward to working with you."
+    }
+   ],
+   "closing": "Perfect. I'll set up our weekly one-to-one and share my priorities. Really glad to have you on the team, Neha.",
+   "focus": [
+    "Prepare a short introduction: role, years, main area, one achievement.",
+    "Suggest how you'd like to work together; managers appreciate initiative.",
+    "Ask about priorities and expectations early to avoid surprises."
+   ]
+  },
+  {
+   "id": "office-03",
+   "category": "Office",
+   "title": "Asking a colleague for help",
+   "emoji": "🙋",
+   "partner": "Colleague in the Kraków office who knows the intercompany process well",
+   "you": "An analyst who needs help to meet tomorrow's reporting deadline",
+   "goal": "Ask for help politely, explain clearly what you need and agree on a time.",
+   "turns": [
+    {
+     "say": "Hi! I saw your message. What's up?",
+     "points": [
+      {
+       "idea": "Explain the situation and deadline",
+       "keywords": [
+        "deadline",
+        "tomorrow",
+        "due",
+        "report",
+        "submit",
+        "end of day"
+       ]
+      },
+      {
+       "idea": "Ask for help politely",
+       "keywords": [
+        "help",
+        "could you",
+        "would you",
+        "favour",
+        "favor",
+        "support",
+        "minute"
+       ]
+      }
+     ],
+     "sample": "Hi Tomasz, thanks for getting back to me. I have the intercompany report due tomorrow, and I was hoping you could help me with one part."
+    },
+    {
+     "say": "Sure, what exactly do you need help with?",
+     "points": [
+      {
+       "idea": "Describe the specific problem",
+       "keywords": [
+        "intercompany",
+        "mismatch",
+        "difference",
+        "balance",
+        "reconcil",
+        "entity",
+        "match",
+        "variance"
+       ]
+      },
+      {
+       "idea": "Say what you've tried",
+       "keywords": [
+        "tried",
+        "checked",
+        "already",
+        "looked",
+        "can't find",
+        "compared"
+       ]
+      }
+     ],
+     "sample": "There's a mismatch between the Poland and UK entities of about twelve thousand euros. I've already checked the invoices, but I can't find the difference."
+    },
+    {
+     "say": "Hmm, that sounds like a timing difference. When would you like to go through it?",
+     "points": [
+      {
+       "idea": "Suggest a specific time",
+       "keywords": [
+        "today",
+        "afternoon",
+        "morning",
+        "o'clock",
+        "now",
+        "after",
+        "before",
+        "minute",
+        "pm",
+        "am"
+       ]
+      },
+      {
+       "idea": "Respect their time",
+       "keywords": [
+        "if you",
+        "free",
+        "convenient",
+        "suit",
+        "busy",
+        "available",
+        "quick",
+        "only"
+       ]
+      }
+     ],
+     "sample": "Would you have fifteen minutes this afternoon, maybe around 3 p.m. your time? Only if that's convenient for you."
+    },
+    {
+     "say": "3 p.m. works. Can you send me the details beforehand?",
+     "points": [
+      {
+       "idea": "Agree to send files or details",
+       "keywords": [
+        "send",
+        "share",
+        "file",
+        "email",
+        "spreadsheet",
+        "details",
+        "workbook",
+        "link"
+       ]
+      },
+      {
+       "idea": "Say when you'll send them",
+       "keywords": [
+        "now",
+        "shortly",
+        "minutes",
+        "right away",
+        "before",
+        "by"
+       ]
+      }
+     ],
+     "sample": "Of course, I'll send you the reconciliation file and the entity balances in the next ten minutes."
+    },
+    {
+     "say": "Great. Is there anything else I should know before we look at it?",
+     "points": [
+      {
+       "idea": "Give helpful context",
+       "keywords": [
+        "period",
+        "month",
+        "posted",
+        "cut-off",
+        "rate",
+        "currency",
+        "fx",
+        "accrual",
+        "late"
+       ]
+      },
+      {
+       "idea": "Thank them",
+       "keywords": [
+        "thank",
+        "appreciat",
+        "owe",
+        "grateful",
+        "help"
+       ]
+      }
+     ],
+     "sample": "Just that the UK side posted some accruals late last month, which might be related. Thanks so much, I really appreciate your help."
+    }
+   ],
+   "closing": "No problem at all. Send it over and I'll see you at three.",
+   "focus": [
+    "Give context first (task, deadline), then ask a specific question.",
+    "Show you've tried first: 'I've already checked...'",
+    "Make it easy for them: suggest a short time slot and send material in advance."
+   ]
+  },
+  {
+   "id": "office-04",
+   "category": "Office",
+   "title": "Explaining a delay to your manager",
+   "emoji": "⏰",
+   "partner": "Your manager, who expected the vendor reconciliation pack today",
+   "you": "An analyst whose work is delayed because of missing data from another team",
+   "goal": "Own the delay, explain the reason briefly, give a new timeline and a plan.",
+   "turns": [
+    {
+     "say": "Hi, I was expecting the vendor reconciliation pack this morning. Where are we with it?",
+     "points": [
+      {
+       "idea": "Acknowledge the delay and apologise",
+       "keywords": [
+        "sorry",
+        "apolog",
+        "delay",
+        "late",
+        "behind",
+        "not ready"
+       ]
+      },
+      {
+       "idea": "Give the current status",
+       "keywords": [
+        "percent",
+        "%",
+        "most",
+        "complete",
+        "done",
+        "finish",
+        "remaining",
+        "almost"
+       ]
+      }
+     ],
+     "sample": "I'm sorry, it's running late. About eighty percent is complete, but I'm still missing data for a few vendors."
+    },
+    {
+     "say": "What's causing the delay?",
+     "points": [
+      {
+       "idea": "Explain the cause clearly",
+       "keywords": [
+        "data",
+        "statement",
+        "waiting",
+        "missing",
+        "team",
+        "system",
+        "access",
+        "receive",
+        "vendor"
+       ]
+      },
+      {
+       "idea": "Avoid blaming; focus on facts",
+       "keywords": [
+        "since",
+        "yesterday",
+        "request",
+        "follow",
+        "chase",
+        "reminder"
+       ]
+      }
+     ],
+     "sample": "We're still waiting for statements from three key vendors. I requested them on Monday and followed up yesterday, but haven't received them yet."
+    },
+    {
+     "say": "Okay. When can I realistically expect it?",
+     "points": [
+      {
+       "idea": "Give a realistic new deadline",
+       "keywords": [
+        "tomorrow",
+        "end of day",
+        "eod",
+        "by",
+        "noon",
+        "afternoon",
+        "morning",
+        "o'clock"
+       ]
+      }
+     ],
+     "sample": "If the statements arrive today, I can send the full pack by tomorrow noon."
+    },
+    {
+     "say": "And what if they don't send the statements?",
+     "points": [
+      {
+       "idea": "Offer a backup plan",
+       "keywords": [
+        "otherwise",
+        "if not",
+        "backup",
+        "alternative",
+        "partial",
+        "estimate",
+        "exclude",
+        "without",
+        "plan b",
+        "in that case"
+       ]
+      },
+      {
+       "idea": "Mention escalation or action",
+       "keywords": [
+        "escalat",
+        "call",
+        "procurement",
+        "chase",
+        "contact",
+        "manager"
+       ]
+      }
+     ],
+     "sample": "In that case, I'll send the pack tomorrow with those three vendors marked as pending, and I'll escalate to the procurement contact to get the statements."
+    },
+    {
+     "say": "Fine. Is there anything I can do to help?",
+     "points": [
+      {
+       "idea": "Ask for specific help or say none",
+       "keywords": [
+        "if you",
+        "could you",
+        "help",
+        "email",
+        "escalat",
+        "nothing",
+        "fine",
+        "thank"
+       ]
+      },
+      {
+       "idea": "Commit to keeping them updated",
+       "keywords": [
+        "update",
+        "keep you",
+        "let you know",
+        "inform",
+        "posted"
+       ]
+      }
+     ],
+     "sample": "If you could copy the vendor relationship manager on my chaser email, that would help. I'll keep you updated by end of day."
+    }
+   ],
+   "closing": "Okay, thanks for being upfront. Keep me posted.",
+   "focus": [
+    "Bad news first, then reason, new date and plan: managers want solutions.",
+    "Use facts, not blame: 'We're still waiting for...' rather than 'They didn't send it.'",
+    "Promise only a date you can meet, and offer a plan B."
+   ]
+  },
+  {
+   "id": "office-05",
+   "category": "Office",
+   "title": "Client call: reconciliation break",
+   "emoji": "📊",
+   "partner": "Finance manager at a client company in New York on a call",
+   "you": "A reconciliation analyst explaining a break in the client's bank reconciliation",
+   "goal": "Explain the break clearly, the root cause and the fix, and handle the client's questions confidently.",
+   "turns": [
+    {
+     "say": "Hi, thanks for joining. I saw the email about a reconciliation break. Can you walk me through it?",
+     "points": [
+      {
+       "idea": "State the amount and the accounts involved",
+       "keywords": [
+        "break",
+        "difference",
+        "variance",
+        "dollar",
+        "$",
+        "amount",
+        "account",
+        "bank",
+        "ledger"
+       ]
+      },
+      {
+       "idea": "Say when it was found",
+       "keywords": [
+        "found",
+        "identif",
+        "noticed",
+        "month",
+        "yesterday",
+        "during"
+       ]
+      }
+     ],
+     "sample": "Of course. During the month-end bank reconciliation, we found a difference of about forty-five thousand dollars between the bank statement and the general ledger."
+    },
+    {
+     "say": "Okay, that's significant. Do you know what caused it?",
+     "points": [
+      {
+       "idea": "Explain the root cause",
+       "keywords": [
+        "duplicate",
+        "timing",
+        "posted",
+        "twice",
+        "missing",
+        "wrong",
+        "error",
+        "cut-off",
+        "cause",
+        "fx",
+        "rate"
+       ]
+      },
+      {
+       "idea": "Give the specific transaction detail",
+       "keywords": [
+        "payment",
+        "receipt",
+        "transaction",
+        "entry",
+        "wire",
+        "date",
+        "vendor",
+        "journal"
+       ]
+      }
+     ],
+     "sample": "Yes. A vendor payment was posted twice in the ledger due to a file upload error, while the bank only processed it once."
+    },
+    {
+     "say": "I see. Has this affected anything else, or is it limited to this one item?",
+     "points": [
+      {
+       "idea": "Confirm the scope",
+       "keywords": [
+        "only",
+        "limited",
+        "one",
+        "isolated",
+        "single",
+        "checked",
+        "reviewed",
+        "no other"
+       ]
+      },
+      {
+       "idea": "Mention checks done",
+       "keywords": [
+        "checked",
+        "review",
+        "other",
+        "month",
+        "account",
+        "confirm",
+        "verified"
+       ]
+      }
+     ],
+     "sample": "It's limited to this one item. We've reviewed all uploads from the same file and confirmed there are no other duplicates."
+    },
+    {
+     "say": "Good. How and when will it be fixed?",
+     "points": [
+      {
+       "idea": "Explain the correction",
+       "keywords": [
+        "revers",
+        "correct",
+        "journal",
+        "adjust",
+        "entry",
+        "post"
+       ]
+      },
+      {
+       "idea": "Give a timeline",
+       "keywords": [
+        "today",
+        "tomorrow",
+        "end of day",
+        "eod",
+        "by",
+        "before",
+        "close"
+       ]
+      }
+     ],
+     "sample": "We'll post a reversing journal today, so the reconciliation will be clean before the close deadline tomorrow."
+    },
+    {
+     "say": "And how do we stop this happening again?",
+     "points": [
+      {
+       "idea": "Describe a preventive control",
+       "keywords": [
+        "control",
+        "check",
+        "validation",
+        "review",
+        "duplicate",
+        "automat",
+        "prevent",
+        "system",
+        "process"
+       ]
+      }
+     ],
+     "sample": "We're adding a duplicate check before each upload, and a second person will review the file before it's posted."
+    }
+   ],
+   "closing": "That sounds good. Please send me a short summary in writing, and thanks for flagging it quickly.",
+   "focus": [
+    "Structure it: what happened, cause, impact, fix, prevention.",
+    "Use precise finance vocabulary: break, variance, reversing journal, root cause.",
+    "Stay calm and factual; confidence comes from clear numbers and a plan."
+   ]
+  },
+  {
+   "id": "office-06",
+   "category": "Office",
+   "title": "Disagreeing politely in a meeting",
+   "emoji": "🗣️",
+   "partner": "Project manager leading a process-change meeting with the global finance team",
+   "you": "An analyst who thinks the proposed new deadline is not realistic",
+   "goal": "Disagree respectfully, give evidence and propose an alternative.",
+   "turns": [
+    {
+     "say": "So the plan is to move the reconciliation deadline from day five to day three of the close. Any thoughts?",
+     "points": [
+      {
+       "idea": "Acknowledge the idea before disagreeing",
+       "keywords": [
+        "understand",
+        "see",
+        "appreciate",
+        "agree",
+        "good idea",
+        "point",
+        "goal",
+        "makes sense"
+       ]
+      },
+      {
+       "idea": "Politely express concern",
+       "keywords": [
+        "concern",
+        "however",
+        "but",
+        "worried",
+        "not sure",
+        "challenging",
+        "difficult",
+        "realistic"
+       ]
+      }
+     ],
+     "sample": "I understand the goal of a faster close. However, I'm a little concerned that day three may not be realistic for our team."
+    },
+    {
+     "say": "Why do you think it's not realistic?",
+     "points": [
+      {
+       "idea": "Give evidence or data",
+       "keywords": [
+        "data",
+        "statement",
+        "bank",
+        "volume",
+        "accounts",
+        "hours",
+        "day",
+        "late",
+        "receive",
+        "currently"
+       ]
+      },
+      {
+       "idea": "Mention a dependency",
+       "keywords": [
+        "depend",
+        "wait",
+        "other team",
+        "local",
+        "receive",
+        "subledger",
+        "system",
+        "input"
+       ]
+      }
+     ],
+     "sample": "Currently, we receive bank statements and local inputs only on day two, and we have over three hundred accounts to reconcile. That leaves very little time for review."
+    },
+    {
+     "say": "But other teams have managed it. Couldn't we just work faster?",
+     "points": [
+      {
+       "idea": "Stay calm and polite",
+       "keywords": [
+        "fair",
+        "true",
+        "understand",
+        "possibly",
+        "may",
+        "respect"
+       ]
+      },
+      {
+       "idea": "Point out the risk",
+       "keywords": [
+        "risk",
+        "quality",
+        "error",
+        "accura",
+        "mistake",
+        "review",
+        "audit"
+       ]
+      }
+     ],
+     "sample": "That's a fair point. My worry is that rushing would increase the risk of errors, which could become audit issues later."
+    },
+    {
+     "say": "Okay. So what would you suggest instead?",
+     "points": [
+      {
+       "idea": "Propose an alternative",
+       "keywords": [
+        "suggest",
+        "propose",
+        "instead",
+        "pilot",
+        "phase",
+        "start",
+        "day four",
+        "high-risk",
+        "critical",
+        "prioritis",
+        "prioritiz"
+       ]
+      },
+      {
+       "idea": "Mention what's needed to make it work",
+       "keywords": [
+        "automat",
+        "earlier",
+        "input",
+        "support",
+        "tool",
+        "resource"
+       ]
+      }
+     ],
+     "sample": "I'd suggest a phased approach: move high-risk accounts to day three first, and the rest to day four, while we automate the bank feeds."
+    },
+    {
+     "say": "That's interesting. Could you put that in writing for the next meeting?",
+     "points": [
+      {
+       "idea": "Agree and commit to a timeline",
+       "keywords": [
+        "sure",
+        "happy",
+        "of course",
+        "will",
+        "send",
+        "share",
+        "by",
+        "before",
+        "friday"
+       ]
+      }
+     ],
+     "sample": "Of course. I'll share a short proposal with the volumes and timelines before Friday."
+    }
+   ],
+   "closing": "Great, thanks for raising this. Let's review your proposal next week.",
+   "focus": [
+    "Acknowledge first: 'I see the goal...', then disagree with 'However...'.",
+    "Disagree with the idea, not the person, and back it up with data.",
+    "Always bring an alternative; it turns disagreement into a contribution."
+   ]
+  },
+  {
+   "id": "office-07",
+   "category": "Office",
+   "title": "Asking for feedback in a one-to-one",
+   "emoji": "💬",
+   "partner": "Your manager in a monthly one-to-one meeting",
+   "you": "An analyst who wants honest feedback to grow towards a team-lead role",
+   "goal": "Ask for specific feedback, respond positively and agree on development actions.",
+   "turns": [
+    {
+     "say": "Thanks for setting this up. What would you like to focus on today?",
+     "points": [
+      {
+       "idea": "Say you want feedback",
+       "keywords": [
+        "feedback",
+        "input",
+        "view",
+        "thought",
+        "perform",
+        "improve"
+       ]
+      },
+      {
+       "idea": "Mention your career goal",
+       "keywords": [
+        "lead",
+        "grow",
+        "next",
+        "role",
+        "career",
+        "promotion",
+        "develop",
+        "responsib"
+       ]
+      }
+     ],
+     "sample": "I'd like to get your feedback on my performance, especially since I'd like to grow into a team-lead role."
+    },
+    {
+     "say": "Sure. Overall I'm happy with your work. Is there anything specific you'd like feedback on?",
+     "points": [
+      {
+       "idea": "Ask about a specific area",
+       "keywords": [
+        "communic",
+        "present",
+        "meeting",
+        "stakeholder",
+        "email",
+        "leadership",
+        "speak",
+        "client",
+        "call"
+       ]
+      }
+     ],
+     "sample": "Yes, specifically my communication in meetings with the global stakeholders. How do I come across?"
+    },
+    {
+     "say": "Your work is accurate, but in meetings you could speak up more and be more concise. How do you feel about that?",
+     "points": [
+      {
+       "idea": "Accept the feedback positively",
+       "keywords": [
+        "thank",
+        "fair",
+        "agree",
+        "appreciate",
+        "helpful",
+        "make sense",
+        "understand",
+        "valid"
+       ]
+      },
+      {
+       "idea": "Reflect honestly",
+       "keywords": [
+        "sometimes",
+        "notice",
+        "nervous",
+        "hesitat",
+        "quiet",
+        "tend",
+        "realise",
+        "realize"
+       ]
+      }
+     ],
+     "sample": "Thank you, that's fair. I've noticed I sometimes hesitate to speak up, especially on calls with senior people."
+    },
+    {
+     "say": "What do you think could help you with that?",
+     "points": [
+      {
+       "idea": "Suggest concrete actions",
+       "keywords": [
+        "prepare",
+        "practise",
+        "practice",
+        "course",
+        "train",
+        "present",
+        "lead",
+        "point",
+        "note",
+        "opportun"
+       ]
+      },
+      {
+       "idea": "Ask for support or opportunities",
+       "keywords": [
+        "could you",
+        "opportun",
+        "chance",
+        "support",
+        "help",
+        "mentor"
+       ]
+      }
+     ],
+     "sample": "I could prepare two or three key points before each meeting. Could you also give me the chance to present the close update next month?"
+    },
+    {
+     "say": "That's a good idea. Let's try it. How shall we track your progress?",
+     "points": [
+      {
+       "idea": "Suggest a follow-up or check-in",
+       "keywords": [
+        "next",
+        "month",
+        "review",
+        "check",
+        "follow",
+        "one-to-one",
+        "track",
+        "feedback",
+        "after"
+       ]
+      }
+     ],
+     "sample": "Maybe we could review it in our next one-to-one, and you could give me quick feedback after the presentation."
+    }
+   ],
+   "closing": "Perfect. I'll put you down for next month's close update. I'm glad you asked for this.",
+   "focus": [
+    "Ask for specific feedback: 'How do I come across in meetings?' gets better answers than 'How am I doing?'",
+    "Thank the person and accept feedback without defending yourself.",
+    "Turn feedback into actions and a follow-up date."
+   ]
+  },
+  {
+   "id": "office-08",
+   "category": "Office",
+   "title": "Upset stakeholder: late vendor payment",
+   "emoji": "😠",
+   "partner": "Procurement manager in the Amsterdam office who is upset that a key vendor was paid late",
+   "you": "An accounts payable team member handling the escalation",
+   "goal": "Calm the stakeholder, explain what happened, give a fix and prevent it happening again.",
+   "turns": [
+    {
+     "say": "I've just had a very angry call from our logistics supplier. They say they still haven't been paid, and it's two weeks overdue! What's going on?",
+     "points": [
+      {
+       "idea": "Apologise and acknowledge the impact",
+       "keywords": [
+        "sorry",
+        "apolog",
+        "understand",
+        "frustrat",
+        "inconvenien",
+        "impact"
+       ]
+      },
+      {
+       "idea": "Show you are taking ownership",
+       "keywords": [
+        "look into",
+        "check",
+        "sort",
+        "resolve",
+        "take care",
+        "ownership",
+        "personally",
+        "fix"
+       ]
+      }
+     ],
+     "sample": "I'm really sorry about this, and I understand how frustrating it is, especially with a key supplier. I'll look into it right away and get it resolved."
+    },
+    {
+     "say": "I need to know why this happened.",
+     "points": [
+      {
+       "idea": "Explain the cause briefly",
+       "keywords": [
+        "invoice",
+        "approval",
+        "block",
+        "hold",
+        "bank",
+        "detail",
+        "mismatch",
+        "po",
+        "purchase order",
+        "missing",
+        "system"
+       ]
+      }
+     ],
+     "sample": "I've checked, and the invoice was on hold because the bank details on it didn't match the vendor master data, so the payment was blocked."
+    },
+    {
+     "say": "Well, why didn't anyone tell us?",
+     "points": [
+      {
+       "idea": "Admit the communication gap",
+       "keywords": [
+        "should have",
+        "right",
+        "fair",
+        "inform",
+        "communicat",
+        "notif",
+        "flag",
+        "missed"
+       ]
+      },
+      {
+       "idea": "Avoid excuses",
+       "keywords": [
+        "apolog",
+        "sorry",
+        "lesson",
+        "agree",
+        "point"
+       ]
+      }
+     ],
+     "sample": "You're right, we should have informed you sooner. The query went to the supplier, but we didn't flag it to procurement, and I apologise for that."
+    },
+    {
+     "say": "So when will they get their money?",
+     "points": [
+      {
+       "idea": "Give a clear payment date",
+       "keywords": [
+        "today",
+        "tomorrow",
+        "urgent",
+        "priority",
+        "manual",
+        "same-day",
+        "by",
+        "end of day"
+       ]
+      },
+      {
+       "idea": "Say what's needed to make it happen",
+       "keywords": [
+        "confirm",
+        "bank details",
+        "verif",
+        "approval",
+        "once"
+       ]
+      }
+     ],
+     "sample": "Once the supplier confirms their bank details, which we've asked for today, we'll make an urgent same-day payment. They should have the money by tomorrow."
+    },
+    {
+     "say": "Fine. But how do we make sure this doesn't happen again?",
+     "points": [
+      {
+       "idea": "Propose a preventive step",
+       "keywords": [
+        "alert",
+        "notif",
+        "flag",
+        "report",
+        "weekly",
+        "process",
+        "inform",
+        "list",
+        "check",
+        "escalat"
+       ]
+      }
+     ],
+     "sample": "Going forward, we'll send procurement a weekly report of all invoices on hold, so you can help us resolve them before they become overdue."
+    },
+    {
+     "say": "Okay. Can you also let the supplier know what's happening?",
+     "points": [
+      {
+       "idea": "Agree and say how and when",
+       "keywords": [
+        "email",
+        "call",
+        "contact",
+        "today",
+        "now",
+        "will",
+        "copy",
+        "cc",
+        "update"
+       ]
+      }
+     ],
+     "sample": "Absolutely. I'll call them this afternoon, then email them the payment confirmation and copy you in."
+    }
+   ],
+   "closing": "Alright, thank you. I appreciate you sorting this out quickly.",
+   "focus": [
+    "Acknowledge feelings first ('I understand how frustrating this is'), then facts.",
+    "Take ownership with 'I' statements: 'I'll look into it right away.'",
+    "End with a clear date, a prevention step and how you'll keep them informed."
+   ]
+  },
+  {
+   "id": "office-09",
+   "category": "Office",
+   "title": "Month-end close status to the controller",
+   "emoji": "📈",
+   "partner": "Financial controller for the European entities, on a status call",
+   "you": "The shared services close lead presenting the month-end status",
+   "goal": "Present close status clearly: progress, key issues, risks and what you need.",
+   "turns": [
+    {
+     "say": "Hi, thanks for joining. Can you give me a quick overview of where we are with the close?",
+     "points": [
+      {
+       "idea": "Give overall status",
+       "keywords": [
+        "track",
+        "schedule",
+        "complete",
+        "percent",
+        "%",
+        "done",
+        "progress",
+        "status",
+        "behind",
+        "ahead"
+       ]
+      },
+      {
+       "idea": "Mention the day of close",
+       "keywords": [
+        "day",
+        "today",
+        "workday",
+        "wd",
+        "deadline"
+       ]
+      }
+     ],
+     "sample": "Sure. We're on day three of the close, and overall we're on track. About seventy percent of the reconciliations are complete."
+    },
+    {
+     "say": "Good. Any key issues I should be aware of?",
+     "points": [
+      {
+       "idea": "Describe a key issue",
+       "keywords": [
+        "issue",
+        "intercompany",
+        "accrual",
+        "difference",
+        "variance",
+        "late",
+        "missing",
+        "pending",
+        "break",
+        "mismatch"
+       ]
+      },
+      {
+       "idea": "Give an amount or entity",
+       "keywords": [
+        "euro",
+        "€",
+        "thousand",
+        "million",
+        "entity",
+        "germany",
+        "france",
+        "uk",
+        "amount"
+       ]
+      }
+     ],
+     "sample": "One key issue: there's an unresolved intercompany difference of about a hundred and twenty thousand euros between Germany and France."
+    },
+    {
+     "say": "What's your plan to resolve it?",
+     "points": [
+      {
+       "idea": "Explain the action plan",
+       "keywords": [
+        "working",
+        "call",
+        "meet",
+        "investigat",
+        "review",
+        "team",
+        "align",
+        "correct",
+        "plan"
+       ]
+      },
+      {
+       "idea": "Give a date",
+       "keywords": [
+        "today",
+        "tomorrow",
+        "day four",
+        "by",
+        "end of day",
+        "eod"
+       ]
+      }
+     ],
+     "sample": "We have a call with both entity teams this afternoon to align the balances, and we expect it to be resolved by end of day tomorrow."
+    },
+    {
+     "say": "Any risks to the reporting deadline?",
+     "points": [
+      {
+       "idea": "Name a risk honestly",
+       "keywords": [
+        "risk",
+        "depend",
+        "might",
+        "could",
+        "delay",
+        "late"
+       ]
+      },
+      {
+       "idea": "Mention a mitigation",
+       "keywords": [
+        "mitigat",
+        "backup",
+        "estimate",
+        "accrual",
+        "extra",
+        "plan",
+        "otherwise",
+        "contingency"
+       ]
+      }
+     ],
+     "sample": "The main risk is if the German team's late invoices aren't posted by tomorrow. If that happens, we'll book an accrual based on estimates so we still meet the deadline."
+    },
+    {
+     "say": "Okay. Is there anything you need from me?",
+     "points": [
+      {
+       "idea": "Make a clear request",
+       "keywords": [
+        "need",
+        "approval",
+        "approve",
+        "support",
+        "decision",
+        "help",
+        "if you could",
+        "sign"
+       ]
+      }
+     ],
+     "sample": "Yes, if we need to book the accrual, I'll need your approval by tomorrow afternoon. I'll send the details in advance."
+    }
+   ],
+   "closing": "Got it. Thanks for the clear update. Send me the accrual details and we'll speak tomorrow.",
+   "focus": [
+    "Lead with the headline: 'We're on track' or 'We're behind', then details.",
+    "For each issue, give the amount, the plan and the date.",
+    "Name risks early with a mitigation; controllers dislike surprises."
+   ]
+  },
+  {
+   "id": "office-10",
+   "category": "Office",
+   "title": "Small talk before a global call",
+   "emoji": "🌍",
+   "partner": "Colleague in the New York office, joining a video call a few minutes early",
+   "you": "A finance analyst in Bengaluru joining the same call",
+   "goal": "Make relaxed small talk about the weekend, weather and time zones before the meeting starts.",
+   "turns": [
+    {
+     "say": "Hey, good morning! Or I guess it's evening for you, right?",
+     "points": [
+      {
+       "idea": "Respond with the local time of day",
+       "keywords": [
+        "evening",
+        "night",
+        "o'clock",
+        "pm",
+        "late",
+        "here"
+       ]
+      },
+      {
+       "idea": "Return the greeting",
+       "keywords": [
+        "morning",
+        "how are you",
+        "hi",
+        "hello",
+        "good"
+       ]
+      }
+     ],
+     "sample": "Hi! Yes, it's evening here, almost 7:30 p.m. Good morning to you, how are you doing?"
+    },
+    {
+     "say": "I'm good, thanks, just had my first coffee. Did you do anything nice over the weekend?",
+     "points": [
+      {
+       "idea": "Share a short weekend activity",
+       "keywords": [
+        "family",
+        "friend",
+        "movie",
+        "film",
+        "cricket",
+        "walk",
+        "dinner",
+        "relax",
+        "shopping",
+        "trip",
+        "visit",
+        "rest",
+        "cook"
+       ]
+      },
+      {
+       "idea": "Add a small detail",
+       "keywords": [
+        "nice",
+        "lovely",
+        "fun",
+        "enjoy",
+        "great",
+        "lunch",
+        "restaurant",
+        "temple",
+        "festival"
+       ]
+      }
+     ],
+     "sample": "It was nice, thanks. I visited my parents and we went out for a big family lunch. Pretty relaxing overall."
+    },
+    {
+     "say": "Sounds great. It's freezing here already, we had our first snow. What's the weather like there?",
+     "points": [
+      {
+       "idea": "Describe your weather",
+       "keywords": [
+        "hot",
+        "warm",
+        "sunny",
+        "rain",
+        "pleasant",
+        "humid",
+        "cool",
+        "degree",
+        "monsoon",
+        "nice"
+       ]
+      },
+      {
+       "idea": "React to their weather",
+       "keywords": [
+        "snow",
+        "cold",
+        "freezing",
+        "wow",
+        "brr",
+        "lucky",
+        "jealous",
+        "imagine",
+        "stay warm"
+       ]
+      }
+     ],
+     "sample": "Wow, snow already! Here it's quite pleasant, around twenty-five degrees. I'd love to see snow one day, though, stay warm!"
+    },
+    {
+     "say": "Ha, thanks. Doesn't the time difference make these calls tough for you?",
+     "points": [
+      {
+       "idea": "Answer honestly but positively",
+       "keywords": [
+        "used to",
+        "fine",
+        "manage",
+        "okay",
+        "sometimes",
+        "late",
+        "flexib",
+        "worth"
+       ]
+      },
+      {
+       "idea": "Mention how you handle it",
+       "keywords": [
+        "start later",
+        "late",
+        "morning",
+        "schedule",
+        "plan",
+        "shift",
+        "adjust",
+        "break"
+       ]
+      }
+     ],
+     "sample": "I'm used to it now. I usually start a bit later in the day, so evening calls are fine. And it's always nice to talk to the team."
+    },
+    {
+     "say": "That's good to hear. Any plans for the coming holidays?",
+     "points": [
+      {
+       "idea": "Share a plan or say none yet",
+       "keywords": [
+        "travel",
+        "trip",
+        "home",
+        "family",
+        "diwali",
+        "festival",
+        "holiday",
+        "vacation",
+        "leave",
+        "not yet",
+        "plan"
+       ]
+      },
+      {
+       "idea": "Ask a question back",
+       "keywords": [
+        "your",
+        "thanksgiving",
+        "what about",
+        "how about"
+       ]
+      }
+     ],
+     "sample": "Yes, I'm taking a few days off for Diwali to celebrate with family. What about you, are you doing anything for Thanksgiving?"
+    }
+   ],
+   "closing": "Oh nice, happy Diwali in advance! Looks like everyone's joining now, so let's get started.",
+   "focus": [
+    "Keep small talk light and positive: weekend, weather, holidays, food.",
+    "Mention local time and festivals; global colleagues enjoy learning about India.",
+    "Always ask a question back so it feels like a real conversation."
+   ]
+  },
+  {
+   "id": "interview-01",
+   "category": "Interview",
+   "title": "Tell me about yourself",
+   "emoji": "🙋",
+   "partner": "HR recruiter at a global bank doing a phone screening",
+   "you": "Finance shared services professional applying for a Senior Analyst role",
+   "goal": "Give a clear, confident introduction and show you are a good fit for the role.",
+   "turns": [
+    {
+     "say": "Hi, thanks for joining the call. To start, could you tell me a little about yourself?",
+     "points": [
+      {
+       "idea": "Current role and company",
+       "keywords": [
+        "currently",
+        "working",
+        "analyst",
+        "role",
+        "team"
+       ]
+      },
+      {
+       "idea": "Years of experience and domain",
+       "keywords": [
+        "year",
+        "experience",
+        "finance",
+        "reconcil",
+        "shared service"
+       ]
+      },
+      {
+       "idea": "A key achievement or skill",
+       "keywords": [
+        "automat",
+        "achiev",
+        "improv",
+        "led",
+        "built"
+       ]
+      }
+     ],
+     "sample": "I'm currently a Senior Analyst in a finance shared services team, with about six years of experience in reconciliation and month-end close. Recently I've been leading automation of our bank reconciliations, which cut manual effort by around forty percent."
+    },
+    {
+     "say": "That sounds good. What does a typical day look like in your current job?",
+     "points": [
+      {
+       "idea": "Daily tasks",
+       "keywords": [
+        "reconcil",
+        "review",
+        "match",
+        "report",
+        "journal",
+        "close"
+       ]
+      },
+      {
+       "idea": "Stakeholders you work with",
+       "keywords": [
+        "stakeholder",
+        "client",
+        "business",
+        "team",
+        "manager",
+        "onshore"
+       ]
+      }
+     ],
+     "sample": "A typical day starts with reviewing the overnight reconciliation results and clearing exceptions. Then I work with onshore stakeholders on open items and spend the rest of the day on automation improvements."
+    },
+    {
+     "say": "Okay. And what made you apply for this position with us?",
+     "points": [
+      {
+       "idea": "Interest in the company or role",
+       "keywords": [
+        "bank",
+        "global",
+        "company",
+        "organisation",
+        "organization",
+        "role",
+        "opportunit"
+       ]
+      },
+      {
+       "idea": "How your skills match",
+       "keywords": [
+        "skill",
+        "experience",
+        "match",
+        "fit",
+        "contribut",
+        "bring"
+       ]
+      }
+     ],
+     "sample": "I've followed your bank's finance transformation programme, and this role combines reconciliation expertise with automation, which is exactly what I've been doing. I believe I can contribute from day one."
+    },
+    {
+     "say": "What would you say are the main tools or systems you are comfortable with?",
+     "points": [
+      {
+       "idea": "Finance systems",
+       "keywords": [
+        "sap",
+        "oracle",
+        "erp",
+        "blackline",
+        "trintech",
+        "system"
+       ]
+      },
+      {
+       "idea": "Analytical or automation tools",
+       "keywords": [
+        "excel",
+        "python",
+        "sql",
+        "power bi",
+        "alteryx",
+        "rpa",
+        "macro",
+        "uipath"
+       ]
+      }
+     ],
+     "sample": "I work daily in SAP and BlackLine, and I'm very comfortable with advanced Excel. For automation I use Python and some SQL, and I've built a few UiPath bots."
+    },
+    {
+     "say": "Great. Are you open to working in a hybrid model, with some overlap with UK hours?",
+     "points": [
+      {
+       "idea": "Clear yes and flexibility",
+       "keywords": [
+        "open",
+        "flexib",
+        "comfortable",
+        "happy",
+        "fine"
+       ]
+      },
+      {
+       "idea": "Relevant past experience with time zones",
+       "keywords": [
+        "uk",
+        "us",
+        "overlap",
+        "shift",
+        "time zone",
+        "already",
+        "currently"
+       ]
+      }
+     ],
+     "sample": "Yes, absolutely. I already work with a UK team, so I'm used to overlapping hours and I'm comfortable with a hybrid setup."
+    },
+    {
+     "say": "Lovely. Before we move on, is there anything else you would like me to know about you?",
+     "points": [
+      {
+       "idea": "One extra strength or highlight",
+       "keywords": [
+        "certif",
+        "award",
+        "recogni",
+        "strength",
+        "passion",
+        "learn"
+       ]
+      },
+      {
+       "idea": "Enthusiasm for the role",
+       "keywords": [
+        "excit",
+        "interest",
+        "look forward",
+        "keen",
+        "enthusias"
+       ]
+      }
+     ],
+     "sample": "Just that I recently completed a certification in data analytics, and I'm genuinely excited about this role. I'd love to bring my automation experience to your team."
+    }
+   ],
+   "closing": "Thank you, that was very helpful. I'll share my notes with the hiring manager and get back to you within a week.",
+   "focus": [
+    "Use a Present-Past-Future structure: current role, key past achievement, why this role next.",
+    "Keep the introduction under 90 seconds and mention one number (years, %, hours saved).",
+    "End answers with enthusiasm for the role instead of trailing off."
+   ]
+  },
+  {
+   "id": "interview-02",
+   "category": "Interview",
+   "title": "Conflict at work (STAR)",
+   "emoji": "⚖️",
+   "partner": "Hiring manager running a behavioural interview",
+   "you": "Reconciliation team lead candidate",
+   "goal": "Describe a workplace conflict using the STAR method and show maturity in resolving it.",
+   "turns": [
+    {
+     "say": "Let's do some behavioural questions. Tell me about a time you had a conflict with a colleague or stakeholder.",
+     "points": [
+      {
+       "idea": "Situation: context of the conflict",
+       "keywords": [
+        "situation",
+        "project",
+        "month-end",
+        "close",
+        "colleague",
+        "stakeholder",
+        "when"
+       ]
+      },
+      {
+       "idea": "What the disagreement was about",
+       "keywords": [
+        "disagree",
+        "conflict",
+        "differ",
+        "deadline",
+        "priorit",
+        "blame",
+        "issue"
+       ]
+      }
+     ],
+     "sample": "During a month-end close last year, an onshore stakeholder kept escalating that our reconciliations were late. We disagreed because the delay was actually caused by late data from their side."
+    },
+    {
+     "say": "I see. What exactly was your responsibility in that situation?",
+     "points": [
+      {
+       "idea": "Task: your role and goal",
+       "keywords": [
+        "responsib",
+        "my role",
+        "task",
+        "lead",
+        "accountab",
+        "needed to"
+       ]
+      }
+     ],
+     "sample": "As the reconciliation lead, I was responsible for delivering on time and also for keeping a good relationship with that stakeholder."
+    },
+    {
+     "say": "So what did you actually do about it?",
+     "points": [
+      {
+       "idea": "Action: specific steps you took",
+       "keywords": [
+        "meet",
+        "call",
+        "discuss",
+        "spoke",
+        "listen",
+        "data",
+        "propos",
+        "agreed",
+        "timeline"
+       ]
+      },
+      {
+       "idea": "Staying calm and professional",
+       "keywords": [
+        "calm",
+        "understand",
+        "perspective",
+        "respect",
+        "professional",
+        "fact",
+        "listen"
+       ]
+      }
+     ],
+     "sample": "I set up a one-to-one call, listened to her concerns first, and then showed the data on when files actually arrived. We agreed on a cut-off time and a shared tracker for the inputs."
+    },
+    {
+     "say": "And what was the outcome?",
+     "points": [
+      {
+       "idea": "Result with a measurable outcome",
+       "keywords": [
+        "result",
+        "on time",
+        "improv",
+        "reduc",
+        "%",
+        "no escalation",
+        "since",
+        "relationship"
+       ]
+      }
+     ],
+     "sample": "After that, we closed on time for the next six months with zero escalations, and she actually became one of our strongest supporters."
+    },
+    {
+     "say": "Interesting. Looking back, would you do anything differently?",
+     "points": [
+      {
+       "idea": "Reflection and learning",
+       "keywords": [
+        "learn",
+        "different",
+        "earlier",
+        "next time",
+        "would have",
+        "proactiv",
+        "lesson"
+       ]
+      }
+     ],
+     "sample": "I would have raised the data timing issue earlier and more proactively, instead of waiting for it to become an escalation. Now I flag risks in the first week of the close."
+    },
+    {
+     "say": "Good. How do you usually handle disagreements with your own manager?",
+     "points": [
+      {
+       "idea": "Respectful, fact-based approach",
+       "keywords": [
+        "respect",
+        "fact",
+        "data",
+        "private",
+        "one-to-one",
+        "listen",
+        "suggest"
+       ]
+      },
+      {
+       "idea": "Accepting the final decision",
+       "keywords": [
+        "decision",
+        "align",
+        "accept",
+        "support",
+        "commit"
+       ]
+      }
+     ],
+     "sample": "I share my view privately and back it with data. If my manager still decides differently, I commit to the decision and support it fully."
+    }
+   ],
+   "closing": "Thank you, that's a very clear example. Let's move to the next section.",
+   "focus": [
+    "Use STAR: Situation, Task, Action, Result - spend most time on Action.",
+    "Say 'I', not just 'we', so the interviewer hears your own contribution.",
+    "Never blame the other person; show empathy and a measurable result."
+   ]
+  },
+  {
+   "id": "interview-03",
+   "category": "Interview",
+   "title": "Strengths, weaknesses & why this role",
+   "emoji": "💪",
+   "partner": "Talent acquisition partner at a Big Four firm",
+   "you": "Finance operations professional interviewing for an Assistant Manager role",
+   "goal": "Present honest strengths and a real weakness with improvement, and explain why you want this role.",
+   "turns": [
+    {
+     "say": "What would you say is your biggest strength?",
+     "points": [
+      {
+       "idea": "A specific strength",
+       "keywords": [
+        "analytic",
+        "detail",
+        "problem",
+        "automat",
+        "communicat",
+        "ownership",
+        "organis",
+        "organiz"
+       ]
+      },
+      {
+       "idea": "Example proving the strength",
+       "keywords": [
+        "example",
+        "for instance",
+        "recently",
+        "when",
+        "saved",
+        "found"
+       ]
+      }
+     ],
+     "sample": "My biggest strength is problem solving with data. For example, I noticed recurring breaks in our intercompany reconciliation, traced them to a mapping error, and fixed the root cause."
+    },
+    {
+     "say": "Okay. And what about a weakness, something you are working on?",
+     "points": [
+      {
+       "idea": "A genuine weakness",
+       "keywords": [
+        "weakness",
+        "tend",
+        "used to",
+        "struggle",
+        "sometimes",
+        "delegat",
+        "public speaking",
+        "perfection"
+       ]
+      },
+      {
+       "idea": "Steps you are taking to improve",
+       "keywords": [
+        "working on",
+        "improv",
+        "now i",
+        "course",
+        "practis",
+        "practic",
+        "learn"
+       ]
+      }
+     ],
+     "sample": "I used to find it hard to delegate because I wanted everything perfect. I'm working on it by giving clear checklists to juniors and reviewing outputs instead of doing them myself."
+    },
+    {
+     "say": "How would your current manager describe you?",
+     "points": [
+      {
+       "idea": "Positive qualities with credibility",
+       "keywords": [
+        "reliable",
+        "depend",
+        "trust",
+        "go-to",
+        "proactive",
+        "calm",
+        "feedback",
+        "appraisal",
+        "review"
+       ]
+      }
+     ],
+     "sample": "My manager would say I'm reliable and proactive. In my last appraisal she mentioned I'm the go-to person when a reconciliation issue needs a quick fix."
+    },
+    {
+     "say": "Why are you interested in this particular role?",
+     "points": [
+      {
+       "idea": "What attracts you to the role",
+       "keywords": [
+        "role",
+        "scope",
+        "client",
+        "advisory",
+        "exposure",
+        "transform",
+        "challeng"
+       ]
+      },
+      {
+       "idea": "Link to your career direction",
+       "keywords": [
+        "career",
+        "grow",
+        "next step",
+        "long term",
+        "goal",
+        "develop"
+       ]
+      }
+     ],
+     "sample": "This role gives me exposure to multiple clients and finance transformation projects, which is the natural next step after running operations. It fits my goal of moving into process advisory."
+    },
+    {
+     "say": "Why should we pick you over other candidates?",
+     "points": [
+      {
+       "idea": "Unique combination of skills",
+       "keywords": [
+        "combin",
+        "both",
+        "unique",
+        "domain",
+        "technical",
+        "hands-on"
+       ]
+      },
+      {
+       "idea": "Proof through results",
+       "keywords": [
+        "result",
+        "deliver",
+        "saved",
+        "%",
+        "hour",
+        "reduc"
+       ]
+      }
+     ],
+     "sample": "I bring a rare combination of hands-on reconciliation knowledge and automation skills. I've already delivered savings of over two thousand hours a year, so I can add value quickly."
+    }
+   ],
+   "closing": "Thanks for your honest answers. We'll be in touch about the next round.",
+   "focus": [
+    "Pick a real weakness, not a disguised strength, and show the action you are taking.",
+    "Back every strength with a short example or number.",
+    "Connect 'why this role' to both the company and your career plan."
+   ]
+  },
+  {
+   "id": "interview-04",
+   "category": "Interview",
+   "title": "Technical: reconciliation & month-end close",
+   "emoji": "📊",
+   "partner": "Finance controller conducting a technical interview",
+   "you": "Candidate for a Reconciliation Lead position",
+   "goal": "Explain reconciliation and month-end close concepts clearly and correctly in spoken English.",
+   "turns": [
+    {
+     "say": "Let's get technical. In simple words, how would you explain a bank reconciliation?",
+     "points": [
+      {
+       "idea": "Comparing ledger with bank statement",
+       "keywords": [
+        "compar",
+        "ledger",
+        "book",
+        "bank statement",
+        "match",
+        "gl"
+       ]
+      },
+      {
+       "idea": "Identifying and explaining differences",
+       "keywords": [
+        "differ",
+        "timing",
+        "outstanding",
+        "uncleared",
+        "break",
+        "unmatched",
+        "explain"
+       ]
+      }
+     ],
+     "sample": "A bank reconciliation compares the cash balance in our general ledger with the bank statement. We match the transactions and explain any differences, such as outstanding cheques or timing items."
+    },
+    {
+     "say": "Good. What are the most common reasons for reconciling items that you see?",
+     "points": [
+      {
+       "idea": "Timing differences",
+       "keywords": [
+        "timing",
+        "in transit",
+        "outstanding",
+        "cut-off",
+        "cutoff"
+       ]
+      },
+      {
+       "idea": "Errors or missing entries",
+       "keywords": [
+        "error",
+        "duplicate",
+        "missing",
+        "fee",
+        "charge",
+        "wrong"
+       ]
+      }
+     ],
+     "sample": "Mostly timing differences like deposits in transit and uncleared payments. We also see bank charges not booked yet, duplicates, and occasional posting errors."
+    },
+    {
+     "say": "How do you handle old open items that just keep ageing?",
+     "points": [
+      {
+       "idea": "Investigate and escalate",
+       "keywords": [
+        "investigat",
+        "root cause",
+        "escalat",
+        "follow up",
+        "owner"
+       ]
+      },
+      {
+       "idea": "Ageing analysis or write-off policy",
+       "keywords": [
+        "ageing",
+        "aging",
+        "write",
+        "threshold",
+        "policy",
+        "days",
+        "provision"
+       ]
+      }
+     ],
+     "sample": "I run an ageing analysis and assign an owner to every item over thirty days. If it can't be resolved, we escalate and, as per policy, write it off or provide for it with approval."
+    },
+    {
+     "say": "Walk me through the key steps of a month-end close in your team.",
+     "points": [
+      {
+       "idea": "Sequence of close activities",
+       "keywords": [
+        "accrual",
+        "journal",
+        "sub-ledger",
+        "subledger",
+        "cut-off",
+        "post",
+        "reconcil"
+       ]
+      },
+      {
+       "idea": "Review and reporting",
+       "keywords": [
+        "review",
+        "variance",
+        "flux",
+        "report",
+        "sign",
+        "approv"
+       ]
+      }
+     ],
+     "sample": "We start with cut-off and sub-ledger closing, then post accruals and journals. After that we complete balance sheet reconciliations, do variance analysis, and get sign-off before reporting."
+    },
+    {
+     "say": "Which controls do you think are most important in reconciliations?",
+     "points": [
+      {
+       "idea": "Segregation of duties and review",
+       "keywords": [
+        "segregat",
+        "maker",
+        "checker",
+        "review",
+        "approv",
+        "four-eye"
+       ]
+      },
+      {
+       "idea": "Documentation and audit trail",
+       "keywords": [
+        "document",
+        "evidence",
+        "audit",
+        "trail",
+        "sox",
+        "support"
+       ]
+      }
+     ],
+     "sample": "Segregation of duties is key, so the preparer and reviewer must be different. Also proper documentation and evidence, so there's a clear audit trail for SOX."
+    },
+    {
+     "say": "Last one. How did you reduce the close timeline in your current role, if at all?",
+     "points": [
+      {
+       "idea": "Specific improvement",
+       "keywords": [
+        "automat",
+        "standard",
+        "template",
+        "parallel",
+        "earlier",
+        "calendar",
+        "tool"
+       ]
+      },
+      {
+       "idea": "Measured impact",
+       "keywords": [
+        "day",
+        "reduc",
+        "from",
+        "%",
+        "faster",
+        "hour"
+       ]
+      }
+     ],
+     "sample": "We automated the high-volume bank recs and standardised the templates. That brought our close from working day six to working day four."
+    }
+   ],
+   "closing": "Very good, you clearly know the process well. Thank you.",
+   "focus": [
+    "Explain concepts simply first, then add one technical detail.",
+    "Use correct terms: general ledger, accruals, timing differences, segregation of duties.",
+    "Finish technical answers with a real example from your own work."
+   ]
+  },
+  {
+   "id": "interview-05",
+   "category": "Interview",
+   "title": "Automation project deep dive",
+   "emoji": "🤖",
+   "partner": "Head of Finance Transformation",
+   "you": "Candidate who led a reconciliation automation project",
+   "goal": "Explain an automation project end to end: problem, solution, your role, and impact.",
+   "turns": [
+    {
+     "say": "Your CV mentions an automation project. What problem were you trying to solve?",
+     "points": [
+      {
+       "idea": "The business problem",
+       "keywords": [
+        "manual",
+        "time",
+        "error",
+        "volume",
+        "delay",
+        "effort",
+        "spreadsheet"
+       ]
+      },
+      {
+       "idea": "Scale of the problem",
+       "keywords": [
+        "hour",
+        "transaction",
+        "daily",
+        "month",
+        "people",
+        "fte"
+       ]
+      }
+     ],
+     "sample": "Our team was manually matching about fifty thousand card transactions every month in Excel. It took four people almost a week and caused frequent errors."
+    },
+    {
+     "say": "And what solution did you build?",
+     "points": [
+      {
+       "idea": "The technical approach",
+       "keywords": [
+        "python",
+        "rpa",
+        "bot",
+        "rule",
+        "matching",
+        "script",
+        "tool",
+        "alteryx",
+        "blackline"
+       ]
+      },
+      {
+       "idea": "How it works",
+       "keywords": [
+        "extract",
+        "match",
+        "exception",
+        "upload",
+        "automatic",
+        "flag"
+       ]
+      }
+     ],
+     "sample": "We built a Python matching engine with rule-based logic. It extracts data from SAP and the bank, auto-matches most items, and flags only the exceptions for review."
+    },
+    {
+     "say": "What was your personal role in this?",
+     "points": [
+      {
+       "idea": "Your specific contribution",
+       "keywords": [
+        "i led",
+        "i design",
+        "i built",
+        "i wrote",
+        "i gather",
+        "requirement",
+        "lead"
+       ]
+      }
+     ],
+     "sample": "I led the project end to end. I gathered requirements from the team, designed the matching rules, wrote most of the code, and coordinated testing with IT."
+    },
+    {
+     "say": "What challenges did you face along the way?",
+     "points": [
+      {
+       "idea": "Technical or people challenges",
+       "keywords": [
+        "challeng",
+        "data quality",
+        "resist",
+        "format",
+        "change",
+        "approval",
+        "security"
+       ]
+      },
+      {
+       "idea": "How you overcame them",
+       "keywords": [
+        "solved",
+        "overcame",
+        "worked with",
+        "train",
+        "pilot",
+        "convinc",
+        "fixed"
+       ]
+      }
+     ],
+     "sample": "The biggest challenge was poor data quality and some resistance from the team. We ran a small pilot first, which showed results and helped convince people."
+    },
+    {
+     "say": "Okay. What impact did it have, in numbers if possible?",
+     "points": [
+      {
+       "idea": "Quantified result",
+       "keywords": [
+        "%",
+        "hour",
+        "day",
+        "saved",
+        "reduc",
+        "match rate",
+        "fte",
+        "accuracy"
+       ]
+      }
+     ],
+     "sample": "The auto-match rate reached ninety-two percent, and the effort dropped from five days to half a day. That's roughly fifteen hundred hours saved per year."
+    },
+    {
+     "say": "If you had to do it again, what would you change?",
+     "points": [
+      {
+       "idea": "Lessons learned",
+       "keywords": [
+        "earlier",
+        "involve",
+        "document",
+        "test",
+        "scale",
+        "differently",
+        "learn"
+       ]
+      }
+     ],
+     "sample": "I'd involve IT and audit earlier, and document the logic from day one. That would have made the approval process much faster."
+    }
+   ],
+   "closing": "Impressive work. I can see you understand both the business and the technology.",
+   "focus": [
+    "Structure it as problem, solution, your role, challenges, impact.",
+    "Quantify impact: hours saved, match rate, error reduction.",
+    "Avoid too much jargon; explain technical parts so a non-technical manager follows."
+   ]
+  },
+  {
+   "id": "interview-06",
+   "category": "Interview",
+   "title": "Salary & notice period",
+   "emoji": "💰",
+   "partner": "HR manager discussing the offer",
+   "you": "Selected candidate negotiating compensation and joining date",
+   "goal": "Negotiate salary and notice period politely, confidently, and with justification.",
+   "turns": [
+    {
+     "say": "We're happy to move forward. What are your salary expectations?",
+     "points": [
+      {
+       "idea": "A clear range or figure",
+       "keywords": [
+        "lakh",
+        "lpa",
+        "ctc",
+        "range",
+        "expect",
+        "looking for"
+       ]
+      },
+      {
+       "idea": "Justification",
+       "keywords": [
+        "market",
+        "experience",
+        "skill",
+        "role",
+        "responsib",
+        "research"
+       ]
+      }
+     ],
+     "sample": "Based on my experience and the market for this role, I'm looking for something in the range of eighteen to twenty lakhs per annum, fixed."
+    },
+    {
+     "say": "Hmm, that's a little above our budget for this band. Is there any flexibility?",
+     "points": [
+      {
+       "idea": "Polite flexibility without giving up value",
+       "keywords": [
+        "flexib",
+        "open",
+        "understand",
+        "discuss",
+        "consider"
+       ]
+      },
+      {
+       "idea": "Alternative components",
+       "keywords": [
+        "bonus",
+        "variable",
+        "joining",
+        "review",
+        "six months",
+        "benefit",
+        "component"
+       ]
+      }
+     ],
+     "sample": "I understand, and I'm open to discussing it. If the fixed part is limited, could we look at a joining bonus or an early salary review after six months?"
+    },
+    {
+     "say": "What is your current notice period?",
+     "points": [
+      {
+       "idea": "Clear notice period",
+       "keywords": [
+        "day",
+        "month",
+        "notice",
+        "90",
+        "60",
+        "30"
+       ]
+      }
+     ],
+     "sample": "My official notice period is ninety days, but I can try to negotiate an early release."
+    },
+    {
+     "say": "We really need someone within sixty days. Is that possible?",
+     "points": [
+      {
+       "idea": "Commitment to try with a plan",
+       "keywords": [
+        "try",
+        "speak",
+        "manager",
+        "request",
+        "early release",
+        "buyout",
+        "buy out",
+        "handover"
+       ]
+      },
+      {
+       "idea": "Being honest about constraints",
+       "keywords": [
+        "cannot promise",
+        "depend",
+        "confirm",
+        "honest",
+        "update"
+       ]
+      }
+     ],
+     "sample": "I'll speak to my manager this week and request an early release after a proper handover. I can't promise yet, but I'll confirm the date to you by Friday."
+    },
+    {
+     "say": "Do you have any other offers in hand right now?",
+     "points": [
+      {
+       "idea": "Honest, tactful response",
+       "keywords": [
+        "process",
+        "another",
+        "offer",
+        "prefer",
+        "priorit"
+       ]
+      },
+      {
+       "idea": "Showing preference for this role",
+       "keywords": [
+        "prefer",
+        "first choice",
+        "interest",
+        "excit",
+        "keen"
+       ]
+      }
+     ],
+     "sample": "I'm in the final stage with one other company, but honestly this role is my first preference because of the automation scope."
+    },
+    {
+     "say": "Alright. Anything else you would like to clarify about the offer?",
+     "points": [
+      {
+       "idea": "Relevant clarifying question",
+       "keywords": [
+        "work from home",
+        "hybrid",
+        "insurance",
+        "bonus",
+        "leave",
+        "relocat",
+        "letter",
+        "structure"
+       ]
+      }
+     ],
+     "sample": "Yes, could you share the detailed salary breakup and confirm the hybrid policy? Then I can review and respond quickly."
+    }
+   ],
+   "closing": "Thanks. I'll check with the hiring team and share the revised offer letter soon.",
+   "focus": [
+    "Give a researched range, not 'anything is fine'.",
+    "Use soft phrases: 'I understand', 'Would it be possible...', 'Could we consider...'.",
+    "Never lie about offers or notice period; commit to a date for updates."
+   ]
+  },
+  {
+   "id": "interview-07",
+   "category": "Interview",
+   "title": "Manager round: pressure & deadlines",
+   "emoji": "⏰",
+   "partner": "Finance operations director (hiring manager)",
+   "you": "Candidate for a Team Lead role in shared services",
+   "goal": "Show how you prioritise, stay calm, and communicate under deadline pressure.",
+   "turns": [
+    {
+     "say": "Our close is very tight. How do you usually handle pressure?",
+     "points": [
+      {
+       "idea": "Calm, structured approach",
+       "keywords": [
+        "calm",
+        "plan",
+        "priorit",
+        "list",
+        "break",
+        "focus",
+        "organis",
+        "organiz"
+       ]
+      }
+     ],
+     "sample": "I stay calm by breaking the work into a clear plan. I list the tasks, prioritise by deadline and impact, and focus on one thing at a time."
+    },
+    {
+     "say": "Tell me about a time you had multiple deadlines on the same day.",
+     "points": [
+      {
+       "idea": "The situation",
+       "keywords": [
+        "quarter",
+        "month-end",
+        "audit",
+        "same day",
+        "deadline",
+        "year-end"
+       ]
+      },
+      {
+       "idea": "How you prioritised",
+       "keywords": [
+        "priorit",
+        "urgent",
+        "impact",
+        "delegat",
+        "negotiat",
+        "extension"
+       ]
+      },
+      {
+       "idea": "The result",
+       "keywords": [
+        "deliver",
+        "met",
+        "on time",
+        "result",
+        "complet"
+       ]
+      }
+     ],
+     "sample": "During a quarter-end, an audit request came on the same day as our close deadline. I prioritised the close, delegated audit samples to a senior analyst, and we delivered both on time."
+    },
+    {
+     "say": "What if you realise you're going to miss a deadline?",
+     "points": [
+      {
+       "idea": "Early communication",
+       "keywords": [
+        "inform",
+        "communicat",
+        "early",
+        "flag",
+        "escalat",
+        "tell",
+        "update"
+       ]
+      },
+      {
+       "idea": "Offer a plan or alternative",
+       "keywords": [
+        "plan",
+        "revised",
+        "partial",
+        "alternative",
+        "new date",
+        "eta"
+       ]
+      }
+     ],
+     "sample": "I flag it as early as possible to my manager and the stakeholder. I explain the reason and propose a revised ETA or a partial delivery for the critical items."
+    },
+    {
+     "say": "How do you keep your team motivated during long close weeks?",
+     "points": [
+      {
+       "idea": "Team support actions",
+       "keywords": [
+        "support",
+        "recogni",
+        "appreciat",
+        "thank",
+        "share",
+        "rotate",
+        "help"
+       ]
+      },
+      {
+       "idea": "Communication with the team",
+       "keywords": [
+        "huddle",
+        "stand-up",
+        "standup",
+        "check-in",
+        "clear",
+        "update"
+       ]
+      }
+     ],
+     "sample": "I hold a short daily huddle so everyone knows the priorities. I also recognise good work openly and make sure the workload is shared fairly."
+    },
+    {
+     "say": "And how do you avoid burnout yourself?",
+     "points": [
+      {
+       "idea": "Personal habits",
+       "keywords": [
+        "break",
+        "exercise",
+        "walk",
+        "family",
+        "sleep",
+        "boundar",
+        "off"
+       ]
+      },
+      {
+       "idea": "Prevention through planning",
+       "keywords": [
+        "plan",
+        "automat",
+        "advance",
+        "prepar",
+        "early"
+       ]
+      }
+     ],
+     "sample": "Preparation is the key, so I do a lot of work before the close starts. Personally, I take short breaks, walk daily, and switch off on weekends after the close."
+    }
+   ],
+   "closing": "Good answers. I like your structured approach. Thank you.",
+   "focus": [
+    "Show a method (prioritise, delegate, communicate) instead of saying 'I work hard'.",
+    "Mention early communication; managers hate surprises.",
+    "Use one real example with a clear result."
+   ]
+  },
+  {
+   "id": "interview-08",
+   "category": "Interview",
+   "title": "Leadership & mentoring",
+   "emoji": "🧭",
+   "partner": "Senior director in a global capability centre",
+   "you": "Candidate for an Assistant Manager role leading 8 analysts",
+   "goal": "Give a convincing example of leading or mentoring people and growing their skills.",
+   "turns": [
+    {
+     "say": "Have you ever led or mentored someone? Tell me about it.",
+     "points": [
+      {
+       "idea": "Who you mentored and the situation",
+       "keywords": [
+        "junior",
+        "new joiner",
+        "analyst",
+        "fresher",
+        "team member",
+        "mentor",
+        "train"
+       ]
+      },
+      {
+       "idea": "Their starting challenge",
+       "keywords": [
+        "struggl",
+        "new",
+        "error",
+        "confiden",
+        "slow",
+        "lack"
+       ]
+      }
+     ],
+     "sample": "Yes, I mentored a new joiner who was struggling with complex reconciliations. She was making frequent errors and lacked confidence."
+    },
+    {
+     "say": "What did you do specifically to help them?",
+     "points": [
+      {
+       "idea": "Concrete mentoring actions",
+       "keywords": [
+        "session",
+        "checklist",
+        "shadow",
+        "pair",
+        "weekly",
+        "explain",
+        "guide",
+        "feedback"
+       ]
+      }
+     ],
+     "sample": "I set up weekly one-to-one sessions, created a step-by-step checklist, and let her shadow me on difficult accounts. I gave feedback quickly and kindly."
+    },
+    {
+     "say": "And how did it turn out?",
+     "points": [
+      {
+       "idea": "Measurable growth",
+       "keywords": [
+        "improv",
+        "error",
+        "independent",
+        "promot",
+        "result",
+        "%",
+        "month"
+       ]
+      }
+     ],
+     "sample": "Within three months her error rate dropped close to zero, and she now handles complex accounts independently. She was promoted last cycle."
+    },
+    {
+     "say": "How do you deal with an underperforming team member?",
+     "points": [
+      {
+       "idea": "Understand the reason first",
+       "keywords": [
+        "understand",
+        "reason",
+        "listen",
+        "private",
+        "conversation",
+        "why"
+       ]
+      },
+      {
+       "idea": "Clear expectations and support",
+       "keywords": [
+        "goal",
+        "expectation",
+        "plan",
+        "support",
+        "track",
+        "review",
+        "train"
+       ]
+      }
+     ],
+     "sample": "First I have a private conversation to understand the reason. Then we agree on clear goals and a support plan, and I review progress every week."
+    },
+    {
+     "say": "What is your leadership style, in a few words?",
+     "points": [
+      {
+       "idea": "Describe your style",
+       "keywords": [
+        "support",
+        "coach",
+        "lead by example",
+        "transparen",
+        "empower",
+        "democratic",
+        "approachable"
+       ]
+      },
+      {
+       "idea": "Example or reason",
+       "keywords": [
+        "because",
+        "example",
+        "believe",
+        "trust"
+       ]
+      }
+     ],
+     "sample": "I'd call it supportive and leading by example. I believe if I'm transparent and trust people, they take ownership."
+    },
+    {
+     "say": "How would you handle a team member who is senior to you in age or experience?",
+     "points": [
+      {
+       "idea": "Respect and using their expertise",
+       "keywords": [
+        "respect",
+        "experience",
+        "expertise",
+        "learn",
+        "involve",
+        "consult",
+        "value"
+       ]
+      }
+     ],
+     "sample": "I would respect their experience and involve them in decisions. I'd treat them as an expert partner and learn from them, while still being clear about goals."
+    }
+   ],
+   "closing": "Thank you. Those are good examples of people leadership.",
+   "focus": [
+    "Show the before-and-after of the person you helped.",
+    "Use action verbs: coached, guided, set up, reviewed, empowered.",
+    "Describe your style in a few words, then prove it with a quick example."
+   ]
+  },
+  {
+   "id": "interview-09",
+   "category": "Interview",
+   "title": "Why are you leaving? & career goals",
+   "emoji": "🚀",
+   "partner": "Hiring manager at a fintech company",
+   "you": "Experienced finance professional considering a move",
+   "goal": "Explain your reason for leaving positively and describe clear career goals.",
+   "turns": [
+    {
+     "say": "So, why are you looking to leave your current company?",
+     "points": [
+      {
+       "idea": "Positive reason focused on growth",
+       "keywords": [
+        "growth",
+        "learn",
+        "challeng",
+        "opportunit",
+        "scope",
+        "next step",
+        "exposure"
+       ]
+      },
+      {
+       "idea": "No negativity about the employer",
+       "keywords": [
+        "grateful",
+        "learnt",
+        "learned",
+        "good experience",
+        "thankful",
+        "value"
+       ]
+      }
+     ],
+     "sample": "I've learned a lot in my current company and I'm grateful for it. But I'm now looking for bigger challenges in automation and a wider scope than my current role allows."
+    },
+    {
+     "say": "Is it mainly about money?",
+     "points": [
+      {
+       "idea": "Honest but balanced answer",
+       "keywords": [
+        "not only",
+        "not just",
+        "part",
+        "important",
+        "fair",
+        "mainly",
+        "primarily"
+       ]
+      },
+      {
+       "idea": "Real motivation",
+       "keywords": [
+        "learn",
+        "role",
+        "work",
+        "impact",
+        "technology",
+        "growth"
+       ]
+      }
+     ],
+     "sample": "Compensation matters, of course, but it's not the main reason. I'm mainly looking for work where I can make a bigger impact with technology."
+    },
+    {
+     "say": "Where do you see yourself in five years?",
+     "points": [
+      {
+       "idea": "Clear target role",
+       "keywords": [
+        "manager",
+        "lead",
+        "head",
+        "transformation",
+        "architect",
+        "expert",
+        "position"
+       ]
+      },
+      {
+       "idea": "Skills you want to build",
+       "keywords": [
+        "skill",
+        "learn",
+        "data",
+        "ai",
+        "leadership",
+        "certif",
+        "develop"
+       ]
+      }
+     ],
+     "sample": "In five years I see myself leading a finance automation team. I want to deepen my data and AI skills and grow as a people leader."
+    },
+    {
+     "say": "How does this role fit into that plan?",
+     "points": [
+      {
+       "idea": "Link role to goals",
+       "keywords": [
+        "fit",
+        "step",
+        "align",
+        "exactly",
+        "help",
+        "build",
+        "path"
+       ]
+      }
+     ],
+     "sample": "This role is the perfect step because it combines finance operations with fintech product work. It'll help me build exactly the skills I need for that path."
+    },
+    {
+     "say": "What if you don't get promoted as quickly as you hope here?",
+     "points": [
+      {
+       "idea": "Patience and focus on contribution",
+       "keywords": [
+        "patien",
+        "focus",
+        "contribut",
+        "deliver",
+        "earn",
+        "learn",
+        "long term"
+       ]
+      },
+      {
+       "idea": "Proactive career ownership",
+       "keywords": [
+        "feedback",
+        "discuss",
+        "manager",
+        "plan",
+        "improv"
+       ]
+      }
+     ],
+     "sample": "I believe promotions are earned by results, so I'd focus on delivering. I'd also ask my manager for regular feedback so I know what to improve."
+    }
+   ],
+   "closing": "That's a thoughtful answer. Thanks for being open with me.",
+   "focus": [
+    "Never criticise your current employer; frame it as moving towards something.",
+    "Make five-year goals specific but realistic.",
+    "Connect your goals back to this role every time."
+   ]
+  },
+  {
+   "id": "interview-10",
+   "category": "Interview",
+   "title": "Your questions & closing strongly",
+   "emoji": "🤝",
+   "partner": "VP of Finance Operations in the final round",
+   "you": "Final-round candidate for a Reconciliation Automation Lead role",
+   "goal": "Ask smart questions about the role and team, then close the interview with confidence.",
+   "turns": [
+    {
+     "say": "We're almost out of time. Do you have any questions for me?",
+     "points": [
+      {
+       "idea": "A thoughtful question about the role",
+       "keywords": [
+        "success",
+        "90 days",
+        "expect",
+        "priorit",
+        "challeng",
+        "look like"
+       ]
+      },
+      {
+       "idea": "Polite framing",
+       "keywords": [
+        "could you",
+        "i'd like",
+        "i would like",
+        "may i",
+        "can you"
+       ]
+      }
+     ],
+     "sample": "Yes, thank you. Could you tell me what success would look like in the first ninety days of this role?"
+    },
+    {
+     "say": "Good question. Mainly stabilising our bank recs and starting the intercompany automation. What else would you like to know?",
+     "points": [
+      {
+       "idea": "Question about the team or culture",
+       "keywords": [
+        "team",
+        "culture",
+        "structure",
+        "report",
+        "work with",
+        "size"
+       ]
+      },
+      {
+       "idea": "Question about technology or strategy",
+       "keywords": [
+        "tool",
+        "technology",
+        "roadmap",
+        "strategy",
+        "plan",
+        "ai",
+        "budget"
+       ]
+      }
+     ],
+     "sample": "That sounds exciting. Could you tell me a bit about the team I'd be working with, and what tools are on your automation roadmap?"
+    },
+    {
+     "say": "We use BlackLine and some Python, with a small team of five. Anything else?",
+     "points": [
+      {
+       "idea": "Question about next steps or concerns",
+       "keywords": [
+        "next step",
+        "timeline",
+        "process",
+        "decision",
+        "concern",
+        "hesitat",
+        "reserv"
+       ]
+      }
+     ],
+     "sample": "Just one more. Is there anything in my background that makes you hesitate? I'd like the chance to address it."
+    },
+    {
+     "say": "Honestly, my only concern is that you haven't managed a large team yet.",
+     "points": [
+      {
+       "idea": "Address the concern calmly",
+       "keywords": [
+        "understand",
+        "fair",
+        "true",
+        "point"
+       ]
+      },
+      {
+       "idea": "Evidence that reduces the concern",
+       "keywords": [
+        "mentor",
+        "led",
+        "project",
+        "cross-functional",
+        "train",
+        "coordinat",
+        "lead"
+       ]
+      }
+     ],
+     "sample": "That's a fair point. While I haven't had formal reports, I've led cross-functional projects and mentored four analysts, and I'm keen to grow into that responsibility."
+    },
+    {
+     "say": "Thank you, that helps. Is there anything you'd like to add before we finish?",
+     "points": [
+      {
+       "idea": "Summarise your fit",
+       "keywords": [
+        "fit",
+        "experience",
+        "automat",
+        "bring",
+        "contribut",
+        "value"
+       ]
+      },
+      {
+       "idea": "Express interest and thanks",
+       "keywords": [
+        "thank",
+        "excit",
+        "interest",
+        "look forward",
+        "keen",
+        "opportunit"
+       ]
+      }
+     ],
+     "sample": "Just that I'm very excited about this role. I bring both reconciliation expertise and automation skills, and I'd love the opportunity to contribute. Thank you for your time."
+    }
+   ],
+   "closing": "Thank you, it was a pleasure. You'll hear from HR by the end of next week.",
+   "focus": [
+    "Always prepare 2-3 questions; 'no questions' sounds uninterested.",
+    "Ask about success measures and concerns, not just leave or salary.",
+    "End with a 20-second summary of why you fit, plus a thank you."
+   ]
+  },
+  {
+   "id": "sales-01",
+   "category": "Sales calls",
+   "title": "Cold call to a CFO's office",
+   "emoji": "📞",
+   "partner": "Finance director in a CFO's office, busy and sceptical",
+   "you": "Sales executive for a reconciliation-automation tool",
+   "goal": "Open the cold call well, earn 2 minutes of attention, and get a meeting.",
+   "turns": [
+    {
+     "say": "Hello, this is Priya from Finance. Who is this?",
+     "points": [
+      {
+       "idea": "Introduce yourself and company",
+       "keywords": [
+        "my name",
+        "this is",
+        "calling from",
+        "i'm",
+        "i am"
+       ]
+      },
+      {
+       "idea": "Reason for the call in one line",
+       "keywords": [
+        "reconcil",
+        "automat",
+        "help",
+        "finance team",
+        "reason"
+       ]
+      }
+     ],
+     "sample": "Hi Priya, this is Rahul calling from ReconFlow. I'm calling because we help finance teams automate their reconciliations and close faster."
+    },
+    {
+     "say": "Okay, but I'm quite busy right now. What is this about?",
+     "points": [
+      {
+       "idea": "Respect their time",
+       "keywords": [
+        "quick",
+        "minute",
+        "brief",
+        "respect",
+        "busy",
+        "30 seconds"
+       ]
+      },
+      {
+       "idea": "A value hook",
+       "keywords": [
+        "day",
+        "close",
+        "hour",
+        "%",
+        "reduc",
+        "faster",
+        "similar compan"
+       ]
+      }
+     ],
+     "sample": "I'll be quick, just thirty seconds. Companies like yours use our tool to cut close time by two days and reduce manual matching by around seventy percent."
+    },
+    {
+     "say": "Hmm. Everyone says that. Why should I believe you?",
+     "points": [
+      {
+       "idea": "Proof: customer story or data",
+       "keywords": [
+        "client",
+        "customer",
+        "case",
+        "example",
+        "bank",
+        "company",
+        "reference"
+       ]
+      },
+      {
+       "idea": "Specific numbers",
+       "keywords": [
+        "%",
+        "hour",
+        "day",
+        "saved",
+        "month"
+       ]
+      }
+     ],
+     "sample": "Fair question. One of our clients, a mid-size NBFC, went from closing on day seven to day four within three months. I can share the case study."
+    },
+    {
+     "say": "How do you even know we have a reconciliation problem?",
+     "points": [
+      {
+       "idea": "Acknowledge and ask a discovery question",
+       "keywords": [
+        "don't know",
+        "not sure",
+        "that's why",
+        "may i ask",
+        "how do you",
+        "how many",
+        "currently"
+       ]
+      }
+     ],
+     "sample": "Honestly, I don't know yet, that's why I'm calling. May I ask how your team currently handles bank and intercompany reconciliations?"
+    },
+    {
+     "say": "Mostly Excel, with a few macros. It works, more or less.",
+     "points": [
+      {
+       "idea": "Dig into pain or impact",
+       "keywords": [
+        "how long",
+        "how many",
+        "people",
+        "time",
+        "error",
+        "month-end",
+        "pain"
+       ]
+      },
+      {
+       "idea": "Link to your value",
+       "keywords": [
+        "exactly",
+        "similar",
+        "typical",
+        "help"
+       ]
+      }
+     ],
+     "sample": "That's very common. How much time does the team spend on it each month-end? That's typically where we save the most hours."
+    },
+    {
+     "say": "Look, I don't have time for this today.",
+     "points": [
+      {
+       "idea": "Ask for a specific next step",
+       "keywords": [
+        "meeting",
+        "call",
+        "demo",
+        "15 minutes",
+        "20 minutes",
+        "calendar",
+        "slot"
+       ]
+      },
+      {
+       "idea": "Offer specific time options",
+       "keywords": [
+        "tuesday",
+        "thursday",
+        "monday",
+        "wednesday",
+        "friday",
+        "next week",
+        "tomorrow"
+       ]
+      }
+     ],
+     "sample": "Completely understand. Could we book a fifteen-minute call next Tuesday or Thursday to see if it's relevant? If it's not a fit, I'll tell you honestly."
+    }
+   ],
+   "closing": "Fine, send me an invite for Thursday at 4. Make it short.",
+   "focus": [
+    "Open with name, company, and a one-line reason within 15 seconds.",
+    "Use a specific number or customer story instead of generic claims.",
+    "Always end with a specific next step and two time options."
+   ]
+  },
+  {
+   "id": "sales-02",
+   "category": "Sales calls",
+   "title": "Getting past the gatekeeper",
+   "emoji": "🚪",
+   "partner": "Executive assistant to the CFO of a manufacturing company",
+   "you": "Sales executive trying to reach the CFO",
+   "goal": "Be polite and credible with the assistant and get access to the decision maker.",
+   "turns": [
+    {
+     "say": "Good morning, CFO's office. How can I help you?",
+     "points": [
+      {
+       "idea": "Polite greeting and introduction",
+       "keywords": [
+        "good morning",
+        "my name",
+        "this is",
+        "calling from"
+       ]
+      },
+      {
+       "idea": "Ask for the person by name",
+       "keywords": [
+        "speak",
+        "connect",
+        "mr",
+        "ms",
+        "available",
+        "could i"
+       ]
+      }
+     ],
+     "sample": "Good morning, this is Neha from ReconFlow. Could I speak to Mr Mehta, please?"
+    },
+    {
+     "say": "What is this regarding?",
+     "points": [
+      {
+       "idea": "Short, business-relevant reason",
+       "keywords": [
+        "close",
+        "reconcil",
+        "finance",
+        "automat",
+        "month-end",
+        "process"
+       ]
+      },
+      {
+       "idea": "Sound credible, not salesy",
+       "keywords": [
+        "follow",
+        "specific",
+        "brief",
+        "relevant",
+        "similar",
+        "peer"
+       ]
+      }
+     ],
+     "sample": "It's regarding month-end close and reconciliation automation. We've helped two other manufacturers in Pune reduce their close time, and I believe it's relevant to Mr Mehta."
+    },
+    {
+     "say": "He doesn't take sales calls. Can you just email me?",
+     "points": [
+      {
+       "idea": "Accept and treat the assistant as an ally",
+       "keywords": [
+        "of course",
+        "sure",
+        "happy to",
+        "help me",
+        "advice",
+        "suggest"
+       ]
+      },
+      {
+       "idea": "Ask for the best way to reach him",
+       "keywords": [
+        "best way",
+        "best time",
+        "who else",
+        "calendar",
+        "slot",
+        "when"
+       ]
+      }
+     ],
+     "sample": "Of course, I'll email you. Could you help me with one thing: what's the best way or the best time to get ten minutes on his calendar?"
+    },
+    {
+     "say": "He's usually travelling. Maybe the finance controller handles this.",
+     "points": [
+      {
+       "idea": "Ask for the right contact",
+       "keywords": [
+        "name",
+        "who",
+        "controller",
+        "contact",
+        "speak",
+        "introduce"
+       ]
+      },
+      {
+       "idea": "Thank them",
+       "keywords": [
+        "thank",
+        "appreciate",
+        "helpful"
+       ]
+      }
+     ],
+     "sample": "That's very helpful, thank you. Could you share the controller's name, and would it be okay if I mention that you suggested I speak with them?"
+    },
+    {
+     "say": "It's Mr Suresh Iyer. I can transfer you, but he might be busy.",
+     "points": [
+      {
+       "idea": "Accept and confirm details",
+       "keywords": [
+        "great",
+        "thank",
+        "transfer",
+        "please"
+       ]
+      },
+      {
+       "idea": "Backup plan",
+       "keywords": [
+        "voicemail",
+        "email",
+        "extension",
+        "number",
+        "call back",
+        "if he"
+       ]
+      }
+     ],
+     "sample": "Perfect, please transfer me. And in case he's busy, could I have his direct extension or email so I can follow up?"
+    }
+   ],
+   "closing": "Sure, his extension is 2214. I'm putting you through now.",
+   "focus": [
+    "Treat the assistant with respect - they are an ally, not an obstacle.",
+    "Give a short, specific reason that sounds relevant to the boss.",
+    "If blocked, ask 'who else handles this?' and get a name and number."
+   ]
+  },
+  {
+   "id": "sales-03",
+   "category": "Sales calls",
+   "title": "'We already have a solution'",
+   "emoji": "🛡️",
+   "partner": "Head of Financial Controllership at an IT services company",
+   "you": "Account executive selling a reconciliation-automation platform",
+   "goal": "Handle the 'we already have a tool' objection by learning about their current setup and finding gaps.",
+   "turns": [
+    {
+     "say": "Thanks for calling, but we already have a reconciliation tool. We're good.",
+     "points": [
+      {
+       "idea": "Acknowledge, don't argue",
+       "keywords": [
+        "great",
+        "good to hear",
+        "understand",
+        "makes sense",
+        "that's good"
+       ]
+      },
+      {
+       "idea": "Ask what they use",
+       "keywords": [
+        "which",
+        "what tool",
+        "may i ask",
+        "how long",
+        "currently use"
+       ]
+      }
+     ],
+     "sample": "That's good to hear. May I ask which tool you're using and how long you've had it?"
+    },
+    {
+     "say": "We've used BlackLine for about three years.",
+     "points": [
+      {
+       "idea": "Positive comment and discovery",
+       "keywords": [
+        "solid",
+        "good tool",
+        "popular",
+        "great"
+       ]
+      },
+      {
+       "idea": "Ask how well it works",
+       "keywords": [
+        "how",
+        "happy",
+        "working",
+        "match rate",
+        "manual",
+        "still"
+       ]
+      }
+     ],
+     "sample": "BlackLine is a solid platform. Out of curiosity, how much of the matching is fully automatic, and how much still happens manually in Excel?"
+    },
+    {
+     "say": "Honestly, a lot of the intercompany stuff is still manual.",
+     "points": [
+      {
+       "idea": "Explore the gap",
+       "keywords": [
+        "how much",
+        "how many",
+        "hours",
+        "people",
+        "impact",
+        "cost",
+        "why"
+       ]
+      },
+      {
+       "idea": "Show empathy",
+       "keywords": [
+        "common",
+        "hear that",
+        "understand",
+        "often"
+       ]
+      }
+     ],
+     "sample": "That's very common. How many hours does the team spend on intercompany each month, roughly?"
+    },
+    {
+     "say": "Maybe sixty, seventy hours. But we can't replace BlackLine now.",
+     "points": [
+      {
+       "idea": "Position as complement, not replacement",
+       "keywords": [
+        "replace",
+        "alongside",
+        "complement",
+        "integrat",
+        "work with",
+        "on top"
+       ]
+      },
+      {
+       "idea": "Specific value for the gap",
+       "keywords": [
+        "intercompany",
+        "hour",
+        "reduc",
+        "automat",
+        "%"
+       ]
+      }
+     ],
+     "sample": "You wouldn't need to. We integrate alongside BlackLine and focus on the intercompany matching it doesn't cover well. Clients typically cut those hours by more than half."
+    },
+    {
+     "say": "Hmm. I'd need to see that before I believe it.",
+     "points": [
+      {
+       "idea": "Offer proof with low commitment",
+       "keywords": [
+        "demo",
+        "pilot",
+        "proof of concept",
+        "poc",
+        "sample",
+        "your data"
+       ]
+      },
+      {
+       "idea": "Propose a concrete next step",
+       "keywords": [
+        "next week",
+        "30 minutes",
+        "call",
+        "meeting",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+       ]
+      }
+     ],
+     "sample": "Absolutely. How about a thirty-minute demo using a sample of your intercompany data? Would next Wednesday work for you?"
+    }
+   ],
+   "closing": "Okay, Wednesday afternoon works. Send me the details.",
+   "focus": [
+    "Never criticise the competitor; ask how well it's working.",
+    "Look for the gap: what is still manual or painful?",
+    "Position yourself as a complement and offer low-risk proof (demo or pilot)."
+   ]
+  },
+  {
+   "id": "sales-04",
+   "category": "Sales calls",
+   "title": "Price objection & ROI",
+   "emoji": "💸",
+   "partner": "Procurement manager and finance head of a mid-size bank",
+   "you": "Sales manager in the final negotiation stage",
+   "goal": "Handle the price objection by focusing on ROI and value, not by immediately discounting.",
+   "turns": [
+    {
+     "say": "We liked the demo, but your price is too high. Your competitor is thirty percent cheaper.",
+     "points": [
+      {
+       "idea": "Acknowledge without defensiveness",
+       "keywords": [
+        "understand",
+        "appreciate",
+        "fair",
+        "important"
+       ]
+      },
+      {
+       "idea": "Ask what they are comparing",
+       "keywords": [
+        "compar",
+        "same",
+        "include",
+        "scope",
+        "feature",
+        "what exactly"
+       ]
+      }
+     ],
+     "sample": "I understand, budget is important. May I ask what exactly is included in the other quote, so we're comparing the same scope?"
+    },
+    {
+     "say": "Roughly the same features. So why should we pay more?",
+     "points": [
+      {
+       "idea": "Differentiators",
+       "keywords": [
+        "support",
+        "implementation",
+        "match rate",
+        "integrat",
+        "accuracy",
+        "faster",
+        "local"
+       ]
+      },
+      {
+       "idea": "Focus on value, not cost",
+       "keywords": [
+        "value",
+        "return",
+        "roi",
+        "saving",
+        "total cost"
+       ]
+      }
+     ],
+     "sample": "The key difference is our match rate and implementation speed. We go live in six weeks, with a dedicated local support team, so you start saving much sooner."
+    },
+    {
+     "say": "Can you put that into actual numbers for us?",
+     "points": [
+      {
+       "idea": "ROI calculation",
+       "keywords": [
+        "hour",
+        "fte",
+        "saving",
+        "lakh",
+        "crore",
+        "rupee",
+        "per year",
+        "annual"
+       ]
+      },
+      {
+       "idea": "Payback period",
+       "keywords": [
+        "payback",
+        "month",
+        "pay for itself",
+        "recover",
+        "return"
+       ]
+      }
+     ],
+     "sample": "Based on your volumes, you'd save about four FTEs, which is roughly forty lakhs a year. The licence pays for itself in under six months."
+    },
+    {
+     "say": "Still, my budget for this year is fixed. Can you give a discount?",
+     "points": [
+      {
+       "idea": "Trade, don't just give",
+       "keywords": [
+        "if you",
+        "in return",
+        "commit",
+        "multi-year",
+        "two-year",
+        "three-year",
+        "case study",
+        "reference"
+       ]
+      },
+      {
+       "idea": "Alternative structures",
+       "keywords": [
+        "phase",
+        "start with",
+        "pilot",
+        "payment",
+        "quarterly",
+        "split"
+       ]
+      }
+     ],
+     "sample": "I can explore options. If you sign a two-year agreement, I could offer better pricing. Or we could start with a phased rollout to fit this year's budget."
+    },
+    {
+     "say": "A phased approach might work. What would that look like?",
+     "points": [
+      {
+       "idea": "Concrete phase plan",
+       "keywords": [
+        "phase",
+        "bank",
+        "intercompany",
+        "quarter",
+        "month"
+       ]
+      },
+      {
+       "idea": "Next step to close",
+       "keywords": [
+        "proposal",
+        "send",
+        "revised",
+        "by",
+        "friday",
+        "tomorrow",
+        "meeting"
+       ]
+      }
+     ],
+     "sample": "Phase one would cover bank reconciliations this quarter, then intercompany next year. I'll send you a revised proposal by Friday."
+    }
+   ],
+   "closing": "Alright, send the revised proposal and we'll review it internally.",
+   "focus": [
+    "Don't discount immediately; first understand the comparison.",
+    "Translate features into money: hours, FTEs, rupees, payback months.",
+    "If you give something, get something (longer contract, reference, quicker signature)."
+   ]
+  },
+  {
+   "id": "sales-05",
+   "category": "Sales calls",
+   "title": "'Just send me an email'",
+   "emoji": "📧",
+   "partner": "Senior finance manager at a retail chain, trying to end the call",
+   "you": "Inside sales rep for a reconciliation-automation tool",
+   "goal": "Turn the 'send me an email' brush-off into a real conversation or a booked call.",
+   "turns": [
+    {
+     "say": "Yeah, look, just send me an email and I'll have a look.",
+     "points": [
+      {
+       "idea": "Agree and ask a qualifying question",
+       "keywords": [
+        "happy to",
+        "sure",
+        "of course",
+        "will do",
+        "absolutely"
+       ]
+      },
+      {
+       "idea": "Ask what would make the email relevant",
+       "keywords": [
+        "relevant",
+        "focus",
+        "so that",
+        "make sure",
+        "which",
+        "what"
+       ]
+      }
+     ],
+     "sample": "Happy to. So that I send something relevant and not a generic brochure, can I ask what your biggest challenge is at month-end?"
+    },
+    {
+     "say": "I don't know, the usual. Too many manual reconciliations.",
+     "points": [
+      {
+       "idea": "Probe deeper",
+       "keywords": [
+        "which",
+        "bank",
+        "store",
+        "card",
+        "how many",
+        "how long",
+        "volume"
+       ]
+      },
+      {
+       "idea": "Empathy",
+       "keywords": [
+        "common",
+        "understand",
+        "hear",
+        "retail"
+       ]
+      }
+     ],
+     "sample": "That's very common in retail. Which ones take the most time, store cash or card settlements?"
+    },
+    {
+     "say": "Card settlements, definitely. Hundreds of stores.",
+     "points": [
+      {
+       "idea": "Share a relevant example",
+       "keywords": [
+        "client",
+        "retail",
+        "similar",
+        "chain",
+        "example",
+        "store"
+       ]
+      },
+      {
+       "idea": "Quick result",
+       "keywords": [
+        "%",
+        "hour",
+        "day",
+        "reduc",
+        "saved",
+        "cut",
+        "effort"
+       ]
+      }
+     ],
+     "sample": "We helped a similar retail chain with four hundred stores automate card settlements, and they cut the effort by about eighty percent."
+    },
+    {
+     "say": "Okay, that's interesting. But I really have to go now.",
+     "points": [
+      {
+       "idea": "Respect time and propose next step",
+       "keywords": [
+        "quick",
+        "short",
+        "15 minutes",
+        "call",
+        "demo",
+        "walk you"
+       ]
+      },
+      {
+       "idea": "Specific time",
+       "keywords": [
+        "tomorrow",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "next week"
+       ]
+      }
+     ],
+     "sample": "No problem. Instead of just an email, could we schedule a fifteen-minute call to show you exactly how it worked for them? Would Thursday morning suit you?"
+    },
+    {
+     "say": "Fine, but send me the email first, then we'll see.",
+     "points": [
+      {
+       "idea": "Confirm email and follow-up",
+       "keywords": [
+        "send",
+        "today",
+        "email",
+        "case study",
+        "confirm",
+        "invite"
+       ]
+      },
+      {
+       "idea": "Confirm contact details",
+       "keywords": [
+        "address",
+        "email id",
+        "correct",
+        "best email"
+       ]
+      }
+     ],
+     "sample": "Sure. I'll send the case study today with a calendar invite for Thursday. Is this the best email address to use?"
+    }
+   ],
+   "closing": "Yes, that's fine. Talk to you Thursday.",
+   "focus": [
+    "'Send me an email' is often a brush-off; agree, then ask one qualifying question.",
+    "Use their answer to share one relevant example.",
+    "Turn the email into an email plus a booked follow-up."
+   ]
+  },
+  {
+   "id": "sales-06",
+   "category": "Sales calls",
+   "title": "Discovery call: finding the pain",
+   "emoji": "🔍",
+   "partner": "Finance operations manager who agreed to a 20-minute discovery call",
+   "you": "Solution consultant running a discovery call",
+   "goal": "Ask good open questions to understand their process, pain, impact, and decision process.",
+   "turns": [
+    {
+     "say": "Hi, I have about twenty minutes. Where do you want to start?",
+     "points": [
+      {
+       "idea": "Set an agenda",
+       "keywords": [
+        "agenda",
+        "understand",
+        "end",
+        "plan",
+        "minutes"
+       ]
+      },
+      {
+       "idea": "Ask permission to ask questions",
+       "keywords": [
+        "few questions",
+        "ask you",
+        "would it be okay",
+        "is that okay",
+        "sound good"
+       ]
+      }
+     ],
+     "sample": "Thanks for your time. I'd like to first understand your current process, then share a bit about us, and agree on next steps at the end. Is that okay?"
+    },
+    {
+     "say": "Sure, go ahead.",
+     "points": [
+      {
+       "idea": "Open question about current process",
+       "keywords": [
+        "how do",
+        "walk me",
+        "tell me",
+        "describe",
+        "currently",
+        "process"
+       ]
+      }
+     ],
+     "sample": "Could you walk me through how your team handles reconciliations today, from getting the data to sign-off?"
+    },
+    {
+     "say": "We download statements, match in Excel, and the manager reviews. It takes about eight days.",
+     "points": [
+      {
+       "idea": "Dig into the pain",
+       "keywords": [
+        "most time",
+        "hardest",
+        "frustrat",
+        "challeng",
+        "where",
+        "why",
+        "bottleneck"
+       ]
+      },
+      {
+       "idea": "Clarify volume",
+       "keywords": [
+        "how many",
+        "volume",
+        "accounts",
+        "people",
+        "transactions"
+       ]
+      }
+     ],
+     "sample": "Thanks. Which part takes the most time or causes the most frustration? And roughly how many accounts are we talking about?"
+    },
+    {
+     "say": "Matching and chasing explanations for breaks. About four hundred accounts.",
+     "points": [
+      {
+       "idea": "Ask about business impact",
+       "keywords": [
+        "impact",
+        "cost",
+        "audit",
+        "late",
+        "overtime",
+        "risk",
+        "what happens"
+       ]
+      },
+      {
+       "idea": "Quantify",
+       "keywords": [
+        "hours",
+        "how much",
+        "how often",
+        "impact",
+        "overtime",
+        "how many"
+       ]
+      }
+     ],
+     "sample": "That sounds heavy. What impact does this have on the business, for example late reporting, audit findings, or overtime?"
+    },
+    {
+     "say": "We had an audit observation last year, and the team works weekends at month-end.",
+     "points": [
+      {
+       "idea": "Ask about goals and priorities",
+       "keywords": [
+        "goal",
+        "ideal",
+        "success",
+        "priorit",
+        "target",
+        "if you could"
+       ]
+      },
+      {
+       "idea": "Ask about decision process",
+       "keywords": [
+        "decision",
+        "who else",
+        "budget",
+        "approv",
+        "involved",
+        "timeline"
+       ]
+      }
+     ],
+     "sample": "I see. If this was solved, what would success look like? And who else would be involved in a decision like this?"
+    },
+    {
+     "say": "We'd like to close in five days. The CFO approves anything above a certain budget.",
+     "points": [
+      {
+       "idea": "Summarise what you heard",
+       "keywords": [
+        "summar",
+        "if i understand",
+        "what i heard",
+        "correct me"
+       ]
+      },
+      {
+       "idea": "Agree on next step",
+       "keywords": [
+        "demo",
+        "proposal",
+        "next step",
+        "meeting",
+        "cfo",
+        "session"
+       ]
+      }
+     ],
+     "sample": "So if I understand correctly, you want to close in five days, reduce weekend work, and avoid audit issues. Would a tailored demo with you and the CFO be a sensible next step?"
+    }
+   ],
+   "closing": "Yes, that summary is spot on. Let's set up the demo.",
+   "focus": [
+    "Ask open questions: 'how', 'walk me through', 'tell me about'.",
+    "Move from process to pain to business impact to decision process.",
+    "Summarise what you heard before proposing a next step."
+   ]
+  },
+  {
+   "id": "sales-07",
+   "category": "Sales calls",
+   "title": "Follow-up after a demo",
+   "emoji": "🔁",
+   "partner": "Finance controller who attended a product demo last week",
+   "you": "Account executive following up after the demo",
+   "goal": "Recap value, uncover hesitations, and move the deal to the next concrete step.",
+   "turns": [
+    {
+     "say": "Hi, yes, I remember the demo. What can I do for you?",
+     "points": [
+      {
+       "idea": "Remind them of the demo and value",
+       "keywords": [
+        "demo",
+        "last week",
+        "follow",
+        "showed",
+        "match",
+        "saw"
+       ]
+      },
+      {
+       "idea": "Ask for their feedback",
+       "keywords": [
+        "feedback",
+        "thought",
+        "impression",
+        "what did you",
+        "how did"
+       ]
+      }
+     ],
+     "sample": "Thanks for taking my call. I'm following up on last week's demo, where we showed the auto-matching on your bank data. What were your thoughts?"
+    },
+    {
+     "say": "It looked good, but the team has some concerns.",
+     "points": [
+      {
+       "idea": "Ask to understand the concerns",
+       "keywords": [
+        "concern",
+        "what are",
+        "could you share",
+        "which",
+        "tell me more",
+        "specific"
+       ]
+      }
+     ],
+     "sample": "I appreciate you sharing that. Could you tell me more about the specific concerns?"
+    },
+    {
+     "say": "Mainly data security, and whether IT has time for the implementation.",
+     "points": [
+      {
+       "idea": "Address security",
+       "keywords": [
+        "secur",
+        "iso",
+        "soc",
+        "encrypt",
+        "certif",
+        "india",
+        "data center",
+        "data centre"
+       ]
+      },
+      {
+       "idea": "Address implementation effort",
+       "keywords": [
+        "implement",
+        "our team",
+        "hours",
+        "week",
+        "minimal",
+        "handle"
+       ]
+      }
+     ],
+     "sample": "Both are fair. We're SOC 2 and ISO 27001 certified, with data hosted in India. And our team handles most of the implementation, so IT needs only about ten hours in total."
+    },
+    {
+     "say": "Okay. Can you send that in writing for our IT team?",
+     "points": [
+      {
+       "idea": "Agree and offer more",
+       "keywords": [
+        "send",
+        "document",
+        "security",
+        "pack",
+        "today",
+        "questionnaire"
+       ]
+      },
+      {
+       "idea": "Offer a call with IT",
+       "keywords": [
+        "call",
+        "meet",
+        "it team",
+        "technical",
+        "session",
+        "architect"
+       ]
+      }
+     ],
+     "sample": "Yes, I'll send our security pack today. Would it also help to set up a short call between your IT team and our solution architect?"
+    },
+    {
+     "say": "Maybe. What happens after that?",
+     "points": [
+      {
+       "idea": "Explain next steps clearly",
+       "keywords": [
+        "proposal",
+        "pilot",
+        "contract",
+        "timeline",
+        "go live",
+        "kick"
+       ]
+      }
+     ],
+     "sample": "Once IT is comfortable, I'll share a proposal, and if approved, we can start a four-week pilot and be live before your year-end close."
+    },
+    {
+     "say": "That timeline sounds tight, but let's see.",
+     "points": [
+      {
+       "idea": "Lock in a date",
+       "keywords": [
+        "date",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "next week",
+        "invite",
+        "calendar"
+       ]
+      }
+     ],
+     "sample": "Understood. Shall I book the IT call for next Tuesday, so we keep things moving?"
+    }
+   ],
+   "closing": "Okay, Tuesday works. Copy my IT lead, Arjun, on the invite.",
+   "focus": [
+    "Open by reminding them of the specific value they saw.",
+    "Ask open questions to surface concerns, then answer each one directly.",
+    "Never end a follow-up without a dated next step."
+   ]
+  },
+  {
+   "id": "sales-08",
+   "category": "Sales calls",
+   "title": "Booking a meeting with a busy ops head",
+   "emoji": "📅",
+   "partner": "Head of Shared Services Operations, very busy, picks up between meetings",
+   "you": "Business development rep",
+   "goal": "Get to the point quickly and book a short meeting despite a very busy schedule.",
+   "turns": [
+    {
+     "say": "Yes? I have literally two minutes before my next meeting.",
+     "points": [
+      {
+       "idea": "Be very brief and clear",
+       "keywords": [
+        "quick",
+        "one minute",
+        "brief",
+        "short",
+        "promise"
+       ]
+      },
+      {
+       "idea": "Who you are and why",
+       "keywords": [
+        "calling from",
+        "my name",
+        "this is",
+        "automat",
+        "reconcil"
+       ]
+      }
+     ],
+     "sample": "I'll be brief, I promise. I'm Ankit from ReconFlow. We help shared services teams automate reconciliations, and I'd like to set up a short meeting."
+    },
+    {
+     "say": "Why would I meet you? We have a hundred priorities already.",
+     "points": [
+      {
+       "idea": "Link to their priorities",
+       "keywords": [
+        "cost",
+        "headcount",
+        "efficien",
+        "productiv",
+        "target",
+        "priorit",
+        "sla"
+       ]
+      },
+      {
+       "idea": "Specific outcome",
+       "keywords": [
+        "%",
+        "hour",
+        "fte",
+        "day",
+        "reduc",
+        "free up",
+        "productivity"
+       ]
+      }
+     ],
+     "sample": "Exactly because of those priorities. Most ops heads we work with have productivity targets, and we typically free up two to three FTEs per process."
+    },
+    {
+     "say": "Everyone promises productivity. I don't have time for long presentations.",
+     "points": [
+      {
+       "idea": "Offer short, no-slides format",
+       "keywords": [
+        "15 minutes",
+        "20 minutes",
+        "short",
+        "no slides",
+        "no presentation",
+        "specific",
+        "fifteen",
+        "minutes"
+       ]
+      },
+      {
+       "idea": "Make it about them",
+       "keywords": [
+        "your",
+        "process",
+        "data",
+        "relevant",
+        "tailored"
+       ]
+      }
+     ],
+     "sample": "No long presentation, just fifteen minutes focused on one of your processes. If it's not relevant, we stop there."
+    },
+    {
+     "say": "Hmm. My calendar is packed for the next two weeks.",
+     "points": [
+      {
+       "idea": "Offer flexible options",
+       "keywords": [
+        "after that",
+        "early",
+        "morning",
+        "evening",
+        "later",
+        "week after"
+       ]
+      },
+      {
+       "idea": "Specific proposal",
+       "keywords": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "am",
+        "pm",
+        "o'clock",
+        "date"
+       ]
+      }
+     ],
+     "sample": "No problem. How about the week after, on Monday at 9 am, or Thursday at 5 pm? Early or late slots are fine for me."
+    },
+    {
+     "say": "Fine, Thursday at five. But keep it to fifteen minutes.",
+     "points": [
+      {
+       "idea": "Confirm details",
+       "keywords": [
+        "confirm",
+        "thursday",
+        "five",
+        "5",
+        "invite",
+        "send"
+       ]
+      },
+      {
+       "idea": "Ask a prep question",
+       "keywords": [
+        "which process",
+        "anyone else",
+        "join",
+        "invite",
+        "prepare",
+        "focus"
+       ]
+      }
+     ],
+     "sample": "Thank you, confirmed for Thursday at 5 pm, fifteen minutes. Which process should I focus on, and should anyone else from your team join?"
+    }
+   ],
+   "closing": "Focus on bank reconciliations. Invite my manager, Kavita, too. Bye.",
+   "focus": [
+    "When someone is busy, say who you are and why in one sentence.",
+    "Offer a short, specific, tailored meeting, not a presentation.",
+    "Propose exact days and times, then confirm and ask one prep question."
+   ]
+  },
+  {
+   "id": "sales-09",
+   "category": "Sales calls",
+   "title": "Upselling an existing client",
+   "emoji": "📈",
+   "partner": "Finance director at an existing client using the bank-recon module",
+   "you": "Customer success / account manager",
+   "goal": "Check satisfaction, find a new need, and propose an additional module without sounding pushy.",
+   "turns": [
+    {
+     "say": "Hi, good to hear from you. Is everything okay with the account?",
+     "points": [
+      {
+       "idea": "Reassure and explain the purpose",
+       "keywords": [
+        "everything is fine",
+        "all good",
+        "check in",
+        "check-in",
+        "quarterly",
+        "review",
+        "how it's going"
+       ]
+      },
+      {
+       "idea": "Ask about their experience",
+       "keywords": [
+        "how",
+        "experience",
+        "happy",
+        "working",
+        "feedback",
+        "team"
+       ]
+      }
+     ],
+     "sample": "Yes, everything is fine, this is just a regular check-in. How has the team found the bank reconciliation module so far?"
+    },
+    {
+     "say": "Pretty good, actually. The team saves a lot of time on bank recs.",
+     "points": [
+      {
+       "idea": "Celebrate the result with data",
+       "keywords": [
+        "%",
+        "hour",
+        "match rate",
+        "saved",
+        "data",
+        "number",
+        "great"
+       ]
+      },
+      {
+       "idea": "Ask about other pain areas",
+       "keywords": [
+        "other",
+        "else",
+        "area",
+        "still manual",
+        "next",
+        "challeng"
+       ]
+      }
+     ],
+     "sample": "That's great to hear. Our data shows you're at a ninety-four percent match rate. Out of interest, which other areas are still manual for your team?"
+    },
+    {
+     "say": "Intercompany and vendor reconciliations are still painful.",
+     "points": [
+      {
+       "idea": "Explore the impact",
+       "keywords": [
+        "how much",
+        "how many",
+        "time",
+        "impact",
+        "hours",
+        "people",
+        "tell me more"
+       ]
+      },
+      {
+       "idea": "Introduce the relevant module",
+       "keywords": [
+        "module",
+        "intercompany",
+        "vendor",
+        "same platform",
+        "add"
+       ]
+      }
+     ],
+     "sample": "Tell me more, how much time do those take? We have an intercompany module on the same platform that many clients add after bank recs."
+    },
+    {
+     "say": "Probably a week every month. But we didn't budget for anything new.",
+     "points": [
+      {
+       "idea": "Low-risk option",
+       "keywords": [
+        "pilot",
+        "trial",
+        "free",
+        "proof",
+        "small",
+        "start"
+       ]
+      },
+      {
+       "idea": "Budget help",
+       "keywords": [
+        "business case",
+        "roi",
+        "next year",
+        "budget cycle",
+        "help you",
+        "pricing",
+        "existing customer"
+       ]
+      }
+     ],
+     "sample": "Understood. We could run a short pilot on one entity at no cost, and I can help you build a business case for next year's budget."
+    },
+    {
+     "say": "A pilot could work. Who would we need from our side?",
+     "points": [
+      {
+       "idea": "Clear requirements and next step",
+       "keywords": [
+        "one person",
+        "analyst",
+        "data",
+        "sample",
+        "hours",
+        "kick-off",
+        "kickoff",
+        "call"
+       ]
+      }
+     ],
+     "sample": "Just one analyst for a few hours and a sample of last month's data. Shall we set up a kick-off call next week?"
+    }
+   ],
+   "closing": "Yes, let's do it. I'll ask Deepak from my team to join.",
+   "focus": [
+    "Start with their success and real usage data before selling anything.",
+    "Ask what is still manual - let the client name the next need.",
+    "Lower the risk with a pilot and offer to help with the business case."
+   ]
+  },
+  {
+   "id": "sales-10",
+   "category": "Sales calls",
+   "title": "Calming an angry prospect",
+   "emoji": "😤",
+   "partner": "Irritated accounts payable head who has been called many times",
+   "you": "Sales rep from a company whose team called too often",
+   "goal": "Stay calm, apologise sincerely, rebuild trust, and respect the prospect's wishes.",
+   "turns": [
+    {
+     "say": "Not again! This is the fourth call this week. Why do you people keep calling me?",
+     "points": [
+      {
+       "idea": "Sincere apology",
+       "keywords": [
+        "sorry",
+        "apolog",
+        "my apologies"
+       ]
+      },
+      {
+       "idea": "Acknowledge their frustration",
+       "keywords": [
+        "understand",
+        "frustrat",
+        "annoy",
+        "too many",
+        "shouldn't",
+        "right"
+       ]
+      }
+     ],
+     "sample": "I'm really sorry about that. You're absolutely right, four calls in a week is too many, and I understand why you're frustrated."
+    },
+    {
+     "say": "It's very unprofessional. I'm really fed up.",
+     "points": [
+      {
+       "idea": "Take ownership",
+       "keywords": [
+        "my responsib",
+        "take responsib",
+        "our mistake",
+        "my mistake",
+        "our fault"
+       ]
+      },
+      {
+       "idea": "Concrete corrective action",
+       "keywords": [
+        "stop",
+        "remove",
+        "only one",
+        "single",
+        "list",
+        "no more",
+        "won't"
+       ]
+      }
+     ],
+     "sample": "It is, and that's our mistake. I'll make sure the other calls stop and that only one person, me, contacts you from now on."
+    },
+    {
+     "say": "Fine. But I'm telling you, I'm not interested.",
+     "points": [
+      {
+       "idea": "Respect their decision",
+       "keywords": [
+        "respect",
+        "completely understand",
+        "fair",
+        "of course",
+        "no problem"
+       ]
+      },
+      {
+       "idea": "Ask permission for one question",
+       "keywords": [
+        "may i",
+        "can i ask",
+        "one question",
+        "before i go",
+        "out of curiosity"
+       ]
+      }
+     ],
+     "sample": "I completely respect that. Before I go, may I ask one quick question, so I can update our records correctly?"
+    },
+    {
+     "say": "Go on, quickly.",
+     "points": [
+      {
+       "idea": "Respectful, useful question",
+       "keywords": [
+        "not interested",
+        "timing",
+        "right time",
+        "later",
+        "reason",
+        "already",
+        "someone else",
+        "right person"
+       ]
+      }
+     ],
+     "sample": "Is it that the timing isn't right, or that reconciliation automation just isn't a priority for your team?"
+    },
+    {
+     "say": "We're in the middle of an ERP migration. Maybe after March.",
+     "points": [
+      {
+       "idea": "Agree and propose respectful follow-up",
+       "keywords": [
+        "april",
+        "march",
+        "after",
+        "later",
+        "migration",
+        "quarter"
+       ]
+      },
+      {
+       "idea": "Ask permission and channel",
+       "keywords": [
+        "email",
+        "okay",
+        "permission",
+        "would it be",
+        "prefer",
+        "is that alright"
+       ]
+      }
+     ],
+     "sample": "That makes total sense. Would it be okay if I send you one email in April, after your migration, and no calls before that?"
+    }
+   ],
+   "closing": "Okay, one email in April is fine. Thanks for actually listening.",
+   "focus": [
+    "Apologise first and acknowledge feelings before saying anything else.",
+    "Take ownership and state exactly what you will change.",
+    "Respect 'no' - ask permission for a single, specific future touchpoint."
+   ]
+  }
+ ]
+}
