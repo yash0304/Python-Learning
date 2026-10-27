@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.RadioButton
@@ -44,14 +45,6 @@ fun AiSettingsCard(vm: PracticeViewModel) {
             when (ai.provider) {
                 AiProvider.SARVAM -> {
                     OutlinedTextField(
-                        ai.sarvamKey, { key -> vm.updateAi { it.copy(sarvamKey = key) } },
-                        label = { Text("Sarvam API subscription key") },
-                        visualTransformation = PasswordVisualTransformation(),
-                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth(),
-                    )
-                    OutlinedTextField(
                         ai.sarvamModel, { m -> vm.updateAi { it.copy(sarvamModel = m) } },
                         label = { Text("Sarvam chat model") },
                         singleLine = true,
@@ -71,6 +64,41 @@ fun AiSettingsCard(vm: PracticeViewModel) {
                     modifier = Modifier.fillMaxWidth(),
                 )
                 AiProvider.OFF -> Text("Talk practice works fully offline with the built-in role-plays and your own scripts.", style = MaterialTheme.typography.bodySmall)
+            }
+
+            HorizontalDivider()
+            Text("🎧  Speech recognition", fontWeight = FontWeight.ExtraBold)
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                RadioButton(selected = !ai.sarvamSpeech, onClick = { vm.updateAi { it.copy(sarvamSpeech = false) } })
+                Column {
+                    Text("Phone (free, works offline)")
+                    Text("Shows your words live while you speak.", style = MaterialTheme.typography.bodySmall)
+                }
+            }
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                RadioButton(selected = ai.sarvamSpeech, onClick = { vm.updateAi { it.copy(sarvamSpeech = true) } })
+                Column {
+                    Text("Sarvam speech-to-text (better with Indian accents)")
+                    Text("Needs internet and uses Sarvam credits. Your words appear after each answer.", style = MaterialTheme.typography.bodySmall)
+                }
+            }
+            if (ai.sarvamSpeech) OutlinedTextField(
+                ai.sttModel, { m -> vm.updateAi { it.copy(sttModel = m) } },
+                label = { Text("Sarvam speech model") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+
+            if (ai.provider == AiProvider.SARVAM || ai.sarvamSpeech) {
+                OutlinedTextField(
+                    ai.sarvamKey, { key -> vm.updateAi { it.copy(sarvamKey = key) } },
+                    label = { Text("Sarvam API subscription key") },
+                    visualTransformation = PasswordVisualTransformation(),
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                if (ai.sarvamSpeech && ai.sarvamKey.isBlank()) Text("Add your Sarvam key to use Sarvam speech-to-text.", color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
             }
         }
     }

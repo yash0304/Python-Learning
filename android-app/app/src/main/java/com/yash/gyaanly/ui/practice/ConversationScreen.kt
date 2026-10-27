@@ -58,7 +58,10 @@ import com.yash.gyaanly.domain.practice.Scenario
 import com.yash.gyaanly.domain.practice.ScenarioSource
 import com.yash.gyaanly.domain.practice.ScriptTurn
 import com.yash.gyaanly.domain.practice.SpeechAnalyzer
+import com.yash.gyaanly.speech.Heard
 import com.yash.gyaanly.speech.Listener
+import com.yash.gyaanly.speech.SarvamListener
+import com.yash.gyaanly.speech.SpeechInput
 import com.yash.gyaanly.speech.Speaker
 import com.yash.gyaanly.ui.screens.BackBar
 import com.yash.gyaanly.ui.screens.GradientCard
@@ -86,7 +89,7 @@ data class Bubble(val partner: Boolean, val text: String)
 class Conversation(
     private val scenario: Scenario,
     private val speaker: Speaker,
-    private val listener: Listener,
+    private var listener: SpeechInput,
     private val coach: AiCoach?,
     private val scope: CoroutineScope,
 ) {
@@ -137,7 +140,16 @@ class Conversation(
         })
     }
 
-    private fun heard(h: Listener.Heard) {
+    /** Swaps the recogniser mid-conversation (e.g. Sarvam failed, so use the phone) and listens again. */
+    fun useListener(input: SpeechInput) {
+        token++
+        listener.cancel()
+        listener = input
+        error = null
+        listen()
+    }
+
+    private fun heard(h: Heard) {
         if (h.text.isBlank() && !retried) {
             retried = true
             val original = prompt; val turn = promptTurn
@@ -212,7 +224,10 @@ fun ConversationScreen(vm: PracticeViewModel, scenarioId: String, onBack: () -> 
     val ai by vm.ai.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
     val speaker = remember { Speaker(context) }
-    val listener = remember { Listener(context) }
+    // Chosen once per conversation: Sarvam speech-to-text when switched on in Settings, else the phone.
+    val sarvam = remember { vm.ai.value.speech() }
+    val listener: SpeechInput = remember { sarvam?.let(::SarvamListener) ?: Listener(context) }
+    var phoneFallback by remember { mutableStateOf<Listener?>(null) }
     val coach = remember(ai) { vm.coach() }
     val convo = remember(scenarioId, coach) { Conversation(scenario, speaker, listener, coach, scope) }
     var showText by remember { mutableStateOf(false) }
@@ -221,7 +236,7 @@ fun ConversationScreen(vm: PracticeViewModel, scenarioId: String, onBack: () -> 
 
     DisposableEffect(Unit) {
         view.keepScreenOn = true
-        onDispose { view.keepScreenOn = false; speaker.shutdown(); listener.destroy() }
+        onDispose { view.keepScreenOn = false; speaker.shutdown(); listener.destroy(); phoneFallback?.destroy() }
     }
     val askMic = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
         if (granted) convo.start() else micDenied = true
@@ -241,7 +256,9 @@ fun ConversationScreen(vm: PracticeViewModel, scenarioId: String, onBack: () -> 
             when (convo.phase) {
                 Phase.INTRO -> Intro(scenario, convo, coach != null, micDenied, color, ::begin)
                 Phase.REPORT -> ReportView(vm, scenario, convo, coach, color, onAgain = { convo.start() }, onDone = onBack)
-                else -> Talking(convo, showText, { showText = it }, color)
+                else -> Talking(convo, showText, { showText = it }, color, canFallBack = sarvam != null && phoneFallback == null) {
+                    phoneFallback = Listener(context).also(convo::useListener)
+                }
             }
         }
     }
@@ -283,7 +300,14 @@ private fun Intro(s: Scenario, convo: Conversation, aiAvailable: Boolean, micDen
 }
 
 @Composable
-private fun Talking(convo: Conversation, showText: Boolean, setShowText: (Boolean) -> Unit, color: Color) {
+private fun Talking(
+    convo: Conversation,
+    showText: Boolean,
+    setShowText: (Boolean) -> Unit,
+    color: Color,
+    canFallBack: Boolean,
+    fallBack: () -> Unit,
+) {
     val list = rememberLazyListState()
     LaunchedEffect(convo.bubbles.size, convo.live) {
         val count = convo.bubbles.size + (if (convo.live.isNotBlank()) 1 else 0)
@@ -315,7 +339,12 @@ private fun Talking(convo: Conversation, showText: Boolean, setShowText: (Boolea
             items(convo.bubbles) { b -> BubbleView(b, showText, color) }
             if (convo.live.isNotBlank()) item { BubbleView(Bubble(false, convo.live + " …"), true, color) }
         }
-        convo.error?.let { Text(it, color = Pop.Bad, modifier = Modifier.padding(horizontal = 16.dp)) }
+        convo.error?.let {
+            Text(it, color = Pop.Bad, modifier = Modifier.padding(horizontal = 16.dp))
+            if (canFallBack) TextButton(onClick = fallBack, modifier = Modifier.padding(horizontal = 8.dp)) {
+                Text("📱 Use the phone's recogniser instead", fontWeight = FontWeight.Bold)
+            }
+        }
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             when (convo.phase) {
                 Phase.LISTENING -> PopButton("✋  I'm done speaking", Pop.Bad, onClick = convo::doneSpeaking)

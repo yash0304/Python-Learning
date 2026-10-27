@@ -15,16 +15,13 @@ import android.speech.SpeechRecognizer
  * inside an answer are allowed. After each pause it keeps listening briefly; if you carry on, the
  * new words are appended, and if you stay quiet the answer is complete.
  */
-class Listener(context: Context) {
-
-    /** A finished answer: the text, seconds spent speaking, and the recogniser's confidence. */
-    data class Heard(val text: String, val seconds: Double?, val confidence: Float?)
+class Listener(context: Context) : SpeechInput {
 
     private val main = Handler(Looper.getMainLooper())
     private val recognizer: SpeechRecognizer? =
         if (SpeechRecognizer.isRecognitionAvailable(context)) SpeechRecognizer.createSpeechRecognizer(context) else null
 
-    val available: Boolean get() = recognizer != null
+    override val available: Boolean get() = recognizer != null
 
     private var session = 0
     private val parts = mutableListOf<String>()
@@ -39,7 +36,7 @@ class Listener(context: Context) {
     private var answerStart = 0L
 
     /** Starts listening for one answer. Callbacks run on the main thread. */
-    fun listen(language: String, onPartial: (String) -> Unit, onDone: (Heard) -> Unit, onError: (String) -> Unit) {
+    override fun listen(language: String, onPartial: (String) -> Unit, onDone: (Heard) -> Unit, onError: (String) -> Unit) {
         val r = recognizer ?: return onError("Speech recognition isn't available on this phone. Install or update the Google app.")
         session++
         parts.clear(); confidences.clear(); spokenMs = 0
@@ -50,17 +47,17 @@ class Listener(context: Context) {
     }
 
     /** Ends the current answer now, keeping what was heard so far. */
-    fun finishNow() {
+    override fun finishNow() {
         recognizer?.stopListening()
     }
 
-    fun cancel() {
+    override fun cancel() {
         session++
         main.removeCallbacksAndMessages(null)
         recognizer?.cancel()
     }
 
-    fun destroy() {
+    override fun destroy() {
         cancel()
         recognizer?.destroy()
     }

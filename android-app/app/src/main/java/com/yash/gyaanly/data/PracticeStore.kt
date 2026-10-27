@@ -3,6 +3,7 @@ package com.yash.gyaanly.data
 import android.content.Context
 import com.yash.gyaanly.data.ai.ClaudeEngine
 import com.yash.gyaanly.data.ai.SarvamEngine
+import com.yash.gyaanly.data.ai.SarvamSpeech
 import com.yash.gyaanly.domain.practice.ChatEngine
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -17,7 +18,14 @@ data class AiSettings(
     val sarvamKey: String = "",
     val sarvamModel: String = SarvamEngine.DEFAULT_MODEL,
     val claudeKey: String = "",
+    /** Use Sarvam speech-to-text instead of the phone's recogniser (better with Indian accents). */
+    val sarvamSpeech: Boolean = false,
+    val sttModel: String = SarvamSpeech.DEFAULT_MODEL,
 ) {
+    val speechReady: Boolean get() = sarvamSpeech && sarvamKey.isNotBlank()
+
+    fun speech(): SarvamSpeech? = if (speechReady) SarvamSpeech(sarvamKey.trim(), sttModel.trim().ifBlank { SarvamSpeech.DEFAULT_MODEL }) else null
+
     val ready: Boolean get() = when (provider) {
         AiProvider.OFF -> false
         AiProvider.SARVAM -> sarvamKey.isNotBlank()
@@ -58,6 +66,8 @@ class PracticeStore(context: Context) {
             .putString("sarvam_key", next.sarvamKey)
             .putString("sarvam_model", next.sarvamModel)
             .putString("claude_key", next.claudeKey)
+            .putBoolean("sarvam_speech", next.sarvamSpeech)
+            .putString("stt_model", next.sttModel)
             .apply()
         _ai.value = next
     }
@@ -89,6 +99,8 @@ class PracticeStore(context: Context) {
         sarvamKey = prefs.getString("sarvam_key", "")!!,
         sarvamModel = prefs.getString("sarvam_model", SarvamEngine.DEFAULT_MODEL)!!,
         claudeKey = prefs.getString("claude_key", "")!!,
+        sarvamSpeech = prefs.getBoolean("sarvam_speech", false),
+        sttModel = prefs.getString("stt_model", SarvamSpeech.DEFAULT_MODEL)!!,
     )
 
     private fun loadHistory(): List<PracticeResult> = runCatching {
