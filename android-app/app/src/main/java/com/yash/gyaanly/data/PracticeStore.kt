@@ -4,6 +4,7 @@ import android.content.Context
 import com.yash.gyaanly.data.ai.ClaudeEngine
 import com.yash.gyaanly.data.ai.SarvamEngine
 import com.yash.gyaanly.data.ai.SarvamSpeech
+import com.yash.gyaanly.data.ai.SarvamVoice
 import com.yash.gyaanly.domain.practice.ChatEngine
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -21,7 +22,14 @@ data class AiSettings(
     /** Use Sarvam speech-to-text instead of the phone's recogniser (better with Indian accents). */
     val sarvamSpeech: Boolean = false,
     val sttModel: String = SarvamSpeech.DEFAULT_MODEL,
+    /** Partner speaks with a Sarvam Bulbul voice instead of the phone's text-to-speech. */
+    val bulbul: Boolean = false,
+    val bulbulSpeaker: String = SarvamVoice.DEFAULT_SPEAKER,
+    val bulbulPace: Double = 1.0,
 ) {
+    fun voice(): SarvamVoice? =
+        if (bulbul && sarvamKey.isNotBlank()) SarvamVoice(sarvamKey.trim(), bulbulSpeaker.trim().ifBlank { SarvamVoice.DEFAULT_SPEAKER }, bulbulPace) else null
+
     val speechReady: Boolean get() = sarvamSpeech && sarvamKey.isNotBlank()
 
     fun speech(): SarvamSpeech? = if (speechReady) SarvamSpeech(sarvamKey.trim(), sttModel.trim().ifBlank { SarvamSpeech.DEFAULT_MODEL }) else null
@@ -68,6 +76,9 @@ class PracticeStore(context: Context) {
             .putString("claude_key", next.claudeKey)
             .putBoolean("sarvam_speech", next.sarvamSpeech)
             .putString("stt_model", next.sttModel)
+            .putBoolean("bulbul", next.bulbul)
+            .putString("bulbul_speaker", next.bulbulSpeaker)
+            .putFloat("bulbul_pace", next.bulbulPace.toFloat())
             .apply()
         _ai.value = next
     }
@@ -101,6 +112,9 @@ class PracticeStore(context: Context) {
         claudeKey = prefs.getString("claude_key", "")!!,
         sarvamSpeech = prefs.getBoolean("sarvam_speech", false),
         sttModel = prefs.getString("stt_model", SarvamSpeech.DEFAULT_MODEL)!!,
+        bulbul = prefs.getBoolean("bulbul", false),
+        bulbulSpeaker = prefs.getString("bulbul_speaker", SarvamVoice.DEFAULT_SPEAKER)!!,
+        bulbulPace = prefs.getFloat("bulbul_pace", 1.0f).toDouble(),
     )
 
     private fun loadHistory(): List<PracticeResult> = runCatching {

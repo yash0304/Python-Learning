@@ -47,7 +47,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.yash.gyaanly.domain.BookBuilder
 import com.yash.gyaanly.domain.practice.AiCoach
 import com.yash.gyaanly.domain.practice.AiFeedback
 import com.yash.gyaanly.domain.practice.Answer
@@ -59,7 +58,10 @@ import com.yash.gyaanly.domain.practice.ScenarioSource
 import com.yash.gyaanly.domain.practice.ScriptTurn
 import com.yash.gyaanly.domain.practice.SpeechAnalyzer
 import com.yash.gyaanly.speech.Heard
+import com.yash.gyaanly.speech.BulbulVoice
 import com.yash.gyaanly.speech.Listener
+import com.yash.gyaanly.speech.PartnerVoice
+import com.yash.gyaanly.speech.PhoneVoice
 import com.yash.gyaanly.speech.SarvamListener
 import com.yash.gyaanly.speech.SpeechInput
 import com.yash.gyaanly.speech.Speaker
@@ -77,6 +79,7 @@ import kotlinx.coroutines.withContext
 private const val PARTNER_LANG = "en-US"
 private const val LEARNER_LANG = "en-IN"
 private const val MAX_AI_TURNS = 8
+private const val SORRY = "Sorry, I didn't catch that. Could you say that again?"
 
 enum class Phase { INTRO, PARTNER, LISTENING, THINKING, PAUSED, REPORT }
 
@@ -88,7 +91,7 @@ data class Bubble(val partner: Boolean, val text: String)
  */
 class Conversation(
     private val scenario: Scenario,
-    private val speaker: Speaker,
+    private val voice: PartnerVoice,
     private var listener: SpeechInput,
     private val coach: AiCoach?,
     private val scope: CoroutineScope,
@@ -111,6 +114,8 @@ class Conversation(
 
     fun start() {
         bubbles.clear(); answers.clear(); history.clear(); index = 0; report = null; error = null
+        if (!smart) scenario.turns.take(2).forEach { voice.prefetch(it.say) }
+        voice.prefetch(SORRY)
         if (smart) aiNext() else scripted(0)
     }
 
@@ -126,12 +131,14 @@ class Conversation(
         prompt = text; promptTurn = turn
         phase = Phase.PARTNER
         resume = { partnerSays(text, turn, addBubble = false, then) }
-        val started = speaker.read(listOf(BookBuilder.Speech(text, PARTNER_LANG))) { if (my == token) then() }
+        val started = voice.say(text) { if (my == token) then() }
         if (!started) { error = "The voice isn't ready yet. Tap Resume in a moment."; phase = Phase.PAUSED }
     }
 
     private fun listen() {
         val my = ++token
+        // While you answer, get the partner's next scripted line ready so it plays without a wait.
+        if (!smart) voice.prefetch(scenario.turns.getOrNull(index + 1)?.say ?: scenario.closing)
         phase = Phase.LISTENING
         live = ""
         resume = { listen() }
@@ -153,7 +160,7 @@ class Conversation(
         if (h.text.isBlank() && !retried) {
             retried = true
             val original = prompt; val turn = promptTurn
-            partnerSays("Sorry, I didn't catch that. Could you say that again?", turn, addBubble = false) { prompt = original; listen() }
+            partnerSays(SORRY, turn, addBubble = false) { prompt = original; listen() }
             return
         }
         retried = false
@@ -189,7 +196,7 @@ class Conversation(
 
     fun pause() {
         token++
-        speaker.stop(); listener.cancel()
+        voice.stop(); listener.cancel()
         phase = Phase.PAUSED
     }
 
@@ -206,7 +213,7 @@ class Conversation(
 
     fun endNow() {
         token++
-        speaker.stop(); listener.cancel()
+        voice.stop(); listener.cancel()
         analyse()
     }
 
@@ -229,14 +236,19 @@ fun ConversationScreen(vm: PracticeViewModel, scenarioId: String, onBack: () -> 
     val listener: SpeechInput = remember { sarvam?.let(::SarvamListener) ?: Listener(context) }
     var phoneFallback by remember { mutableStateOf<Listener?>(null) }
     val coach = remember(ai) { vm.coach() }
-    val convo = remember(scenarioId, coach) { Conversation(scenario, speaker, listener, coach, scope) }
+    var voiceNotice by remember { mutableStateOf<String?>(null) }
+    val voice: PartnerVoice = remember {
+        val phone = PhoneVoice(speaker, PARTNER_LANG)
+        vm.ai.value.voice()?.let { BulbulVoice(context, it, phone) { why -> voiceNotice = "Using the phone voice for that line: $why" } } ?: phone
+    }
+    val convo = remember(scenarioId, coach) { Conversation(scenario, voice, listener, coach, scope) }
     var showText by remember { mutableStateOf(false) }
     var micDenied by remember { mutableStateOf(false) }
     val view = LocalView.current
 
     DisposableEffect(Unit) {
         view.keepScreenOn = true
-        onDispose { view.keepScreenOn = false; speaker.shutdown(); listener.destroy(); phoneFallback?.destroy() }
+        onDispose { view.keepScreenOn = false; voice.shutdown(); speaker.shutdown(); listener.destroy(); phoneFallback?.destroy() }
     }
     val askMic = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
         if (granted) convo.start() else micDenied = true
@@ -256,7 +268,7 @@ fun ConversationScreen(vm: PracticeViewModel, scenarioId: String, onBack: () -> 
             when (convo.phase) {
                 Phase.INTRO -> Intro(scenario, convo, coach != null, micDenied, color, ::begin)
                 Phase.REPORT -> ReportView(vm, scenario, convo, coach, color, onAgain = { convo.start() }, onDone = onBack)
-                else -> Talking(convo, showText, { showText = it }, color, canFallBack = sarvam != null && phoneFallback == null) {
+                else -> Talking(convo, showText, { showText = it }, color, voiceNotice, canFallBack = sarvam != null && phoneFallback == null) {
                     phoneFallback = Listener(context).also(convo::useListener)
                 }
             }
@@ -305,6 +317,7 @@ private fun Talking(
     showText: Boolean,
     setShowText: (Boolean) -> Unit,
     color: Color,
+    voiceNotice: String?,
     canFallBack: Boolean,
     fallBack: () -> Unit,
 ) {
@@ -339,6 +352,7 @@ private fun Talking(
             items(convo.bubbles) { b -> BubbleView(b, showText, color) }
             if (convo.live.isNotBlank()) item { BubbleView(Bubble(false, convo.live + " …"), true, color) }
         }
+        voiceNotice?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(horizontal = 16.dp)) }
         convo.error?.let {
             Text(it, color = Pop.Bad, modifier = Modifier.padding(horizontal = 16.dp))
             if (canFallBack) TextButton(onClick = fallBack, modifier = Modifier.padding(horizontal = 8.dp)) {

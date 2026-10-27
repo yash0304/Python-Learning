@@ -10,6 +10,7 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.RadioButton
+import androidx.compose.material3.Slider
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -22,6 +23,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.yash.gyaanly.data.AiProvider
+import kotlin.math.roundToInt
 
 /** Settings → AI for Talk practice: provider, API keys (kept only on this phone) and the Sarvam model. */
 @Composable
@@ -89,7 +91,36 @@ fun AiSettingsCard(vm: PracticeViewModel) {
                 modifier = Modifier.fillMaxWidth(),
             )
 
-            if (ai.provider == AiProvider.SARVAM || ai.sarvamSpeech) {
+            HorizontalDivider()
+            Text("🗣️  Partner's voice", fontWeight = FontWeight.ExtraBold)
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                RadioButton(selected = !ai.bulbul, onClick = { vm.updateAi { it.copy(bulbul = false) } })
+                Text("Phone voice (free, works offline)")
+            }
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                RadioButton(selected = ai.bulbul, onClick = { vm.updateAi { it.copy(bulbul = true) } })
+                Column {
+                    Text("Sarvam Bulbul (natural, human-sounding Indian voice)")
+                    Text("Needs internet and uses Sarvam credits; lines are prepared while you answer.", style = MaterialTheme.typography.bodySmall)
+                }
+            }
+            if (ai.bulbul) {
+                OutlinedTextField(
+                    ai.bulbulSpeaker, { v -> vm.updateAi { it.copy(bulbulSpeaker = v) } },
+                    label = { Text("Bulbul voice name (e.g. shubh)") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                Text("Speed: %.1f×".format(ai.bulbulPace), style = MaterialTheme.typography.bodySmall)
+                Slider(
+                    value = ai.bulbulPace.toFloat(),
+                    onValueChange = { v -> vm.updateAi { it.copy(bulbulPace = (v * 10).roundToInt() / 10.0) } },
+                    valueRange = 0.7f..1.5f,
+                )
+                Text("Voice names are listed in Sarvam's Bulbul docs; type one to change the partner's voice.", style = MaterialTheme.typography.bodySmall)
+            }
+
+            if (ai.provider == AiProvider.SARVAM || ai.sarvamSpeech || ai.bulbul) {
                 OutlinedTextField(
                     ai.sarvamKey, { key -> vm.updateAi { it.copy(sarvamKey = key) } },
                     label = { Text("Sarvam API subscription key") },
@@ -98,7 +129,7 @@ fun AiSettingsCard(vm: PracticeViewModel) {
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth(),
                 )
-                if (ai.sarvamSpeech && ai.sarvamKey.isBlank()) Text("Add your Sarvam key to use Sarvam speech-to-text.", color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
+                if ((ai.sarvamSpeech || ai.bulbul) && ai.sarvamKey.isBlank()) Text("Add your Sarvam key to use Sarvam speech and voices.", color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
             }
         }
     }
