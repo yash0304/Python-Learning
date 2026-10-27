@@ -20,6 +20,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.yash.gyaanly.ui.practice.ConversationScreen
+import com.yash.gyaanly.ui.practice.PracticeViewModel
+import com.yash.gyaanly.ui.practice.TalkScreen
 import com.yash.gyaanly.ui.screens.BookScreen
 import com.yash.gyaanly.ui.screens.CalculatorListScreen
 import com.yash.gyaanly.ui.screens.CalculatorScreen
@@ -35,6 +39,7 @@ private data class Tab(val route: String, val label: String, val emoji: String)
 private val tabs = listOf(
     Tab("today", "Today", "🏠"),
     Tab("learn", "Learn", "🗺️"),
+    Tab("talk", "Talk", "🎙️"),
     Tab("tools", "Tools", "🧰"),
     Tab("me", "Me", "🏆"),
 )
@@ -42,6 +47,7 @@ private val tabs = listOf(
 @Composable
 fun AppNav(vm: AppViewModel) {
     val nav = rememberNavController()
+    val practice: PracticeViewModel = viewModel()
     val backStack by nav.currentBackStackEntryAsState()
     val current = backStack?.destination?.route
 
@@ -114,7 +120,13 @@ fun AppNav(vm: AppViewModel) {
                 CalculatorScreen(entry.arguments?.getString("id").orEmpty(), onBack = { nav.popBackStack() })
             }
             composable("me") { ProfileScreen(vm, openSettings = { nav.navigate("settings") }) }
-            composable("settings") { SettingsScreen(vm, onBack = { nav.popBackStack() }) }
+            composable("settings") { SettingsScreen(vm, practice, onBack = { nav.popBackStack() }) }
+            composable("talk") {
+                TalkScreen(practice, open = { nav.navigate("talk/$it") }, openSettings = { nav.navigate("settings") })
+            }
+            composable("talk/{id}") { entry ->
+                ConversationScreen(practice, entry.arguments?.getString("id").orEmpty(), onBack = { nav.popBackStack() })
+            }
         }
     }
 }

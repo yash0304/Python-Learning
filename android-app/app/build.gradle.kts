@@ -45,6 +45,10 @@ android {
     buildFeatures {
         compose = true
     }
+    packaging {
+        // The Anthropic SDK's dependencies (Jackson, Kotlin) ship overlapping licence/metadata files.
+        resources.excludes += setOf("META-INF/DEPENDENCIES", "META-INF/LICENSE*", "META-INF/NOTICE*", "META-INF/*.kotlin_module", "META-INF/versions/9/previous-compilation-data.bin")
+    }
 }
 
 dependencies {
@@ -62,6 +66,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation("androidx.navigation:navigation-compose:2.8.3")
     implementation("androidx.work:work-runtime-ktx:2.9.1")
+    // Optional AI conversation partner (Claude); Sarvam is called over plain HTTPS.
+    implementation("com.anthropic:anthropic-java:3.2.0")
 
     testImplementation("junit:junit:4.13.2")
     // Real org.json implementation so content can be parsed in JVM unit tests.

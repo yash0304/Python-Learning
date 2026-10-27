@@ -34,18 +34,20 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.yash.gyaanly.ui.AppViewModel
+import com.yash.gyaanly.ui.practice.AiSettingsCard
+import com.yash.gyaanly.ui.practice.PracticeViewModel
 import com.yash.gyaanly.ui.theme.accent
 
 /** Turn whole courses, or single topics inside a course, on and off. Progress is always kept. */
 @Composable
-fun SettingsScreen(vm: AppViewModel, onBack: () -> Unit) {
+fun SettingsScreen(vm: AppViewModel, practice: PracticeViewModel, onBack: () -> Unit) {
     val p by vm.progress.collectAsStateWithLifecycle()
     val context = LocalContext.current
     var expanded by remember { mutableStateOf<String?>(null) }
 
     Scaffold(
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
-        topBar = { BackBar("⚙️ Courses & topics", onBack) },
+        topBar = { BackBar("⚙️ Settings", onBack) },
         containerColor = MaterialTheme.colorScheme.background,
     ) { padding ->
         LazyColumn(
@@ -61,6 +63,7 @@ fun SettingsScreen(vm: AppViewModel, onBack: () -> Unit) {
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
+            item { AiSettingsCard(practice) }
             items(vm.tracks, key = { it.key }) { track ->
                 val on = p.showsTrack(track.key)
                 val color = track.accent
